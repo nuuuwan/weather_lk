@@ -21,8 +21,8 @@ REGEX_TEMP = r'(?P<temp>\d{2}\.\d{1})'
 
 def _get_location(place):
     if place in PLACE_TO_LATLNG:
-        return PLACE_TO_LATLNG[place]
-    # print("'%s': [0, 0]," % place)
+        lat, lng = PLACE_TO_LATLNG[place]
+        return round(lat, 4), round(lng, 4)
     return None
 
 
@@ -204,7 +204,9 @@ def _load_pdf_file():
 
 def daily_weather_report():
     """Get daily weather report."""
-    date_id, pdf_file = _load_pdf_file()
+    # date_id, pdf_file = _load_pdf_file()
+    date_id = '20210628'
+    pdf_file = '/tmp/weather_lk.20210628.pdf'
     data = _parse_pdf(date_id, pdf_file)
     return data
 
