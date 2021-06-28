@@ -1,4 +1,2 @@
 """Constants."""
-
-CACHE_NAME = 'weather_lk'
-CACHE_TIMEOUT = 3600
+CACHE_NAME, CACHE_TIMEOUT = 'weather_lk', 3600

@@ -18,9 +18,10 @@ pip install -i https://test.pypi.org/simple/ weather_lk-nuuuwan
 
 *The source code for this library can be found at https://github.com/nuuuwan/weather_lk.*
 
+
 ## Release History
 
 ### 1.0.0 (PRE-RELEASE ONLY)
 
-
-### WISHLIST
+* Initial Release (See source for further details)
+        

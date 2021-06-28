@@ -1,13 +1,7 @@
-"""Uploaded data to nuuuwan/weather_lk:data branch."""
+"""Upload data to weather_lk:data branch."""
 
-import os
-
-
-def upload_data():
-    """Upload data."""
-    os.system('echo "test data" > /tmp/weather_lk.test.txt')
-    os.system('echo "# weather_lk" > /tmp/README.md')
+from weather_lk.daily_weather_report import daily_weather_report
 
 
 if __name__ == '__main__':
-    upload_data()
+    daily_weather_report()
