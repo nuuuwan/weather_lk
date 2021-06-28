@@ -43,7 +43,7 @@ setuptools.setup(
     install_requires=[
         'utils-nuuuwan',
         'selenium',
-        'tabula',
+        'tabula-py',
     ],
     test_suite='nose.collector',
     tests_require=['nose'],
