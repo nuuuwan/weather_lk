@@ -1,4 +1,4 @@
-name: Tweet Cron
+name: Tweet
 
 on: workflow_dispatch
 
