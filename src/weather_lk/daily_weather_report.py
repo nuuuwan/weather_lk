@@ -8,13 +8,22 @@ from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 
 from utils import www, timex, jsonx, dt
+from utils.cache import cache
 
+from weather_lk._constants import PLACE_TO_LATLNG
 from weather_lk._utils import log
 
 URL = 'https://www.meteo.gov.lk/index.php?lang=en'
 REGEX_DATE = r'.+(?P<date_y>\d{4})-(?P<date_m>\d{2})-(?P<date_d>\d{2}).+'
 
 REGEX_TEMP = r'(?P<temp>\d{2}\.\d{1})'
+
+
+def _get_location(place):
+    if place in PLACE_TO_LATLNG:
+        return PLACE_TO_LATLNG[place]
+    # print("'%s': [0, 0]," % place)
+    return None
 
 
 def _parse_float(float_str):
@@ -42,15 +51,17 @@ def _parse_pdf(date_id, pdf_file):
         ))))
 
     REGEX_DATE = r'(?P<date_str>\d{4}\.\d{2}\.\d{2})'
-    REGEX_PLACE_TEMP_RAIN = r'(?P<place>([A-Z][a-z]+\s*)+) (?P<max_temp_str>((\d+\.\d+)+|NA)) (?P<min_temp_str>((\d+\.\d+)+|NA)) (?P<rain_str>((\d+\.\d+)+|NA))'
-    REGEX_PLACE_RAIN_2 = r'(?P<place1>([A-Z][a-z]+\s*)+) (?P<rain1_str>((\d+\.\d+)+|NA)) (?P<place2>([A-Z][a-z]+\s*)+) (?P<rain2_str>((\d+\.\d+)+|NA))'
-    REGEX_HIGHEST = r'(?P<rain_str>((\d+\.\d+)+|NA)) mm (?P<place>([A-Z][a-z]+\s*)+)'
+    REGEX_PLACE_TEMP_RAIN = r'(?P<place>([A-Z][a-z]+\s*)+) (?P<max_temp_str>((\d+\.\d+)+|NA|TR)) (?P<min_temp_str>((\d+\.\d+)+|NA|TR)) (?P<rain_str>((\d+\.\d+)+|NA|TR))'
+    REGEX_PLACE_RAIN_2 = r'(?P<place1>([A-Z][a-z]+\s*)+) (?P<rain1_str>((\d+\.\d+)+|NA|TR)) (?P<place2>([A-Z][a-z]+\s*)+) (?P<rain2_str>((\d+\.\d+)+|NA|TR))'
+    REGEX_HIGHEST = r'(?P<rain_str>((\d+\.\d+)+|NA|TR)) mm (?P<place>([A-Z][a-z]+\s*)+)'
 
     place_to_weather = {}
     date_ut = None
     for line in lines:
         line = re.sub(r'\s+', ' ', line).strip()
         line = line.replace('polonnaruwa', 'Polonnaruwa')
+        line = line.replace('Omqrh', '')
+
         result = re.search(REGEX_DATE, line)
         if result:
             date_str = result.groupdict()['date_str']
@@ -70,6 +81,7 @@ def _parse_pdf(date_id, pdf_file):
                 'temp_min': temp_min,
                 'temp_max': temp_max,
                 'rain': rain,
+                'lat_lng': _get_location(place),
             }
             continue
 
@@ -81,8 +93,16 @@ def _parse_pdf(date_id, pdf_file):
             place2 = data['place2']
             rain2 = _parse_float(data['rain2_str'])
 
-            place_to_weather[place1] = {'place': place1, 'rain': rain1}
-            place_to_weather[place2] = {'place': place2, 'rain': rain2}
+            place_to_weather[place1] = {
+                'place': place1,
+                'rain': rain1,
+                'lat_lng': _get_location(place1),
+            }
+            place_to_weather[place2] = {
+                'place': place2,
+                'rain': rain2,
+                'lat_lng': _get_location(place2),
+            }
             continue
 
         result = re.search(REGEX_HIGHEST, line)
@@ -91,10 +111,14 @@ def _parse_pdf(date_id, pdf_file):
             place = data['place']
             rain = _parse_float(data['rain_str'])
 
-            place_to_weather[place] = {'place': place, 'rain': rain}
+            place_to_weather[place] = {
+                'place': place,
+                'rain': rain,
+                'lat_lng': _get_location(place),
+            }
             continue
 
-        log.warn('Not parsed: %s', line)
+        # log.warn('Not parsed: %s', line)
 
     min_temp, min_temp_place = None, None
     max_temp, max_temp_place = None, None
@@ -143,7 +167,7 @@ def _parse_pdf(date_id, pdf_file):
     )
     return data
 
-
+# @cache('test', 86400)
 def _load_pdf_file():
     """Get daily weather report."""
     options = Options()
@@ -181,7 +205,8 @@ def _load_pdf_file():
 def daily_weather_report():
     """Get daily weather report."""
     date_id, pdf_file = _load_pdf_file()
-    _parse_pdf(date_id, pdf_file)
+    data = _parse_pdf(date_id, pdf_file)
+    return data
 
 
 if __name__ == '__main__':
