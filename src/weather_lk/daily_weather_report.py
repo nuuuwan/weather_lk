@@ -7,8 +7,6 @@ import tabula
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 
-from PyPDF2 import PdfFileReader
-
 from utils import www, timex, jsonx, dt
 
 from weather_lk._utils import log
