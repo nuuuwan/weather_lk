@@ -8,9 +8,12 @@ from weather_lk import daily_weather_report
 class TestDailyWeatherReport(unittest.TestCase):
     """Tests."""
 
-    def test_daily_weather_report(self):
+    def test_parse_float(self):
         """Test."""
-        self.assertTrue(daily_weather_report.daily_weather_report())
+        self.assertEqual(
+            daily_weather_report._parse_float('0.1'),
+            0.1,
+        )
 
 
 if __name__ == '__main__':

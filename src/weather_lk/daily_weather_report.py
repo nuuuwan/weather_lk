@@ -49,7 +49,7 @@ def _parse_pdf(date_id, pdf_file):
     place_to_weather = {}
     date_ut = None
     for line in lines:
-        line = re.sub('\s+', ' ', line).strip()
+        line = re.sub(r'\s+', ' ', line).strip()
         line = line.replace('polonnaruwa', 'Polonnaruwa')
         result = re.search(REGEX_DATE, line)
         if result:
@@ -178,16 +178,10 @@ def _load_pdf_file():
     return date_id, pdf_file
 
 
-def _back_populate(date_ut):
-    pass
-
-
 def daily_weather_report():
     """Get daily weather report."""
-    # date_id, pdf_file = _load_pdf_file()
-    # data = _parse_pdf(date_id, pdf_file)
-    # _back_populate(data['date_ut'])
-    _back_populate(1624732200)
+    date_id, pdf_file = _load_pdf_file()
+    _parse_pdf(date_id, pdf_file)
 
 
 if __name__ == '__main__':
