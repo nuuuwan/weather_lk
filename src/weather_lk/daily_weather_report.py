@@ -167,7 +167,7 @@ def _parse_pdf(date_id, pdf_file):
     )
     return data
 
-# @cache('test', 86400)
+
 def _load_pdf_file():
     """Get daily weather report."""
     options = Options()
@@ -201,13 +201,9 @@ def _load_pdf_file():
 
     return date_id, pdf_file
 
-
+@cache('test', 86400)
 def daily_weather_report():
     """Get daily weather report."""
     date_id, pdf_file = _load_pdf_file()
     data = _parse_pdf(date_id, pdf_file)
     return data
-
-
-if __name__ == '__main__':
-    daily_weather_report()
