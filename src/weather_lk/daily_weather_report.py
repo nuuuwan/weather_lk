@@ -71,7 +71,7 @@ def _parse_pdf(date_id, pdf_file):
         result = re.search(REGEX_PLACE_TEMP_RAIN, line)
         if result:
             data = result.groupdict()
-            place = data['place']
+            place = data['place'].strip()
             temp_max = _parse_float(data['max_temp_str'])
             temp_min = _parse_float(data['min_temp_str'])
             rain = _parse_float(data['rain_str'])
@@ -88,9 +88,9 @@ def _parse_pdf(date_id, pdf_file):
         result = re.search(REGEX_PLACE_RAIN_2, line)
         if result:
             data = result.groupdict()
-            place1 = data['place1']
+            place1 = data['place1'].strip()
             rain1 = _parse_float(data['rain1_str'])
-            place2 = data['place2']
+            place2 = data['place2'].strip()
             rain2 = _parse_float(data['rain2_str'])
 
             place_to_weather[place1] = {
@@ -108,7 +108,7 @@ def _parse_pdf(date_id, pdf_file):
         result = re.search(REGEX_HIGHEST, line)
         if result:
             data = result.groupdict()
-            place = data['place']
+            place = data['place'].strip()
             rain = _parse_float(data['rain_str'])
 
             place_to_weather[place] = {
@@ -201,7 +201,7 @@ def _load_pdf_file():
 
     return date_id, pdf_file
 
-@cache('test', 86400)
+
 def daily_weather_report():
     """Get daily weather report."""
     date_id, pdf_file = _load_pdf_file()

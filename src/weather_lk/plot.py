@@ -9,84 +9,83 @@ from weather_lk._utils import log
 from weather_lk import daily_weather_report
 
 
-def _plot(
-    title,
-    field_key,
-    cmap,
-    levels,
-):
+def _plot_temp():
+    data = daily_weather_report.daily_weather_report()
+    date = data['date']
+    weather_list = sorted(list(filter(
+        lambda item: 'temp_max' in item,
+        data['weather_list'],
+    )), key=lambda item: item['temp_max'])
 
-    # data = daily_weather_report.daily_weather_report()
-    # log.info('Got weather data')
-    # weather_list = data['weather_list']
-    #
-    # delta = 0.1
-    #
-    # X, Y, Z = [], [], []
-    # for lat in np.arange(5.9, 9.9, delta):
-    #     x_row = []
-    #     y_row = []
-    #     z_row = []
-    #     for lng in np.arange(79.5, 81.9, delta):
-    #         x_row.append(lng)
-    #         y_row.append(lat)
-    #
-    #         inv_dis_sum = 0
-    #         inv_dis_value_sum = 0
-    #         for weather in weather_list:
-    #             lat_lng = weather['lat_lng']
-    #             if not lat_lng:
-    #                 continue
-    #             value = weather.get(field_key)
-    #             if not value:
-    #                 continue
-    #             lat0, lng0 = lat_lng
-    #             dis = math.pow(((lat0 - lat) ** 2 + (lng0 - lng) ** 2), 1)
-    #             inv_dis = 1 / dis
-    #
-    #             inv_dis_sum += inv_dis
-    #             inv_dis_value_sum += inv_dis * value
-    #
-    #         dis_value = inv_dis_value_sum / inv_dis_sum
-    #         z_row.append(dis_value)
-    #
-    #     X.append(x_row)
-    #     Y.append(y_row)
-    #     Z.append(z_row)
-    #
-    # fig, ax = plt.subplots()
-    # CS = ax.contourf(
-    #     X, Y, Z,
-    #     levels,
-    #     cmap=cmap,
-    # )
-    # fig.colorbar(CS)
-    # ax.set_title(title)
-    # plt.axis('off')
+    places = list(map(
+        lambda item: item['place'],
+        weather_list,
+    ))
+    temp_mins = list(map(
+        lambda item: item['temp_min'],
+        weather_list,
+    ))
+    temp_maxs_minus_min = list(map(
+        lambda item: item['temp_max'] - item['temp_min'],
+        weather_list,
+    ))
 
-    _df = geodata.get_region_geodata('LK', 'district')
-    log.info('Got geo data')
+    ax = plt.gca()
+    ax.grid()
+    plt.bar(places, temp_mins, color='white')
+    plt.bar(places, temp_maxs_minus_min, bottom=temp_mins, color='r')
 
-    _df.plot(
-        # ax=ax,
-        facecolor="none",
-        edgecolor='black'
-    )
-    plt.show()
+    plt.ylabel('Temperature (°C)')
+    plt.xticks(rotation=90)
+    fig = plt.gcf()
+    fig.subplots_adjust(bottom=0.2)
+
+    fig.set_size_inches((8, 9))
+    date_id = date.replace('-', '')
+    image_file = '/tmp/weather_lk.%s.temp.png' % date_id
+    fig.savefig(image_file, dpi=300)
+    log.info('Saved temperature plot to %s', image_file)
+    plt.close()
+
+    return image_file
 
 
+def _plot_rain():
+    data = daily_weather_report.daily_weather_report()
+    date = data['date']
+    weather_list = sorted(list(filter(
+        lambda item: item.get('rain', None) is not None,
+        data['weather_list'],
+    )), key=lambda item: item['rain'])
+
+    places = list(map(
+        lambda item: item['place'],
+        weather_list,
+    ))
+
+    rains = list(map(
+        lambda item: item['rain'],
+        weather_list,
+    ))
+
+    ax = plt.gca()
+    ax.grid()
+    plt.bar(places, rains, color='blue')
+    plt.ylabel('Rain (mm)')
+    plt.xticks(rotation=90, fontsize=8)
+    fig = plt.gcf()
+    fig.subplots_adjust(bottom=0.15)
+
+    fig.set_size_inches((8, 9))
+    date_id = date.replace('-', '')
+    image_file = '/tmp/weather_lk.%s.rain.png' % date_id
+    fig.savefig(image_file, dpi=300)
+    log.info('Saved temperature plot to %s', image_file)
+    plt.close()
+
+    return image_file
 
 
 if __name__ == '__main__':
-    _plot(
-        'Maxiumum Temperature (°C)',
-        'temp_max',
-        'coolwarm',
-        [0, 5, 10, 15, 20, 25, 30, 35, 40],
-    )
-    # _plot(
-    #     'Rainfall (mm)',
-    #     'rain',
-    #     'Blues',
-    #     [0, 10, 20, 50, 100],
-    # )
+    _plot_temp()
+    _plot_rain()

@@ -4,6 +4,7 @@
 from utils import twitter
 
 from weather_lk import daily_weather_report
+from weather_lk import plot
 
 
 def _hash(_s):
@@ -13,18 +14,20 @@ def _hash(_s):
 def _tweet():
     data = daily_weather_report.daily_weather_report()
 
-    tweet_text = '''#SriLanka #Weather {date}
-24hrs ending at 8.30am
+    tweet_text = '''Temperature & Rainfall ({date}) by @MeteoLK
 
-🌧️ Rain
+🌧️ Rainfall
 Highest: {max_rain_place} ({max_rain_rain:.0f}mm)
 
 🌡️ Temperature
 Highest: {max_temp_place} ({max_temp_temp:.1f}°C)
 Lowest: {min_temp_place} ({min_temp_temp:.1f}°C)
 
-#lka'''.format(
+(24hrs ending at 8.30am)
+
+#lka #SriLanka'''.format(
         date=data['date'],
+
         max_rain_place=_hash(data['max_rain']['place']),
         max_temp_place=_hash(data['max_temp']['place']),
         min_temp_place=_hash(data['min_temp']['place']),
@@ -34,13 +37,15 @@ Lowest: {min_temp_place} ({min_temp_temp:.1f}°C)
         min_temp_temp=data['min_temp']['temp'],
     )
 
-    print(tweet_text)
-    print(len(tweet_text))
-
+    status_image_files = [
+        plot._plot_temp(),
+        plot._plot_rain(),
+    ]
 
     twtr = twitter.Twitter.from_args()
     twtr.tweet(
         tweet_text=tweet_text,
+        status_image_files=status_image_files,
         update_user_profile=True,
     )
 
