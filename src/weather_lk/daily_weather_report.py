@@ -204,9 +204,7 @@ def _load_pdf_file():
 
 def daily_weather_report():
     """Get daily weather report."""
-    # date_id, pdf_file = _load_pdf_file()
-    date_id = '20210628'
-    pdf_file = '/tmp/weather_lk.20210628.pdf'
+    date_id, pdf_file = _load_pdf_file()
     data = _parse_pdf(date_id, pdf_file)
     return data
 
