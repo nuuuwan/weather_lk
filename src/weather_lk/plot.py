@@ -1,9 +1,5 @@
 """Plot."""
-import math
 import matplotlib.pyplot as plt
-import numpy as np
-
-from geo import geodata
 
 from weather_lk._utils import log
 from weather_lk import daily_weather_report
