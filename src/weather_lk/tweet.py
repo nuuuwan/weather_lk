@@ -1,7 +1,7 @@
 """Tweet."""
 
 
-from utils import twitter
+from utils import twitter, timex
 
 from weather_lk import daily_weather_report
 from weather_lk import plot
@@ -12,7 +12,8 @@ def _hash(_s):
 
 
 def _tweet():
-    data = daily_weather_report.daily_weather_report()
+    date_id = timex.get_date_id()
+    data = daily_weather_report._load(date_id)
 
     tweet_text = '''Temperature & Rainfall ({date}) by @MeteoLK
 
@@ -38,8 +39,8 @@ Lowest: {min_temp_place} ({min_temp_temp:.1f}°C)
     )
 
     status_image_files = [
-        plot._plot_temp(),
-        plot._plot_rain(),
+        plot._plot_temp(date_id),
+        plot._plot_rain(date_id),
     ]
 
     twtr = twitter.Twitter.from_args()

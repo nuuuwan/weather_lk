@@ -1,12 +1,14 @@
 """Plot."""
 import matplotlib.pyplot as plt
 
+from utils import timex
+
 from weather_lk._utils import log
 from weather_lk import daily_weather_report
 
 
-def _plot_temp():
-    data = daily_weather_report.daily_weather_report()
+def _plot_temp(date_id):
+    data = daily_weather_report._load(date_id)
     date = data['date']
     weather_list = sorted(list(filter(
         lambda item: 'temp_max' in item,
@@ -35,7 +37,6 @@ def _plot_temp():
     plt.xticks(rotation=90)
     fig = plt.gcf()
     fig.subplots_adjust(bottom=0.2)
-
     fig.set_size_inches((8, 9))
     date_id = date.replace('-', '')
     image_file = '/tmp/weather_lk.%s.temp.png' % date_id
@@ -46,13 +47,16 @@ def _plot_temp():
     return image_file
 
 
-def _plot_rain():
-    data = daily_weather_report.daily_weather_report()
+def _plot_rain(date_id):
+    data = daily_weather_report._load(date_id)
     date = data['date']
     weather_list = sorted(list(filter(
         lambda item: item.get('rain', None) is not None,
         data['weather_list'],
     )), key=lambda item: item['rain'])
+
+    for d in weather_list:
+        print(d)
 
     places = list(map(
         lambda item: item['place'],
@@ -66,6 +70,7 @@ def _plot_rain():
 
     ax = plt.gca()
     ax.grid()
+    ax.set_ylim(0, 200)
     plt.bar(places, rains, color='blue')
     plt.ylabel('Rain (mm)')
     plt.xticks(rotation=90, fontsize=8)
@@ -83,5 +88,6 @@ def _plot_rain():
 
 
 if __name__ == '__main__':
-    _plot_temp()
-    _plot_rain()
+    date_id = timex.get_date_id()
+    # _plot_temp(date_id)
+    _plot_rain(date_id)
