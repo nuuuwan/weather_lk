@@ -55,9 +55,6 @@ def _plot_rain(date_id):
         data['weather_list'],
     )), key=lambda item: item['rain'])
 
-    for d in weather_list:
-        print(d)
-
     places = list(map(
         lambda item: item['place'],
         weather_list,
@@ -67,10 +64,11 @@ def _plot_rain(date_id):
         lambda item: item['rain'],
         weather_list,
     ))
+    max_rain = max(rains)
 
     ax = plt.gca()
     ax.grid()
-    ax.set_ylim(0, 200)
+    ax.set_ylim(0, max(100, max_rain + 25))
     plt.bar(places, rains, color='blue')
     plt.ylabel('Rain (mm)')
     plt.xticks(rotation=90, fontsize=8)
@@ -89,5 +87,5 @@ def _plot_rain(date_id):
 
 if __name__ == '__main__':
     date_id = timex.get_date_id()
-    # _plot_temp(date_id)
+    _plot_temp(date_id)
     _plot_rain(date_id)
