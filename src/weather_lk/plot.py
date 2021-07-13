@@ -70,19 +70,8 @@ def _plot_rain(date_id):
         key=lambda item: item['rain'],
     )
 
-    places = list(
-        map(
-            lambda item: item['place'],
-            weather_list,
-        )
-    )
-
-    rains = list(
-        map(
-            lambda item: item['rain'],
-            weather_list,
-        )
-    )
+    places = [d['place'] for d in weather_list]
+    rains = [d['rain'] for d in weather_list]
     max_rain = max(rains)
 
     ax = plt.gca()
