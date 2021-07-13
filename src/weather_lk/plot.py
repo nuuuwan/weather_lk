@@ -1,32 +1,42 @@
 """Plot."""
 import matplotlib.pyplot as plt
-
 from utils import timex
 
-from weather_lk._utils import log
 from weather_lk import daily_weather_report
+from weather_lk._utils import log
 
 
 def _plot_temp(date_id):
     data = daily_weather_report._load(date_id)
     date = data['date']
-    weather_list = sorted(list(filter(
-        lambda item: 'temp_max' in item,
-        data['weather_list'],
-    )), key=lambda item: item['temp_max'])
+    weather_list = sorted(
+        list(
+            filter(
+                lambda item: 'temp_max' in item,
+                data['weather_list'],
+            )
+        ),
+        key=lambda item: item['temp_max'],
+    )
 
-    places = list(map(
-        lambda item: item['place'],
-        weather_list,
-    ))
-    temp_mins = list(map(
-        lambda item: item['temp_min'],
-        weather_list,
-    ))
-    temp_maxs_minus_min = list(map(
-        lambda item: item['temp_max'] - item['temp_min'],
-        weather_list,
-    ))
+    places = list(
+        map(
+            lambda item: item['place'],
+            weather_list,
+        )
+    )
+    temp_mins = list(
+        map(
+            lambda item: item['temp_min'],
+            weather_list,
+        )
+    )
+    temp_maxs_minus_min = list(
+        map(
+            lambda item: item['temp_max'] - item['temp_min'],
+            weather_list,
+        )
+    )
 
     ax = plt.gca()
     ax.grid()
@@ -50,20 +60,29 @@ def _plot_temp(date_id):
 def _plot_rain(date_id):
     data = daily_weather_report._load(date_id)
     date = data['date']
-    weather_list = sorted(list(filter(
-        lambda item: item.get('rain', None) is not None,
-        data['weather_list'],
-    )), key=lambda item: item['rain'])
+    weather_list = sorted(
+        list(
+            filter(
+                lambda item: item.get('rain', None) is not None,
+                data['weather_list'],
+            )
+        ),
+        key=lambda item: item['rain'],
+    )
 
-    places = list(map(
-        lambda item: item['place'],
-        weather_list,
-    ))
+    places = list(
+        map(
+            lambda item: item['place'],
+            weather_list,
+        )
+    )
 
-    rains = list(map(
-        lambda item: item['rain'],
-        weather_list,
-    ))
+    rains = list(
+        map(
+            lambda item: item['rain'],
+            weather_list,
+        )
+    )
     max_rain = max(rains)
 
     ax = plt.gca()

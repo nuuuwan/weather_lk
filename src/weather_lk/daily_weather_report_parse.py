@@ -3,13 +3,11 @@
 import re
 
 import tabula
-from utils import timex, jsonx
+from utils import jsonx, timex
 
-from weather_lk._constants import \
-    REGEX_DATE, REGEX_PLACE_TEMP_RAIN, REGEX_PLACE_RAIN_2, \
-    REGEX_HIGHEST, REGEX_NON_ASCII
-
-from weather_lk._utils import log, _parse_float, _get_location
+from weather_lk._constants import (REGEX_DATE, REGEX_HIGHEST, REGEX_NON_ASCII,
+                                   REGEX_PLACE_RAIN_2, REGEX_PLACE_TEMP_RAIN)
+from weather_lk._utils import _get_location, _parse_float, log
 
 
 def _get_lines(pdf_file):
@@ -23,10 +21,18 @@ def _get_lines(pdf_file):
 
     lines = []
     for row_k, items in row_k_to_items.items():
-        lines.append(' '.join(list(map(
-            lambda item: re.sub(REGEX_NON_ASCII, '', str(item)).strip(),
-            items,
-        ))))
+        lines.append(
+            ' '.join(
+                list(
+                    map(
+                        lambda item: re.sub(
+                            REGEX_NON_ASCII, '', str(item)
+                        ).strip(),
+                        items,
+                    )
+                )
+            )
+        )
     return lines
 
 

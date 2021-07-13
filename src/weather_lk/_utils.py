@@ -1,7 +1,7 @@
 """Utils."""
 import logging
 
-from utils import jsonx, dt
+from utils import dt, jsonx
 
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger('weather_lk')

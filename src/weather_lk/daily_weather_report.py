@@ -5,11 +5,9 @@ import re
 
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
+from utils import timex, www
 
-from utils import www, timex
-
-from weather_lk._constants import URL, REGEX_DATE_URL
-
+from weather_lk._constants import REGEX_DATE_URL, URL
 from weather_lk._utils import log
 from weather_lk.daily_weather_report_parse import _parse_and_dump
 
@@ -20,9 +18,7 @@ def _scrape_latest():
     options.headless = True
     browser = webdriver.Firefox(options=options)
     browser.get(URL)
-    a_daily = browser.find_element_by_xpath(
-        "//a[text()='Daily Rainfall']"
-    )
+    a_daily = browser.find_element_by_xpath("//a[text()='Daily Rainfall']")
     pdf_url = a_daily.get_attribute('href')
     browser.quit()
 
@@ -30,7 +26,8 @@ def _scrape_latest():
     if result:
         result_data = result.groupdict()
         unixtime = timex.parse_time(
-            '%s-%s-%s' % (
+            '%s-%s-%s'
+            % (
                 result_data['date_y'],
                 result_data['date_m'],
                 result_data['date_d'],

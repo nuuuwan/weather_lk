@@ -1,10 +1,9 @@
 """Tweet."""
 
 
-from utils import twitter, timex
+from utils import timex, twitter
 
-from weather_lk import daily_weather_report
-from weather_lk import plot
+from weather_lk import daily_weather_report, plot
 
 
 def _hash(_s):
@@ -28,11 +27,9 @@ Lowest: {min_temp_place} ({min_temp_temp:.1f}°C)
 
 #lka #SriLanka'''.format(
         date=data['date'],
-
         max_rain_place=_hash(data['max_rain']['place']),
         max_temp_place=_hash(data['max_temp']['place']),
         min_temp_place=_hash(data['min_temp']['place']),
-
         max_rain_rain=data['max_rain']['rain'],
         max_temp_temp=data['max_temp']['temp'],
         min_temp_temp=data['min_temp']['temp'],
