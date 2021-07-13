@@ -3,7 +3,7 @@
 
 from utils import timex, twitter
 
-from weather_lk import daily_weather_report, plot
+from weather_lk import PlotRain, PlotTemp, daily_weather_report
 
 
 def _hash(_s):
@@ -36,8 +36,8 @@ Lowest: {min_temp_place} ({min_temp_temp:.1f}°C)
     )
 
     status_image_files = [
-        plot._plot_temp(date_id),
-        plot._plot_rain(date_id),
+        PlotTemp._plot(date_id),
+        PlotRain._plot(date_id),
     ]
 
     twtr = twitter.Twitter.from_args()
