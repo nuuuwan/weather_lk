@@ -46,6 +46,7 @@ setuptools.setup(
         'numpy',
         'tweepy',
         'matplotlib',
+        'infographics-nuuuwan',
     ],
     test_suite='nose.collector',
     tests_require=['nose'],
