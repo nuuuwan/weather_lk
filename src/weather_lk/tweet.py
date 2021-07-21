@@ -15,9 +15,11 @@ def _tweet():
     data = daily_weather_report._load(date_id)
 
     if data['max_rain']['rain'] >= 0.1 and False:
-        rain_str = '''Highest: {max_rain_place} ({max_rain_rain:.1f}mm)'''.format(
-            max_rain_place=_hash(data['max_rain']['place']),
-            max_rain_rain=data['max_rain']['rain'],
+        rain_str = (
+            '''Highest: {max_rain_place} ({max_rain_rain:.1f}mm)'''.format(
+                max_rain_place=_hash(data['max_rain']['place']),
+                max_rain_rain=data['max_rain']['rain'],
+            )
         )
     else:
         rain_str = 'No rain recorded islandwide.'
