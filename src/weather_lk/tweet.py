@@ -14,7 +14,7 @@ def _tweet():
     date_id = timex.get_date_id()
     data = daily_weather_report._load(date_id)
 
-    if data['max_rain']['rain'] >= 0.1 and False:
+    if data['max_rain']['rain'] >= 0.1:
         rain_str = (
             '''Highest: {max_rain_place} ({max_rain_rain:.1f}mm)'''.format(
                 max_rain_place=_hash(data['max_rain']['place']),
