@@ -25,3 +25,4 @@ pip install -i https://test.pypi.org/simple/ weather_lk-nuuuwan
 
 * Initial Release (See source for further details)
         
+* [2021-07-21 01:32PM] Add no rain recorded
