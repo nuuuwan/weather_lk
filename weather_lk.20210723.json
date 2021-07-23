@@ -1,0 +1,498 @@
+{
+  "date_ut": 1626998400,
+  "date": "2021-07-23",
+  "min_temp": {
+    "place": "Nuwara Eliya",
+    "temp": 13.5
+  },
+  "max_temp": {
+    "place": "Batticaloa",
+    "temp": 35.0
+  },
+  "max_rain": {
+    "place": "Maskeliya",
+    "rain": 60.0
+  },
+  "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "temp_min": 26.2,
+      "temp_max": 32.4,
+      "rain": 0.0,
+      "lat_lng": [
+        8.3114,
+        80.4037
+      ]
+    },
+    {
+      "place": "Badulla",
+      "temp_min": 21.0,
+      "temp_max": 30.1,
+      "rain": 0.0,
+      "lat_lng": [
+        6.9934,
+        81.055
+      ]
+    },
+    {
+      "place": "Bandarawela",
+      "temp_min": 19.9,
+      "temp_max": 25.5,
+      "rain": 0.0,
+      "lat_lng": [
+        6.8259,
+        80.9982
+      ]
+    },
+    {
+      "place": "Batticaloa",
+      "temp_min": 26.3,
+      "temp_max": 35.0,
+      "rain": 0.0,
+      "lat_lng": [
+        7.731,
+        81.6747
+      ]
+    },
+    {
+      "place": "Colombo",
+      "temp_min": 26.8,
+      "temp_max": 30.9,
+      "rain": 1.1,
+      "lat_lng": [
+        6.9271,
+        79.8612
+      ]
+    },
+    {
+      "place": "Galle",
+      "temp_min": 25.4,
+      "temp_max": 29.2,
+      "rain": 8.8,
+      "lat_lng": [
+        6.0535,
+        80.221
+      ]
+    },
+    {
+      "place": "Hambanthota",
+      "temp_min": 25.6,
+      "temp_max": 32.6,
+      "rain": 2.7,
+      "lat_lng": [
+        6.1429,
+        81.1212
+      ]
+    },
+    {
+      "place": "Jaffna",
+      "temp_min": 27.9,
+      "temp_max": 32.4,
+      "rain": 0.0,
+      "lat_lng": [
+        9.6615,
+        80.0255
+      ]
+    },
+    {
+      "place": "Monaragala",
+      "temp_min": 23.1,
+      "temp_max": 32.9,
+      "rain": 0.0,
+      "lat_lng": [
+        6.8728,
+        81.3507
+      ]
+    },
+    {
+      "place": "Katugasthota",
+      "temp_min": 23.2,
+      "temp_max": 28.1,
+      "rain": 2.3,
+      "lat_lng": [
+        7.3252,
+        80.623
+      ]
+    },
+    {
+      "place": "Katunayake",
+      "temp_min": 26.2,
+      "temp_max": 31.2,
+      "rain": 9.0,
+      "lat_lng": [
+        7.1725,
+        79.8853
+      ]
+    },
+    {
+      "place": "Kurunagala",
+      "temp_min": 25.2,
+      "temp_max": 30.7,
+      "rain": 0.1,
+      "lat_lng": [
+        7.4818,
+        80.3609
+      ]
+    },
+    {
+      "place": "Maha Illuppallama",
+      "temp_min": 24.9,
+      "temp_max": 31.8,
+      "rain": 0.5,
+      "lat_lng": [
+        8.1116,
+        80.467
+      ]
+    },
+    {
+      "place": "Mannar",
+      "temp_min": 27.8,
+      "temp_max": 31.1,
+      "rain": 0.0,
+      "lat_lng": [
+        8.981,
+        79.9044
+      ]
+    },
+    {
+      "place": "Polonnaruwa",
+      "temp_min": 27.9,
+      "temp_max": 34.3,
+      "rain": 0.0,
+      "lat_lng": [
+        7.9403,
+        81.0188
+      ]
+    },
+    {
+      "place": "Nuwara Eliya",
+      "temp_min": 13.5,
+      "temp_max": 17.6,
+      "rain": 1.4,
+      "lat_lng": [
+        6.9497,
+        80.7891
+      ]
+    },
+    {
+      "place": "Pothuvil",
+      "temp_min": 26.3,
+      "temp_max": 34.3,
+      "rain": 0.0,
+      "lat_lng": [
+        6.8753,
+        81.8306
+      ]
+    },
+    {
+      "place": "Puttalam",
+      "temp_min": 27.4,
+      "temp_max": 31.4,
+      "rain": null,
+      "lat_lng": [
+        8.0408,
+        79.8394
+      ]
+    },
+    {
+      "place": "Rathmalana",
+      "temp_min": 27.1,
+      "temp_max": 32.0,
+      "rain": 4.0,
+      "lat_lng": [
+        6.8195,
+        79.8736
+      ]
+    },
+    {
+      "place": "Rathnapura",
+      "temp_min": 23.8,
+      "temp_max": 30.1,
+      "rain": 20.8,
+      "lat_lng": [
+        6.7056,
+        80.3847
+      ]
+    },
+    {
+      "place": "Trincomalee",
+      "temp_min": 27.1,
+      "temp_max": 34.5,
+      "rain": 0.0,
+      "lat_lng": [
+        8.5874,
+        81.2152
+      ]
+    },
+    {
+      "place": "Vavuniya",
+      "temp_min": 26.2,
+      "temp_max": 34.3,
+      "rain": 0.0,
+      "lat_lng": [
+        8.7542,
+        80.4982
+      ]
+    },
+    {
+      "place": "Mattla",
+      "temp_min": 26.1,
+      "temp_max": 33.8,
+      "rain": 0.0,
+      "lat_lng": [
+        6.3052,
+        81.1141
+      ]
+    },
+    {
+      "place": "Mullaithivu",
+      "temp_min": 27.1,
+      "temp_max": 34.2,
+      "rain": 0.0,
+      "lat_lng": [
+        9.2671,
+        80.8142
+      ]
+    },
+    {
+      "place": "Castlereigh",
+      "rain": 22.0,
+      "lat_lng": [
+        6.8576,
+        80.5854
+      ]
+    },
+    {
+      "place": "Randenigala",
+      "rain": 0.0,
+      "lat_lng": [
+        7.2,
+        80.925
+      ]
+    },
+    {
+      "place": "Norton",
+      "rain": 15.0,
+      "lat_lng": [
+        6.9136,
+        80.5217
+      ]
+    },
+    {
+      "place": "Rantambe",
+      "rain": 0.0,
+      "lat_lng": [
+        7.2011,
+        80.947
+      ]
+    },
+    {
+      "place": "Maussakele",
+      "rain": 16.0,
+      "lat_lng": [
+        6.8645,
+        80.5272
+      ]
+    },
+    {
+      "place": "Bowatenna",
+      "rain": 0.0,
+      "lat_lng": [
+        7.671,
+        80.6563
+      ]
+    },
+    {
+      "place": "Canyon",
+      "rain": 21.0,
+      "lat_lng": [
+        6.8699,
+        80.5253
+      ]
+    },
+    {
+      "place": "Ukuwela",
+      "rain": 0.0,
+      "lat_lng": [
+        7.4235,
+        80.6306
+      ]
+    },
+    {
+      "place": "Lakshapana",
+      "rain": 16.0,
+      "lat_lng": [
+        6.9262,
+        80.4952
+      ]
+    },
+    {
+      "place": "Samanala Wawa",
+      "rain": 0.0,
+      "lat_lng": [
+        6.675,
+        80.7866
+      ]
+    },
+    {
+      "place": "Upper Kotmale",
+      "rain": 9.0,
+      "lat_lng": [
+        6.9456,
+        80.6569
+      ]
+    },
+    {
+      "place": "Kukuleganaga",
+      "rain": 15.0,
+      "lat_lng": [
+        6.5828,
+        80.2342
+      ]
+    },
+    {
+      "place": "Kotmale",
+      "rain": 10.4,
+      "lat_lng": [
+        7.0223,
+        80.5911
+      ]
+    },
+    {
+      "place": "Maskeliya",
+      "rain": 60.0,
+      "lat_lng": [
+        6.8329,
+        80.5709
+      ]
+    },
+    {
+      "place": "Victoriya",
+      "rain": 0.0,
+      "lat_lng": [
+        7.2412,
+        80.7851
+      ]
+    },
+    {
+      "place": "Neboda",
+      "rain": null,
+      "lat_lng": [
+        6.5917,
+        80.0926
+      ]
+    },
+    {
+      "place": "Kirindiwela",
+      "rain": 22.7,
+      "lat_lng": null
+    },
+    {
+      "place": "Nittambuwa",
+      "rain": 5.8,
+      "lat_lng": null
+    },
+    {
+      "place": "Guruluwana",
+      "rain": 16.5,
+      "lat_lng": null
+    },
+    {
+      "place": "Kalatuwawa",
+      "rain": 5.6,
+      "lat_lng": null
+    },
+    {
+      "place": "Batuwangala",
+      "rain": 15.5,
+      "lat_lng": [
+        6.3801,
+        80.3812
+      ]
+    },
+    {
+      "place": "Port Authority",
+      "rain": 4.0,
+      "lat_lng": null
+    },
+    {
+      "place": "Monrovia",
+      "rain": 14.3,
+      "lat_lng": null
+    },
+    {
+      "place": "Hanwella",
+      "rain": 3.4,
+      "lat_lng": null
+    },
+    {
+      "place": "Kethendola",
+      "rain": 13.4,
+      "lat_lng": [
+        6.6646,
+        80.4382
+      ]
+    },
+    {
+      "place": "Awissawella",
+      "rain": 2.8,
+      "lat_lng": null
+    },
+    {
+      "place": "Hiniduma",
+      "rain": 10.0,
+      "lat_lng": [
+        6.3094,
+        80.3241
+      ]
+    },
+    {
+      "place": "Colombo Fort",
+      "rain": 0.5,
+      "lat_lng": null
+    },
+    {
+      "place": "Angoda",
+      "rain": 7.5,
+      "lat_lng": null
+    },
+    {
+      "place": "Madulkale",
+      "rain": 0.3,
+      "lat_lng": null
+    },
+    {
+      "place": "Vogan",
+      "rain": 7.3,
+      "lat_lng": [
+        6.5491,
+        80.1078
+      ]
+    },
+    {
+      "place": "Atchuvely",
+      "rain": 0.0,
+      "lat_lng": null
+    },
+    {
+      "place": "Labugama",
+      "rain": 7.1,
+      "lat_lng": null
+    },
+    {
+      "place": "Point Pedro",
+      "rain": 0.0,
+      "lat_lng": null
+    },
+    {
+      "place": "Aranayeka",
+      "rain": 6.3,
+      "lat_lng": null
+    },
+    {
+      "place": "Nainathive",
+      "rain": 60.0,
+      "lat_lng": null
+    }
+  ]
+}
