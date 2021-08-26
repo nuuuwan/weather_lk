@@ -29,11 +29,11 @@ class PlotTemp(Figure):
         weather_list = sorted(
             list(
                 filter(
-                    lambda item: 'temp_max' in item,
+                    lambda item: 'max_temp' in item,
                     data['weather_list'],
                 )
             ),
-            key=lambda item: item['temp_max'],
+            key=lambda item: item['max_temp'],
         )
 
         places = list(
@@ -42,23 +42,30 @@ class PlotTemp(Figure):
                 weather_list,
             )
         )
-        temp_mins = list(
+        min_temps = list(
             map(
-                lambda item: item['temp_min'],
+                lambda item: item['min_temp'],
                 weather_list,
             )
         )
-        temp_maxs_minus_min = list(
+        max_temps = list(
             map(
-                lambda item: item['temp_max'] - item['temp_min'],
+                lambda item: item['max_temp'],
+                weather_list,
+            )
+        )
+        max_temps_minus_min = list(
+            map(
+                lambda item: item['max_temp'] - item['min_temp'],
                 weather_list,
             )
         )
 
         return (
             places,
-            temp_mins,
-            temp_maxs_minus_min,
+            min_temps,
+            max_temps,
+            max_temps_minus_min,
             date,
         )
 
@@ -66,15 +73,35 @@ class PlotTemp(Figure):
         super().draw()
         (
             places,
-            temp_mins,
-            temp_maxs_minus_min,
+            min_temps,
+            max_temps,
+            max_temps_minus_min,
             date,
         ) = self.__data__
 
         ax = plt.axes(self.left_bottom + self.width_height)
         ax.grid()
-        plt.bar(places, temp_mins, color='white')
-        plt.bar(places, temp_maxs_minus_min, bottom=temp_mins, color='r')
+        plt.bar(places, min_temps, color='white')
+        barlist = plt.bar(places, max_temps_minus_min, bottom=min_temps, color='r')
+
+        for i, max_temp in enumerate(max_temps):
+            color = 'r'
+            if max_temp > 35:
+                color = (0.5, 0, 0)
+            elif max_temp > 30:
+                color = (1, 0, 0)
+            elif max_temp > 25:
+                color = (1, 0.5, 0)
+            elif max_temp > 20:
+                color = (0.5, 1, 0)
+            elif max_temp > 15:
+                color = (0, 1, 0)
+            elif max_temp > 10:
+                color = (0, 1, 0.5)
+            else:
+                color = (0, 0, 1)
+            barlist[i].set_color(color)
+
         plt.ylabel('Temperature (°C)')
         plt.xticks(rotation=90)
 
