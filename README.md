@@ -25,3 +25,4 @@ pip install weather_lk-nuuuwan
   * Fixed camelot-py bug
   * Fixed camelot-py bug - 2
   * added GH install to workflows
+  * added GH install to workflows
