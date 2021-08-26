@@ -23,3 +23,4 @@ pip install weather_lk-nuuuwan
   * Added doc_date_id check
   * Fixed unittests
   * Fixed camelot-py bug
+  * Fixed camelot-py bug - 2
