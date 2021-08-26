@@ -27,3 +27,5 @@ pip install weather_lk-nuuuwan
   * added GH install to workflows
   * added GH install to workflows
   * Changed _load
+* [2021-08-26 03:05PM] Fix but in temperature
+  * Updated README
