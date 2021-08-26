@@ -190,7 +190,7 @@ def parse(date_id):
 
     doc_date_id = timex.get_date_id(ut)
     if doc_date_id != date_id:
-        log.error(f'Invalid doc_date_id: doc_date_id{}')
+        log.error(f'Invalid doc_date_id: {doc_date_id} != {date_id}')
         os.system(f'rm {pdf_file}')
         os.system(f'rm {csv_file}')
         return

@@ -2,7 +2,7 @@
 
 import unittest
 
-from weather_lk import _utils
+from weather_lk import daily_weather_report
 
 
 class TestCase(unittest.TestCase):
@@ -11,7 +11,7 @@ class TestCase(unittest.TestCase):
     def test_parse_float(self):
         """Test."""
         self.assertEqual(
-            _utils._parse_float('0.1'),
+            daily_weather_report.parse_float('0.1'),
             0.1,
         )
 
