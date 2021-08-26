@@ -13,3 +13,5 @@ pip install weather_lk-nuuuwan
 
 * Initial Release (See source for further details)
 * [2021-07-21 01:32PM] Add no rain recorded
+* [2021-08-26 01:36PM] Migrate to camelot
+  * Updated README
