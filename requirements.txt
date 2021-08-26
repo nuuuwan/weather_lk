@@ -1,7 +1,8 @@
-selenium
-utils-nuuuwan
-tabula-py
-numpy
-tweepy
-matplotlib
+# Auto Generated
+camelot
 infographics-nuuuwan
+matplotlib
+numpy
+selenium
+tweepy
+utils-nuuuwan

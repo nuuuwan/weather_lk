@@ -16,3 +16,4 @@ pip install weather_lk-nuuuwan
 * [2021-08-26 01:36PM] Migrate to camelot
   * Updated README
   * Removed run_weather_lk
+  * Basic Structure

@@ -12,8 +12,15 @@ from weather_lk._utils import log
 from weather_lk.daily_weather_report_parse import _parse_and_dump
 
 
-def _scrape_latest():
+def get_file(date_id, ext):
+    return f'/tmp/weather_lk.{date_id}.{ext}'
+
+def scrape(date_id):
     """Get daily weather report."""
+    pdf_file = get_file(date_id, pdf)
+    if os.path.exists(pdf_file):
+        log.warning(f'{pdf_file} exists. Not downloading')
+
     options = Options()
     options.headless = True
     browser = webdriver.Firefox(options=options)
@@ -22,36 +29,19 @@ def _scrape_latest():
     pdf_url = a_daily.get_attribute('href')
     browser.quit()
 
-    result = re.search(REGEX_DATE_URL, pdf_url)
-    if result:
-        result_data = result.groupdict()
-        unixtime = timex.parse_time(
-            '%s-%s-%s'
-            % (
-                result_data['date_y'],
-                result_data['date_m'],
-                result_data['date_d'],
-            ),
-            '%Y-%m-%d',
-        )
-    else:
-        unixtime = timex.get_unixtime()
-
-    date_id = timex.format_time(unixtime, '%Y%m%d')
-    pdf_file = '/tmp/weather_lk.%s.pdf' % (date_id)
     www.download_binary(pdf_url, pdf_file)
-    log.info('%s: Downloaded %s to %s', date_id, pdf_url, pdf_file)
+    log.info(f'Downloaded {pdf_url} to {pdf_file}')
 
-    return date_id, pdf_file
-
-
-def _dump_latest():
-    """Scrape and parse daily weather report."""
-    date_id, pdf_file = _scrape_latest()
-    _parse_and_dump(date_id, pdf_file)
+def parse(date_id):
+    pdf_file = get_file(date_id, pdf)
 
 
-def _load(date_id):
+
+
+
+
+
+def load(date_id):
     """Load daily weather report."""
     url = os.path.join(
         'https://raw.githubusercontent.com/nuuuwan/weather_lk/data',
@@ -61,3 +51,7 @@ def _load(date_id):
         log.error('No data for %s', date_id)
         return None
     return www.read_json(url)
+
+if __name__ == '__main__':
+    date_id = timex.get_date_id()
+    scrape(date_id)
