@@ -12,7 +12,7 @@ def _hash(_s):
 
 def _tweet():
     date_id = timex.get_date_id()
-    data = daily_weather_report._load(date_id)
+    data = daily_weather_report.load(date_id)
 
     if data['max_rain']['rain'] >= 0.1:
         rain_str = (

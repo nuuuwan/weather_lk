@@ -24,7 +24,7 @@ class PlotTemp(Figure):
         self.__data__ = PlotTemp.__prep_data(self)
 
     def __prep_data(self):
-        data = daily_weather_report._load(self.date_id)
+        data = daily_weather_report.load(self.date_id)
         date = data['date']
         weather_list = sorted(
             list(
@@ -85,7 +85,7 @@ def _plot(date_id):
         date_id=date_id,
     )
 
-    data = daily_weather_report._load(date_id)
+    data = daily_weather_report.load(date_id)
     date = data['date']
 
     Infographic(

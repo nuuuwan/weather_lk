@@ -206,19 +206,23 @@ def load(date_id):
 
     json_file = get_file(date_id, 'json')
     if os.path.exists(json_file):
-        log.info(f'Loaded data locally, from {json_file}')
-        data= jsonx.read(json_file)
+        data = jsonx.read(json_file)
+        n_places = len(data['weather_list'])
+        log.info(f'Loaded data for {n_places} locally, from {json_file}')
+        return data
 
     url = os.path.join(
         'https://raw.githubusercontent.com/nuuuwan/weather_lk/data',
         'weather_lk.%s.json' % date_id,
     )
     if www.exists(url):
-        log.info(f'Loaded data locally, from {json_file}')
+        data = www.read_json(url)
+        n_places = len(data['weather_list'])
+        log.info(f'Loaded data for {n_places} remotely, from {url}')
+        return data
 
     log.error('No data for %s', date_id)
     return None
-    return www.read_json(url)
 
 
 if __name__ == '__main__':
