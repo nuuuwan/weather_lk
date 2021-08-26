@@ -17,3 +17,4 @@ pip install weather_lk-nuuuwan
   * Updated README
   * Removed run_weather_lk
   * Basic Structure
+  * New pipeline done
