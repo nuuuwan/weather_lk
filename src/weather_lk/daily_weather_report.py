@@ -203,13 +203,21 @@ def parse(date_id):
 
 def load(date_id):
     """Load daily weather report."""
+
+    json_file = get_file(date_id, 'json')
+    if os.path.exists(json_file):
+        log.info(f'Loaded data locally, from {json_file}')
+        data= jsonx.read(json_file)
+
     url = os.path.join(
         'https://raw.githubusercontent.com/nuuuwan/weather_lk/data',
         'weather_lk.%s.json' % date_id,
     )
-    if not www.exists(url):
-        log.error('No data for %s', date_id)
-        return None
+    if www.exists(url):
+        log.info(f'Loaded data locally, from {json_file}')
+
+    log.error('No data for %s', date_id)
+    return None
     return www.read_json(url)
 
 
