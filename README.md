@@ -31,3 +31,4 @@ pip install weather_lk-nuuuwan
   * Updated README
   * Fixed
   * Fixed
+  * Done

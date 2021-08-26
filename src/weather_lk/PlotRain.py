@@ -71,13 +71,13 @@ class PlotRain(Figure):
             if rain > 150:
                 color = (0, 0, 0.5)
             elif rain > 100:
-                color = (0, 0, 1.0)
+                color = (0, 0.6, 1.0)
             elif rain > 50:
-                color = (0, 0.5, 1.0)
+                color = (0.4, 0.6, 1.0)
             elif rain > 25:
-                color = (0.5, 0.5, 1.0)
+                color = (0.5, 0.8, 1.0)
             else:
-                color = (0.5, 1.0, 1.0)
+                color = (0.7, 0.9, 1.0)
 
             barlist[i].set_color(color)
 
