@@ -95,7 +95,6 @@ def parse(date_id):
         if result:
             date_str = result.groupdict().get('date_str')
             ut = timex.parse_time(date_str, '%Y.%m.%d')
-            date_id = timex.get_date_id(ut)
             continue
 
         if row[0] != '' and row[-1] == '':
@@ -188,6 +187,14 @@ def parse(date_id):
         },
         'weather_list': weather_list,
     }
+
+    doc_date_id = timex.get_date_id(ut)
+    if doc_date_id != date_id:
+        log.error(f'Invalid doc_date_id: doc_date_id{}')
+        os.system(f'rm {pdf_file}')
+        os.system(f'rm {csv_file}')
+        return
+
     json_file = get_file(date_id, 'json')
     jsonx.write(json_file, data)
     log.info(f'Wrote {json_file}')

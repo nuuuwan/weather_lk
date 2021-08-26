@@ -20,3 +20,4 @@ pip install weather_lk-nuuuwan
   * New pipeline done
   * Pre-Merge
   * Python3x error
+  * Added doc_date_id check
