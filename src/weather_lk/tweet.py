@@ -22,7 +22,7 @@ def _tweet():
             )
         )
     else:
-        rain_str = 'No rain recorded islandwide.'
+        rain_str = 'No rain >0.1mm islandwide.'
 
     tweet_text = '''Temperature & Rainfall ({date}) by @MeteoLK
 

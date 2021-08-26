@@ -19,3 +19,4 @@ pip install weather_lk-nuuuwan
   * Basic Structure
   * New pipeline done
   * Pre-Merge
+  * Python3x error

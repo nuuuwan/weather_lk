@@ -91,7 +91,8 @@ def parse(date_id):
     for row in table:
         row = clean_row(row)
         row_str = ' '.join(row)
-        if result := re.search(REGEX_DATE, row_str):
+        result = re.search(REGEX_DATE, row_str)
+        if result:
             date_str = result.groupdict().get('date_str')
             ut = timex.parse_time(date_str, '%Y.%m.%d')
             date_id = timex.get_date_id(ut)
