@@ -66,7 +66,21 @@ class PlotRain(Figure):
         ax = plt.axes(self.left_bottom + self.width_height)
         ax.grid()
         ax.set_ylim([0, 200])
-        plt.bar(places, rains, color='blue')
+        barlist = plt.bar(places, rains, color='blue')
+        for i, rain in enumerate(rains):
+            if rain > 150:
+                color = (0, 0, 0.5)
+            elif rain > 100:
+                color = (0, 0, 1.0)
+            elif rain > 50:
+                color = (0, 0.5, 1.0)
+            elif rain > 25:
+                color = (0.5, 0.5, 1.0)
+            else:
+                color = (0.5, 1.0, 1.0)
+
+            barlist[i].set_color(color)
+
         plt.ylabel('Rain (mm)')
         plt.xticks(rotation=90)
 

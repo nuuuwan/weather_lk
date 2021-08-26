@@ -30,3 +30,4 @@ pip install weather_lk-nuuuwan
 * [2021-08-26 03:05PM] Fix but in temperature
   * Updated README
   * Fixed
+  * Fixed
