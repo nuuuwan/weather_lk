@@ -1,5 +1,5 @@
 
-name: Upload Data on Cron
+name: Upload Data - Cron
 
 on:
   schedule:
@@ -40,7 +40,7 @@ jobs:
     - name: Run
       run: |
         export PYTHONPATH="$PYTHONPATH:./src"
-        python src/weather_lk/upload_data.py
+        python src/weather_lk/daily_weather_report.py
 
     - name: Checkout repo branch data
       uses: actions/checkout@v2
