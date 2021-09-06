@@ -77,7 +77,7 @@ def scrape(date_id):
 
 def parse(date_id):
     pdf_file = get_file(date_id, 'pdf')
-    tables = camelot.read_pdf(pdf_file)
+    tables = camelot.read_pdf(pdf_file, pages='all')
 
     csv_file = get_file(date_id, 'csv')
     tables.export(csv_file, f='csv')
