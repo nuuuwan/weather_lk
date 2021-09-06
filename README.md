@@ -42,3 +42,5 @@ pip install weather_lk-nuuuwan
   * Updated README
   * Fixed
   * Pre-Merge
+* [2021-09-06 06:58PM] Fix 2021-09-06 Bug
+  * Updated README
