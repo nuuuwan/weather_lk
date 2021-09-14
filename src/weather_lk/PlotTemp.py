@@ -29,7 +29,7 @@ class PlotTemp(Figure):
         weather_list = sorted(
             list(
                 filter(
-                    lambda item: item.get('max_temp'),
+                    lambda item: item.get('max_temp') and item.get('min_temp'),
                     data['weather_list'],
                 )
             ),
