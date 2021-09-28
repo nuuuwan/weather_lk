@@ -45,7 +45,7 @@ setuptools.setup(
         'matplotlib',
         'numpy',
         'selenium',
-        'tweepy',
+        'tweepy==3.10.0',
         'utils-nuuuwan',
     ],
     test_suite='nose.collector',
