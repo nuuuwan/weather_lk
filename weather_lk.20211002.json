@@ -1,0 +1,234 @@
+{
+  "date_ut": 1633132800,
+  "date": "2021-10-02",
+  "min_temp": {
+    "place": "Nuwara Eliya",
+    "temp": 11.4
+  },
+  "max_temp": {
+    "place": "Pothuvil",
+    "temp": 30.2
+  },
+  "max_rain": {
+    "place": "Helboda North",
+    "rain": 137.0
+  },
+  "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 23.3,
+      "max_temp": 26.9,
+      "rain": 1.8
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 18.4,
+      "max_temp": 26.4,
+      "rain": 69.9
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 15.7,
+      "max_temp": 23.4,
+      "rain": 65.0
+    },
+    {
+      "place": "Batticaloa",
+      "min_temp": 23.5,
+      "max_temp": 27.2,
+      "rain": 2.6
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 22.7,
+      "max_temp": 28.5,
+      "rain": 38.2
+    },
+    {
+      "place": "Galle",
+      "min_temp": 23.1,
+      "max_temp": 28.4,
+      "rain": 33.3
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 22.6,
+      "max_temp": 29.9,
+      "rain": 39.6
+    },
+    {
+      "place": "Jaffna",
+      "min_temp": 25.6,
+      "max_temp": 28.5,
+      "rain": 2.2
+    },
+    {
+      "place": "Monaragala",
+      "min_temp": 21.0,
+      "max_temp": 29.3,
+      "rain": 81.8
+    },
+    {
+      "place": "Katugasthota",
+      "min_temp": 20.4,
+      "max_temp": 27.1,
+      "rain": 71.4
+    },
+    {
+      "place": "Katunayake",
+      "min_temp": 22.6,
+      "max_temp": 28.6,
+      "rain": 83.9
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 22.3,
+      "max_temp": 27.3,
+      "rain": 13.8
+    },
+    {
+      "place": "Maha Illuppallama",
+      "min_temp": 22.6,
+      "max_temp": 26.8,
+      "rain": 24.5
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 25.3,
+      "max_temp": 28.8,
+      "rain": 3.1
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 22.9,
+      "max_temp": 27.6,
+      "rain": 0.5
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 11.4,
+      "max_temp": 19.0,
+      "rain": 66.2
+    },
+    {
+      "place": "Pothuvil",
+      "min_temp": 23.4,
+      "max_temp": 30.2,
+      "rain": 21.6
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 22.6,
+      "max_temp": 27.4,
+      "rain": 21.0
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 22.5,
+      "max_temp": 28.3,
+      "rain": 45.4
+    },
+    {
+      "place": "Rathnapura",
+      "min_temp": 21.7,
+      "max_temp": 28.3,
+      "rain": 59.5
+    },
+    {
+      "place": "Trincomalee",
+      "min_temp": 23.8,
+      "max_temp": 25.6,
+      "rain": 5.4
+    },
+    {
+      "place": "Vavuniya",
+      "min_temp": 24.0,
+      "max_temp": 26.6,
+      "rain": 0.6
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 21.8,
+      "max_temp": 30.2,
+      "rain": 9.5
+    },
+    {
+      "place": "Mullaithivu",
+      "min_temp": 24.8,
+      "max_temp": 27.6,
+      "rain": 6.2
+    },
+    {
+      "place": "Castlereigh",
+      "rain": 45.0
+    },
+    {
+      "place": "Norton",
+      "rain": 59.5
+    },
+    {
+      "place": "Maussakele",
+      "rain": 30.5
+    },
+    {
+      "place": "Canyon",
+      "rain": 47.0
+    },
+    {
+      "place": "Lakshapana",
+      "rain": 43.0
+    },
+    {
+      "place": "Upper Kotmale",
+      "rain": 48.1
+    },
+    {
+      "place": "Kotmale",
+      "rain": 63.0
+    },
+    {
+      "place": "Victoriya",
+      "rain": 64.0
+    },
+    {
+      "place": "Helboda North",
+      "rain": 137.0
+    },
+    {
+      "place": "Baddegama",
+      "rain": 105.2
+    },
+    {
+      "place": "Mathugama",
+      "rain": 104.4
+    },
+    {
+      "place": "Spring Valley",
+      "rain": 99.0
+    },
+    {
+      "place": "Ledger Estate",
+      "rain": 98.0
+    },
+    {
+      "place": "Galoola",
+      "rain": 95.5
+    },
+    {
+      "place": "Monaragala Water",
+      "rain": 94.5
+    },
+    {
+      "place": "Vogan",
+      "rain": 91.4
+    },
+    {
+      "place": "Udaradella",
+      "rain": 85.1
+    },
+    {
+      "place": "Gonapitiya Merigold",
+      "rain": 85.0
+    }
+  ]
+}
