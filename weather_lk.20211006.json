@@ -1,0 +1,228 @@
+{
+  "date_ut": 1633478400,
+  "date": "2021-10-06",
+  "min_temp": {
+    "place": "Nuwara Eliya",
+    "temp": 13.9
+  },
+  "max_temp": {
+    "place": "Polonnaruwa",
+    "temp": 33.0
+  },
+  "max_rain": {
+    "place": "Dummalasooriya",
+    "rain": 167.5
+  },
+  "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 23.7,
+      "max_temp": 31.0,
+      "rain": 19.7
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 19.4,
+      "max_temp": 27.8,
+      "rain": 4.0
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 18.0,
+      "max_temp": 23.4,
+      "rain": 1.2
+    },
+    {
+      "place": "Batticaloa",
+      "min_temp": 24.6,
+      "max_temp": 31.0,
+      "rain": 2.4
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 24.1,
+      "max_temp": 27.5,
+      "rain": 46.1
+    },
+    {
+      "place": "Galle",
+      "min_temp": 24.8,
+      "max_temp": 28.2,
+      "rain": 17.2
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 24.1,
+      "max_temp": 27.8,
+      "rain": 40.4
+    },
+    {
+      "place": "Jaffna",
+      "min_temp": 24.6,
+      "max_temp": 27.4,
+      "rain": 36.5
+    },
+    {
+      "place": "Monaragala",
+      "min_temp": 23.1,
+      "max_temp": 31.0,
+      "rain": 1.9
+    },
+    {
+      "place": "Katugasthota",
+      "min_temp": 21.7,
+      "max_temp": 27.0,
+      "rain": 8.4
+    },
+    {
+      "place": "Katunayake",
+      "min_temp": 24.3,
+      "max_temp": 28.0,
+      "rain": 56.6
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 23.7,
+      "max_temp": 28.5,
+      "rain": 32.5
+    },
+    {
+      "place": "Maha Illuppallama",
+      "min_temp": 23.4,
+      "max_temp": 30.8,
+      "rain": 20.1
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 23.2,
+      "max_temp": 29.5,
+      "rain": 56.6
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 24.0,
+      "max_temp": 33.0,
+      "rain": 0.9
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 13.9,
+      "max_temp": 19.6,
+      "rain": 13.5
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 23.5,
+      "max_temp": 31.0,
+      "rain": 10.0
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 24.0,
+      "max_temp": 27.6,
+      "rain": 47.2
+    },
+    {
+      "place": "Rathnapura",
+      "min_temp": 23.4,
+      "max_temp": 26.1,
+      "rain": 66.1
+    },
+    {
+      "place": "Trincomalee",
+      "min_temp": 23.5,
+      "max_temp": 31.3,
+      "rain": 106.9
+    },
+    {
+      "place": "Vavuniya",
+      "min_temp": 23.5,
+      "max_temp": 30.4,
+      "rain": 19.5
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 23.9,
+      "max_temp": 27.7,
+      "rain": 39.1
+    },
+    {
+      "place": "Mullaithivu",
+      "min_temp": 23.7,
+      "max_temp": 29.5,
+      "rain": 80.5
+    },
+    {
+      "place": "Castlereigh",
+      "rain": 22.3
+    },
+    {
+      "place": "Norton",
+      "rain": 44.6
+    },
+    {
+      "place": "Maussakele",
+      "rain": 23.0
+    },
+    {
+      "place": "Canyon",
+      "rain": 42.0
+    },
+    {
+      "place": "Lakshapana",
+      "rain": 53.0
+    },
+    {
+      "place": "Upper Kotmale",
+      "rain": 15.0
+    },
+    {
+      "place": "Kotmale",
+      "rain": 24.0
+    },
+    {
+      "place": "Victoriya",
+      "rain": 4.7
+    },
+    {
+      "place": "Dummalasooriya",
+      "rain": 167.5
+    },
+    {
+      "place": "Kethendola",
+      "rain": 156.2
+    },
+    {
+      "place": "Kirindiwela",
+      "rain": 139.3
+    },
+    {
+      "place": "Wevalthalawa",
+      "rain": 130.8
+    },
+    {
+      "place": "Vogan",
+      "rain": 126.6
+    },
+    {
+      "place": "Benthotawatta",
+      "rain": 120.5
+    },
+    {
+      "place": "Padukka Estate",
+      "rain": 108.1
+    },
+    {
+      "place": "Horagasgara",
+      "rain": 106.0
+    },
+    {
+      "place": "Palugaswewa Estate",
+      "rain": 98.6
+    },
+    {
+      "place": "Hanwella",
+      "rain": 94.7
+    }
+  ]
+}
