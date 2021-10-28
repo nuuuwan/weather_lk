@@ -1,0 +1,234 @@
+{
+  "date_ut": 1635379200,
+  "date": "2021-10-28",
+  "min_temp": {
+    "place": "Nuwara Eliya",
+    "temp": 13.3
+  },
+  "max_temp": {
+    "place": "Mullaithivu",
+    "temp": 31.7
+  },
+  "max_rain": {
+    "place": "Hanwella",
+    "rain": 102.2
+  },
+  "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 23.2,
+      "max_temp": 30.7,
+      "rain": 5.5
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 20.5,
+      "max_temp": 26.9,
+      "rain": 0.0
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 17.6,
+      "max_temp": 24.0,
+      "rain": 0.2
+    },
+    {
+      "place": "Batticaloa",
+      "min_temp": 25.4,
+      "max_temp": 31.0,
+      "rain": 0.0
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 23.8,
+      "max_temp": 30.1,
+      "rain": 10.3
+    },
+    {
+      "place": "Galle",
+      "min_temp": 24.2,
+      "max_temp": 28.7,
+      "rain": 2.4
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 25.3,
+      "max_temp": 30.1,
+      "rain": 0.0
+    },
+    {
+      "place": "Jaffna",
+      "min_temp": 25.0,
+      "max_temp": 31.1,
+      "rain": 27.6
+    },
+    {
+      "place": "Monaragala",
+      "min_temp": 23.2,
+      "max_temp": 31.0,
+      "rain": 0.0
+    },
+    {
+      "place": "Katugasthota",
+      "min_temp": 21.8,
+      "max_temp": 29.5,
+      "rain": 0.0
+    },
+    {
+      "place": "Katunayake",
+      "min_temp": 23.5,
+      "max_temp": 30.1,
+      "rain": 3.8
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 23.5,
+      "max_temp": 30.5,
+      "rain": 5.0
+    },
+    {
+      "place": "Maha Illuppallama",
+      "min_temp": 22.7,
+      "max_temp": 30.5,
+      "rain": 19.9
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 24.3,
+      "max_temp": 31.6,
+      "rain": 16.6
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 24.6,
+      "max_temp": 31.6,
+      "rain": 0.2
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 13.3,
+      "max_temp": 20.5,
+      "rain": 0.0
+    },
+    {
+      "place": "Pothuvil",
+      "min_temp": 25.2,
+      "max_temp": 31.2,
+      "rain": 2.4
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 23.7,
+      "max_temp": 30.3,
+      "rain": 8.7
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 23.7,
+      "max_temp": 30.5,
+      "rain": 22.6
+    },
+    {
+      "place": "Rathnapura",
+      "min_temp": 22.6,
+      "max_temp": 31.1,
+      "rain": 5.1
+    },
+    {
+      "place": "Trincomalee",
+      "min_temp": 23.9,
+      "max_temp": 30.8,
+      "rain": 2.5
+    },
+    {
+      "place": "Vavuniya",
+      "min_temp": 23.4,
+      "max_temp": 30.3,
+      "rain": 20.3
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 23.8,
+      "max_temp": 31.3,
+      "rain": 0.0
+    },
+    {
+      "place": "Mullaithivu",
+      "min_temp": 24.8,
+      "max_temp": 31.7,
+      "rain": 2.6
+    },
+    {
+      "place": "Castlereigh",
+      "rain": 0.0
+    },
+    {
+      "place": "Norton",
+      "rain": 0.5
+    },
+    {
+      "place": "Maussakele",
+      "rain": 0.0
+    },
+    {
+      "place": "Canyon",
+      "rain": 0.2
+    },
+    {
+      "place": "Lakshapana",
+      "rain": 0.0
+    },
+    {
+      "place": "Upper Kotmale",
+      "rain": 0.0
+    },
+    {
+      "place": "Kotmale",
+      "rain": 1.0
+    },
+    {
+      "place": "Victoriya",
+      "rain": 0.0
+    },
+    {
+      "place": "Hanwella",
+      "rain": 102.2
+    },
+    {
+      "place": "Kethendola",
+      "rain": 76.8
+    },
+    {
+      "place": "Nainathive",
+      "rain": 73.2
+    },
+    {
+      "place": "Padukka Estate",
+      "rain": 73.1
+    },
+    {
+      "place": "Benthotawatta",
+      "rain": 52.2
+    },
+    {
+      "place": "Delft",
+      "rain": 44.6
+    },
+    {
+      "place": "Poddiwela Farm",
+      "rain": 42.3
+    },
+    {
+      "place": "Karagala",
+      "rain": 41.9
+    },
+    {
+      "place": "Pasyala",
+      "rain": 41.8
+    },
+    {
+      "place": "Huruliwawa",
+      "rain": 41.7
+    }
+  ]
+}
