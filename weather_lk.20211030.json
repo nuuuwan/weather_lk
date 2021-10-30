@@ -1,0 +1,234 @@
+{
+  "date_ut": 1635552000,
+  "date": "2021-10-30",
+  "min_temp": {
+    "place": "Nuwara Eliya",
+    "temp": 13.1
+  },
+  "max_temp": {
+    "place": "Monaragala",
+    "temp": 32.5
+  },
+  "max_rain": {
+    "place": "Norochcholai",
+    "rain": 215.4
+  },
+  "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 24.4,
+      "max_temp": 32.0,
+      "rain": 12.3
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 19.4,
+      "max_temp": 27.0,
+      "rain": 57.9
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 16.5,
+      "max_temp": 24.5,
+      "rain": 16.4
+    },
+    {
+      "place": "Batticaloa",
+      "min_temp": 25.3,
+      "max_temp": 29.6,
+      "rain": 0.2
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 24.4,
+      "max_temp": 30.5,
+      "rain": 8.9
+    },
+    {
+      "place": "Galle",
+      "min_temp": 24.9,
+      "max_temp": 28.3,
+      "rain": 6.2
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 25.3,
+      "max_temp": 31.4,
+      "rain": 0.0
+    },
+    {
+      "place": "Jaffna",
+      "min_temp": 24.3,
+      "max_temp": 29.1,
+      "rain": 16.8
+    },
+    {
+      "place": "Monaragala",
+      "min_temp": 23.2,
+      "max_temp": 32.5,
+      "rain": 3.9
+    },
+    {
+      "place": "Katugasthota",
+      "min_temp": 21.5,
+      "max_temp": 28.2,
+      "rain": 9.3
+    },
+    {
+      "place": "Katunayake",
+      "min_temp": 24.4,
+      "max_temp": 30.0,
+      "rain": 6.4
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 23.8,
+      "max_temp": 29.4,
+      "rain": 4.1
+    },
+    {
+      "place": "Maha Illuppallama",
+      "min_temp": 23.6,
+      "max_temp": 31.5,
+      "rain": 19.3
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 25.5,
+      "max_temp": 29.2,
+      "rain": 9.3
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 23.7,
+      "max_temp": 31.8,
+      "rain": 3.0
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 13.1,
+      "max_temp": 20.1,
+      "rain": 40.7
+    },
+    {
+      "place": "Pothuvil",
+      "min_temp": 25.0,
+      "max_temp": 30.1,
+      "rain": 0.2
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 24.0,
+      "max_temp": 31.1,
+      "rain": 99.3
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 23.9,
+      "max_temp": 30.6,
+      "rain": 21.2
+    },
+    {
+      "place": "Rathnapura",
+      "min_temp": 23.6,
+      "max_temp": 30.1,
+      "rain": 1.4
+    },
+    {
+      "place": "Trincomalee",
+      "min_temp": 25.0,
+      "max_temp": 30.4,
+      "rain": 0.3
+    },
+    {
+      "place": "Vavuniya",
+      "min_temp": 24.8,
+      "max_temp": 29.8,
+      "rain": 8.7
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 23.9,
+      "max_temp": 31.6,
+      "rain": 2.4
+    },
+    {
+      "place": "Mullaithivu",
+      "min_temp": 26.1,
+      "max_temp": 30.6,
+      "rain": 2.6
+    },
+    {
+      "place": "Castlereigh",
+      "rain": 34.5
+    },
+    {
+      "place": "Norton",
+      "rain": 35.0
+    },
+    {
+      "place": "Maussakele",
+      "rain": 30.5
+    },
+    {
+      "place": "Canyon",
+      "rain": 18.2
+    },
+    {
+      "place": "Lakshapana",
+      "rain": 15.0
+    },
+    {
+      "place": "Upper Kotmale",
+      "rain": 24.9
+    },
+    {
+      "place": "Kotmale",
+      "rain": 26.0
+    },
+    {
+      "place": "Victoriya",
+      "rain": 19.2
+    },
+    {
+      "place": "Norochcholai",
+      "rain": 215.4
+    },
+    {
+      "place": "Tabbowa",
+      "rain": 89.2
+    },
+    {
+      "place": "Canawarella",
+      "rain": 75.0
+    },
+    {
+      "place": "Padiyathalawa",
+      "rain": 63.5
+    },
+    {
+      "place": "Peradeniya",
+      "rain": 52.4
+    },
+    {
+      "place": "Batuwangala",
+      "rain": 47.8
+    },
+    {
+      "place": "Dethanagala",
+      "rain": 46.3
+    },
+    {
+      "place": "Handessa",
+      "rain": 45.4
+    },
+    {
+      "place": "Ulhitiya",
+      "rain": 36.7
+    },
+    {
+      "place": "Bandaragama",
+      "rain": 32.5
+    }
+  ]
+}
