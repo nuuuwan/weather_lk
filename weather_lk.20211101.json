@@ -1,0 +1,228 @@
+{
+  "date_ut": 1635724800,
+  "date": "2021-11-01",
+  "min_temp": {
+    "place": "Nuwara Eliya",
+    "temp": 14.4
+  },
+  "max_temp": {
+    "place": "Rathnapura",
+    "temp": 32.1
+  },
+  "max_rain": {
+    "place": "Wevalthalawa",
+    "rain": 240.0
+  },
+  "weather_list": [
+    {
+      "place": "Badulla",
+      "min_temp": 19.6,
+      "max_temp": 26.9,
+      "rain": 9.1
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 17.9,
+      "max_temp": 23.5,
+      "rain": 11.8
+    },
+    {
+      "place": "Batticaloa",
+      "min_temp": 25.1,
+      "max_temp": 30.2,
+      "rain": 1.6
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 24.8,
+      "max_temp": 31.3,
+      "rain": 38.5
+    },
+    {
+      "place": "Galle",
+      "min_temp": 25.7,
+      "max_temp": 29.5,
+      "rain": 5.2
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 25.0,
+      "max_temp": 31.8,
+      "rain": 2.4
+    },
+    {
+      "place": "Jaffna",
+      "min_temp": 24.6,
+      "max_temp": 28.8,
+      "rain": 9.1
+    },
+    {
+      "place": "Monaragala",
+      "min_temp": 23.0,
+      "max_temp": 30.6,
+      "rain": 3.9
+    },
+    {
+      "place": "Katugasthota",
+      "min_temp": 22.9,
+      "max_temp": 29.2,
+      "rain": 23.9
+    },
+    {
+      "place": "Katunayake",
+      "min_temp": 24.4,
+      "max_temp": 30.7,
+      "rain": 23.3
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 23.8,
+      "max_temp": 30.7,
+      "rain": 5.4
+    },
+    {
+      "place": "Maha Illuppallama",
+      "min_temp": 23.6,
+      "max_temp": 29.9,
+      "rain": 2.5
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 24.7,
+      "max_temp": 29.1,
+      "rain": 27.4
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 23.2,
+      "max_temp": 29.7,
+      "rain": 16.7
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 14.4,
+      "max_temp": 21.3,
+      "rain": 4.9
+    },
+    {
+      "place": "Pothuvil",
+      "min_temp": 25.1,
+      "max_temp": 31.0,
+      "rain": 0.1
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 24.6,
+      "max_temp": 30.2,
+      "rain": 15.3
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 24.7,
+      "max_temp": 31.6,
+      "rain": 53.0
+    },
+    {
+      "place": "Rathnapura",
+      "min_temp": 23.7,
+      "max_temp": 32.1,
+      "rain": 63.1
+    },
+    {
+      "place": "Trincomalee",
+      "min_temp": 24.9,
+      "max_temp": 28.9,
+      "rain": 11.7
+    },
+    {
+      "place": "Vavuniya",
+      "min_temp": 23.5,
+      "max_temp": 28.7,
+      "rain": 37.9
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 24.1,
+      "max_temp": 31.8,
+      "rain": 0.0
+    },
+    {
+      "place": "Mullaithivu",
+      "min_temp": 25.0,
+      "max_temp": 30.1,
+      "rain": 39.6
+    },
+    {
+      "place": "Castlereigh",
+      "rain": 5.5
+    },
+    {
+      "place": "Norton",
+      "rain": 8.5
+    },
+    {
+      "place": "Maussakele",
+      "rain": 2.3
+    },
+    {
+      "place": "Canyon",
+      "rain": 4.5
+    },
+    {
+      "place": "Lakshapana",
+      "rain": 13.6
+    },
+    {
+      "place": "Upper Kotmale",
+      "rain": 28.1
+    },
+    {
+      "place": "Kotmale",
+      "rain": 18.0
+    },
+    {
+      "place": "Victoriya",
+      "rain": 9.0
+    },
+    {
+      "place": "Wevalthalawa",
+      "rain": 240.0
+    },
+    {
+      "place": "Hiniduma",
+      "rain": 143.7
+    },
+    {
+      "place": "Batuwangala",
+      "rain": 141.7
+    },
+    {
+      "place": "Omanthai",
+      "rain": 110.0
+    },
+    {
+      "place": "Wewessa Estate",
+      "rain": 105.0
+    },
+    {
+      "place": "Undugoda",
+      "rain": 98.2
+    },
+    {
+      "place": "Dethanagala",
+      "rain": 92.6
+    },
+    {
+      "place": "Vogan",
+      "rain": 85.3
+    },
+    {
+      "place": "Bandaragama",
+      "rain": 85.0
+    },
+    {
+      "place": "Palugaswewa Estate",
+      "rain": 84.5
+    }
+  ]
+}
