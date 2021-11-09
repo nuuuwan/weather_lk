@@ -1,0 +1,228 @@
+{
+  "date_ut": 1636416000,
+  "date": "2021-11-09",
+  "min_temp": {
+    "place": "Nuwara Eliya",
+    "temp": 13.5
+  },
+  "max_temp": {
+    "place": "Vavuniya",
+    "temp": 31.8
+  },
+  "max_rain": {
+    "place": "Nochchiyagama",
+    "rain": 300.4
+  },
+  "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 23.0,
+      "max_temp": 27.0,
+      "rain": 154.7
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 19.6,
+      "max_temp": 25.0,
+      "rain": 1.1
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 17.6,
+      "max_temp": 23.4,
+      "rain": 1.5
+    },
+    {
+      "place": "Batticaloa",
+      "min_temp": 23.9,
+      "max_temp": 30.3,
+      "rain": 16.3
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 23.1,
+      "max_temp": 27.0,
+      "rain": 42.2
+    },
+    {
+      "place": "Galle",
+      "min_temp": 23.8,
+      "max_temp": 27.4,
+      "rain": 13.4
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 23.5,
+      "max_temp": 28.1,
+      "rain": 6.6
+    },
+    {
+      "place": "Jaffna",
+      "min_temp": 23.4,
+      "max_temp": 27.3,
+      "rain": 243.0
+    },
+    {
+      "place": "Monaragala",
+      "min_temp": 22.5,
+      "max_temp": 28.9,
+      "rain": 9.4
+    },
+    {
+      "place": "Katugasthota",
+      "min_temp": 20.6,
+      "max_temp": 24.3,
+      "rain": 61.2
+    },
+    {
+      "place": "Katunayake",
+      "min_temp": 23.5,
+      "max_temp": 27.0,
+      "rain": 41.6
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 22.5,
+      "max_temp": 26.4,
+      "rain": 39.8
+    },
+    {
+      "place": "Maha Illuppallama",
+      "min_temp": 22.8,
+      "max_temp": 25.4,
+      "rain": 33.5
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 23.6,
+      "max_temp": 27.9,
+      "rain": 160.9
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 23.3,
+      "max_temp": 29.3,
+      "rain": 5.4
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 13.5,
+      "max_temp": 16.4,
+      "rain": 16.8
+    },
+    {
+      "place": "Pothuvil",
+      "min_temp": 24.1,
+      "max_temp": 30.1,
+      "rain": 9.8
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 23.7,
+      "max_temp": 26.5,
+      "rain": 63.9
+    },
+    {
+      "place": "Rathnapura",
+      "min_temp": 22.2,
+      "max_temp": 25.3,
+      "rain": 52.9
+    },
+    {
+      "place": "Trincomalee",
+      "min_temp": 23.3,
+      "max_temp": 27.0,
+      "rain": 186.9
+    },
+    {
+      "place": "Vavuniya",
+      "min_temp": 23.4,
+      "max_temp": 31.8,
+      "rain": 41.9
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 23.1,
+      "max_temp": 29.7,
+      "rain": 4.7
+    },
+    {
+      "place": "Mullaithivu",
+      "min_temp": 23.8,
+      "max_temp": 27.5,
+      "rain": 59.4
+    },
+    {
+      "place": "Castlereigh",
+      "rain": 54.5
+    },
+    {
+      "place": "Norton",
+      "rain": 104.5
+    },
+    {
+      "place": "Maussakele",
+      "rain": 40.0
+    },
+    {
+      "place": "Canyon",
+      "rain": 82.5
+    },
+    {
+      "place": "Lakshapana",
+      "rain": 108.0
+    },
+    {
+      "place": "Upper Kotmale",
+      "rain": 43.0
+    },
+    {
+      "place": "Kotmale",
+      "rain": 68.5
+    },
+    {
+      "place": "Victoriya",
+      "rain": 2.8
+    },
+    {
+      "place": "Nochchiyagama",
+      "rain": 300.4
+    },
+    {
+      "place": "Ranorava",
+      "rain": 260.0
+    },
+    {
+      "place": "Rambaawa",
+      "rain": 210.5
+    },
+    {
+      "place": "Wevalthalawa",
+      "rain": 200.2
+    },
+    {
+      "place": "Wagolla",
+      "rain": 180.5
+    },
+    {
+      "place": "Mihinthale",
+      "rain": 164.0
+    },
+    {
+      "place": "Kuliyapitiya",
+      "rain": 152.6
+    },
+    {
+      "place": "Dampalessa",
+      "rain": 151.6
+    },
+    {
+      "place": "Andigama",
+      "rain": 135.0
+    },
+    {
+      "place": "Dummalasooriya",
+      "rain": 133.7
+    }
+  ]
+}
