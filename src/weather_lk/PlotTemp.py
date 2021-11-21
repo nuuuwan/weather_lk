@@ -82,7 +82,9 @@ class PlotTemp(Figure):
         ax = plt.axes(self.left_bottom + self.width_height)
         ax.grid()
         plt.bar(places, min_temps, color='white')
-        barlist = plt.bar(places, max_temps_minus_min, bottom=min_temps, color='r')
+        barlist = plt.bar(
+            places, max_temps_minus_min, bottom=min_temps, color='r'
+        )
 
         for i, max_temp in enumerate(max_temps):
             color = 'r'
