@@ -1,0 +1,234 @@
+{
+  "date_ut": 1642032000,
+  "date": "2022-01-13",
+  "min_temp": {
+    "place": "Nuwara Eliya",
+    "temp": 11.7
+  },
+  "max_temp": {
+    "place": "Kurunagala",
+    "temp": 33.9
+  },
+  "max_rain": {
+    "place": "Guruluwana",
+    "rain": 34.0
+  },
+  "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 23.6,
+      "max_temp": 31.4,
+      "rain": 0.0
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 19.6,
+      "max_temp": 26.6,
+      "rain": 0.0
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 17.2,
+      "max_temp": 24.7,
+      "rain": 0.0
+    },
+    {
+      "place": "Batticaloa",
+      "min_temp": 23.2,
+      "max_temp": 29.4,
+      "rain": 1.4
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 24.9,
+      "max_temp": 31.2,
+      "rain": 0.0
+    },
+    {
+      "place": "Galle",
+      "min_temp": 26.0,
+      "max_temp": 30.1,
+      "rain": 0.1
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 24.6,
+      "max_temp": 31.7,
+      "rain": 8.1
+    },
+    {
+      "place": "Jaffna",
+      "min_temp": 22.6,
+      "max_temp": 30.0,
+      "rain": 0.3
+    },
+    {
+      "place": "Monaragala",
+      "min_temp": 22.5,
+      "max_temp": 32.3,
+      "rain": 0.0
+    },
+    {
+      "place": "Katugasthota",
+      "min_temp": 19.8,
+      "max_temp": 31.3,
+      "rain": 0.0
+    },
+    {
+      "place": "Katunayake",
+      "min_temp": 23.2,
+      "max_temp": 32.8,
+      "rain": 0.0
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 22.9,
+      "max_temp": 33.9,
+      "rain": 0.0
+    },
+    {
+      "place": "Maha Illuppallama",
+      "min_temp": 22.4,
+      "max_temp": 31.7,
+      "rain": 0.0
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 24.6,
+      "max_temp": 30.3,
+      "rain": 0.0
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 22.6,
+      "max_temp": 31.7,
+      "rain": 0.0
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 11.7,
+      "max_temp": 21.4,
+      "rain": 0.4
+    },
+    {
+      "place": "Pothuvil",
+      "min_temp": 24.0,
+      "max_temp": 30.8,
+      "rain": 0.0
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 23.2,
+      "max_temp": 32.2,
+      "rain": 0.0
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 24.6,
+      "max_temp": 31.3,
+      "rain": 0.0
+    },
+    {
+      "place": "Rathnapura",
+      "min_temp": 23.2,
+      "max_temp": 33.9,
+      "rain": 27.7
+    },
+    {
+      "place": "Trincomalee",
+      "min_temp": 23.4,
+      "max_temp": 29.8,
+      "rain": 0.0
+    },
+    {
+      "place": "Vavuniya",
+      "min_temp": 22.2,
+      "max_temp": 31.4,
+      "rain": 0.0
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 23.4,
+      "max_temp": 33.0,
+      "rain": 23.2
+    },
+    {
+      "place": "Mullaithivu",
+      "min_temp": 25.2,
+      "max_temp": 29.6,
+      "rain": 0.0
+    },
+    {
+      "place": "Castlereigh",
+      "rain": 0.0
+    },
+    {
+      "place": "Norton",
+      "rain": 3.5
+    },
+    {
+      "place": "Maussakele",
+      "rain": 0.0
+    },
+    {
+      "place": "Canyon",
+      "rain": 10.3
+    },
+    {
+      "place": "Lakshapana",
+      "rain": 0.5
+    },
+    {
+      "place": "Upper Kotmale",
+      "rain": 0.0
+    },
+    {
+      "place": "Kotmale",
+      "rain": 0.0
+    },
+    {
+      "place": "Victoriya",
+      "rain": 0.0
+    },
+    {
+      "place": "Guruluwana",
+      "rain": 34.0
+    },
+    {
+      "place": "Hanwella",
+      "rain": 30.5
+    },
+    {
+      "place": "Wevalthalawa",
+      "rain": 30.1
+    },
+    {
+      "place": "Balangoda",
+      "rain": 25.4
+    },
+    {
+      "place": "Hiniduma",
+      "rain": 25.0
+    },
+    {
+      "place": "Awissawella",
+      "rain": 19.9
+    },
+    {
+      "place": "Kuttapitiya Tea",
+      "rain": 16.4
+    },
+    {
+      "place": "Bandagiriya Tank",
+      "rain": 15.5
+    },
+    {
+      "place": "Karagala",
+      "rain": 14.2
+    },
+    {
+      "place": "Deniyaya",
+      "rain": 12.0
+    }
+  ]
+}
