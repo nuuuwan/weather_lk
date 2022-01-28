@@ -1,0 +1,234 @@
+{
+  "date_ut": 1643328000,
+  "date": "2022-01-28",
+  "min_temp": {
+    "place": "Nuwara Eliya",
+    "temp": 7.9
+  },
+  "max_temp": {
+    "place": "Rathnapura",
+    "temp": 33.6
+  },
+  "max_rain": {
+    "place": "Vakanari Wawa",
+    "rain": 4.7
+  },
+  "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 20.9,
+      "max_temp": 29.9,
+      "rain": 0.0
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 14.7,
+      "max_temp": 24.8,
+      "rain": 0.0
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 12.0,
+      "max_temp": 23.3,
+      "rain": 0.0
+    },
+    {
+      "place": "Batticaloa",
+      "min_temp": 22.3,
+      "max_temp": 29.6,
+      "rain": 0.9
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 23.2,
+      "max_temp": 33.4,
+      "rain": 0.0
+    },
+    {
+      "place": "Galle",
+      "min_temp": 23.3,
+      "max_temp": 30.3,
+      "rain": 0.0
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 21.9,
+      "max_temp": 30.7,
+      "rain": 0.0
+    },
+    {
+      "place": "Jaffna",
+      "min_temp": 21.1,
+      "max_temp": 30.0,
+      "rain": 0.0
+    },
+    {
+      "place": "Monaragala",
+      "min_temp": 17.9,
+      "max_temp": 30.5,
+      "rain": 0.0
+    },
+    {
+      "place": "Katugasthota",
+      "min_temp": 16.3,
+      "max_temp": 29.7,
+      "rain": 0.0
+    },
+    {
+      "place": "Katunayake",
+      "min_temp": 21.0,
+      "max_temp": 32.7,
+      "rain": 0.0
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 19.8,
+      "max_temp": 31.5,
+      "rain": 0.0
+    },
+    {
+      "place": "Maha Illuppallama",
+      "min_temp": 20.0,
+      "max_temp": 31.4,
+      "rain": 0.5
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 25.4,
+      "max_temp": 30.2,
+      "rain": 0.0
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 21.6,
+      "max_temp": 30.3,
+      "rain": 4.5
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 7.9,
+      "max_temp": 20.9,
+      "rain": 0.0
+    },
+    {
+      "place": "Pothuvil",
+      "min_temp": 22.4,
+      "max_temp": 30.6,
+      "rain": 0.0
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 20.9,
+      "max_temp": 31.4,
+      "rain": 0.0
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 23.1,
+      "max_temp": 33.1,
+      "rain": 3.8
+    },
+    {
+      "place": "Rathnapura",
+      "min_temp": 21.6,
+      "max_temp": 33.6,
+      "rain": 0.0
+    },
+    {
+      "place": "Trincomalee",
+      "min_temp": 23.0,
+      "max_temp": 29.3,
+      "rain": 1.2
+    },
+    {
+      "place": "Vavuniya",
+      "min_temp": 20.9,
+      "max_temp": 29.4,
+      "rain": 0.1
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 19.9,
+      "max_temp": 32.0,
+      "rain": 0.0
+    },
+    {
+      "place": "Mullaithivu",
+      "min_temp": 26.7,
+      "max_temp": 29.5,
+      "rain": 0.0
+    },
+    {
+      "place": "Castlereigh",
+      "rain": 0.0
+    },
+    {
+      "place": "Norton",
+      "rain": 0.0
+    },
+    {
+      "place": "Maussakele",
+      "rain": 0.0
+    },
+    {
+      "place": "Canyon",
+      "rain": 0.0
+    },
+    {
+      "place": "Lakshapana",
+      "rain": 0.0
+    },
+    {
+      "place": "Upper Kotmale",
+      "rain": 0.0
+    },
+    {
+      "place": "Kotmale",
+      "rain": 0.0
+    },
+    {
+      "place": "Victoriya",
+      "rain": 0.0
+    },
+    {
+      "place": "Vakanari Wawa",
+      "rain": 4.7
+    },
+    {
+      "place": "Palugasdamana",
+      "rain": 4.5
+    },
+    {
+      "place": "Angamedilla",
+      "rain": 3.6
+    },
+    {
+      "place": "Passikuda Eatste",
+      "rain": 3.1
+    },
+    {
+      "place": "Aralaganwila",
+      "rain": 2.5
+    },
+    {
+      "place": "Bakamuna",
+      "rain": 2.3
+    },
+    {
+      "place": "Diyabeduma",
+      "rain": 2.3
+    },
+    {
+      "place": "Rugam",
+      "rain": 1.3
+    },
+    {
+      "place": "Kalmunai",
+      "rain": 1.2
+    },
+    {
+      "place": "Minneriya",
+      "rain": 1.2
+    }
+  ]
+}
