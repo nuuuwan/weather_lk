@@ -1,0 +1,228 @@
+{
+  "date_ut": 1644710400,
+  "date": "2022-02-13",
+  "min_temp": {
+    "place": "Nuwara Eliya",
+    "temp": 13.6
+  },
+  "max_temp": {
+    "place": "Rathnapura",
+    "temp": 33.7
+  },
+  "max_rain": {
+    "place": "TCO Navy",
+    "rain": 186.3
+  },
+  "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 21.4,
+      "max_temp": 31.3,
+      "rain": 24.1
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 19.9,
+      "max_temp": 25.8,
+      "rain": 14.5
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 17.3,
+      "max_temp": 24.2,
+      "rain": 27.4
+    },
+    {
+      "place": "Batticaloa",
+      "min_temp": 23.0,
+      "max_temp": 29.9,
+      "rain": 49.5
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 23.8,
+      "max_temp": 32.1,
+      "rain": 19.2
+    },
+    {
+      "place": "Galle",
+      "min_temp": 23.7,
+      "max_temp": 29.4,
+      "rain": 70.0
+    },
+    {
+      "place": "Jaffna",
+      "min_temp": 23.5,
+      "max_temp": 28.5,
+      "rain": 23.1
+    },
+    {
+      "place": "Monaragala",
+      "min_temp": 22.6,
+      "max_temp": 30.0,
+      "rain": 25.0
+    },
+    {
+      "place": "Katugasthota",
+      "min_temp": 21.4,
+      "max_temp": 31.2,
+      "rain": 11.6
+    },
+    {
+      "place": "Katunayake",
+      "min_temp": 23.4,
+      "max_temp": 33.6,
+      "rain": 19.9
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 23.4,
+      "max_temp": 33.3,
+      "rain": 6.0
+    },
+    {
+      "place": "Maha Illuppallama",
+      "min_temp": 21.9,
+      "max_temp": 29.3,
+      "rain": 62.0
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 23.1,
+      "max_temp": 29.9,
+      "rain": 4.6
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 22.9,
+      "max_temp": 29.4,
+      "rain": 43.3
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 13.6,
+      "max_temp": 21.2,
+      "rain": 16.4
+    },
+    {
+      "place": "Pothuvil",
+      "min_temp": 23.6,
+      "max_temp": 30.7,
+      "rain": 50.6
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 22.1,
+      "max_temp": 33.0,
+      "rain": 54.6
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 23.6,
+      "max_temp": 32.1,
+      "rain": 28.1
+    },
+    {
+      "place": "Rathnapura",
+      "min_temp": 22.2,
+      "max_temp": 33.7,
+      "rain": 75.8
+    },
+    {
+      "place": "Trincomalee",
+      "min_temp": 22.6,
+      "max_temp": 29.4,
+      "rain": 135.8
+    },
+    {
+      "place": "Vavuniya",
+      "min_temp": 22.3,
+      "max_temp": 30.3,
+      "rain": 62.7
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 23.2,
+      "max_temp": 32.5,
+      "rain": 4.7
+    },
+    {
+      "place": "Mullaithivu",
+      "min_temp": 23.9,
+      "max_temp": 27.8,
+      "rain": 77.5
+    },
+    {
+      "place": "Castlereigh",
+      "rain": 45.0
+    },
+    {
+      "place": "Norton",
+      "rain": 57.8
+    },
+    {
+      "place": "Maussakele",
+      "rain": 65.3
+    },
+    {
+      "place": "Canyon",
+      "rain": 31.0
+    },
+    {
+      "place": "Lakshapana",
+      "rain": 73.0
+    },
+    {
+      "place": "Upper Kotmale",
+      "rain": 43.0
+    },
+    {
+      "place": "Kotmale",
+      "rain": 44.0
+    },
+    {
+      "place": "Victoriya",
+      "rain": 18.5
+    },
+    {
+      "place": "TCO Navy",
+      "rain": 186.3
+    },
+    {
+      "place": "Awissawella",
+      "rain": 170.8
+    },
+    {
+      "place": "Batuwangala",
+      "rain": 121.8
+    },
+    {
+      "place": "Passikuda Eatste",
+      "rain": 108.5
+    },
+    {
+      "place": "Kuchchaveli",
+      "rain": 103.5
+    },
+    {
+      "place": "Elephant Pass",
+      "rain": 90.4
+    },
+    {
+      "place": "Palugasdamana",
+      "rain": 84.0
+    },
+    {
+      "place": "Hiniduma",
+      "rain": 83.0
+    },
+    {
+      "place": "Ulhitiya",
+      "rain": 82.6
+    },
+    {
+      "place": "Madatugama",
+      "rain": 82.5
+    }
+  ]
+}
