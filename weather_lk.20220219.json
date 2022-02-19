@@ -1,0 +1,180 @@
+{
+  "date_ut": 1645228800,
+  "date": "2022-02-19",
+  "min_temp": {
+    "place": "Nuwara Eliya",
+    "temp": 11.6
+  },
+  "max_temp": {
+    "place": "Mattla",
+    "temp": 33.9
+  },
+  "max_rain": {
+    "place": "Katunayake",
+    "rain": 119.1
+  },
+  "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 23.7,
+      "max_temp": 31.2,
+      "rain": 0.0
+    },
+    {
+      "place": "Galle",
+      "min_temp": 25.3,
+      "max_temp": 32.1,
+      "rain": 0.0
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 25.4,
+      "max_temp": 32.1,
+      "rain": 0.0
+    },
+    {
+      "place": "Monaragala",
+      "min_temp": 23.8,
+      "max_temp": 32.7,
+      "rain": 0.1
+    },
+    {
+      "place": "Katunayake",
+      "min_temp": 23.8,
+      "max_temp": 31.8,
+      "rain": 119.1
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 26.3,
+      "max_temp": 30.4,
+      "rain": 0.0
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 23.8,
+      "max_temp": 31.3,
+      "rain": 0.1
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 11.6,
+      "max_temp": 23.0,
+      "rain": 1.4
+    },
+    {
+      "place": "Pothuvil",
+      "min_temp": 23.9,
+      "max_temp": 31.1,
+      "rain": 103.6
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 24.3,
+      "max_temp": 30.8,
+      "rain": 0.8
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 25.1,
+      "max_temp": 31.5,
+      "rain": 2.2
+    },
+    {
+      "place": "Rathnapura",
+      "min_temp": 23.8,
+      "max_temp": 32.1,
+      "rain": 0.1
+    },
+    {
+      "place": "Trincomalee",
+      "min_temp": 24.1,
+      "max_temp": 29.7,
+      "rain": 0.0
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 24.1,
+      "max_temp": 33.9,
+      "rain": 0.0
+    },
+    {
+      "place": "Mullaithivu",
+      "min_temp": 26.9,
+      "max_temp": 30.2,
+      "rain": 0.0
+    },
+    {
+      "place": "Castlereigh",
+      "rain": 0.0
+    },
+    {
+      "place": "Norton",
+      "rain": 0.0
+    },
+    {
+      "place": "Maussakele",
+      "rain": 0.0
+    },
+    {
+      "place": "Canyon",
+      "rain": 0.0
+    },
+    {
+      "place": "Lakshapana",
+      "rain": 0.0
+    },
+    {
+      "place": "Upper Kotmale",
+      "rain": 0.0
+    },
+    {
+      "place": "Kotmale",
+      "rain": 1.0
+    },
+    {
+      "place": "Victoriya",
+      "rain": 0.0
+    },
+    {
+      "place": "Rufuskulam",
+      "rain": 110.8
+    },
+    {
+      "place": "Deegavapi",
+      "rain": 95.2
+    },
+    {
+      "place": "Ampara",
+      "rain": 67.3
+    },
+    {
+      "place": "Sogama Tank",
+      "rain": 62.0
+    },
+    {
+      "place": "Illukuchchanai",
+      "rain": 60.8
+    },
+    {
+      "place": "Panama Tank",
+      "rain": 40.0
+    },
+    {
+      "place": "Hindawa",
+      "rain": 26.4
+    },
+    {
+      "place": "Pannalgama",
+      "rain": 25.4
+    },
+    {
+      "place": "Nawakiriaru Tank",
+      "rain": 25.0
+    },
+    {
+      "place": "Habarana Lodge",
+      "rain": 22.3
+    }
+  ]
+}
