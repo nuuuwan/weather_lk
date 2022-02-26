@@ -1,0 +1,210 @@
+{
+  "date_ut": 1645833600,
+  "date": "2022-02-26",
+  "min_temp": {
+    "place": "Katugasthota",
+    "temp": 21.9
+  },
+  "max_temp": {
+    "place": "Katunayake",
+    "temp": 34.3
+  },
+  "max_rain": {
+    "place": "Ilubuluwa Estate",
+    "rain": 23.9
+  },
+  "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 26.0,
+      "max_temp": 30.8,
+      "rain": 0.0
+    },
+    {
+      "place": "Batticaloa",
+      "min_temp": 24.1,
+      "max_temp": 29.3,
+      "rain": 0.0
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 24.1,
+      "max_temp": 32.6,
+      "rain": 0.8
+    },
+    {
+      "place": "Galle",
+      "min_temp": 24.4,
+      "max_temp": 29.9,
+      "rain": 0.2
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 25.3,
+      "max_temp": 31.8,
+      "rain": 0.0
+    },
+    {
+      "place": "Jaffna",
+      "min_temp": 22.0,
+      "max_temp": 29.9,
+      "rain": 0.0
+    },
+    {
+      "place": "Monaragala",
+      "min_temp": 22.2,
+      "max_temp": 30.4,
+      "rain": 0.0
+    },
+    {
+      "place": "Katugasthota",
+      "min_temp": 21.9,
+      "max_temp": 32.4,
+      "rain": 0.0
+    },
+    {
+      "place": "Katunayake",
+      "min_temp": 22.6,
+      "max_temp": 34.3,
+      "rain": 0.0
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 22.8,
+      "max_temp": 34.1,
+      "rain": 0.0
+    },
+    {
+      "place": "Maha Illuppallama",
+      "min_temp": 23.0,
+      "max_temp": 31.6,
+      "rain": 0.0
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 25.8,
+      "max_temp": 30.8,
+      "rain": 0.0
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 23.3,
+      "max_temp": 30.4,
+      "rain": 2.2
+    },
+    {
+      "place": "Pothuvil",
+      "min_temp": 24.2,
+      "max_temp": 28.6,
+      "rain": 17.0
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 22.1,
+      "max_temp": 33.0,
+      "rain": 0.0
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 24.1,
+      "max_temp": 33.1,
+      "rain": 0.6
+    },
+    {
+      "place": "Trincomalee",
+      "min_temp": 26.1,
+      "max_temp": 29.8,
+      "rain": 0.0
+    },
+    {
+      "place": "Vavuniya",
+      "min_temp": 23.4,
+      "max_temp": 31.0,
+      "rain": 0.0
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 23.8,
+      "max_temp": 32.0,
+      "rain": 0.0
+    },
+    {
+      "place": "Mullaithivu",
+      "min_temp": 27.0,
+      "max_temp": 29.7,
+      "rain": 0.0
+    },
+    {
+      "place": "Castlereigh",
+      "rain": 1.6
+    },
+    {
+      "place": "Norton",
+      "rain": 2.5
+    },
+    {
+      "place": "Maussakele",
+      "rain": 0.0
+    },
+    {
+      "place": "Canyon",
+      "rain": 0.0
+    },
+    {
+      "place": "Lakshapana",
+      "rain": 0.0
+    },
+    {
+      "place": "Upper Kotmale",
+      "rain": 0.0
+    },
+    {
+      "place": "Kotmale",
+      "rain": 0.0
+    },
+    {
+      "place": "Victoriya",
+      "rain": 0.0
+    },
+    {
+      "place": "Ilubuluwa Estate",
+      "rain": 23.9
+    },
+    {
+      "place": "Lahugala Tank",
+      "rain": 21.5
+    },
+    {
+      "place": "Bogawanthalawa",
+      "rain": 19.7
+    },
+    {
+      "place": "Hiniduma",
+      "rain": 18.0
+    },
+    {
+      "place": "Ginigathhena",
+      "rain": 12.3
+    },
+    {
+      "place": "Benthotawatta",
+      "rain": 10.2
+    },
+    {
+      "place": "Panama Tank",
+      "rain": 8.5
+    },
+    {
+      "place": "Kalatuwawa",
+      "rain": 7.1
+    },
+    {
+      "place": "Elston",
+      "rain": 3.1
+    },
+    {
+      "place": "Inginiyagala",
+      "rain": 2.5
+    }
+  ]
+}
