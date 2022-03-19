@@ -1,0 +1,184 @@
+{
+  "date_ut": 1647648000,
+  "date": "2022-03-19",
+  "min_temp": {
+    "place": "Mullaithivu",
+    "temp": 25.8
+  },
+  "max_temp": {
+    "place": "Mullaithivu",
+    "temp": 32.3
+  },
+  "max_rain": {
+    "place": "Canyon",
+    "rain": 79.7
+  },
+  "weather_list": [
+    {
+      "place": "Badulla",
+      "rain": 29.1
+    },
+    {
+      "place": "Bandarawela",
+      "rain": 24.9
+    },
+    {
+      "place": "Batticaloa",
+      "rain": 31.7
+    },
+    {
+      "place": "Colombo",
+      "rain": 32.3
+    },
+    {
+      "place": "Galle",
+      "rain": 30.0
+    },
+    {
+      "place": "Hambanthota",
+      "rain": 31.5
+    },
+    {
+      "place": "Jaffna",
+      "rain": 33.4
+    },
+    {
+      "place": "Monaragala",
+      "rain": 33.1
+    },
+    {
+      "place": "Katugasthota",
+      "rain": 31.4
+    },
+    {
+      "place": "Katunayake",
+      "rain": 31.7
+    },
+    {
+      "place": "Kurunagala",
+      "rain": 33.1
+    },
+    {
+      "place": "Maha Illuppallama",
+      "rain": 34.9
+    },
+    {
+      "place": "Mannar",
+      "rain": 31.9
+    },
+    {
+      "place": "Polonnaruwa",
+      "rain": 34.7
+    },
+    {
+      "place": "Nuwara Eliya",
+      "rain": 20.4
+    },
+    {
+      "place": "Pothuvil",
+      "rain": 31.6
+    },
+    {
+      "place": "Puttalam",
+      "rain": 32.7
+    },
+    {
+      "place": "Rathmalana",
+      "rain": 32.9
+    },
+    {
+      "place": "Rathnapura",
+      "rain": 32.1
+    },
+    {
+      "place": "Trincomalee",
+      "rain": 32.9
+    },
+    {
+      "place": "Vavuniya",
+      "rain": 35.0
+    },
+    {
+      "place": "Mattla",
+      "rain": 32.8
+    },
+    {
+      "place": "Mullaithivu",
+      "min_temp": 25.8,
+      "max_temp": 32.3,
+      "rain": 0.0
+    },
+    {
+      "place": "Castlereigh",
+      "rain": 27.5
+    },
+    {
+      "place": "Norton",
+      "rain": 54.2
+    },
+    {
+      "place": "Maussakele",
+      "rain": 41.0
+    },
+    {
+      "place": "Canyon",
+      "rain": 79.7
+    },
+    {
+      "place": "Lakshapana",
+      "rain": 50.3
+    },
+    {
+      "place": "Upper Kotmale",
+      "rain": 39.0
+    },
+    {
+      "place": "Kotmale",
+      "rain": 13.0
+    },
+    {
+      "place": "Victoriya",
+      "rain": 0.0
+    },
+    {
+      "place": "Watawala",
+      "rain": 37.2
+    },
+    {
+      "place": "Bandagiriya Tank",
+      "rain": 35.0
+    },
+    {
+      "place": "Gonapitiya Merigold",
+      "rain": 29.0
+    },
+    {
+      "place": "Liyangastota",
+      "rain": 21.2
+    },
+    {
+      "place": "Vakanari Wawa",
+      "rain": 19.4
+    },
+    {
+      "place": "Kotagala Rosita",
+      "rain": 18.5
+    },
+    {
+      "place": "Ambewela",
+      "rain": 18.4
+    },
+    {
+      "place": "Kahagolla Estate",
+      "rain": 18.0
+    },
+    {
+      "place": "Labugama",
+      "rain": 17.4
+    },
+    {
+      "place": "Padukka Estate",
+      "rain": 17.3
+    }
+  ]
+}
