@@ -1,6 +1,6 @@
 # Auto Generated
 camelot-py[cv]
-infographics-nuuuwan
+infographics-nuuuwan==1.0.8
 matplotlib
 numpy
 selenium

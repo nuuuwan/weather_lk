@@ -41,7 +41,7 @@ setuptools.setup(
     python_requires=">=3.6",
     install_requires=[
         'camelot-py[cv]',
-        'infographics-nuuuwan',
+        'infographics-nuuuwan==1.0.8',
         'matplotlib',
         'numpy',
         'selenium',
