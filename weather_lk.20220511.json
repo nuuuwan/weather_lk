@@ -1,0 +1,24 @@
+{
+  "date_ut": 1652227200,
+  "date": "2022-05-11",
+  "min_temp": {
+    "place": "Colombo",
+    "temp": 28.1
+  },
+  "max_temp": {
+    "place": "Colombo",
+    "temp": 32.0
+  },
+  "max_rain": {
+    "place": "Colombo",
+    "rain": 0.9
+  },
+  "weather_list": [
+    {
+      "place": "Colombo",
+      "min_temp": 28.1,
+      "max_temp": 32.0,
+      "rain": 0.9
+    }
+  ]
+}
