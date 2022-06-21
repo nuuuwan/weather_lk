@@ -4,5 +4,5 @@ infographics-nuuuwan==1.0.8
 matplotlib
 numpy
 selenium
-tweepy==3.10.0
+tweepy
 utils-nuuuwan
