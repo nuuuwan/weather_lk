@@ -11,6 +11,8 @@ from utils import jsonx, timex, www
 from weather_lk._constants import REGEX_DATE, REGEX_NON_ASCII, URL
 from weather_lk._utils import log
 
+PAGE_LOAD_TIMEOUT = 120
+
 
 def clean_location_name(cell):
     cell = re.sub(REGEX_NON_ASCII, '', cell)
@@ -66,6 +68,8 @@ def scrape(date_id):
     options = Options()
     options.headless = True
     browser = webdriver.Firefox(options=options)
+    browser.set_page_load_timeout(PAGE_LOAD_TIMEOUT)
+
     browser.get(URL)
     a_daily = browser.find_element_by_xpath("//a[text()='Daily Rainfall']")
     pdf_url = a_daily.get_attribute('href')
