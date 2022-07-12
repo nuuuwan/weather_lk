@@ -71,7 +71,7 @@ def scrape(date_id):
     browser.set_page_load_timeout(PAGE_LOAD_TIMEOUT)
 
     browser.get(URL)
-    a_daily = browser.find_element_by_xpath("//a[text()='Daily Rainfall']")
+    a_daily = browser.find_element("xpath", "//a[text()='Daily Rainfall']")
     pdf_url = a_daily.get_attribute('href')
     browser.quit()
 
