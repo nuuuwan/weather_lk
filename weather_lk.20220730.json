@@ -1,0 +1,198 @@
+{
+  "date_ut": 1659139200,
+  "date": "2022-07-30",
+  "min_temp": {
+    "place": "Nuwara Eliya",
+    "temp": 12.8
+  },
+  "max_temp": {
+    "place": "Rathnapura",
+    "temp": 32.3
+  },
+  "max_rain": {
+    "place": "Hindawa",
+    "rain": 125.5
+  },
+  "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 23.4,
+      "max_temp": 31.6,
+      "rain": 0.0
+    },
+    {
+      "place": "Batticaloa",
+      "min_temp": 25.0,
+      "max_temp": 31.1,
+      "rain": 0.0
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 25.9,
+      "max_temp": 29.6,
+      "rain": 0.7
+    },
+    {
+      "place": "Galle",
+      "min_temp": 25.7,
+      "max_temp": 28.5,
+      "rain": 0.2
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 25.0,
+      "max_temp": 30.4,
+      "rain": 0.0
+    },
+    {
+      "place": "Monaragala",
+      "min_temp": 23.2,
+      "max_temp": 30.5,
+      "rain": 0.0
+    },
+    {
+      "place": "Katugasthota",
+      "min_temp": 21.6,
+      "max_temp": 29.1,
+      "rain": 1.0
+    },
+    {
+      "place": "Katunayake",
+      "min_temp": 24.9,
+      "max_temp": 30.5,
+      "rain": 2.6
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 22.7,
+      "max_temp": 31.0,
+      "rain": 66.2
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 25.8,
+      "max_temp": 31.1,
+      "rain": 0.1
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 24.6,
+      "max_temp": 31.7,
+      "rain": 0.0
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 12.8,
+      "max_temp": 21.6,
+      "rain": 0.1
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 26.4,
+      "max_temp": 31.7,
+      "rain": 0.0
+    },
+    {
+      "place": "Rathnapura",
+      "min_temp": 23.9,
+      "max_temp": 32.3,
+      "rain": 0.0
+    },
+    {
+      "place": "Trincomalee",
+      "min_temp": 24.1,
+      "max_temp": 30.0,
+      "rain": 0.1
+    },
+    {
+      "place": "Vavuniya",
+      "min_temp": 24.4,
+      "max_temp": 30.1,
+      "rain": 0.3
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 23.4,
+      "max_temp": 31.8,
+      "rain": 0.0
+    },
+    {
+      "place": "Mullaitivu",
+      "min_temp": 25.1,
+      "max_temp": 29.5,
+      "rain": 3.0
+    },
+    {
+      "place": "Castlereigh",
+      "rain": 7.0
+    },
+    {
+      "place": "Norton",
+      "rain": 14.5
+    },
+    {
+      "place": "Maussakele",
+      "rain": 0.0
+    },
+    {
+      "place": "Canyon",
+      "rain": 1.3
+    },
+    {
+      "place": "Lakshapana",
+      "rain": 1.5
+    },
+    {
+      "place": "Upper Kotmale",
+      "rain": 0.0
+    },
+    {
+      "place": "Kotmale",
+      "rain": 0.0
+    },
+    {
+      "place": "Victoriya",
+      "rain": 0.0
+    },
+    {
+      "place": "Hindawa",
+      "rain": 125.5
+    },
+    {
+      "place": "Kuliyapitiya",
+      "rain": 104.8
+    },
+    {
+      "place": "Nikaweratiya",
+      "rain": 104.1
+    },
+    {
+      "place": "Batalagoda",
+      "rain": 83.5
+    },
+    {
+      "place": "Dodangaslanda",
+      "rain": 77.0
+    },
+    {
+      "place": "Tampana",
+      "rain": 65.5
+    },
+    {
+      "place": "Wellawa",
+      "rain": 36.0
+    },
+    {
+      "place": "Handessa",
+      "rain": 25.9
+    },
+    {
+      "place": "Tabbowa",
+      "rain": 19.8
+    },
+    {
+      "place": "Mediyawa",
+      "rain": 17.2
+    }
+  ]
+}
