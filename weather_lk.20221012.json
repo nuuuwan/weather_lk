@@ -1,0 +1,228 @@
+{
+  "date_ut": 1665532800,
+  "date": "2022-10-12",
+  "min_temp": {
+    "place": "Nuwara Eliya",
+    "temp": 11.5
+  },
+  "max_temp": {
+    "place": "Anuradhapura",
+    "temp": 34.2
+  },
+  "max_rain": {
+    "place": "Diyabeduma",
+    "rain": 84.8
+  },
+  "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 25.0,
+      "max_temp": 34.2,
+      "rain": 0.4
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 18.4,
+      "max_temp": 28.3,
+      "rain": 6.9
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 16.5,
+      "max_temp": 24.6,
+      "rain": 0.8
+    },
+    {
+      "place": "Batticaloa",
+      "min_temp": 25.0,
+      "max_temp": 30.5,
+      "rain": 0.0
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 25.0,
+      "max_temp": 31.1,
+      "rain": 12.8
+    },
+    {
+      "place": "Galle",
+      "min_temp": 25.2,
+      "max_temp": 29.6,
+      "rain": 1.2
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 25.6,
+      "max_temp": 32.0,
+      "rain": 0.0
+    },
+    {
+      "place": "Jaffna",
+      "min_temp": 24.9,
+      "max_temp": 32.0,
+      "rain": 3.4
+    },
+    {
+      "place": "Monaragala",
+      "min_temp": 21.8,
+      "max_temp": 32.5,
+      "rain": 54.4
+    },
+    {
+      "place": "Katunayake",
+      "min_temp": 24.2,
+      "max_temp": 30.8,
+      "rain": 11.7
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 23.7,
+      "max_temp": 32.4,
+      "rain": 0.0
+    },
+    {
+      "place": "Maha Illuppallama",
+      "min_temp": 24.3,
+      "max_temp": 32.9,
+      "rain": 0.0
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 25.7,
+      "max_temp": 30.3,
+      "rain": 0.0
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 24.2,
+      "max_temp": 33.2,
+      "rain": 0.0
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 11.5,
+      "max_temp": 20.1,
+      "rain": 14.5
+    },
+    {
+      "place": "Pothuvil",
+      "min_temp": 24.1,
+      "max_temp": 33.2,
+      "rain": 0.0
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 24.9,
+      "max_temp": 32.3,
+      "rain": 8.3
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 25.0,
+      "max_temp": 31.8,
+      "rain": 9.6
+    },
+    {
+      "place": "Rathnapura",
+      "min_temp": 23.4,
+      "max_temp": 32.8,
+      "rain": 14.8
+    },
+    {
+      "place": "Trincomalee",
+      "min_temp": 23.4,
+      "max_temp": 33.4,
+      "rain": 10.0
+    },
+    {
+      "place": "Vavuniya",
+      "min_temp": 24.0,
+      "max_temp": 33.3,
+      "rain": 1.2
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 24.5,
+      "max_temp": 33.4,
+      "rain": 0.0
+    },
+    {
+      "place": "Mullaithivu",
+      "min_temp": 24.3,
+      "max_temp": 32.4,
+      "rain": 12.0
+    },
+    {
+      "place": "Castlereigh",
+      "rain": 1.7
+    },
+    {
+      "place": "Norton",
+      "rain": 1.0
+    },
+    {
+      "place": "Maussakele",
+      "rain": 0.7
+    },
+    {
+      "place": "Canyon",
+      "rain": 1.3
+    },
+    {
+      "place": "Lakshapana",
+      "rain": 0.7
+    },
+    {
+      "place": "Upper Kotmale",
+      "rain": 0.9
+    },
+    {
+      "place": "Kotmale",
+      "rain": 10.5
+    },
+    {
+      "place": "Victoriya",
+      "rain": 0.0
+    },
+    {
+      "place": "Diyabeduma",
+      "rain": 84.8
+    },
+    {
+      "place": "Wevalthalawa",
+      "rain": 80.1
+    },
+    {
+      "place": "Monaragala Water",
+      "rain": 68.3
+    },
+    {
+      "place": "Wellawaya",
+      "rain": 54.0
+    },
+    {
+      "place": "Habarana Lodge",
+      "rain": 52.5
+    },
+    {
+      "place": "Elahara",
+      "rain": 51.0
+    },
+    {
+      "place": "Kalavedi Ulpotha",
+      "rain": 50.4
+    },
+    {
+      "place": "Ayagama",
+      "rain": 46.1
+    },
+    {
+      "place": "Mathugama",
+      "rain": 37.6
+    },
+    {
+      "place": "Parangiyawadiya",
+      "rain": 37.5
+    }
+  ]
+}
