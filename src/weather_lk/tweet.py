@@ -1,7 +1,7 @@
 """Tweet."""
 
 
-from utils import timex, twitter
+from utils import Time, TimeFormat, twitter
 
 from weather_lk import PlotRain, PlotTemp, daily_weather_report
 
@@ -11,7 +11,7 @@ def _hash(_s):
 
 
 def _tweet():
-    date_id = timex.get_date_id()
+    date_id = TimeFormat('%Y-%m-%d').stime(Time.now())
     data = daily_weather_report.load(date_id)
 
     if data.get('max_rain', {}).get('rain', 0) >= 0.1:

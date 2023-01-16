@@ -6,12 +6,13 @@ import re
 import camelot
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
-from utils import jsonx, timex, www
+from utils import WWW, JSONFile, Time, TimeFormat
 
 from weather_lk._constants import REGEX_DATE, REGEX_NON_ASCII, URL
 from weather_lk._utils import log
 
 PAGE_LOAD_TIMEOUT = 120
+FORMAT_DATE_ID = '%Y-%m-%d'
 
 
 def clean_location_name(cell):
@@ -75,7 +76,7 @@ def scrape(date_id):
     pdf_url = a_daily.get_attribute('href')
     browser.quit()
 
-    www.download_binary(pdf_url, pdf_file)
+    WWW(pdf_url).downloadBinary(pdf_file)
     log.info(f'Downloaded {pdf_url} to {pdf_file}')
 
 
@@ -98,7 +99,7 @@ def parse(date_id):
         result = re.search(REGEX_DATE, row_str)
         if result:
             date_str = result.groupdict().get('date_str')
-            ut = timex.parse_time(date_str, '%Y.%m.%d')
+            ut = TimeFormat('%Y.%m.%d').parse(date_str).ut
             continue
 
         if row[0] != '' and row[-1] == '':
@@ -176,7 +177,7 @@ def parse(date_id):
 
     data = {
         'date_ut': ut,
-        'date': timex.get_date(ut),
+        'date': TimeFormat('%Y-%m-%d').stringify(Time.now()),
         'min_temp': {
             'place': min_temp_place,
             'temp': min_temp,
@@ -192,7 +193,7 @@ def parse(date_id):
         'weather_list': weather_list,
     }
 
-    doc_date_id = timex.get_date_id(ut)
+    doc_date_id = TimeFormat('%Y-%m-%d').stringify(Time(ut))
     if doc_date_id != date_id:
         log.error(f'Invalid doc_date_id: {doc_date_id} != {date_id}')
         os.system(f'rm {pdf_file}')
@@ -200,7 +201,7 @@ def parse(date_id):
         return
 
     json_file = get_file(date_id, 'json')
-    jsonx.write(json_file, data)
+    JSONFile(json_file).write(data)
     log.info(f'Wrote {json_file}')
     return data
 
@@ -210,7 +211,7 @@ def load(date_id):
 
     json_file = get_file(date_id, 'json')
     if os.path.exists(json_file):
-        data = jsonx.read(json_file)
+        data = JSONFile(json_file).read()
         n_places = len(data['weather_list'])
         log.info(f'Loaded data for {n_places} locally, from {json_file}')
         return data
@@ -219,8 +220,8 @@ def load(date_id):
         'https://raw.githubusercontent.com/nuuuwan/weather_lk/data',
         'weather_lk.%s.json' % date_id,
     )
-    if www.exists(url):
-        data = www.read_json(url)
+    if WWW(url).exists:
+        data = WWW(url).readJSON()
         n_places = len(data['weather_list'])
         log.info(f'Loaded data for {n_places} remotely, from {url}')
         return data
@@ -230,6 +231,6 @@ def load(date_id):
 
 
 if __name__ == '__main__':
-    date_id = timex.get_date_id()
+    date_id = TimeFormat(FORMAT_DATE_ID).stringify(Time.now())
     scrape(date_id)
     parse(date_id)
