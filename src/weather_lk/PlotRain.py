@@ -2,7 +2,7 @@
 import matplotlib.pyplot as plt
 from infographics.Figure import Figure
 from infographics.Infographic import Infographic
-from utils import timex
+from utils import TIME_FORMAT_DATE_ID, Time
 
 from weather_lk import daily_weather_report
 
@@ -13,7 +13,7 @@ class PlotRain(Figure):
         left_bottom=(0.1, 0.25),
         width_height=(0.8, 0.6),
         figure_text='',
-        date_id=timex.get_date_id(),
+        date_id=TIME_FORMAT_DATE_ID.stringify(Time()),
     ):
         super().__init__(
             left_bottom=left_bottom,
@@ -110,5 +110,5 @@ def _plot(date_id):
 
 
 if __name__ == '__main__':
-    date_id = timex.get_date_id()
+    date_id = TIME_FORMAT_DATE_ID.stringify(Time())
     _plot(date_id)
