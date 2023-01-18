@@ -47,6 +47,7 @@ setuptools.setup(
         'selenium',
         'tweepy==3.10.0',
         'utils-nuuuwan',
+        'PyPDF2<3.0',
     ],
     test_suite='nose.collector',
     tests_require=['nose'],
