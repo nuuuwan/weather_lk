@@ -11,7 +11,7 @@ def _hash(_s):
 
 
 def _tweet():
-    date_id = TimeFormat('%Y-%m-%d').stime(Time.now())
+    date_id = TimeFormat('%Y-%m-%d').stringify(Time.now())
     data = daily_weather_report.load(date_id)
 
     if data.get('max_rain', {}).get('rain', 0) >= 0.1:
