@@ -14,7 +14,8 @@ def _tweet():
     date_id = TimeFormat('%Y-%m-%d').stringify(Time.now())
     data = daily_weather_report.load(date_id)
 
-    if data.get('max_rain', {}).get('rain', 0) >= 0.1:
+    max_rain_value = data.get('max_rain', {}).get('rain', 0)
+    if  max_rain_value and max_rain_value >= 0.1:
         rain_str = (
             '''Highest: {max_rain_place} ({max_rain_rain:.1f}mm)'''.format(
                 max_rain_place=_hash(data['max_rain']['place']),
