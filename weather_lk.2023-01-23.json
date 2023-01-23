@@ -1,0 +1,180 @@
+{
+  "date_ut": 1674412200.0,
+  "date": "2023-01-23",
+  "min_temp": {
+    "place": "Nuwara Eliya",
+    "temp": 13.4
+  },
+  "max_temp": {
+    "place": "Puttalam",
+    "temp": 29.5
+  },
+  "max_rain": {
+    "place": "Maha",
+    "rain": 33.2
+  },
+  "weather_list": [
+    {
+      "place": "Badulla",
+      "min_temp": 17.1,
+      "max_temp": 22.4,
+      "rain": 0.7
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 16.1,
+      "max_temp": 20.4,
+      "rain": 0.1
+    },
+    {
+      "place": "Batticaloa",
+      "min_temp": 23.0,
+      "max_temp": 26.6,
+      "rain": 0.4
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 23.7,
+      "max_temp": 27.4,
+      "rain": 0.4
+    },
+    {
+      "place": "Jaffna",
+      "min_temp": 24.6,
+      "max_temp": 28.0,
+      "rain": 0.1
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 22.5,
+      "max_temp": 29.2,
+      "rain": 0.0
+    },
+    {
+      "place": "Maha Illuppallama",
+      "min_temp": 22.1,
+      "max_temp": 27.0,
+      "rain": 0.6
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 22.6,
+      "max_temp": 26.9,
+      "rain": 0.7
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 13.4,
+      "max_temp": 17.6,
+      "rain": 0.1
+    },
+    {
+      "place": "Pothuvil",
+      "min_temp": 23.0,
+      "max_temp": 25.9,
+      "rain": 0.0
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 22.7,
+      "max_temp": 29.5,
+      "rain": 0.0
+    },
+    {
+      "place": "Rathnapura",
+      "min_temp": 22.1,
+      "max_temp": 29.5,
+      "rain": 0.0
+    },
+    {
+      "place": "Vavuniya",
+      "min_temp": 23.0,
+      "max_temp": 29.2,
+      "rain": 0.3
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 22.8,
+      "max_temp": 27.0,
+      "rain": 0.0
+    },
+    {
+      "place": "Mullaithivu",
+      "min_temp": 25.6,
+      "max_temp": 27.6,
+      "rain": 0.2
+    },
+    {
+      "place": "Castlereigh",
+      "rain": 0.0
+    },
+    {
+      "place": "Norton",
+      "rain": 0.0
+    },
+    {
+      "place": "Maussakele",
+      "rain": 0.0
+    },
+    {
+      "place": "Canyon",
+      "rain": 0.0
+    },
+    {
+      "place": "Lakshapana",
+      "rain": 0.0
+    },
+    {
+      "place": "Upper Kotmale",
+      "rain": 0.0
+    },
+    {
+      "place": "Kotmale",
+      "rain": 0.0
+    },
+    {
+      "place": "Victoriya",
+      "rain": 0.0
+    },
+    {
+      "place": "Maha",
+      "rain": 33.2
+    },
+    {
+      "place": "Maylambauely",
+      "rain": 27.5
+    },
+    {
+      "place": "Elephant Pass",
+      "rain": 21.5
+    },
+    {
+      "place": "Kandaketiya",
+      "rain": 10.2
+    },
+    {
+      "place": "Hope",
+      "rain": 10.0
+    },
+    {
+      "place": "Rufuskulam",
+      "rain": 6.1
+    },
+    {
+      "place": "Udaradella",
+      "rain": 5.8
+    },
+    {
+      "place": "Rambaawa",
+      "rain": 5.5
+    },
+    {
+      "place": "Dethanagala",
+      "rain": 5.3
+    },
+    {
+      "place": "Aralaganwila",
+      "rain": 1.6
+    }
+  ]
+}
