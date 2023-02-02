@@ -40,7 +40,6 @@ class TestWeatherDataParserMixin(TestCase):
         )
 
     def test_weather_data(self):
-        print(TEST_WR.weather_data)
         self.assertEqual(
             TEST_WR.weather_data,
             JSONFile('tests/data.expected.json').read(),

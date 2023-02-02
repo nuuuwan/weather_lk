@@ -1,13 +1,8 @@
-import sys
 from unittest import TestCase, skip
 
 from utils import get_date_id
 
 from weather_lk import WeatherReport
-
-sys.path.append('/Users/nuwan.senaratna/Dropbox/_CODING/py/weather_lk/src')
-print(sys.path)
-
 
 TEST_WR = WeatherReport()
 
