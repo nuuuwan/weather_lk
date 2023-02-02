@@ -13,7 +13,7 @@ class TestTweeter(TestCase):
     def test_tweet_image_path(self):
         self.assertEqual(
             TEST_TWEETER.tweet_image_path,
-            '/tmp/weather_lk.2023-02-02.png',
+            '/tmp/weather_lk.20230202.png',
         )
 
     @skip('File Compare')
@@ -39,6 +39,6 @@ class TestTweeter(TestCase):
             TEST_TWEETER.tweet_text,
         )
 
-    # @skip('Twitter API Use')
+    @skip('Twitter API Use')
     def test_send(self):
         Twitter.from_environ_vars().send(TEST_TWEETER.tweet)

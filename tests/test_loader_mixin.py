@@ -13,7 +13,7 @@ class TestLoaderMixin(TestCase):
                 'nuuuwan',
                 'weather_lk',
                 'data',
-                'weather_lk.2023-02-02.json',
+                'weather_lk.20230202.json',
             ),
         )
 

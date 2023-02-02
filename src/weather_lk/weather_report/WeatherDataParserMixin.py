@@ -72,14 +72,14 @@ class WeatherDataParserMixin:
     @cached_property
     def weather_data(self):
         weather_list_ut = self.weather_list_ut
-        date_id = TimeFormat('%Y-%m-%d').stringify(Time(weather_list_ut))
-        date_id_now = self.date_id
-        if date_id != date_id_now:
-            raise Exception(f'Invalid date: {date_id} != {date_id_now}')
+        date = TimeFormat('%Y-%m-%d').stringify(Time(weather_list_ut))
+        date_now = TimeFormat('%Y-%m-%d').stringify(Time.now())
+        if date != date_now:
+            raise Exception(f'Invalid date: {date} != {date_now}')
 
         weather_data = dict(
             date_ut=weather_list_ut,
-            date=date_id,
+            date=date,
             min_temp=self.min_temp,
             max_temp=self.max_temp,
             max_rain=self.max_rain,

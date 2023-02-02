@@ -37,7 +37,7 @@ class TestWeatherListParserMixin(TestCase):
     def test_weather_list_ut(self):
         ut = TEST_WR.weather_list_ut
         self.assertEqual(ut, 1675276200.0)
-        date_id = TimeFormat('%Y-%m-%d').stringify(Time(ut))
+        date_id = TimeFormat('%Y%m%d').stringify(Time(ut))
         self.assertEqual(date_id, TEST_WR.date_id)
 
     def test_parse_single_place_row(self):
@@ -60,10 +60,14 @@ class TestWeatherListParserMixin(TestCase):
                 dict(
                     place='Castlereigh',
                     rain=3.4,
+                    min_temp=None,
+                    max_temp=None,
                 ),
                 dict(
                     place='Randenigala',
                     rain=1.3,
+                    min_temp=None,
+                    max_temp=None,
                 ),
             ],
         )

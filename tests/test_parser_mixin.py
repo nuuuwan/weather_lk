@@ -10,7 +10,7 @@ class MockHackWeatherReport(WeatherReport):
 
     @property
     def date_id(self):
-        return '2023-02-02'
+        return '20230202'
 
 
 TEST_WR = MockHackWeatherReport()
