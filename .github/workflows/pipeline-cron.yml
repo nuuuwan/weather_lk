@@ -1,5 +1,9 @@
 
-name: Upload Data - Manual
+name: Upload Data - Cron
+
+# on:
+#   schedule:
+#     - cron:  "0 9 * * *"
 
 on: workflow_dispatch
 
@@ -38,7 +42,7 @@ jobs:
     - name: Run
       run: |
         export PYTHONPATH="$PYTHONPATH:./src"
-        python src/weather_lk/daily_weather_report.py
+        python workflows/pipeline.py
 
     - name: Checkout repo branch data
       uses: actions/checkout@v2

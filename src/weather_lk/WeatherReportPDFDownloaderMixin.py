@@ -1,8 +1,8 @@
-from utils import get_date_id, File, WWW
-from weather_lk._utils import log
-
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
+from utils import WWW, File, get_date_id
+
+from weather_lk._utils import log
 
 
 class WeatherReportPDFDownloaderMixin:

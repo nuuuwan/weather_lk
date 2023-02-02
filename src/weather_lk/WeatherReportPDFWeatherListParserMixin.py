@@ -1,5 +1,5 @@
-from functools import cached_property
 import re
+from functools import cached_property
 
 from utils import String, TimeFormat
 
