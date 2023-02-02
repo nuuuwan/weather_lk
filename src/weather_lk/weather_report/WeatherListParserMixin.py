@@ -3,7 +3,7 @@ from functools import cached_property
 
 from utils import String, TimeFormat
 
-from weather_lk.REGEX import REGEX
+from weather_lk.weather_report.REGEX import REGEX
 
 
 class WeatherListParserMixin:
