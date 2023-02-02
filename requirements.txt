@@ -1,7 +1,7 @@
+PyPDF2<=2.0.0
+opencv-python
 camelot-py[cv]
+utils-nuuuwan
 infograph-nuuuwan
-matplotlib
-numpy
 selenium
 tweepy
-utils-nuuuwan
