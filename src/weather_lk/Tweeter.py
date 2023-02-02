@@ -122,4 +122,5 @@ Temperature 🌡️
         )
 
     def send(self):
+        self.build_tweet_image()
         Twitter.from_args().send(self.tweet)
