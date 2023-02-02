@@ -6,4 +6,4 @@ numpy
 selenium
 tweepy
 utils-nuuuwan
-PyPDF2<3.0
+Py2<3.0

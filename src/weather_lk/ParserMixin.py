@@ -6,7 +6,7 @@ from utils import JSONFile, TimeFormat
 from weather_lk._utils import log
 
 
-class WeatherReportPDFParserMixin:
+class ParserMixin:
     @property
     def table_file_path(self):
         return self.file_path[:-4] + '.csv'

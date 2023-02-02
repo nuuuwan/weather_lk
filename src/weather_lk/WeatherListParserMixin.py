@@ -6,7 +6,7 @@ from utils import String, TimeFormat
 from weather_lk.REGEX import REGEX
 
 
-class WeatherReportPDFWeatherListParserMixin:
+class WeatherListParserMixin:
     def clean_cell(self, cell):
         cell = re.sub(REGEX.NON_ASCII, '', cell)
         cell = re.sub(r'\s+', ' ', cell)
@@ -14,10 +14,7 @@ class WeatherReportPDFWeatherListParserMixin:
         return cell
 
     def clean_row(self, row):
-        return [
-            WeatherReportPDFWeatherListParserMixin.clean_cell(cell)
-            for cell in row
-        ]
+        return [WeatherListParserMixin.clean_cell(cell) for cell in row]
 
     def clean_location_name(self, cell):
         cell = re.sub(REGEX.NON_ASCII, '', cell)

@@ -5,7 +5,7 @@ from utils import WWW, File, get_date_id
 from weather_lk._utils import log
 
 
-class WeatherReportPDFDownloaderMixin:
+class DownloaderMixin:
     URL = 'https://www.meteo.gov.lk/index.php?lang=en'
     PAGE_LOAD_TIMEOUT = 120
 

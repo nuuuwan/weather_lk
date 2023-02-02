@@ -4,7 +4,7 @@ from infograph import BarChart, DataTable, Infograph, RangeBarChart
 from utils import Twitter
 
 
-class WeatherReportTweeter:
+class Tweeter:
     def __init__(self, weather_data):
         self.weather_data = weather_data
 

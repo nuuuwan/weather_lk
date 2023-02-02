@@ -5,7 +5,7 @@ from utils import WWW, JSONFile
 from weather_lk._utils import log
 
 
-class WeatherReportPDFLoaderMixin:
+class LoaderMixin:
     @property
     def remote_weather_data_url(self):
         return os.path.join(
