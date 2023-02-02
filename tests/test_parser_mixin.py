@@ -8,6 +8,10 @@ class MockHackWeatherReport(WeatherReport):
     def file_path(self):
         return 'tests/data.pdf'
 
+    @property
+    def date_id(self):
+        return '2023-02-02'
+
 
 TEST_WR = MockHackWeatherReport()
 

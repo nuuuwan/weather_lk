@@ -1,6 +1,6 @@
 from functools import cached_property
 
-from utils import JSONFile, TimeFormat
+from utils import JSONFile, Time, TimeFormat
 
 
 class WeatherDataParserMixin:
@@ -72,7 +72,7 @@ class WeatherDataParserMixin:
     @cached_property
     def weather_data(self):
         weather_list_ut = self.weather_list_ut
-        date_id = TimeFormat('%Y-%m-%d').stringify(weather_list_ut)
+        date_id = TimeFormat('%Y-%m-%d').stringify(Time(weather_list_ut))
         date_id_now = self.date_id
         if date_id != date_id_now:
             raise Exception(f'Invalid date: {date_id} != {date_id_now}')

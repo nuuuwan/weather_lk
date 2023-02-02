@@ -1,5 +1,7 @@
 from unittest import TestCase
 
+from utils import Time, TimeFormat
+
 from tests.test_parser_mixin import TEST_WR
 
 
@@ -33,7 +35,10 @@ class TestWeatherListParserMixin(TestCase):
             self.assertEqual(TEST_WR.clean_location_name(name), cleaned_name)
 
     def test_weather_list_ut(self):
-        self.assertEqual(TEST_WR.weather_list_ut, 1675276200.0)
+        ut = TEST_WR.weather_list_ut
+        self.assertEqual(ut, 1675276200.0)
+        date_id = TimeFormat('%Y-%m-%d').stringify(Time(ut))
+        self.assertEqual(date_id, TEST_WR.date_id)
 
     def test_parse_single_place_row(self):
         self.assertEqual(
