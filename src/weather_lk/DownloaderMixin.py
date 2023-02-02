@@ -10,7 +10,7 @@ class DownloaderMixin:
     PAGE_LOAD_TIMEOUT = 120
 
     @property
-    def data_id(self):
+    def date_id(self):
         return get_date_id()
 
     @property

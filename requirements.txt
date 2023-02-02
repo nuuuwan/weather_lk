@@ -1,9 +1,7 @@
-# Auto Generated
 camelot-py[cv]
-infographics-nuuuwan==1.0.8
+infograph-nuuuwan
 matplotlib
 numpy
 selenium
 tweepy
 utils-nuuuwan
-Py2<3.0
