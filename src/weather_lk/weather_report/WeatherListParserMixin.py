@@ -14,7 +14,7 @@ class WeatherListParserMixin:
         return cell
 
     def clean_row(self, row):
-        return [WeatherListParserMixin.clean_cell(cell) for cell in row]
+        return [self.clean_cell(cell) for cell in row]
 
     def clean_location_name(self, cell):
         cell = re.sub(REGEX.NON_ASCII, '', cell)
@@ -44,7 +44,6 @@ class WeatherListParserMixin:
                 return TimeFormat('%Y.%m.%d').parse(date_str).ut
         return None
 
-    @cached_property
     def parse_single_place_row(self, row):
         place_str, max_temp_str, min_temp_str, rain_str, _ = row
         place = self.clean_location_name(place_str)
@@ -64,7 +63,6 @@ class WeatherListParserMixin:
             )
         ]
 
-    @cached_property
     def parse_double_place_row(self, row):
         place_str1, rain_str1, place_str2, _, rain_str2 = row
         place1 = self.clean_location_name(place_str1)
@@ -89,7 +87,6 @@ class WeatherListParserMixin:
             )
         return weather_list
 
-    @cached_property
     def parse_row(self, row):
         row = self.clean_row(row)
 
