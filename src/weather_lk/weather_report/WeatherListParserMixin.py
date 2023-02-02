@@ -76,6 +76,8 @@ class WeatherListParserMixin:
                 dict(
                     place=place1,
                     rain=rain1,
+                    min_temp=None,
+                    max_temp=None,
                 )
             )
         if rain2 is not None:
@@ -83,6 +85,8 @@ class WeatherListParserMixin:
                 dict(
                     place=place2,
                     rain=rain2,
+                    min_temp=None,
+                    max_temp=None,
                 )
             )
         return weather_list
