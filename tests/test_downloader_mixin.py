@@ -1,13 +1,18 @@
+import sys
 from unittest import TestCase, skip
 
 from utils import get_date_id
 
 from weather_lk import WeatherReport
 
+sys.path.append('/Users/nuwan.senaratna/Dropbox/_CODING/py/weather_lk/src')
+print(sys.path)
+
+
 TEST_WR = WeatherReport()
 
 
-class TestWRDownloader(TestCase):
+class TestDownloaderMixin(TestCase):
     def test_date_id(self):
         self.assertEqual(TEST_WR.date_id, get_date_id())
 
