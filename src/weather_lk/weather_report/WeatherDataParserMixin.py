@@ -73,9 +73,8 @@ class WeatherDataParserMixin:
     def weather_data(self):
         weather_list_ut = self.weather_list_ut
         date = TimeFormat('%Y-%m-%d').stringify(Time(weather_list_ut))
-        date_now = TimeFormat('%Y-%m-%d').stringify(Time.now())
-        if date != date_now:
-            raise Exception(f'Invalid date: {date} != {date_now}')
+        date_id = date.replace('-', '')
+        assert self.date_id == date_id
 
         weather_data = dict(
             date_ut=weather_list_ut,
