@@ -1,0 +1,366 @@
+{
+  "date_ut": 1676399400.0,
+  "date": "2023-02-15",
+  "min_temp": {
+    "min_temp": 6.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.9,
+    "max_temp_place": "Rathnapura"
+  },
+  "max_rain": {
+    "max_rain": 13.2,
+    "max_rain_place": "Batuwangala"
+  },
+  "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 20.8,
+      "max_temp": 31.9,
+      "rain": 0.0
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 16.7,
+      "max_temp": 27.0,
+      "rain": 0.0
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 12.0,
+      "max_temp": 25.2,
+      "rain": 0.0
+    },
+    {
+      "place": "Batticaloa",
+      "min_temp": 21.5,
+      "max_temp": 28.6,
+      "rain": 0.0
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 24.1,
+      "max_temp": 31.6,
+      "rain": 0.0
+    },
+    {
+      "place": "Galle",
+      "min_temp": 24.0,
+      "max_temp": 29.7,
+      "rain": 0.0
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 23.2,
+      "max_temp": 31.1,
+      "rain": 0.0
+    },
+    {
+      "place": "Jaffna",
+      "min_temp": 18.1,
+      "max_temp": 30.4,
+      "rain": 0.0
+    },
+    {
+      "place": "Monaragala",
+      "min_temp": 19.4,
+      "max_temp": 32.2,
+      "rain": 0.0
+    },
+    {
+      "place": "Katugasthota",
+      "min_temp": 16.0,
+      "max_temp": 30.1,
+      "rain": 0.0
+    },
+    {
+      "place": "Katunayake",
+      "min_temp": 21.6,
+      "max_temp": 31.3,
+      "rain": 0.0
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 20.8,
+      "max_temp": 33.3,
+      "rain": 0.0
+    },
+    {
+      "place": "Maha Illuppallama",
+      "min_temp": 17.2,
+      "max_temp": 31.0,
+      "rain": 0.0
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 21.9,
+      "max_temp": 29.2,
+      "rain": 0.0
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 18.9,
+      "max_temp": 31.2,
+      "rain": 0.0
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 6.0,
+      "max_temp": 21.7,
+      "rain": 0.0
+    },
+    {
+      "place": "Pothuvil",
+      "min_temp": 21.4,
+      "max_temp": 30.7,
+      "rain": 0.0
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 19.6,
+      "max_temp": 30.7,
+      "rain": 0.0
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 24.2,
+      "max_temp": 31.5,
+      "rain": 0.0
+    },
+    {
+      "place": "Rathnapura",
+      "min_temp": 22.3,
+      "max_temp": 33.9,
+      "rain": 0.0
+    },
+    {
+      "place": "Trincomalee",
+      "min_temp": 21.1,
+      "max_temp": 28.8,
+      "rain": 0.0
+    },
+    {
+      "place": "Vavuniya",
+      "min_temp": 19.0,
+      "max_temp": 30.8,
+      "rain": 0.0
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 21.4,
+      "max_temp": 33.1,
+      "rain": 0.0
+    },
+    {
+      "place": "Mullaithivu",
+      "min_temp": 25.3,
+      "max_temp": 29.3,
+      "rain": 0.0
+    },
+    {
+      "place": "Castlereigh",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Randenigala",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Norton",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Rantambe",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Maussakele",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Bowatenna",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Canyon",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Ukuwela",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Lakshapana",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Samanala Wawa",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Upper Kotmale",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Kukuleganaga",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Kotmale",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Maskeliya",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Victoriya",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Batuwangala",
+      "rain": 13.2,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Elephant Pass",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Atchuvely",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Chavakachcheri",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Point Pedro",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Akkarayan",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Nainathive",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Thellippallei",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Wallipuram",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Ampan",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Hilpanakandura",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Jaffna Irrigation",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Nawakiriaru Tank",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Delft",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Passikuda Eatste",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Thubankenie",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Oddusuddan",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Unnichchai",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    }
+  ]
+}
