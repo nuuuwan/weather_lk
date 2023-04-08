@@ -38,5 +38,5 @@ class DownloaderMixin:
         pdf_url = a_daily.get_attribute('href')
         browser.quit()
 
-        WWW(pdf_url).downloadBinary(self.file_path)
+        WWW(pdf_url).download_binary(self.file_path)
         log.info(f'Downloaded {pdf_url} to {self.file_path}')
