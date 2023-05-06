@@ -1,0 +1,330 @@
+{
+  "date_ut": 1683311400.0,
+  "date": "2023-05-06",
+  "min_temp": {
+    "min_temp": 14.1,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 31.2,
+    "max_temp_place": "Puttalam"
+  },
+  "max_rain": {
+    "max_rain": 31.2,
+    "max_rain_place": "Negombo"
+  },
+  "weather_list": [
+    {
+      "place": "Badulla",
+      "min_temp": 18.9,
+      "max_temp": 25.3,
+      "rain": 0.3
+    },
+    {
+      "place": "Batticaloa",
+      "min_temp": 25.4,
+      "max_temp": 29.8,
+      "rain": 0.0
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 25.2,
+      "max_temp": 28.6,
+      "rain": 12.0
+    },
+    {
+      "place": "Galle",
+      "min_temp": 26.4,
+      "max_temp": 29.5,
+      "rain": 1.6
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 26.1,
+      "max_temp": 30.3,
+      "rain": 0.0
+    },
+    {
+      "place": "Jaffna",
+      "min_temp": 26.7,
+      "max_temp": 29.4,
+      "rain": 0.2
+    },
+    {
+      "place": "Monaragala",
+      "min_temp": 22.2,
+      "max_temp": 28.3,
+      "rain": 0.0
+    },
+    {
+      "place": "Katugasthota",
+      "min_temp": 21.0,
+      "max_temp": 27.3,
+      "rain": 7.5
+    },
+    {
+      "place": "Katunayake",
+      "min_temp": 23.0,
+      "max_temp": 27.8,
+      "rain": 4.6
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 23.4,
+      "max_temp": 27.9,
+      "rain": 1.5
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 26.3,
+      "max_temp": 29.8,
+      "rain": 0.0
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 14.1,
+      "max_temp": 17.4,
+      "rain": 4.8
+    },
+    {
+      "place": "Pothuvil",
+      "min_temp": 24.7,
+      "max_temp": 29.9,
+      "rain": 0.0
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 25.6,
+      "max_temp": 31.2,
+      "rain": 0.0
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 23.6,
+      "max_temp": 29.1,
+      "rain": 3.0
+    },
+    {
+      "place": "Trincomalee",
+      "min_temp": 24.5,
+      "max_temp": 29.2,
+      "rain": 0.1
+    },
+    {
+      "place": "Vavuniya",
+      "min_temp": 24.7,
+      "max_temp": 30.0,
+      "rain": 0.0
+    },
+    {
+      "place": "Mullaithivu",
+      "min_temp": 24.3,
+      "max_temp": 28.4,
+      "rain": 2.4
+    },
+    {
+      "place": "Castlereigh",
+      "rain": 3.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Randenigala",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Norton",
+      "rain": 5.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Rantambe",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Maussakele",
+      "rain": 3.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Bowatenna",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Canyon",
+      "rain": 4.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Ukuwela",
+      "rain": 6.6,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Lakshapana",
+      "rain": 3.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Samanala Wawa",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Upper Kotmale",
+      "rain": 5.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Kukuleganaga",
+      "rain": 3.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Kotmale",
+      "rain": 16.7,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Victoriya",
+      "rain": 1.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Negombo",
+      "rain": 31.2,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Thellippallei",
+      "rain": 3.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Port Authority",
+      "rain": 12.1,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Hanwella",
+      "rain": 3.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Mellawa",
+      "rain": 10.1,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Nittambuwa",
+      "rain": 3.4,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Kurunduoya",
+      "rain": 9.6,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Kalatuwawa",
+      "rain": 2.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Almapil",
+      "rain": 7.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Ilubuluwa Estate",
+      "rain": 2.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Gonapitiya Merigold",
+      "rain": 6.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Angoda",
+      "rain": 2.3,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Bogawanthalawa",
+      "rain": 4.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Hiniduma",
+      "rain": 2.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Guruluwana",
+      "rain": 4.1,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Wallipuram",
+      "rain": 1.7,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Hope",
+      "rain": 4.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Baddegama",
+      "rain": 1.1,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Labugama",
+      "rain": 3.8,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Elephant Pass",
+      "rain": 1.0,
+      "min_temp": null,
+      "max_temp": null
+    }
+  ]
+}
