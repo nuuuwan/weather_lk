@@ -1,0 +1,342 @@
+{
+  "date_ut": 1683657000.0,
+  "date": "2023-05-10",
+  "min_temp": {
+    "min_temp": 15.7,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.3,
+    "max_temp_place": "Jaffna"
+  },
+  "max_rain": {
+    "max_rain": 89.3,
+    "max_rain_place": "Moraliya-Oya"
+  },
+  "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 25.1,
+      "max_temp": 32.9,
+      "rain": 2.2
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 18.4,
+      "max_temp": 26.1,
+      "rain": 1.8
+    },
+    {
+      "place": "Batticaloa",
+      "min_temp": 25.5,
+      "max_temp": 33.1,
+      "rain": 15.5
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 24.2,
+      "max_temp": 31.6,
+      "rain": 28.4
+    },
+    {
+      "place": "Galle",
+      "min_temp": 25.3,
+      "max_temp": 30.6,
+      "rain": 2.1
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 26.5,
+      "max_temp": 32.0,
+      "rain": 0.7
+    },
+    {
+      "place": "Jaffna",
+      "min_temp": 27.4,
+      "max_temp": 33.3,
+      "rain": 0.0
+    },
+    {
+      "place": "Katugasthota",
+      "min_temp": 22.1,
+      "max_temp": 27.5,
+      "rain": 4.8
+    },
+    {
+      "place": "Katunayake",
+      "min_temp": 24.2,
+      "max_temp": 30.6,
+      "rain": 50.0
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 25.2,
+      "max_temp": 31.0,
+      "rain": 6.9
+    },
+    {
+      "place": "Maha Illuppallama",
+      "min_temp": 24.6,
+      "max_temp": 31.6,
+      "rain": 20.0
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 27.2,
+      "max_temp": 32.7,
+      "rain": 0.0
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 25.7,
+      "max_temp": 32.8,
+      "rain": 0.2
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 15.7,
+      "max_temp": 21.4,
+      "rain": 0.2
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 26.1,
+      "max_temp": 33.2,
+      "rain": 0.0
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 23.5,
+      "max_temp": 33.1,
+      "rain": 26.8
+    },
+    {
+      "place": "Rathnapura",
+      "min_temp": 22.9,
+      "max_temp": 31.5,
+      "rain": 26.5
+    },
+    {
+      "place": "Vavuniya",
+      "min_temp": 25.4,
+      "max_temp": 32.6,
+      "rain": 1.8
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 25.1,
+      "max_temp": 32.9,
+      "rain": 5.3
+    },
+    {
+      "place": "Mullaithivu",
+      "min_temp": 26.7,
+      "max_temp": 32.3,
+      "rain": 1.7
+    },
+    {
+      "place": "Castlereigh",
+      "rain": 3.7,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Randenigala",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Norton",
+      "rain": 8.3,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Rantambe",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Maussakele",
+      "rain": 6.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Bowatenna",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Canyon",
+      "rain": 8.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Ukuwela",
+      "rain": 3.8,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Lakshapana",
+      "rain": 12.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Samanala Wawa",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Upper Kotmale",
+      "rain": 4.4,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Kukuleganaga",
+      "rain": 18.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Kotmale",
+      "rain": 7.4,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Victoriya",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Moraliya-Oya",
+      "rain": 89.3,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Wagolla",
+      "rain": 27.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Guruluwana",
+      "rain": 71.8,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Vogan",
+      "rain": 27.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Elston",
+      "rain": 47.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Bandaragama",
+      "rain": 26.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Undugoda",
+      "rain": 44.3,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Mellawa",
+      "rain": 22.6,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Dehiwala",
+      "rain": 40.3,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Helboda North",
+      "rain": 21.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Karagala",
+      "rain": 40.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Padukka Estate",
+      "rain": 19.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Kalatuwawa",
+      "rain": 37.7,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Watawala",
+      "rain": 18.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Hanwella",
+      "rain": 37.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Mathugama",
+      "rain": 18.1,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Negombo",
+      "rain": 28.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Kuliyapitiya",
+      "rain": 18.1,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Pasyala",
+      "rain": 27.7,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "place": "Port Authority",
+      "rain": 17.2,
+      "min_temp": null,
+      "max_temp": null
+    }
+  ]
+}
