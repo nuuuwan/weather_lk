@@ -34,7 +34,7 @@ class DownloaderMixin:
 
         log.debug(f'Browsing {self.URL}...')
         browser.get(self.URL)
-        time.sleep(5)
+        browser.implicitly_wait(5)
 
         a_daily = browser.find_element(
             "xpath", "//a[text()='Daily Rainfall']"
