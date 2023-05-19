@@ -1,3 +1,4 @@
+import time
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from utils import WWW, File, get_date_id
@@ -31,11 +32,15 @@ class DownloaderMixin:
         browser = webdriver.Firefox(options=options)
         browser.set_page_load_timeout(self.PAGE_LOAD_TIMEOUT)
 
+        log.debug(f'Browsing {self.URL}...')
         browser.get(self.URL)
+        time.sleep(5)
+
         a_daily = browser.find_element(
             "xpath", "//a[text()='Daily Rainfall']"
         )
         pdf_url = a_daily.get_attribute('href')
+        log.debug(f'{pdf_url=}')
         browser.quit()
 
         WWW.download_binary(pdf_url, self.file_path)
