@@ -8,7 +8,7 @@ from weather_lk._utils import log
 
 class DownloaderMixin:
     URL = 'https://www.meteo.gov.lk/index.php?lang=en'
-    PAGE_LOAD_TIMEOUT = 120
+    PAGE_LOAD_TIMEOUT = 240
 
     @property
     def date_id(self):
