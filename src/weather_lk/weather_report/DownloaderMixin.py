@@ -1,4 +1,3 @@
-import time
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from utils import WWW, File, get_date_id

@@ -1,7 +1,8 @@
 """Tweet."""
 
 from infograph import BarChart, DataTable, Infograph, RangeBarChart
-from utils import String, Tweet, Twitter
+from twtr import Tweet, Twitter
+from utils import String
 
 
 def hash(x):
@@ -116,11 +117,9 @@ Temperature 🌡️
 
     @property
     def tweet(self):
-        return Tweet(
-            text=self.tweet_text,
-            image_file_path_list=[self.tweet_image_path],
-        )
+        return Tweet(self.tweet_text).add_image(self.tweet_image_path)
 
     def send(self):
         self.build_tweet_image()
-        Twitter.from_args().send(self.tweet)
+        twitter = Twitter()
+        twitter.send(self.tweet)

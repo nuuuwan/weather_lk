@@ -5,3 +5,4 @@ utils-nuuuwan
 infograph-nuuuwan
 selenium
 tweepy
+twtr-nuuuwan
