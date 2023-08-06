@@ -1,5 +1,8 @@
 """Tweet."""
 
+import os
+import tempfile
+
 from infograph import BarChart, DataTable, Infograph, RangeBarChart
 from twtr import Tweet, Twitter
 from utils import String
@@ -48,7 +51,10 @@ class Tweeter:
 
     @property
     def tweet_image_path(self):
-        return f'/tmp/weather_lk.{self.weather_report.date_id}.png'
+        return os.path.join(
+            tempfile.gettempdir(),
+            f'weather_lk.{self.weather_report.date_id}.png',
+        )
 
     def build_tweet_image(self):
         infograph = Infograph(

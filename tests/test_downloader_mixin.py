@@ -1,3 +1,5 @@
+import os
+import tempfile
 from unittest import TestCase, skip
 
 from utils import get_date_id
@@ -13,7 +15,10 @@ class TestDownloaderMixin(TestCase):
 
     def test_file_path(self):
         date_id = get_date_id()
-        self.assertEqual(TEST_WR.file_path, f'/tmp/weather_lk.{date_id}.pdf')
+        self.assertEqual(
+            TEST_WR.file_path,
+            os.path.join(tempfile.gettempdir(), f'weather_lk.{date_id}.pdf'),
+        )
 
     @skip('slow')
     def test_download(self):

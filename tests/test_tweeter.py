@@ -1,4 +1,6 @@
 import filecmp
+import os
+import tempfile
 from unittest import TestCase, skip
 
 from utils import File, Twitter
@@ -13,7 +15,7 @@ class TestTweeter(TestCase):
     def test_tweet_image_path(self):
         self.assertEqual(
             TEST_TWEETER.tweet_image_path,
-            '/tmp/weather_lk.20230202.png',
+            os.path.join(tempfile.gettempdir(), 'weather_lk.20230202.png'),
         )
 
     @skip('File Compare')

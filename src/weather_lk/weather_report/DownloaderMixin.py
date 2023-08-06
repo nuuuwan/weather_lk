@@ -1,3 +1,6 @@
+import os
+import tempfile
+
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from utils import WWW, File, get_date_id
@@ -6,7 +9,7 @@ from weather_lk._utils import log
 
 
 class DownloaderMixin:
-    URL = 'https://www.meteo.gov.lk/index.php?lang=en'
+    URL = 'http://meteo.gov.lk/index.php?lang=en'
     PAGE_LOAD_TIMEOUT = 240
 
     @property
@@ -15,7 +18,9 @@ class DownloaderMixin:
 
     @property
     def file_path(self):
-        return f'/tmp/weather_lk.{self.date_id}.pdf'
+        return os.path.join(
+            tempfile.gettempdir(), f'weather_lk.{self.date_id}.pdf'
+        )
 
     @property
     def file(self):
