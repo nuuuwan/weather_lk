@@ -3,6 +3,7 @@ from functools import cached_property
 
 from utils import String, TimeFormat
 
+from weather_lk.latllng.History import DEFAULT_LATLNG, History
 from weather_lk.weather_report.REGEX import REGEX
 
 
@@ -110,4 +111,15 @@ class WeatherListParserMixin:
         weather_list = []
         for row in self.table:
             weather_list += self.parse_row(row)
-        return weather_list
+
+        PLACE_TO_LATLNG = History.get_place_to_latlng()
+        expanded_weather_list = []
+        for d in weather_list:
+            expanded_d = d
+            place = d['place']
+            lat, lng = PLACE_TO_LATLNG.get(place, DEFAULT_LATLNG)
+            expanded_d['lat'] = lat
+            expanded_d['lng'] = lng
+            expanded_weather_list.append(expanded_d)
+
+        return expanded_weather_list
