@@ -6,3 +6,4 @@ infograph-nuuuwan
 selenium
 tweepy
 twtr-nuuuwan
+googlemaps
