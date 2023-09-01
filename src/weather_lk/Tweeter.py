@@ -15,11 +15,10 @@ def hash(x):
 def func_color_rain(_, yi):
     b = 1
     for limit, x in [
-        [200, 1],
-        [100, 2],
-        [50, 3],
-        [25, 4],
-        [-1, 5],
+        [100, 1],
+        [50, 2],
+        [25, 3],
+        [-1, 4],
     ]:
         if yi > limit:
             a = 1 / x
