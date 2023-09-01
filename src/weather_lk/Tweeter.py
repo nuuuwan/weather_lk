@@ -106,7 +106,7 @@ class Tweeter:
         min_temp = weather_data['min_temp']
         max_temp = weather_data['max_temp']
         max_rain = weather_data['max_rain']
-        return f'''Temperature & Rainfall ({weather_data['date']}) by @MeteoLK
+        return f'''Rainfall & Temperature ({weather_data['date']}) by @MeteoLK
 
 Rainfall 📏
 🌧️ Max: {max_rain['max_rain']:.0f}mm in {hash(max_rain['max_rain_place'])}
