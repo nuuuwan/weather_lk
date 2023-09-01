@@ -90,7 +90,7 @@ class Tweeter:
         data_table.sort('lng')
         infograph.add(
             RangeBarChart(
-                'Rainfall (mm)',
+                'Temperature (°C)',
                 data_table['place'],
                 data_table['min_temp'],
                 data_table['max_temp'],
