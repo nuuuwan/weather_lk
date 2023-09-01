@@ -40,7 +40,7 @@ class History:
         log.info(f'Loaded data for {n} days.')
         return history_list
 
-    def get_place_to_latlng(self, place_to_latlng_old) -> dict:
+    def build_place_to_latlng(self, place_to_latlng_old) -> dict:
         place_to_latlng = {}
         for history in self.history_list:
             for weather in history['weather_list']:
@@ -68,9 +68,13 @@ class History:
         d = geocode_result[0]['geometry']['location']
         return (d['lat'], d['lng'])
 
+    @staticmethod
+    def get_place_to_latlng():
+        return JSONFile(PLACE_TO_LATLNG_PATH).read()
+
     def save_place_to_latlng(self):
         place_to_latlng_old = JSONFile(PLACE_TO_LATLNG_PATH).read()
-        place_to_latlng = self.get_place_to_latlng(place_to_latlng_old)
+        place_to_latlng = self.build_place_to_latlng(place_to_latlng_old)
 
         n = len(place_to_latlng.keys())
         JSONFile(PLACE_TO_LATLNG_PATH_NEW).write(place_to_latlng)
