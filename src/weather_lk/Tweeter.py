@@ -1,5 +1,5 @@
 """Tweet."""
-
+import math
 import os
 import tempfile
 
@@ -14,6 +14,7 @@ def hash(x):
 
 def func_color_rain(_, yi):
     b = 1
+    r = 0
     for limit, x in [
         [100, 1],
         [50, 2],
@@ -21,11 +22,10 @@ def func_color_rain(_, yi):
         [-1, 4],
     ]:
         if yi > limit:
-            a = 1 / x
-            g = 1 - 1 / x
+            a = math.sqrt(1.0 / x)
+            g = 1 - a/2
             break
 
-    r = g / 2
     return (r, g, b, a)
 
 
