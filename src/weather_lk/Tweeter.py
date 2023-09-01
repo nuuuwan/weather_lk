@@ -70,7 +70,7 @@ class Tweeter:
                 if d['rain'] is not None
             ],
         )
-        data_table.sort('rain')
+        data_table.sort('lng')
         infograph.add(
             BarChart(
                 'Rainfall (mm)',
@@ -87,7 +87,7 @@ class Tweeter:
                 if d['min_temp'] is not None and d['max_temp'] is not None
             ],
         )
-        data_table.sort('max_temp')
+        data_table.sort('lng')
         infograph.add(
             RangeBarChart(
                 'Rainfall (mm)',
