@@ -23,7 +23,7 @@ def func_color_rain(_, yi):
     ]:
         if yi > limit:
             a = math.sqrt(1.0 / x)
-            g = 1 - a/2
+            g = 1 - a / 2
             break
 
     return (r, g, b, a)

@@ -13,7 +13,8 @@ BRANCH_NAME = 'data'
 PLACE_TO_LATLNG_PATH = os.path.join('data', 'place_to_latlng.json')
 PLACE_TO_LATLNG_PATH_NEW = os.path.join('data', 'place_to_latlng.new.json')
 
-GMAPS = googlemaps.Client(os.environ['GMAPS_API_KEY'])
+GMAPS_API_KEY = os.environ.get('GMAPS_API_KEY')
+GMAPS = googlemaps.Client(GMAPS_API_KEY) if GMAPS_API_KEY else None
 DEFAULT_LATLNG = [0, 0]
 
 
