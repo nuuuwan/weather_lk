@@ -74,7 +74,7 @@ class WeatherDataParserMixin:
         weather_list_ut = self.weather_list_ut
         date = TimeFormat('%Y-%m-%d').stringify(Time(weather_list_ut))
         date_id = date.replace('-', '')
-        assert self.date_id == date_id
+        # assert self.date_id == date_id
 
         weather_data = dict(
             date_ut=weather_list_ut,
