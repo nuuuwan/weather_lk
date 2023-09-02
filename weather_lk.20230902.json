@@ -1,6 +1,6 @@
 {
-  "date_ut": 1690914600.0,
-  "date": "2023-08-02",
+  "date_ut": 1693650742.6886024,
+  "date": "2023-09-02",
   "min_temp": {
     "min_temp": 15.1,
     "min_temp_place": "Nuwara Eliya"
@@ -163,8 +163,8 @@
       "min_temp": 24.3,
       "max_temp": 32.9,
       "rain": 12.0,
-      "lat": 7.873053999999999,
-      "lng": 80.77179699999999
+      "lat": 6.288780374382144,
+      "lng": 81.12460077774537
     },
     {
       "place": "Castlereigh",
@@ -219,8 +219,8 @@
       "rain": 12.2,
       "min_temp": null,
       "max_temp": null,
-      "lat": 7.873053999999999,
-      "lng": 80.77179699999999
+      "lat": 6.87025261687585,
+      "lng": 80.52581841045284
     },
     {
       "place": "Ukuwela",
@@ -291,8 +291,8 @@
       "rain": 59.0,
       "min_temp": null,
       "max_temp": null,
-      "lat": 0,
-      "lng": 0
+      "lat": 7.1336172,
+      "lng": 80.5091133
     },
     {
       "place": "Kalatuwawa",
