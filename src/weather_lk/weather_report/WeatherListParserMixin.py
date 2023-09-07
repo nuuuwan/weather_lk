@@ -23,6 +23,8 @@ class WeatherListParserMixin:
         cell = cell.strip()
         cell = cell.replace('wkqrdOmqrh', '')
         cell = cell.replace('polonnaruwa', 'Polonnaruwa')
+        cell = cell.replace('Stations', ' ')
+        cell = cell.replace('Station', ' ')
         cell = ' '.join(
             list(
                 filter(
