@@ -55,14 +55,7 @@ class Tweeter:
             f'weather_lk.{self.weather_report.date_id}.png',
         )
 
-    def build_tweet_image(self):
-        infograph = Infograph(
-            'Sri Lanka',
-            'Temperature & Rainfall',
-            self.weather_report.weather_data['date'],
-            'meteo.gov.lk',
-        )
-
+    def get_temp_chart(self):
         data_table = DataTable(
             [
                 d
@@ -71,15 +64,14 @@ class Tweeter:
             ],
         )
         data_table.sort('lng')
-        infograph.add(
-            BarChart(
-                'Rainfall (mm)',
-                data_table['place'],
-                data_table['rain'],
-                func_color_rain,
-            )
+        return BarChart(
+            'Rainfall (mm)',
+            data_table['place'],
+            data_table['rain'],
+            func_color_rain,
         )
 
+    def get_rain_chart(self):
         data_table = DataTable(
             [
                 d
@@ -88,15 +80,24 @@ class Tweeter:
             ],
         )
         data_table.sort('lng')
-        infograph.add(
-            RangeBarChart(
-                'Temperature (°C)',
-                data_table['place'],
-                data_table['min_temp'],
-                data_table['max_temp'],
-                func_color_temp,
-            )
+        return RangeBarChart(
+            'Temperature (°C)',
+            data_table['place'],
+            data_table['min_temp'],
+            data_table['max_temp'],
+            func_color_temp,
         )
+
+    def build_tweet_image(self):
+        infograph = Infograph(
+            'Sri Lanka',
+            'Temperature & Rainfall',
+            self.weather_report.weather_data['date'],
+            'meteo.gov.lk',
+        )
+
+        infograph.add(self.get_temp_chart())
+        infograph.add(self.get_rain_chart())
         infograph.write(self.tweet_image_path)
 
     @property
