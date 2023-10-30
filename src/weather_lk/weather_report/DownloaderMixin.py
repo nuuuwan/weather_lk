@@ -32,7 +32,7 @@ class DownloaderMixin:
             return
 
         options = Options()
-        options.addArguments("--headless")
+        options.add_argument("--headless")
         browser = webdriver.Firefox(options=options)
         browser.set_page_load_timeout(self.PAGE_LOAD_TIMEOUT)
 
