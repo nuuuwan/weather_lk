@@ -12,32 +12,8 @@
     "max_temp": null
   },
   {
-    "date": "2023-10-30",
-    "rain": 96.2,
-    "min_temp": null,
-    "max_temp": null
-  },
-  {
     "date": "2023-11-13",
     "rain": 81.5,
-    "min_temp": null,
-    "max_temp": null
-  },
-  {
-    "date": "2023-11-17",
-    "rain": 29.0,
-    "min_temp": null,
-    "max_temp": null
-  },
-  {
-    "date": "2023-11-23",
-    "rain": 114.5,
-    "min_temp": null,
-    "max_temp": null
-  },
-  {
-    "date": "2023-12-12",
-    "rain": 27.0,
     "min_temp": null,
     "max_temp": null
   },
