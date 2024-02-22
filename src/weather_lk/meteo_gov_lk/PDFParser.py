@@ -22,7 +22,7 @@ log = Log('weather_lk')
 
 
 class PDFParser:
-    N_MAX_PARSE = 30
+    N_MAX_PARSE = 64
 
     def __init__(self, pdf_path):
         self.pdf_path = pdf_path
