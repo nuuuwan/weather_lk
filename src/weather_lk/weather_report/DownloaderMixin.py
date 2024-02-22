@@ -3,9 +3,9 @@ import tempfile
 
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
-from utils import WWW, File, get_date_id
+from utils import WWW, File, get_date_id, Log
 
-from weather_lk._utils import log
+log = Log('weather_lk')
 
 
 class DownloaderMixin:

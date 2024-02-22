@@ -1,9 +1,8 @@
 import os
 
-from utils import WWW, JSONFile
+from utils import WWW, JSONFile, Log
 
-from weather_lk._utils import log
-
+log = Log('weather_lk')
 
 class LoaderMixin:
     @property
