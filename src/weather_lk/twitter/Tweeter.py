@@ -2,6 +2,7 @@
 
 from twtr import Tweet, Twitter
 from utils import Log, String
+
 from weather_lk.core.Data import Data
 from weather_lk.twitter.TweeterCharts import TweeterCharts
 

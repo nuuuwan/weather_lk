@@ -2,8 +2,12 @@ import os
 
 from utils import Git, JSONFile, Log
 
-from weather_lk.constants import (BRANCH_NAME, DIR_REPO, DIR_REPO_JSON_PARSED,
-                                  GIT_REPO_URL)
+from weather_lk.constants import (
+    BRANCH_NAME,
+    DIR_REPO,
+    DIR_REPO_JSON_PARSED,
+    GIT_REPO_URL,
+)
 
 log = Log('Data')
 
@@ -31,11 +35,11 @@ class Data:
         for data_path in data_path_list:
             data = JSONFile(data_path).read()
             data_list.append(data)
-        
+
         sorted_data_list = sorted(data_list, key=lambda x: x['date'])
         log.info(f'Found {len(data_list)} data files.')
         return sorted_data_list
-    
+
     @staticmethod
     def max():
         data_list = Data.list_all()

@@ -43,11 +43,7 @@ class TweeterCharts:
 
     def get_temp_chart(self):
         data_table = DataTable(
-            [
-                d
-                for d in self.data['weather_list']
-                if d['rain'] is not None
-            ],
+            [d for d in self.data['weather_list'] if d['rain'] is not None],
         )
         data_table.sort('lng')
         return BarChart(
