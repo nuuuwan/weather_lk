@@ -4,7 +4,7 @@ name: download_from_wayback
 on:
   workflow_dispatch:
   schedule:
-    - cron:  "0 */12 * * *"
+    - cron:  "40 */12 * * *"
 
 jobs:
   pipeline:
