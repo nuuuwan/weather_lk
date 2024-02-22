@@ -1,5 +1,35 @@
 [
   {
+    "date": "2019-11-25",
+    "rain": 32.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2019-11-29",
+    "rain": 75.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2019-12-05",
+    "rain": 140.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2020-09-25",
+    "rain": 47.4,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2020-12-01",
+    "rain": 37.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2021-06-28",
     "rain": 26.7,
     "min_temp": null,

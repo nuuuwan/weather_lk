@@ -1,5 +1,23 @@
 [
   {
+    "date": "2019-06-23",
+    "rain": 5.8,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2019-12-24",
+    "rain": 37.6,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2020-09-19",
+    "rain": 77.8,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2021-07-10",
     "rain": 125.5,
     "min_temp": null,
@@ -8,6 +26,12 @@
   {
     "date": "2021-08-06",
     "rain": 5.5,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2021-08-28",
+    "rain": 17.3,
     "min_temp": null,
     "max_temp": null
   },

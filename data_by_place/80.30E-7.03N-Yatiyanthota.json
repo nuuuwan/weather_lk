@@ -6,6 +6,36 @@
     "max_temp": null
   },
   {
+    "date": "2019-06-23",
+    "rain": 6.8,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2019-11-19",
+    "rain": 31.8,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2019-12-24",
+    "rain": 27.2,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2020-05-15",
+    "rain": 13.5,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2020-05-25",
+    "rain": 45.8,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2021-07-10",
     "rain": 88.7,
     "min_temp": null,

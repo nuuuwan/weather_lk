@@ -6,14 +6,44 @@
     "max_temp": null
   },
   {
+    "date": "2019-02-04",
+    "rain": 18.2,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2019-11-06",
     "rain": 14.3,
     "min_temp": null,
     "max_temp": null
   },
   {
+    "date": "2019-11-29",
+    "rain": 60.2,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2019-12-05",
+    "rain": 110.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2020-10-25",
     "rain": 5.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2021-01-14",
+    "rain": 29.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2021-05-05",
+    "rain": 31.0,
     "min_temp": null,
     "max_temp": null
   },

@@ -6,6 +6,12 @@
     "max_temp": null
   },
   {
+    "date": "2020-05-15",
+    "rain": 14.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2021-07-06",
     "rain": 27.0,
     "min_temp": null,
@@ -128,6 +134,12 @@
   {
     "date": "2022-07-26",
     "rain": 61.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-08-06",
+    "rain": 15.0,
     "min_temp": null,
     "max_temp": null
   },
