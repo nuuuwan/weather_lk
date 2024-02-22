@@ -12,8 +12,20 @@
     "max_temp": null
   },
   {
+    "date": "2021-11-05",
+    "rain": 45.7,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2021-11-15",
     "rain": 61.5,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2021-11-30",
+    "rain": 25.2,
     "min_temp": null,
     "max_temp": null
   },

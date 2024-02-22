@@ -6,8 +6,32 @@
     "max_temp": null
   },
   {
+    "date": "2021-10-30",
+    "rain": 22.4,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2022-03-24",
     "rain": 34.4,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-04-15",
+    "rain": 34.7,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-07-31",
+    "rain": 26.3,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-08-30",
+    "rain": 21.8,
     "min_temp": null,
     "max_temp": null
   },

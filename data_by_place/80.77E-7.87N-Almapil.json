@@ -42,6 +42,18 @@
     "max_temp": null
   },
   {
+    "date": "2021-12-18",
+    "rain": 19.8,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2021-12-20",
+    "rain": 0.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2021-12-22",
     "rain": 0.0,
     "min_temp": null,
@@ -55,6 +67,12 @@
   },
   {
     "date": "2022-01-22",
+    "rain": 0.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-01-24",
     "rain": 0.0,
     "min_temp": null,
     "max_temp": null
@@ -78,6 +96,12 @@
     "max_temp": null
   },
   {
+    "date": "2022-02-18",
+    "rain": 0.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2022-03-15",
     "rain": 0.0,
     "min_temp": null,
@@ -96,7 +120,19 @@
     "max_temp": null
   },
   {
+    "date": "2022-04-15",
+    "rain": 0.8,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2022-06-05",
+    "rain": 0.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-06-14",
     "rain": 0.0,
     "min_temp": null,
     "max_temp": null
@@ -104,6 +140,12 @@
   {
     "date": "2022-07-12",
     "rain": 0.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-07-23",
+    "rain": 20.5,
     "min_temp": null,
     "max_temp": null
   },
@@ -139,6 +181,18 @@
   },
   {
     "date": "2022-09-22",
+    "rain": 0.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-09-23",
+    "rain": 0.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-09-25",
     "rain": 0.0,
     "min_temp": null,
     "max_temp": null
@@ -186,8 +240,26 @@
     "max_temp": null
   },
   {
+    "date": "2023-11-15",
+    "rain": 54.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2023-11-16",
+    "rain": 39.2,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2023-11-26",
     "rain": 9.9,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2023-12-15",
+    "rain": 112.6,
     "min_temp": null,
     "max_temp": null
   },
