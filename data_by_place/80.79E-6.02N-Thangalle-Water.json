@@ -2,31 +2,7 @@
   {
     "date": "2023-09-18",
     "rain": 37.4,
-    "temp_min": null,
-    "temp_max": null
-  },
-  {
-    "date": "2023-09-14",
-    "rain": 22.4,
-    "temp_min": null,
-    "temp_max": null
-  },
-  {
-    "date": "2023-08-31",
-    "rain": 9.6,
-    "temp_min": null,
-    "temp_max": null
-  },
-  {
-    "date": "2021-12-23",
-    "rain": 11.1,
-    "temp_min": null,
-    "temp_max": null
-  },
-  {
-    "date": "2021-07-12",
-    "rain": 13.6,
-    "temp_min": null,
-    "temp_max": null
+    "min_temp": null,
+    "max_temp": null
   }
 ]

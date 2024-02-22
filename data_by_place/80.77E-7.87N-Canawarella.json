@@ -1,98 +1,38 @@
 [
   {
-    "date": "2021-12-27",
-    "rain": 0.0,
-    "temp_min": null,
-    "temp_max": null
-  },
-  {
-    "date": "2021-10-30",
-    "rain": 75.0,
-    "temp_min": null,
-    "temp_max": null
-  },
-  {
-    "date": "2021-10-25",
-    "rain": 55.0,
-    "temp_min": null,
-    "temp_max": null
-  },
-  {
-    "date": "2021-09-24",
-    "rain": 80.0,
-    "temp_min": null,
-    "temp_max": null
-  },
-  {
-    "date": "2021-09-23",
-    "rain": 25.0,
-    "temp_min": null,
-    "temp_max": null
-  },
-  {
-    "date": "2021-09-22",
-    "rain": 55.0,
-    "temp_min": null,
-    "temp_max": null
-  },
-  {
-    "date": "2021-09-21",
-    "rain": 85.0,
-    "temp_min": null,
-    "temp_max": null
-  },
-  {
-    "date": "2021-09-18",
-    "rain": 35.0,
-    "temp_min": null,
-    "temp_max": null
+    "date": "2021-06-28",
+    "rain": 20.0,
+    "min_temp": null,
+    "max_temp": null
   },
   {
     "date": "2021-09-16",
     "rain": 58.0,
-    "temp_min": null,
-    "temp_max": null
+    "min_temp": null,
+    "max_temp": null
   },
   {
-    "date": "2021-08-10",
-    "rain": 65.0,
-    "temp_min": null,
-    "temp_max": null
+    "date": "2021-09-22",
+    "rain": 55.0,
+    "min_temp": null,
+    "max_temp": null
   },
   {
-    "date": "2021-07-31",
+    "date": "2021-10-23",
+    "rain": 35.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2021-12-13",
+    "rain": 56.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-01-22",
     "rain": 0.0,
-    "temp_min": null,
-    "temp_max": null
-  },
-  {
-    "date": "2021-07-30",
-    "rain": 0.0,
-    "temp_min": null,
-    "temp_max": null
-  },
-  {
-    "date": "2021-07-20",
-    "rain": 0.0,
-    "temp_min": null,
-    "temp_max": null
-  },
-  {
-    "date": "2021-07-14",
-    "rain": 3.4,
-    "temp_min": null,
-    "temp_max": null
-  },
-  {
-    "date": "2021-07-09",
-    "rain": 40.0,
-    "temp_min": null,
-    "temp_max": null
-  },
-  {
-    "date": "2021-06-28",
-    "rain": 20.0,
-    "temp_min": null,
-    "temp_max": null
+    "min_temp": null,
+    "max_temp": null
   }
 ]
