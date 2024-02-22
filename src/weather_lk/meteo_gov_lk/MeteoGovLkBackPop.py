@@ -2,7 +2,7 @@ from functools import cached_property
 from weather_lk.core.Data import Data
 from weather_lk.constants import (
     DIR_REPO_DAILY_DATA,
-    DIR_REPO_METEO_GOV_LK_PDF,
+    DIR_REPO_PDF_METEO_GOV_LK,
 )
 import os
 from utils_future import RemotePDF
@@ -28,7 +28,7 @@ class MeteoGovLkBackPop:
             h32 = RemotePDF.file_hash(pdf_path)
 
             new_pdf_path = os.path.join(
-                DIR_REPO_METEO_GOV_LK_PDF, f'{h32}.pdf'
+                DIR_REPO_PDF_METEO_GOV_LK, f'{h32}.pdf'
             )
             if not os.path.exists(new_pdf_path):
                 os.rename(pdf_path, new_pdf_path)

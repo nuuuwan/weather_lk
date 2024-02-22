@@ -5,10 +5,10 @@ from functools import cached_property
 import camelot
 from utils import TIME_FORMAT_DATE, JSONFile, Log, String, Time, TimeFormat
 
-from weather_lk.constants import (DIR_REPO_METEO_GOV_LK_PDF,
-                                  DIR_REPO_PARSED_DATA_JSON,
-                                  DIR_REPO_PARSED_DATA_PLACEHOLDER_JSON,
-                                  DIR_REPO_WAYBACK_DATA)
+from weather_lk.constants import (DIR_REPO_PDF_METEO_GOV_LK,
+                                  DIR_REPO_JSON_PARSED,
+                                  DIR_REPO_JSON_PLACEHOLDER,
+                                  DIR_REPO_PDF_ARCHIVE_ORG)
 from weather_lk.core.Data import Data
 from weather_lk.meteo_gov_lk.REGEX import REGEX
 from weather_lk.place_to_latlng.PlaceToLatLng import (DEFAULT_LATLNG,
@@ -229,9 +229,9 @@ class PDFParser:
         weather_data = self.weather_data
         date_ut = weather_data['date_ut']
         date = TIME_FORMAT_DATE.stringify(Time(date_ut))
-        if not os.path.exists(DIR_REPO_PARSED_DATA_JSON):
-            os.makedirs(DIR_REPO_PARSED_DATA_JSON)
-        data_path = os.path.join(DIR_REPO_PARSED_DATA_JSON, f'{date}.json')
+        if not os.path.exists(DIR_REPO_JSON_PARSED):
+            os.makedirs(DIR_REPO_JSON_PARSED)
+        data_path = os.path.join(DIR_REPO_JSON_PARSED, f'{date}.json')
 
         JSONFile(data_path).write(self.weather_data)
         log.info(f'Wrote to data to {data_path}')
@@ -241,7 +241,7 @@ class PDFParser:
     def placeholder_path(self):
         file_id = self.pdf_path.split(os.sep)[-1].split('.')[0]
         return os.path.join(
-            DIR_REPO_PARSED_DATA_PLACEHOLDER_JSON, f'{file_id}.json'
+            DIR_REPO_JSON_PLACEHOLDER, f'{file_id}.json'
         )
 
     @cached_property
@@ -249,8 +249,8 @@ class PDFParser:
         return os.path.exists(self.placeholder_path)
 
     def write_placeholder_json(self, date, data_path):
-        if not os.path.exists(DIR_REPO_PARSED_DATA_PLACEHOLDER_JSON):
-            os.makedirs(DIR_REPO_PARSED_DATA_PLACEHOLDER_JSON)
+        if not os.path.exists(DIR_REPO_JSON_PLACEHOLDER):
+            os.makedirs(DIR_REPO_JSON_PLACEHOLDER)
         placeholder_path = self.placeholder_path
         JSONFile(placeholder_path).write(
             dict(
@@ -264,7 +264,7 @@ class PDFParser:
     @staticmethod
     def get_pdf_paths():
         pdf_list = []
-        for dir in [DIR_REPO_METEO_GOV_LK_PDF, DIR_REPO_WAYBACK_DATA]:
+        for dir in [DIR_REPO_PDF_METEO_GOV_LK, DIR_REPO_PDF_ARCHIVE_ORG]:
             if not os.path.exists(dir):
                 continue
             for file_name in os.listdir(dir):

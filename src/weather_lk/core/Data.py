@@ -1,4 +1,4 @@
-from weather_lk.constants import BRANCH_NAME, DIR_REPO, GIT_REPO_URL, DIR_REPO_PARSED_DATA_JSON
+from weather_lk.constants import BRANCH_NAME, DIR_REPO, GIT_REPO_URL, DIR_REPO_JSON_PARSED
 from utils import Git, Log, JSONFile
 import os
 
@@ -14,9 +14,9 @@ class Data:
     @staticmethod
     def get_data_path_list():
         data_path_list = []
-        for file_name in os.listdir(DIR_REPO_PARSED_DATA_JSON):
+        for file_name in os.listdir(DIR_REPO_JSON_PARSED):
             if file_name.endswith('.json'):
-                data_path = os.path.join(DIR_REPO_PARSED_DATA_JSON, file_name)
+                data_path = os.path.join(DIR_REPO_JSON_PARSED, file_name)
                 data_path_list.append(data_path)
         return data_path_list
     
