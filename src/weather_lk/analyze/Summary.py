@@ -3,26 +3,14 @@ from datetime import datetime
 from functools import cache, cached_property
 
 import matplotlib.pyplot as plt
-from utils import (
-    SECONDS_IN,
-    TIME_FORMAT_DATE,
-    File,
-    JSONFile,
-    Log,
-    Time,
-    TSVFile,
-)
+from utils import (SECONDS_IN, TIME_FORMAT_DATE, File, JSONFile, Log, Time,
+                   TSVFile)
 
-from weather_lk.constants import (
-    DIR_DATA_BY_PLACE,
-    DIR_DATA_CHARTS,
-    DIR_DATA_CHARTS_RAINFALL,
-    DIR_DATA_CHARTS_TEMPERATURE,
-    DIR_REPO,
-    DIR_REPO_DAILY_DATA,
-    LIMIT_AND_COLOR_LIST,
-    URL_REMOTE_DATA,
-)
+from weather_lk.constants import (DIR_DATA_BY_PLACE, DIR_DATA_CHARTS,
+                                  DIR_DATA_CHARTS_RAINFALL,
+                                  DIR_DATA_CHARTS_TEMPERATURE, DIR_REPO,
+                                  DIR_REPO_DAILY_DATA, LIMIT_AND_COLOR_LIST,
+                                  URL_REMOTE_DATA)
 from weather_lk.place_to_latlng.PlaceToLatLng import PlaceToLatLng
 
 log = Log('Summary')
