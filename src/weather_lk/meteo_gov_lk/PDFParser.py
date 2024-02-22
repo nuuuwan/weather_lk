@@ -5,19 +5,25 @@ from functools import cached_property
 import camelot
 from utils import TIME_FORMAT_DATE, JSONFile, Log, String, Time, TimeFormat
 
-from weather_lk.constants import (DIR_REPO_JSON_PARSED,
-                                  DIR_REPO_JSON_PLACEHOLDER,
-                                  DIR_REPO_PDF_ARCHIVE_ORG,
-                                  DIR_REPO_PDF_METEO_GOV_LK)
+from weather_lk.constants import (
+    DIR_REPO_JSON_PARSED,
+    DIR_REPO_JSON_PLACEHOLDER,
+    DIR_REPO_PDF_ARCHIVE_ORG,
+    DIR_REPO_PDF_METEO_GOV_LK,
+)
 from weather_lk.core.Data import Data
 from weather_lk.meteo_gov_lk.REGEX import REGEX
-from weather_lk.place_to_latlng.PlaceToLatLng import (DEFAULT_LATLNG,
-                                                      PlaceToLatLng)
+from weather_lk.place_to_latlng.PlaceToLatLng import (
+    DEFAULT_LATLNG,
+    PlaceToLatLng,
+)
 
 log = Log('weather_lk')
 
 
 class PDFParser:
+    N_MAX_PARSE = 30
+
     def __init__(self, pdf_path):
         self.pdf_path = pdf_path
 
@@ -292,8 +298,13 @@ class PDFParser:
     def parse_all():
         Data.init()
         pdf_list = PDFParser.get_pdf_paths()
+        i_parse = 0
         for pdf_path in pdf_list:
-            PDFParser.parse_one(pdf_path)
+            if PDFParser.parse_one(pdf_path):
+                i_parse += 1
+                log.debug(f'{i_parse=}')
+                if i_parse >= PDFParser.N_MAX_PARSE:
+                    break
 
 
 def test():
