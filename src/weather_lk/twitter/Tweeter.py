@@ -1,14 +1,16 @@
 """Tweet."""
 
 from twtr import Tweet, Twitter
-from utils import String, Log
+from utils import Log, String
 
 from weather_lk.twitter.TweeterCharts import TweeterCharts
 
 log = Log('Tweeter')
 
+
 def hash(x):
     return '#' + String(x).camel
+
 
 def temp_to_emoji(temp):
     if temp > 35:
@@ -25,6 +27,7 @@ def temp_to_emoji(temp):
         return '🔵'
     return '🟣'
 
+
 class Tweeter(TweeterCharts):
     def __init__(self, weather_report):
         self.weather_report = weather_report
@@ -33,17 +36,21 @@ class Tweeter(TweeterCharts):
     def text_header(self):
         weather_data = self.weather_report.weather_data
         date = weather_data['date']
-        return '\n'.join([
-            f'Rainfall & Temperature ({date}) by @MeteoLK',
-        ])
-    
+        return '\n'.join(
+            [
+                f'Rainfall & Temperature ({date}) by @MeteoLK',
+            ]
+        )
+
     @property
     def text_footer(self):
-        return '\n'.join([
-            '(24hrs ending at 8.30am)',
-            '#lka #SriLanka 🇱🇰',
-        ])
-    
+        return '\n'.join(
+            [
+                '(24hrs ending at 8.30am)',
+                '#lka #SriLanka 🇱🇰',
+            ]
+        )
+
     @property
     def text_temp(self):
         weather_data = self.weather_report.weather_data
@@ -56,13 +63,14 @@ class Tweeter(TweeterCharts):
         max_temp_emoji = temp_to_emoji(max_temp)
         min_temp_emoji = temp_to_emoji(min_temp)
 
-        
-        return '\n'.join([
-            'Temperature 🌡️',
-            f'{max_temp_emoji} Max: {max_temp:.1f}°C in {max_temp_place}',
-            f'{min_temp_emoji} Min: {min_temp:.1f}°C in {min_temp_place}',
-        ])
-    
+        return '\n'.join(
+            [
+                'Temperature 🌡️',
+                f'{max_temp_emoji} Max: {max_temp:.1f}°C in {max_temp_place}',
+                f'{min_temp_emoji} Min: {min_temp:.1f}°C in {min_temp_place}',
+            ]
+        )
+
     @property
     def text_rain(self):
         weather_data = self.weather_report.weather_data
@@ -75,23 +83,26 @@ class Tweeter(TweeterCharts):
         max_rain_inches = int(round(max_rain / 25.4, 0))
         max_rain_emoji = '💧' * max_rain_inches
 
-        return '\n'.join([
-            'Rainfall 📏',
-            f'🌧️ Max: {max_rain:.0f}mm in {max_rain_place} {max_rain_emoji}',
-        ])
-        
+        return '\n'.join(
+            [
+                'Rainfall 📏',
+                f'🌧️ Max: {max_rain:.0f}mm in {max_rain_place} {max_rain_emoji}',
+            ]
+        )
 
     @property
     def tweet_text(self):
-        return '\n'.join([
-            self.text_header,
-            '',
-            self.text_temp,
-            '',
-            self.text_rain,
-            '',
-            self.text_footer,
-        ])
+        return '\n'.join(
+            [
+                self.text_header,
+                '',
+                self.text_temp,
+                '',
+                self.text_rain,
+                '',
+                self.text_footer,
+            ]
+        )
 
     @property
     def tweet(self):
@@ -105,9 +116,9 @@ class Tweeter(TweeterCharts):
 
     def send(self):
         self.build_tweet_image()
-        tweet = self.tweet
+        self.tweet
 
-        try: 
+        try:
             twitter = Twitter()
             twitter.send()
         except Exception as e:
