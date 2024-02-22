@@ -1,0 +1,54 @@
+
+name: download_from_wayback
+# on: workflow_dispatch
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  "0 */12 * * *"
+
+jobs:
+  pipeline:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: |
+        sudo apt update
+        sudo apt install ghostscript
+        python -m pip install --upgrade pip
+        python -m pip install flake8 pytest
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        pip install build
+
+    - name: Lint with flake8
+      run: |
+        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+        flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+
+    - name: Run workflows/download_from_wayback.py 
+      run: |
+        export PYTHONPATH="$PYTHONPATH:./src"
+        python workflows/download_from_wayback.py 
+    - name: Checkout repo branch data
+      uses: actions/checkout@v2
+      with:
+        ref: 'data'
+        token: "${{ secrets.REPO_DATA_TOKEN }}"
+
+    - name: Copy data, and push to repo branch data
+      run: |
+        git config --global user.email "${{ secrets.GIT_USER_EMAIL }}"
+        git config --global user.name "${{ secrets.GIT_USER_NAME }}"
+        cp -r /tmp/weather_lk/* .
+        echo "* download_from_wayback $(date)" >> update.log
+        git add .
+        git commit -m "🤖 $(date) - download_from_wayback.yml"
+        git push origin data

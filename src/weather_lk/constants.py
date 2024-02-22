@@ -38,3 +38,4 @@ LIMIT_AND_COLOR_LIST = [
 MIN_COLOR = (0, 0, 0.5, a)
 
 URL_REMOTE_DATA = 'https://raw.githubusercontent.com/nuuuwan/weather_lk/data'
+DIR_REPO_WAYBACK_DATA = os.path.join(DIR_REPO, 'wayback_data')
