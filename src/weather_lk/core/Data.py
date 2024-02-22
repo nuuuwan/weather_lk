@@ -1,6 +1,8 @@
-from weather_lk.constants import BRANCH_NAME, DIR_REPO, GIT_REPO_URL
-from utils import Git
+from weather_lk.constants import BRANCH_NAME, DIR_REPO, GIT_REPO_URL, DIR_REPO_PARSED_DATA_JSON
+from utils import Git, Log, JSONFile
+import os
 
+log = Log('Data')
 
 class Data:
     @staticmethod
@@ -8,3 +10,60 @@ class Data:
         git = Git(GIT_REPO_URL)
         git.clone(DIR_REPO)
         git.checkout(BRANCH_NAME)
+
+    @staticmethod
+    def get_data_path_list():
+        data_path_list = []
+        for file_name in os.listdir(DIR_REPO_PARSED_DATA_JSON):
+            if file_name.endswith('.json'):
+                data_path = os.path.join(DIR_REPO_PARSED_DATA_JSON, file_name)
+                data_path_list.append(data_path)
+        return data_path_list
+    
+    @staticmethod
+    def list_all():
+        data_path_list = Data.get_data_path_list()
+        data_list = [ ]
+        for data_path in data_path_list:
+            data = JSONFile(data_path).read()
+            data_list.append(data)
+        log.info(f'Found {len(data_list)} data files.')
+        return data_list
+    
+    @staticmethod
+    def idx_by_date():
+        data_list = Data.list_all()
+        idx = {}
+        for data in data_list:
+            date = data['date']
+            idx[date] = data
+        return idx
+    
+    @staticmethod
+    def idx_by_place():
+        data_list = Data.list_all()
+        idx = {}
+        for data in data_list:
+            weather_list = data['weather_list']
+            for item in weather_list:
+                place = item['place']
+                if place not in idx:
+                    idx[place] = []
+                d = dict(
+                    date = data['date'],
+                    rain = item['rain'],
+                    min_temp = item['min_temp'],
+                    max_temp = item['max_temp']
+                )
+                idx[place].append(d)
+
+        idx = dict(sorted(idx.items(), key=lambda item: item[0]))
+        return idx
+    
+def main():
+    idx = Data.idx_by_place()
+    print(idx['Colombo'])
+
+
+if __name__ == "__main__":
+    main()
