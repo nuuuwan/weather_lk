@@ -6,7 +6,7 @@ on:
     - cron:  "40 */12 * * *"
 
 jobs:
-  pipeline:
+  build_summaries:
 
     runs-on: ubuntu-latest
 

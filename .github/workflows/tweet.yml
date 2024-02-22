@@ -6,7 +6,7 @@ on:
     - cron:  "40 */12 * * *"
 
 jobs:
-  pipeline:
+  tweet:
 
     runs-on: ubuntu-latest
 

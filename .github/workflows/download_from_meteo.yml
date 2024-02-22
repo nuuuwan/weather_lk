@@ -6,7 +6,7 @@ on:
     - cron:  "0 */12 * * *"
 
 jobs:
-  pipeline:
+  download_from_meteo:
 
     runs-on: ubuntu-latest
 
