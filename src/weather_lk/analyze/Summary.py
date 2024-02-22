@@ -114,6 +114,10 @@ class Summary:
         y_temp_max = [d['temp_max'] for d in data_for_place]
         y_temp_min = [d['temp_min'] for d in data_for_place]
 
+        y_temp_max_not_null = [y for y in y_temp_max if y is not None]
+        if len(y_temp_max_not_null) < 10:
+            return
+
         plt.close()
         fig = plt.gcf()
         fig.autofmt_xdate()
@@ -201,6 +205,10 @@ class Summary:
     def draw_rain_chart_for_place(place, data_for_place):
         x = [datetime.strptime(d['date'], '%Y-%m-%d') for d in data_for_place]
         y_rain = [d['rain'] for d in data_for_place]
+
+        y_rain_not_null = [y for y in y_rain if y is not None]
+        if len(y_rain_not_null) < 10:
+            return
 
         plt.close()
         fig = plt.gcf()
