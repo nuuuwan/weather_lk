@@ -30,7 +30,7 @@ class MeteoGovLkPage:
         log.debug(f'{h32=}')
         
         file_path = os.path.join(
-            DIR_REPO_METEO_GOV_LK_PDF, f'{h32}.pdf'
+            dir_download, f'{h32}.pdf'
         )
         os.rename(temp_file_path, file_path)
         log.info(f'Downloaded {pdf_url} to {file_path}')
