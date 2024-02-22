@@ -1,10 +1,10 @@
 import os
 from functools import cached_property
 
-from utils import Git, JSONFile, Log, TSVFile
+from utils import JSONFile, Log, TSVFile
 
-from weather_lk.constants import (BRANCH_NAME, DIR_DATA_BY_PLACE, DIR_REPO,
-                                  DIR_REPO_DAILY_DATA, GIT_REPO_URL)
+from weather_lk.constants import (DIR_DATA_BY_PLACE, DIR_REPO,
+                                  DIR_REPO_DAILY_DATA)
 from weather_lk.place_to_latlng.PlaceToLatLng import PlaceToLatLng
 
 log = Log('Summary')
@@ -36,10 +36,6 @@ class Summary:
 
     @cached_property
     def data_list(self):
-        git = Git(GIT_REPO_URL)
-        git.clone(DIR_REPO)
-        git.checkout(BRANCH_NAME)
-
         data_list = []
         for file_only in os.listdir(DIR_REPO_DAILY_DATA):
             if not (

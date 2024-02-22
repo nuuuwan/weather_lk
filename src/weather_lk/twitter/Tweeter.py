@@ -18,6 +18,7 @@ def temp_to_emoji(temp):
     i = max(0, min(i, len(emojis) - 1))
     return emojis[i]
 
+
 class Tweeter(TweeterCharts):
     def __init__(self, weather_report):
         self.weather_report = weather_report

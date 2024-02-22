@@ -1,7 +1,6 @@
 """Tweet."""
 import math
 import os
-import tempfile
 
 from infograph import BarChart, DataTable, Infograph, RangeBarChart
 
