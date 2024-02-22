@@ -415,3 +415,9 @@ class Summary:
         File(readme_path).write_lines(lines)
         log.info(f'Wrote README to {readme_path}')
 
+    def write_all(self):
+        self.write()
+        self.write_by_place()
+        self.draw_charts_by_place()
+        self.write_coverage()
+        self.build_readme()
