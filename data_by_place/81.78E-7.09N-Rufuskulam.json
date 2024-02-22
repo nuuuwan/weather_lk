@@ -12,6 +12,24 @@
     "max_temp": null
   },
   {
+    "date": "2021-12-14",
+    "rain": 44.4,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2021-12-18",
+    "rain": 7.2,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-01-04",
+    "rain": 60.4,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2022-01-09",
     "rain": 10.5,
     "min_temp": null,
@@ -36,14 +54,56 @@
     "max_temp": null
   },
   {
+    "date": "2022-02-11",
+    "rain": 25.6,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-02-19",
+    "rain": 110.8,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2022-02-27",
     "rain": 34.0,
     "min_temp": null,
     "max_temp": null
   },
   {
+    "date": "2022-11-05",
+    "rain": 60.5,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2022-11-09",
     "rain": 64.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-11-10",
+    "rain": 28.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-11-12",
+    "rain": 26.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2023-01-27",
+    "rain": 1.2,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2023-02-20",
+    "rain": 210.3,
     "min_temp": null,
     "max_temp": null
   },
@@ -72,6 +132,12 @@
     "max_temp": null
   },
   {
+    "date": "2023-12-15",
+    "rain": 62.2,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2023-12-20",
     "rain": 32.3,
     "min_temp": null,
@@ -84,6 +150,12 @@
     "max_temp": null
   },
   {
+    "date": "2023-12-30",
+    "rain": 215.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2023-12-31",
     "rain": 7.0,
     "min_temp": null,
@@ -92,6 +164,12 @@
   {
     "date": "2024-01-02",
     "rain": 75.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-01-11",
+    "rain": 201.3,
     "min_temp": null,
     "max_temp": null
   },
