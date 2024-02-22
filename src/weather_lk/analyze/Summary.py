@@ -340,7 +340,7 @@ class Summary:
 
         plt.title(f'Coverage (Last {window} Days)')
         plt.xlabel('Date')
-        plt.ylabel('Count')
+        plt.ylabel('Number of Places Covered')
 
         plt.bar(x, y_rain, color='b', label='Rainfall')
         plt.bar(x, y_temp, color='r', label='Temperature & Rainfall')
