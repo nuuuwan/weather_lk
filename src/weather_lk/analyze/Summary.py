@@ -5,7 +5,10 @@ from functools import cache, cached_property
 import matplotlib.pyplot as plt
 from utils import JSONFile, Log, TSVFile
 
-from weather_lk.constants import (DIR_DATA_BY_PLACE, DIR_DATA_CHARTS, DIR_DATA_CHARTS_RAINFALL, DIR_DATA_CHARTS_TEMPERATURE, DIR_REPO, DIR_REPO_DAILY_DATA, LIMIT_AND_COLOR_LIST)
+from weather_lk.constants import (DIR_DATA_BY_PLACE, DIR_DATA_CHARTS,
+                                  DIR_DATA_CHARTS_RAINFALL,
+                                  DIR_DATA_CHARTS_TEMPERATURE, DIR_REPO,
+                                  DIR_REPO_DAILY_DATA, LIMIT_AND_COLOR_LIST)
 from weather_lk.place_to_latlng.PlaceToLatLng import PlaceToLatLng
 
 log = Log('Summary')
@@ -254,7 +257,6 @@ class Summary:
             os.makedirs(DIR_DATA_CHARTS_RAINFALL)
         if not os.path.exists(DIR_DATA_CHARTS_TEMPERATURE):
             os.makedirs(DIR_DATA_CHARTS_TEMPERATURE)
-
 
         for place, data_for_place in self.data_by_place.items():
             try:
