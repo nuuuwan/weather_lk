@@ -3,7 +3,7 @@ from functools import cached_property
 
 from utils import String, TimeFormat
 
-from weather_lk.latllng.History import DEFAULT_LATLNG, History
+from weather_lk.latlng.History import DEFAULT_LATLNG, History
 from weather_lk.weather_report.REGEX import REGEX
 
 
