@@ -2,7 +2,7 @@
   {
     "date": "2022-02-26",
     "rain": 12.3,
-    "temp_min": null,
-    "temp_max": null
+    "min_temp": null,
+    "max_temp": null
   }
 ]
