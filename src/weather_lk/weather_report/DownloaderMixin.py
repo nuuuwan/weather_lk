@@ -1,9 +1,10 @@
 import os
-import tempfile
 
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from utils import WWW, File, Log, get_date_id
+
+from weather_lk.constants import DIR_REPO_DAILY_DATA
 
 log = Log('weather_lk')
 
@@ -19,7 +20,7 @@ class DownloaderMixin:
     @property
     def file_path(self):
         return os.path.join(
-            tempfile.gettempdir(), f'weather_lk.{self.date_id}.pdf'
+            DIR_REPO_DAILY_DATA, f'weather_lk.{self.date_id}.pdf'
         )
 
     @property

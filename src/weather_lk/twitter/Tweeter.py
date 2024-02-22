@@ -13,20 +13,10 @@ def hash(x):
 
 
 def temp_to_emoji(temp):
-    if temp > 35:
-        return '🟤'
-    if temp > 30:
-        return '🔴'
-    if temp > 25:
-        return '🟠'
-    if temp > 20:
-        return '🟡'
-    if temp > 15:
-        return '🟢'
-    if temp > 10:
-        return '🔵'
-    return '🟣'
-
+    emojis = ['🟣', '🔵', '🟢', '🟡', '🟠', '🔴', '🟤']
+    i = int(temp / 5) - 1
+    i = max(0, min(i, len(emojis) - 1))
+    return emojis[i]
 
 class Tweeter(TweeterCharts):
     def __init__(self, weather_report):

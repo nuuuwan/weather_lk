@@ -5,6 +5,8 @@ import tempfile
 
 from infograph import BarChart, DataTable, Infograph, RangeBarChart
 
+from weather_lk.constants import DIR_REPO_DAILY_DATA
+
 
 def func_color_rain(_, yi):
     b = 1
@@ -42,7 +44,7 @@ class TweeterCharts:
     @property
     def tweet_image_path(self):
         return os.path.join(
-            tempfile.gettempdir(),
+            DIR_REPO_DAILY_DATA,
             f'weather_lk.{self.weather_report.date_id}.png',
         )
 
