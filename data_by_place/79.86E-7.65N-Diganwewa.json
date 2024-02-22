@@ -2,7 +2,7 @@
   {
     "date": "2023-11-21",
     "rain": 99.4,
-    "temp_min": null,
-    "temp_max": null
+    "min_temp": null,
+    "max_temp": null
   }
 ]

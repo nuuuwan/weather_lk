@@ -1,5 +1,17 @@
 [
   {
+    "date": "2022-04-06",
+    "rain": 64.2,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-07-30",
+    "rain": 6.1,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2022-11-07",
     "rain": 17.0,
     "min_temp": null,

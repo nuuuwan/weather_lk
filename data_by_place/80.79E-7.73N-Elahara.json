@@ -1,5 +1,11 @@
 [
   {
+    "date": "2021-07-06",
+    "rain": 58.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2021-11-19",
     "rain": 20.5,
     "min_temp": null,
@@ -8,6 +14,12 @@
   {
     "date": "2021-11-24",
     "rain": 78.3,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2021-11-30",
+    "rain": 54.8,
     "min_temp": null,
     "max_temp": null
   },
@@ -42,6 +54,36 @@
     "max_temp": null
   },
   {
+    "date": "2022-01-07",
+    "rain": 3.3,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-02-01",
+    "rain": 4.5,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-02-11",
+    "rain": 24.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-02-24",
+    "rain": 35.5,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-03-25",
+    "rain": 5.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2022-04-23",
     "rain": 34.0,
     "min_temp": null,
@@ -60,8 +102,20 @@
     "max_temp": null
   },
   {
+    "date": "2022-09-26",
+    "rain": 119.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2022-10-11",
     "rain": 35.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-10-12",
+    "rain": 51.0,
     "min_temp": null,
     "max_temp": null
   },
@@ -74,6 +128,18 @@
   {
     "date": "2022-12-20",
     "rain": 83.5,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-12-22",
+    "rain": 42.6,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2023-01-18",
+    "rain": 33.0,
     "min_temp": null,
     "max_temp": null
   },
@@ -92,6 +158,18 @@
   {
     "date": "2023-11-07",
     "rain": 44.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2023-11-17",
+    "rain": 38.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2023-11-21",
+    "rain": 47.5,
     "min_temp": null,
     "max_temp": null
   },
