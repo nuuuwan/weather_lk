@@ -3,7 +3,8 @@ from functools import cached_property
 
 from utils import String, TimeFormat
 
-from weather_lk.place_to_latlng.PlaceToLatLng import DEFAULT_LATLNG, PlaceToLatLng
+from weather_lk.place_to_latlng.PlaceToLatLng import (DEFAULT_LATLNG,
+                                                      PlaceToLatLng)
 from weather_lk.weather_report.REGEX import REGEX
 
 

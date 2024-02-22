@@ -80,6 +80,3 @@ class PlaceToLatLng:
         n = len(place_to_latlng.keys())
         JSONFile(PLACE_TO_LATLNG_PATH_NEW).write(place_to_latlng)
         log.info(f'Saved {n} places to {PLACE_TO_LATLNG_PATH}.')
-
-
-
