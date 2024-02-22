@@ -12,12 +12,6 @@
     "max_temp": null
   },
   {
-    "date": "2021-08-02",
-    "rain": 2.8,
-    "min_temp": null,
-    "max_temp": null
-  },
-  {
     "date": "2021-08-09",
     "rain": 57.2,
     "min_temp": null,
@@ -26,12 +20,6 @@
   {
     "date": "2021-08-13",
     "rain": 67.2,
-    "min_temp": null,
-    "max_temp": null
-  },
-  {
-    "date": "2021-09-07",
-    "rain": 12.2,
     "min_temp": null,
     "max_temp": null
   },
@@ -92,12 +80,6 @@
   {
     "date": "2022-09-08",
     "rain": 6.5,
-    "min_temp": null,
-    "max_temp": null
-  },
-  {
-    "date": "2022-10-20",
-    "rain": 19.8,
     "min_temp": null,
     "max_temp": null
   },

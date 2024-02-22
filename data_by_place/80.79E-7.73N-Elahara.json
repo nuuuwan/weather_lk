@@ -36,12 +36,6 @@
     "max_temp": null
   },
   {
-    "date": "2021-12-21",
-    "rain": 2.8,
-    "min_temp": null,
-    "max_temp": null
-  },
-  {
     "date": "2021-12-22",
     "rain": 5.4,
     "min_temp": null,
@@ -182,12 +176,6 @@
   {
     "date": "2023-12-20",
     "rain": 65.5,
-    "min_temp": null,
-    "max_temp": null
-  },
-  {
-    "date": "2023-12-21",
-    "rain": 20.5,
     "min_temp": null,
     "max_temp": null
   },
