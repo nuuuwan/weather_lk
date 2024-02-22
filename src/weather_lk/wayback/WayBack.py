@@ -61,7 +61,7 @@ class WayBack:
         all_pdf_links = []
 
         while True:
-            log.debug(f'😴 waiting for {WayBack.T_WAIT}s')
+            log.debug(f'😴 Sleeping for {WayBack.T_WAIT}s')
             time.sleep(WayBack.T_WAIT)
 
             all_pdf_links.extend(WayBack.get_pdf_links(driver))
@@ -82,3 +82,6 @@ class WayBack:
 
         for pdf_link in self.pdf_link_list:
             RemotePDF(pdf_link).download(DIR_REPO_WAYBACK_DATA)
+            log.debug(f'😴 Sleeping for {WayBack.T_WAIT}s')
+            time.sleep(WayBack.T_WAIT)
+
