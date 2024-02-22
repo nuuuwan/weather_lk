@@ -3,7 +3,8 @@ from datetime import datetime
 from functools import cache, cached_property
 
 import matplotlib.pyplot as plt
-from utils import SECONDS_IN, TIME_FORMAT_DATE, JSONFile, Log, Time, TSVFile
+from utils import (SECONDS_IN, TIME_FORMAT_DATE, File, JSONFile, Log, Time,
+                   TSVFile)
 
 from weather_lk.constants import (DIR_DATA_BY_PLACE, DIR_DATA_CHARTS,
                                   DIR_DATA_CHARTS_RAINFALL,
@@ -348,12 +349,38 @@ class Summary:
         plt.savefig(image_path, dpi=300)
         plt.close()
         log.info(f'Wrote chart to {image_path}')
-        os.startfile(image_path)
+        # os.startfile(image_path)
+
+    def build_readme(self):
+        lines = [
+            '# Sri Lanka :sri_lanka: Weather (weather_lk)',
+            '',
+            'Rainfall and Temperature data, extracted from the '
+            + '[Sri Lanka Meteorological Department](http://www.meteo.gov.lk/).',
+            '',
+            '## Coverage',
+            '',
+            '### Last 10 days',
+            '',
+            '![Coverage](coverage-10days.png)',
+            '',
+            '### Last 1000 days',
+            '',
+            '![Coverage](coverage-1000days.png)',
+            '',
+            '## Charts - Temperature',
+            '',
+            '## Charts - Rainfall',
+            '',
+        ]
+        readme_path = os.path.join(DIR_REPO, 'README.md')
+        File(readme_path).write_lines(lines)
+        log.info(f'Wrote README to {readme_path}')
 
 
 def main():
     s = Summary()
-    s.write_coverage()
+    s.build_readme()
 
 
 if __name__ == "__main__":
