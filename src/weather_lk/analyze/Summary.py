@@ -3,13 +3,26 @@ from datetime import datetime
 from functools import cache, cached_property
 
 import matplotlib.pyplot as plt
-from utils import (SECONDS_IN, TIME_FORMAT_DATE, File, JSONFile, Log, Time,
-                   TSVFile)
+from utils import (
+    SECONDS_IN,
+    TIME_FORMAT_DATE,
+    File,
+    JSONFile,
+    Log,
+    Time,
+    TSVFile,
+)
 
-from weather_lk.constants import (DIR_DATA_BY_PLACE, DIR_DATA_CHARTS,
-                                  DIR_DATA_CHARTS_RAINFALL,
-                                  DIR_DATA_CHARTS_TEMPERATURE, DIR_REPO,
-                                  DIR_REPO_DAILY_DATA, LIMIT_AND_COLOR_LIST)
+from weather_lk.constants import (
+    DIR_DATA_BY_PLACE,
+    DIR_DATA_CHARTS,
+    DIR_DATA_CHARTS_RAINFALL,
+    DIR_DATA_CHARTS_TEMPERATURE,
+    DIR_REPO,
+    DIR_REPO_DAILY_DATA,
+    LIMIT_AND_COLOR_LIST,
+    URL_REMOTE_DATA,
+)
 from weather_lk.place_to_latlng.PlaceToLatLng import PlaceToLatLng
 
 log = Log('Summary')
@@ -352,27 +365,120 @@ class Summary:
         # os.startfile(image_path)
 
     def build_readme(self):
-        lines = [
-            '# Sri Lanka :sri_lanka: Weather (weather_lk)',
-            '',
-            'Rainfall and Temperature data, extracted from the '
-            + '[Sri Lanka Meteorological Department](http://www.meteo.gov.lk/).',
-            '',
-            '## Coverage',
-            '',
-            '### Last 10 days',
-            '',
-            '![Coverage](coverage-10days.png)',
-            '',
-            '### Last 1000 days',
-            '',
-            '![Coverage](coverage-1000days.png)',
-            '',
-            '## Charts - Temperature',
-            '',
-            '## Charts - Rainfall',
-            '',
+        coverage = self.coverage()
+        n_has_data = sum(1 for c in coverage if c['has_data'])
+        n_total = len(coverage)
+
+        display_places = [
+            # LK-11 Colombo
+            'Colombo',
+            'Rathmalana',
+            # LK-12 Gampaha
+            'Katunayake',
+            # LK-13 Kalutara
+            # LK-21 Kandy
+            'Katugasthota',
+            # LK-22 Matale
+            # LK-23 Nuwara Eliya
+            'Nuwara Eliya',
+            # LK-31 Galle
+            'Galle',
+            # LK-32 Matara
+            # LK-33 Hambantota
+            'Hambanthota',
+            # LK-41 Jaffna
+            'Jaffna',
+            # LK-42 Mannar
+            'Mannar',
+            # LK-43 Vavuniya
+            'Vavuniya',
+            # LK-44 Mullaitivu
+            'Mullaithivu',
+            # LK-45 Kilinochchi
+            # LK-51 Batticaloa
+            'Batticaloa',
+            # LK-52 Ampara
+            'Pothuvil',
+            # LK-53 Trincomalee
+            'Trincomalee',
+            # LK-61 Kurunegala
+            'Kurunagala',
+            # LK-62 Puttalam
+            'Puttalam',
+            # LK-71 Anuradhapura
+            'Anuradhapura',
+            'Maha Illuppallama',
+            # LK-72 Polonnaruwa
+            'Polonnaruwa',
+            # LK-81 Badulla
+            'Badulla',
+            'Bandarawela',
+            # LK-82 Moneragala
+            'Monaragala',
+            # LK-91 Ratnapura
+            'Rathnapura',
+            # LK-92 Kegalle
         ]
+
+        temp_lines = []
+        rain_lines = []
+        for place in display_places:
+            label = Summary.get_place_label(place)
+            image_path_temp = (
+                URL_REMOTE_DATA + '/charts/temperature/' + f'{label}.png'
+            )
+            image_path_rain = (
+                URL_REMOTE_DATA + '/charts/rainfall/' + f'{label}.png'
+            )
+            temp_lines.extend(
+                [
+                    f'### {place}',
+                    '',
+                    f'![{place}]({image_path_temp})',
+                    '',
+                ]
+            )
+
+            rain_lines.extend(
+                [
+                    f'### {place}',
+                    '',
+                    f'![{place}]({image_path_rain})',
+                    '',
+                ]
+            )
+
+        lines = (
+            [
+                '# Sri Lanka :sri_lanka: Weather (weather_lk)',
+                '',
+                'Rainfall and Temperature data, extracted from the '
+                + '[Sri Lanka Meteorological Department](http://www.meteo.gov.lk/).',
+                '',
+                '## Coverage',
+                '',
+                '> [!WARNING]',
+                '> This dataset has some gaps, and contains data only for  '
+                + f'**{n_has_data}** of the last {n_total} days.',
+                '',
+                '### Last 10 days',
+                '',
+                f'![Coverage]({URL_REMOTE_DATA}/coverage-10days.png)',
+                '',
+                '### Last 1000 days',
+                '',
+                f'![Coverage]({URL_REMOTE_DATA}/coverage-1000days.png)',
+                '',
+                '## Charts - Temperature',
+                '',
+            ]
+            + temp_lines
+            + ['## Charts - Rainfall', '']
+            + rain_lines
+            + [
+                '',
+            ]
+        )
         readme_path = os.path.join(DIR_REPO, 'README.md')
         File(readme_path).write_lines(lines)
         log.info(f'Wrote README to {readme_path}')
