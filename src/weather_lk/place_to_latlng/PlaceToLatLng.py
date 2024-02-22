@@ -9,6 +9,8 @@ log = Log('History')
 
 GIT_REPO_URL = 'https://github.com/nuuuwan/weather_lk'
 DIR_REPO = os.path.join(tempfile.gettempdir(), 'weather_lk')
+DIR_REPO_DAILY_DATA = os.path.join(DIR_REPO, 'daily_data')
+
 BRANCH_NAME = 'data'
 
 DIR_DATA_PLACE_TO_LATLNG = 'data_place_to_latlng'
@@ -28,13 +30,13 @@ class PlaceToLatLng:
         self.git.checkout(BRANCH_NAME)
 
         history_list = []
-        for file_only in os.listdir(DIR_REPO):
+        for file_only in os.listdir(DIR_REPO_DAILY_DATA):
             if not (
                 file_only.startswith('weather_lk.')
                 and file_only.endswith('.json')
             ):
                 continue
-            file_path = os.path.join(DIR_REPO, file_only)
+            file_path = os.path.join(DIR_REPO_DAILY_DATA, file_only)
             data = JSONFile(file_path).read()
             date = data['date']
             weather_list = data['weather_list']
