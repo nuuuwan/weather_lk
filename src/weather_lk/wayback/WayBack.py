@@ -7,6 +7,7 @@ from selenium.webdriver.common.by import By
 from utils import WWW, Log, hashx
 
 from weather_lk.constants import DIR_REPO_WAYBACK_DATA
+from weather_lk.meteo_gov_lk.MeteoGovLkPage import MeteoGovLkPage
 
 log = Log('WayBack')
 
@@ -75,22 +76,9 @@ class WayBack:
 
         return all_pdf_links
 
-    @staticmethod
-    def download_one(pdf_link: str):
-        try:
-            h = hashx.md5(pdf_link)
-            file_path = os.path.join(
-                DIR_REPO_WAYBACK_DATA, f'wayback.{h}.pdf'
-            )
-            WWW.download_binary(pdf_link, file_path)
-            log.info(f'Downloaded {pdf_link} to {file_path}')
-        except Exception as e:
-            log.error(str(e))
-
     def download_all(self):
         if not os.path.exists(DIR_REPO_WAYBACK_DATA):
             os.makedirs(DIR_REPO_WAYBACK_DATA)
 
         for pdf_link in self.pdf_link_list:
-            WayBack.download_one(pdf_link)
-            time.sleep(1)
+            MeteoGovLkPage.download_link(pdf_link, DIR_REPO_WAYBACK_DATA)

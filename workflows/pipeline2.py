@@ -1,8 +1,8 @@
-from weather_lk import PDFDownload
+from weather_lk import MeteoGovLkPage
 
 
 def main():
-    PDFDownload().download()
+    MeteoGovLkPage().download()
 
 
 if __name__ == "__main__":
