@@ -5,10 +5,10 @@ from functools import cached_property
 import camelot
 from utils import TIME_FORMAT_DATE, JSONFile, Log, String, Time, TimeFormat
 
-from weather_lk.constants import (DIR_REPO_PDF_METEO_GOV_LK,
-                                  DIR_REPO_JSON_PARSED,
+from weather_lk.constants import (DIR_REPO_JSON_PARSED,
                                   DIR_REPO_JSON_PLACEHOLDER,
-                                  DIR_REPO_PDF_ARCHIVE_ORG)
+                                  DIR_REPO_PDF_ARCHIVE_ORG,
+                                  DIR_REPO_PDF_METEO_GOV_LK)
 from weather_lk.core.Data import Data
 from weather_lk.meteo_gov_lk.REGEX import REGEX
 from weather_lk.place_to_latlng.PlaceToLatLng import (DEFAULT_LATLNG,
@@ -240,9 +240,7 @@ class PDFParser:
     @cached_property
     def placeholder_path(self):
         file_id = self.pdf_path.split(os.sep)[-1].split('.')[0]
-        return os.path.join(
-            DIR_REPO_JSON_PLACEHOLDER, f'{file_id}.json'
-        )
+        return os.path.join(DIR_REPO_JSON_PLACEHOLDER, f'{file_id}.json')
 
     @cached_property
     def is_parsed(self):

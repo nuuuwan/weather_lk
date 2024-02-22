@@ -35,16 +35,17 @@ def func_color_temp(_, __, y2i):
 class TweeterCharts:
     @property
     def tweet_image_path(self):
+        date = self.data['date']
         return os.path.join(
             DIR_REPO_DAILY_DATA,
-            f'weather_lk.{self.weather_report.date_id}.png',
+            f'weather_lk.{date}.png',
         )
 
     def get_temp_chart(self):
         data_table = DataTable(
             [
                 d
-                for d in self.weather_report.weather_list
+                for d in self.data['weather_list']
                 if d['rain'] is not None
             ],
         )
@@ -60,7 +61,7 @@ class TweeterCharts:
         data_table = DataTable(
             [
                 d
-                for d in self.weather_report.weather_list
+                for d in self.data['weather_list']
                 if d['min_temp'] is not None and d['max_temp'] is not None
             ],
         )
@@ -77,7 +78,7 @@ class TweeterCharts:
         infograph = Infograph(
             'Sri Lanka',
             'Temperature & Rainfall',
-            self.weather_report.weather_data['date'],
+            self.data['date'],
             'meteo.gov.lk',
         )
 

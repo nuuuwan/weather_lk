@@ -1,9 +1,9 @@
-name: download_from_meteo
+name: build_summaries
 
 on:
   workflow_dispatch:
   schedule:
-    - cron:  "0 */12 * * *"
+    - cron:  "40 */12 * * *"
 
 jobs:
   pipeline:
@@ -27,10 +27,10 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         pip install build
 
-    - name: Run workflows/download_from_meteo.py
+    - name: Run workflows/build_summaries.py
       run: |
         export PYTHONPATH="$PYTHONPATH:./src"
-        python workflows/download_from_meteo.py 
+        python workflows/build_summaries.py 
 
     - name: Checkout repo branch data
       uses: actions/checkout@v2
@@ -45,5 +45,5 @@ jobs:
         cp -r /tmp/weather_lk/* .
         echo "* $(date)" >> update.log
         git add .
-        git commit -m "Updated $(date) - 🤖 download_from_meteo.yml"
+        git commit -m "Updated $(date) - 🤖 build_summaries.yml"
         git push origin data

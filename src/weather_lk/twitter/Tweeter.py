@@ -2,7 +2,7 @@
 
 from twtr import Tweet, Twitter
 from utils import Log, String
-
+from weather_lk.core.Data import Data
 from weather_lk.twitter.TweeterCharts import TweeterCharts
 
 log = Log('Tweeter')
@@ -20,12 +20,12 @@ def temp_to_emoji(temp):
 
 
 class Tweeter(TweeterCharts):
-    def __init__(self, weather_report):
-        self.weather_report = weather_report
+    def __init__(self):
+        self.data = Data.max()
 
     @property
     def text_header(self):
-        weather_data = self.weather_report.weather_data
+        weather_data = self.data
         date = weather_data['date']
         return '\n'.join(
             [
@@ -44,7 +44,7 @@ class Tweeter(TweeterCharts):
 
     @property
     def text_temp(self):
-        weather_data = self.weather_report.weather_data
+        weather_data = self.data
         min_temp_data = weather_data['min_temp']
         max_temp_data = weather_data['max_temp']
         min_temp = min_temp_data['min_temp']
@@ -64,7 +64,7 @@ class Tweeter(TweeterCharts):
 
     @property
     def text_rain(self):
-        weather_data = self.weather_report.weather_data
+        weather_data = self.data
         max_rain_data = weather_data['max_rain']
         max_rain = max_rain_data['max_rain']
         if max_rain < 0.5:

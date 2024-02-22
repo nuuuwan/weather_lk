@@ -1,6 +1,6 @@
 import os
 from datetime import datetime
-from functools import cache, cached_property
+from functools import cache
 
 import matplotlib.pyplot as plt
 from utils import (SECONDS_IN, TIME_FORMAT_DATE, File, JSONFile, Log, Time,
@@ -9,8 +9,8 @@ from utils import (SECONDS_IN, TIME_FORMAT_DATE, File, JSONFile, Log, Time,
 from weather_lk.constants import (DIR_DATA_BY_PLACE, DIR_DATA_CHARTS,
                                   DIR_DATA_CHARTS_RAINFALL,
                                   DIR_DATA_CHARTS_TEMPERATURE, DIR_REPO,
-                                  DIR_REPO_DAILY_DATA, LIMIT_AND_COLOR_LIST,
-                                  URL_REMOTE_DATA)
+                                  LIMIT_AND_COLOR_LIST, URL_REMOTE_DATA)
+from weather_lk.core.Data import Data
 from weather_lk.place_to_latlng.PlaceToLatLng import PlaceToLatLng
 
 log = Log('Summary')
@@ -19,63 +19,6 @@ log = Log('Summary')
 class Summary:
     PLACE_TO_LATLNG = PlaceToLatLng.get_place_to_latlng()
     N_ANNOTATE = 10
-
-    @cached_property
-    def data_by_place(self):
-        idx = {}
-        for data in self.data_list:
-            date = data['date']
-            for item in data['weather_list']:
-                place = item['place']
-                d = dict(
-                    date=date,
-                    rain=item['rain'],
-                    temp_min=item.get('min_temp', item.get('temp_min', None)),
-                    temp_max=item.get('max_temp', item.get('temp_max', None)),
-                )
-
-                if place not in idx:
-                    idx[place] = []
-                idx[place].append(d)
-
-        new_idx = {}
-        for place, data_for_place in sorted(idx.items(), key=lambda x: x[0]):
-            sorted_data_for_place = sorted(
-                data_for_place, key=lambda x: x['date'], reverse=True
-            )
-            new_idx[place] = sorted_data_for_place
-        return new_idx
-
-    @cached_property
-    def data_list(self):
-        data_list = []
-        for file_only in os.listdir(DIR_REPO_DAILY_DATA):
-            if not (
-                file_only.startswith('weather_lk.')
-                and file_only.endswith('.json')
-            ):
-                continue
-            file_path = os.path.join(DIR_REPO_DAILY_DATA, file_only)
-            data = JSONFile(file_path).read()
-            data_list.append(data)
-        data_list = sorted(data_list, key=lambda x: x['date'])
-        min_date = data_list[0]['date']
-        max_date = data_list[-1]['date']
-
-        n = len(data_list)
-        log.info(
-            f'Loaded data for {n:,} days, '
-            + f'from {min_date} to {max_date}.'
-        )
-        return data_list
-
-    @cached_property
-    def data_by_date(self):
-        idx = {}
-        for data in self.data_list:
-            date = data['date']
-            idx[date] = data
-        return idx
 
     @staticmethod
     def __write_json(label, x):
@@ -87,8 +30,9 @@ class Summary:
         )
 
     def write(self):
-        Summary.__write_json('data_list', self.data_list)
-        Summary.__write_json('data_by_place', self.data_by_place)
+        Summary.__write_json('list_all', Data.list_all())
+        Summary.__write_json('idx_by_place', Data.idx_by_place())
+        Summary.__write_json('idx_by_date', Data.idx_by_date())
 
     @staticmethod
     @cache
@@ -114,7 +58,7 @@ class Summary:
         if not os.path.exists(DIR_DATA_BY_PLACE):
             os.makedirs(DIR_DATA_BY_PLACE)
 
-        for place, data_for_place in self.data_by_place.items():
+        for place, data_for_place in Data.idx_by_place().items():
             try:
                 Summary.__write_for_place(place, data_for_place)
             except Exception as e:
@@ -123,11 +67,11 @@ class Summary:
     @staticmethod
     def draw_temp_chart_for_place(place, data_for_place):
         x = [datetime.strptime(d['date'], '%Y-%m-%d') for d in data_for_place]
-        y_temp_max = [d['temp_max'] for d in data_for_place]
-        y_temp_min = [d['temp_min'] for d in data_for_place]
+        y_max_temp = [d['max_temp'] for d in data_for_place]
+        y_min_temp = [d['min_temp'] for d in data_for_place]
 
-        y_temp_max_not_null = [y for y in y_temp_max if y is not None]
-        if len(y_temp_max_not_null) < 10:
+        y_max_temp_not_null = [y for y in y_max_temp if y is not None]
+        if len(y_max_temp_not_null) < 10:
             return
 
         plt.close()
@@ -139,21 +83,21 @@ class Summary:
         plt.xlabel('Date')
         plt.ylabel('Temperature (°C)')
 
-        x, y_temp_min, y_temp_max = zip(
+        x, y_min_temp, y_max_temp = zip(
             *[
                 z
-                for z in zip(x, y_temp_min, y_temp_max)
+                for z in zip(x, y_min_temp, y_max_temp)
                 if (z[1] is not None) and (z[2] is not None)
             ]
         )
 
-        temp_min = min(y_temp_min) - 1
-        temp_max = max(y_temp_max) + 1
-        plt.ylim([temp_min, temp_max])
+        min_temp = min(y_min_temp) - 1
+        max_temp = max(y_max_temp) + 1
+        plt.ylim([min_temp, max_temp])
         width = 1
 
         sorted_max_pairs = sorted(
-            list(zip(x, y_temp_max)),
+            list(zip(x, y_max_temp)),
             key=lambda x: x[1],
             reverse=True,
         )
@@ -161,18 +105,18 @@ class Summary:
             date_str = xi.strftime('%Y-%m-%d')
             caption = f'#{i+1} {yi:.1f}°C {date_str}'
             xy = (xi, yi)
-            xytext = (xi, temp_max - i)
+            xytext = (xi, max_temp - i)
             plt.annotate(xy=xy, xytext=xytext, text=caption, color='r')
 
         sorted_min_pairs = sorted(
-            list(zip(x, y_temp_min)),
+            list(zip(x, y_min_temp)),
             key=lambda x: x[1],
         )
         for i, [xi, yi] in enumerate(sorted_min_pairs[: Summary.N_ANNOTATE]):
             date_str = xi.strftime('%Y-%m-%d')
             caption = f'#{i+1} {yi:.1f}°C {date_str}'
             xy = (xi, yi)
-            xytext = (xi, temp_min + i)
+            xytext = (xi, min_temp + i)
             plt.annotate(xy=xy, xytext=xytext, text=caption, color='b')
 
         for [limit, color] in LIMIT_AND_COLOR_LIST:
@@ -180,24 +124,24 @@ class Summary:
                 zip(
                     *[
                         z
-                        for z in zip(x, y_temp_max)
+                        for z in zip(x, y_max_temp)
                         if (limit <= z[1] < limit + 5)
                     ]
                 )
             )
             if not q:
                 continue
-            x2, y_temp_max2 = q
+            x2, y_max_temp2 = q
             plt.bar(
                 x2,
-                y_temp_max2,
+                y_max_temp2,
                 color=color,
                 width=width,
             )
 
-        plt.bar(x, y_temp_min, color='w', width=width)
+        plt.bar(x, y_min_temp, color='w', width=width)
 
-        y_temp_mid = [(a + b) / 2 for a, b in zip(y_temp_min, y_temp_max)]
+        y_temp_mid = [(a + b) / 2 for a, b in zip(y_min_temp, y_max_temp)]
         window = 7
         y_temp_mid_rolling = [
             sum(y_temp_mid[i: i + window]) / window
@@ -268,7 +212,7 @@ class Summary:
         if not os.path.exists(DIR_DATA_CHARTS_TEMPERATURE):
             os.makedirs(DIR_DATA_CHARTS_TEMPERATURE)
 
-        for place, data_for_place in self.data_by_place.items():
+        for place, data_for_place in Data.idx_by_place().items():
             try:
                 Summary.draw_temp_chart_for_place(place, data_for_place)
             except Exception as e:
@@ -285,20 +229,20 @@ class Summary:
 
     def coverage(self):
         t = Time.now()
-        data_by_date = self.data_by_date
+        idx_by_date = Data.idx_by_date()
         c_list = []
         for i in range(0, 1000):
             t_i = Time(t.ut - SECONDS_IN.DAY * i + 1)
             date = TIME_FORMAT_DATE.stringify(t_i)
-            has_data = date in data_by_date
+            has_data = date in idx_by_date
             if has_data:
-                data_for_date = data_by_date[date]
+                data_for_date = idx_by_date[date]
                 weather_list = data_for_date['weather_list']
                 n = len(weather_list)
                 n_temp = sum(
                     1
                     for w in weather_list
-                    if w.get('temp_max', w.get('max_temp', None)) is not None
+                    if w.get('max_temp', w.get('max_temp', None)) is not None
                 )
                 n_rain = sum(
                     1 for w in weather_list if (w['rain'] is not None)
