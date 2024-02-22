@@ -4,6 +4,7 @@ from utils import WWW, JSONFile, Log
 
 log = Log('weather_lk')
 
+
 class LoaderMixin:
     @property
     def remote_weather_data_url(self):

@@ -3,7 +3,7 @@ import tempfile
 
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
-from utils import WWW, File, get_date_id, Log
+from utils import WWW, File, Log, get_date_id
 
 log = Log('weather_lk')
 
