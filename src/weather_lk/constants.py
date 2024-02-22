@@ -23,6 +23,8 @@ DEFAULT_LATLNG = [0, 0]
 
 DIR_DATA_BY_PLACE = os.path.join(DIR_REPO, 'data_by_place')
 DIR_DATA_CHARTS = os.path.join(DIR_REPO, 'charts')
+DIR_DATA_CHARTS_RAINFALL = os.path.join(DIR_DATA_CHARTS, 'rainfall')
+DIR_DATA_CHARTS_TEMPERATURE = os.path.join(DIR_DATA_CHARTS, 'temperature')
 
 a = 0.5
 LIMIT_AND_COLOR_LIST = [

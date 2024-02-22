@@ -5,8 +5,7 @@ from functools import cache, cached_property
 import matplotlib.pyplot as plt
 from utils import JSONFile, Log, TSVFile
 
-from weather_lk.constants import (DIR_DATA_BY_PLACE, DIR_DATA_CHARTS, DIR_REPO,
-                                  DIR_REPO_DAILY_DATA, LIMIT_AND_COLOR_LIST)
+from weather_lk.constants import (DIR_DATA_BY_PLACE, DIR_DATA_CHARTS, DIR_DATA_CHARTS_RAINFALL, DIR_DATA_CHARTS_TEMPERATURE, DIR_REPO, DIR_REPO_DAILY_DATA, LIMIT_AND_COLOR_LIST)
 from weather_lk.place_to_latlng.PlaceToLatLng import PlaceToLatLng
 
 log = Log('Summary')
@@ -195,7 +194,7 @@ class Summary:
         plt.plot(x_rolling, y_temp_mid_rolling, color='black')
 
         label = Summary.get_place_label(place)
-        image_path = os.path.join(DIR_DATA_CHARTS, f'{label}.temperature.png')
+        image_path = os.path.join(DIR_DATA_CHARTS_TEMPERATURE, f'{label}.png')
         plt.savefig(image_path, dpi=300)
         plt.close()
         log.info(f'Wrote chart to {image_path}')
@@ -242,7 +241,7 @@ class Summary:
         plt.bar(x, y_rain, color='b', width=width)
 
         label = Summary.get_place_label(place)
-        image_path = os.path.join(DIR_DATA_CHARTS, f'{label}.rainfall.png')
+        image_path = os.path.join(DIR_DATA_CHARTS_RAINFALL, f'{label}.png')
         plt.savefig(image_path, dpi=300)
         plt.close()
         log.info(f'Wrote chart to {image_path}')
@@ -251,6 +250,12 @@ class Summary:
     def draw_charts_by_place(self):
         if not os.path.exists(DIR_DATA_CHARTS):
             os.makedirs(DIR_DATA_CHARTS)
+        if not os.path.exists(DIR_DATA_CHARTS_RAINFALL):
+            os.makedirs(DIR_DATA_CHARTS_RAINFALL)
+        if not os.path.exists(DIR_DATA_CHARTS_TEMPERATURE):
+            os.makedirs(DIR_DATA_CHARTS_TEMPERATURE)
+
+
         for place, data_for_place in self.data_by_place.items():
             try:
                 Summary.draw_temp_chart_for_place(place, data_for_place)
