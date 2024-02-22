@@ -39,3 +39,4 @@ MIN_COLOR = (0, 0, 0.5, a)
 
 URL_REMOTE_DATA = 'https://raw.githubusercontent.com/nuuuwan/weather_lk/data'
 DIR_REPO_WAYBACK_DATA = os.path.join(DIR_REPO, 'wayback_data')
+DIR_REPO_METEO_GOV_LK_PDF = os.path.join(DIR_REPO, 'meteo_gov_lk_pdf')

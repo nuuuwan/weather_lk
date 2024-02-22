@@ -1,0 +1,50 @@
+
+name: pipeline2
+# on: workflow_dispatch
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  "30 */12 * * *"
+
+jobs:
+  pipeline:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: |
+        sudo apt update
+        sudo apt install ghostscript
+        python -m pip install --upgrade pip
+        python -m pip install flake8 pytest
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        pip install build
+
+    - name: Run workflows/pipeline2.py
+      run: |
+        export PYTHONPATH="$PYTHONPATH:./src"
+        python workflows/pipeline2.py --TWTR_BEARER_TOKEN "${{ secrets.TWTR_BEARER_TOKEN }}" --TWTR_API_KEY "${{ secrets.TWTR_API_KEY }}" --TWTR_API_KEY_SECRET "${{ secrets.TWTR_API_KEY_SECRET }}" --TWTR_ACCESS_TOKEN "${{ secrets.TWTR_ACCESS_TOKEN }}" --TWTR_ACCESS_TOKEN_SECRET "${{ secrets.TWTR_ACCESS_TOKEN_SECRET }}"
+
+    - name: Checkout repo branch data
+      uses: actions/checkout@v2
+      with:
+        ref: 'data'
+        token: "${{ secrets.REPO_DATA_TOKEN }}"
+
+    - name: Copy data, and push to repo branch data
+      run: |
+        git config --global user.email "${{ secrets.GIT_USER_EMAIL }}"
+        git config --global user.name "${{ secrets.GIT_USER_NAME }}"
+        cp -r /tmp/weather_lk/* .
+        echo "* $(date)" >> update.log
+        git add .
+        git commit -m "Updated $(date) - 🤖 pipeline2.yml"
+        git push origin data
