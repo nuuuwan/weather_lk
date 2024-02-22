@@ -1,98 +1,32 @@
 [
   {
-    "date": "2023-12-23",
-    "rain": 5.3,
-    "temp_min": null,
-    "temp_max": null
+    "date": "2022-02-27",
+    "rain": 30.2,
+    "min_temp": null,
+    "max_temp": null
   },
   {
-    "date": "2023-12-16",
-    "rain": 81.3,
-    "temp_min": null,
-    "temp_max": null
-  },
-  {
-    "date": "2023-12-09",
-    "rain": 54.2,
-    "temp_min": null,
-    "temp_max": null
-  },
-  {
-    "date": "2023-12-03",
-    "rain": 12.7,
-    "temp_min": null,
-    "temp_max": null
-  },
-  {
-    "date": "2023-11-15",
-    "rain": 32.2,
-    "temp_min": null,
-    "temp_max": null
-  },
-  {
-    "date": "2023-11-05",
-    "rain": 105.4,
-    "temp_min": null,
-    "temp_max": null
-  },
-  {
-    "date": "2023-11-04",
-    "rain": 105.4,
-    "temp_min": null,
-    "temp_max": null
-  },
-  {
-    "date": "2023-09-03",
-    "rain": 2.5,
-    "temp_min": null,
-    "temp_max": null
-  },
-  {
-    "date": "2023-04-10",
-    "rain": 16.3,
-    "temp_min": null,
-    "temp_max": null
-  },
-  {
-    "date": "2023-04-09",
-    "rain": 39.9,
-    "temp_min": null,
-    "temp_max": null
+    "date": "2022-03-28",
+    "rain": 8.2,
+    "min_temp": null,
+    "max_temp": null
   },
   {
     "date": "2023-01-24",
     "rain": 37.8,
-    "temp_min": null,
-    "temp_max": null
+    "min_temp": null,
+    "max_temp": null
   },
   {
-    "date": "2023-01-18",
-    "rain": 31.3,
-    "temp_min": null,
-    "temp_max": null
+    "date": "2023-09-03",
+    "rain": 2.5,
+    "min_temp": null,
+    "max_temp": null
   },
   {
-    "date": "2021-11-05",
-    "rain": 46.3,
-    "temp_min": null,
-    "temp_max": null
-  },
-  {
-    "date": "2021-11-03",
-    "rain": 60.4,
-    "temp_min": null,
-    "temp_max": null
-  },
-  {
-    "date": "2021-10-31",
-    "rain": 111.2,
-    "temp_min": null,
-    "temp_max": null
-  },
-  {
-    "date": "2021-10-17",
-    "rain": 35.3,
-    "temp_min": null,
-    "temp_max": null
+    "date": "2023-12-09",
+    "rain": 54.2,
+    "min_temp": null,
+    "max_temp": null
   }
 ]
