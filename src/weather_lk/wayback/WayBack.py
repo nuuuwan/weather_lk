@@ -21,6 +21,33 @@ class WayBack:
             + '/https://www.meteo.gov.lk/images/mergepdf/*'
         )
 
+    @staticmethod
+    def get_pdf_links(driver):
+        pdf_link_list = []
+        for elem_link_pdf in driver.find_elements(
+            By.XPATH, "//a[contains(@href, '.pdf')]"
+        ):
+            pdf_link_list.append(elem_link_pdf.get_attribute('href'))
+
+        log.debug(f'Found {len(pdf_link_list)} pdf links')
+        return pdf_link_list
+
+    @staticmethod
+    def click_next(driver):
+        try:
+            elem_button_next = driver.find_element(
+                By.XPATH, "//a[contains(text(), 'Next')]"
+            )
+            attr_disabled = elem_button_next.get_attribute('aria-disabled')
+            if attr_disabled:
+                log.debug('No more "Next" button found.')
+                return False
+            elem_button_next.click()
+        except Exception as e:
+            log.error(str(e))
+            return False
+        return True
+
     @cached_property
     def pdf_link_list(self) -> list[str]:
         options = webdriver.FirefoxOptions()
@@ -36,28 +63,9 @@ class WayBack:
             log.debug(f'😴 waiting for {WayBack.T_WAIT}s')
             time.sleep(WayBack.T_WAIT)
 
-            pdf_link_list = []
-            for elem_link_pdf in driver.find_elements(
-                By.XPATH, "//a[contains(@href, '.pdf')]"
-            ):
-                pdf_link_list.append(elem_link_pdf.get_attribute('href'))
+            all_pdf_links.extend(WayBack.get_pdf_links(driver))
 
-            log.debug(f'Found {len(pdf_link_list)} pdf links')
-            all_pdf_links.extend(pdf_link_list)
-
-            try:
-                elem_button_next = driver.find_element(
-                    By.XPATH, "//a[contains(text(), 'Next')]"
-                )
-                attr_disabled = elem_button_next.get_attribute(
-                    'aria-disabled'
-                )
-                if attr_disabled:
-                    log.debug('No more "Next" button found.')
-                    break
-                elem_button_next.click()
-            except Exception as e:
-                log.error(str(e))
+            if not WayBack.click_next(driver):
                 break
 
         log.info(f'Found {len(all_pdf_links)} pdf links in total.')
@@ -65,13 +73,15 @@ class WayBack:
         driver.quit()
         log.debug('Closing browser.')
 
-        return pdf_link_list
+        return all_pdf_links
 
     @staticmethod
     def download_one(pdf_link: str):
         try:
             h = hashx.md5(pdf_link)
-            file_path = os.path.join(DIR_REPO_WAYBACK_DATA, f'wayback.{h}.pdf')
+            file_path = os.path.join(
+                DIR_REPO_WAYBACK_DATA, f'wayback.{h}.pdf'
+            )
             WWW.download_binary(pdf_link, file_path)
             log.info(f'Downloaded {pdf_link} to {file_path}')
         except Exception as e:
