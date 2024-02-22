@@ -1,2 +1,2 @@
-rain	temp_min	temp_max	date
-12.0			2021-06-29
+date	rain	temp_min	temp_max
+2021-06-29	12.0		

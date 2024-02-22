@@ -1,2 +1,2 @@
-rain	temp_min	temp_max	date
-25.6			2022-10-02
+date	rain	temp_min	temp_max
+2022-10-02	25.6		

@@ -1,2 +1,2 @@
-rain	temp_min	temp_max	date
-0.0			2023-08-21
+date	rain	temp_min	temp_max
+2023-08-21	0.0		

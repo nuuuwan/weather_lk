@@ -1,2 +1,2 @@
-rain	temp_min	temp_max	date
-10.5			2023-12-03
+date	rain	temp_min	temp_max
+2023-12-03	10.5		
