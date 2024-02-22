@@ -1,8 +1,8 @@
 from functools import cached_property
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
-from utils import WWW, Log
-from utils_future import file_hash
+from utils import Log
+from utils_future import  RemotePDF
 from weather_lk.constants import DIR_REPO_METEO_GOV_LK_PDF
 import os
 import tempfile
@@ -16,33 +16,14 @@ class MeteoGovLkPage:
     PAGE_LOAD_TIMEOUT = 240
     T_WAIT = 4
 
-    @staticmethod
-    def download_link(pdf_url, dir_download):
-        if not os.path.exists(dir_download):
-            os.makedirs(dir_download)
-
-        temp_file_path = tempfile.mktemp('.pdf')
-        log.debug(f'{temp_file_path=}')
-        
-        WWW.download_binary(pdf_url, temp_file_path)
-        
-        h32 = file_hash(temp_file_path)
-        log.debug(f'{h32=}')
-        
-        file_path = os.path.join(
-            dir_download, f'{h32}.pdf'
-        )
-        os.rename(temp_file_path, file_path)
-        log.info(f'Downloaded {pdf_url} to {file_path}')
-
-    @cached_property 
+    @cached_property
     def pdf_url(self):
         options = Options()
         options.add_argument("--headless")
         browser = webdriver.Firefox(options=options)
-        browser.set_page_load_timeout(self.PAGE_LOAD_TIMEOUT)
+        browser.set_page_load_timeout(MeteoGovLkPage.PAGE_LOAD_TIMEOUT)
 
-        log.debug(f'Browsing {self.URL}...')
+        log.debug(f'Browsing {MeteoGovLkPage.URL}...')
         browser.get(self.URL)
         log.debug(f'😴 Sleeping for {MeteoGovLkPage.T_WAIT}s...')
         time.sleep(MeteoGovLkPage.T_WAIT)
@@ -56,7 +37,4 @@ class MeteoGovLkPage:
         return pdf_url
 
     def download(self):
-        MeteoGovLkPage.download_link(self.pdf_url, DIR_REPO_METEO_GOV_LK_PDF)
-
-
-       
+        RemotePDF(self.pdf_url).download(DIR_REPO_METEO_GOV_LK_PDF)

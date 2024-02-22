@@ -1,0 +1,45 @@
+from functools import cached_property
+from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
+from utils import WWW, Log, hashx
+from weather_lk.constants import DIR_REPO_METEO_GOV_LK_PDF
+import os
+import tempfile
+import time
+
+log = Log('weather_lk')
+
+
+class RemotePDF:
+    T_WAIT = 4
+
+    @staticmethod
+    def file_hash(file_path) -> str:
+        with open(file_path, 'rb') as f:
+            file_content = f.read().decode('utf-8', errors='ignore')
+            h32 = hashx.md5(file_content)
+            return h32
+
+
+
+    def __init__(self, pdf_url):
+        self.pdf_url = pdf_url
+
+    def download(self, dir_download):
+        if not os.path.exists(dir_download):
+            os.makedirs(dir_download)
+
+        temp_file_path = tempfile.mktemp('.pdf')
+        log.debug(f'{temp_file_path=}')
+
+        WWW.download_binary(self.pdf_url, temp_file_path)
+
+        h32 = RemotePDF.file_hash(temp_file_path)
+        log.debug(f'{h32=}')
+
+        file_path = os.path.join(dir_download, f'{h32}.pdf')
+        if not os.path.exists(file_path):
+            os.rename(temp_file_path, file_path)
+            log.info(f'Downloaded {self.pdf_url} to {file_path}')
+        else:
+            log.debug(f'{file_path} exists')

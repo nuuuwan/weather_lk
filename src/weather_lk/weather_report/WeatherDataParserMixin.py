@@ -71,12 +71,6 @@ class WeatherDataParserMixin:
 
     @cached_property
     def weather_data(self):
-        # weather_list_ut = self.weather_list_ut
-        # date = TimeFormat('%Y-%m-%d').stringify(Time(weather_list_ut))
-        # date_id = date.replace('-', '')
-        # assert self.date_id == date_id
-
-        # HACK!
         date_ut = Time.now().ut
         date = TimeFormat('%Y-%m-%d').stringify(Time(date_ut))
 

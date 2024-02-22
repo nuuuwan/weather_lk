@@ -1,10 +1,10 @@
 import os
 import time
 from functools import cached_property
-
+from utils_future import RemotePDF
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from utils import WWW, Log, hashx
+from utils import Log
 
 from weather_lk.constants import DIR_REPO_WAYBACK_DATA
 from weather_lk.meteo_gov_lk.MeteoGovLkPage import MeteoGovLkPage
@@ -81,4 +81,4 @@ class WayBack:
             os.makedirs(DIR_REPO_WAYBACK_DATA)
 
         for pdf_link in self.pdf_link_list:
-            MeteoGovLkPage.download_link(pdf_link, DIR_REPO_WAYBACK_DATA)
+            RemotePDF(pdf_link).download(DIR_REPO_WAYBACK_DATA)
