@@ -69,10 +69,13 @@ class WayBack:
 
     @staticmethod
     def download_one(pdf_link: str):
-        h = hashx.md5(pdf_link)
-        file_path = os.path.join(DIR_REPO_WAYBACK_DATA, f'wayback.{h}.pdf')
-        WWW.download_binary(pdf_link, file_path)
-        log.info(f'Downloaded {pdf_link} to {file_path}')
+        try:
+            h = hashx.md5(pdf_link)
+            file_path = os.path.join(DIR_REPO_WAYBACK_DATA, f'wayback.{h}.pdf')
+            WWW.download_binary(pdf_link, file_path)
+            log.info(f'Downloaded {pdf_link} to {file_path}')
+        except Exception as e:
+            log.error(str(e))
 
     def download_all(self):
         if not os.path.exists(DIR_REPO_WAYBACK_DATA):
@@ -80,3 +83,4 @@ class WayBack:
 
         for pdf_link in self.pdf_link_list:
             WayBack.download_one(pdf_link)
+            time.sleep(1)
