@@ -18,6 +18,18 @@
     "max_temp": null
   },
   {
+    "date": "2023-02-08",
+    "rain": 10.2,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2023-04-10",
+    "rain": 2.8,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2023-05-09",
     "rain": 34.2,
     "min_temp": null,

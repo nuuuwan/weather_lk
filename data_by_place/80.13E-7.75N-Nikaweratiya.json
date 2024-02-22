@@ -1,5 +1,11 @@
 [
   {
+    "date": "2021-10-27",
+    "rain": 54.4,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2021-11-12",
     "rain": 26.4,
     "min_temp": null,
@@ -44,6 +50,30 @@
   {
     "date": "2022-05-07",
     "rain": 3.5,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-05-17",
+    "rain": 12.2,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-05-18",
+    "rain": 17.2,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-05-20",
+    "rain": 11.2,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-05-30",
+    "rain": 27.2,
     "min_temp": null,
     "max_temp": null
   },
