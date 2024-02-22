@@ -3,7 +3,7 @@ from datetime import datetime
 from functools import cache, cached_property
 
 import matplotlib.pyplot as plt
-from utils import JSONFile, Log, TSVFile
+from utils import JSONFile, Log, TSVFile, TIME_FORMAT_DATE, Time, SECONDS_IN
 
 from weather_lk.constants import (DIR_DATA_BY_PLACE, DIR_DATA_CHARTS,
                                   DIR_DATA_CHARTS_RAINFALL,
@@ -66,6 +66,14 @@ class Summary:
             + f'from {min_date} to {max_date}.'
         )
         return data_list
+    
+    @cached_property
+    def data_by_date(self):
+        idx = {}
+        for data in self.data_list:
+            date = data['date']
+            idx[date] = data
+        return idx
 
     @staticmethod
     def __write_json(label, x):
@@ -273,21 +281,74 @@ class Summary:
                     f'Error drawing rainfall chart for {place}: {str(e)}'
                 )
 
+    def coverage(self):
+        t = Time.now()
+        data_by_date = self.data_by_date
+        c_list = []
+        for i in range(0, 1000):
+            t_i = Time(t.ut - SECONDS_IN.DAY * i + 1)
+            date = TIME_FORMAT_DATE.stringify(t_i)
+            has_data = date in data_by_date
+            if has_data:
+                data_for_date = data_by_date[date]
+                weather_list = data_for_date['weather_list']
+                n = len(weather_list)
+                n_temp = sum(1 for w in weather_list if w.get('temp_max', w.get('max_temp', None)) is not None)
+                n_rain = sum(1 for w in weather_list if (w['rain'] is not None))
+            else:
+                n = 0
+                n_temp = 0
+                n_rain = 0
+            c = dict(
+                date=date,
+                has_data=has_data,
+                n=n,
+                n_temp=n_temp,
+                n_rain=n_rain,
+            )
+            c_list.append(c)
+        return c_list
+    
+    def write_coverage(self):
+        coverage = self.coverage()
+        tsv_path = os.path.join(DIR_REPO, 'coverage.tsv')
+        TSVFile(tsv_path).write(coverage)
+        log.info(f'Wrote coverage to {tsv_path}')
 
-# def test(places):
-#     if not os.path.exists(DIR_DATA_CHARTS):
-#         os.makedirs(DIR_DATA_CHARTS)
-#     s = Summary()
-#     idx = s.data_by_place
+        self.draw_coverage_chart(window=10)
+        self.draw_coverage_chart(window=100)
+        self.draw_coverage_chart(window=1000)
 
-#     for place in places:
-#         if place not in idx:
-#             log.error(f'No data for {place}')
-#             continue
-#         data = idx[place]
-#         Summary.draw_temp_chart_for_place(place, data)
-#         Summary.draw_rain_chart_for_place(place, data)
+    def draw_coverage_chart(self, window):
+        coverage = self.coverage()[:window]
+        x = [datetime.strptime(c['date'], '%Y-%m-%d') for c in coverage]
+        y_rain = [c['n_rain']  for c in coverage]
+        y_temp = [c['n_temp'] for c in coverage]
+
+        plt.close()
+        fig = plt.gcf()
+        fig.autofmt_xdate()
+        fig.set_size_inches(12, 6.75)
+        
+        plt.title(f'Coverage (Last {window} Days)')
+        plt.xlabel('Date')
+        plt.ylabel('Count')
+
+        plt.bar(x, y_rain, color='b', label='Rainfall')
+        plt.bar(x, y_temp, color='r', label='Temperature & Rainfall')
+        plt.legend(loc='upper left')
+
+        image_path = os.path.join(DIR_REPO, f'coverage-{window}days.png')
+        plt.savefig(image_path, dpi=300)
+        plt.close()
+        log.info(f'Wrote chart to {image_path}')
+        os.startfile(image_path)
+
+def main():
+    s = Summary()
+    s.write_coverage()
+    
 
 
-# if __name__ == "__main__":
-#     test(['Colombo'])
+if __name__ == "__main__":
+    main()
