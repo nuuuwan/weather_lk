@@ -13,6 +13,7 @@ log = Log('weather_lk')
 class PDFDownload:
     URL = 'http://meteo.gov.lk/index.php?lang=en'
     PAGE_LOAD_TIMEOUT = 240
+    T_WAIT = 10
 
     def download(self):
         options = Options()
@@ -32,7 +33,11 @@ class PDFDownload:
         log.debug(f'{pdf_url=}')
         browser.quit()
 
-        h = hashx.md5(pdf_url)
+        h = hashx.md5(pdf_url + get_date_id())
+
+        if not os.path.exists(DIR_REPO_METEO_GOV_LK_PDF):
+            os.makedirs(DIR_REPO_METEO_GOV_LK_PDF)
+        
         file_path = os.path.join(
             DIR_REPO_METEO_GOV_LK_PDF, f'meteo_gov_lk.{h}.pdf'
         )
