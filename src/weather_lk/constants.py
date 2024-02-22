@@ -22,3 +22,15 @@ GMAPS = googlemaps.Client(GMAPS_API_KEY) if GMAPS_API_KEY else None
 DEFAULT_LATLNG = [0, 0]
 
 DIR_DATA_BY_PLACE = os.path.join(DIR_REPO, 'data_by_place')
+DIR_DATA_CHARTS = os.path.join(DIR_REPO, 'charts')
+
+a = 0.5
+LIMIT_AND_COLOR_LIST = [
+    [35, (0.5, 0, 0, a)],
+    [30, (1, 0, 0, a)],
+    [25, (1, 0.5, 0, a)],
+    [20, (0, 1, 0, a)],
+    [15, (0, 0.5, 1, a)],
+    [10, (0, 0, 1, a)],
+]
+MIN_COLOR = (0, 0, 0.5, a)

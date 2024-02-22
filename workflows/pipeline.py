@@ -21,6 +21,7 @@ def main():
     s = Summary()
     s.write()
     s.write_by_place()
+    s.draw_charts_by_place()
 
     tweeter = Tweeter(weather_report)
     tweeter.send()

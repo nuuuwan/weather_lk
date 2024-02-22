@@ -4,7 +4,8 @@ import os
 
 from infograph import BarChart, DataTable, Infograph, RangeBarChart
 
-from weather_lk.constants import DIR_REPO_DAILY_DATA
+from weather_lk.constants import (DIR_REPO_DAILY_DATA, LIMIT_AND_COLOR_LIST,
+                                  MIN_COLOR)
 
 
 def func_color_rain(_, yi):
@@ -25,18 +26,10 @@ def func_color_rain(_, yi):
 
 
 def func_color_temp(_, __, y2i):
-    a = 0.5
-    for limit, color in [
-        [35, (0.5, 0, 0, a)],
-        [30, (1, 0, 0, a)],
-        [25, (1, 0.5, 0, a)],
-        [20, (0, 1, 0, a)],
-        [15, (0, 0.5, 1, a)],
-        [10, (0, 0, 1, a)],
-    ]:
+    for limit, color in LIMIT_AND_COLOR_LIST:
         if y2i > limit:
             return color
-    return (0, 0, 0.5, a)
+    return MIN_COLOR
 
 
 class TweeterCharts:
