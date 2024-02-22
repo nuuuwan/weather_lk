@@ -42,12 +42,6 @@
     "max_temp": null
   },
   {
-    "date": "2021-11-03",
-    "rain": 46.0,
-    "min_temp": null,
-    "max_temp": null
-  },
-  {
     "date": "2021-11-04",
     "rain": 82.6,
     "min_temp": null,
@@ -80,12 +74,6 @@
   {
     "date": "2022-04-22",
     "rain": 20.7,
-    "min_temp": null,
-    "max_temp": null
-  },
-  {
-    "date": "2022-05-17",
-    "rain": 6.8,
     "min_temp": null,
     "max_temp": null
   },
