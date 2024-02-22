@@ -1,5 +1,5 @@
 
-name: Upload Data - Cron
+name: Pipeline
 # on: workflow_dispatch
 on:
   workflow_dispatch:
@@ -33,7 +33,7 @@ jobs:
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
 
-    - name: Run
+    - name: Run workflows/pipeline.py (Download Weather Data & Tweet)
       run: |
         export PYTHONPATH="$PYTHONPATH:./src"
         python workflows/pipeline.py --TWTR_BEARER_TOKEN "${{ secrets.TWTR_BEARER_TOKEN }}" --TWTR_API_KEY "${{ secrets.TWTR_API_KEY }}" --TWTR_API_KEY_SECRET "${{ secrets.TWTR_API_KEY_SECRET }}" --TWTR_ACCESS_TOKEN "${{ secrets.TWTR_ACCESS_TOKEN }}" --TWTR_ACCESS_TOKEN_SECRET "${{ secrets.TWTR_ACCESS_TOKEN_SECRET }}"
