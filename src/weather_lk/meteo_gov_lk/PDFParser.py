@@ -9,10 +9,10 @@ from weather_lk.constants import (DIR_REPO_METEO_GOV_LK_PDF,
                                   DIR_REPO_PARSED_DATA_JSON,
                                   DIR_REPO_PARSED_DATA_PLACEHOLDER_JSON,
                                   DIR_REPO_WAYBACK_DATA)
+from weather_lk.core.Data import Data
 from weather_lk.meteo_gov_lk.REGEX import REGEX
 from weather_lk.place_to_latlng.PlaceToLatLng import (DEFAULT_LATLNG,
                                                       PlaceToLatLng)
-from weather_lk.core.Data import Data
 
 log = Log('weather_lk')
 
@@ -268,7 +268,9 @@ class PDFParser:
             if not os.path.exists(dir):
                 continue
             for file_name in os.listdir(dir):
-                if not (file_name.endswith('.pdf') and len(file_name) == 32 + 4):
+                if not (
+                    file_name.endswith('.pdf') and len(file_name) == 32 + 4
+                ):
                     continue
                 pdf_list.append(os.path.join(dir, file_name))
         log.info(f'Found {len(pdf_list)} pdfs')

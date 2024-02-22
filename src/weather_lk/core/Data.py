@@ -1,6 +1,7 @@
 from weather_lk.constants import BRANCH_NAME, DIR_REPO, GIT_REPO_URL
 from utils import Git
 
+
 class Data:
     @staticmethod
     def init():
