@@ -3,7 +3,7 @@ import time
 
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
-from utils import WWW, Log, hashx
+from utils import WWW, Log, get_date_id, hashx
 
 from weather_lk.constants import DIR_REPO_METEO_GOV_LK_PDF
 
@@ -33,13 +33,13 @@ class PDFDownload:
         log.debug(f'{pdf_url=}')
         browser.quit()
 
-        h = hashx.md5(pdf_url + get_date_id())
-
+        h16 = hashx.md5(pdf_url)[:16]
+        date_id = get_date_id()
         if not os.path.exists(DIR_REPO_METEO_GOV_LK_PDF):
             os.makedirs(DIR_REPO_METEO_GOV_LK_PDF)
-        
+
         file_path = os.path.join(
-            DIR_REPO_METEO_GOV_LK_PDF, f'meteo_gov_lk.{h}.pdf'
+            DIR_REPO_METEO_GOV_LK_PDF, f'meteo_gov_lk.{date_id}.{h16}.pdf'
         )
 
         WWW.download_binary(pdf_url, file_path)
