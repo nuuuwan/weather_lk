@@ -12,6 +12,7 @@ from weather_lk.constants import (DIR_REPO_METEO_GOV_LK_PDF,
 from weather_lk.meteo_gov_lk.REGEX import REGEX
 from weather_lk.place_to_latlng.PlaceToLatLng import (DEFAULT_LATLNG,
                                                       PlaceToLatLng)
+from weather_lk.core.Data import Data
 
 log = Log('weather_lk')
 
@@ -264,9 +265,12 @@ class PDFParser:
     def get_pdf_paths():
         pdf_list = []
         for dir in [DIR_REPO_METEO_GOV_LK_PDF, DIR_REPO_WAYBACK_DATA]:
+            if not os.path.exists(dir):
+                continue
             for file_name in os.listdir(dir):
-                if file_name.endswith('.pdf') and len(file_name) == 32 + 4:
-                    pdf_list.append(os.path.join(dir, file_name))
+                if not (file_name.endswith('.pdf') and len(file_name) == 32 + 4):
+                    continue
+                pdf_list.append(os.path.join(dir, file_name))
         log.info(f'Found {len(pdf_list)} pdfs')
         return pdf_list
 
@@ -286,6 +290,7 @@ class PDFParser:
 
     @staticmethod
     def parse_all():
+        Data.init()
         pdf_list = PDFParser.get_pdf_paths()
         for pdf_path in pdf_list:
             PDFParser.parse_one(pdf_path)
