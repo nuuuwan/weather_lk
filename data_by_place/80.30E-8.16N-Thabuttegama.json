@@ -1,14 +1,26 @@
 [
   {
-    "date": "2022-08-31",
-    "rain": 145.2,
-    "min_temp": null,
-    "max_temp": null
+    "date": "2024-01-19",
+    "rain": 36.1,
+    "temp_min": null,
+    "temp_max": null
   },
   {
-    "date": "2022-12-20",
-    "rain": 67.0,
-    "min_temp": null,
-    "max_temp": null
+    "date": "2022-12-12",
+    "rain": 5.4,
+    "temp_min": null,
+    "temp_max": null
+  },
+  {
+    "date": "2022-08-31",
+    "rain": 145.2,
+    "temp_min": null,
+    "temp_max": null
+  },
+  {
+    "date": "2021-10-21",
+    "rain": 73.5,
+    "temp_min": null,
+    "temp_max": null
   }
 ]
