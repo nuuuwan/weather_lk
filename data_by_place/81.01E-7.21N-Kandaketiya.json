@@ -6,12 +6,6 @@
     "max_temp": null
   },
   {
-    "date": "2022-02-15",
-    "rain": 29.6,
-    "min_temp": null,
-    "max_temp": null
-  },
-  {
     "date": "2022-02-28",
     "rain": 9.1,
     "min_temp": null,
@@ -56,12 +50,6 @@
   {
     "date": "2023-05-09",
     "rain": 35.2,
-    "min_temp": null,
-    "max_temp": null
-  },
-  {
-    "date": "2023-11-16",
-    "rain": 45.6,
     "min_temp": null,
     "max_temp": null
   },
