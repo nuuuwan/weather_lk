@@ -415,11 +415,3 @@ class Summary:
         File(readme_path).write_lines(lines)
         log.info(f'Wrote README to {readme_path}')
 
-
-def main():
-    s = Summary()
-    s.build_readme()
-
-
-if __name__ == "__main__":
-    main()
