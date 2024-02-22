@@ -5,3 +5,4 @@ from weather_lk.twitter.Tweeter import Tweeter
 from weather_lk.wayback.WayBack import WayBack
 from weather_lk.weather_report.WeatherReport import WeatherReport
 from weather_lk.meteo_gov_lk.PDFParser import PDFParser
+from weather_lk.meteo_gov_lk.MeteoGovLkBackPop import MeteoGovLkBackPop
