@@ -1,12 +1,12 @@
+import time
 from functools import cached_property
+
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from utils import Log
-from utils_future import  RemotePDF
+
+from utils_future import RemotePDF
 from weather_lk.constants import DIR_REPO_METEO_GOV_LK_PDF
-import os
-import tempfile
-import time
 
 log = Log('weather_lk')
 

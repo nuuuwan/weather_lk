@@ -1,19 +1,17 @@
-from functools import cached_property
-import camelot
-from utils import Log
-import re
 import os
-from functools import cached_property
+import re
 from functools import cached_property
 
-from utils import JSONFile, Time, TimeFormat
-from utils import String, TimeFormat
+import camelot
+from utils import TIME_FORMAT_DATE, JSONFile, Log, String, Time, TimeFormat
 
-from weather_lk.place_to_latlng.PlaceToLatLng import (
-    DEFAULT_LATLNG,
-    PlaceToLatLng,
-)
-from weather_lk.weather_report.REGEX import REGEX
+from weather_lk.constants import (DIR_REPO_METEO_GOV_LK_PDF,
+                                  DIR_REPO_PARSED_DATA_JSON,
+                                  DIR_REPO_PARSED_DATA_PLACEHOLDER_JSON,
+                                  DIR_REPO_WAYBACK_DATA)
+from weather_lk.meteo_gov_lk.REGEX import REGEX
+from weather_lk.place_to_latlng.PlaceToLatLng import (DEFAULT_LATLNG,
+                                                      PlaceToLatLng)
 
 log = Log('weather_lk')
 
@@ -26,7 +24,6 @@ class PDFParser:
     def table(self):
         tables = camelot.read_pdf(self.pdf_path, pages='all')
         table = tables[0].df.values.tolist()
-        log.debug(f'Extract table from {self.pdf_path}.')
         return table
 
     def clean_cell(self, cell):
@@ -58,7 +55,7 @@ class PDFParser:
         return cell
 
     @cached_property
-    def weather_list_ut(self):
+    def date_ut(self):
         for row in self.table:
             row = self.clean_row(row)
             row_str = ' '.join(row)
@@ -145,6 +142,9 @@ class PDFParser:
             expanded_d['lng'] = lng
             expanded_weather_list.append(expanded_d)
 
+        n = len(expanded_weather_list)
+        log.debug(f'Parsed weather_list for {n} places')
+
         return expanded_weather_list
 
     @cached_property
@@ -210,8 +210,9 @@ class PDFParser:
 
     @cached_property
     def weather_data(self):
-        date_ut = Time.now().ut
-        date = TimeFormat('%Y-%m-%d').stringify(Time(date_ut))
+        date_ut = self.date_ut
+        date = TIME_FORMAT_DATE.stringify(Time(date_ut))
+        log.debug(f'{date=}')
 
         weather_data = dict(
             date_ut=date_ut,
@@ -223,14 +224,76 @@ class PDFParser:
         )
         return weather_data
 
-    @property
-    def weather_data_pdf_path(self):
-        return self.pdf_path[:-4] + '.json'
-
     def write_json(self):
-        json_file = JSONFile(self.weather_data_pdf_path)
-        json_file.write(self.weather_data)
-        log.info(f'Wrote to {self.weather_data_pdf_path}')
+        weather_data = self.weather_data
+        date_ut = weather_data['date_ut']
+        date = TIME_FORMAT_DATE.stringify(Time(date_ut))
+        if not os.path.exists(DIR_REPO_PARSED_DATA_JSON):
+            os.makedirs(DIR_REPO_PARSED_DATA_JSON)
+        data_path = os.path.join(DIR_REPO_PARSED_DATA_JSON, f'{date}.json')
+
+        JSONFile(data_path).write(self.weather_data)
+        log.info(f'Wrote to data to {data_path}')
+        return date, data_path
+
+    @cached_property
+    def placeholder_path(self):
+        file_id = self.pdf_path.split(os.sep)[-1].split('.')[0]
+        return os.path.join(
+            DIR_REPO_PARSED_DATA_PLACEHOLDER_JSON, f'{file_id}.json'
+        )
+
+    @cached_property
+    def is_parsed(self):
+        return os.path.exists(self.placeholder_path)
+
+    def write_placeholder_json(self, date, data_path):
+        if not os.path.exists(DIR_REPO_PARSED_DATA_PLACEHOLDER_JSON):
+            os.makedirs(DIR_REPO_PARSED_DATA_PLACEHOLDER_JSON)
+        placeholder_path = self.placeholder_path
+        JSONFile(placeholder_path).write(
+            dict(
+                date=date,
+                data_path=data_path,
+                placeholder_path=placeholder_path,
+            )
+        )
+        log.debug(f'Wrote placeholder to {placeholder_path}')
+
+    @staticmethod
+    def get_pdf_paths():
+        pdf_list = []
+        for dir in [DIR_REPO_METEO_GOV_LK_PDF, DIR_REPO_WAYBACK_DATA]:
+            for file_name in os.listdir(dir):
+                if file_name.endswith('.pdf') and len(file_name) == 32 + 4:
+                    pdf_list.append(os.path.join(dir, file_name))
+        log.info(f'Found {len(pdf_list)} pdfs')
+        return pdf_list
+
+    @staticmethod
+    def parse_one(pdf_path):
+        try:
+            parser = PDFParser(pdf_path)
+            if parser.is_parsed:
+                log.debug(f'{pdf_path} is already parsed')
+                return False
+            date, data_path = parser.write_json()
+            parser.write_placeholder_json(date, data_path)
+        except Exception as e:
+            log.error(str(e))
+            return False
+        return True
+
+    @staticmethod
+    def parse_all():
+        pdf_list = PDFParser.get_pdf_paths()
+        for pdf_path in pdf_list:
+            PDFParser.parse_one(pdf_path)
 
 
-    def get_unparsed_pdfs():
+def test():
+    PDFParser.parse_all()
+
+
+if __name__ == "__main__":
+    test()

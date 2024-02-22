@@ -1,13 +1,13 @@
 import os
 import time
 from functools import cached_property
-from utils_future import RemotePDF
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from utils import Log
 
+from utils_future import RemotePDF
 from weather_lk.constants import DIR_REPO_WAYBACK_DATA
-from weather_lk.meteo_gov_lk.MeteoGovLkPage import MeteoGovLkPage
 
 log = Log('WayBack')
 
@@ -84,4 +84,3 @@ class WayBack:
             RemotePDF(pdf_link).download(DIR_REPO_WAYBACK_DATA)
             log.debug(f'😴 Sleeping for {WayBack.T_WAIT}s')
             time.sleep(WayBack.T_WAIT)
-

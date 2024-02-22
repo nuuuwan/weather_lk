@@ -1,11 +1,7 @@
-from functools import cached_property
-from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
-from utils import WWW, Log, hashx
-from weather_lk.constants import DIR_REPO_METEO_GOV_LK_PDF
 import os
 import tempfile
-import time
+
+from utils import WWW, Log, hashx
 
 log = Log('weather_lk')
 
@@ -19,8 +15,6 @@ class RemotePDF:
             file_content = f.read().decode('utf-8', errors='ignore')
             h32 = hashx.md5(file_content)
             return h32
-
-
 
     def __init__(self, pdf_url):
         self.pdf_url = pdf_url
