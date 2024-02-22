@@ -52,5 +52,17 @@
     "rain": 144.5,
     "min_temp": null,
     "max_temp": null
+  },
+  {
+    "date": "2022-05-19",
+    "rain": 19.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-05-20",
+    "rain": 12.5,
+    "min_temp": null,
+    "max_temp": null
   }
 ]

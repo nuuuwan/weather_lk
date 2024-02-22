@@ -1,5 +1,11 @@
 [
   {
+    "date": "2021-10-21",
+    "rain": 121.5,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2021-11-24",
     "rain": 72.5,
     "min_temp": null,
@@ -26,6 +32,12 @@
   {
     "date": "2022-10-12",
     "rain": 22.5,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-12-08",
+    "rain": 3.7,
     "min_temp": null,
     "max_temp": null
   },
