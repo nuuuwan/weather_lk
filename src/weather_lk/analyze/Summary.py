@@ -21,10 +21,10 @@ class Summary:
             for item in data['weather_list']:
                 place = item['place']
                 d = dict(
+                    date=date,
                     rain=item['rain'],
                     temp_min=item.get('temp_min', None),
                     temp_max=item.get('temp_max', None),
-                    date=date,
                 )
 
                 if place not in idx:
