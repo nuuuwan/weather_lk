@@ -1,31 +1,13 @@
 [
   {
-    "date": "2021-07-13",
-    "rain": 1.6,
-    "min_temp": null,
-    "max_temp": null
-  },
-  {
     "date": "2021-08-12",
     "rain": 13.9,
     "min_temp": null,
     "max_temp": null
   },
   {
-    "date": "2021-10-11",
-    "rain": 53.0,
-    "min_temp": null,
-    "max_temp": null
-  },
-  {
     "date": "2022-01-06",
     "rain": 21.9,
-    "min_temp": null,
-    "max_temp": null
-  },
-  {
-    "date": "2022-09-06",
-    "rain": 91.9,
     "min_temp": null,
     "max_temp": null
   },

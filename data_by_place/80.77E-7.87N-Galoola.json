@@ -12,12 +12,6 @@
     "max_temp": null
   },
   {
-    "date": "2021-10-30",
-    "rain": 29.6,
-    "min_temp": null,
-    "max_temp": null
-  },
-  {
     "date": "2021-12-12",
     "rain": 6.5,
     "min_temp": null,
@@ -36,20 +30,8 @@
     "max_temp": null
   },
   {
-    "date": "2022-02-15",
-    "rain": 3.5,
-    "min_temp": null,
-    "max_temp": null
-  },
-  {
     "date": "2022-02-27",
     "rain": 26.8,
-    "min_temp": null,
-    "max_temp": null
-  },
-  {
-    "date": "2022-03-20",
-    "rain": 2.8,
     "min_temp": null,
     "max_temp": null
   },

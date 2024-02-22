@@ -18,20 +18,8 @@
     "max_temp": null
   },
   {
-    "date": "2021-07-24",
-    "rain": 29.3,
-    "min_temp": null,
-    "max_temp": null
-  },
-  {
     "date": "2021-08-09",
     "rain": 89.5,
-    "min_temp": null,
-    "max_temp": null
-  },
-  {
-    "date": "2021-08-26",
-    "rain": 88.2,
     "min_temp": null,
     "max_temp": null
   },
@@ -84,12 +72,6 @@
     "max_temp": null
   },
   {
-    "date": "2021-10-18",
-    "rain": 14.3,
-    "min_temp": null,
-    "max_temp": null
-  },
-  {
     "date": "2021-11-02",
     "rain": 49.2,
     "min_temp": null,
@@ -116,12 +98,6 @@
   {
     "date": "2021-11-15",
     "rain": 56.4,
-    "min_temp": null,
-    "max_temp": null
-  },
-  {
-    "date": "2021-11-30",
-    "rain": 28.6,
     "min_temp": null,
     "max_temp": null
   },
@@ -180,12 +156,6 @@
     "max_temp": null
   },
   {
-    "date": "2022-07-15",
-    "rain": 9.4,
-    "min_temp": null,
-    "max_temp": null
-  },
-  {
     "date": "2022-09-29",
     "rain": 6.3,
     "min_temp": null,
@@ -222,12 +192,6 @@
     "max_temp": null
   },
   {
-    "date": "2022-11-05",
-    "rain": 66.4,
-    "min_temp": null,
-    "max_temp": null
-  },
-  {
     "date": "2022-11-06",
     "rain": 69.6,
     "min_temp": null,
@@ -248,12 +212,6 @@
   {
     "date": "2023-04-08",
     "rain": 96.6,
-    "min_temp": null,
-    "max_temp": null
-  },
-  {
-    "date": "2023-04-25",
-    "rain": 73.1,
     "min_temp": null,
     "max_temp": null
   },
@@ -306,12 +264,6 @@
     "max_temp": null
   },
   {
-    "date": "2023-11-24",
-    "rain": 36.3,
-    "min_temp": null,
-    "max_temp": null
-  },
-  {
     "date": "2023-11-29",
     "rain": 33.7,
     "min_temp": null,
@@ -320,12 +272,6 @@
   {
     "date": "2023-12-02",
     "rain": 27.3,
-    "min_temp": null,
-    "max_temp": null
-  },
-  {
-    "date": "2023-12-16",
-    "rain": 76.3,
     "min_temp": null,
     "max_temp": null
   },
