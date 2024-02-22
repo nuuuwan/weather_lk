@@ -13,7 +13,7 @@ log = Log('WayBack')
 
 
 class WayBack:
-    T_WAIT = 4
+    T_WAIT = 2
 
     @property
     def url_index(self) -> str:
