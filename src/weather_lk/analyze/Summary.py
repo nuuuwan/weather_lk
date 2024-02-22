@@ -3,7 +3,7 @@ from datetime import datetime
 from functools import cache, cached_property
 
 import matplotlib.pyplot as plt
-from utils import JSONFile, Log, TSVFile, TIME_FORMAT_DATE, Time, SECONDS_IN
+from utils import SECONDS_IN, TIME_FORMAT_DATE, JSONFile, Log, Time, TSVFile
 
 from weather_lk.constants import (DIR_DATA_BY_PLACE, DIR_DATA_CHARTS,
                                   DIR_DATA_CHARTS_RAINFALL,
@@ -66,7 +66,7 @@ class Summary:
             + f'from {min_date} to {max_date}.'
         )
         return data_list
-    
+
     @cached_property
     def data_by_date(self):
         idx = {}
@@ -293,8 +293,14 @@ class Summary:
                 data_for_date = data_by_date[date]
                 weather_list = data_for_date['weather_list']
                 n = len(weather_list)
-                n_temp = sum(1 for w in weather_list if w.get('temp_max', w.get('max_temp', None)) is not None)
-                n_rain = sum(1 for w in weather_list if (w['rain'] is not None))
+                n_temp = sum(
+                    1
+                    for w in weather_list
+                    if w.get('temp_max', w.get('max_temp', None)) is not None
+                )
+                n_rain = sum(
+                    1 for w in weather_list if (w['rain'] is not None)
+                )
             else:
                 n = 0
                 n_temp = 0
@@ -308,7 +314,7 @@ class Summary:
             )
             c_list.append(c)
         return c_list
-    
+
     def write_coverage(self):
         coverage = self.coverage()
         tsv_path = os.path.join(DIR_REPO, 'coverage.tsv')
@@ -322,14 +328,14 @@ class Summary:
     def draw_coverage_chart(self, window):
         coverage = self.coverage()[:window]
         x = [datetime.strptime(c['date'], '%Y-%m-%d') for c in coverage]
-        y_rain = [c['n_rain']  for c in coverage]
+        y_rain = [c['n_rain'] for c in coverage]
         y_temp = [c['n_temp'] for c in coverage]
 
         plt.close()
         fig = plt.gcf()
         fig.autofmt_xdate()
         fig.set_size_inches(12, 6.75)
-        
+
         plt.title(f'Coverage (Last {window} Days)')
         plt.xlabel('Date')
         plt.ylabel('Count')
@@ -344,10 +350,10 @@ class Summary:
         log.info(f'Wrote chart to {image_path}')
         os.startfile(image_path)
 
+
 def main():
     s = Summary()
     s.write_coverage()
-    
 
 
 if __name__ == "__main__":
