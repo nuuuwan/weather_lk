@@ -1,3 +1,3 @@
-from weather_lk.latlng.History import History
+from weather_lk.place_to_latlng.PlaceToLatLng import PlaceToLatLng
 if __name__ == '__main__':
-    History().save_place_to_latlng()
+    PlaceToLatLng().save_place_to_latlng()

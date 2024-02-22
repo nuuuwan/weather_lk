@@ -18,7 +18,7 @@ GMAPS = googlemaps.Client(GMAPS_API_KEY) if GMAPS_API_KEY else None
 DEFAULT_LATLNG = [0, 0]
 
 
-class History:
+class PlaceToLatLng:
     @cached_property
     def history_list(self) -> list:
         self.git = Git(GIT_REPO_URL)
@@ -53,7 +53,7 @@ class History:
                     ):
                         place_to_latlng[place] = place_to_latlng_old[place]
                     else:
-                        latlng = History.get_latlng(place)
+                        latlng = PlaceToLatLng.get_latlng(place)
                         log.debug(f'{place} -> {latlng}')
                         place_to_latlng[place] = latlng
         place_to_latlng = dict(
