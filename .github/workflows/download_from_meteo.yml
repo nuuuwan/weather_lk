@@ -1,4 +1,4 @@
-name: pipeline2
+name: download_from_meteo
 
 on:
   workflow_dispatch:
@@ -27,10 +27,10 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         pip install build
 
-    - name: Run workflows/pipeline2.py
+    - name: Run workflows/download_from_meteo.py
       run: |
         export PYTHONPATH="$PYTHONPATH:./src"
-        python workflows/pipeline2.py --TWTR_BEARER_TOKEN "${{ secrets.TWTR_BEARER_TOKEN }}" --TWTR_API_KEY "${{ secrets.TWTR_API_KEY }}" --TWTR_API_KEY_SECRET "${{ secrets.TWTR_API_KEY_SECRET }}" --TWTR_ACCESS_TOKEN "${{ secrets.TWTR_ACCESS_TOKEN }}" --TWTR_ACCESS_TOKEN_SECRET "${{ secrets.TWTR_ACCESS_TOKEN_SECRET }}"
+        python workflows/download_from_meteo.py --TWTR_BEARER_TOKEN "${{ secrets.TWTR_BEARER_TOKEN }}" --TWTR_API_KEY "${{ secrets.TWTR_API_KEY }}" --TWTR_API_KEY_SECRET "${{ secrets.TWTR_API_KEY_SECRET }}" --TWTR_ACCESS_TOKEN "${{ secrets.TWTR_ACCESS_TOKEN }}" --TWTR_ACCESS_TOKEN_SECRET "${{ secrets.TWTR_ACCESS_TOKEN_SECRET }}"
 
     - name: Checkout repo branch data
       uses: actions/checkout@v2
@@ -45,5 +45,5 @@ jobs:
         cp -r /tmp/weather_lk/* .
         echo "* $(date)" >> update.log
         git add .
-        git commit -m "Updated $(date) - 🤖 pipeline2.yml"
+        git commit -m "Updated $(date) - 🤖 download_from_meteo.yml"
         git push origin data

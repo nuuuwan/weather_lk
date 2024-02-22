@@ -32,7 +32,11 @@ class RemotePDF:
         temp_file_path = tempfile.mktemp('.pdf')
         log.debug(f'{temp_file_path=}')
 
-        WWW.download_binary(self.pdf_url, temp_file_path)
+        try:
+            WWW.download_binary(self.pdf_url, temp_file_path)
+        except Exception as e:
+            log.error(str(e))
+            return
 
         h32 = RemotePDF.file_hash(temp_file_path)
         log.debug(f'{h32=}')

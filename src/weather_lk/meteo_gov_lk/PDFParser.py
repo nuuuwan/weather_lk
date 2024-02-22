@@ -224,20 +224,13 @@ class PDFParser:
         return weather_data
 
     @property
-    def weather_data_file_path(self):
-        return self.file_path[:-4] + '.json'
+    def weather_data_pdf_path(self):
+        return self.pdf_path[:-4] + '.json'
 
     def write_json(self):
-        json_file = JSONFile(self.weather_data_file_path)
+        json_file = JSONFile(self.weather_data_pdf_path)
         json_file.write(self.weather_data)
-        log.info(f'Wrote to {self.weather_data_file_path}')
+        log.info(f'Wrote to {self.weather_data_pdf_path}')
 
 
-def test():
-    TEST_PDF_PATH = os.path.join('data_testing', '202402022.pdf')
-    parser = PDFParser(TEST_PDF_PATH)
-    parser.write_json()
-
-
-if __name__ == "__main__":
-    test()
+    def get_unparsed_pdfs():
