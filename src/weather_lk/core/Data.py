@@ -2,12 +2,8 @@ import os
 
 from utils import Git, JSONFile, Log
 
-from weather_lk.constants import (
-    BRANCH_NAME,
-    DIR_REPO,
-    DIR_REPO_JSON_PARSED,
-    GIT_REPO_URL,
-)
+from weather_lk.constants import (BRANCH_NAME, DIR_REPO, DIR_REPO_JSON_PARSED,
+                                  GIT_REPO_URL)
 
 log = Log('Data')
 

@@ -5,18 +5,14 @@ from functools import cached_property
 import camelot
 from utils import TIME_FORMAT_DATE, JSONFile, Log, String, Time, TimeFormat
 
-from weather_lk.constants import (
-    DIR_REPO_JSON_PARSED,
-    DIR_REPO_JSON_PLACEHOLDER,
-    DIR_REPO_PDF_ARCHIVE_ORG,
-    DIR_REPO_PDF_METEO_GOV_LK,
-)
+from weather_lk.constants import (DIR_REPO_JSON_PARSED,
+                                  DIR_REPO_JSON_PLACEHOLDER,
+                                  DIR_REPO_PDF_ARCHIVE_ORG,
+                                  DIR_REPO_PDF_METEO_GOV_LK)
 from weather_lk.core.Data import Data
 from weather_lk.meteo_gov_lk.REGEX import REGEX
-from weather_lk.place_to_latlng.PlaceToLatLng import (
-    DEFAULT_LATLNG,
-    PlaceToLatLng,
-)
+from weather_lk.place_to_latlng.PlaceToLatLng import (DEFAULT_LATLNG,
+                                                      PlaceToLatLng)
 
 log = Log('weather_lk')
 
