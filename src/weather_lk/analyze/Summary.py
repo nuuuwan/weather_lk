@@ -31,8 +31,13 @@ class Summary:
                     idx[place] = []
                 idx[place].append(d)
 
-        idx = dict(sorted(idx.items(), key=lambda x: x[0]))
-        return idx
+        new_idx = {}
+        for place, data_for_place in sorted(idx.items(), key=lambda x: x[0]):
+            sorted_data_for_place = sorted(
+                data_for_place, key=lambda x: x['date'], reverse=True
+            )
+            new_idx[place] = sorted_data_for_place
+        return new_idx
 
     @cached_property
     def data_list(self):
