@@ -30,8 +30,8 @@ class ChartTemperature:
         p = 1 - (y - MIN_TEMP) / (MAX_TEMP - MIN_TEMP)
         h = (MIN_H + p * (MAX_H - MIN_H)) / 360.0
         s = 1
-        l = 0.75
-        r, g, b = colorsys.hls_to_rgb(h, l, s)
+        light = 0.75
+        r, g, b = colorsys.hls_to_rgb(h, light, s)
         return (r, g, b)
 
     @staticmethod

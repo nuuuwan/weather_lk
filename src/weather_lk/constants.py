@@ -28,16 +28,6 @@ DIR_DATA_CHARTS = os.path.join(DIR_REPO, 'charts')
 DIR_DATA_CHARTS_RAINFALL = os.path.join(DIR_DATA_CHARTS, 'rainfall')
 DIR_DATA_CHARTS_TEMPERATURE = os.path.join(DIR_DATA_CHARTS, 'temperature')
 
-a = 0.6
-LIMIT_AND_COLOR_LIST = [
-    [35, (0.5, 0, 0, a)],
-    [30, (1, 0, 0, a)],
-    [25, (1, 0.5, 0, a)],
-    [20, (0, 1, 0, a)],
-    [15, (0, 0.5, 1, a)],
-    [10, (0, 0, 1, a)],
-]
-MIN_COLOR = (0, 0, 0.5, a)
 
 URL_REMOTE_DATA = 'https://raw.githubusercontent.com/nuuuwan/weather_lk/data'
 

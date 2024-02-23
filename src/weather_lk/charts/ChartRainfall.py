@@ -26,8 +26,8 @@ class ChartRainfall:
         p = y / 200.0
         h = (120 + 120 * p) / 360.0
         s = 1
-        l = 0.5
-        r, g, b = colorsys.hls_to_rgb(h, l, s)
+        light = 0.5
+        r, g, b = colorsys.hls_to_rgb(h, light, s)
         a = 0.5
         return (r, g, b, a)
 
