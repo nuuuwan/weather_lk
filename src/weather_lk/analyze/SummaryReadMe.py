@@ -3,72 +3,85 @@ import os
 from utils import File, Log
 
 from weather_lk.analyze.SummaryWriteDataByPlace import SummaryWriteDataByPlace
-from weather_lk.constants import DIR_REPO, DISPLAY_PLACES, URL_REMOTE_DATA
+from weather_lk.constants import (COVERAGE_WINDOW_LIST, DIR_REPO,
+                                  DISPLAY_PLACES, URL_REMOTE_DATA)
 
 log = Log('SummaryReadMe')
 
 
 class SummaryReadMe:
-    def build_readme(self):
-        temp_lines = []
-        rain_lines = []
+    @property
+    def lines_temperature(self):
+        lines = ['## Temperature', '']
         for place in DISPLAY_PLACES:
             label = SummaryWriteDataByPlace.get_place_label(place)
             image_path_temp = (
                 URL_REMOTE_DATA + '/charts/temperature/' + f'{label}.png'
             )
-            image_path_rain = (
-                URL_REMOTE_DATA + '/charts/rainfall/' + f'{label}.png'
-            )
-            temp_lines.extend(
+            lines.extend(
                 [
-                    f'### {place}',
+                    f'### {place} 🌡️',
                     '',
                     f'![{place}]({image_path_temp})',
                     '',
                 ]
             )
+        return lines
 
-            rain_lines.extend(
+    @property
+    def lines_rainfall(self):
+        lines = ['## Rainfall', '']
+        for place in DISPLAY_PLACES:
+            label = SummaryWriteDataByPlace.get_place_label(place)
+            image_path_rain = (
+                URL_REMOTE_DATA + '/charts/rainfall/' + f'{label}.png'
+            )
+            lines.extend(
                 [
-                    f'### {place}',
+                    f'### {place} 🌧️',
                     '',
                     f'![{place}]({image_path_rain})',
                     '',
                 ]
             )
+        return lines
 
+    @property
+    def lines_coverage(self):
+        lines = [
+            '## Coverage',
+            '',
+        ]
+
+        for window in COVERAGE_WINDOW_LIST:
+            lines.extend(
+                [
+                    f'### Last {window:,} days',
+                    '',
+                    f'![Coverage]({URL_REMOTE_DATA}/coverage-{window}days.png)',
+                    '',
+                ]
+            )
+
+        return lines
+
+    @property
+    def lines_header(self):
+        return [
+            '# Sri Lanka :sri_lanka: Weather (weather_lk)',
+            '',
+            'Rainfall and Temperature data, extracted from the '
+            + '[Department of Meteorology](http://www.meteo.gov.lk/), '
+            + 'Sri Lanka',
+            '',
+        ]
+
+    def build_readme(self):
         lines = (
-            [
-                '# Sri Lanka :sri_lanka: Weather (weather_lk)',
-                '',
-                'Rainfall and Temperature data, extracted from the '
-                + '[Department of Meteorology](http://www.meteo.gov.lk/), '
-                + 'Sri Lanka',
-                '',
-                '## Coverage',
-                '',
-                '### Last 10 days',
-                '',
-                f'![Coverage]({URL_REMOTE_DATA}/coverage-10days.png)',
-                '',
-                '### Last 100 days',
-                '',
-                f'![Coverage]({URL_REMOTE_DATA}/coverage-100days.png)',
-                '',
-                '### Last 1,000 days',
-                '',
-                f'![Coverage]({URL_REMOTE_DATA}/coverage-1000days.png)',
-                '',
-                '## Charts - Temperature',
-                '',
-            ]
-            + temp_lines
-            + ['## Charts - Rainfall', '']
-            + rain_lines
-            + [
-                '',
-            ]
+            self.lines_header
+            + self.lines_coverage
+            + self.lines_temperature
+            + self.lines_rainfall
         )
         readme_path = os.path.join(DIR_REPO, 'README.md')
         File(readme_path).write_lines(lines)

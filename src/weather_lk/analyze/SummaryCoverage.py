@@ -4,7 +4,7 @@ from datetime import datetime
 import matplotlib.pyplot as plt
 from utils import SECONDS_IN, TIME_FORMAT_DATE, Log, Time, TSVFile
 
-from weather_lk.constants import DIR_REPO
+from weather_lk.constants import COVERAGE_WINDOW_LIST, DIR_REPO
 from weather_lk.core.Data import Data
 
 log = Log('SummaryCoverage')
@@ -15,7 +15,8 @@ class SummaryCoverage:
         t = Time.now()
         idx_by_date = Data.idx_by_date()
         c_list = []
-        for i in range(0, 1000):
+        max_days = max(COVERAGE_WINDOW_LIST)
+        for i in range(0, max_days):
             t_i = Time(t.ut - SECONDS_IN.DAY * i + 1)
             date = TIME_FORMAT_DATE.stringify(t_i)
             has_data = date in idx_by_date
@@ -51,9 +52,8 @@ class SummaryCoverage:
         TSVFile(tsv_path).write(coverage)
         log.info(f'Wrote coverage to {tsv_path}')
 
-        self.draw_coverage_chart(window=10)
-        self.draw_coverage_chart(window=100)
-        self.draw_coverage_chart(window=1000)
+        for window in COVERAGE_WINDOW_LIST:
+            self.draw_coverage_chart(window)
 
     def draw_coverage_chart(self, window):
         coverage = self.coverage()[:window]
@@ -61,14 +61,20 @@ class SummaryCoverage:
         y_rain = [c['n_rain'] for c in coverage]
         y_temp = [c['n_temp'] for c in coverage]
 
+        n_total = len(coverage)
+        n_with_data = sum(
+            1 for c in coverage if c['n_rain'] > 0 or c['n_temp'] > 0
+        )
+        title = f'{n_with_data:,} of the last {n_total:,} days have data'
+
         plt.close()
+        plt.title(title)
+        plt.xlabel('Date')
+        plt.ylabel('Number of Places Covered')
+
         fig = plt.gcf()
         fig.autofmt_xdate()
         fig.set_size_inches(12, 6.75)
-
-        plt.title(f'Coverage (Last {window} Days)')
-        plt.xlabel('Date')
-        plt.ylabel('Number of Places Covered')
 
         plt.bar(x, y_rain, color='b', label='Rainfall')
         plt.bar(x, y_temp, color='r', label='Temperature & Rainfall')
