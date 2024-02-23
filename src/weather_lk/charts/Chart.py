@@ -1,22 +1,12 @@
 import os
 
 import matplotlib.pyplot as plt
-from utils import Log
-import matplotlib.pyplot as plt
 from utils import TIME_FORMAT_TIME, Log, Time
-
-from weather_lk.analyze.SummaryWriteDataByPlace import SummaryWriteDataByPlace
-
-
-
 
 log = Log('Chart')
 
 
 class Chart:
-
-   
-
     def set_text(self, ylabel):
         plt.title(self.get_title(), fontsize=20)
         plt.xlabel(self.get_xlabel())
@@ -35,10 +25,9 @@ class Chart:
 
         for side in ['bottom', 'left', 'top', 'right']:
             ax.spines[side].set_visible(False)
-       
 
         ax.grid(True, which='minor', linewidth=0.25, color='#ccc')
-        ax.grid(True, which='major',linewidth=0.5, color='#888')
+        ax.grid(True, which='major', linewidth=0.5, color='#888')
 
         plt.grid(True)
 

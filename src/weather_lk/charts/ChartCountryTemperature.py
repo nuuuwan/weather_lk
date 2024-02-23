@@ -1,12 +1,14 @@
-import matplotlib.pyplot as plt
 import os
+
 from weather_lk.charts.ChartCountry import ChartCountry
+from weather_lk.charts.ChartTemperature import ChartTemperature
 from weather_lk.constants import DIR_DATA_CHARTS
-from    weather_lk.charts.ChartTemperature import ChartTemperature
+
+
 class ChartCountryTemperature(ChartCountry, ChartTemperature):
     def get_label(self):
         return 'country_temperature'
-    
+
     def get_dir(self):
         return DIR_DATA_CHARTS
 
@@ -26,20 +28,16 @@ class ChartCountryTemperature(ChartCountry, ChartTemperature):
         )
 
         return x, y_min_temp, y_max_temp
-    
-    
+
     def get_title(self):
         date = self.data_latest['date']
         return f'Temperature ({date})'
-    
 
     def draw(self):
         self.set_text('Temperature (°C)')
         x, y_min_temp, y_max_temp = self.get_data()
         self.set_ylim(y_min_temp, y_max_temp)
         self.plot_bars(x, y_min_temp, y_max_temp)
-        
-
 
 
 if __name__ == '__main__':

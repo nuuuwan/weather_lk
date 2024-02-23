@@ -1,6 +1,7 @@
 from functools import cached_property
-from weather_lk.core.Data import Data
+
 from weather_lk.charts.Chart import Chart
+from weather_lk.core.Data import Data
 
 
 class ChartCountry(Chart):
@@ -9,8 +10,8 @@ class ChartCountry(Chart):
 
     def get_xlabel(self):
         return ''
-    
-    @cached_property 
+
+    @cached_property
     def sorted_weather_list(self):
         return sorted(
             self.data_latest['weather_list'],

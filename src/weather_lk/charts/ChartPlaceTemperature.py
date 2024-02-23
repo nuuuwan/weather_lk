@@ -4,12 +4,8 @@ import matplotlib.pyplot as plt
 from utils import Log
 
 from weather_lk.charts.ChartPlace import ChartPlace
-from    weather_lk.charts.ChartTemperature import ChartTemperature
-from weather_lk.constants import (
-    DIR_DATA_CHARTS_TEMPERATURE,
-    LIMIT_AND_COLOR_LIST,
-)
-
+from weather_lk.charts.ChartTemperature import ChartTemperature
+from weather_lk.constants import DIR_DATA_CHARTS_TEMPERATURE
 
 log = Log('ChartPlaceTemperature')
 
@@ -37,8 +33,6 @@ class ChartPlaceTemperature(ChartPlace, ChartTemperature):
 
         return x, y_min_temp, y_max_temp
 
-
-
     @staticmethod
     def plot_rolling(x, y_min_temp, y_max_temp):
         y_temp_mid = [(a + b) / 2 for a, b in zip(y_min_temp, y_max_temp)]
@@ -52,7 +46,7 @@ class ChartPlaceTemperature(ChartPlace, ChartTemperature):
 
     def draw(self):
         x, y_min_temp, y_max_temp = self.get_data()
-
+        self.set_ylim(y_min_temp, y_max_temp)
         self.set_text('Temperature (°C)')
         ChartPlaceTemperature.set_ylim(y_min_temp, y_max_temp)
         ChartPlace.annotate(x, y_max_temp, True, max, 'r', '°C', 1)

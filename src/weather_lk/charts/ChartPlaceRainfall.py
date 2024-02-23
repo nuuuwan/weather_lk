@@ -1,15 +1,17 @@
 from datetime import datetime
-import numpy as np
+
 import matplotlib.pyplot as plt
+import numpy as np
 from utils import Log
 
 from weather_lk.charts.ChartPlace import ChartPlace
+from weather_lk.charts.ChartRainfall import ChartRainfall
 from weather_lk.constants import DIR_DATA_CHARTS_RAINFALL
 
 log = Log('ChartPlaceRainfall')
 
 
-class ChartPlaceRainfall(ChartPlace):
+class ChartPlaceRainfall(ChartPlace, ChartRainfall):
     def get_dir(self):
         return DIR_DATA_CHARTS_RAINFALL
 
@@ -25,15 +27,10 @@ class ChartPlaceRainfall(ChartPlace):
 
         return x, y_rain
 
-    @staticmethod
-    def plot_bars(x, y_rain):
-        plt.bar(x, y_rain, color='b', width=1)
-
     def draw(self):
         x, y_rain = self.get_data()
         self.set_text('Rainfall (mm)')
-        ax = plt.gca()
-        ax.set_yticks(np.arange(0,200,25))
+        self.set_ylim()
 
         ChartPlace.annotate(x, y_rain, True, lambda __: 200, 'b', 'mm', 10)
         ChartPlaceRainfall.plot_bars(x, y_rain)
