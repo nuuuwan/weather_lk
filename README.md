@@ -4,14 +4,15 @@ Rainfall and Temperature data, extracted from the [Sri Lanka Meteorological Depa
 
 ## Coverage
 
-> [!WARNING]
-> This dataset has some gaps, and contains data only for  **701** of the last 1000 days.
-
 ### Last 10 days
 
 ![Coverage](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/coverage-10days.png)
 
-### Last 1000 days
+### Last 100 days
+
+![Coverage](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/coverage-100days.png)
+
+### Last 1,000 days
 
 ![Coverage](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/coverage-1000days.png)
 
