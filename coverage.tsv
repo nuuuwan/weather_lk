@@ -326,7 +326,7 @@ date	has_data	n	n_temp	n_rain
 2023-04-05	False	0	0	0
 2023-04-04	False	0	0	0
 2023-04-03	False	0	0	0
-2023-04-02	False	0	0	0
+2023-04-02	True	53	19	53
 2023-04-01	False	0	0	0
 2023-03-31	False	0	0	0
 2023-03-30	False	0	0	0

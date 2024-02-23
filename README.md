@@ -5,7 +5,7 @@ Rainfall and Temperature data, extracted from the [Sri Lanka Meteorological Depa
 ## Coverage
 
 > [!WARNING]
-> This dataset has some gaps, and contains data only for  **700** of the last 1000 days.
+> This dataset has some gaps, and contains data only for  **701** of the last 1000 days.
 
 ### Last 10 days
 

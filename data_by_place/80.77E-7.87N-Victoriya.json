@@ -30,6 +30,18 @@
     "max_temp": null
   },
   {
+    "date": "2019-02-20",
+    "rain": 0.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2019-02-21",
+    "rain": 0.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2019-06-23",
     "rain": 0.0,
     "min_temp": null,
@@ -3229,6 +3241,12 @@
   },
   {
     "date": "2023-03-17",
+    "rain": 0.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2023-04-02",
     "rain": 0.0,
     "min_temp": null,
     "max_temp": null
