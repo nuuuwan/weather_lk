@@ -39,11 +39,14 @@ class PDFParserGlobal:
             if parser.is_parsed:
                 log.debug(f'{pdf_path} is already parsed')
                 return False
+            
             date, data_path = parser.write_json()
             parser.write_placeholder_json(date, data_path)
+        
         except Exception as e:
             log.error(f'PDFParser.parse_one({pdf_path}): {str(e)}')
             parser.write_placeholder_json('unknown', 'unknown')
+            
             return False
         return True
 
@@ -52,8 +55,8 @@ class PDFParserGlobal:
         Data.init()
         pdf_list = cls.get_pdf_paths()
         i_parse = 0
-        for pdf_path in pdf_list:
-            log.debug(f'{i_parse+1}) {pdf_path}')
+        for i_pdf, pdf_path in enumerate(pdf_list):
+            log.debug(f'{i_pdf+1}/{i_parse+1}) {pdf_path}')
             if cls.parse_one(pdf_path):
                 i_parse += 1
                 if i_parse >= PDFParserGlobal.N_MAX_PARSE:
