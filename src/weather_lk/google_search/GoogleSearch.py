@@ -27,8 +27,16 @@ class GoogleSearch:
                 sleep_interval=GoogleSearch.SLEEP_INTERVAL,
             )
         ]
+        
+
+        filtered_pdf_link_list = [
+            x
+            for x in pdf_link_list
+            if "meteo.gov.lk/images/mergepdf" in x
+        ]
         log.info(f'Found {len(pdf_link_list)} pdf links.')
-        return pdf_link_list
+
+        return filtered_pdf_link_list
 
     def download_all(self):
         if not os.path.exists(DIR_REPO_PDF_GOOGLE_SEARCH):
