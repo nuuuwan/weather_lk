@@ -102,6 +102,7 @@ class PDFParserExpandedData:
 
         expanded_data = (
             dict(
+                pdf_path=self.pdf_path,
                 date_ut=date_ut,
                 date=date,
                 weather_list=self.weather_list,
