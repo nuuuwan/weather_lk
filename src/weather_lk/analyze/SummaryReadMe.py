@@ -3,12 +3,8 @@ import os
 from utils import File, Log
 
 from weather_lk.analyze.SummaryWriteDataByPlace import SummaryWriteDataByPlace
-from weather_lk.constants import (
-    COVERAGE_WINDOW_LIST,
-    DIR_REPO,
-    DISPLAY_PLACES,
-    URL_REMOTE_DATA,
-)
+from weather_lk.constants import (COVERAGE_WINDOW_LIST, DIR_REPO,
+                                  DISPLAY_PLACES, URL_REMOTE_DATA)
 
 log = Log('SummaryReadMe')
 

@@ -2,10 +2,8 @@ import os
 
 from utils import Log
 
-from weather_lk.constants import (
-    DIR_REPO_PDF_ARCHIVE_ORG,
-    DIR_REPO_PDF_METEO_GOV_LK,
-)
+from weather_lk.constants import (DIR_REPO_PDF_ARCHIVE_ORG,
+                                  DIR_REPO_PDF_METEO_GOV_LK)
 from weather_lk.core.Data import Data
 
 log = Log('PDFParserGlobal')

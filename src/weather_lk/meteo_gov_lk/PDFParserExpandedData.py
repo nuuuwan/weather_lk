@@ -6,10 +6,8 @@ from utils import TIME_FORMAT_DATE, JSONFile, Log, Time, TimeFormat
 
 from weather_lk.constants import DIR_REPO_JSON_PARSED
 from weather_lk.meteo_gov_lk.REGEX import REGEX
-from weather_lk.place_to_latlng.PlaceToLatLng import (
-    DEFAULT_LATLNG,
-    PlaceToLatLng,
-)
+from weather_lk.place_to_latlng.PlaceToLatLng import (DEFAULT_LATLNG,
+                                                      PlaceToLatLng)
 
 log = Log('PDFParserExpandedData')
 
