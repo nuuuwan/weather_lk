@@ -23,7 +23,7 @@ class SummaryCoverage:
     def get_n_rain(weather_list):
         return sum(1 for w in weather_list if (w['rain'] is not None))
 
-    def coverage(self):
+    def get_coverage(self):
         t = Time.now()
         idx_by_date = Data.idx_by_date()
         c_list = []
@@ -53,7 +53,7 @@ class SummaryCoverage:
         return c_list
 
     def write_coverage(self):
-        coverage = self.coverage()
+        coverage = self.get_coverage()
         tsv_path = os.path.join(DIR_REPO, 'coverage.tsv')
         TSVFile(tsv_path).write(coverage)
         log.info(f'Wrote coverage to {tsv_path}')
@@ -62,7 +62,7 @@ class SummaryCoverage:
             self.draw_coverage_chart(window)
 
     def draw_coverage_chart(self, window):
-        coverage = self.coverage()[:window]
+        coverage = self.get_coverage()[:window]
         x = [datetime.strptime(c['date'], '%Y-%m-%d') for c in coverage]
         y_rain = [c['n_rain'] for c in coverage]
         y_temp = [c['n_temp'] for c in coverage]
