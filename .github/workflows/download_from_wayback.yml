@@ -45,7 +45,7 @@ jobs:
         git config --global user.name "${{ secrets.GIT_USER_NAME }}"
         git pull origin data
         cp -r /tmp/weather_lk/* .
-        echo "* download_from_wayback $(date)" >> update.log
+        echo "* $(date) download_from_wayback" >> update.log
         git add .
         git commit -m "🤖 $(date) - download_from_wayback.yml"
         git push origin data

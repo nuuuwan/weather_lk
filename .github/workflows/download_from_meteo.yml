@@ -44,7 +44,7 @@ jobs:
         git config --global user.name "${{ secrets.GIT_USER_NAME }}"
         git pull origin data
         cp -r /tmp/weather_lk/* .
-        echo "* $(date)" >> update.log
+        echo "* $(date) download_from_meteo" >> update.log
         git add .
         git commit -m "🤖 $(date) - download_from_meteo.yml"
         git push origin data
