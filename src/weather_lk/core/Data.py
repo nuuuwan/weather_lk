@@ -19,7 +19,7 @@ class Data:
     @staticmethod
     @cache
     def get_data_path_list():
-        Data.init()
+        # Data.init()
 
         data_path_list = []
         for file_name in os.listdir(DIR_REPO_JSON_PARSED):

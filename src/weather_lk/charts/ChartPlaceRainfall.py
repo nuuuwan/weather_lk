@@ -1,5 +1,5 @@
 from datetime import datetime
-
+import numpy as np
 import matplotlib.pyplot as plt
 from utils import Log
 
@@ -32,6 +32,8 @@ class ChartPlaceRainfall(ChartPlace):
     def draw(self):
         x, y_rain = self.get_data()
         self.set_text('Rainfall (mm)')
-        plt.ylim([0, 200])
-        ChartPlace.annotate(x, y_rain, True, lambda __: 200, 'b', 'mm',10)
+        ax = plt.gca()
+        ax.set_yticks(np.arange(0,200,25))
+
+        ChartPlace.annotate(x, y_rain, True, lambda __: 200, 'b', 'mm', 10)
         ChartPlaceRainfall.plot_bars(x, y_rain)

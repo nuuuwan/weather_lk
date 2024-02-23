@@ -4,13 +4,17 @@ import matplotlib.pyplot as plt
 from utils import Log
 
 from weather_lk.charts.ChartPlace import ChartPlace
-from weather_lk.constants import (DIR_DATA_CHARTS_TEMPERATURE,
-                                  LIMIT_AND_COLOR_LIST)
+from    weather_lk.charts.ChartTemperature import ChartTemperature
+from weather_lk.constants import (
+    DIR_DATA_CHARTS_TEMPERATURE,
+    LIMIT_AND_COLOR_LIST,
+)
+
 
 log = Log('ChartPlaceTemperature')
 
 
-class ChartPlaceTemperature(ChartPlace):
+class ChartPlaceTemperature(ChartPlace, ChartTemperature):
     def get_dir(self):
         return DIR_DATA_CHARTS_TEMPERATURE
 
@@ -33,35 +37,7 @@ class ChartPlaceTemperature(ChartPlace):
 
         return x, y_min_temp, y_max_temp
 
-    @staticmethod
-    def set_ylim(y_min, y_max):
-        min_temp = min(y_min) - 1
-        max_temp = max(y_max) + 1
-        plt.ylim([min_temp, max_temp])
 
-    @staticmethod
-    def plot_bars(x, y_min_temp, y_max_temp):
-        for [limit, color] in LIMIT_AND_COLOR_LIST:
-            q = list(
-                zip(
-                    *[
-                        z
-                        for z in zip(x, y_max_temp)
-                        if (limit <= z[1] < limit + 5)
-                    ]
-                )
-            )
-            if not q:
-                continue
-            x2, y_max_temp2 = q
-            plt.bar(
-                x2,
-                y_max_temp2,
-                color=color,
-                width=1,
-            )
-
-        plt.bar(x, y_min_temp, color='w', width=1)
 
     @staticmethod
     def plot_rolling(x, y_min_temp, y_max_temp):
@@ -79,7 +55,7 @@ class ChartPlaceTemperature(ChartPlace):
 
         self.set_text('Temperature (°C)')
         ChartPlaceTemperature.set_ylim(y_min_temp, y_max_temp)
-        ChartPlace.annotate(x, y_max_temp, True, max, 'r', '°C',1)
-        ChartPlace.annotate(x, y_min_temp, False, min, 'b', '°C',1)
+        ChartPlace.annotate(x, y_max_temp, True, max, 'r', '°C', 1)
+        ChartPlace.annotate(x, y_min_temp, False, min, 'b', '°C', 1)
         ChartPlaceTemperature.plot_bars(x, y_min_temp, y_max_temp)
         ChartPlaceTemperature.plot_rolling(x, y_min_temp, y_max_temp)
