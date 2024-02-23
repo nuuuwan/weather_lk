@@ -24,7 +24,7 @@ class ChartTemperature:
 
     @staticmethod
     def get_color(y):
-        MIN_TEMP, MAX_TEMP = 0, 40
+        MIN_TEMP, MAX_TEMP = 5, 35
         MIN_H, MAX_H = 0, 240
         y = max(min(MAX_TEMP, y), MIN_TEMP)
         p = 1 - (y - MIN_TEMP) / (MAX_TEMP - MIN_TEMP)
