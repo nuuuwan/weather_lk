@@ -1,9 +1,9 @@
 import os
 
+from weather_lk.charts.Chart import Chart
 from weather_lk.charts.ChartCountry import ChartCountry
 from weather_lk.charts.ChartTemperature import ChartTemperature
 from weather_lk.constants import DIR_DATA_CHARTS
-from weather_lk.charts.Chart import Chart
 
 
 class ChartCountryTemperature(ChartCountry, ChartTemperature):

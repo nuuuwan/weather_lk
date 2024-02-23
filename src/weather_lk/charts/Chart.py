@@ -1,8 +1,9 @@
+import datetime
 import os
 
 import matplotlib.pyplot as plt
 from utils import TIME_FORMAT_TIME, Log, Time
-import datetime
+
 from weather_lk.constants import TEST_MODE
 
 log = Log('Chart')
@@ -55,41 +56,46 @@ class Chart:
             log.error(f'{self.__class__}.write - {self.place}: {str(e)}')
 
     @staticmethod
+    def annotate_one(
+        xi, yi, extreme, color, unit, gap_units, color_light, sign, i
+    ):
+        caption = f'#{i+1} {yi:.1f}{unit}'
+        if isinstance(xi, datetime.datetime):
+            date_str = xi.strftime('%Y-%m-%d')
+            caption += f' ({date_str})'
+        else:
+            caption += f' ({xi})'
+
+        plt.annotate(
+            xy=(xi, yi),
+            xytext=(xi, extreme + i * sign * gap_units),
+            text=caption,
+            color=color,
+            arrowprops=dict(
+                facecolor=color_light,
+                width=0.25,
+                headwidth=5,
+                edgecolor=color_light,
+            ),
+            horizontalalignment='center',
+            bbox=dict(
+                facecolor=color_light, edgecolor='none', boxstyle="round"
+            ),
+        )
+
+    @staticmethod
     def annotate(x, y_extreme, reverse, func_extreme, color, unit, gap_units):
         sorted_extreme_pairs = sorted(
             list(zip(x, y_extreme)),
             key=lambda x: x[1],
             reverse=reverse,
         )
-
         sign = -1 if reverse else 1
-
         extreme = func_extreme(y_extreme) - 5 * sign
         color_light = color + '2'
         for i, [xi, yi] in enumerate(
             sorted_extreme_pairs[: Chart.N_ANNOTATE]
         ):
-            caption = f'#{i+1} {yi:.1f}{unit}'
-            if isinstance(xi, datetime.datetime):
-                date_str = xi.strftime('%Y-%m-%d')
-                caption += f' ({date_str})'
-            else:
-                caption += f' ({xi})'
-            xy = (xi, yi)
-            xytext = (xi, extreme + i * sign * gap_units)
-            plt.annotate(
-                xy=xy,
-                xytext=xytext,
-                text=caption,
-                color=color,
-                arrowprops=dict(
-                    facecolor=color_light,
-                    width=0.25,
-                    headwidth=5,
-                    edgecolor=color_light,
-                ),
-                horizontalalignment='center',
-                bbox=dict(
-                    facecolor=color_light, edgecolor='none', boxstyle="round"
-                ),
+            Chart.annotate_one(
+                xi, yi, extreme, color, unit, gap_units, color_light, sign, i
             )

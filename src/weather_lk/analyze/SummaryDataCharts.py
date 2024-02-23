@@ -17,13 +17,17 @@ log = Log('SummaryDataCharts')
 class SummaryDataCharts:
     N_ANNOTATE = 10
 
-    def draw_charts_by_place(self):
+    @staticmethod
+    def init():
         if not os.path.exists(DIR_DATA_CHARTS):
             os.makedirs(DIR_DATA_CHARTS)
         if not os.path.exists(DIR_DATA_CHARTS_RAINFALL):
             os.makedirs(DIR_DATA_CHARTS_RAINFALL)
         if not os.path.exists(DIR_DATA_CHARTS_TEMPERATURE):
             os.makedirs(DIR_DATA_CHARTS_TEMPERATURE)
+
+    def draw_charts_by_place(self):
+        SummaryDataCharts.init()
 
         idx_by_place = Data.idx_by_place()
         for place in DISPLAY_PLACES:

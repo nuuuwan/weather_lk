@@ -2,10 +2,10 @@ import os
 
 import matplotlib.pyplot as plt
 
+from weather_lk.charts.Chart import Chart
 from weather_lk.charts.ChartCountry import ChartCountry
 from weather_lk.charts.ChartRainfall import ChartRainfall
 from weather_lk.constants import DIR_DATA_CHARTS
-from weather_lk.charts.Chart import Chart
 
 
 class ChartCountryRainfall(ChartCountry, ChartRainfall):

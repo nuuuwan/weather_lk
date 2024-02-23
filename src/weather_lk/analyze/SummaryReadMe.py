@@ -17,7 +17,8 @@ class SummaryReadMe:
             [
                 '## Weather Nationwide :sri_lanka:',
                 '',
-                f'![Temperature]({URL_REMOTE_DATA}/charts/country_temperature.png)',
+                f'![Temperature]({URL_REMOTE_DATA}'
+                + '/charts/country_temperature.png)',
                 '',
                 f'![Rainfall]({URL_REMOTE_DATA}/charts/country_rainfall.png)',
                 '',
