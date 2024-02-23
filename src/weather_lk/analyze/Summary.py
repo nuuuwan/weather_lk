@@ -17,9 +17,9 @@ class Summary(
     SummaryReadMe,
 ):
     def write_all(self):
-        # self.write()
-        # self.write_by_place()
-        # self.draw_charts_by_place()
-        # self.draw_charts_for_country()
-        # self.write_coverage()
+        self.write()
+        self.write_by_place()
+        self.draw_charts_by_place()
+        self.draw_charts_for_country()
+        self.write_coverage()
         self.build_readme()
