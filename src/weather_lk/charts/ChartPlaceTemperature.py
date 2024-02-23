@@ -3,6 +3,7 @@ from datetime import datetime
 import matplotlib.pyplot as plt
 from utils import Log
 
+from weather_lk.charts.Chart import Chart
 from weather_lk.charts.ChartPlace import ChartPlace
 from weather_lk.charts.ChartTemperature import ChartTemperature
 from weather_lk.constants import DIR_DATA_CHARTS_TEMPERATURE
@@ -49,7 +50,7 @@ class ChartPlaceTemperature(ChartPlace, ChartTemperature):
         self.set_ylim(y_min_temp, y_max_temp)
         self.set_text('Temperature (°C)')
         ChartPlaceTemperature.set_ylim(y_min_temp, y_max_temp)
-        ChartPlace.annotate(x, y_max_temp, True, max, '#c00', '°C', 1)
-        ChartPlace.annotate(x, y_min_temp, False, min, '#008', '°C', 1)
+        Chart.annotate(x, y_max_temp, True, max, '#c00', '°C', 2)
+        Chart.annotate(x, y_min_temp, False, min, '#008', '°C', 2)
         ChartPlaceTemperature.plot_bars(x, y_min_temp, y_max_temp)
         ChartPlaceTemperature.plot_rolling(x, y_min_temp, y_max_temp)

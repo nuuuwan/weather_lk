@@ -2,6 +2,7 @@ from datetime import datetime
 
 from utils import Log
 
+from weather_lk.charts.Chart import Chart
 from weather_lk.charts.ChartPlace import ChartPlace
 from weather_lk.charts.ChartRainfall import ChartRainfall
 from weather_lk.constants import DIR_DATA_CHARTS_RAINFALL
@@ -30,5 +31,5 @@ class ChartPlaceRainfall(ChartPlace, ChartRainfall):
         self.set_text('Rainfall (mm)')
         self.set_ylim()
 
-        ChartPlace.annotate(x, y_rain, True, lambda __: 200, '#008', 'mm', 10)
+        Chart.annotate(x, y_rain, True, lambda __:175, '#008', 'mm', 25)
         ChartPlaceRainfall.plot_bars(x, y_rain)

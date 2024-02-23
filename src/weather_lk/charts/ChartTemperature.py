@@ -13,8 +13,9 @@ class ChartTemperature:
     @staticmethod
     def set_ylim(y_min, y_max):
         Q = 5
-        min_temp = math.ceil(min(y_min) / Q - 1) * Q
-        max_temp = math.floor(max(y_max) / Q + 1) * Q
+        G = 2
+        min_temp = math.ceil(min(y_min) / Q - G) * Q
+        max_temp = math.floor(max(y_max) / Q + G) * Q
 
         plt.ylim([min_temp, max_temp])
 
