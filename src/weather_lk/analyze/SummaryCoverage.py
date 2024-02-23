@@ -11,39 +11,45 @@ log = Log('SummaryCoverage')
 
 
 class SummaryCoverage:
+    @staticmethod
+    def get_n_temp(weather_list):
+        return sum(
+            1
+            for w in weather_list
+            if w.get('max_temp', w.get('max_temp', None)) is not None
+        )
+
+    @staticmethod
+    def get_n_rain(weather_list):
+        return sum(1 for w in weather_list if (w['rain'] is not None))
+
     def coverage(self):
         t = Time.now()
         idx_by_date = Data.idx_by_date()
         c_list = []
         max_days = max(COVERAGE_WINDOW_LIST)
         for i in range(0, max_days):
-            t_i = Time(t.ut - SECONDS_IN.DAY * i + 1)
-            date = TIME_FORMAT_DATE.stringify(t_i)
+            date = TIME_FORMAT_DATE.stringify(
+                Time(t.ut - SECONDS_IN.DAY * i + 1)
+            )
+            n, n_temp, n_rain = 0, 0, 0
             has_data = date in idx_by_date
             if has_data:
                 data_for_date = idx_by_date[date]
                 weather_list = data_for_date['weather_list']
                 n = len(weather_list)
-                n_temp = sum(
-                    1
-                    for w in weather_list
-                    if w.get('max_temp', w.get('max_temp', None)) is not None
+                n_temp = SummaryCoverage.get_n_temp(weather_list)
+                n_rain = SummaryCoverage.get_n_rain(weather_list)
+
+            c_list.append(
+                dict(
+                    date=date,
+                    has_data=has_data,
+                    n=n,
+                    n_temp=n_temp,
+                    n_rain=n_rain,
                 )
-                n_rain = sum(
-                    1 for w in weather_list if (w['rain'] is not None)
-                )
-            else:
-                n = 0
-                n_temp = 0
-                n_rain = 0
-            c = dict(
-                date=date,
-                has_data=has_data,
-                n=n,
-                n_temp=n_temp,
-                n_rain=n_rain,
             )
-            c_list.append(c)
         return c_list
 
     def write_coverage(self):
