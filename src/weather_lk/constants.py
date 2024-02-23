@@ -3,6 +3,8 @@ import tempfile
 
 import googlemaps
 
+TEST_MODE = os.name == 'nt'
+
 GIT_REPO_URL = 'https://github.com/nuuuwan/weather_lk'
 DIR_REPO = os.path.join(tempfile.gettempdir(), 'weather_lk')
 

@@ -6,8 +6,13 @@ from weather_lk.charts.ChartCountryRainfall import ChartCountryRainfall
 from weather_lk.charts.ChartCountryTemperature import ChartCountryTemperature
 from weather_lk.charts.ChartPlaceRainfall import ChartPlaceRainfall
 from weather_lk.charts.ChartPlaceTemperature import ChartPlaceTemperature
-from weather_lk.constants import (DIR_DATA_CHARTS, DIR_DATA_CHARTS_RAINFALL,
-                                  DIR_DATA_CHARTS_TEMPERATURE, DISPLAY_PLACES)
+from weather_lk.constants import (
+    DIR_DATA_CHARTS,
+    DIR_DATA_CHARTS_RAINFALL,
+    DIR_DATA_CHARTS_TEMPERATURE,
+    DISPLAY_PLACES,
+    TEST_MODE,
+)
 from weather_lk.core.Data import Data
 
 log = Log('SummaryDataCharts')
@@ -33,6 +38,9 @@ class SummaryDataCharts:
 
             ChartPlaceTemperature(place, data_for_place).write()
             ChartPlaceRainfall(place, data_for_place).write()
+
+            if TEST_MODE:
+                break
 
     def draw_charts_for_country(self):
         ChartCountryRainfall().write()

@@ -15,7 +15,7 @@ class ChartPlace(Chart):
         self.data_for_place = data_for_place
 
     def get_title(self):
-        return self.place
+        return self.place + ' - History'
 
     def get_xlabel(self):
         return 'Date'
@@ -30,15 +30,29 @@ class ChartPlace(Chart):
 
         sign = -1 if reverse else 1
 
-        extreme = func_extreme(y_extreme)
+        extreme = func_extreme(y_extreme) - 5 * sign
+        color_light = color + '2'
         for i, [xi, yi] in enumerate(
             sorted_extreme_pairs[: ChartPlace.N_ANNOTATE]
         ):
             date_str = xi.strftime('%Y-%m-%d')
             caption = f'#{i+1} {yi:.1f}{unit} {date_str}'
             xy = (xi, yi)
-            xytext = (xi, extreme + i * gap_units * sign)
-            plt.annotate(xy=xy, xytext=xytext, text=caption, color=color)
+            xytext = (xi, extreme + i * sign * gap_units)
+            plt.annotate(
+                xy=xy,
+                xytext=xytext,
+                text=caption,
+                color=color,
+                arrowprops=dict(
+                    facecolor=color_light,
+                    width=0.25,
+                    headwidth=5,
+                    edgecolor=color_light,
+                ),
+                horizontalalignment='center',
+                bbox=dict(facecolor=color_light, edgecolor='none', boxstyle="round"),
+            )
 
     def get_label(self):
         return SummaryWriteDataByPlace.get_place_label(self.place)

@@ -3,6 +3,8 @@ import os
 import matplotlib.pyplot as plt
 from utils import TIME_FORMAT_TIME, Log, Time
 
+from weather_lk.constants import TEST_MODE
+
 log = Log('Chart')
 
 
@@ -37,6 +39,8 @@ class Chart:
         plt.savefig(image_path, dpi=300)
         plt.close()
         log.info(f'Wrote chart to {image_path}')
+        if TEST_MODE:
+            os.startfile(image_path)
         return image_path
 
     def write(self):

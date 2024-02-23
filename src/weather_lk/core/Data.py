@@ -3,8 +3,13 @@ from functools import cache
 
 from utils import Git, JSONFile, Log
 
-from weather_lk.constants import (BRANCH_NAME, DIR_REPO, DIR_REPO_JSON_PARSED,
-                                  GIT_REPO_URL)
+from weather_lk.constants import (
+    BRANCH_NAME,
+    DIR_REPO,
+    DIR_REPO_JSON_PARSED,
+    GIT_REPO_URL,
+    TEST_MODE,
+)
 
 log = Log('Data')
 
@@ -19,7 +24,8 @@ class Data:
     @staticmethod
     @cache
     def get_data_path_list():
-        Data.init()
+        if not TEST_MODE:
+            Data.init()
 
         data_path_list = []
         for file_name in os.listdir(DIR_REPO_JSON_PARSED):
