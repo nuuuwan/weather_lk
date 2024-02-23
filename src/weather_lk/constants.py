@@ -33,8 +33,11 @@ URL_REMOTE_DATA = 'https://raw.githubusercontent.com/nuuuwan/weather_lk/data'
 
 DIR_REPO_PDF_ARCHIVE_ORG = os.path.join(DIR_REPO, 'pdf_archive_org')
 DIR_REPO_PDF_METEO_GOV_LK = os.path.join(DIR_REPO, 'pdf_meteo_gov_lk')
+DIR_REPO_PDF_GOOGLE_SEARCH = os.path.join(DIR_REPO, 'pdf_google_search')
+
 DIR_REPO_JSON_PARSED = os.path.join(DIR_REPO, 'json_parsed')
 DIR_REPO_JSON_PLACEHOLDER = os.path.join(DIR_REPO, 'json_placeholder')
+
 COVERAGE_WINDOW_LIST = [7, 28, 365, 3652]
 
 DISPLAY_PLACES = [

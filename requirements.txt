@@ -9,3 +9,4 @@ PyPDF2<=2.0.0
 selenium
 twtr-nuuuwan
 utils-nuuuwan
+googlesearch-python
