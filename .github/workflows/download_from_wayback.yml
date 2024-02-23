@@ -1,6 +1,6 @@
 
 name: download_from_wayback
-# on: workflow_dispatch
+
 on:
   workflow_dispatch:
   schedule:

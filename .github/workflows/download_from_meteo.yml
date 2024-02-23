@@ -46,5 +46,5 @@ jobs:
         cp -r /tmp/weather_lk/* .
         echo "* $(date)" >> update.log
         git add .
-        git commit -m "Updated $(date) - 🤖 download_from_meteo.yml"
+        git commit -m "🤖 $(date) - download_from_meteo.yml"
         git push origin data
