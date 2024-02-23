@@ -79,7 +79,7 @@ class ChartPlaceTemperature(ChartPlace):
 
         self.set_text('Temperature (°C)')
         ChartPlaceTemperature.set_ylim(y_min_temp, y_max_temp)
-        ChartPlace.annotate(x, y_max_temp, True, max, 'r', '°C')
-        ChartPlace.annotate(x, y_min_temp, False, min, 'b', '°C')
+        ChartPlace.annotate(x, y_max_temp, True, max, 'r', '°C',1)
+        ChartPlace.annotate(x, y_min_temp, False, min, 'b', '°C',1)
         ChartPlaceTemperature.plot_bars(x, y_min_temp, y_max_temp)
         ChartPlaceTemperature.plot_rolling(x, y_min_temp, y_max_temp)

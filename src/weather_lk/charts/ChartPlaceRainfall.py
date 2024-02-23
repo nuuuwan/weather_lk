@@ -33,5 +33,5 @@ class ChartPlaceRainfall(ChartPlace):
         x, y_rain = self.get_data()
         self.set_text('Rainfall (mm)')
         plt.ylim([0, 200])
-        ChartPlace.annotate(x, y_rain, True, lambda __: 200, 'b', 'mm')
+        ChartPlace.annotate(x, y_rain, True, lambda __: 200, 'b', 'mm',10)
         ChartPlaceRainfall.plot_bars(x, y_rain)

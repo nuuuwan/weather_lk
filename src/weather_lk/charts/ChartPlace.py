@@ -25,7 +25,7 @@ class ChartPlace:
         plt.figtext(0.5, 0.05, footer_text, ha='center', fontsize=8)
 
     @staticmethod
-    def annotate(x, y_extreme, reverse, func_extreme, color, unit):
+    def annotate(x, y_extreme, reverse, func_extreme, color, unit, gap_units):
         sorted_extreme_pairs = sorted(
             list(zip(x, y_extreme)),
             key=lambda x: x[1],
@@ -39,7 +39,7 @@ class ChartPlace:
             date_str = xi.strftime('%Y-%m-%d')
             caption = f'#{i+1} {yi:.1f}{unit} {date_str}'
             xy = (xi, yi)
-            xytext = (xi, extreme - i)
+            xytext = (xi, extreme - i * gap_units)
             plt.annotate(xy=xy, xytext=xytext, text=caption, color=color)
 
     def before_draw(self):

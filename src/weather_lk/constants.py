@@ -44,7 +44,7 @@ DIR_REPO_PDF_METEO_GOV_LK = os.path.join(DIR_REPO, 'pdf_meteo_gov_lk')
 DIR_REPO_JSON_PARSED = os.path.join(DIR_REPO, 'json_parsed')
 DIR_REPO_JSON_PLACEHOLDER = os.path.join(DIR_REPO, 'json_placeholder')
 DIR_REPO_PNG_TWEETS = os.path.join(DIR_REPO, 'png_tweets')
-COVERAGE_WINDOW_LIST = [7, 7 * 4, 7 * 52, 7 * 52 * 10]
+COVERAGE_WINDOW_LIST = [7, 28, 365, 3652]
 
 DISPLAY_PLACES = [
     # LK-11 Colombo
