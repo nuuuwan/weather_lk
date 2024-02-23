@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MultipleLocator
 from utils import Log
+import colorsys
 
 log = Log('ChartRainfall')
 
@@ -19,18 +20,15 @@ class ChartRainfall:
         return ylim
 
     @staticmethod
-    def get_a(y):
-        if y > 100:
-            return 'f'
-        if y > 50:
-            return 'c'
-        if y > 25:
-            return '8'
-        return '4'
-
-    @staticmethod
     def get_color(y):
-        return '#008' + ChartRainfall.get_a(y)
+        y = max(min(200, y), 0)
+        p = y / 200.0
+        h = (120 + 120 * p) / 360.0
+        s = 1
+        l = 0.5
+        r, g, b = colorsys.hls_to_rgb(h, l, s)
+        a = 0.5
+        return (r, g, b, a)
 
     @staticmethod
     def plot_bars(x, y_rain):

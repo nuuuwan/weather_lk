@@ -71,20 +71,22 @@ class Chart:
             xytext=(xi, extreme + i * sign * gap_units),
             text=caption,
             color=color,
-            arrowprops=dict(
-                facecolor=color_light,
-                width=0.25,
-                headwidth=5,
-                edgecolor=color_light,
-            ),
+            # arrowprops=dict(
+            #     facecolor=color_light,
+            #     width=0.25,
+            #     headwidth=5,
+            #     edgecolor=color_light,
+            # ),
             horizontalalignment='center',
             bbox=dict(
                 facecolor=color_light, edgecolor='none', boxstyle="round"
             ),
         )
 
-    @staticmethod
-    def annotate(x, y_extreme, reverse, func_extreme, color, unit, gap_units):
+    @classmethod
+    def annotate(
+        cls, x, y_extreme, reverse, func_extreme, color, unit, gap_units
+    ):
         sorted_extreme_pairs = sorted(
             list(zip(x, y_extreme)),
             key=lambda x: x[1],
@@ -92,10 +94,11 @@ class Chart:
         )
         sign = -1 if reverse else 1
         extreme = func_extreme(y_extreme) - 5 * sign
-        color_light = color + '2'
+
         for i, [xi, yi] in enumerate(
             sorted_extreme_pairs[: Chart.N_ANNOTATE]
         ):
+            color_light = cls.get_color(yi)
             Chart.annotate_one(
                 xi, yi, extreme, color, unit, gap_units, color_light, sign, i
             )

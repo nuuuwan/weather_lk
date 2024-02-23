@@ -27,3 +27,4 @@ class Summary(
             self.build_readme()
         else:
             self.draw_charts_by_place()
+            self.draw_charts_for_country()

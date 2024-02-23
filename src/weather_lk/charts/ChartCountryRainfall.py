@@ -2,7 +2,6 @@ import os
 
 import matplotlib.pyplot as plt
 
-from weather_lk.charts.Chart import Chart
 from weather_lk.charts.ChartCountry import ChartCountry
 from weather_lk.charts.ChartRainfall import ChartRainfall
 from weather_lk.constants import DIR_DATA_CHARTS
@@ -34,8 +33,8 @@ class ChartCountryRainfall(ChartCountry, ChartRainfall):
         x, y_rain = self.get_data()
         ylim = self.set_ylim(y_rain)
         plt.tick_params(axis='x', labelsize=5)
-        ChartRainfall.plot_bars(x, y_rain)
-        Chart.annotate(
+        ChartCountryRainfall.plot_bars(x, y_rain)
+        ChartCountryRainfall.annotate(
             x, y_rain, True, lambda __: ylim - 25, '#008', 'mm', 25
         )
 

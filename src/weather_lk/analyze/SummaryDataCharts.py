@@ -31,7 +31,7 @@ class SummaryDataCharts:
 
         idx_by_place = Data.idx_by_place()
         for place in DISPLAY_PLACES:
-            if TEST_MODE and place != 'Jaffna':
+            if TEST_MODE and place != 'Kurunagala':
                 continue
             data_for_place = idx_by_place.get(place, None)
             if data_for_place is None:
