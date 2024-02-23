@@ -7,6 +7,5 @@ numpy
 opencv-python
 PyPDF2<=2.0.0
 selenium
-tweepy
 twtr-nuuuwan
 utils-nuuuwan
