@@ -43,7 +43,8 @@ class SummaryReadMe:
                 '# Sri Lanka :sri_lanka: Weather (weather_lk)',
                 '',
                 'Rainfall and Temperature data, extracted from the '
-                + '[Sri Lanka Meteorological Department](http://www.meteo.gov.lk/).',
+                + '[Department of Meteorology](http://www.meteo.gov.lk/), '
+                + 'Sri Lanka',
                 '',
                 '## Coverage',
                 '',

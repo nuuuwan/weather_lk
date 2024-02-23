@@ -78,7 +78,8 @@ class Tweeter(TweeterCharts):
         return '\n'.join(
             [
                 'Rainfall 📏',
-                f'🌧️ Max: {max_rain:.0f}mm in {max_rain_place} {max_rain_emoji}',
+                f'🌧️ Max: {max_rain:.0f}mm '
+                + f'in {max_rain_place} {max_rain_emoji}',
             ]
         )
 
