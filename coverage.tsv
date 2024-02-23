@@ -1,5 +1,5 @@
 date	has_data	n	n_temp	n_rain
-2024-02-23	False	0	0	0
+2024-02-23	True	55	22	55
 2024-02-22	True	56	22	56
 2024-02-21	True	55	21	55
 2024-02-20	True	59	24	59
