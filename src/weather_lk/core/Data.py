@@ -1,5 +1,5 @@
-from functools import cache
 import os
+from functools import cache
 
 from utils import Git, JSONFile, Log
 

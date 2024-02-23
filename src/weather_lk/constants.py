@@ -44,7 +44,7 @@ DIR_REPO_PDF_METEO_GOV_LK = os.path.join(DIR_REPO, 'pdf_meteo_gov_lk')
 DIR_REPO_JSON_PARSED = os.path.join(DIR_REPO, 'json_parsed')
 DIR_REPO_JSON_PLACEHOLDER = os.path.join(DIR_REPO, 'json_placeholder')
 
-DISPLAY_PLACES = display_places = [
+DISPLAY_PLACES = [
     # LK-11 Colombo
     'Colombo',
     'Rathmalana',
