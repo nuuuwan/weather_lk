@@ -4,9 +4,9 @@ from functools import cached_property
 from utils import Git, JSONFile, Log
 
 from weather_lk.constants import (BRANCH_NAME, DEFAULT_LATLNG, DIR_REPO,
-                                  DIR_REPO_DAILY_DATA, GIT_REPO_URL, GMAPS,
+                                  GIT_REPO_URL, GMAPS,
                                   PLACE_TO_LATLNG_PATH,
-                                  PLACE_TO_LATLNG_PATH_NEW)
+                                  PLACE_TO_LATLNG_PATH_NEW,DIR_REPO_JSON_PARSED)
 
 log = Log('History')
 
@@ -19,13 +19,13 @@ class PlaceToLatLng:
         self.git.checkout(BRANCH_NAME)
 
         history_list = []
-        for file_only in os.listdir(DIR_REPO_DAILY_DATA):
+        for file_only in os.listdir(DIR_REPO_JSON_PARSED):
             if not (
                 file_only.startswith('weather_lk.')
                 and file_only.endswith('.json')
             ):
                 continue
-            file_path = os.path.join(DIR_REPO_DAILY_DATA, file_only)
+            file_path = os.path.join(DIR_REPO_JSON_PARSED, file_only)
             data = JSONFile(file_path).read()
             date = data['date']
             weather_list = data['weather_list']

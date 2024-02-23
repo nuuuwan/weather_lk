@@ -7,7 +7,7 @@ from utils import Log
 from weather_lk.analyze.SummaryWriteDataByPlace import SummaryWriteDataByPlace
 from weather_lk.constants import (DIR_DATA_CHARTS, DIR_DATA_CHARTS_RAINFALL,
                                   DIR_DATA_CHARTS_TEMPERATURE,
-                                  LIMIT_AND_COLOR_LIST)
+                                  LIMIT_AND_COLOR_LIST, DISPLAY_PLACES)
 from weather_lk.core.Data import Data
 
 log = Log('SummaryDataCharts')
@@ -170,7 +170,13 @@ class SummaryDataCharts:
         if not os.path.exists(DIR_DATA_CHARTS_TEMPERATURE):
             os.makedirs(DIR_DATA_CHARTS_TEMPERATURE)
 
-        for place, data_for_place in Data.idx_by_place().items():
+        idx_by_place = Data.idx_by_place()
+        for place in DISPLAY_PLACES:
+            data_for_place = idx_by_place.get(place, None)
+            if data_for_place is None:
+                log.warning(f'No data for {place}')
+                continue
+        
             try:
                 SummaryDataCharts.draw_temp_chart_for_place(
                     place, data_for_place

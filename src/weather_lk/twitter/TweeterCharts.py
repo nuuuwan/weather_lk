@@ -4,7 +4,7 @@ import os
 
 from infograph import BarChart, DataTable, Infograph, RangeBarChart
 
-from weather_lk.constants import (DIR_REPO_DAILY_DATA, LIMIT_AND_COLOR_LIST,
+from weather_lk.constants import (DIR_REPO_PNG_TWEETS, LIMIT_AND_COLOR_LIST,
                                   MIN_COLOR)
 
 
@@ -35,9 +35,12 @@ def func_color_temp(_, __, y2i):
 class TweeterCharts:
     @property
     def tweet_image_path(self):
+        if not os.path.exists(DIR_REPO_PNG_TWEETS):
+            os.makedirs(DIR_REPO_PNG_TWEETS)
+            
         date = self.data['date']
         return os.path.join(
-            DIR_REPO_DAILY_DATA,
+            DIR_REPO_PNG_TWEETS,
             f'weather_lk.{date}.png',
         )
 
