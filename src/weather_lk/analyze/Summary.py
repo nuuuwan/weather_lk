@@ -3,13 +3,25 @@ from datetime import datetime
 from functools import cache
 
 import matplotlib.pyplot as plt
-from utils import (SECONDS_IN, TIME_FORMAT_DATE, File, JSONFile, Log, Time,
-                   TSVFile)
+from utils import (
+    SECONDS_IN,
+    TIME_FORMAT_DATE,
+    File,
+    JSONFile,
+    Log,
+    Time,
+    TSVFile,
+)
 
-from weather_lk.constants import (DIR_DATA_BY_PLACE, DIR_DATA_CHARTS,
-                                  DIR_DATA_CHARTS_RAINFALL,
-                                  DIR_DATA_CHARTS_TEMPERATURE, DIR_REPO,
-                                  LIMIT_AND_COLOR_LIST, URL_REMOTE_DATA)
+from weather_lk.constants import (
+    DIR_DATA_BY_PLACE,
+    DIR_DATA_CHARTS,
+    DIR_DATA_CHARTS_RAINFALL,
+    DIR_DATA_CHARTS_TEMPERATURE,
+    DIR_REPO,
+    LIMIT_AND_COLOR_LIST,
+    URL_REMOTE_DATA,
+)
 from weather_lk.core.Data import Data
 from weather_lk.place_to_latlng.PlaceToLatLng import PlaceToLatLng
 
@@ -297,10 +309,6 @@ class Summary:
         # os.startfile(image_path)
 
     def build_readme(self):
-        coverage = self.coverage()
-        n_has_data = sum(1 for c in coverage if c['has_data'])
-        n_total = len(coverage)
-
         display_places = [
             # LK-11 Colombo
             'Colombo',
@@ -389,15 +397,15 @@ class Summary:
                 '',
                 '## Coverage',
                 '',
-                '> [!WARNING]',
-                '> This dataset has some gaps, and contains data only for  '
-                + f'**{n_has_data}** of the last {n_total} days.',
-                '',
                 '### Last 10 days',
                 '',
                 f'![Coverage]({URL_REMOTE_DATA}/coverage-10days.png)',
                 '',
-                '### Last 1000 days',
+                '### Last 100 days',
+                '',
+                f'![Coverage]({URL_REMOTE_DATA}/coverage-100days.png)',
+                '',
+                '### Last 1,000 days',
                 '',
                 f'![Coverage]({URL_REMOTE_DATA}/coverage-1000days.png)',
                 '',

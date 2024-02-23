@@ -18,7 +18,7 @@ class Data:
     @staticmethod
     def get_data_path_list():
         Data.init()
-        
+
         data_path_list = []
         for file_name in os.listdir(DIR_REPO_JSON_PARSED):
             if file_name.endswith('.json'):
