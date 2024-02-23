@@ -31,6 +31,8 @@ class SummaryDataCharts:
 
         idx_by_place = Data.idx_by_place()
         for place in DISPLAY_PLACES:
+            if TEST_MODE and place != 'Jaffna':
+                continue
             data_for_place = idx_by_place.get(place, None)
             if data_for_place is None:
                 log.warning(f'No data for {place}')
@@ -38,9 +40,6 @@ class SummaryDataCharts:
 
             ChartPlaceTemperature(place, data_for_place).write()
             ChartPlaceRainfall(place, data_for_place).write()
-
-            if TEST_MODE:
-                break
 
     def draw_charts_for_country(self):
         ChartCountryRainfall().write()

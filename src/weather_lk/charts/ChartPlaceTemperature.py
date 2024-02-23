@@ -40,9 +40,9 @@ class ChartPlaceTemperature(ChartPlace, ChartTemperature):
         window = 7
         y_temp_mid_rolling = [
             sum(y_temp_mid[i: i + window]) / window
-            for i in range(len(y_temp_mid) - window + 1)
+            for i in range(len(y_temp_mid) - window)
         ]
-        x_rolling = x[: -(window - 1)]
+        x_rolling = x[window:]
         plt.plot(x_rolling, y_temp_mid_rolling, color='black')
 
     def draw(self):

@@ -7,12 +7,16 @@ log = Log('ChartRainfall')
 
 class ChartRainfall:
     @staticmethod
-    def set_ylim():
-        plt.ylim([0, 200])
+    def set_ylim(y_rain):
+        max_y = max(y_rain)
+        ylim = max(200, max_y + 50)
+        plt.ylim([0, ylim])
 
         ax = plt.gca()
         ax.yaxis.set_major_locator(MultipleLocator(25))
         ax.yaxis.set_minor_locator(MultipleLocator(5))
+
+        return ylim
 
     @staticmethod
     def get_a(y):
