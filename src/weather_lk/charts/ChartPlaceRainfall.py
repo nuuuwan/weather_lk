@@ -1,7 +1,5 @@
 from datetime import datetime
 
-import matplotlib.pyplot as plt
-import numpy as np
 from utils import Log
 
 from weather_lk.charts.ChartPlace import ChartPlace

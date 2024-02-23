@@ -26,7 +26,7 @@ class ChartPlace(Chart):
             list(zip(x, y_extreme)),
             key=lambda x: x[1],
             reverse=reverse,
-        )   
+        )
 
         sign = -1 if reverse else 1
 

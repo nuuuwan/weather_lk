@@ -15,7 +15,6 @@ class ChartTemperature:
         Q = 5
         min_temp = math.ceil(min(y_min) / Q - 1) * Q
         max_temp = math.floor(max(y_max) / Q + 1) * Q
- 
 
         plt.ylim([min_temp, max_temp])
 
