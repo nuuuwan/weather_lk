@@ -1,7 +1,8 @@
+import colorsys
+
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MultipleLocator
 from utils import Log
-import colorsys
 
 log = Log('ChartRainfall')
 

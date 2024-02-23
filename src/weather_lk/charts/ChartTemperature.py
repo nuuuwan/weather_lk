@@ -38,8 +38,12 @@ class ChartTemperature:
     def plot_bars(x, y_min_temp, y_max_temp):
         width = 0.9
         y_mid_temp = [(a + b) / 2 for a, b in zip(y_min_temp, y_max_temp)]
-        y_mid_temp13 = [(a * 2 + b) / 3 for a, b in zip(y_min_temp, y_max_temp)]
-        y_mid_temp23 = [(a + b * 2) / 3 for a, b in zip(y_min_temp, y_max_temp)]
+        y_mid_temp13 = [
+            (a * 2 + b) / 3 for a, b in zip(y_min_temp, y_max_temp)
+        ]
+        y_mid_temp23 = [
+            (a + b * 2) / 3 for a, b in zip(y_min_temp, y_max_temp)
+        ]
 
         bars = plt.bar(x, y_max_temp, color='w', edgecolor='w', width=width)
         for bar, y in zip(bars, y_max_temp):
@@ -52,8 +56,6 @@ class ChartTemperature:
         bars = plt.bar(x, y_mid_temp13, color='w', edgecolor='w', width=width)
         for bar, y in zip(bars, y_min_temp):
             bar.set_color(ChartTemperature.get_color(y))
-
-
 
         bars = plt.bar(x, y_min_temp, edgecolor='w', color='w', width=width)
         for bars in bars:
