@@ -37,7 +37,7 @@ class TweeterCharts:
     def tweet_image_path(self):
         if not os.path.exists(DIR_REPO_PNG_TWEETS):
             os.makedirs(DIR_REPO_PNG_TWEETS)
-            
+
         date = self.data['date']
         return os.path.join(
             DIR_REPO_PNG_TWEETS,
