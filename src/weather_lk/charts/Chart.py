@@ -10,6 +10,8 @@ log = Log('Chart')
 
 class Chart:
     N_ANNOTATE = 3
+    DPI = 1200
+
     def set_text(self, ylabel):
         plt.title(self.get_title(), fontsize=20)
         plt.xlabel(self.get_xlabel())
@@ -37,7 +39,7 @@ class Chart:
     def after_draw(self):
         label = self.get_label()
         image_path = os.path.join(self.get_dir(), f'{label}.png')
-        plt.savefig(image_path, dpi=450)
+        plt.savefig(image_path, dpi=Chart.DPI)
         plt.close()
         log.info(f'Wrote chart to {image_path}')
         if TEST_MODE:
@@ -51,6 +53,7 @@ class Chart:
             return self.after_draw()
         except ValueError as e:
             log.error(f'{self.__class__}.write - {self.place}: {str(e)}')
+
     @staticmethod
     def annotate(x, y_extreme, reverse, func_extreme, color, unit, gap_units):
         sorted_extreme_pairs = sorted(
@@ -66,7 +69,6 @@ class Chart:
         for i, [xi, yi] in enumerate(
             sorted_extreme_pairs[: Chart.N_ANNOTATE]
         ):
-            
             caption = f'#{i+1} {yi:.1f}{unit}'
             if isinstance(xi, datetime.datetime):
                 date_str = xi.strftime('%Y-%m-%d')
@@ -87,5 +89,7 @@ class Chart:
                     edgecolor=color_light,
                 ),
                 horizontalalignment='center',
-                bbox=dict(facecolor=color_light, edgecolor='none', boxstyle="round"),
+                bbox=dict(
+                    facecolor=color_light, edgecolor='none', boxstyle="round"
+                ),
             )

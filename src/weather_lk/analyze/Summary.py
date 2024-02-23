@@ -26,5 +26,4 @@ class Summary(
             self.write_coverage()
             self.build_readme()
         else:
-            self.draw_charts_for_country()
             self.draw_charts_by_place()

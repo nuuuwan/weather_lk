@@ -5,6 +5,7 @@ from weather_lk.charts.ChartTemperature import ChartTemperature
 from weather_lk.constants import DIR_DATA_CHARTS
 from weather_lk.charts.Chart import Chart
 
+
 class ChartCountryTemperature(ChartCountry, ChartTemperature):
     def get_label(self):
         return 'country_temperature'
@@ -37,7 +38,7 @@ class ChartCountryTemperature(ChartCountry, ChartTemperature):
         self.set_text('Temperature (°C)')
         x, y_min_temp, y_max_temp = self.get_data()
         self.set_ylim(y_min_temp, y_max_temp)
-        self.plot_bars(x, y_min_temp, y_max_temp)
+        ChartTemperature.plot_bars(x, y_min_temp, y_max_temp)
         Chart.annotate(x, y_max_temp, True, max, '#c00', '°C', 2)
         Chart.annotate(x, y_min_temp, False, min, '#008', '°C', 2)
 

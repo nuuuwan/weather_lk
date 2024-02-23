@@ -1,4 +1,3 @@
-import matplotlib.pyplot as plt
 from utils import Log
 
 from weather_lk.analyze.SummaryWriteDataByPlace import SummaryWriteDataByPlace
@@ -8,8 +7,6 @@ log = Log('ChartPlace')
 
 
 class ChartPlace(Chart):
-   
-
     def __init__(self, place, data_for_place):
         self.place = place
         self.data_for_place = data_for_place
@@ -20,6 +17,5 @@ class ChartPlace(Chart):
     def get_xlabel(self):
         return 'Date'
 
-    
     def get_label(self):
         return SummaryWriteDataByPlace.get_place_label(self.place)

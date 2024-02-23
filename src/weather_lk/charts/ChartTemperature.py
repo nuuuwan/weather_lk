@@ -32,10 +32,12 @@ class ChartTemperature:
 
     @staticmethod
     def plot_bars(x, y_min_temp, y_max_temp):
-        width = 0.9
-        bars = plt.bar(x, y_max_temp, color='w', width=width)
+        width = 1
+
+        bars = plt.bar(x, y_max_temp, color='w', edgecolor='w', width=width)
         for bar, y in zip(bars, y_max_temp):
             bar.set_color(ChartTemperature.get_color(y))
-        bars = plt.bar(x, y_min_temp, color='w', width=width)
+
+        bars = plt.bar(x, y_min_temp, edgecolor='w', color='w', width=width)
         for bars in bars:
             bars.set_color('w')

@@ -7,6 +7,7 @@ from weather_lk.charts.ChartRainfall import ChartRainfall
 from weather_lk.constants import DIR_DATA_CHARTS
 from weather_lk.charts.Chart import Chart
 
+
 class ChartCountryRainfall(ChartCountry, ChartRainfall):
     def get_label(self):
         return 'country_rainfall'
@@ -33,8 +34,8 @@ class ChartCountryRainfall(ChartCountry, ChartRainfall):
         x, y_rain = self.get_data()
         self.set_ylim()
         plt.tick_params(axis='x', labelsize=5)
-        self.plot_bars(x, y_rain)
-        Chart.annotate(x, y_rain, True, lambda __:175, '#008', 'mm', 25)
+        ChartRainfall.plot_bars(x, y_rain)
+        Chart.annotate(x, y_rain, True, lambda __: 175, '#008', 'mm', 25)
 
 
 if __name__ == '__main__':
