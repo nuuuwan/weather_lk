@@ -24,25 +24,36 @@ class ChartTemperature:
 
     @staticmethod
     def get_color(y):
-        MIN_TEMP, MAX_TEMP = 15, 30
+        MIN_TEMP, MAX_TEMP = 0, 40
         MIN_H, MAX_H = 0, 240
         y = max(min(MAX_TEMP, y), MIN_TEMP)
         p = 1 - (y - MIN_TEMP) / (MAX_TEMP - MIN_TEMP)
         h = (MIN_H + p * (MAX_H - MIN_H)) / 360.0
         s = 1
-        l = 0.5
+        l = 0.75
         r, g, b = colorsys.hls_to_rgb(h, l, s)
-        a = 0.5
-        return (r, g, b, a)
+        return (r, g, b)
 
     @staticmethod
     def plot_bars(x, y_min_temp, y_max_temp):
         width = 0.9
         y_mid_temp = [(a + b) / 2 for a, b in zip(y_min_temp, y_max_temp)]
+        y_mid_temp13 = [(a * 2 + b) / 3 for a, b in zip(y_min_temp, y_max_temp)]
+        y_mid_temp23 = [(a + b * 2) / 3 for a, b in zip(y_min_temp, y_max_temp)]
 
         bars = plt.bar(x, y_max_temp, color='w', edgecolor='w', width=width)
+        for bar, y in zip(bars, y_max_temp):
+            bar.set_color(ChartTemperature.get_color(y))
+
+        bars = plt.bar(x, y_mid_temp23, color='w', edgecolor='w', width=width)
         for bar, y in zip(bars, y_mid_temp):
             bar.set_color(ChartTemperature.get_color(y))
+
+        bars = plt.bar(x, y_mid_temp13, color='w', edgecolor='w', width=width)
+        for bar, y in zip(bars, y_min_temp):
+            bar.set_color(ChartTemperature.get_color(y))
+
+
 
         bars = plt.bar(x, y_min_temp, edgecolor='w', color='w', width=width)
         for bars in bars:
