@@ -5,7 +5,7 @@ import googlemaps
 
 GIT_REPO_URL = 'https://github.com/nuuuwan/weather_lk'
 DIR_REPO = os.path.join(tempfile.gettempdir(), 'weather_lk')
-DIR_REPO_DAILY_DATA = os.path.join(DIR_REPO, 'daily_data')
+
 
 BRANCH_NAME = 'data'
 
