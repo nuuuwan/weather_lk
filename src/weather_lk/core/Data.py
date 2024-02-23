@@ -1,3 +1,4 @@
+from functools import cache
 import os
 
 from utils import Git, JSONFile, Log
@@ -16,6 +17,7 @@ class Data:
         git.checkout(BRANCH_NAME)
 
     @staticmethod
+    @cache
     def get_data_path_list():
         Data.init()
 
