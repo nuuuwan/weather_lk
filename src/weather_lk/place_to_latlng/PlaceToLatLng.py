@@ -3,10 +3,16 @@ from functools import cached_property
 
 from utils import Git, JSONFile, Log
 
-from weather_lk.constants import (BRANCH_NAME, DEFAULT_LATLNG, DIR_REPO,
-                                  DIR_REPO_JSON_PARSED, GIT_REPO_URL, GMAPS,
-                                  PLACE_TO_LATLNG_PATH,
-                                  PLACE_TO_LATLNG_PATH_NEW)
+from weather_lk.constants import (
+    BRANCH_NAME,
+    DEFAULT_LATLNG,
+    DIR_REPO,
+    DIR_REPO_JSON_PARSED,
+    GIT_REPO_URL,
+    GMAPS,
+    PLACE_TO_LATLNG_PATH,
+    PLACE_TO_LATLNG_PATH_NEW,
+)
 
 log = Log('History')
 
