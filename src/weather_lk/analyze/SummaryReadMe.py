@@ -11,6 +11,20 @@ log = Log('SummaryReadMe')
 
 class SummaryReadMe:
     @property
+    def lines_country(self):
+        lines = []
+        lines.extend(
+            [
+                '## Weather Nationwide :sri_lanka:', 
+                '',
+                f'![Temperature]({URL_REMOTE_DATA}/charts/country_temperature.png)',
+                '',
+                f'![Rainfall]({URL_REMOTE_DATA}/charts/country_rainfall.png)',
+                '',
+            ]
+        )
+        return lines
+    @property
     def lines_temperature(self):
         lines = ['## Temperature', '']
         for place in DISPLAY_PLACES:
@@ -79,9 +93,10 @@ class SummaryReadMe:
     def build_readme(self):
         lines = (
             self.lines_header
-            + self.lines_coverage
+            + self.lines_country
             + self.lines_temperature
             + self.lines_rainfall
+            + self.lines_coverage
         )
         readme_path = os.path.join(DIR_REPO, 'README.md')
         File(readme_path).write_lines(lines)

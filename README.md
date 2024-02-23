@@ -2,23 +2,11 @@
 
 Rainfall and Temperature data, extracted from the [Department of Meteorology](http://www.meteo.gov.lk/), Sri Lanka
 
-## Coverage
+## Weather Nationwide :sri_lanka:
 
-### Last 7 days
+![Temperature](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/country_temperature.png)
 
-![Coverage](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/coverage-7days.png)
-
-### Last 28 days
-
-![Coverage](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/coverage-28days.png)
-
-### Last 364 days
-
-![Coverage](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/coverage-364days.png)
-
-### Last 3640 days
-
-![Coverage](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/coverage-3640days.png)
+![Rainfall](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/country_rainfall.png)
 
 ## Temperature
 
@@ -207,3 +195,21 @@ Rainfall and Temperature data, extracted from the [Department of Meteorology](ht
 ### Rathnapura 🌧️
 
 ![Rathnapura](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/rainfall/80.38E-6.71N-Rathnapura.png)
+
+## Coverage
+
+### Last 7 days
+
+![Coverage](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/coverage-7days.png)
+
+### Last 28 days
+
+![Coverage](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/coverage-28days.png)
+
+### Last 365 days
+
+![Coverage](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/coverage-365days.png)
+
+### Last 3,652 days
+
+![Coverage](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/coverage-3652days.png)
