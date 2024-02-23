@@ -3,6 +3,7 @@ import os
 from utils import Log
 
 from weather_lk.constants import (DIR_REPO_PDF_ARCHIVE_ORG,
+                                  DIR_REPO_PDF_GOOGLE_SEARCH,
                                   DIR_REPO_PDF_METEO_GOV_LK)
 from weather_lk.core.Data import Data
 
@@ -15,7 +16,11 @@ class PDFParserGlobal:
     @staticmethod
     def get_pdf_paths():
         pdf_list = []
-        for dir in [DIR_REPO_PDF_METEO_GOV_LK, DIR_REPO_PDF_ARCHIVE_ORG]:
+        for dir in [
+            DIR_REPO_PDF_METEO_GOV_LK,
+            DIR_REPO_PDF_ARCHIVE_ORG,
+            DIR_REPO_PDF_GOOGLE_SEARCH,
+        ]:
             if not os.path.exists(dir):
                 continue
             for file_name in os.listdir(dir):
