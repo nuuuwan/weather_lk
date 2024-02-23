@@ -15,7 +15,7 @@ class SummaryReadMe:
         lines = []
         lines.extend(
             [
-                '## Weather Nationwide :sri_lanka:', 
+                '## Weather Nationwide :sri_lanka:',
                 '',
                 f'![Temperature]({URL_REMOTE_DATA}/charts/country_temperature.png)',
                 '',
@@ -24,6 +24,7 @@ class SummaryReadMe:
             ]
         )
         return lines
+
     @property
     def lines_temperature(self):
         lines = ['## Temperature', '']
