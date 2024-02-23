@@ -11,7 +11,7 @@ log = Log('Chart')
 
 class Chart:
     N_ANNOTATE = 3
-    DPI = 1200
+    DPI = 300
 
     def set_text(self, ylabel):
         plt.title(self.get_title(), fontsize=20)
