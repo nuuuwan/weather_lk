@@ -5,9 +5,12 @@ import matplotlib.pyplot as plt
 from utils import Log
 
 from weather_lk.analyze.SummaryWriteDataByPlace import SummaryWriteDataByPlace
-from weather_lk.constants import (DIR_DATA_CHARTS, DIR_DATA_CHARTS_RAINFALL,
-                                  DIR_DATA_CHARTS_TEMPERATURE,
-                                  LIMIT_AND_COLOR_LIST)
+from weather_lk.constants import (
+    DIR_DATA_CHARTS,
+    DIR_DATA_CHARTS_RAINFALL,
+    DIR_DATA_CHARTS_TEMPERATURE,
+    LIMIT_AND_COLOR_LIST,
+)
 from weather_lk.core.Data import Data
 
 log = Log('SummaryDataCharts')
@@ -176,15 +179,11 @@ class SummaryDataCharts:
                     place, data_for_place
                 )
             except Exception as e:
-                log.error(
-                    f'Error drawing temperature chart for {place}: {str(e)}'
-                )
+                log.error(f'draw_charts_by_place - {place}: {str(e)}')
 
             try:
                 SummaryDataCharts.draw_rain_chart_for_place(
                     place, data_for_place
                 )
             except Exception as e:
-                log.error(
-                    f'Error drawing rainfall chart for {place}: {str(e)}'
-                )
+                log.error(f'draw_rain_chart_for_place - {place}: {str(e)}')

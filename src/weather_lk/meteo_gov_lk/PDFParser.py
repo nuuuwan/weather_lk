@@ -286,7 +286,7 @@ class PDFParser:
             date, data_path = parser.write_json()
             parser.write_placeholder_json(date, data_path)
         except Exception as e:
-            log.error(str(e))
+            log.error(f'PDFParser.parse_one({pdf_path}): {str(e)}')
             return False
         return True
 

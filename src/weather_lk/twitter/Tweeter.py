@@ -115,4 +115,4 @@ class Tweeter(TweeterCharts):
             twitter = Twitter()
             twitter.send()
         except Exception as e:
-            log.error(f'Error sending tweet: {str(e)}')
+            log.error(f'Tweeter.send: {str(e)}')

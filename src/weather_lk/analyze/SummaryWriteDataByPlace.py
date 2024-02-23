@@ -44,4 +44,4 @@ class SummaryWriteDataByPlace:
                     place, data_for_place
                 )
             except Exception as e:
-                log.error(f'Error writing data for {place}: {str(e)}')
+                log.error(f'write_by_place - {place}: {str(e)}')

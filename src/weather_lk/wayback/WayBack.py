@@ -45,7 +45,7 @@ class WayBack:
                 return False
             elem_button_next.click()
         except Exception as e:
-            log.error(str(e))
+            log.error(f'Wayback.click_next: {str(e)}')
             return False
         return True
 

@@ -29,7 +29,7 @@ class RemotePDF:
         try:
             WWW.download_binary(self.pdf_url, temp_file_path)
         except Exception as e:
-            log.error(str(e))
+            log.error(f'RemotePDF({self.pdf_url}).download(): {str(e)}')
             return
 
         h32 = RemotePDF.file_hash(temp_file_path)
