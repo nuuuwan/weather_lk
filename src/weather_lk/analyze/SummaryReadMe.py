@@ -105,6 +105,7 @@ class SummaryReadMe:
             'n',
             'n_parse_attempted',
             'n_parse_successful',
+            'n_parse_failed',
             'min_date',
             'max_date',
         ]

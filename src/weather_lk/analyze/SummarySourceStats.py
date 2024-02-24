@@ -66,6 +66,7 @@ class SummarySourceStats:
             n=n,
             n_parse_attempted=n_parse_attempted,
             n_parse_successful=n_parse_successful,
+            n_parse_failed= n_parse_attempted - n_parse_successful,
             min_date=min_date,
             max_date=max_date,
             year_to_n=year_to_n,
