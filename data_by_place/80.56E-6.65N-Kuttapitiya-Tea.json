@@ -508,5 +508,11 @@
     "rain": 87.5,
     "min_temp": null,
     "max_temp": null
+  },
+  {
+    "date": "2023-11-28",
+    "rain": 48.3,
+    "min_temp": null,
+    "max_temp": null
   }
 ]

@@ -894,6 +894,12 @@
     "max_temp": null
   },
   {
+    "date": "2023-09-09",
+    "rain": 9.1,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2023-09-10",
     "rain": 8.6,
     "min_temp": null,
@@ -980,6 +986,12 @@
   {
     "date": "2023-12-04",
     "rain": 81.2,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2023-12-05",
+    "rain": 37.2,
     "min_temp": null,
     "max_temp": null
   },
