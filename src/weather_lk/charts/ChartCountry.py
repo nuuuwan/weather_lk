@@ -7,6 +7,7 @@ from weather_lk.core.Data import Data
 class ChartCountry(Chart):
     def __init__(self):
         self.data_latest = Data.max()
+        self.window = None
 
     def get_xlabel(self):
         return ''

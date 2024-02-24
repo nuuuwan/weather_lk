@@ -6,9 +6,10 @@ from weather_lk.charts.ChartCountryRainfall import ChartCountryRainfall
 from weather_lk.charts.ChartCountryTemperature import ChartCountryTemperature
 from weather_lk.charts.ChartPlaceRainfall import ChartPlaceRainfall
 from weather_lk.charts.ChartPlaceTemperature import ChartPlaceTemperature
-from weather_lk.constants import (DIR_DATA_CHARTS, DIR_DATA_CHARTS_RAINFALL,
+from weather_lk.constants import (CHART_WINDOWS, DIR_DATA_CHARTS,
+                                  DIR_DATA_CHARTS_RAINFALL,
                                   DIR_DATA_CHARTS_TEMPERATURE, DISPLAY_PLACES,
-                                  TEMPERATURE_CHART_WINDOWS, TEST_MODE)
+                                  TEST_MODE)
 from weather_lk.core.Data import Data
 
 log = Log('SummaryDataCharts')
@@ -38,11 +39,13 @@ class SummaryDataCharts:
                 log.warning(f'No data for {place}')
                 continue
 
-            for window in TEMPERATURE_CHART_WINDOWS:
+            for window in CHART_WINDOWS:
                 ChartPlaceTemperature(
                     place, data_for_place, window=window
                 ).write()
-            ChartPlaceRainfall(place, data_for_place).write()
+                ChartPlaceRainfall(
+                    place, data_for_place, window=window
+                ).write()
 
     def draw_charts_for_country(self):
         ChartCountryRainfall().write()

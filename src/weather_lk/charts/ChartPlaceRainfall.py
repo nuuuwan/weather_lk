@@ -14,11 +14,11 @@ class ChartPlaceRainfall(ChartPlace, ChartRainfall):
         return DIR_DATA_CHARTS_RAINFALL
 
     def get_data(self):
-        x = [
-            datetime.strptime(d['date'], '%Y-%m-%d')
-            for d in self.data_for_place
-        ]
-        y_rain = [d['rain'] for d in self.data_for_place]
+        d_list = self.data_for_place
+        if self.window:
+            d_list = d_list[-self.window:]
+        x = [datetime.strptime(d['date'], '%Y-%m-%d') for d in d_list]
+        y_rain = [d['rain'] for d in d_list]
 
         # clean nulls
         x, y_rain = zip(*[z for z in zip(x, y_rain) if (z[1] is not None)])

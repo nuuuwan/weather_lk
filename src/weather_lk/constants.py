@@ -39,7 +39,7 @@ DIR_REPO_JSON_PARSED = os.path.join(DIR_REPO, 'json_parsed')
 DIR_REPO_JSON_PLACEHOLDER = os.path.join(DIR_REPO, 'json_placeholder')
 
 COVERAGE_WINDOW_LIST = [7, 28, 365, 3652]
-TEMPERATURE_CHART_WINDOWS = [None, 28, 91]
+CHART_WINDOWS = [None, 28, 91]
 
 DISPLAY_PLACES = [
     # LK-11 Colombo

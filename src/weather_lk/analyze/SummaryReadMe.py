@@ -3,9 +3,9 @@ import os
 from utils import File, Log
 
 from weather_lk.analyze.SummaryWriteDataByPlace import SummaryWriteDataByPlace
-from weather_lk.constants import (COVERAGE_WINDOW_LIST, DIR_REPO,
-                                  DISPLAY_PLACES, TEMPERATURE_CHART_WINDOWS,
-                                  TEST_MODE, URL_REMOTE_DATA)
+from weather_lk.constants import (CHART_WINDOWS, COVERAGE_WINDOW_LIST,
+                                  DIR_REPO, DISPLAY_PLACES, TEST_MODE,
+                                  URL_REMOTE_DATA)
 
 log = Log('SummaryReadMe')
 
@@ -66,17 +66,21 @@ class SummaryReadMe:
             )
         return lines
 
-    @property
-    def lines_rainfall(self):
-        lines = ['# Rainfall', '']
+    def get_lines_rainfall(self, window):
+        title = 'Rainfall'
+        if window:
+            title += f' (Last {window} days)'
+        lines = [f'# {title}', '']
         for place in DISPLAY_PLACES:
             label = SummaryWriteDataByPlace.get_place_label(place)
+            if window:
+                label += f'-{window}days'
             image_path_rain = (
                 URL_REMOTE_DATA + '/charts/rainfall/' + f'{label}.png'
             )
             lines.extend(
                 [
-                    f'## {place} 🌧️',
+                    f'## {place} ☔',
                     '',
                     f'![{place}]({image_path_rain})',
                     '',
@@ -161,24 +165,36 @@ class SummaryReadMe:
         links = []
 
         temperature_infos = []
-        for window in TEMPERATURE_CHART_WINDOWS:
-            id = f'temperature_by_city'
+        rainfall_infos = []
+        for window in CHART_WINDOWS:
+            suffix = ''
             if window:
-                id += f'_(last_{window}_days)'
+                suffix += f'_(last_{window}_days)'
+
             temperature_info = [
-                id,
+                'temperature_by_city' + suffix,
                 self.get_lines_temperature(window),
             ]
             temperature_infos.append(temperature_info)
 
-        for id, lines in temperature_infos + [
-            ('rainfall_by_city', self.lines_rainfall),
-            ('data_coverage', self.lines_coverage),
-            (
-                'source_statistics',
-                self.lines_source_stats + self.lines_source_stats_year_to_n,
-            ),
-        ]:
+            rainfall_info = [
+                'rainfall_by_city' + suffix,
+                self.get_lines_rainfall(window),
+            ]
+            rainfall_infos.append(rainfall_info)
+
+        for id, lines in (
+            temperature_infos
+            + rainfall_infos
+            + [
+                ('data_coverage', self.lines_coverage),
+                (
+                    'source_statistics',
+                    self.lines_source_stats
+                    + self.lines_source_stats_year_to_n,
+                ),
+            ]
+        ):
             readme_path = os.path.join(DIR_REPO, f'README.{id}.md')
             lines = [line.strip() for line in lines]
             File(readme_path).write_lines(lines)
