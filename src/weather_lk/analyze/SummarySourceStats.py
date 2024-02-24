@@ -61,7 +61,7 @@ class SummarySourceStats:
                 if year not in year_to_n:
                     year_to_n[year] = 0
                 year_to_n[year] += 1
-            
+
         return dict(
             n=n,
             n_parse_attempted=n_parse_attempted,

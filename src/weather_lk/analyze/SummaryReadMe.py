@@ -9,11 +9,13 @@ from weather_lk.constants import (COVERAGE_WINDOW_LIST, DIR_REPO,
 log = Log('SummaryReadMe')
 
 DELIM_COLUMN = ' | '
+
+
 def build_row(values):
     return DELIM_COLUMN + DELIM_COLUMN.join(values) + DELIM_COLUMN
-        
+
+
 def build_table(keys, values_list):
-    
     sep = ['---' for _ in keys]
     lines = [
         build_row(keys),
@@ -105,23 +107,36 @@ class SummaryReadMe:
             'n_parse_successful',
             'min_date',
             'max_date',
-        ] 
+        ]
         values_list = []
         for source_id, stats in source_to_stats.items():
             values = [source_id] + [str(stats.get(key, '')) for key in keys]
             values_list.append(values)
-        return  ['# Source Statistics', '']  + build_table(['source_id',
-            ] + keys, values_list)
-    
+        return ['# Source Statistics', ''] + build_table(
+            [
+                'source_id',
+            ]
+            + keys,
+            values_list,
+        )
+
     @property
     def lines_source_stats_year_to_n(self):
         source_to_stats = self.source_to_stats
-        keys=   [str(year) for year in range(2024, 2024-11,-1)]
+        keys = [str(year) for year in range(2024, 2024 - 11, -1)]
         values_list = []
         for source_id, stats in source_to_stats.items():
-            values = [source_id] + [str(stats['year_to_n'].get(year, 0)) for year in keys]
+            values = [source_id] + [
+                str(stats['year_to_n'].get(year, 0)) for year in keys
+            ]
             values_list.append(values)
-        return ['', '## By Year', ''] + build_table(['source_id',] + keys, values_list)
+        return ['', '## By Year', ''] + build_table(
+            [
+                'source_id',
+            ]
+            + keys,
+            values_list,
+        )
 
     @property
     def lines_header(self):
@@ -140,7 +155,10 @@ class SummaryReadMe:
             ('temperature_by_city', self.lines_temperature),
             ('rainfall_by_city', self.lines_rainfall),
             ('data_coverage', self.lines_coverage),
-            ('source_statistics', self.lines_source_stats + self.lines_source_stats_year_to_n),
+            (
+                'source_statistics',
+                self.lines_source_stats + self.lines_source_stats_year_to_n,
+            ),
         ]:
             readme_path = os.path.join(DIR_REPO, f'README.{id}.md')
             lines = [line.strip() for line in lines]
