@@ -1,4 +1,5 @@
 import os
+import random
 import time
 from functools import cached_property
 
@@ -17,8 +18,14 @@ class GoogleSearch:
     T_WAIT = 1
 
     @cached_property
+    def random_year(self):
+        current_year = time.localtime().tm_year
+        return current_year - random.randint(0, 9)
+
+    @cached_property
     def pdf_link_list(self):
-        search_term = "meteo.gov.lk/images/mergepdf filetype:pdf"
+        year = self.random_year
+        search_term = "meteo.gov.lk/images/mergepdf " + f"{year} filetype:pdf"
         pdf_link_list = [
             x
             for x in search(
@@ -27,14 +34,11 @@ class GoogleSearch:
                 sleep_interval=GoogleSearch.SLEEP_INTERVAL,
             )
         ]
-        
 
         filtered_pdf_link_list = [
-            x
-            for x in pdf_link_list
-            if "meteo.gov.lk/images/mergepdf" in x
+            x for x in pdf_link_list if "meteo.gov.lk/images/mergepdf" in x
         ]
-        log.info(f'Found {len(pdf_link_list)} pdf links.')
+        log.info(f'Found {len(pdf_link_list)} pdf links for {year=}.')
 
         return filtered_pdf_link_list
 

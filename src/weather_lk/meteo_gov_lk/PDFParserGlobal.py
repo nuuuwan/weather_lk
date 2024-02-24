@@ -39,14 +39,14 @@ class PDFParserGlobal:
             if parser.is_parsed:
                 log.debug(f'{pdf_path} is already parsed')
                 return False
-            
+
             date, data_path = parser.write_json()
             parser.write_placeholder_json(date, data_path)
-        
+
         except Exception as e:
             log.error(f'PDFParser.parse_one({pdf_path}): {str(e)}')
             parser.write_placeholder_json('unknown', 'unknown')
-            
+
             return False
         return True
 
