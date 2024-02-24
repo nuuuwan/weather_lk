@@ -3,7 +3,7 @@ name: download_from_google
 on:
   workflow_dispatch:
   schedule:
-    - cron:  "0 * * * *"
+    - cron:  "0 12 * * *"
 
 jobs:
   download_from_google:
