@@ -4,7 +4,7 @@ name: parse_all
 on:
   workflow_dispatch:
   schedule:
-    - cron:  "20 */4 * * *"
+    - cron:  "*/15 * * * *"
 
 jobs:
   parse_all:

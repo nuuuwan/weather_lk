@@ -1,18 +1,19 @@
 import os
+import time
 
 from utils import JSONFile, Log
 
 from weather_lk.constants import (DIR_REPO_JSON_PLACEHOLDER,
                                   DIR_REPO_PDF_ARCHIVE_ORG,
                                   DIR_REPO_PDF_GOOGLE_SEARCH,
-                                  DIR_REPO_PDF_METEO_GOV_LK)
+                                  DIR_REPO_PDF_METEO_GOV_LK, TEST_MODE)
 from weather_lk.core.Data import Data
 
 log = Log('PDFParserGlobal')
 
 
 class PDFParserGlobal:
-    N_MAX_PARSE = 100
+    MAX_RUNNING_TIME = 1 if TEST_MODE else 60 * (15 - 5)
     PDF_DIR_LIST = [
         DIR_REPO_PDF_METEO_GOV_LK,
         DIR_REPO_PDF_ARCHIVE_ORG,
@@ -88,6 +89,8 @@ class PDFParserGlobal:
 
     @classmethod
     def parse_all(cls):
+        t_start = time.time()
+
         Data.init()
         # HACK - PDFParserGlobal.cleanup_bad_runs()
 
@@ -101,10 +104,13 @@ class PDFParserGlobal:
                 n_old += 1
             elif result == 1:
                 n_new += 1
-                if n_new >= cls.N_MAX_PARSE:
-                    break
             else:
                 n_fail += 1
+            dt = time.time() - t_start
+            log.debug(f'{dt=:.3f}s')
+            if dt > cls.MAX_RUNNING_TIME:
+                log.info(f'Stopping ({cls.MAX_RUNNING_TIME}s < {dt:.3f}s).')
+                break
 
         log.info(f'Parsed {n_new} new pdfs.')
         log.debug(f'{n=}, {n_old=}, {n_fail=}')
