@@ -1,4 +1,4 @@
-# Temperature
+# Temperature 🌡️
 
 ## Colombo 🌡️
 
