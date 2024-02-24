@@ -10,6 +10,19 @@ log = Log('PDFParserParse')
 
 
 class PDFParserParse:
+    @staticmethod
+    def parse_rain(x):
+        x = x.replace('mm', '')
+        x = x.strip()
+        if x == 'TR':
+            return 0
+        return String(x).float
+
+    @staticmethod
+    def parse_temp(x):
+        x = x.strip()
+        return String(x).float
+
     @cached_property
     def table(self):
         tables = camelot.read_pdf(self.pdf_path, pages='all')
@@ -19,9 +32,9 @@ class PDFParserParse:
     def parse_single_place_row(self, row):
         place_str, max_temp_str, min_temp_str, rain_str, _ = row
         place = self.clean_location_name(place_str)
-        min_temp = String(min_temp_str).float
-        max_temp = String(max_temp_str).float
-        rain = String(rain_str).float
+        min_temp = PDFParserParse.parse_temp(min_temp_str)
+        max_temp = PDFParserParse.parse_temp(max_temp_str)
+        rain = PDFParserParse.parse_rain(rain_str)
 
         if rain is None:
             return []
@@ -39,8 +52,8 @@ class PDFParserParse:
         place_str1, rain_str1, place_str2, _, rain_str2 = row
         place1 = self.clean_location_name(place_str1)
         place2 = self.clean_location_name(place_str2)
-        rain1 = String(rain_str1).float
-        rain2 = String(rain_str2).float
+        rain1 = PDFParserParse.parse_rain(rain_str1)
+        rain2 = PDFParserParse.parse_rain(rain_str2)
 
         weather_list = []
         if rain1 is not None:
