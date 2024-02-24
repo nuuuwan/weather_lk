@@ -4,7 +4,7 @@ from utils import File, Log
 
 from weather_lk.analyze.SummaryWriteDataByPlace import SummaryWriteDataByPlace
 from weather_lk.constants import (COVERAGE_WINDOW_LIST, DIR_REPO,
-                                  DISPLAY_PLACES, URL_REMOTE_DATA)
+                                  DISPLAY_PLACES, URL_REMOTE_DATA,TEMPERATURE_CHART_WINDOWS)
 
 log = Log('SummaryReadMe')
 
@@ -43,22 +43,22 @@ class SummaryReadMe:
         )
         return lines
 
-    @property
-    def lines_temperature(self):
-        lines = ['# Temperature', '']
+
+    def get_lines_temperature(self, window):
+        title = 'Temperature 🌡️'
+        if window:
+            title += f' (Last {window} days)'
+        lines = [f'# {title}', '']
         for place in DISPLAY_PLACES:
             label = SummaryWriteDataByPlace.get_place_label(place)
-            image_path_temp28 = (
-                URL_REMOTE_DATA + '/charts/temperature/' + f'{label}-28days.png'
-            )
+            if window:
+                label += f'-{window}days'
             image_path_temp = (
                 URL_REMOTE_DATA + '/charts/temperature/' + f'{label}.png'
             )
             lines.extend(
                 [
                     f'## {place} 🌡️',
-                    '',
-                    f'![{place}]({image_path_temp28})',
                     '',
                     f'![{place}]({image_path_temp})',
                     '',
@@ -157,8 +157,13 @@ class SummaryReadMe:
 
     def build_sub_readmes(self):
         links = []
-        for id, lines in [
-            ('temperature_by_city', self.lines_temperature),
+
+        for window in TEMPERATURE_CHART_WINDOWS:
+            temperature_infos = [
+                (f'temperature_by_city_(_last_{window}_days)', self.get_lines_temperature(window)),
+            ]
+
+        for id, lines in temperature_infos + [
             ('rainfall_by_city', self.lines_rainfall),
             ('data_coverage', self.lines_coverage),
             (
