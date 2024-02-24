@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/bc8ec85a16a2c5de58ff420a038f5840.pdf",
   "date_ut": 1637865000.0,
   "date": "2021-11-26",
-  "min_temp": {
-    "min_temp": 11.1,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 29.4,
-    "max_temp_place": "Jaffna"
-  },
-  "max_rain": {
-    "max_rain": 143.4,
-    "max_rain_place": "Batticaloa"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -45,6 +34,14 @@
       "rain": 143.4,
       "lat": 7.7249146,
       "lng": 81.6966911
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 23.6,
+      "max_temp": 27.5,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
     },
     {
       "place": "Galle",
@@ -149,6 +146,14 @@
       "rain": 3.9,
       "lat": 8.0407913,
       "lng": 79.839386
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 23.3,
+      "max_temp": 27.8,
+      "rain": 0,
+      "lat": 6.8195453,
+      "lng": 79.8800832
     },
     {
       "place": "Rathnapura",
@@ -462,5 +467,17 @@
       "lat": 6.0243383,
       "lng": 80.79407259999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 143.4,
+    "max_rain_place": "Batticaloa"
+  },
+  "min_temp": {
+    "min_temp": 11.1,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 29.4,
+    "max_temp_place": "Jaffna"
+  }
 }

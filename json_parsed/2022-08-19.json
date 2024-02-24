@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/f349fc8d221aae96d77e0f5e91124a8d.pdf",
   "date_ut": 1660847400.0,
   "date": "2022-08-19",
-  "min_temp": {
-    "min_temp": 14.4,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.8,
-    "max_temp_place": "Trincomalee"
-  },
-  "max_rain": {
-    "max_rain": 72.3,
-    "max_rain_place": "Oddusuddan"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -462,5 +451,17 @@
       "lat": 6.766339299999999,
       "lng": 79.8892005
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 72.3,
+    "max_rain_place": "Oddusuddan"
+  },
+  "min_temp": {
+    "min_temp": 14.4,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.8,
+    "max_temp_place": "Trincomalee"
+  }
 }

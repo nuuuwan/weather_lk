@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/84ff874ce369494c489703de5853af3f.pdf",
   "date_ut": 1628188200.0,
   "date": "2021-08-06",
-  "min_temp": {
-    "min_temp": 14.7,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 36.5,
-    "max_temp_place": "Mullaithivu"
-  },
-  "max_rain": {
-    "max_rain": 45.5,
-    "max_rain_place": "Kuttapitiya Tea"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -470,5 +459,17 @@
       "lat": 7.1496651,
       "lng": 80.4649829
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 45.5,
+    "max_rain_place": "Kuttapitiya Tea"
+  },
+  "min_temp": {
+    "min_temp": 14.7,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.5,
+    "max_temp_place": "Mullaithivu"
+  }
 }

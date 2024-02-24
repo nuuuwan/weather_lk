@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/0d061bc82e60cb521364d45fea996d25.pdf",
   "date_ut": 1641753000.0,
   "date": "2022-01-10",
-  "min_temp": {
-    "min_temp": 12.8,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.6,
-    "max_temp_place": "Rathmalana"
-  },
-  "max_rain": {
-    "max_rain": 88.4,
-    "max_rain_place": "Kalmunai"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -478,5 +467,17 @@
       "lat": 7.0859822,
       "lng": 81.777335
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 88.4,
+    "max_rain_place": "Kalmunai"
+  },
+  "min_temp": {
+    "min_temp": 12.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.6,
+    "max_temp_place": "Rathmalana"
+  }
 }

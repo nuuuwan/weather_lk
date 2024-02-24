@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/87562e53779e7d24f19814d598bdda16.pdf",
   "date_ut": 1654885800.0,
   "date": "2022-06-11",
-  "min_temp": {
-    "min_temp": 17.1,
-    "min_temp_place": "Bandarawela"
-  },
-  "max_temp": {
-    "max_temp": 36.5,
-    "max_temp_place": "Pothuvil"
-  },
-  "max_rain": {
-    "max_rain": 46.9,
-    "max_rain_place": "Ambepussa"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -55,6 +44,14 @@
       "lng": 79.861243
     },
     {
+      "place": "Galle",
+      "min_temp": 27.7,
+      "max_temp": 29.9,
+      "rain": 0,
+      "lat": 6.032894799999999,
+      "lng": 80.2167912
+    },
+    {
       "place": "Hambanthota",
       "min_temp": 25.9,
       "max_temp": 30.4,
@@ -77,6 +74,14 @@
       "rain": 0.0,
       "lat": 6.890645399999999,
       "lng": 81.34544170000001
+    },
+    {
+      "place": "Katugasthota",
+      "min_temp": 21.7,
+      "max_temp": 29.6,
+      "rain": 0,
+      "lat": 7.3251558,
+      "lng": 80.62297869999999
     },
     {
       "place": "Katunayake",
@@ -119,6 +124,14 @@
       "lng": 81.0187984
     },
     {
+      "place": "Nuwara Eliya",
+      "min_temp": 13.8,
+      "max_temp": 21.3,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
+    },
+    {
       "place": "Pothuvil",
       "min_temp": 26.7,
       "max_temp": 36.5,
@@ -133,6 +146,14 @@
       "rain": 1.4,
       "lat": 8.0407913,
       "lng": 79.839386
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 27.3,
+      "max_temp": 32.4,
+      "rain": 0,
+      "lat": 6.8195453,
+      "lng": 79.8800832
     },
     {
       "place": "Rathnapura",
@@ -454,5 +475,17 @@
       "lat": 6.7144073,
       "lng": 79.9890604
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 46.9,
+    "max_rain_place": "Ambepussa"
+  },
+  "min_temp": {
+    "min_temp": 13.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.5,
+    "max_temp_place": "Pothuvil"
+  }
 }

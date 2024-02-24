@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/468e4fd15e21f496fb8c17628f477579.pdf",
   "date_ut": 1643221800.0,
   "date": "2022-01-27",
-  "min_temp": {
-    "min_temp": 14.0,
-    "min_temp_place": "Bandarawela"
-  },
-  "max_temp": {
-    "max_temp": 31.9,
-    "max_temp_place": "Mattla"
-  },
-  "max_rain": {
-    "max_rain": 116.6,
-    "max_rain_place": "Guruluwana"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -103,6 +92,14 @@
       "lng": 79.8853484
     },
     {
+      "place": "Kurunagala",
+      "min_temp": 21.6,
+      "max_temp": 35.6,
+      "rain": 0,
+      "lat": 7.4817695,
+      "lng": 80.3608876
+    },
+    {
       "place": "Maha Illuppallama",
       "min_temp": 19.1,
       "max_temp": 31.0,
@@ -125,6 +122,14 @@
       "rain": 0.0,
       "lat": 7.940338400000001,
       "lng": 81.0187984
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 9.1,
+      "max_temp": 19.7,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
     },
     {
       "place": "Pothuvil",
@@ -470,5 +475,17 @@
       "lat": 9.6614981,
       "lng": 80.02554649999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 116.6,
+    "max_rain_place": "Guruluwana"
+  },
+  "min_temp": {
+    "min_temp": 9.1,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.6,
+    "max_temp_place": "Kurunagala"
+  }
 }

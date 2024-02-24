@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/51e90e484cf562afa6c36014dd88d505.pdf",
   "date_ut": 1653244200.0,
   "date": "2022-05-23",
-  "min_temp": {
-    "min_temp": 14.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 37.4,
-    "max_temp_place": "Pothuvil"
-  },
-  "max_rain": {
-    "max_rain": 32.0,
-    "max_rain_place": "Maradankadawala"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -478,5 +467,17 @@
       "lat": 7.2303052,
       "lng": 80.582033
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 32.0,
+    "max_rain_place": "Maradankadawala"
+  },
+  "min_temp": {
+    "min_temp": 14.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 37.4,
+    "max_temp_place": "Pothuvil"
+  }
 }

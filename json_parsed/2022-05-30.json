@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/60868a60b26d831796a769e608e4b952.pdf",
   "date_ut": 1653849000.0,
   "date": "2022-05-30",
-  "min_temp": {
-    "min_temp": 14.2,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.7,
-    "max_temp_place": "Pothuvil"
-  },
-  "max_rain": {
-    "max_rain": 58.9,
-    "max_rain_place": "Kirindiwela"
-  },
   "weather_list": [
     {
       "place": "Bandarawela",
@@ -470,5 +459,17 @@
       "lat": 7.513648099999998,
       "lng": 80.1400671
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 58.9,
+    "max_rain_place": "Kirindiwela"
+  },
+  "min_temp": {
+    "min_temp": 14.2,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.7,
+    "max_temp_place": "Pothuvil"
+  }
 }

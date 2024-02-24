@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/eb81d60b92f1c29d2d9dd1084ce49678.pdf",
   "date_ut": 1648751400.0,
   "date": "2022-04-01",
-  "min_temp": {
-    "min_temp": 9.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.2,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 66.0,
-    "max_rain_place": "Kukuleganaga"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -335,6 +324,14 @@
       "lng": 80.77179699999999
     },
     {
+      "place": "Batalagoda",
+      "rain": 7.2,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.599531,
+      "lng": 80.10185229999999
+    },
+    {
       "place": "Peradeniya",
       "rain": 47.5,
       "min_temp": null,
@@ -478,5 +475,17 @@
       "lat": 6.7681194,
       "lng": 80.4715866
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 66.0,
+    "max_rain_place": "Kukuleganaga"
+  },
+  "min_temp": {
+    "min_temp": 9.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.2,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

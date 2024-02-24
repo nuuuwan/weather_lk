@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/caf6509a20b01b4a11e9650427537d20.pdf",
   "date_ut": 1654799400.0,
   "date": "2022-06-10",
-  "min_temp": {
-    "min_temp": 18.4,
-    "min_temp_place": "Bandarawela"
-  },
-  "max_temp": {
-    "max_temp": 36.5,
-    "max_temp_place": "Mulatiw"
-  },
-  "max_rain": {
-    "max_rain": 37.9,
-    "max_rain_place": "Bandarawela"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -21,6 +10,14 @@
       "rain": 0.0,
       "lat": 8.311351799999999,
       "lng": 80.4036508
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 20.1,
+      "max_temp": 30.4,
+      "rain": 0,
+      "lat": 6.993400899999999,
+      "lng": 81.0549815
     },
     {
       "place": "Bandarawela",
@@ -127,6 +124,14 @@
       "lng": 81.0187984
     },
     {
+      "place": "Nuwara Eliya",
+      "min_temp": 14.0,
+      "max_temp": 20.1,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
+    },
+    {
       "place": "Pothuvil",
       "min_temp": 26.7,
       "max_temp": 36.2,
@@ -141,6 +146,14 @@
       "rain": 0.4,
       "lat": 8.0407913,
       "lng": 79.839386
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 27.2,
+      "max_temp": 32.3,
+      "rain": 0,
+      "lat": 6.8195453,
+      "lng": 79.8800832
     },
     {
       "place": "Rathnapura",
@@ -462,5 +475,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 37.9,
+    "max_rain_place": "Bandarawela"
+  },
+  "min_temp": {
+    "min_temp": 14.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.5,
+    "max_temp_place": "Mulatiw"
+  }
 }

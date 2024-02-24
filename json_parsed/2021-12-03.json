@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/b14970d10012b41c14c504f15a21a1c5.pdf",
   "date_ut": 1638469800.0,
   "date": "2021-12-03",
-  "min_temp": {
-    "min_temp": 14.2,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.8,
-    "max_temp_place": "Monaragala"
-  },
-  "max_rain": {
-    "max_rain": 128.5,
-    "max_rain_place": "Yala"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -71,6 +60,14 @@
       "lng": 81.12123079999999
     },
     {
+      "place": "Jaffna",
+      "min_temp": 23.0,
+      "max_temp": 29.8,
+      "rain": 0,
+      "lat": 9.6614981,
+      "lng": 80.02554649999999
+    },
+    {
       "place": "Monaragala",
       "min_temp": 23.9,
       "max_temp": 32.8,
@@ -95,12 +92,28 @@
       "lng": 79.8853484
     },
     {
+      "place": "Kurunagala",
+      "min_temp": 23.4,
+      "max_temp": 31.4,
+      "rain": 0,
+      "lat": 7.4817695,
+      "lng": 80.3608876
+    },
+    {
       "place": "Maha Illuppallama",
       "min_temp": 22.6,
       "max_temp": 31.6,
       "rain": 26.1,
       "lat": 8.1155443,
       "lng": 80.47207639999999
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 25.0,
+      "max_temp": 29.8,
+      "rain": 0,
+      "lat": 8.980974300000002,
+      "lng": 79.90441489999999
     },
     {
       "place": "Polonnaruwa",
@@ -462,5 +475,17 @@
       "lat": 6.165568899999999,
       "lng": 80.9031172
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 128.5,
+    "max_rain_place": "Yala"
+  },
+  "min_temp": {
+    "min_temp": 14.2,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.8,
+    "max_temp_place": "Monaragala"
+  }
 }

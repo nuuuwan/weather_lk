@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/88a828406e5898ee37264238d49542a2.pdf",
   "date_ut": 1695580200.0,
   "date": "2023-09-25",
-  "min_temp": {
-    "min_temp": 17.4,
-    "min_temp_place": "Bandarawela"
-  },
-  "max_temp": {
-    "max_temp": 36.5,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 70.0,
-    "max_rain_place": "Pothuvil"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -71,6 +60,14 @@
       "lng": 81.12123079999999
     },
     {
+      "place": "Jaffna",
+      "min_temp": 27.5,
+      "max_temp": 33.2,
+      "rain": 0,
+      "lat": 9.6614981,
+      "lng": 80.02554649999999
+    },
+    {
       "place": "Monaragala",
       "min_temp": 21.8,
       "max_temp": 34.7,
@@ -85,6 +82,14 @@
       "rain": 0.3,
       "lat": 7.3251558,
       "lng": 80.62297869999999
+    },
+    {
+      "place": "Katunayake",
+      "min_temp": 26.3,
+      "max_temp": 31.1,
+      "rain": 0,
+      "lat": 7.172484899999999,
+      "lng": 79.8853484
     },
     {
       "place": "Kurunagala",
@@ -117,6 +122,14 @@
       "rain": 0.0,
       "lat": 7.940338400000001,
       "lng": 81.0187984
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 15.0,
+      "max_temp": 20.9,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
     },
     {
       "place": "Pothuvil",
@@ -454,5 +467,17 @@
       "lat": 7.166710300000001,
       "lng": 80.1233175
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 70.0,
+    "max_rain_place": "Pothuvil"
+  },
+  "min_temp": {
+    "min_temp": 15.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.5,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

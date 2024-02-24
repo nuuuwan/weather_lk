@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/7761f3ebc49983123e5b0ba5dbd49c6f.pdf",
   "date_ut": 1664130600.0,
   "date": "2022-09-26",
-  "min_temp": {
-    "min_temp": 14.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 37.1,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 142.0,
-    "max_rain_place": "Bakamuna"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -61,6 +50,14 @@
       "rain": 0.0,
       "lat": 6.032894799999999,
       "lng": 80.2167912
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 25.7,
+      "max_temp": 33.6,
+      "rain": 0,
+      "lat": 6.1428829,
+      "lng": 81.12123079999999
     },
     {
       "place": "Jaffna",
@@ -181,6 +178,14 @@
       "rain": 8.6,
       "lat": 8.7542029,
       "lng": 80.4982402
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 24.0,
+      "max_temp": 37.7,
+      "rain": 0,
+      "lat": 6.288780374382144,
+      "lng": 81.12460077774537
     },
     {
       "place": "Mullaithivu",
@@ -470,5 +475,17 @@
       "lat": 6.7377356,
       "lng": 81.1030573
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 142.0,
+    "max_rain_place": "Bakamuna"
+  },
+  "min_temp": {
+    "min_temp": 14.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 37.7,
+    "max_temp_place": "Mattla"
+  }
 }

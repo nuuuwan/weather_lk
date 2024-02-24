@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/e8e7098c2018f6c4fc4cc860571ed437.pdf",
   "date_ut": 1674066600.0,
   "date": "2023-01-19",
-  "min_temp": {
-    "min_temp": 9.9,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 31.8,
-    "max_temp_place": "Kurunagala"
-  },
-  "max_rain": {
-    "max_rain": 2.1,
-    "max_rain_place": "Mathugama"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -478,5 +467,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 2.1,
+    "max_rain_place": "Mathugama"
+  },
+  "min_temp": {
+    "min_temp": 9.9,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 31.8,
+    "max_temp_place": "Kurunagala"
+  }
 }

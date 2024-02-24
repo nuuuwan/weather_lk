@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/4d573420074842771ddb9cde5edaa126.pdf",
   "date_ut": 1635273000.0,
   "date": "2021-10-27",
-  "min_temp": {
-    "min_temp": 12.4,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.7,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 106.5,
-    "max_rain_place": "Norton"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -197,6 +186,14 @@
       "rain": 62.9,
       "lat": 6.288780374382144,
       "lng": 81.12460077774537
+    },
+    {
+      "place": "Mullaithivu",
+      "min_temp": 24.8,
+      "max_temp": 31.3,
+      "rain": 0,
+      "lat": 9.2670911,
+      "lng": 80.81424799999999
     },
     {
       "place": "Castlereigh",
@@ -470,5 +467,17 @@
       "lat": 7.575677400000001,
       "lng": 80.524397
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 106.5,
+    "max_rain_place": "Norton"
+  },
+  "min_temp": {
+    "min_temp": 12.4,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.7,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

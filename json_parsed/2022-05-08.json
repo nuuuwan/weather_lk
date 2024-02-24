@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/8a9f1ef11c07f235a20343806607d5b2.pdf",
   "date_ut": 1651948200.0,
   "date": "2022-05-08",
-  "min_temp": {
-    "min_temp": 13.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 36.3,
-    "max_temp_place": "Mullaitivu"
-  },
-  "max_rain": {
-    "max_rain": 1.0,
-    "max_rain_place": "Kethendola"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -45,6 +34,14 @@
       "rain": 0.0,
       "lat": 7.7249146,
       "lng": 81.6966911
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 29.1,
+      "max_temp": 32.3,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
     },
     {
       "place": "Galle",
@@ -478,5 +475,17 @@
       "lat": 6.5474919,
       "lng": 81.260143
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 1.0,
+    "max_rain_place": "Kethendola"
+  },
+  "min_temp": {
+    "min_temp": 13.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.3,
+    "max_temp_place": "Mullaitivu"
+  }
 }

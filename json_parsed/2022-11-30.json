@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/4c7da0e3e6b2d215d85c1aee9bc77274.pdf",
   "date_ut": 1669746600.0,
   "date": "2022-11-30",
-  "min_temp": {
-    "min_temp": 12.2,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.3,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 76.1,
-    "max_rain_place": "Ilubuluwa Estate"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -486,5 +475,17 @@
       "lat": 6.251357899999999,
       "lng": 80.7641653
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 76.1,
+    "max_rain_place": "Ilubuluwa Estate"
+  },
+  "min_temp": {
+    "min_temp": 12.2,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.3,
+    "max_temp_place": "Rathnapura"
+  }
 }

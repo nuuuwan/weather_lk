@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/517fcdf6b82ac403ae159fbed829a6f6.pdf",
   "date_ut": 1635359400.0,
   "date": "2021-10-28",
-  "min_temp": {
-    "min_temp": 13.3,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 31.7,
-    "max_temp_place": "Mullaithivu"
-  },
-  "max_rain": {
-    "max_rain": 102.2,
-    "max_rain_place": "Hanwella"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -494,5 +483,17 @@
       "lat": 6.7681194,
       "lng": 80.4715866
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 102.2,
+    "max_rain_place": "Hanwella"
+  },
+  "min_temp": {
+    "min_temp": 13.3,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 31.7,
+    "max_temp_place": "Mullaithivu"
+  }
 }

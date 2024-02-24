@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/7779fae007e1978ca0945fbfcbbe6941.pdf",
   "date_ut": 1703097000.0,
   "date": "2023-12-21",
-  "min_temp": {
-    "min_temp": 14.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.3,
-    "max_temp_place": "Katunayake"
-  },
-  "max_rain": {
-    "max_rain": 41.3,
-    "max_rain_place": "Omanthai"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -215,6 +204,14 @@
       "lng": 80.5855038
     },
     {
+      "place": "Randenigala",
+      "rain": 10.5,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
+    },
+    {
       "place": "Norton",
       "rain": 0.5,
       "min_temp": null,
@@ -317,6 +314,14 @@
       "max_temp": null,
       "lat": 8.872387,
       "lng": 80.5077237
+    },
+    {
+      "place": "Kaluthara",
+      "rain": 17.5,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.5853948,
+      "lng": 79.96074
     },
     {
       "place": "Rugam",
@@ -462,5 +467,17 @@
       "lat": 9.7786397,
       "lng": 80.1160651
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 41.3,
+    "max_rain_place": "Omanthai"
+  },
+  "min_temp": {
+    "min_temp": 14.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.3,
+    "max_temp_place": "Katunayake"
+  }
 }

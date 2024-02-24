@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/a52bd60e29197f6c9467138a8edb4b3e.pdf",
   "date_ut": 1644345000.0,
   "date": "2022-02-09",
-  "min_temp": {
-    "min_temp": 10.6,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.8,
-    "max_temp_place": "Katunayake"
-  },
-  "max_rain": {
-    "max_rain": 0.2,
-    "max_rain_place": "Mapalana"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -470,5 +459,17 @@
       "lat": 6.816058099999999,
       "lng": 80.96914749999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 0.2,
+    "max_rain_place": "Mapalana"
+  },
+  "min_temp": {
+    "min_temp": 10.6,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.8,
+    "max_temp_place": "Katunayake"
+  }
 }

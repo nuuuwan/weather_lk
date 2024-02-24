@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/7e63fbecd5d9ef70406c1ac76e0bfe54.pdf",
   "date_ut": 1632335400.0,
   "date": "2021-09-23",
-  "min_temp": {
-    "min_temp": 16.4,
-    "min_temp_place": "Bandarawela"
-  },
-  "max_temp": {
-    "max_temp": 36.6,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 100.4,
-    "max_rain_place": "Habarana Lodge"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -133,6 +122,14 @@
       "rain": 37.3,
       "lat": 7.940338400000001,
       "lng": 81.0187984
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 13.4,
+      "max_temp": 22.9,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
     },
     {
       "place": "Pothuvil",
@@ -478,5 +475,17 @@
       "lat": 6.3424847,
       "lng": 80.5596582
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 100.4,
+    "max_rain_place": "Habarana Lodge"
+  },
+  "min_temp": {
+    "min_temp": 13.4,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.6,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

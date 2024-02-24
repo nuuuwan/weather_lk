@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/705e37665972ae7ee648083e4c93cdff.pdf",
   "date_ut": 1658082600.0,
   "date": "2022-07-18",
-  "min_temp": {
-    "min_temp": 18.3,
-    "min_temp_place": "Bandarawela"
-  },
-  "max_temp": {
-    "max_temp": 36.6,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 61.5,
-    "max_rain_place": "Watawala"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -462,5 +451,17 @@
       "lat": 6.309448199999999,
       "lng": 80.324096
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 61.5,
+    "max_rain_place": "Watawala"
+  },
+  "min_temp": {
+    "min_temp": 18.3,
+    "min_temp_place": "Bandarawela"
+  },
+  "max_temp": {
+    "max_temp": 36.6,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

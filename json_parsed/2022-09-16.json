@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/70cb4da551a4e0a3079e713bdcf799bf.pdf",
   "date_ut": 1663266600.0,
   "date": "2022-09-16",
-  "min_temp": {
-    "min_temp": 9.3,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.4,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 20.0,
-    "max_rain_place": "Sogama"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -103,6 +92,14 @@
       "lng": 79.8853484
     },
     {
+      "place": "Kurunagala",
+      "min_temp": 24.1,
+      "max_temp": 31.9,
+      "rain": 0,
+      "lat": 7.4817695,
+      "lng": 80.3608876
+    },
+    {
       "place": "Maha Illuppallama",
       "min_temp": 23.0,
       "max_temp": 32.4,
@@ -189,6 +186,14 @@
       "rain": 0.0,
       "lat": 6.288780374382144,
       "lng": 81.12460077774537
+    },
+    {
+      "place": "Mullaithivu",
+      "min_temp": 24.7,
+      "max_temp": 35.6,
+      "rain": 0,
+      "lat": 9.2670911,
+      "lng": 80.81424799999999
     },
     {
       "place": "Castlereigh",
@@ -470,5 +475,17 @@
       "lat": 9.1538678,
       "lng": 80.64973119999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 20.0,
+    "max_rain_place": "Sogama"
+  },
+  "min_temp": {
+    "min_temp": 9.3,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.6,
+    "max_temp_place": "Mullaithivu"
+  }
 }

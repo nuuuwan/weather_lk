@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/3350e7126659d6611cf6b164ab04b78f.pdf",
   "date_ut": 1633285800.0,
   "date": "2021-10-04",
-  "min_temp": {
-    "min_temp": 14.8,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.6,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 76.8,
-    "max_rain_place": "Wallipuram"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -149,6 +138,14 @@
       "rain": 0.2,
       "lat": 6.875270599999999,
       "lng": 81.8306334
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 27.2,
+      "max_temp": 32.0,
+      "rain": 0,
+      "lat": 8.0407913,
+      "lng": 79.839386
     },
     {
       "place": "Rathmalana",
@@ -478,5 +475,17 @@
       "lat": 9.666459999999999,
       "lng": 80.1320918
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 76.8,
+    "max_rain_place": "Wallipuram"
+  },
+  "min_temp": {
+    "min_temp": 14.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.6,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

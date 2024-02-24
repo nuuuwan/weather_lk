@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/118f19a94afe373d51c0a221425f8f67.pdf",
   "date_ut": 1670265000.0,
   "date": "2022-12-06",
-  "min_temp": {
-    "min_temp": 11.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.2,
-    "max_temp_place": "Puttalam"
-  },
-  "max_rain": {
-    "max_rain": 73.3,
-    "max_rain_place": "Padukka Estate"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -125,6 +114,14 @@
       "rain": 0.0,
       "lat": 8.980974300000002,
       "lng": 79.90441489999999
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 24.1,
+      "max_temp": 29.8,
+      "rain": 0,
+      "lat": 7.940338400000001,
+      "lng": 81.0187984
     },
     {
       "place": "Nuwara Eliya",
@@ -478,5 +475,17 @@
       "lat": 7.863731,
       "lng": 80.930809
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 73.3,
+    "max_rain_place": "Padukka Estate"
+  },
+  "min_temp": {
+    "min_temp": 11.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.2,
+    "max_temp_place": "Puttalam"
+  }
 }

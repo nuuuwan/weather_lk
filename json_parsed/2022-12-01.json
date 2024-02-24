@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/da4001a8af6f879839851f16fe7dd802.pdf",
   "date_ut": 1669833000.0,
   "date": "2022-12-01",
-  "min_temp": {
-    "min_temp": 11.8,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.2,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 23.3,
-    "max_rain_place": "Jaffna"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -117,6 +106,14 @@
       "rain": 0.0,
       "lat": 8.1155443,
       "lng": 80.47207639999999
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 25.9,
+      "max_temp": 30.1,
+      "rain": 0,
+      "lat": 8.980974300000002,
+      "lng": 79.90441489999999
     },
     {
       "place": "Polonnaruwa",
@@ -462,5 +459,17 @@
       "lat": 6.816058099999999,
       "lng": 80.96914749999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 23.3,
+    "max_rain_place": "Jaffna"
+  },
+  "min_temp": {
+    "min_temp": 11.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.2,
+    "max_temp_place": "Rathnapura"
+  }
 }

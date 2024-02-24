@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/bd27f3367d7c0a1e425cb0e3459bdbbb.pdf",
   "date_ut": 1645727400.0,
   "date": "2022-02-25",
-  "min_temp": {
-    "min_temp": 16.8,
-    "min_temp_place": "Bandarawela"
-  },
-  "max_temp": {
-    "max_temp": 34.1,
-    "max_temp_place": "Katunayake"
-  },
-  "max_rain": {
-    "max_rain": 93.4,
-    "max_rain_place": "Elston"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -87,12 +76,36 @@
       "lng": 81.34544170000001
     },
     {
+      "place": "Katugasthota",
+      "min_temp": 22.0,
+      "max_temp": 30.1,
+      "rain": 0,
+      "lat": 7.3251558,
+      "lng": 80.62297869999999
+    },
+    {
       "place": "Katunayake",
       "min_temp": 24.8,
       "max_temp": 34.1,
       "rain": 0.0,
       "lat": 7.172484899999999,
       "lng": 79.8853484
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 24.4,
+      "max_temp": 32.7,
+      "rain": 0,
+      "lat": 7.4817695,
+      "lng": 80.3608876
+    },
+    {
+      "place": "Maha Illuppallama",
+      "min_temp": 21.6,
+      "max_temp": 31.1,
+      "rain": 0,
+      "lat": 8.1155443,
+      "lng": 80.47207639999999
     },
     {
       "place": "Mannar",
@@ -109,6 +122,14 @@
       "rain": 3.3,
       "lat": 7.940338400000001,
       "lng": 81.0187984
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 11.0,
+      "max_temp": 19.8,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
     },
     {
       "place": "Pothuvil",
@@ -454,5 +475,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 93.4,
+    "max_rain_place": "Elston"
+  },
+  "min_temp": {
+    "min_temp": 11.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.1,
+    "max_temp_place": "Katunayake"
+  }
 }

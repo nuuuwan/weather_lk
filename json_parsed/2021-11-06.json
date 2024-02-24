@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/70aff9b71c9ea546cf66ad9ef6de4fb4.pdf",
   "date_ut": 1636137000.0,
   "date": "2021-11-06",
-  "min_temp": {
-    "min_temp": 21.4,
-    "min_temp_place": "Katugasthota"
-  },
-  "max_temp": {
-    "max_temp": 31.4,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 50.3,
-    "max_rain_place": "Colombo Fort"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -21,6 +10,22 @@
       "rain": 0.0,
       "lat": 8.311351799999999,
       "lng": 80.4036508
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 19.0,
+      "max_temp": 27.1,
+      "rain": 0,
+      "lat": 6.993400899999999,
+      "lng": 81.0549815
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 17.6,
+      "max_temp": 24.1,
+      "rain": 0,
+      "lat": 6.825877999999999,
+      "lng": 80.9981576
     },
     {
       "place": "Batticaloa",
@@ -87,6 +92,14 @@
       "lng": 79.8853484
     },
     {
+      "place": "Kurunagala",
+      "min_temp": 23.7,
+      "max_temp": 30.2,
+      "rain": 0,
+      "lat": 7.4817695,
+      "lng": 80.3608876
+    },
+    {
       "place": "Maha Illuppallama",
       "min_temp": 23.1,
       "max_temp": 29.6,
@@ -109,6 +122,22 @@
       "rain": 0.0,
       "lat": 7.940338400000001,
       "lng": 81.0187984
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 14.0,
+      "max_temp": 18.6,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
+    },
+    {
+      "place": "Pothuvil",
+      "min_temp": 25.4,
+      "max_temp": 29.8,
+      "rain": 0,
+      "lat": 6.875270599999999,
+      "lng": 81.8306334
     },
     {
       "place": "Puttalam",
@@ -438,5 +467,17 @@
       "lat": 6.8978344,
       "lng": 80.0814292
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 50.3,
+    "max_rain_place": "Colombo Fort"
+  },
+  "min_temp": {
+    "min_temp": 14.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 31.4,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/8f1db06ca1c5c3334f44bb496030201e.pdf",
   "date_ut": 1666463400.0,
   "date": "2022-10-23",
-  "min_temp": {
-    "min_temp": 12.8,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.2,
-    "max_temp_place": "Mattla"
-  },
-  "max_rain": {
-    "max_rain": 201.7,
-    "max_rain_place": "Monrovia"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -165,6 +154,14 @@
       "rain": 90.7,
       "lat": 6.8195453,
       "lng": 79.8800832
+    },
+    {
+      "place": "Rathnapura",
+      "min_temp": 22.9,
+      "max_temp": 28.3,
+      "rain": 0,
+      "lat": 6.7055742,
+      "lng": 80.3847345
     },
     {
       "place": "Trincomalee",
@@ -462,5 +459,17 @@
       "lat": 9.3261452,
       "lng": 80.30181069999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 201.7,
+    "max_rain_place": "Monrovia"
+  },
+  "min_temp": {
+    "min_temp": 12.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.2,
+    "max_temp_place": "Mattla"
+  }
 }

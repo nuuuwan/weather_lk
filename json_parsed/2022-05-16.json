@@ -1,19 +1,24 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/7fb8c557f051f6a5677b5da91b16c595.pdf",
   "date_ut": 1652639400.0,
   "date": "2022-05-16",
-  "min_temp": {
-    "min_temp": 14.6,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.3,
-    "max_temp_place": "Batticaloa"
-  },
-  "max_rain": {
-    "max_rain": 69.5,
-    "max_rain_place": "Maskeliya"
-  },
   "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 25.4,
+      "max_temp": 31.5,
+      "rain": 0,
+      "lat": 8.311351799999999,
+      "lng": 80.4036508
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 21.1,
+      "max_temp": 29.7,
+      "rain": 0,
+      "lat": 6.993400899999999,
+      "lng": 81.0549815
+    },
     {
       "place": "Bandarawela",
       "min_temp": 19.2,
@@ -109,6 +114,14 @@
       "rain": 0.0,
       "lat": 8.980974300000002,
       "lng": 79.90441489999999
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 26.5,
+      "max_temp": 33.4,
+      "rain": 0,
+      "lat": 7.940338400000001,
+      "lng": 81.0187984
     },
     {
       "place": "Nuwara Eliya",
@@ -462,5 +475,17 @@
       "lat": 9.7937885,
       "lng": 80.2209773
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 69.5,
+    "max_rain_place": "Maskeliya"
+  },
+  "min_temp": {
+    "min_temp": 14.6,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.3,
+    "max_temp_place": "Batticaloa"
+  }
 }

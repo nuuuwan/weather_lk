@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/d078a85b01efc3f93c176f6faf4ac14d.pdf",
   "date_ut": 1649788200.0,
   "date": "2022-04-13",
-  "min_temp": {
-    "min_temp": 12.1,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.1,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 121.6,
-    "max_rain_place": "Kalatuwawa"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -486,5 +475,17 @@
       "lat": 9.516667000000002,
       "lng": 79.68333299999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 121.6,
+    "max_rain_place": "Kalatuwawa"
+  },
+  "min_temp": {
+    "min_temp": 12.1,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.1,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

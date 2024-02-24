@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/93badac4985f9eeb0400993360f2b374.pdf",
   "date_ut": 1666117800.0,
   "date": "2022-10-19",
-  "min_temp": {
-    "min_temp": 14.4,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.7,
-    "max_temp_place": "Mattla"
-  },
-  "max_rain": {
-    "max_rain": 106.8,
-    "max_rain_place": "Moraliya-Oya"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -61,6 +50,14 @@
       "rain": 8.7,
       "lat": 6.032894799999999,
       "lng": 80.2167912
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 25.7,
+      "max_temp": 33.6,
+      "rain": 0,
+      "lat": 6.1428829,
+      "lng": 81.12123079999999
     },
     {
       "place": "Jaffna",
@@ -117,6 +114,14 @@
       "rain": 0.0,
       "lat": 8.980974300000002,
       "lng": 79.90441489999999
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 25.7,
+      "max_temp": 31.4,
+      "rain": 0,
+      "lat": 7.940338400000001,
+      "lng": 81.0187984
     },
     {
       "place": "Nuwara Eliya",
@@ -470,5 +475,17 @@
       "lat": 6.8978344,
       "lng": 80.0814292
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 106.8,
+    "max_rain_place": "Moraliya-Oya"
+  },
+  "min_temp": {
+    "min_temp": 14.4,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.6,
+    "max_temp_place": "Hambanthota"
+  }
 }

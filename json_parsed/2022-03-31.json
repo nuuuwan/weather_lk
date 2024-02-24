@@ -1,19 +1,16 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/c628e30dd3ee55270c672a27ed234d79.pdf",
   "date_ut": 1648665000.0,
   "date": "2022-03-31",
-  "min_temp": {
-    "min_temp": 9.2,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.9,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 71.7,
-    "max_rain_place": "Rathnapura"
-  },
   "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 23.4,
+      "max_temp": 35.1,
+      "rain": 0,
+      "lat": 8.311351799999999,
+      "lng": 80.4036508
+    },
     {
       "place": "Badulla",
       "min_temp": 17.6,
@@ -37,6 +34,14 @@
       "rain": 0.0,
       "lat": 7.7249146,
       "lng": 81.6966911
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 24.9,
+      "max_temp": 32.2,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
     },
     {
       "place": "Galle",
@@ -93,6 +98,14 @@
       "rain": 0.3,
       "lat": 7.4817695,
       "lng": 80.3608876
+    },
+    {
+      "place": "Maha Illuppallama",
+      "min_temp": 22.0,
+      "max_temp": 35.2,
+      "rain": 0,
+      "lat": 8.1155443,
+      "lng": 80.47207639999999
     },
     {
       "place": "Mannar",
@@ -462,5 +475,17 @@
       "lat": 6.6355603,
       "lng": 80.3129541
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 71.7,
+    "max_rain_place": "Rathnapura"
+  },
+  "min_temp": {
+    "min_temp": 9.2,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.9,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

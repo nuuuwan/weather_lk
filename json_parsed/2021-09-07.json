@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/a8e8571e4c34fdd8f269b5c127d279db.pdf",
   "date_ut": 1630953000.0,
   "date": "2021-09-07",
-  "min_temp": {
-    "min_temp": 13.7,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 36.4,
-    "max_temp_place": "Batticaloa"
-  },
-  "max_rain": {
-    "max_rain": 91.0,
-    "max_rain_place": "Norton"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -21,6 +10,14 @@
       "rain": 0.0,
       "lat": 8.311351799999999,
       "lng": 80.4036508
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 19.0,
+      "max_temp": 29.2,
+      "rain": 0,
+      "lat": 6.993400899999999,
+      "lng": 81.0549815
     },
     {
       "place": "Bandarawela",
@@ -478,5 +475,17 @@
       "lat": 7.142363899999999,
       "lng": 80.1037721
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 91.0,
+    "max_rain_place": "Norton"
+  },
+  "min_temp": {
+    "min_temp": 13.7,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.4,
+    "max_temp_place": "Batticaloa"
+  }
 }

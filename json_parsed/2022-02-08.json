@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/79c92df1ef455adb7a03ab10c65cecec.pdf",
   "date_ut": 1644258600.0,
   "date": "2022-02-08",
-  "min_temp": {
-    "min_temp": 15.0,
-    "min_temp_place": "Katugasthota"
-  },
-  "max_temp": {
-    "max_temp": 34.6,
-    "max_temp_place": "Colombo"
-  },
-  "max_rain": {
-    "max_rain": 19.8,
-    "max_rain_place": "Pothuvil"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -21,6 +10,22 @@
       "rain": 0.0,
       "lat": 8.311351799999999,
       "lng": 80.4036508
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 14.7,
+      "max_temp": 22.0,
+      "rain": 0,
+      "lat": 6.993400899999999,
+      "lng": 81.0549815
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 13.9,
+      "max_temp": 19.8,
+      "rain": 0,
+      "lat": 6.825877999999999,
+      "lng": 80.9981576
     },
     {
       "place": "Batticaloa",
@@ -61,6 +66,14 @@
       "rain": 0.0,
       "lat": 9.6614981,
       "lng": 80.02554649999999
+    },
+    {
+      "place": "Monaragala",
+      "min_temp": 19.4,
+      "max_temp": 28.5,
+      "rain": 0,
+      "lat": 6.890645399999999,
+      "lng": 81.34544170000001
     },
     {
       "place": "Katugasthota",
@@ -109,6 +122,14 @@
       "rain": 0.0,
       "lat": 7.940338400000001,
       "lng": 81.0187984
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 8.5,
+      "max_temp": 18.8,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
     },
     {
       "place": "Pothuvil",
@@ -446,5 +467,17 @@
       "lat": 9.1538678,
       "lng": 80.64973119999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 19.8,
+    "max_rain_place": "Pothuvil"
+  },
+  "min_temp": {
+    "min_temp": 8.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.6,
+    "max_temp_place": "Colombo"
+  }
 }

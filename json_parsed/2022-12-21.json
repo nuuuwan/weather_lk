@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/7cdfeec757a6146ee68e90146a5cc2e5.pdf",
   "date_ut": 1671561000.0,
   "date": "2022-12-21",
-  "min_temp": {
-    "min_temp": 13.6,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.9,
-    "max_temp_place": "Colombo"
-  },
-  "max_rain": {
-    "max_rain": 66.2,
-    "max_rain_place": "Rantambe"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -63,6 +52,14 @@
       "lng": 80.2167912
     },
     {
+      "place": "Hambanthota",
+      "min_temp": 23.8,
+      "max_temp": 33.0,
+      "rain": 0,
+      "lat": 6.1428829,
+      "lng": 81.12123079999999
+    },
+    {
       "place": "Jaffna",
       "min_temp": 25.8,
       "max_temp": 29.3,
@@ -87,12 +84,36 @@
       "lng": 80.62297869999999
     },
     {
+      "place": "Katunayake",
+      "min_temp": 24.0,
+      "max_temp": 31.5,
+      "rain": 0,
+      "lat": 7.172484899999999,
+      "lng": 79.8853484
+    },
+    {
       "place": "Kurunagala",
       "min_temp": 24.0,
       "max_temp": 30.7,
       "rain": 5.8,
       "lat": 7.4817695,
       "lng": 80.3608876
+    },
+    {
+      "place": "Maha Illuppallama",
+      "min_temp": 23.9,
+      "max_temp": 29.2,
+      "rain": 0,
+      "lat": 8.1155443,
+      "lng": 80.47207639999999
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 26.2,
+      "max_temp": 29.5,
+      "rain": 0,
+      "lat": 8.980974300000002,
+      "lng": 79.90441489999999
     },
     {
       "place": "Polonnaruwa",
@@ -149,6 +170,22 @@
       "rain": 1.0,
       "lat": 8.5873638,
       "lng": 81.2152121
+    },
+    {
+      "place": "Vavuniya",
+      "min_temp": 24.4,
+      "max_temp": 30.2,
+      "rain": 0,
+      "lat": 8.7542029,
+      "lng": 80.4982402
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 22.9,
+      "max_temp": 30.8,
+      "rain": 0,
+      "lat": 6.288780374382144,
+      "lng": 81.12460077774537
     },
     {
       "place": "Mullaithivu",
@@ -438,5 +475,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 66.2,
+    "max_rain_place": "Rantambe"
+  },
+  "min_temp": {
+    "min_temp": 13.6,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.0,
+    "max_temp_place": "Hambanthota"
+  }
 }

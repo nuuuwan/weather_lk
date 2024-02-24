@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/c0d7ea340a26bbd3a15ac919a0e9a116.pdf",
   "date_ut": 1634149800.0,
   "date": "2021-10-14",
-  "min_temp": {
-    "min_temp": 13.2,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 36.0,
-    "max_temp_place": "Batticaloa"
-  },
-  "max_rain": {
-    "max_rain": 12.5,
-    "max_rain_place": "Ambepussa"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -157,6 +146,22 @@
       "rain": 0.0,
       "lat": 8.0407913,
       "lng": 79.839386
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 27.6,
+      "max_temp": 32.1,
+      "rain": 0,
+      "lat": 6.8195453,
+      "lng": 79.8800832
+    },
+    {
+      "place": "Rathnapura",
+      "min_temp": 23.5,
+      "max_temp": 31.5,
+      "rain": 0,
+      "lat": 6.7055742,
+      "lng": 80.3847345
     },
     {
       "place": "Trincomalee",
@@ -406,5 +411,17 @@
       "lat": 7.200796799999999,
       "lng": 79.8736754
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 12.5,
+    "max_rain_place": "Ambepussa"
+  },
+  "min_temp": {
+    "min_temp": 13.2,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.0,
+    "max_temp_place": "Batticaloa"
+  }
 }

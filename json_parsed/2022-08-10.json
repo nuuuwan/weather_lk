@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/7355eea8702c3635f5d43dd647d8dc09.pdf",
   "date_ut": 1660069800.0,
   "date": "2022-08-10",
-  "min_temp": {
-    "min_temp": 14.9,
-    "min_temp_place": "Badulla"
-  },
-  "max_temp": {
-    "max_temp": 36.5,
-    "max_temp_place": "Mulatiw"
-  },
-  "max_rain": {
-    "max_rain": 3.0,
-    "max_rain_place": "Padukka Estate"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -45,6 +34,14 @@
       "rain": 0.0,
       "lat": 7.7249146,
       "lng": 81.6966911
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 26.0,
+      "max_temp": 30.0,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
     },
     {
       "place": "Galle",
@@ -127,6 +124,14 @@
       "lng": 81.0187984
     },
     {
+      "place": "Nuwara Eliya",
+      "min_temp": 12.5,
+      "max_temp": 16.8,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
+    },
+    {
       "place": "Pothuvil",
       "min_temp": 23.7,
       "max_temp": 33.5,
@@ -141,6 +146,14 @@
       "rain": 0.0,
       "lat": 8.0407913,
       "lng": 79.839386
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 26.2,
+      "max_temp": 31.1,
+      "rain": 0,
+      "lat": 6.8195453,
+      "lng": 79.8800832
     },
     {
       "place": "Rathnapura",
@@ -454,5 +467,17 @@
       "lat": 6.816058099999999,
       "lng": 80.96914749999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 3.0,
+    "max_rain_place": "Padukka Estate"
+  },
+  "min_temp": {
+    "min_temp": 12.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.5,
+    "max_temp_place": "Mulatiw"
+  }
 }

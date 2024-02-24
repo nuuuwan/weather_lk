@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/2222457c110d1b120bfe136a1bf12685.pdf",
   "date_ut": 1706553000.0,
   "date": "2024-01-30",
-  "min_temp": {
-    "min_temp": 17.0,
-    "min_temp_place": "Bandarawela"
-  },
-  "max_temp": {
-    "max_temp": 32.7,
-    "max_temp_place": "Katunayake"
-  },
-  "max_rain": {
-    "max_rain": 66.5,
-    "max_rain_place": "Poddiwela Farm"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -87,6 +76,14 @@
       "lng": 81.34544170000001
     },
     {
+      "place": "Katugasthota",
+      "min_temp": 20.5,
+      "max_temp": 27.4,
+      "rain": 0,
+      "lat": 7.3251558,
+      "lng": 80.62297869999999
+    },
+    {
       "place": "Katunayake",
       "min_temp": 24.0,
       "max_temp": 32.7,
@@ -117,6 +114,22 @@
       "rain": 0.0,
       "lat": 8.980974300000002,
       "lng": 79.90441489999999
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 23.9,
+      "max_temp": 29.7,
+      "rain": 0,
+      "lat": 7.940338400000001,
+      "lng": 81.0187984
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 15.0,
+      "max_temp": 17.9,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
     },
     {
       "place": "Pothuvil",
@@ -446,5 +459,17 @@
       "lat": 6.8833914,
       "lng": 80.93733879999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 66.5,
+    "max_rain_place": "Poddiwela Farm"
+  },
+  "min_temp": {
+    "min_temp": 15.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.7,
+    "max_temp_place": "Katunayake"
+  }
 }

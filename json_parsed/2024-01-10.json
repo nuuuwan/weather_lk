@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/cc8226be7a952fd507f59655249315ed.pdf",
   "date_ut": 1704825000.0,
   "date": "2024-01-10",
-  "min_temp": {
-    "min_temp": 14.4,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 30.8,
-    "max_temp_place": "Colombo"
-  },
-  "max_rain": {
-    "max_rain": 174.7,
-    "max_rain_place": "Vakanari Wawa"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -213,6 +202,14 @@
       "max_temp": null,
       "lat": 6.8577186,
       "lng": 80.5855038
+    },
+    {
+      "place": "Randenigala",
+      "rain": 38.5,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
     },
     {
       "place": "Norton",
@@ -470,5 +467,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 174.7,
+    "max_rain_place": "Vakanari Wawa"
+  },
+  "min_temp": {
+    "min_temp": 14.4,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 30.8,
+    "max_temp_place": "Colombo"
+  }
 }

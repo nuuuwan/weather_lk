@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/60146ed14551f6591cf9ea31dd8f70e0.pdf",
   "date_ut": 1632421800.0,
   "date": "2021-09-24",
-  "min_temp": {
-    "min_temp": 13.4,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 36.2,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 80.0,
-    "max_rain_place": "Canawarella"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -47,6 +36,14 @@
       "lng": 81.6966911
     },
     {
+      "place": "Colombo",
+      "min_temp": 27.6,
+      "max_temp": 31.0,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
+    },
+    {
       "place": "Galle",
       "min_temp": 27.5,
       "max_temp": 29.9,
@@ -79,12 +76,28 @@
       "lng": 81.34544170000001
     },
     {
+      "place": "Katugasthota",
+      "min_temp": 22.7,
+      "max_temp": 30.7,
+      "rain": 0,
+      "lat": 7.3251558,
+      "lng": 80.62297869999999
+    },
+    {
       "place": "Katunayake",
       "min_temp": 27.2,
       "max_temp": 31.5,
       "rain": 1.5,
       "lat": 7.172484899999999,
       "lng": 79.8853484
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 25.7,
+      "max_temp": 33.1,
+      "rain": 0,
+      "lat": 7.4817695,
+      "lng": 80.3608876
     },
     {
       "place": "Maha Illuppallama",
@@ -117,6 +130,14 @@
       "rain": 0.0,
       "lat": 6.949716599999999,
       "lng": 80.7891068
+    },
+    {
+      "place": "Pothuvil",
+      "min_temp": 24.1,
+      "max_temp": 32.6,
+      "rain": 0,
+      "lat": 6.875270599999999,
+      "lng": 81.8306334
     },
     {
       "place": "Puttalam",
@@ -454,5 +475,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 80.0,
+    "max_rain_place": "Canawarella"
+  },
+  "min_temp": {
+    "min_temp": 13.4,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.2,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

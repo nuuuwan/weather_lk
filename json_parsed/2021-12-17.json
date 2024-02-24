@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/231aa5fcc673966699a4581c52459681.pdf",
   "date_ut": 1639679400.0,
   "date": "2021-12-17",
-  "min_temp": {
-    "min_temp": 13.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.4,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 95.3,
-    "max_rain_place": "Kirama"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -127,6 +116,14 @@
       "lng": 79.90441489999999
     },
     {
+      "place": "Polonnaruwa",
+      "min_temp": 23.2,
+      "max_temp": 30.8,
+      "rain": 0,
+      "lat": 7.940338400000001,
+      "lng": 81.0187984
+    },
+    {
       "place": "Nuwara Eliya",
       "min_temp": 13.0,
       "max_temp": 20.1,
@@ -141,6 +138,14 @@
       "rain": 0.0,
       "lat": 6.875270599999999,
       "lng": 81.8306334
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 23.8,
+      "max_temp": 30.3,
+      "rain": 0,
+      "lat": 8.0407913,
+      "lng": 79.839386
     },
     {
       "place": "Rathmalana",
@@ -462,5 +467,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 95.3,
+    "max_rain_place": "Kirama"
+  },
+  "min_temp": {
+    "min_temp": 13.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.4,
+    "max_temp_place": "Rathnapura"
+  }
 }

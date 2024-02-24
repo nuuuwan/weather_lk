@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/40a76552a102504f3816dcd69a1ecc9d.pdf",
   "date_ut": 1676572200.0,
   "date": "2023-02-17",
-  "min_temp": {
-    "min_temp": 10.6,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.4,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 0.0,
-    "max_rain_place": "Anuradhapura"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -478,5 +467,17 @@
       "lat": 6.3162324,
       "lng": 80.8433145
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 0.0,
+    "max_rain_place": "Anuradhapura"
+  },
+  "min_temp": {
+    "min_temp": 10.6,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.4,
+    "max_temp_place": "Rathnapura"
+  }
 }

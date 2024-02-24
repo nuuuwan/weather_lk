@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/697e776f32e1c3520187e21a271e6127.pdf",
   "date_ut": 1674325800.0,
   "date": "2023-01-22",
-  "min_temp": {
-    "min_temp": 13.7,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 30.8,
-    "max_temp_place": "Mattla"
-  },
-  "max_rain": {
-    "max_rain": 100.1,
-    "max_rain_place": "Akkaraipattu Irrigation"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -478,5 +467,17 @@
       "lat": 6.2134658,
       "lng": 80.9760556
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 100.1,
+    "max_rain_place": "Akkaraipattu Irrigation"
+  },
+  "min_temp": {
+    "min_temp": 13.7,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 30.8,
+    "max_temp_place": "Mattla"
+  }
 }

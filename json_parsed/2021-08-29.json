@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/633cfaceac8d9ae385d6266f5beaa5c9.pdf",
   "date_ut": 1630175400.0,
   "date": "2021-08-29",
-  "min_temp": {
-    "min_temp": 13.8,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.8,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 68.0,
-    "max_rain_place": "Castlereigh"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -37,6 +26,14 @@
       "rain": 3.5,
       "lat": 6.825877999999999,
       "lng": 80.9981576
+    },
+    {
+      "place": "Batticaloa",
+      "min_temp": 26.8,
+      "max_temp": 35.7,
+      "rain": 0,
+      "lat": 7.7249146,
+      "lng": 81.6966911
     },
     {
       "place": "Colombo",
@@ -69,6 +66,14 @@
       "rain": 0.0,
       "lat": 9.6614981,
       "lng": 80.02554649999999
+    },
+    {
+      "place": "Monaragala",
+      "min_temp": 23.4,
+      "max_temp": 32.5,
+      "rain": 0,
+      "lat": 6.890645399999999,
+      "lng": 81.34544170000001
     },
     {
       "place": "Katugasthota",
@@ -173,6 +178,14 @@
       "rain": 0.0,
       "lat": 8.7542029,
       "lng": 80.4982402
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 24.2,
+      "max_temp": 32.8,
+      "rain": 0,
+      "lat": 6.288780374382144,
+      "lng": 81.12460077774537
     },
     {
       "place": "Mullaithivu",
@@ -462,5 +475,17 @@
       "lat": 6.936070099999999,
       "lng": 79.84504969999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 68.0,
+    "max_rain_place": "Castlereigh"
+  },
+  "min_temp": {
+    "min_temp": 13.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.7,
+    "max_temp_place": "Batticaloa"
+  }
 }

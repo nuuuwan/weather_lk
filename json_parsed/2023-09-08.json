@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/31249c59bc6b1f7c574ea021816eb69a.pdf",
   "date_ut": 1694111400.0,
   "date": "2023-09-08",
-  "min_temp": {
-    "min_temp": 13.4,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.5,
-    "max_temp_place": "Mullaitivu"
-  },
-  "max_rain": {
-    "max_rain": 123.4,
-    "max_rain_place": "Moraliya-Oya"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -191,6 +180,14 @@
       "lng": 80.81424799999999
     },
     {
+      "place": "Randenigala",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
+    },
+    {
       "place": "Norton",
       "rain": 0.5,
       "min_temp": null,
@@ -309,6 +306,14 @@
       "max_temp": null,
       "lat": 7.0255123,
       "lng": 80.229343
+    },
+    {
+      "place": "Kirindiwela",
+      "rain": 49.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.0411825,
+      "lng": 80.1289324
     },
     {
       "place": "Mathugama",
@@ -454,5 +459,17 @@
       "lat": 7.142363899999999,
       "lng": 80.1037721
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 123.4,
+    "max_rain_place": "Moraliya-Oya"
+  },
+  "min_temp": {
+    "min_temp": 13.4,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.5,
+    "max_temp_place": "Mullaitivu"
+  }
 }

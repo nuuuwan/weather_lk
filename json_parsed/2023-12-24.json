@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/98a44b38d9d6ec8c646d781d7c6e279f.pdf",
   "date_ut": 1703356200.0,
   "date": "2023-12-24",
-  "min_temp": {
-    "min_temp": 14.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.6,
-    "max_temp_place": "Katunayake"
-  },
-  "max_rain": {
-    "max_rain": 41.2,
-    "max_rain_place": "Wallipuram"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -151,12 +140,28 @@
       "lng": 81.8306334
     },
     {
+      "place": "Puttalam",
+      "min_temp": 23.6,
+      "max_temp": 32.1,
+      "rain": 0,
+      "lat": 8.0407913,
+      "lng": 79.839386
+    },
+    {
       "place": "Rathmalana",
       "min_temp": 25.4,
       "max_temp": 33.3,
       "rain": 0.0,
       "lat": 6.8195453,
       "lng": 79.8800832
+    },
+    {
+      "place": "Rathnapura",
+      "min_temp": 23.1,
+      "max_temp": 34.1,
+      "rain": 0,
+      "lat": 6.7055742,
+      "lng": 80.3847345
     },
     {
       "place": "Trincomalee",
@@ -197,6 +202,14 @@
       "max_temp": null,
       "lat": 6.8577186,
       "lng": 80.5855038
+    },
+    {
+      "place": "Randenigala",
+      "rain": 7.9,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
     },
     {
       "place": "Norton",
@@ -301,6 +314,14 @@
       "max_temp": null,
       "lat": 9.7902586,
       "lng": 80.24188989999999
+    },
+    {
+      "place": "Vakanari Wawa",
+      "rain": 1.2,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.873053999999999,
+      "lng": 80.77179699999999
     },
     {
       "place": "Nedunkerni",
@@ -446,5 +467,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 41.2,
+    "max_rain_place": "Wallipuram"
+  },
+  "min_temp": {
+    "min_temp": 14.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.1,
+    "max_temp_place": "Rathnapura"
+  }
 }

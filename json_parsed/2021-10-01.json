@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/eb7be1321da9bc6796d760da02d1d25b.pdf",
   "date_ut": 1633026600.0,
   "date": "2021-10-01",
-  "min_temp": {
-    "min_temp": 13.8,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.1,
-    "max_temp_place": "Hambanthota"
-  },
-  "max_rain": {
-    "max_rain": 110.5,
-    "max_rain_place": "Thubankenie"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -45,6 +34,14 @@
       "rain": 46.0,
       "lat": 7.7249146,
       "lng": 81.6966911
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 27.1,
+      "max_temp": 30.0,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
     },
     {
       "place": "Galle",
@@ -478,5 +475,17 @@
       "lat": 7.392512599999999,
       "lng": 81.2436227
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 110.5,
+    "max_rain_place": "Thubankenie"
+  },
+  "min_temp": {
+    "min_temp": 13.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.1,
+    "max_temp_place": "Hambanthota"
+  }
 }

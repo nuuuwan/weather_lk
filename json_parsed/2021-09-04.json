@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/72e0ec2661325af5322fd7d205dc26b9.pdf",
   "date_ut": 1630693800.0,
   "date": "2021-09-04",
-  "min_temp": {
-    "min_temp": 13.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.9,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 67.6,
-    "max_rain_place": "Labugama"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -29,6 +18,14 @@
       "rain": 0.0,
       "lat": 6.993400899999999,
       "lng": 81.0549815
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 17.2,
+      "max_temp": 24.2,
+      "rain": 0,
+      "lat": 6.825877999999999,
+      "lng": 80.9981576
     },
     {
       "place": "Batticaloa",
@@ -61,6 +58,14 @@
       "rain": 1.4,
       "lat": 6.1428829,
       "lng": 81.12123079999999
+    },
+    {
+      "place": "Jaffna",
+      "min_temp": 27.1,
+      "max_temp": 31.6,
+      "rain": 0,
+      "lat": 9.6614981,
+      "lng": 80.02554649999999
     },
     {
       "place": "Monaragala",
@@ -133,6 +138,14 @@
       "rain": 0.0,
       "lat": 6.875270599999999,
       "lng": 81.8306334
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 26.8,
+      "max_temp": 30.9,
+      "rain": 0,
+      "lat": 8.0407913,
+      "lng": 79.839386
     },
     {
       "place": "Rathmalana",
@@ -454,5 +467,17 @@
       "lat": 6.1467663,
       "lng": 80.3438001
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 67.6,
+    "max_rain_place": "Labugama"
+  },
+  "min_temp": {
+    "min_temp": 13.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.9,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

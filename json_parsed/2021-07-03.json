@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/0f6a45050cafd4a70a1f98d0bdebbb83.pdf",
   "date_ut": 1625250600.0,
   "date": "2021-07-03",
-  "min_temp": {
-    "min_temp": 12.6,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 36.2,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 12.6,
-    "max_rain_place": "Poddiwela Farm"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -87,6 +76,14 @@
       "lng": 81.34544170000001
     },
     {
+      "place": "Katugasthota",
+      "min_temp": 20.9,
+      "max_temp": 29.0,
+      "rain": 0,
+      "lat": 7.3251558,
+      "lng": 80.62297869999999
+    },
+    {
       "place": "Katunayake",
       "min_temp": 25.5,
       "max_temp": 30.6,
@@ -141,6 +138,14 @@
       "rain": 0.0,
       "lat": 6.875270599999999,
       "lng": 81.8306334
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 25.6,
+      "max_temp": 31.7,
+      "rain": 0,
+      "lat": 8.0407913,
+      "lng": 79.839386
     },
     {
       "place": "Rathmalana",
@@ -470,5 +475,17 @@
       "lat": 6.3424847,
       "lng": 80.5596582
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 12.6,
+    "max_rain_place": "Poddiwela Farm"
+  },
+  "min_temp": {
+    "min_temp": 12.6,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.2,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

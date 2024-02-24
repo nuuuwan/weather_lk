@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/151c6d53a12fd845aa65e15e6b84cf99.pdf",
   "date_ut": 1671215400.0,
   "date": "2022-12-17",
-  "min_temp": {
-    "min_temp": 12.2,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.0,
-    "max_temp_place": "Hambanthota"
-  },
-  "max_rain": {
-    "max_rain": 45.8,
-    "max_rain_place": "Mapalana"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -125,6 +114,14 @@
       "rain": 0.0,
       "lat": 8.980974300000002,
       "lng": 79.90441489999999
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 22.1,
+      "max_temp": 30.8,
+      "rain": 0,
+      "lat": 7.940338400000001,
+      "lng": 81.0187984
     },
     {
       "place": "Nuwara Eliya",
@@ -478,5 +475,17 @@
       "lat": 9.7937885,
       "lng": 80.2209773
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 45.8,
+    "max_rain_place": "Mapalana"
+  },
+  "min_temp": {
+    "min_temp": 12.2,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.0,
+    "max_temp_place": "Hambanthota"
+  }
 }

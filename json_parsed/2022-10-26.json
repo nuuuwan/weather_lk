@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/710881f8b5e7bfece715b22688d11ae6.pdf",
   "date_ut": 1666722600.0,
   "date": "2022-10-26",
-  "min_temp": {
-    "min_temp": 12.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.0,
-    "max_temp_place": "Mattla"
-  },
-  "max_rain": {
-    "max_rain": 72.0,
-    "max_rain_place": "Inginiyagala"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -111,12 +100,28 @@
       "lng": 80.3608876
     },
     {
+      "place": "Maha Illuppallama",
+      "min_temp": 23.6,
+      "max_temp": 30.6,
+      "rain": 0,
+      "lat": 8.1155443,
+      "lng": 80.47207639999999
+    },
+    {
       "place": "Mannar",
       "min_temp": 25.4,
       "max_temp": 30.2,
       "rain": 0.0,
       "lat": 8.980974300000002,
       "lng": 79.90441489999999
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 24.0,
+      "max_temp": 33.6,
+      "rain": 0,
+      "lat": 7.940338400000001,
+      "lng": 81.0187984
     },
     {
       "place": "Nuwara Eliya",
@@ -462,5 +467,17 @@
       "lat": 6.7912154,
       "lng": 80.43543369999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 72.0,
+    "max_rain_place": "Inginiyagala"
+  },
+  "min_temp": {
+    "min_temp": 12.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.6,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

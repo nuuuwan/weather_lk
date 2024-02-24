@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/c3568ff45a24680312f398074de85766.pdf",
   "date_ut": 1650825000.0,
   "date": "2022-04-25",
-  "min_temp": {
-    "min_temp": 12.2,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.5,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 110.2,
-    "max_rain_place": "Baddegama"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -45,6 +34,14 @@
       "rain": 5.6,
       "lat": 7.7249146,
       "lng": 81.6966911
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 25.6,
+      "max_temp": 32.1,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
     },
     {
       "place": "Galle",
@@ -141,6 +138,14 @@
       "rain": 0.0,
       "lat": 6.875270599999999,
       "lng": 81.8306334
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 26.1,
+      "max_temp": 32.9,
+      "rain": 0,
+      "lat": 8.0407913,
+      "lng": 79.839386
     },
     {
       "place": "Rathmalana",
@@ -462,5 +467,17 @@
       "lat": 6.251357899999999,
       "lng": 80.7641653
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 110.2,
+    "max_rain_place": "Baddegama"
+  },
+  "min_temp": {
+    "min_temp": 12.2,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.5,
+    "max_temp_place": "Rathnapura"
+  }
 }

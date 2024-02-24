@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/173e7cd4ff0ffbe7245e9ee37dd13dfb.pdf",
   "date_ut": 1707244200.0,
   "date": "2024-02-07",
-  "min_temp": {
-    "min_temp": 13.4,
-    "min_temp_place": "Bandarawela"
-  },
-  "max_temp": {
-    "max_temp": 35.8,
-    "max_temp_place": "Katunayake"
-  },
-  "max_rain": {
-    "max_rain": 9.0,
-    "max_rain_place": "Ilubuluwa Estate"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -478,5 +467,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 9.0,
+    "max_rain_place": "Ilubuluwa Estate"
+  },
+  "min_temp": {
+    "min_temp": 13.4,
+    "min_temp_place": "Bandarawela"
+  },
+  "max_temp": {
+    "max_temp": 35.8,
+    "max_temp_place": "Katunayake"
+  }
 }

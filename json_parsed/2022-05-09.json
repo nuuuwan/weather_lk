@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/6ffbb862c98d09c9af7920d70f8d4b0c.pdf",
   "date_ut": 1652034600.0,
   "date": "2022-05-09",
-  "min_temp": {
-    "min_temp": 16.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.6,
-    "max_temp_place": "Jaffna"
-  },
-  "max_rain": {
-    "max_rain": 50.9,
-    "max_rain_place": "Monrovia"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -45,6 +34,14 @@
       "rain": 0.0,
       "lat": 7.7249146,
       "lng": 81.6966911
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 29.3,
+      "max_temp": 32.2,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
     },
     {
       "place": "Galle",
@@ -151,6 +148,14 @@
       "lng": 79.839386
     },
     {
+      "place": "Rathmalana",
+      "min_temp": 29.4,
+      "max_temp": 33.2,
+      "rain": 0,
+      "lat": 6.8195453,
+      "lng": 79.8800832
+    },
+    {
       "place": "Rathnapura",
       "min_temp": 26.8,
       "max_temp": 32.6,
@@ -197,6 +202,14 @@
       "max_temp": null,
       "lat": 6.8577186,
       "lng": 80.5855038
+    },
+    {
+      "place": "Randenigala",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
     },
     {
       "place": "Norton",
@@ -301,6 +314,14 @@
       "max_temp": null,
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
+    },
+    {
+      "place": "Atchuvely",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 9.7786397,
+      "lng": 80.1160651
     },
     {
       "place": "Baddegama",
@@ -446,5 +467,17 @@
       "lat": 9.5044995,
       "lng": 80.402048
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 50.9,
+    "max_rain_place": "Monrovia"
+  },
+  "min_temp": {
+    "min_temp": 16.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.6,
+    "max_temp_place": "Jaffna"
+  }
 }

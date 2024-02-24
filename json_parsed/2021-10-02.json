@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/055a166b9aa5c17dbd7571e4834aca6c.pdf",
   "date_ut": 1633113000.0,
   "date": "2021-10-02",
-  "min_temp": {
-    "min_temp": 11.4,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 30.2,
-    "max_temp_place": "Pothuvil"
-  },
-  "max_rain": {
-    "max_rain": 137.0,
-    "max_rain_place": "Helboda North"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -486,5 +475,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 137.0,
+    "max_rain_place": "Helboda North"
+  },
+  "min_temp": {
+    "min_temp": 11.4,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 30.2,
+    "max_temp_place": "Pothuvil"
+  }
 }

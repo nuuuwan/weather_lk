@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/9585f9888b13cfaf9179921dd8020377.pdf",
   "date_ut": 1628879400.0,
   "date": "2021-08-14",
-  "min_temp": {
-    "min_temp": 14.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.3,
-    "max_temp_place": "Mattla"
-  },
-  "max_rain": {
-    "max_rain": 66.0,
-    "max_rain_place": "Handapanagala"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -87,12 +76,28 @@
       "lng": 81.34544170000001
     },
     {
+      "place": "Katugasthota",
+      "min_temp": 22.6,
+      "max_temp": 28.6,
+      "rain": 0,
+      "lat": 7.3251558,
+      "lng": 80.62297869999999
+    },
+    {
       "place": "Katunayake",
       "min_temp": 26.5,
       "max_temp": 30.0,
       "rain": 0.0,
       "lat": 7.172484899999999,
       "lng": 79.8853484
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 25.2,
+      "max_temp": 31.5,
+      "rain": 0,
+      "lat": 7.4817695,
+      "lng": 80.3608876
     },
     {
       "place": "Maha Illuppallama",
@@ -470,5 +475,17 @@
       "lat": 6.309448199999999,
       "lng": 80.324096
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 66.0,
+    "max_rain_place": "Handapanagala"
+  },
+  "min_temp": {
+    "min_temp": 14.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.3,
+    "max_temp_place": "Mattla"
+  }
 }

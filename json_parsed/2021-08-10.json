@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/c896309580b9615ebbcfba2b8c83085b.pdf",
   "date_ut": 1628533800.0,
   "date": "2021-08-10",
-  "min_temp": {
-    "min_temp": 14.6,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 36.2,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 86.0,
-    "max_rain_place": "Vincit Estate"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -486,5 +475,17 @@
       "lat": 7.392512599999999,
       "lng": 81.2436227
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 86.0,
+    "max_rain_place": "Vincit Estate"
+  },
+  "min_temp": {
+    "min_temp": 14.6,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.2,
+    "max_temp_place": "Polonnaruwa"
+  }
 }
