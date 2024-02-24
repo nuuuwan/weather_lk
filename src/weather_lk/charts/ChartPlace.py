@@ -15,9 +15,9 @@ class ChartPlace(Chart):
     def get_title(self):
         title = self.place
         if self.window:
-            title += f' (Last {self.window} days)' 
+            title += f' (Last {self.window} days)'
         return title
-    
+
     def get_xlabel(self):
         return 'Date'
 

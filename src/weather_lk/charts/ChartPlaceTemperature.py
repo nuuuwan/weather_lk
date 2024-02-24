@@ -19,10 +19,7 @@ class ChartPlaceTemperature(ChartPlace, ChartTemperature):
         if self.window:
             d_list = d_list[-self.window:]
 
-        x = [
-            datetime.strptime(d['date'], '%Y-%m-%d')
-            for d in d_list
-        ]
+        x = [datetime.strptime(d['date'], '%Y-%m-%d') for d in d_list]
         y_min_temp = [d['min_temp'] for d in d_list]
         y_max_temp = [d['max_temp'] for d in d_list]
 

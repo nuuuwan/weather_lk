@@ -79,7 +79,6 @@ class Chart:
             #     headwidth=5,
             #     edgecolor=color_light,
             # ),
-
             bbox=dict(
                 facecolor=color_light, edgecolor='none', boxstyle="round"
             ),

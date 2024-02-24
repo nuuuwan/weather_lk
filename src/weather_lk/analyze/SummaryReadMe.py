@@ -4,7 +4,8 @@ from utils import File, Log
 
 from weather_lk.analyze.SummaryWriteDataByPlace import SummaryWriteDataByPlace
 from weather_lk.constants import (COVERAGE_WINDOW_LIST, DIR_REPO,
-                                  DISPLAY_PLACES, URL_REMOTE_DATA,TEMPERATURE_CHART_WINDOWS)
+                                  DISPLAY_PLACES, TEMPERATURE_CHART_WINDOWS,
+                                  URL_REMOTE_DATA)
 
 log = Log('SummaryReadMe')
 
@@ -42,7 +43,6 @@ class SummaryReadMe:
             ]
         )
         return lines
-
 
     def get_lines_temperature(self, window):
         title = 'Temperature 🌡️'
@@ -116,7 +116,9 @@ class SummaryReadMe:
         ]
         values_list = []
         for source_id, stats in source_to_stats.items():
-            values = [f'`{source_id}`'] + [str(stats.get(key, '')) for key in keys]
+            values = [f'`{source_id}`'] + [
+                str(stats.get(key, '')) for key in keys
+            ]
             values_list.append(values)
         return ['# Source Statistics', ''] + build_table(
             [
@@ -160,7 +162,10 @@ class SummaryReadMe:
 
         for window in TEMPERATURE_CHART_WINDOWS:
             temperature_infos = [
-                (f'temperature_by_city_(_last_{window}_days)', self.get_lines_temperature(window)),
+                (
+                    f'temperature_by_city_(_last_{window}_days)',
+                    self.get_lines_temperature(window),
+                ),
             ]
 
         for id, lines in temperature_infos + [
