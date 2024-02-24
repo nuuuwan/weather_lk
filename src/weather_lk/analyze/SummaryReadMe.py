@@ -5,7 +5,7 @@ from utils import File, Log
 from weather_lk.analyze.SummaryWriteDataByPlace import SummaryWriteDataByPlace
 from weather_lk.constants import (COVERAGE_WINDOW_LIST, DIR_REPO,
                                   DISPLAY_PLACES, TEMPERATURE_CHART_WINDOWS,
-                                  URL_REMOTE_DATA, TEST_MODE)
+                                  TEST_MODE, URL_REMOTE_DATA)
 
 log = Log('SummaryReadMe')
 
