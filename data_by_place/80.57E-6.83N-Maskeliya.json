@@ -1746,6 +1746,12 @@
     "max_temp": null
   },
   {
+    "date": "2022-07-01",
+    "rain": 12.4,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2022-07-09",
     "rain": 4.4,
     "min_temp": null,
