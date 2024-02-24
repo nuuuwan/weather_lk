@@ -13,14 +13,13 @@ log = Log('GoogleSearch')
 
 
 class GoogleSearch:
-    NUM_RESULTS = 32
+    NUM_RESULTS = 64
     SLEEP_INTERVAL = 1
     T_WAIT = 1
 
     @cached_property
     def random_year(self):
-        current_year = time.localtime().tm_year
-        return current_year - random.randint(0, 9)
+        return random.choice([2024, 2023, 2022])
 
     @cached_property
     def pdf_link_list(self):
