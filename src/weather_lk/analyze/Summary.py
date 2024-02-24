@@ -30,4 +30,4 @@ class Summary(
         else:
             self.draw_charts_by_place()
             self.draw_charts_for_country()
-            self.build_readme()
+            # self.build_readme()

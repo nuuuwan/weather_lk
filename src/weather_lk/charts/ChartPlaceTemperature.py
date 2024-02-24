@@ -6,7 +6,7 @@ from utils import Log
 from weather_lk.charts.ChartPlace import ChartPlace
 from weather_lk.charts.ChartTemperature import ChartTemperature
 from weather_lk.constants import DIR_DATA_CHARTS_TEMPERATURE
-
+from weather_lk.charts.Chart import Chart
 log = Log('ChartPlaceTemperature')
 
 
@@ -37,8 +37,15 @@ class ChartPlaceTemperature(ChartPlace, ChartTemperature):
     @staticmethod
     def plot_rolling(x, y_min_temp, y_max_temp):
         y_temp_mid = [(a + b) / 2 for a, b in zip(y_min_temp, y_max_temp)]
-        plt.plot(x, y_temp_mid, color='black', linewidth=0.5)
-
+        window = Chart.ROLLING_WINDOW
+        y_temp_mid_rolling = [
+            sum(y_temp_mid[i - window : i]) / window
+            for i in range(window, len(y_temp_mid))
+        ] 
+        x_rolling = x[window:]
+        plt.plot(x_rolling, y_temp_mid_rolling, color='black', linewidth=0.5, label=f"{window}-day rolling average")
+        plt.legend()
+        
     def draw(self):
         x, y_min_temp, y_max_temp = self.get_data()
         self.set_ylim(y_min_temp, y_max_temp)
