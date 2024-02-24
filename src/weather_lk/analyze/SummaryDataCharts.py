@@ -6,14 +6,10 @@ from weather_lk.charts.ChartCountryRainfall import ChartCountryRainfall
 from weather_lk.charts.ChartCountryTemperature import ChartCountryTemperature
 from weather_lk.charts.ChartPlaceRainfall import ChartPlaceRainfall
 from weather_lk.charts.ChartPlaceTemperature import ChartPlaceTemperature
-from weather_lk.constants import (
-    CHART_WINDOWS,
-    DIR_DATA_CHARTS,
-    DIR_DATA_CHARTS_RAINFALL,
-    DIR_DATA_CHARTS_TEMPERATURE,
-    DISPLAY_PLACES,
-    TEST_MODE,
-)
+from weather_lk.constants import (CHART_WINDOWS, DIR_DATA_CHARTS,
+                                  DIR_DATA_CHARTS_RAINFALL,
+                                  DIR_DATA_CHARTS_TEMPERATURE, DISPLAY_PLACES,
+                                  TEST_MODE)
 from weather_lk.core.Data import Data
 
 log = Log('SummaryDataCharts')
