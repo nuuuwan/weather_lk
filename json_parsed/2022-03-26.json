@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/df39eafbd8487c5dfdfe208503f394a5.pdf",
   "date_ut": 1648233000.0,
   "date": "2022-03-26",
-  "min_temp": {
-    "min_temp": 10.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.8,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 48.0,
-    "max_rain_place": "Angamedilla"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -486,5 +475,17 @@
       "lat": 9.6071274,
       "lng": 79.76522109999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 48.0,
+    "max_rain_place": "Angamedilla"
+  },
+  "min_temp": {
+    "min_temp": 10.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.8,
+    "max_temp_place": "Rathnapura"
+  }
 }

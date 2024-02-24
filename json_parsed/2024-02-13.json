@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/c47d15bdfd163619c3343ace1f121a4d.pdf",
   "date_ut": 1707762600.0,
   "date": "2024-02-13",
-  "min_temp": {
-    "min_temp": 13.6,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.5,
-    "max_temp_place": "Katunayake"
-  },
-  "max_rain": {
-    "max_rain": 5.0,
-    "max_rain_place": "Hiniduma"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -71,6 +60,14 @@
       "lng": 81.12123079999999
     },
     {
+      "place": "Jaffna",
+      "min_temp": 24.5,
+      "max_temp": 30.4,
+      "rain": 0,
+      "lat": 9.6614981,
+      "lng": 80.02554649999999
+    },
+    {
       "place": "Monaragala",
       "min_temp": 25.1,
       "max_temp": 31.8,
@@ -119,12 +116,28 @@
       "lng": 79.90441489999999
     },
     {
+      "place": "Polonnaruwa",
+      "min_temp": 23.8,
+      "max_temp": 31.9,
+      "rain": 0,
+      "lat": 7.940338400000001,
+      "lng": 81.0187984
+    },
+    {
       "place": "Nuwara Eliya",
       "min_temp": 13.6,
       "max_temp": 19.2,
       "rain": 0.0,
       "lat": 6.949716599999999,
       "lng": 80.7891068
+    },
+    {
+      "place": "Pothuvil",
+      "min_temp": 25.8,
+      "max_temp": 32.0,
+      "rain": 0,
+      "lat": 6.875270599999999,
+      "lng": 81.8306334
     },
     {
       "place": "Puttalam",
@@ -149,6 +162,14 @@
       "rain": 0.0,
       "lat": 6.7055742,
       "lng": 80.3847345
+    },
+    {
+      "place": "Trincomalee",
+      "min_temp": 26.8,
+      "max_temp": 30.6,
+      "rain": 0,
+      "lat": 8.5873638,
+      "lng": 81.2152121
     },
     {
       "place": "Vavuniya",
@@ -454,5 +475,17 @@
       "lat": 7.619725000000001,
       "lng": 81.5494688
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 5.0,
+    "max_rain_place": "Hiniduma"
+  },
+  "min_temp": {
+    "min_temp": 13.6,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.5,
+    "max_temp_place": "Katunayake"
+  }
 }

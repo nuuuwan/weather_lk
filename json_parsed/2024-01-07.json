@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/34931b45ffb3de1407cd469f78f29d24.pdf",
   "date_ut": 1704565800.0,
   "date": "2024-01-07",
-  "min_temp": {
-    "min_temp": 18.2,
-    "min_temp_place": "Bandarawela"
-  },
-  "max_temp": {
-    "max_temp": 34.7,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 165.0,
-    "max_rain_place": "Negombo"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -21,6 +10,14 @@
       "rain": 0.4,
       "lat": 8.311351799999999,
       "lng": 80.4036508
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 20.6,
+      "max_temp": 27.4,
+      "rain": 0,
+      "lat": 6.993400899999999,
+      "lng": 81.0549815
     },
     {
       "place": "Bandarawela",
@@ -103,6 +100,14 @@
       "lng": 80.3608876
     },
     {
+      "place": "Maha Illuppallama",
+      "min_temp": 23.9,
+      "max_temp": 29.4,
+      "rain": 0,
+      "lat": 8.1155443,
+      "lng": 80.47207639999999
+    },
+    {
       "place": "Mannar",
       "min_temp": 26.1,
       "max_temp": 30.2,
@@ -117,6 +122,14 @@
       "rain": 0.2,
       "lat": 7.940338400000001,
       "lng": 81.0187984
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 13.4,
+      "max_temp": 21.6,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
     },
     {
       "place": "Pothuvil",
@@ -189,6 +202,14 @@
       "max_temp": null,
       "lat": 6.8577186,
       "lng": 80.5855038
+    },
+    {
+      "place": "Randenigala",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
     },
     {
       "place": "Norton",
@@ -293,6 +314,14 @@
       "max_temp": null,
       "lat": 7.200796799999999,
       "lng": 79.8736754
+    },
+    {
+      "place": "Kekirawa",
+      "rain": 13.7,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 8.042103,
+      "lng": 80.59383299999999
     },
     {
       "place": "Kirindiwela",
@@ -438,5 +467,17 @@
       "lat": 9.6614981,
       "lng": 80.02554649999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 165.0,
+    "max_rain_place": "Negombo"
+  },
+  "min_temp": {
+    "min_temp": 13.4,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.7,
+    "max_temp_place": "Rathnapura"
+  }
 }

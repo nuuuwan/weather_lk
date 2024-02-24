@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/cb19fdfa87aeb0845c391822d70c7bec.pdf",
   "date_ut": 1664649000.0,
   "date": "2022-10-02",
-  "min_temp": {
-    "min_temp": 14.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.6,
-    "max_temp_place": "Pothuvil"
-  },
-  "max_rain": {
-    "max_rain": 110.0,
-    "max_rain_place": "Castlereigh"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -21,6 +10,14 @@
       "rain": 0.0,
       "lat": 8.311351799999999,
       "lng": 80.4036508
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 19.6,
+      "max_temp": 30.6,
+      "rain": 0,
+      "lat": 6.993400899999999,
+      "lng": 81.0549815
     },
     {
       "place": "Bandarawela",
@@ -470,5 +467,17 @@
       "lat": 6.366667,
       "lng": 81.516667
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 110.0,
+    "max_rain_place": "Castlereigh"
+  },
+  "min_temp": {
+    "min_temp": 14.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.6,
+    "max_temp_place": "Pothuvil"
+  }
 }

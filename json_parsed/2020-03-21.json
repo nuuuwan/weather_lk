@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_archive_org/5af496015433d6c21986c6a755194767.pdf",
   "date_ut": 1584729000.0,
   "date": "2020-03-21",
-  "min_temp": {
-    "min_temp": 8.6,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 37.3,
-    "max_temp_place": "Kurunagala"
-  },
-  "max_rain": {
-    "max_rain": 25.6,
-    "max_rain_place": "Labugama"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -478,5 +467,17 @@
       "lat": 6.168829199999999,
       "lng": 80.1793976
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 25.6,
+    "max_rain_place": "Labugama"
+  },
+  "min_temp": {
+    "min_temp": 8.6,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 37.3,
+    "max_temp_place": "Kurunagala"
+  }
 }

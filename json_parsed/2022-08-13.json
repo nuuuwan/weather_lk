@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/eca5a3ea39f3cd5459e4fb3cc4e6f7cb.pdf",
   "date_ut": 1660329000.0,
   "date": "2022-08-13",
-  "min_temp": {
-    "min_temp": 18.2,
-    "min_temp_place": "Badulla"
-  },
-  "max_temp": {
-    "max_temp": 35.4,
-    "max_temp_place": "Trincomalee"
-  },
-  "max_rain": {
-    "max_rain": 0.3,
-    "max_rain_place": "Monaragala"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -53,6 +42,14 @@
       "rain": 0.0,
       "lat": 6.9270786,
       "lng": 79.861243
+    },
+    {
+      "place": "Galle",
+      "min_temp": 26.0,
+      "max_temp": 28.4,
+      "rain": 0,
+      "lat": 6.032894799999999,
+      "lng": 80.2167912
     },
     {
       "place": "Hambanthota",
@@ -125,6 +122,14 @@
       "rain": 0.0,
       "lat": 7.940338400000001,
       "lng": 81.0187984
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 14.4,
+      "max_temp": 20.0,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
     },
     {
       "place": "Pothuvil",
@@ -454,5 +459,17 @@
       "lat": 7.414383099999999,
       "lng": 81.8306334
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 0.3,
+    "max_rain_place": "Monaragala"
+  },
+  "min_temp": {
+    "min_temp": 14.4,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.4,
+    "max_temp_place": "Trincomalee"
+  }
 }

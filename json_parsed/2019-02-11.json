@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_archive_org/9565de7897dba07fb9665a35eddd959b.pdf",
   "date_ut": 1549823400.0,
   "date": "2019-02-11",
-  "min_temp": {
-    "min_temp": 12.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.5,
-    "max_temp_place": "Mattla"
-  },
-  "max_rain": {
-    "max_rain": 76.0,
-    "max_rain_place": "Balangoda"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -470,5 +459,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 76.0,
+    "max_rain_place": "Balangoda"
+  },
+  "min_temp": {
+    "min_temp": 12.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.5,
+    "max_temp_place": "Mattla"
+  }
 }

@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/73105aa6613ad255e1f70e77103a8e31.pdf",
   "date_ut": 1629052200.0,
   "date": "2021-08-16",
-  "min_temp": {
-    "min_temp": 17.4,
-    "min_temp_place": "Bandarawela"
-  },
-  "max_temp": {
-    "max_temp": 34.7,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 14.3,
-    "max_rain_place": "Vavuniya"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -111,6 +100,14 @@
       "lng": 80.3608876
     },
     {
+      "place": "Maha Illuppallama",
+      "min_temp": 25.4,
+      "max_temp": 32.3,
+      "rain": 0,
+      "lat": 8.1155443,
+      "lng": 80.47207639999999
+    },
+    {
       "place": "Mannar",
       "min_temp": 26.7,
       "max_temp": 30.5,
@@ -125,6 +122,14 @@
       "rain": 0.0,
       "lat": 7.940338400000001,
       "lng": 81.0187984
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 13.3,
+      "max_temp": 20.0,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
     },
     {
       "place": "Pothuvil",
@@ -183,6 +188,14 @@
       "lng": 81.12460077774537
     },
     {
+      "place": "Mullaithivu",
+      "min_temp": 25.7,
+      "max_temp": 31.6,
+      "rain": 0,
+      "lat": 9.2670911,
+      "lng": 80.81424799999999
+    },
+    {
       "place": "Maskeliya",
       "rain": 2.5,
       "min_temp": null,
@@ -190,5 +203,17 @@
       "lat": 6.832929399999999,
       "lng": 80.5709256
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 14.3,
+    "max_rain_place": "Vavuniya"
+  },
+  "min_temp": {
+    "min_temp": 13.3,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.7,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

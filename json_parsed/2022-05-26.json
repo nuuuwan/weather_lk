@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/ba075aaab03e4b33e0214e9b92fa5d7e.pdf",
   "date_ut": 1653503400.0,
   "date": "2022-05-26",
-  "min_temp": {
-    "min_temp": 15.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.7,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 42.3,
-    "max_rain_place": "Kamalasram"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -77,6 +66,14 @@
       "rain": 0.0,
       "lat": 9.6614981,
       "lng": 80.02554649999999
+    },
+    {
+      "place": "Monaragala",
+      "min_temp": 24.7,
+      "max_temp": 34.7,
+      "rain": 0,
+      "lat": 6.890645399999999,
+      "lng": 81.34544170000001
     },
     {
       "place": "Katugasthota",
@@ -470,5 +467,17 @@
       "lat": 6.850000000000001,
       "lng": 80.2
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 42.3,
+    "max_rain_place": "Kamalasram"
+  },
+  "min_temp": {
+    "min_temp": 15.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.7,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

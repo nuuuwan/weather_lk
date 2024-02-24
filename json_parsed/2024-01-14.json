@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/af9909a375f1c2a22ff5ae10b0354a8f.pdf",
   "date_ut": 1705170600.0,
   "date": "2024-01-14",
-  "min_temp": {
-    "min_temp": 8.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.7,
-    "max_temp_place": "Rathmalana"
-  },
-  "max_rain": {
-    "max_rain": 4.7,
-    "max_rain_place": "Kalmunai"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -29,6 +18,14 @@
       "rain": 0.0,
       "lat": 6.993400899999999,
       "lng": 81.0549815
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 14.3,
+      "max_temp": 23.6,
+      "rain": 0,
+      "lat": 6.825877999999999,
+      "lng": 80.9981576
     },
     {
       "place": "Batticaloa",
@@ -470,5 +467,17 @@
       "lat": 6.936070099999999,
       "lng": 79.84504969999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 4.7,
+    "max_rain_place": "Kalmunai"
+  },
+  "min_temp": {
+    "min_temp": 8.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.7,
+    "max_temp_place": "Rathmalana"
+  }
 }

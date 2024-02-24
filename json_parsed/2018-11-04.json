@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_archive_org/a0c25feb903179ca536eafc9b2a9b29d.pdf",
   "date_ut": 1541269800.0,
   "date": "2018-11-04",
-  "min_temp": {
-    "min_temp": 14.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.7,
-    "max_temp_place": "Puttalam"
-  },
-  "max_rain": {
-    "max_rain": 50.7,
-    "max_rain_place": "Hanwella"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -486,5 +475,17 @@
       "lat": 8.042103,
       "lng": 80.59383299999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 50.7,
+    "max_rain_place": "Hanwella"
+  },
+  "min_temp": {
+    "min_temp": 14.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.7,
+    "max_temp_place": "Puttalam"
+  }
 }

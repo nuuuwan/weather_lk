@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_archive_org/245d79b8b0020b4c44e6e2288ea6878d.pdf",
   "date_ut": 1561228200.0,
   "date": "2019-06-23",
-  "min_temp": {
-    "min_temp": 13.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 38.5,
-    "max_temp_place": "Batticaloa"
-  },
-  "max_rain": {
-    "max_rain": 48.7,
-    "max_rain_place": "Baddegama"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -63,6 +52,14 @@
       "lng": 80.2167912
     },
     {
+      "place": "Hambanthota",
+      "min_temp": 26.1,
+      "max_temp": 33.7,
+      "rain": 0,
+      "lat": 6.1428829,
+      "lng": 81.12123079999999
+    },
+    {
       "place": "Jaffna",
       "min_temp": 29.1,
       "max_temp": 34.5,
@@ -87,6 +84,14 @@
       "lng": 80.62297869999999
     },
     {
+      "place": "Katunayake",
+      "min_temp": 24.7,
+      "max_temp": 31.4,
+      "rain": 0,
+      "lat": 7.172484899999999,
+      "lng": 79.8853484
+    },
+    {
       "place": "Kurunagala",
       "min_temp": 25.1,
       "max_temp": 32.3,
@@ -101,6 +106,22 @@
       "rain": 0.0,
       "lat": 8.1155443,
       "lng": 80.47207639999999
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 28.6,
+      "max_temp": 32.0,
+      "rain": 0,
+      "lat": 8.980974300000002,
+      "lng": 79.90441489999999
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 27.5,
+      "max_temp": 35.9,
+      "rain": 0,
+      "lat": 7.940338400000001,
+      "lng": 81.0187984
     },
     {
       "place": "Nuwara Eliya",
@@ -454,5 +475,17 @@
       "lat": 7.166710300000001,
       "lng": 80.1233175
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 48.7,
+    "max_rain_place": "Baddegama"
+  },
+  "min_temp": {
+    "min_temp": 13.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 38.5,
+    "max_temp_place": "Batticaloa"
+  }
 }

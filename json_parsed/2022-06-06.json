@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/f2c492e6c8b75544d4cd0afdc5815468.pdf",
   "date_ut": 1654453800.0,
   "date": "2022-06-06",
-  "min_temp": {
-    "min_temp": 17.2,
-    "min_temp_place": "Bandarawela"
-  },
-  "max_temp": {
-    "max_temp": 36.2,
-    "max_temp_place": "Pothuvil"
-  },
-  "max_rain": {
-    "max_rain": 78.9,
-    "max_rain_place": "Mapalana"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -135,6 +124,14 @@
       "lng": 81.0187984
     },
     {
+      "place": "Nuwara Eliya",
+      "min_temp": 13.9,
+      "max_temp": 21.5,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
+    },
+    {
       "place": "Pothuvil",
       "min_temp": 26.0,
       "max_temp": 36.2,
@@ -181,6 +178,14 @@
       "rain": 0.0,
       "lat": 8.7542029,
       "lng": 80.4982402
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 24.9,
+      "max_temp": 32.5,
+      "rain": 0,
+      "lat": 6.288780374382144,
+      "lng": 81.12460077774537
     },
     {
       "place": "Castlereigh",
@@ -462,5 +467,17 @@
       "lat": 6.109917299999999,
       "lng": 80.901416
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 78.9,
+    "max_rain_place": "Mapalana"
+  },
+  "min_temp": {
+    "min_temp": 13.9,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.2,
+    "max_temp_place": "Pothuvil"
+  }
 }

@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/d4dfc090b290c63d501c41d7f101d6ea.pdf",
   "date_ut": 1682879400.0,
   "date": "2023-05-01",
-  "min_temp": {
-    "min_temp": 13.6,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.8,
-    "max_temp_place": "Jaffna"
-  },
-  "max_rain": {
-    "max_rain": 103.2,
-    "max_rain_place": "Mediyawa"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -478,5 +467,17 @@
       "lat": 7.399152799999999,
       "lng": 80.73345549999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 103.2,
+    "max_rain_place": "Mediyawa"
+  },
+  "min_temp": {
+    "min_temp": 13.6,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.8,
+    "max_temp_place": "Jaffna"
+  }
 }

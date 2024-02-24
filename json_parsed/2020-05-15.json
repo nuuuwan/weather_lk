@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_archive_org/6144be33b001a0bb4a89b96a1af01436.pdf",
   "date_ut": 1589481000.0,
   "date": "2020-05-15",
-  "min_temp": {
-    "min_temp": 15.1,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.2,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 54.7,
-    "max_rain_place": "Kundasale"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -478,5 +467,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 54.7,
+    "max_rain_place": "Kundasale"
+  },
+  "min_temp": {
+    "min_temp": 15.1,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.2,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

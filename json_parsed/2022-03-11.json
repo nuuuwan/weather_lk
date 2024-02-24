@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/d30288b4134813b2c2081b5dd22eeb6b.pdf",
   "date_ut": 1646937000.0,
   "date": "2022-03-11",
-  "min_temp": {
-    "min_temp": 10.6,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 37.2,
-    "max_temp_place": "Kurunagala"
-  },
-  "max_rain": {
-    "max_rain": 35.0,
-    "max_rain_place": "Karagala"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -454,5 +443,17 @@
       "lat": 9.516667000000002,
       "lng": 79.68333299999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 35.0,
+    "max_rain_place": "Karagala"
+  },
+  "min_temp": {
+    "min_temp": 10.6,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 37.2,
+    "max_temp_place": "Kurunagala"
+  }
 }

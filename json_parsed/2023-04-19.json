@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/f70b28e22185d16c8aafca912322a71c.pdf",
   "date_ut": 1681842600.0,
   "date": "2023-04-19",
-  "min_temp": {
-    "min_temp": 9.6,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 36.1,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 16.3,
-    "max_rain_place": "Batuwangala"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -165,6 +154,14 @@
       "rain": 0.0,
       "lat": 6.8195453,
       "lng": 79.8800832
+    },
+    {
+      "place": "Rathnapura",
+      "min_temp": 24.2,
+      "max_temp": 34.7,
+      "rain": 0,
+      "lat": 6.7055742,
+      "lng": 80.3847345
     },
     {
       "place": "Trincomalee",
@@ -470,5 +467,17 @@
       "lat": 6.816058099999999,
       "lng": 80.96914749999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 16.3,
+    "max_rain_place": "Batuwangala"
+  },
+  "min_temp": {
+    "min_temp": 9.6,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.1,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

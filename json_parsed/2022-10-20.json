@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/2499d44d7d5436b8079b120246e5d847.pdf",
   "date_ut": 1666204200.0,
   "date": "2022-10-20",
-  "min_temp": {
-    "min_temp": 14.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.2,
-    "max_temp_place": "Mattla"
-  },
-  "max_rain": {
-    "max_rain": 80.7,
-    "max_rain_place": "Wevalthalawa"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -21,6 +10,14 @@
       "rain": 0.6,
       "lat": 8.311351799999999,
       "lng": 80.4036508
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 20.2,
+      "max_temp": 28.6,
+      "rain": 0,
+      "lat": 6.993400899999999,
+      "lng": 81.0549815
     },
     {
       "place": "Bandarawela",
@@ -39,12 +36,28 @@
       "lng": 81.6966911
     },
     {
+      "place": "Colombo",
+      "min_temp": 26.8,
+      "max_temp": 29.7,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
+    },
+    {
       "place": "Galle",
       "min_temp": 25.0,
       "max_temp": 28.1,
       "rain": 3.4,
       "lat": 6.032894799999999,
       "lng": 80.2167912
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 25.9,
+      "max_temp": 34.6,
+      "rain": 0,
+      "lat": 6.1428829,
+      "lng": 81.12123079999999
     },
     {
       "place": "Jaffna",
@@ -119,12 +132,28 @@
       "lng": 80.7891068
     },
     {
+      "place": "Pothuvil",
+      "min_temp": 25.6,
+      "max_temp": 32.0,
+      "rain": 0,
+      "lat": 6.875270599999999,
+      "lng": 81.8306334
+    },
+    {
       "place": "Puttalam",
       "min_temp": 26.6,
       "max_temp": 30.8,
       "rain": 0.0,
       "lat": 8.0407913,
       "lng": 79.839386
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 26.3,
+      "max_temp": 30.5,
+      "rain": 0,
+      "lat": 6.8195453,
+      "lng": 79.8800832
     },
     {
       "place": "Rathnapura",
@@ -141,6 +170,14 @@
       "rain": 37.5,
       "lat": 8.5873638,
       "lng": 81.2152121
+    },
+    {
+      "place": "Vavuniya",
+      "min_temp": 23.7,
+      "max_temp": 33.3,
+      "rain": 0,
+      "lat": 8.7542029,
+      "lng": 80.4982402
     },
     {
       "place": "Mattla",
@@ -430,5 +467,17 @@
       "lat": 7.226803299999998,
       "lng": 80.1958755
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 80.7,
+    "max_rain_place": "Wevalthalawa"
+  },
+  "min_temp": {
+    "min_temp": 14.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.6,
+    "max_temp_place": "Hambanthota"
+  }
 }

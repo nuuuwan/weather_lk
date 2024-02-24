@@ -1,19 +1,16 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/c9c8ada7499b943aea67ddda5182c17d.pdf",
   "date_ut": 1637346600.0,
   "date": "2021-11-20",
-  "min_temp": {
-    "min_temp": 12.4,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.8,
-    "max_temp_place": "Pothuvil"
-  },
-  "max_rain": {
-    "max_rain": 74.3,
-    "max_rain_place": "Ambepussa"
-  },
   "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 24.3,
+      "max_temp": 31.1,
+      "rain": 0,
+      "lat": 8.311351799999999,
+      "lng": 80.4036508
+    },
     {
       "place": "Badulla",
       "min_temp": 17.6,
@@ -29,6 +26,14 @@
       "rain": 13.6,
       "lat": 6.825877999999999,
       "lng": 80.9981576
+    },
+    {
+      "place": "Batticaloa",
+      "min_temp": 24.9,
+      "max_temp": 30.4,
+      "rain": 0,
+      "lat": 7.7249146,
+      "lng": 81.6966911
     },
     {
       "place": "Colombo",
@@ -111,6 +116,14 @@
       "lng": 79.90441489999999
     },
     {
+      "place": "Polonnaruwa",
+      "min_temp": 22.8,
+      "max_temp": 33.2,
+      "rain": 0,
+      "lat": 7.940338400000001,
+      "lng": 81.0187984
+    },
+    {
       "place": "Nuwara Eliya",
       "min_temp": 12.4,
       "max_temp": 20.3,
@@ -125,6 +138,14 @@
       "rain": 11.2,
       "lat": 6.875270599999999,
       "lng": 81.8306334
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 26.7,
+      "max_temp": 30.7,
+      "rain": 0,
+      "lat": 8.0407913,
+      "lng": 79.839386
     },
     {
       "place": "Rathmalana",
@@ -454,5 +475,17 @@
       "lat": 6.855948499999999,
       "lng": 79.86296829999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 74.3,
+    "max_rain_place": "Ambepussa"
+  },
+  "min_temp": {
+    "min_temp": 12.4,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.2,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

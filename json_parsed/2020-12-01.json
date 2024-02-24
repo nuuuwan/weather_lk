@@ -1,19 +1,16 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_archive_org/43aae5a0b6fe33699bd301afb24628b3.pdf",
   "date_ut": 1606761000.0,
   "date": "2020-12-01",
-  "min_temp": {
-    "min_temp": 10.8,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.7,
-    "max_temp_place": "Rathmalana"
-  },
-  "max_rain": {
-    "max_rain": 37.0,
-    "max_rain_place": "Maha"
-  },
   "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 23.2,
+      "max_temp": 31.5,
+      "rain": 0,
+      "lat": 8.311351799999999,
+      "lng": 80.4036508
+    },
     {
       "place": "Badulla",
       "min_temp": 19.2,
@@ -470,5 +467,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 37.0,
+    "max_rain_place": "Maha"
+  },
+  "min_temp": {
+    "min_temp": 10.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.7,
+    "max_temp_place": "Rathmalana"
+  }
 }

@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/ab9b8af4cd6f97c4467bbf9e89173fe9.pdf",
   "date_ut": 1669660200.0,
   "date": "2022-11-29",
-  "min_temp": {
-    "min_temp": 11.8,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.5,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 88.5,
-    "max_rain_place": "Deniyaya"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -63,12 +52,28 @@
       "lng": 80.2167912
     },
     {
+      "place": "Hambanthota",
+      "min_temp": 25.0,
+      "max_temp": 31.9,
+      "rain": 0,
+      "lat": 6.1428829,
+      "lng": 81.12123079999999
+    },
+    {
       "place": "Jaffna",
       "min_temp": 22.7,
       "max_temp": 30.2,
       "rain": 0.0,
       "lat": 9.6614981,
       "lng": 80.02554649999999
+    },
+    {
+      "place": "Monaragala",
+      "min_temp": 21.4,
+      "max_temp": 32.9,
+      "rain": 0,
+      "lat": 6.890645399999999,
+      "lng": 81.34544170000001
     },
     {
       "place": "Katugasthota",
@@ -93,6 +98,14 @@
       "rain": 0.0,
       "lat": 7.4817695,
       "lng": 80.3608876
+    },
+    {
+      "place": "Maha Illuppallama",
+      "min_temp": 22.0,
+      "max_temp": 32.4,
+      "rain": 0,
+      "lat": 8.1155443,
+      "lng": 80.47207639999999
     },
     {
       "place": "Mannar",
@@ -454,5 +467,17 @@
       "lat": 9.6071274,
       "lng": 79.76522109999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 88.5,
+    "max_rain_place": "Deniyaya"
+  },
+  "min_temp": {
+    "min_temp": 11.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.5,
+    "max_temp_place": "Rathnapura"
+  }
 }

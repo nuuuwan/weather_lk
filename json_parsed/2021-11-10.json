@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/bbf6f273f25f1ed5aabcfbb0c169f5ab.pdf",
   "date_ut": 1636482600.0,
   "date": "2021-11-10",
-  "min_temp": {
-    "min_temp": 14.3,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 31.8,
-    "max_temp_place": "Mattla"
-  },
-  "max_rain": {
-    "max_rain": 189.0,
-    "max_rain_place": "Point Pedro"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -478,5 +467,17 @@
       "lat": 9.6614981,
       "lng": 80.02554649999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 189.0,
+    "max_rain_place": "Point Pedro"
+  },
+  "min_temp": {
+    "min_temp": 14.3,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 31.8,
+    "max_temp_place": "Mattla"
+  }
 }

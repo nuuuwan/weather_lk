@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/0096db0d8e7aa541ef29d250f77f4134.pdf",
   "date_ut": 1649874600.0,
   "date": "2022-04-14",
-  "min_temp": {
-    "min_temp": 13.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.0,
-    "max_temp_place": "Vavuniya"
-  },
-  "max_rain": {
-    "max_rain": 85.2,
-    "max_rain_place": "Point Pedro"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -21,6 +10,14 @@
       "rain": 29.1,
       "lat": 8.311351799999999,
       "lng": 80.4036508
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 18.4,
+      "max_temp": 29.6,
+      "rain": 0,
+      "lat": 6.993400899999999,
+      "lng": 81.0549815
     },
     {
       "place": "Bandarawela",
@@ -117,6 +114,14 @@
       "rain": 28.1,
       "lat": 8.980974300000002,
       "lng": 79.90441489999999
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 23.4,
+      "max_temp": 33.4,
+      "rain": 0,
+      "lat": 7.940338400000001,
+      "lng": 81.0187984
     },
     {
       "place": "Nuwara Eliya",
@@ -462,5 +467,17 @@
       "lat": 7.4924001,
       "lng": 79.9108744
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 85.2,
+    "max_rain_place": "Point Pedro"
+  },
+  "min_temp": {
+    "min_temp": 13.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.0,
+    "max_temp_place": "Vavuniya"
+  }
 }

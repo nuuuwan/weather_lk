@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_archive_org/f046a3bc68d138a1faceae78e60918eb.pdf",
   "date_ut": 1541529000.0,
   "date": "2018-11-07",
-  "min_temp": {
-    "min_temp": 14.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 27.9,
-    "max_temp_place": "Hambanthota"
-  },
-  "max_rain": {
-    "max_rain": 342.3,
-    "max_rain_place": "Passikuda Eatste"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -157,6 +146,22 @@
       "rain": 8.6,
       "lat": 8.0407913,
       "lng": 79.839386
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 23.1,
+      "max_temp": 27.0,
+      "rain": 0,
+      "lat": 6.8195453,
+      "lng": 79.8800832
+    },
+    {
+      "place": "Rathnapura",
+      "min_temp": 22.8,
+      "max_temp": 26.8,
+      "rain": 0,
+      "lat": 6.7055742,
+      "lng": 80.3847345
     },
     {
       "place": "Trincomalee",
@@ -462,5 +467,17 @@
       "lat": 7.7693494,
       "lng": 81.1747498
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 342.3,
+    "max_rain_place": "Passikuda Eatste"
+  },
+  "min_temp": {
+    "min_temp": 14.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 27.9,
+    "max_temp_place": "Hambanthota"
+  }
 }

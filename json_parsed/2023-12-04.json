@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/1e8e0077987915c96c015644751bb3e4.pdf",
   "date_ut": 1701628200.0,
   "date": "2023-12-04",
-  "min_temp": {
-    "min_temp": 15.7,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.5,
-    "max_temp_place": "Monaragala"
-  },
-  "max_rain": {
-    "max_rain": 160.5,
-    "max_rain_place": "Benthotawatta"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -69,6 +58,14 @@
       "rain": 16.6,
       "lat": 6.1428829,
       "lng": 81.12123079999999
+    },
+    {
+      "place": "Jaffna",
+      "min_temp": 25.5,
+      "max_temp": 28.8,
+      "rain": 0,
+      "lat": 9.6614981,
+      "lng": 80.02554649999999
     },
     {
       "place": "Monaragala",
@@ -470,5 +467,17 @@
       "lat": 6.3424847,
       "lng": 80.5596582
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 160.5,
+    "max_rain_place": "Benthotawatta"
+  },
+  "min_temp": {
+    "min_temp": 15.7,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.5,
+    "max_temp_place": "Monaragala"
+  }
 }

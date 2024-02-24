@@ -1,19 +1,16 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/2edf5c2053423ce19a61d266c370348a.pdf",
   "date_ut": 1683052200.0,
   "date": "2023-05-03",
-  "min_temp": {
-    "min_temp": 13.9,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.0,
-    "max_temp_place": "Mattla"
-  },
-  "max_rain": {
-    "max_rain": 74.8,
-    "max_rain_place": "Thellippallei"
-  },
   "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 24.7,
+      "max_temp": 30.2,
+      "rain": 0,
+      "lat": 8.311351799999999,
+      "lng": 80.4036508
+    },
     {
       "place": "Badulla",
       "min_temp": 19.8,
@@ -101,6 +98,14 @@
       "rain": 23.1,
       "lat": 7.4817695,
       "lng": 80.3608876
+    },
+    {
+      "place": "Maha Illuppallama",
+      "min_temp": 24.1,
+      "max_temp": 31.2,
+      "rain": 0,
+      "lat": 8.1155443,
+      "lng": 80.47207639999999
     },
     {
       "place": "Mannar",
@@ -462,5 +467,17 @@
       "lat": 7.922822999999998,
       "lng": 81.56512699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 74.8,
+    "max_rain_place": "Thellippallei"
+  },
+  "min_temp": {
+    "min_temp": 13.9,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.0,
+    "max_temp_place": "Mattla"
+  }
 }

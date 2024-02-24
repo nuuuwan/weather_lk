@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_archive_org/873eade2bf5450e9ff3e0e39ba25e3aa.pdf",
   "date_ut": 1575311400.0,
   "date": "2019-12-03",
-  "min_temp": {
-    "min_temp": 14.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.0,
-    "max_temp_place": "Rathmalana"
-  },
-  "max_rain": {
-    "max_rain": 150.0,
-    "max_rain_place": "Kiran"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -45,6 +34,14 @@
       "rain": 77.9,
       "lat": 7.7249146,
       "lng": 81.6966911
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 24.8,
+      "max_temp": 31.2,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
     },
     {
       "place": "Galle",
@@ -85,6 +82,14 @@
       "rain": 0.8,
       "lat": 7.3251558,
       "lng": 80.62297869999999
+    },
+    {
+      "place": "Katunayake",
+      "min_temp": 24.1,
+      "max_temp": 31.2,
+      "rain": 0,
+      "lat": 7.172484899999999,
+      "lng": 79.8853484
     },
     {
       "place": "Kurunagala",
@@ -462,5 +467,17 @@
       "lat": 7.2847427,
       "lng": 81.78578850000001
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 150.0,
+    "max_rain_place": "Kiran"
+  },
+  "min_temp": {
+    "min_temp": 14.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.0,
+    "max_temp_place": "Rathmalana"
+  }
 }

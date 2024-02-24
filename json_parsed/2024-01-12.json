@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/ce081d22007bd544023b1b7f1c7000b7.pdf",
   "date_ut": 1704997800.0,
   "date": "2024-01-12",
-  "min_temp": {
-    "min_temp": 19.4,
-    "min_temp_place": "Badulla"
-  },
-  "max_temp": {
-    "max_temp": 31.8,
-    "max_temp_place": "Rathmalana"
-  },
-  "max_rain": {
-    "max_rain": 36.0,
-    "max_rain_place": "Colombo Fort"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -29,6 +18,22 @@
       "rain": 0.9,
       "lat": 6.993400899999999,
       "lng": 81.0549815
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 16.7,
+      "max_temp": 22.1,
+      "rain": 0,
+      "lat": 6.825877999999999,
+      "lng": 80.9981576
+    },
+    {
+      "place": "Batticaloa",
+      "min_temp": 24.0,
+      "max_temp": 28.8,
+      "rain": 0,
+      "lat": 7.7249146,
+      "lng": 81.6966911
     },
     {
       "place": "Colombo",
@@ -55,6 +60,14 @@
       "lng": 81.12123079999999
     },
     {
+      "place": "Jaffna",
+      "min_temp": 23.9,
+      "max_temp": 28.8,
+      "rain": 0,
+      "lat": 9.6614981,
+      "lng": 80.02554649999999
+    },
+    {
       "place": "Monaragala",
       "min_temp": 23.5,
       "max_temp": 28.4,
@@ -69,6 +82,22 @@
       "rain": 0.2,
       "lat": 7.3251558,
       "lng": 80.62297869999999
+    },
+    {
+      "place": "Katunayake",
+      "min_temp": 24.9,
+      "max_temp": 31.6,
+      "rain": 0,
+      "lat": 7.172484899999999,
+      "lng": 79.8853484
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 23.7,
+      "max_temp": 29.8,
+      "rain": 0,
+      "lat": 7.4817695,
+      "lng": 80.3608876
     },
     {
       "place": "Maha Illuppallama",
@@ -93,6 +122,14 @@
       "rain": 0.1,
       "lat": 7.940338400000001,
       "lng": 81.0187984
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 13.9,
+      "max_temp": 20.1,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
     },
     {
       "place": "Pothuvil",
@@ -151,12 +188,28 @@
       "lng": 81.12460077774537
     },
     {
+      "place": "Mullaitivu",
+      "min_temp": 26.9,
+      "max_temp": 29.6,
+      "rain": 0,
+      "lat": 9.2670911,
+      "lng": 80.81424799999999
+    },
+    {
       "place": "Castlereigh",
       "rain": 0.0,
       "min_temp": null,
       "max_temp": null,
       "lat": 6.8577186,
       "lng": 80.5855038
+    },
+    {
+      "place": "Randenigala",
+      "rain": 2.2,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
     },
     {
       "place": "Norton",
@@ -261,6 +314,14 @@
       "max_temp": null,
       "lat": 6.936070099999999,
       "lng": 79.84504969999999
+    },
+    {
+      "place": "Gonapitiya Merigold",
+      "rain": 2.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.042666,
+      "lng": 80.8128636
     },
     {
       "place": "Hope",
@@ -406,5 +467,17 @@
       "lat": 7.3096237,
       "lng": 80.7103532
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 36.0,
+    "max_rain_place": "Colombo Fort"
+  },
+  "min_temp": {
+    "min_temp": 13.9,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 31.8,
+    "max_temp_place": "Rathmalana"
+  }
 }

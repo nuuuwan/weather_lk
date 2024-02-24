@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/80cce55c7100acd5da23dd6a00d4f015.pdf",
   "date_ut": 1651170600.0,
   "date": "2022-04-29",
-  "min_temp": {
-    "min_temp": 12.1,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.3,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 81.7,
-    "max_rain_place": "Mihinthale"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -69,6 +58,14 @@
       "rain": 0.0,
       "lat": 6.1428829,
       "lng": 81.12123079999999
+    },
+    {
+      "place": "Jaffna",
+      "min_temp": 27.7,
+      "max_temp": 33.3,
+      "rain": 0,
+      "lat": 9.6614981,
+      "lng": 80.02554649999999
     },
     {
       "place": "Monaragala",
@@ -478,5 +475,17 @@
       "lat": 9.5044995,
       "lng": 80.402048
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 81.7,
+    "max_rain_place": "Mihinthale"
+  },
+  "min_temp": {
+    "min_temp": 12.1,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.3,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

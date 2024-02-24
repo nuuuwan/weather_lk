@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/5726e4cb5f167780bd968d05580e229b.pdf",
   "date_ut": 1707330600.0,
   "date": "2024-02-08",
-  "min_temp": {
-    "min_temp": 13.5,
-    "min_temp_place": "Bandarawela"
-  },
-  "max_temp": {
-    "max_temp": 34.0,
-    "max_temp_place": "Katunayake"
-  },
-  "max_rain": {
-    "max_rain": 0.0,
-    "max_rain_place": "Anuradhapura"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -215,6 +204,14 @@
       "lng": 80.5855038
     },
     {
+      "place": "Randenigala",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
+    },
+    {
       "place": "Norton",
       "rain": 0.0,
       "min_temp": null,
@@ -325,6 +322,14 @@
       "max_temp": null,
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
+    },
+    {
+      "place": "Mahadowa",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.0175672,
+      "lng": 81.16648099999999
     },
     {
       "place": "Parangiyawadiya",
@@ -470,5 +475,17 @@
       "lat": 6.936070099999999,
       "lng": 79.84504969999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 0.0,
+    "max_rain_place": "Anuradhapura"
+  },
+  "min_temp": {
+    "min_temp": 13.5,
+    "min_temp_place": "Bandarawela"
+  },
+  "max_temp": {
+    "max_temp": 34.0,
+    "max_temp_place": "Katunayake"
+  }
 }

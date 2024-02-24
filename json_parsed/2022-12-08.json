@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/cbeba55dcc5efa6df746e0fe8a41bf77.pdf",
   "date_ut": 1670437800.0,
   "date": "2022-12-08",
-  "min_temp": {
-    "min_temp": 11.2,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 31.3,
-    "max_temp_place": "Rathmalana"
-  },
-  "max_rain": {
-    "max_rain": 30.0,
-    "max_rain_place": "Vakarai Kaddumurivu"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -103,6 +92,14 @@
       "lng": 79.8853484
     },
     {
+      "place": "Kurunagala",
+      "min_temp": 21.5,
+      "max_temp": 27.6,
+      "rain": 0,
+      "lat": 7.4817695,
+      "lng": 80.3608876
+    },
+    {
       "place": "Maha Illuppallama",
       "min_temp": 21.2,
       "max_temp": 26.4,
@@ -141,6 +138,14 @@
       "rain": 0.0,
       "lat": 6.875270599999999,
       "lng": 81.8306334
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 23.8,
+      "max_temp": 28.4,
+      "rain": 0,
+      "lat": 8.0407913,
+      "lng": 79.839386
     },
     {
       "place": "Rathmalana",
@@ -470,5 +475,17 @@
       "lat": 8.6886111,
       "lng": 80.4233333
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 30.0,
+    "max_rain_place": "Vakarai Kaddumurivu"
+  },
+  "min_temp": {
+    "min_temp": 11.2,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 31.3,
+    "max_temp_place": "Rathmalana"
+  }
 }

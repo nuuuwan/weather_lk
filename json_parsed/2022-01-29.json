@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/20318c0683453425b7fde3947e435a18.pdf",
   "date_ut": 1643394600.0,
   "date": "2022-01-29",
-  "min_temp": {
-    "min_temp": 8.9,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.3,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 14.1,
-    "max_rain_place": "Vavuniya"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -37,6 +26,14 @@
       "rain": 0.0,
       "lat": 6.825877999999999,
       "lng": 80.9981576
+    },
+    {
+      "place": "Batticaloa",
+      "min_temp": 25.0,
+      "max_temp": 29.4,
+      "rain": 0,
+      "lat": 7.7249146,
+      "lng": 81.6966911
     },
     {
       "place": "Colombo",
@@ -93,6 +90,14 @@
       "rain": 0.0,
       "lat": 7.172484899999999,
       "lng": 79.8853484
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 22.1,
+      "max_temp": 33.6,
+      "rain": 0,
+      "lat": 7.4817695,
+      "lng": 80.3608876
     },
     {
       "place": "Maha Illuppallama",
@@ -173,6 +178,14 @@
       "rain": 14.1,
       "lat": 8.7542029,
       "lng": 80.4982402
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 22.1,
+      "max_temp": 33.3,
+      "rain": 0,
+      "lat": 6.288780374382144,
+      "lng": 81.12460077774537
     },
     {
       "place": "Mullaithivu",
@@ -454,5 +467,17 @@
       "lat": 7.5166977,
       "lng": 81.0285377
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 14.1,
+    "max_rain_place": "Vavuniya"
+  },
+  "min_temp": {
+    "min_temp": 8.9,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.6,
+    "max_temp_place": "Kurunagala"
+  }
 }

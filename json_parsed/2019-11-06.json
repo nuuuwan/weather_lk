@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_archive_org/b1a2016483de1e5dd5ed2d3bbc98b128.pdf",
   "date_ut": 1572978600.0,
   "date": "2019-11-06",
-  "min_temp": {
-    "min_temp": 9.2,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.6,
-    "max_temp_place": "Anuradhapura"
-  },
-  "max_rain": {
-    "max_rain": 74.0,
-    "max_rain_place": "Ekgal"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -37,6 +26,14 @@
       "rain": 0.3,
       "lat": 6.825877999999999,
       "lng": 80.9981576
+    },
+    {
+      "place": "Batticaloa",
+      "min_temp": 25.4,
+      "max_temp": 30.4,
+      "rain": 0,
+      "lat": 7.7249146,
+      "lng": 81.6966911
     },
     {
       "place": "Colombo",
@@ -470,5 +467,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 74.0,
+    "max_rain_place": "Ekgal"
+  },
+  "min_temp": {
+    "min_temp": 9.2,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.6,
+    "max_temp_place": "Anuradhapura"
+  }
 }

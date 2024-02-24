@@ -1,19 +1,16 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/8e8df5b723b67373fbaa32c4da89e93f.pdf",
   "date_ut": 1680978600.0,
   "date": "2023-04-09",
-  "min_temp": {
-    "min_temp": 9.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.8,
-    "max_temp_place": "Puttalam"
-  },
-  "max_rain": {
-    "max_rain": 77.1,
-    "max_rain_place": "Mattla"
-  },
   "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 24.4,
+      "max_temp": 32.9,
+      "rain": 0,
+      "lat": 8.311351799999999,
+      "lng": 80.4036508
+    },
     {
       "place": "Badulla",
       "min_temp": 18.7,
@@ -39,12 +36,28 @@
       "lng": 81.6966911
     },
     {
+      "place": "Colombo",
+      "min_temp": 24.3,
+      "max_temp": 31.3,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
+    },
+    {
       "place": "Galle",
       "min_temp": 24.4,
       "max_temp": 28.2,
       "rain": 0.2,
       "lat": 6.032894799999999,
       "lng": 80.2167912
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 24.7,
+      "max_temp": 29.2,
+      "rain": 0,
+      "lat": 6.1428829,
+      "lng": 81.12123079999999
     },
     {
       "place": "Jaffna",
@@ -87,6 +100,14 @@
       "lng": 80.3608876
     },
     {
+      "place": "Maha Illuppallama",
+      "min_temp": 22.4,
+      "max_temp": 33.5,
+      "rain": 0,
+      "lat": 8.1155443,
+      "lng": 80.47207639999999
+    },
+    {
       "place": "Mannar",
       "min_temp": 26.3,
       "max_temp": 33.4,
@@ -125,6 +146,14 @@
       "rain": 3.6,
       "lat": 8.0407913,
       "lng": 79.839386
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 24.0,
+      "max_temp": 32.6,
+      "rain": 0,
+      "lat": 6.8195453,
+      "lng": 79.8800832
     },
     {
       "place": "Rathnapura",
@@ -429,6 +458,26 @@
       "max_temp": null,
       "lat": 7.4924001,
       "lng": 79.9108744
+    },
+    {
+      "place": "Ulhitiya",
+      "rain": 0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.5166977,
+      "lng": 81.0285377
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 77.1,
+    "max_rain_place": "Mattla"
+  },
+  "min_temp": {
+    "min_temp": 9.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.8,
+    "max_temp_place": "Puttalam"
+  }
 }

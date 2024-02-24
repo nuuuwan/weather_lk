@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_archive_org/a63c69f5eb9fc65b37f998f15feee36f.pdf",
   "date_ut": 1574447400.0,
   "date": "2019-11-23",
-  "min_temp": {
-    "min_temp": 13.3,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.5,
-    "max_temp_place": "Rathmalana"
-  },
-  "max_rain": {
-    "max_rain": 89.0,
-    "max_rain_place": "Ledger Estate"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -103,12 +92,28 @@
       "lng": 79.8853484
     },
     {
+      "place": "Kurunagala",
+      "min_temp": 22.6,
+      "max_temp": 31.0,
+      "rain": 0,
+      "lat": 7.4817695,
+      "lng": 80.3608876
+    },
+    {
       "place": "Maha Illuppallama",
       "min_temp": 22.8,
       "max_temp": 27.9,
       "rain": 1.0,
       "lat": 8.1155443,
       "lng": 80.47207639999999
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 25.7,
+      "max_temp": 29.8,
+      "rain": 0,
+      "lat": 8.980974300000002,
+      "lng": 79.90441489999999
     },
     {
       "place": "Polonnaruwa",
@@ -462,5 +467,17 @@
       "lat": 9.6071274,
       "lng": 79.76522109999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 89.0,
+    "max_rain_place": "Ledger Estate"
+  },
+  "min_temp": {
+    "min_temp": 13.3,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.5,
+    "max_temp_place": "Rathmalana"
+  }
 }

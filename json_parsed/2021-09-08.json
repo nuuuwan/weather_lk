@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/c477ff1f7ca7aebd671d88806face409.pdf",
   "date_ut": 1631039400.0,
   "date": "2021-09-08",
-  "min_temp": {
-    "min_temp": 12.8,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.9,
-    "max_temp_place": "Mullaithivu"
-  },
-  "max_rain": {
-    "max_rain": 48.2,
-    "max_rain_place": "Mathugama"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -470,5 +459,17 @@
       "lat": 6.595885,
       "lng": 80.45776699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 48.2,
+    "max_rain_place": "Mathugama"
+  },
+  "min_temp": {
+    "min_temp": 12.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.9,
+    "max_temp_place": "Mullaithivu"
+  }
 }

@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/964b71cc6a586e1fffb9434e7ff49ae6.pdf",
   "date_ut": 1668364200.0,
   "date": "2022-11-14",
-  "min_temp": {
-    "min_temp": 11.7,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 31.7,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 116.2,
-    "max_rain_place": "Mattla"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -478,5 +467,17 @@
       "lat": 7.9864944,
       "lng": 80.2878794
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 116.2,
+    "max_rain_place": "Mattla"
+  },
+  "min_temp": {
+    "min_temp": 11.7,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 31.7,
+    "max_temp_place": "Rathnapura"
+  }
 }

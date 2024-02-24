@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/bd95b3abfd7df466913d2014d2e92ad6.pdf",
   "date_ut": 1627842600.0,
   "date": "2021-08-02",
-  "min_temp": {
-    "min_temp": 13.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 36.2,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 14.4,
-    "max_rain_place": "Kethendola"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -478,5 +467,17 @@
       "lat": 9.3261452,
       "lng": 80.30181069999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 14.4,
+    "max_rain_place": "Kethendola"
+  },
+  "min_temp": {
+    "min_temp": 13.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.2,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

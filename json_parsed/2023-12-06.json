@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/da8b958845384980d9097ea47a542378.pdf",
   "date_ut": 1701801000.0,
   "date": "2023-12-06",
-  "min_temp": {
-    "min_temp": 13.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.7,
-    "max_temp_place": "Pothuvil"
-  },
-  "max_rain": {
-    "max_rain": 66.3,
-    "max_rain_place": "Nawakiriaru Tank"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -478,5 +467,17 @@
       "lat": 6.855948499999999,
       "lng": 79.86296829999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 66.3,
+    "max_rain_place": "Nawakiriaru Tank"
+  },
+  "min_temp": {
+    "min_temp": 13.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.7,
+    "max_temp_place": "Pothuvil"
+  }
 }

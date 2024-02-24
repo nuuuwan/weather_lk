@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_archive_org/b174bc8c19ec9bed5bba0bb302f37fb5.pdf",
   "date_ut": 1603564200.0,
   "date": "2020-10-25",
-  "min_temp": {
-    "min_temp": 17.0,
-    "min_temp_place": "Bandarawela"
-  },
-  "max_temp": {
-    "max_temp": 36.9,
-    "max_temp_place": "Vavuniya"
-  },
-  "max_rain": {
-    "max_rain": 21.4,
-    "max_rain_place": "Atchuvely"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -47,12 +36,28 @@
       "lng": 81.6966911
     },
     {
+      "place": "Colombo",
+      "min_temp": 25.4,
+      "max_temp": 30.7,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
+    },
+    {
       "place": "Galle",
       "min_temp": 25.4,
       "max_temp": 28.7,
       "rain": 2.0,
       "lat": 6.032894799999999,
       "lng": 80.2167912
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 25.6,
+      "max_temp": 33.6,
+      "rain": 0,
+      "lat": 6.1428829,
+      "lng": 81.12123079999999
     },
     {
       "place": "Jaffna",
@@ -119,6 +124,14 @@
       "lng": 81.0187984
     },
     {
+      "place": "Nuwara Eliya",
+      "min_temp": 13.6,
+      "max_temp": 19.7,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
+    },
+    {
       "place": "Pothuvil",
       "min_temp": 25.2,
       "max_temp": 33.2,
@@ -133,6 +146,14 @@
       "rain": 0.0,
       "lat": 8.0407913,
       "lng": 79.839386
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 25.2,
+      "max_temp": 31.6,
+      "rain": 0,
+      "lat": 6.8195453,
+      "lng": 79.8800832
     },
     {
       "place": "Rathnapura",
@@ -446,5 +467,17 @@
       "lat": 9.7910875,
       "lng": 80.0339312
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 21.4,
+    "max_rain_place": "Atchuvely"
+  },
+  "min_temp": {
+    "min_temp": 13.6,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.9,
+    "max_temp_place": "Vavuniya"
+  }
 }

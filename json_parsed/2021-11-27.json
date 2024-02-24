@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/b28591a586a747a195bfdd134ba94d0f.pdf",
   "date_ut": 1637951400.0,
   "date": "2021-11-27",
-  "min_temp": {
-    "min_temp": 11.3,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.2,
-    "max_temp_place": "Monaragala"
-  },
-  "max_rain": {
-    "max_rain": 101.0,
-    "max_rain_place": "Ledger Estate"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -45,6 +34,22 @@
       "rain": 0.7,
       "lat": 7.7249146,
       "lng": 81.6966911
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 25.0,
+      "max_temp": 31.0,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
+    },
+    {
+      "place": "Galle",
+      "min_temp": 25.6,
+      "max_temp": 29.6,
+      "rain": 0,
+      "lat": 6.032894799999999,
+      "lng": 80.2167912
     },
     {
       "place": "Hambanthota",
@@ -95,6 +100,14 @@
       "lng": 80.3608876
     },
     {
+      "place": "Maha Illuppallama",
+      "min_temp": 24.0,
+      "max_temp": 30.0,
+      "rain": 0,
+      "lat": 8.1155443,
+      "lng": 80.47207639999999
+    },
+    {
       "place": "Mannar",
       "min_temp": 25.4,
       "max_temp": 26.4,
@@ -133,6 +146,14 @@
       "rain": 0.2,
       "lat": 8.0407913,
       "lng": 79.839386
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 24.7,
+      "max_temp": 31.7,
+      "rain": 0,
+      "lat": 6.8195453,
+      "lng": 79.8800832
     },
     {
       "place": "Rathnapura",
@@ -454,5 +475,17 @@
       "lat": 7.4172376,
       "lng": 80.68401209999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 101.0,
+    "max_rain_place": "Ledger Estate"
+  },
+  "min_temp": {
+    "min_temp": 11.3,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.2,
+    "max_temp_place": "Monaragala"
+  }
 }

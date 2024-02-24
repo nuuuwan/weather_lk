@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_archive_org/707f2644bdfc13075dd5fecb922b9375.pdf",
   "date_ut": 1630089000.0,
   "date": "2021-08-28",
-  "min_temp": {
-    "min_temp": 13.9,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.7,
-    "max_temp_place": "Mullaithivu"
-  },
-  "max_rain": {
-    "max_rain": 57.2,
-    "max_rain_place": "Watawala"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -29,6 +18,14 @@
       "rain": 0.1,
       "lat": 6.993400899999999,
       "lng": 81.0549815
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 18.9,
+      "max_temp": 25.1,
+      "rain": 0,
+      "lat": 6.825877999999999,
+      "lng": 80.9981576
     },
     {
       "place": "Batticaloa",
@@ -109,6 +106,22 @@
       "rain": 0.0,
       "lat": 8.1155443,
       "lng": 80.47207639999999
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 27.2,
+      "max_temp": 31.0,
+      "rain": 0,
+      "lat": 8.980974300000002,
+      "lng": 79.90441489999999
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 26.9,
+      "max_temp": 33.4,
+      "rain": 0,
+      "lat": 7.940338400000001,
+      "lng": 81.0187984
     },
     {
       "place": "Nuwara Eliya",
@@ -462,5 +475,17 @@
       "lat": 6.766339299999999,
       "lng": 79.8892005
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 57.2,
+    "max_rain_place": "Watawala"
+  },
+  "min_temp": {
+    "min_temp": 13.9,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.7,
+    "max_temp_place": "Mullaithivu"
+  }
 }

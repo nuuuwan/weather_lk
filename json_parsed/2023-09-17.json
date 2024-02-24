@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/a5650fc92f0c36b7cf2336884f17ce4e.pdf",
   "date_ut": 1694889000.0,
   "date": "2023-09-17",
-  "min_temp": {
-    "min_temp": 12.3,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 37.7,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 15.0,
-    "max_rain_place": "Nawakiriaru Tank"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -37,6 +26,14 @@
       "rain": 0.0,
       "lat": 6.825877999999999,
       "lng": 80.9981576
+    },
+    {
+      "place": "Batticaloa",
+      "min_temp": 26.0,
+      "max_temp": 35.2,
+      "rain": 0,
+      "lat": 7.7249146,
+      "lng": 81.6966911
     },
     {
       "place": "Colombo",
@@ -159,6 +156,22 @@
       "lng": 79.8800832
     },
     {
+      "place": "Rathnapura",
+      "min_temp": 22.2,
+      "max_temp": 34.6,
+      "rain": 0,
+      "lat": 6.7055742,
+      "lng": 80.3847345
+    },
+    {
+      "place": "Trincomalee",
+      "min_temp": 25.7,
+      "max_temp": 36.5,
+      "rain": 0,
+      "lat": 8.5873638,
+      "lng": 81.2152121
+    },
+    {
       "place": "Vavuniya",
       "min_temp": 26.0,
       "max_temp": 37.0,
@@ -189,6 +202,14 @@
       "max_temp": null,
       "lat": 6.8577186,
       "lng": 80.5855038
+    },
+    {
+      "place": "Randenigala",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
     },
     {
       "place": "Norton",
@@ -293,6 +314,14 @@
       "max_temp": null,
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
+    },
+    {
+      "place": "Nochchiyagama",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 8.2925501,
+      "lng": 80.22655449999999
     },
     {
       "place": "Hanwella",
@@ -438,5 +467,17 @@
       "lat": 6.9367411,
       "lng": 79.92703639999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 15.0,
+    "max_rain_place": "Nawakiriaru Tank"
+  },
+  "min_temp": {
+    "min_temp": 12.3,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 37.7,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

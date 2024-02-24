@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/6c33e1b1a84172b86f1b8b89dfb0b8a8.pdf",
   "date_ut": 1675362600.0,
   "date": "2023-02-03",
-  "min_temp": {
-    "min_temp": 14.8,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.9,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 189.2,
-    "max_rain_place": "Vavuniya"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -93,6 +82,14 @@
       "rain": 45.7,
       "lat": 7.3251558,
       "lng": 80.62297869999999
+    },
+    {
+      "place": "Katunayake",
+      "min_temp": 24.1,
+      "max_temp": 29.0,
+      "rain": 0,
+      "lat": 7.172484899999999,
+      "lng": 79.8853484
     },
     {
       "place": "Kurunagala",
@@ -470,5 +467,17 @@
       "lat": 7.965459900000001,
       "lng": 81.02577629999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 189.2,
+    "max_rain_place": "Vavuniya"
+  },
+  "min_temp": {
+    "min_temp": 14.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.9,
+    "max_temp_place": "Rathnapura"
+  }
 }

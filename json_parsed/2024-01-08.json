@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/3dc58ee2baeba1ca62c15535d127c64a.pdf",
   "date_ut": 1704652200.0,
   "date": "2024-01-08",
-  "min_temp": {
-    "min_temp": 14.9,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.7,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 120.6,
-    "max_rain_place": "Balangoda"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -61,6 +50,14 @@
       "rain": 9.8,
       "lat": 6.032894799999999,
       "lng": 80.2167912
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 25.0,
+      "max_temp": 31.4,
+      "rain": 0,
+      "lat": 6.1428829,
+      "lng": 81.12123079999999
     },
     {
       "place": "Jaffna",
@@ -207,6 +204,14 @@
       "lng": 80.5855038
     },
     {
+      "place": "Randenigala",
+      "rain": 7.2,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
+    },
+    {
       "place": "Norton",
       "rain": 1.6,
       "min_temp": null,
@@ -309,6 +314,14 @@
       "max_temp": null,
       "lat": 6.666861099999999,
       "lng": 80.70480839999999
+    },
+    {
+      "place": "Rufuskulam",
+      "rain": 50.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.0859822,
+      "lng": 81.777335
     },
     {
       "place": "Balapitiya",
@@ -454,5 +467,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 120.6,
+    "max_rain_place": "Balangoda"
+  },
+  "min_temp": {
+    "min_temp": 14.9,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.7,
+    "max_temp_place": "Rathnapura"
+  }
 }

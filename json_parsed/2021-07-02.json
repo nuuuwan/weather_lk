@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/f309a4d3f8804a8ca546a2f1a1c7bfca.pdf",
   "date_ut": 1625164200.0,
   "date": "2021-07-02",
-  "min_temp": {
-    "min_temp": 13.7,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 36.9,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 170.6,
-    "max_rain_place": "Vogan"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -173,6 +162,14 @@
       "rain": 37.9,
       "lat": 6.7055742,
       "lng": 80.3847345
+    },
+    {
+      "place": "Trincomalee",
+      "min_temp": 25.5,
+      "max_temp": 35.5,
+      "rain": 0,
+      "lat": 8.5873638,
+      "lng": 81.2152121
     },
     {
       "place": "Vavuniya",
@@ -478,5 +475,17 @@
       "lat": 7.0255123,
       "lng": 80.229343
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 170.6,
+    "max_rain_place": "Vogan"
+  },
+  "min_temp": {
+    "min_temp": 13.7,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.9,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

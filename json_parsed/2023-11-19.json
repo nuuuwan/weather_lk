@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/09049a4c8574c38574a9373eca4ba063.pdf",
   "date_ut": 1700332200.0,
   "date": "2023-11-19",
-  "min_temp": {
-    "min_temp": 13.4,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.2,
-    "max_temp_place": "Pothuvil"
-  },
-  "max_rain": {
-    "max_rain": 135.2,
-    "max_rain_place": "Guruluwana"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -478,5 +467,17 @@
       "lat": 9.7902586,
       "lng": 80.24188989999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 135.2,
+    "max_rain_place": "Guruluwana"
+  },
+  "min_temp": {
+    "min_temp": 13.4,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.2,
+    "max_temp_place": "Pothuvil"
+  }
 }

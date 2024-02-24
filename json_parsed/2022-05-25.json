@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/23c24cb3fa2ab3f4e73dfd8c6c055d53.pdf",
   "date_ut": 1653417000.0,
   "date": "2022-05-25",
-  "min_temp": {
-    "min_temp": 14.1,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 36.3,
-    "max_temp_place": "Pothuvil"
-  },
-  "max_rain": {
-    "max_rain": 166.4,
-    "max_rain_place": "Kalatuwawa"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -61,6 +50,14 @@
       "rain": 5.5,
       "lat": 6.032894799999999,
       "lng": 80.2167912
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 25.3,
+      "max_temp": 31.0,
+      "rain": 0,
+      "lat": 6.1428829,
+      "lng": 81.12123079999999
     },
     {
       "place": "Jaffna",
@@ -462,5 +459,17 @@
       "lat": 7.293141700000001,
       "lng": 80.38569799999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 166.4,
+    "max_rain_place": "Kalatuwawa"
+  },
+  "min_temp": {
+    "min_temp": 14.1,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.3,
+    "max_temp_place": "Pothuvil"
+  }
 }

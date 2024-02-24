@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_archive_org/5e0f4395202f43e6cc98e9e0d9cc05a3.pdf",
   "date_ut": 1620153000.0,
   "date": "2021-05-05",
-  "min_temp": {
-    "min_temp": 11.7,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.0,
-    "max_temp_place": "Trincomalee"
-  },
-  "max_rain": {
-    "max_rain": 141.0,
-    "max_rain_place": "Dampalessa"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -127,6 +116,14 @@
       "lng": 79.90441489999999
     },
     {
+      "place": "Polonnaruwa",
+      "min_temp": 24.0,
+      "max_temp": 34.5,
+      "rain": 0,
+      "lat": 7.940338400000001,
+      "lng": 81.0187984
+    },
+    {
       "place": "Nuwara Eliya",
       "min_temp": 11.7,
       "max_temp": 21.9,
@@ -181,6 +178,14 @@
       "rain": 4.6,
       "lat": 8.7542029,
       "lng": 80.4982402
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 23.4,
+      "max_temp": 32.8,
+      "rain": 0,
+      "lat": 6.288780374382144,
+      "lng": 81.12460077774537
     },
     {
       "place": "Mullaithivu",
@@ -470,5 +475,17 @@
       "lat": 6.3424847,
       "lng": 80.5596582
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 141.0,
+    "max_rain_place": "Dampalessa"
+  },
+  "min_temp": {
+    "min_temp": 11.7,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.5,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

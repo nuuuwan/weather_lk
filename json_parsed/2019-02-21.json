@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_archive_org/605b349ff18aa681f7c496a088f70f5c.pdf",
   "date_ut": 1550687400.0,
   "date": "2019-02-21",
-  "min_temp": {
-    "min_temp": 12.2,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.5,
-    "max_temp_place": "Katunayake"
-  },
-  "max_rain": {
-    "max_rain": 4.3,
-    "max_rain_place": "Pothuvil"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -462,5 +451,17 @@
       "lat": 7.922822999999998,
       "lng": 81.56512699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 4.3,
+    "max_rain_place": "Pothuvil"
+  },
+  "min_temp": {
+    "min_temp": 12.2,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.5,
+    "max_temp_place": "Katunayake"
+  }
 }

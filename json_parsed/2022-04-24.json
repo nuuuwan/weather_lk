@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/2ae851409ecd8b4dbc4a738c91b2ce9c.pdf",
   "date_ut": 1650738600.0,
   "date": "2022-04-24",
-  "min_temp": {
-    "min_temp": 12.9,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.1,
-    "max_temp_place": "Mulatiw"
-  },
-  "max_rain": {
-    "max_rain": 95.4,
-    "max_rain_place": "Labugama"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -95,6 +84,14 @@
       "lng": 80.62297869999999
     },
     {
+      "place": "Katunayake",
+      "min_temp": 24.9,
+      "max_temp": 31.3,
+      "rain": 0,
+      "lat": 7.172484899999999,
+      "lng": 79.8853484
+    },
+    {
       "place": "Kurunagala",
       "min_temp": 23.5,
       "max_temp": 32.9,
@@ -149,6 +146,14 @@
       "rain": 2.3,
       "lat": 8.0407913,
       "lng": 79.839386
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 25.2,
+      "max_temp": 32.7,
+      "rain": 0,
+      "lat": 6.8195453,
+      "lng": 79.8800832
     },
     {
       "place": "Rathnapura",
@@ -462,5 +467,17 @@
       "lat": 7.513648099999998,
       "lng": 80.1400671
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 95.4,
+    "max_rain_place": "Labugama"
+  },
+  "min_temp": {
+    "min_temp": 12.9,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.1,
+    "max_temp_place": "Mulatiw"
+  }
 }

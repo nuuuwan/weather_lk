@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/78be82d0219f74bdc6deb487d4ae37f0.pdf",
   "date_ut": 1693333800.0,
   "date": "2023-08-30",
-  "min_temp": {
-    "min_temp": 14.7,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 36.3,
-    "max_temp_place": "Trincomalee"
-  },
-  "max_rain": {
-    "max_rain": 101.3,
-    "max_rain_place": "Rathnapura"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -215,6 +204,14 @@
       "lng": 80.5855038
     },
     {
+      "place": "Randenigala",
+      "rain": 1.7,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
+    },
+    {
       "place": "Norton",
       "rain": 57.0,
       "min_temp": null,
@@ -317,6 +314,14 @@
       "max_temp": null,
       "lat": 6.944946799999999,
       "lng": 80.53898339999999
+    },
+    {
+      "place": "Bogawanthalawa",
+      "rain": 24.5,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.7972337,
+      "lng": 80.675692
     },
     {
       "place": "Kalatuwawa",
@@ -462,5 +467,17 @@
       "lat": 7.884138699999999,
       "lng": 80.2823063
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 101.3,
+    "max_rain_place": "Rathnapura"
+  },
+  "min_temp": {
+    "min_temp": 14.7,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.3,
+    "max_temp_place": "Trincomalee"
+  }
 }

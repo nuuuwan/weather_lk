@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_archive_org/64ff544598af9176e96524d4c87e01c4.pdf",
   "date_ut": 1576607400.0,
   "date": "2019-12-18",
-  "min_temp": {
-    "min_temp": 13.8,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.1,
-    "max_temp_place": "Galle"
-  },
-  "max_rain": {
-    "max_rain": 128.8,
-    "max_rain_place": "Bakamuna"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -45,6 +34,14 @@
       "rain": 0.5,
       "lat": 7.7249146,
       "lng": 81.6966911
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 24.5,
+      "max_temp": 31.7,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
     },
     {
       "place": "Galle",
@@ -141,6 +138,14 @@
       "rain": 22.6,
       "lat": 6.875270599999999,
       "lng": 81.8306334
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 24.4,
+      "max_temp": 30.5,
+      "rain": 0,
+      "lat": 8.0407913,
+      "lng": 79.839386
     },
     {
       "place": "Rathmalana",
@@ -470,5 +475,17 @@
       "lat": 6.2791538,
       "lng": 81.2876691
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 128.8,
+    "max_rain_place": "Bakamuna"
+  },
+  "min_temp": {
+    "min_temp": 13.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.1,
+    "max_temp_place": "Galle"
+  }
 }

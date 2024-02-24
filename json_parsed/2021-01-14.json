@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_archive_org/3a7ba58bf8fdff19be53c511d2e4af81.pdf",
   "date_ut": 1610562600.0,
   "date": "2021-01-14",
-  "min_temp": {
-    "min_temp": 13.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 31.9,
-    "max_temp_place": "Puttalam"
-  },
-  "max_rain": {
-    "max_rain": 85.1,
-    "max_rain_place": "Baddegama"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -478,5 +467,17 @@
       "lat": 7.2847427,
       "lng": 81.78578850000001
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 85.1,
+    "max_rain_place": "Baddegama"
+  },
+  "min_temp": {
+    "min_temp": 13.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 31.9,
+    "max_temp_place": "Puttalam"
+  }
 }

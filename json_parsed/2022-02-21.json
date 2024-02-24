@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/fbc189be365690d6989b4a1d82743427.pdf",
   "date_ut": 1645381800.0,
   "date": "2022-02-21",
-  "min_temp": {
-    "min_temp": 11.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.1,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 45.2,
-    "max_rain_place": "Bibila"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -470,5 +459,17 @@
       "lat": 9.1538678,
       "lng": 80.64973119999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 45.2,
+    "max_rain_place": "Bibila"
+  },
+  "min_temp": {
+    "min_temp": 11.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.1,
+    "max_temp_place": "Rathnapura"
+  }
 }

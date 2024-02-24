@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/74790acd361130f3b72a64e0c98c7f68.pdf",
   "date_ut": 1643135400.0,
   "date": "2022-01-26",
-  "min_temp": {
-    "min_temp": 7.4,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.6,
-    "max_temp_place": "Kurunagala"
-  },
-  "max_rain": {
-    "max_rain": 18.0,
-    "max_rain_place": "Lakshapana"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -149,6 +138,14 @@
       "rain": 0.0,
       "lat": 6.875270599999999,
       "lng": 81.8306334
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 21.8,
+      "max_temp": 30.7,
+      "rain": 0,
+      "lat": 8.0407913,
+      "lng": 79.839386
     },
     {
       "place": "Rathmalana",
@@ -478,5 +475,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 18.0,
+    "max_rain_place": "Lakshapana"
+  },
+  "min_temp": {
+    "min_temp": 7.4,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.6,
+    "max_temp_place": "Kurunagala"
+  }
 }

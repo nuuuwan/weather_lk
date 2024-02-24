@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_archive_org/0883ed92a65adf600408bdd4f147a0e7.pdf",
   "date_ut": 1580754600.0,
   "date": "2020-02-04",
-  "min_temp": {
-    "min_temp": 7.8,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.6,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 48.0,
-    "max_rain_place": "Thalangaha Estate"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -470,5 +459,17 @@
       "lat": 8.1369099,
       "lng": 81.434079
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 48.0,
+    "max_rain_place": "Thalangaha Estate"
+  },
+  "min_temp": {
+    "min_temp": 7.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.6,
+    "max_temp_place": "Rathnapura"
+  }
 }

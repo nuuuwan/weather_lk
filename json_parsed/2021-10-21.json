@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/6a18edeb15b5dc4f1ea57467d3cc57ff.pdf",
   "date_ut": 1634754600.0,
   "date": "2021-10-21",
-  "min_temp": {
-    "min_temp": 12.4,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.7,
-    "max_temp_place": "Monaragala"
-  },
-  "max_rain": {
-    "max_rain": 166.7,
-    "max_rain_place": "Yakawawa"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -109,6 +98,14 @@
       "rain": 93.1,
       "lat": 7.4817695,
       "lng": 80.3608876
+    },
+    {
+      "place": "Maha Illuppallama",
+      "min_temp": 23.0,
+      "max_temp": 33.5,
+      "rain": 0,
+      "lat": 8.1155443,
+      "lng": 80.47207639999999
     },
     {
       "place": "Mannar",
@@ -470,5 +467,17 @@
       "lat": 7.166710300000001,
       "lng": 80.1233175
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 166.7,
+    "max_rain_place": "Yakawawa"
+  },
+  "min_temp": {
+    "min_temp": 12.4,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.7,
+    "max_temp_place": "Monaragala"
+  }
 }

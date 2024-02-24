@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_archive_org/2950f926af6b724b392b77c14b6d6def.pdf",
   "date_ut": 1574101800.0,
   "date": "2019-11-19",
-  "min_temp": {
-    "min_temp": 14.2,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.0,
-    "max_temp_place": "Vavuniya"
-  },
-  "max_rain": {
-    "max_rain": 111.2,
-    "max_rain_place": "Hanwella"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -101,6 +90,14 @@
       "rain": 64.5,
       "lat": 7.172484899999999,
       "lng": 79.8853484
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 22.8,
+      "max_temp": 33.5,
+      "rain": 0,
+      "lat": 7.4817695,
+      "lng": 80.3608876
     },
     {
       "place": "Maha Illuppallama",
@@ -478,5 +475,17 @@
       "lat": 7.9458576,
       "lng": 80.6271415
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 111.2,
+    "max_rain_place": "Hanwella"
+  },
+  "min_temp": {
+    "min_temp": 14.2,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.0,
+    "max_temp_place": "Vavuniya"
+  }
 }

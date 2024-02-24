@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_archive_org/24707088a432a0e06cc411bebc10ef79.pdf",
   "date_ut": 1591122600.0,
   "date": "2020-06-03",
-  "min_temp": {
-    "min_temp": 14.2,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 36.7,
-    "max_temp_place": "Pothuvil"
-  },
-  "max_rain": {
-    "max_rain": 3.5,
-    "max_rain_place": "Norochcholai"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -103,12 +92,28 @@
       "lng": 79.8853484
     },
     {
+      "place": "Kurunagala",
+      "min_temp": 24.3,
+      "max_temp": 33.5,
+      "rain": 0,
+      "lat": 7.4817695,
+      "lng": 80.3608876
+    },
+    {
       "place": "Maha Illuppallama",
       "min_temp": 24.2,
       "max_temp": 32.9,
       "rain": 0.0,
       "lat": 8.1155443,
       "lng": 80.47207639999999
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 28.6,
+      "max_temp": 31.5,
+      "rain": 0,
+      "lat": 8.980974300000002,
+      "lng": 79.90441489999999
     },
     {
       "place": "Polonnaruwa",
@@ -462,5 +467,17 @@
       "lat": 6.816058099999999,
       "lng": 80.96914749999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 3.5,
+    "max_rain_place": "Norochcholai"
+  },
+  "min_temp": {
+    "min_temp": 14.2,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.7,
+    "max_temp_place": "Pothuvil"
+  }
 }
