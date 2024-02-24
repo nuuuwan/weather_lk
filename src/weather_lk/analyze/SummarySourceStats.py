@@ -50,16 +50,25 @@ class SummarySourceStats:
                 date_list.append(file_stats['date'])
 
         min_date, max_date = None, None
+        year_to_n = {}
         if date_list:
             date_list.sort()
             min_date = date_list[0]
             max_date = date_list[-1]
+
+            for date in date_list:
+                year = date[:4]
+                if year not in year_to_n:
+                    year_to_n[year] = 0
+                year_to_n[year] += 1
+            
         return dict(
             n=n,
             n_parse_attempted=n_parse_attempted,
             n_parse_successful=n_parse_successful,
             min_date=min_date,
             max_date=max_date,
+            year_to_n=year_to_n,
         )
 
     @cached_property

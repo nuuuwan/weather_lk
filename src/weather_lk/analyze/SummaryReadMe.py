@@ -8,6 +8,21 @@ from weather_lk.constants import (COVERAGE_WINDOW_LIST, DIR_REPO,
 
 log = Log('SummaryReadMe')
 
+DELIM_COLUMN = ' | '
+def build_row(values):
+    return DELIM_COLUMN + DELIM_COLUMN.join(values) + DELIM_COLUMN
+        
+def build_table(keys, values_list):
+    
+    sep = ['---' for _ in keys]
+    lines = [
+        build_row(keys),
+        build_row(sep),
+    ]
+    for values in values_list:
+        lines.append(build_row(values))
+    return lines
+
 
 class SummaryReadMe:
     @property
@@ -84,27 +99,29 @@ class SummaryReadMe:
     @property
     def lines_source_stats(self):
         source_to_stats = self.source_to_stats
-        lines = ['# Source Statistics', '']
-        DELIM_COLUMN = ' | '
         keys = [
-            'source_id',
             'n',
             'n_parse_attempted',
             'n_parse_successful',
             'min_date',
             'max_date',
-        ]
-        sep = ['---' for _ in keys]
-
-        def build_row(values):
-            return DELIM_COLUMN + DELIM_COLUMN.join(values) + DELIM_COLUMN
-
-        lines.append(build_row(keys))
-        lines.append(build_row(sep))
+        ] 
+        values_list = []
         for source_id, stats in source_to_stats.items():
-            values = [str(stats.get(key, '')) for key in keys]
-            lines.append(build_row([source_id] + values))
-        return lines
+            values = [source_id] + [str(stats.get(key, '')) for key in keys]
+            values_list.append(values)
+        return  ['# Source Statistics', '']  + build_table(['source_id',
+            ] + keys, values_list)
+    
+    @property
+    def lines_source_stats_year_to_n(self):
+        source_to_stats = self.source_to_stats
+        keys=   [str(year) for year in range(2024, 2024-11,-1)]
+        values_list = []
+        for source_id, stats in source_to_stats.items():
+            values = [source_id] + [str(stats['year_to_n'].get(year, 0)) for year in keys]
+            values_list.append(values)
+        return ['', '## By Year', ''] + build_table(['source_id',] + keys, values_list)
 
     @property
     def lines_header(self):
@@ -123,9 +140,10 @@ class SummaryReadMe:
             ('temperature_by_city', self.lines_temperature),
             ('rainfall_by_city', self.lines_rainfall),
             ('data_coverage', self.lines_coverage),
-            ('source_statistics', self.lines_source_stats),
+            ('source_statistics', self.lines_source_stats + self.lines_source_stats_year_to_n),
         ]:
             readme_path = os.path.join(DIR_REPO, f'README.{id}.md')
+            lines = [line.strip() for line in lines]
             File(readme_path).write_lines(lines)
             log.info(f'Wrote {readme_path}')
             title = id.replace('_', ' ').title()
