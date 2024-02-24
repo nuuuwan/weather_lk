@@ -89,7 +89,7 @@ class PDFParserGlobal:
     @classmethod
     def parse_all(cls):
         Data.init()
-        PDFParserGlobal.cleanup_bad_runs()
+        # HACK - PDFParserGlobal.cleanup_bad_runs()
 
         pdf_list = cls.get_pdf_paths()
 
