@@ -16,7 +16,7 @@ def build_row(values):
 
 
 def build_table(keys, values_list):
-    sep = ['---' for _ in keys]
+    sep = [(' ---- ' if 'id' in key else ' ---: ') for key in keys]
     lines = [
         build_row(keys),
         build_row(sep),
@@ -110,7 +110,7 @@ class SummaryReadMe:
         ]
         values_list = []
         for source_id, stats in source_to_stats.items():
-            values = [source_id] + [str(stats.get(key, '')) for key in keys]
+            values = [f'`{source_id}`'] + [str(stats.get(key, '')) for key in keys]
             values_list.append(values)
         return ['# Source Statistics', ''] + build_table(
             [
@@ -126,7 +126,7 @@ class SummaryReadMe:
         keys = [str(year) for year in range(2024, 2024 - 11, -1)]
         values_list = []
         for source_id, stats in source_to_stats.items():
-            values = [source_id] + [
+            values = [f'`{source_id}`'] + [
                 str(stats['year_to_n'].get(year, 0)) for year in keys
             ]
             values_list.append(values)
