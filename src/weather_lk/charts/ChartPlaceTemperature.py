@@ -15,9 +15,12 @@ class ChartPlaceTemperature(ChartPlace, ChartTemperature):
         return DIR_DATA_CHARTS_TEMPERATURE
 
     def get_data(self):
+        d_list = self.data_for_place
+        if self.window:
+            d_list = d_list[-self.window:]
         x = [
             datetime.strptime(d['date'], '%Y-%m-%d')
-            for d in self.data_for_place
+            for d in d_list
         ]
         y_min_temp = [d['min_temp'] for d in self.data_for_place]
         y_max_temp = [d['max_temp'] for d in self.data_for_place]

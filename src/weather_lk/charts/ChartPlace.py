@@ -7,13 +7,17 @@ log = Log('ChartPlace')
 
 
 class ChartPlace(Chart):
-    def __init__(self, place, data_for_place):
+    def __init__(self, place, data_for_place, window=None):
         self.place = place
         self.data_for_place = data_for_place
+        self.window = window
 
     def get_title(self):
-        return self.place + ' - History'
-
+        title = self.place
+        if self.window:
+            title += f' (Last {self.window} days)' 
+        return title
+    
     def get_xlabel(self):
         return 'Date'
 

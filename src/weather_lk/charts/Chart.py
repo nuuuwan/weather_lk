@@ -39,6 +39,8 @@ class Chart:
 
     def after_draw(self):
         label = self.get_label()
+        if self.window:
+            label += f'-{self.window}days'
         image_path = os.path.join(self.get_dir(), f'{label}.png')
         plt.savefig(image_path, dpi=Chart.DPI)
         plt.close()

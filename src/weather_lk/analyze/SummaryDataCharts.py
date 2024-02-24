@@ -39,6 +39,7 @@ class SummaryDataCharts:
                 continue
 
             ChartPlaceTemperature(place, data_for_place).write()
+            ChartPlaceTemperature(place, data_for_place, window=28).write()
             ChartPlaceRainfall(place, data_for_place).write()
 
     def draw_charts_for_country(self):

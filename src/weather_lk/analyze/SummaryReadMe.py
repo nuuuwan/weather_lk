@@ -48,12 +48,17 @@ class SummaryReadMe:
         lines = ['# Temperature', '']
         for place in DISPLAY_PLACES:
             label = SummaryWriteDataByPlace.get_place_label(place)
+            image_path_temp28 = (
+                URL_REMOTE_DATA + '/charts/temperature/' + f'{label}-28days.png'
+            )
             image_path_temp = (
                 URL_REMOTE_DATA + '/charts/temperature/' + f'{label}.png'
             )
             lines.extend(
                 [
                     f'## {place} 🌡️',
+                    '',
+                    f'![{place}]({image_path_temp28})',
                     '',
                     f'![{place}]({image_path_temp})',
                     '',
