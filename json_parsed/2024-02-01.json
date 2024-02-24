@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/c8bdd2477e0cbdc13d0c9b1abd64fbe0.pdf",
   "date_ut": 1706725800.0,
   "date": "2024-02-01",
-  "min_temp": {
-    "min_temp": 12.6,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.5,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 126.0,
-    "max_rain_place": "Deniyaya"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -103,6 +92,14 @@
       "lng": 79.8853484
     },
     {
+      "place": "Kurunagala",
+      "min_temp": 23.4,
+      "max_temp": 33.1,
+      "rain": 0,
+      "lat": 7.4817695,
+      "lng": 80.3608876
+    },
+    {
       "place": "Maha Illuppallama",
       "min_temp": 23.2,
       "max_temp": 32.5,
@@ -143,12 +140,36 @@
       "lng": 81.8306334
     },
     {
+      "place": "Puttalam",
+      "min_temp": 24.0,
+      "max_temp": 30.6,
+      "rain": 0,
+      "lat": 8.0407913,
+      "lng": 79.839386
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 25.2,
+      "max_temp": 31.9,
+      "rain": 0,
+      "lat": 6.8195453,
+      "lng": 79.8800832
+    },
+    {
       "place": "Rathnapura",
       "min_temp": 22.5,
       "max_temp": 33.5,
       "rain": 30.4,
       "lat": 6.7055742,
       "lng": 80.3847345
+    },
+    {
+      "place": "Trincomalee",
+      "min_temp": 24.6,
+      "max_temp": 28.7,
+      "rain": 0,
+      "lat": 8.5873638,
+      "lng": 81.2152121
     },
     {
       "place": "Vavuniya",
@@ -181,6 +202,14 @@
       "max_temp": null,
       "lat": 6.8577186,
       "lng": 80.5855038
+    },
+    {
+      "place": "Randenigala",
+      "rain": 25.4,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
     },
     {
       "place": "Norton",
@@ -293,6 +322,14 @@
       "max_temp": null,
       "lat": 6.3424847,
       "lng": 80.5596582
+    },
+    {
+      "place": "Peradeniya",
+      "rain": 51.4,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.2698653,
+      "lng": 80.59383299999999
     },
     {
       "place": "Moraliya-Oya",
@@ -438,5 +475,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 126.0,
+    "max_rain_place": "Deniyaya"
+  },
+  "min_temp": {
+    "min_temp": 12.6,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.5,
+    "max_temp_place": "Rathnapura"
+  }
 }

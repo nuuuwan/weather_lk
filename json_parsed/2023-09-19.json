@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/990dbc62f1c00d2bc0c6243e6538005c.pdf",
   "date_ut": 1695061800.0,
   "date": "2023-09-19",
-  "min_temp": {
-    "min_temp": 14.7,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.7,
-    "max_temp_place": "Pothuvil"
-  },
-  "max_rain": {
-    "max_rain": 56.9,
-    "max_rain_place": "Galle"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -111,6 +100,22 @@
       "lng": 80.3608876
     },
     {
+      "place": "Maha Illuppallama",
+      "min_temp": 23.6,
+      "max_temp": 30.8,
+      "rain": 0,
+      "lat": 8.1155443,
+      "lng": 80.47207639999999
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 26.8,
+      "max_temp": 29.7,
+      "rain": 0,
+      "lat": 8.980974300000002,
+      "lng": 79.90441489999999
+    },
+    {
       "place": "Polonnaruwa",
       "min_temp": 25.0,
       "max_temp": 33.3,
@@ -133,6 +138,14 @@
       "rain": 0.0,
       "lat": 6.875270599999999,
       "lng": 81.8306334
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 24.5,
+      "max_temp": 29.8,
+      "rain": 0,
+      "lat": 8.0407913,
+      "lng": 79.839386
     },
     {
       "place": "Rathmalana",
@@ -454,5 +467,17 @@
       "lat": 6.147608099999999,
       "lng": 80.7633743
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 56.9,
+    "max_rain_place": "Galle"
+  },
+  "min_temp": {
+    "min_temp": 14.7,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.7,
+    "max_temp_place": "Pothuvil"
+  }
 }

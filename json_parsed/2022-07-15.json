@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/0500e27071efb06d687bbb7d649bbac8.pdf",
   "date_ut": 1657823400.0,
   "date": "2022-07-15",
-  "min_temp": {
-    "min_temp": 13.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 37.0,
-    "max_temp_place": "Batticaloa"
-  },
-  "max_rain": {
-    "max_rain": 24.7,
-    "max_rain_place": "Udaradella"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -29,6 +18,14 @@
       "rain": 0.0,
       "lat": 6.993400899999999,
       "lng": 81.0549815
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 19.7,
+      "max_temp": 26.1,
+      "rain": 0,
+      "lat": 6.825877999999999,
+      "lng": 80.9981576
     },
     {
       "place": "Batticaloa",
@@ -478,5 +475,17 @@
       "lat": 7.1336172,
       "lng": 80.5091133
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 24.7,
+    "max_rain_place": "Udaradella"
+  },
+  "min_temp": {
+    "min_temp": 13.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 37.0,
+    "max_temp_place": "Batticaloa"
+  }
 }

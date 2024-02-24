@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/d3aee56cf46c1adea1452ba41a7290af.pdf",
   "date_ut": 1632162600.0,
   "date": "2021-09-21",
-  "min_temp": {
-    "min_temp": 13.1,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.2,
-    "max_temp_place": "Maha Illuppallama"
-  },
-  "max_rain": {
-    "max_rain": 96.0,
-    "max_rain_place": "Mattla"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -69,6 +58,14 @@
       "rain": 18.7,
       "lat": 6.1428829,
       "lng": 81.12123079999999
+    },
+    {
+      "place": "Jaffna",
+      "min_temp": 26.9,
+      "max_temp": 32.5,
+      "rain": 0,
+      "lat": 9.6614981,
+      "lng": 80.02554649999999
     },
     {
       "place": "Monaragala",
@@ -462,5 +459,17 @@
       "lat": 7.1336172,
       "lng": 80.5091133
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 96.0,
+    "max_rain_place": "Mattla"
+  },
+  "min_temp": {
+    "min_temp": 13.1,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.2,
+    "max_temp_place": "Maha Illuppallama"
+  }
 }

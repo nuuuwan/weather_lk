@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/3f3a75fd0541b0ddf488cf47060251c8.pdf",
   "date_ut": 1645295400.0,
   "date": "2022-02-20",
-  "min_temp": {
-    "min_temp": 10.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.0,
-    "max_temp_place": "Hambanthota"
-  },
-  "max_rain": {
-    "max_rain": 75.0,
-    "max_rain_place": "Inginiyagala"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -69,6 +58,14 @@
       "rain": 0.0,
       "lat": 6.1428829,
       "lng": 81.12123079999999
+    },
+    {
+      "place": "Jaffna",
+      "min_temp": 22.8,
+      "max_temp": 29.5,
+      "rain": 0,
+      "lat": 9.6614981,
+      "lng": 80.02554649999999
     },
     {
       "place": "Monaragala",
@@ -181,6 +178,14 @@
       "rain": 1.1,
       "lat": 8.7542029,
       "lng": 80.4982402
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 22.3,
+      "max_temp": 32.5,
+      "rain": 0,
+      "lat": 6.288780374382144,
+      "lng": 81.12460077774537
     },
     {
       "place": "Mullaithivu",
@@ -470,5 +475,17 @@
       "lat": 7.965459900000001,
       "lng": 81.02577629999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 75.0,
+    "max_rain_place": "Inginiyagala"
+  },
+  "min_temp": {
+    "min_temp": 10.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.5,
+    "max_temp_place": "Mattla"
+  }
 }

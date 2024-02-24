@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/f830f9a05f1f1dd3299f0c799b2a6e80.pdf",
   "date_ut": 1647369000.0,
   "date": "2022-03-16",
-  "min_temp": {
-    "min_temp": 11.8,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.7,
-    "max_temp_place": "Kurunagala"
-  },
-  "max_rain": {
-    "max_rain": 46.0,
-    "max_rain_place": "Hiniduma"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -61,6 +50,14 @@
       "rain": 0.2,
       "lat": 6.032894799999999,
       "lng": 80.2167912
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 25.8,
+      "max_temp": 30.6,
+      "rain": 0,
+      "lat": 6.1428829,
+      "lng": 81.12123079999999
     },
     {
       "place": "Jaffna",
@@ -151,6 +148,14 @@
       "lng": 79.839386
     },
     {
+      "place": "Rathmalana",
+      "min_temp": 26.7,
+      "max_temp": 32.3,
+      "rain": 0,
+      "lat": 6.8195453,
+      "lng": 79.8800832
+    },
+    {
       "place": "Rathnapura",
       "min_temp": 23.9,
       "max_temp": 33.8,
@@ -173,6 +178,14 @@
       "rain": 0.0,
       "lat": 8.7542029,
       "lng": 80.4982402
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 24.3,
+      "max_temp": 32.5,
+      "rain": 0,
+      "lat": 6.288780374382144,
+      "lng": 81.12460077774537
     },
     {
       "place": "Mullaithivu",
@@ -462,5 +475,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 46.0,
+    "max_rain_place": "Hiniduma"
+  },
+  "min_temp": {
+    "min_temp": 11.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.7,
+    "max_temp_place": "Kurunagala"
+  }
 }

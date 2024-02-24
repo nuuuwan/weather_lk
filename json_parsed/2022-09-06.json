@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/30c906e756efb5990826c27bb49695d9.pdf",
   "date_ut": 1662402600.0,
   "date": "2022-09-06",
-  "min_temp": {
-    "min_temp": 13.4,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.3,
-    "max_temp_place": "Mullaithivu"
-  },
-  "max_rain": {
-    "max_rain": 207.4,
-    "max_rain_place": "Lakshapana"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -119,6 +108,14 @@
       "lng": 80.47207639999999
     },
     {
+      "place": "Mannar",
+      "min_temp": 26.4,
+      "max_temp": 29.6,
+      "rain": 0,
+      "lat": 8.980974300000002,
+      "lng": 79.90441489999999
+    },
+    {
       "place": "Polonnaruwa",
       "min_temp": 24.1,
       "max_temp": 33.1,
@@ -133,6 +130,14 @@
       "rain": 35.1,
       "lat": 6.949716599999999,
       "lng": 80.7891068
+    },
+    {
+      "place": "Pothuvil",
+      "min_temp": 25.0,
+      "max_temp": 32.2,
+      "rain": 0,
+      "lat": 6.875270599999999,
+      "lng": 81.8306334
     },
     {
       "place": "Puttalam",
@@ -470,5 +475,17 @@
       "lat": 6.824363,
       "lng": 80.119188
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 207.4,
+    "max_rain_place": "Lakshapana"
+  },
+  "min_temp": {
+    "min_temp": 13.4,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.3,
+    "max_temp_place": "Mullaithivu"
+  }
 }

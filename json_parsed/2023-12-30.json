@@ -1,19 +1,16 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/13bbb98456d145f7643f256adfe2426c.pdf",
   "date_ut": 1703874600.0,
   "date": "2023-12-30",
-  "min_temp": {
-    "min_temp": 13.7,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 31.6,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 215.0,
-    "max_rain_place": "Rufuskulam"
-  },
   "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 25.1,
+      "max_temp": 29.8,
+      "rain": 0,
+      "lat": 8.311351799999999,
+      "lng": 80.4036508
+    },
     {
       "place": "Badulla",
       "min_temp": 19.6,
@@ -45,6 +42,14 @@
       "rain": 2.5,
       "lat": 6.9270786,
       "lng": 79.861243
+    },
+    {
+      "place": "Galle",
+      "min_temp": 24.7,
+      "max_temp": 28.9,
+      "rain": 0,
+      "lat": 6.032894799999999,
+      "lng": 80.2167912
     },
     {
       "place": "Hambanthota",
@@ -199,6 +204,14 @@
       "lng": 80.5855038
     },
     {
+      "place": "Randenigala",
+      "rain": 83.2,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
+    },
+    {
       "place": "Norton",
       "rain": 2.3,
       "min_temp": null,
@@ -301,6 +314,14 @@
       "max_temp": null,
       "lat": 7.0859822,
       "lng": 81.777335
+    },
+    {
+      "place": "Weheragala Irrigation",
+      "rain": 50.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.5474919,
+      "lng": 81.260143
     },
     {
       "place": "Bibila",
@@ -446,5 +467,17 @@
       "lat": 7.399152799999999,
       "lng": 80.73345549999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 215.0,
+    "max_rain_place": "Rufuskulam"
+  },
+  "min_temp": {
+    "min_temp": 13.7,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 31.6,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/234ca69483c1ffc0f24e58ca41283c37.pdf",
   "date_ut": 1658601000.0,
   "date": "2022-07-24",
-  "min_temp": {
-    "min_temp": 13.9,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.2,
-    "max_temp_place": "Mulatiw"
-  },
-  "max_rain": {
-    "max_rain": 43.4,
-    "max_rain_place": "Watawala"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -143,6 +132,14 @@
       "lng": 80.7891068
     },
     {
+      "place": "Pothuvil",
+      "min_temp": 25.2,
+      "max_temp": 33.7,
+      "rain": 0,
+      "lat": 6.875270599999999,
+      "lng": 81.8306334
+    },
+    {
       "place": "Puttalam",
       "min_temp": 26.5,
       "max_temp": 30.9,
@@ -181,6 +178,14 @@
       "rain": 0.0,
       "lat": 8.7542029,
       "lng": 80.4982402
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 24.4,
+      "max_temp": 33.2,
+      "rain": 0,
+      "lat": 6.288780374382144,
+      "lng": 81.12460077774537
     },
     {
       "place": "Mulatiw",
@@ -462,5 +467,17 @@
       "lat": 6.9278104,
       "lng": 81.0927115
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 43.4,
+    "max_rain_place": "Watawala"
+  },
+  "min_temp": {
+    "min_temp": 13.9,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.2,
+    "max_temp_place": "Mulatiw"
+  }
 }

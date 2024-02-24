@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/9b1204f4bb8d3ada6fb6f8905678c715.pdf",
   "date_ut": 1651343400.0,
   "date": "2022-05-01",
-  "min_temp": {
-    "min_temp": 14.7,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 37.1,
-    "max_temp_place": "Mulatiw"
-  },
-  "max_rain": {
-    "max_rain": 114.3,
-    "max_rain_place": "Thalangaha Estate"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -167,6 +156,14 @@
       "lng": 79.8800832
     },
     {
+      "place": "Rathnapura",
+      "min_temp": 24.8,
+      "max_temp": 33.6,
+      "rain": 0,
+      "lat": 6.7055742,
+      "lng": 80.3847345
+    },
+    {
       "place": "Trincomalee",
       "min_temp": 25.7,
       "max_temp": 36.1,
@@ -205,6 +202,14 @@
       "max_temp": null,
       "lat": 6.8577186,
       "lng": 80.5855038
+    },
+    {
+      "place": "Randenigala",
+      "rain": 1.2,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
     },
     {
       "place": "Norton",
@@ -317,6 +322,14 @@
       "max_temp": null,
       "lat": 6.1467663,
       "lng": 80.3438001
+    },
+    {
+      "place": "Nittambuwa",
+      "rain": 4.3,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.142363899999999,
+      "lng": 80.1037721
     },
     {
       "place": "Kethendola",
@@ -462,5 +475,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 114.3,
+    "max_rain_place": "Thalangaha Estate"
+  },
+  "min_temp": {
+    "min_temp": 14.7,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 37.1,
+    "max_temp_place": "Mulatiw"
+  }
 }

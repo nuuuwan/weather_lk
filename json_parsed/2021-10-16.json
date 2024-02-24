@@ -1,19 +1,16 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/bcdb22d4e922d81851134a55dae8e788.pdf",
   "date_ut": 1634322600.0,
   "date": "2021-10-16",
-  "min_temp": {
-    "min_temp": 14.3,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.7,
-    "max_temp_place": "Pothuvil"
-  },
-  "max_rain": {
-    "max_rain": 26.5,
-    "max_rain_place": "Deniyaya"
-  },
   "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 25.0,
+      "max_temp": 31.9,
+      "rain": 0,
+      "lat": 8.311351799999999,
+      "lng": 80.4036508
+    },
     {
       "place": "Badulla",
       "min_temp": 19.8,
@@ -21,6 +18,14 @@
       "rain": 0.0,
       "lat": 6.993400899999999,
       "lng": 81.0549815
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 18.3,
+      "max_temp": 27.0,
+      "rain": 0,
+      "lat": 6.825877999999999,
+      "lng": 80.9981576
     },
     {
       "place": "Batticaloa",
@@ -53,6 +58,14 @@
       "rain": 1.1,
       "lat": 6.1428829,
       "lng": 81.12123079999999
+    },
+    {
+      "place": "Jaffna",
+      "min_temp": 27.1,
+      "max_temp": 31.1,
+      "rain": 0,
+      "lat": 9.6614981,
+      "lng": 80.02554649999999
     },
     {
       "place": "Monaragala",
@@ -93,6 +106,14 @@
       "rain": 0.3,
       "lat": 8.1155443,
       "lng": 80.47207639999999
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 27.0,
+      "max_temp": 30.4,
+      "rain": 0,
+      "lat": 8.980974300000002,
+      "lng": 79.90441489999999
     },
     {
       "place": "Polonnaruwa",
@@ -454,5 +475,17 @@
       "lat": 6.8978344,
       "lng": 80.0814292
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 26.5,
+    "max_rain_place": "Deniyaya"
+  },
+  "min_temp": {
+    "min_temp": 14.3,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.7,
+    "max_temp_place": "Pothuvil"
+  }
 }

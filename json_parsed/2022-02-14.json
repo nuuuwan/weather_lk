@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/e8981e484a59dbe85c76caa2b382c367.pdf",
   "date_ut": 1644777000.0,
   "date": "2022-02-14",
-  "min_temp": {
-    "min_temp": 12.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 31.8,
-    "max_temp_place": "Monaragala"
-  },
-  "max_rain": {
-    "max_rain": 56.2,
-    "max_rain_place": "Padiyathalawa"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -478,5 +467,17 @@
       "lat": 8.1369099,
       "lng": 81.434079
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 56.2,
+    "max_rain_place": "Padiyathalawa"
+  },
+  "min_temp": {
+    "min_temp": 12.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 31.8,
+    "max_temp_place": "Monaragala"
+  }
 }

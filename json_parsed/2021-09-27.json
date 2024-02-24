@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/07fe1ba57ca062cc1fb7d08f8f6cb5a8.pdf",
   "date_ut": 1632681000.0,
   "date": "2021-09-27",
-  "min_temp": {
-    "min_temp": 12.6,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.6,
-    "max_temp_place": "Pothuvil"
-  },
-  "max_rain": {
-    "max_rain": 180.1,
-    "max_rain_place": "Wevalthalawa"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -486,5 +475,17 @@
       "lat": 6.7972337,
       "lng": 80.675692
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 180.1,
+    "max_rain_place": "Wevalthalawa"
+  },
+  "min_temp": {
+    "min_temp": 12.6,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.6,
+    "max_temp_place": "Pothuvil"
+  }
 }

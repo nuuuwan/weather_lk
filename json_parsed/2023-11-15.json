@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/fd317a25cfc78aa4f3ce7459df8bc419.pdf",
   "date_ut": 1699986600.0,
   "date": "2023-11-15",
-  "min_temp": {
-    "min_temp": 0.0,
-    "min_temp_place": "Mattla"
-  },
-  "max_temp": {
-    "max_temp": 32.0,
-    "max_temp_place": "Monaragala"
-  },
-  "max_rain": {
-    "max_rain": 170.8,
-    "max_rain_place": "Point Pedro"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -207,6 +196,22 @@
       "lng": 80.81424799999999
     },
     {
+      "place": "Castlereigh",
+      "rain": 1.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.8577186,
+      "lng": 80.5855038
+    },
+    {
+      "place": "Rainfall Randenigala",
+      "rain": 4.8,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.182267599999999,
+      "lng": 80.9284687
+    },
+    {
       "place": "Norton",
       "rain": 0.6,
       "min_temp": null,
@@ -301,6 +306,22 @@
       "max_temp": null,
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
+    },
+    {
+      "place": "Atchuvely",
+      "rain": 175.4,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 9.7786397,
+      "lng": 80.1160651
+    },
+    {
+      "place": "Elephant Pass",
+      "rain": 56.5,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 9.5044995,
+      "lng": 80.402048
     },
     {
       "place": "Point Pedro",
@@ -446,5 +467,17 @@
       "lat": 7.2847427,
       "lng": 81.78578850000001
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 175.4,
+    "max_rain_place": "Atchuvely"
+  },
+  "min_temp": {
+    "min_temp": 14.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.0,
+    "max_temp_place": "Monaragala"
+  }
 }

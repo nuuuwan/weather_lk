@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/1be87e9c5e223dc6803ce4b92c7d154c.pdf",
   "date_ut": 1708626600.0,
   "date": "2024-02-23",
-  "min_temp": {
-    "min_temp": 10.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 36.0,
-    "max_temp_place": "Kurunagala"
-  },
-  "max_rain": {
-    "max_rain": 57.0,
-    "max_rain_place": "Norton"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -47,6 +36,14 @@
       "lng": 81.6966911
     },
     {
+      "place": "Colombo",
+      "min_temp": 25.8,
+      "max_temp": 33.0,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
+    },
+    {
       "place": "Galle",
       "min_temp": 25.6,
       "max_temp": 31.7,
@@ -69,6 +66,14 @@
       "rain": 0.0,
       "lat": 9.6614981,
       "lng": 80.02554649999999
+    },
+    {
+      "place": "Monaragala",
+      "min_temp": 23.5,
+      "max_temp": 34.6,
+      "rain": 0,
+      "lat": 6.890645399999999,
+      "lng": 81.34544170000001
     },
     {
       "place": "Katugasthota",
@@ -199,6 +204,14 @@
       "lng": 80.5855038
     },
     {
+      "place": "Randenigala",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
+    },
+    {
       "place": "Norton",
       "rain": 57.0,
       "min_temp": null,
@@ -309,6 +322,14 @@
       "max_temp": null,
       "lat": 6.7912154,
       "lng": 80.43543369999999
+    },
+    {
+      "place": "Wewessa Estate",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.9619518,
+      "lng": 81.10719519999999
     },
     {
       "place": "Madatugama",
@@ -454,5 +475,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 57.0,
+    "max_rain_place": "Norton"
+  },
+  "min_temp": {
+    "min_temp": 10.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.0,
+    "max_temp_place": "Kurunagala"
+  }
 }

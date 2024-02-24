@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/36405b5535bf32d0ac794ace386947eb.pdf",
   "date_ut": 1706380200.0,
   "date": "2024-01-28",
-  "min_temp": {
-    "min_temp": 14.1,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.6,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 21.3,
-    "max_rain_place": "Inginiyagala"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -111,6 +100,14 @@
       "lng": 80.3608876
     },
     {
+      "place": "Maha Illuppallama",
+      "min_temp": 22.9,
+      "max_temp": 31.3,
+      "rain": 0,
+      "lat": 8.1155443,
+      "lng": 80.47207639999999
+    },
+    {
       "place": "Mannar",
       "min_temp": 25.6,
       "max_temp": 30.4,
@@ -205,6 +202,14 @@
       "max_temp": null,
       "lat": 6.8577186,
       "lng": 80.5855038
+    },
+    {
+      "place": "Randenigala",
+      "rain": 1.5,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
     },
     {
       "place": "Norton",
@@ -309,6 +314,14 @@
       "max_temp": null,
       "lat": 7.213815599999999,
       "lng": 81.54318719999999
+    },
+    {
+      "place": "Habarana Lodge",
+      "rain": 4.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 8.032214699999999,
+      "lng": 80.7519272
     },
     {
       "place": "Ampara",
@@ -454,5 +467,17 @@
       "lat": 8.358457699999999,
       "lng": 80.511702
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 21.3,
+    "max_rain_place": "Inginiyagala"
+  },
+  "min_temp": {
+    "min_temp": 14.1,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.6,
+    "max_temp_place": "Rathnapura"
+  }
 }

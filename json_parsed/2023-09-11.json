@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/8da27626b1d3cb381d6445931abe9484.pdf",
   "date_ut": 1694370600.0,
   "date": "2023-09-11",
-  "min_temp": {
-    "min_temp": 13.7,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 36.4,
-    "max_temp_place": "Mullaitivu"
-  },
-  "max_rain": {
-    "max_rain": 67.0,
-    "max_rain_place": "Mapalana"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -111,6 +100,14 @@
       "lng": 80.3608876
     },
     {
+      "place": "Maha Illuppallama",
+      "min_temp": 25.4,
+      "max_temp": 32.6,
+      "rain": 0,
+      "lat": 8.1155443,
+      "lng": 80.47207639999999
+    },
+    {
       "place": "Mannar",
       "min_temp": 27.6,
       "max_temp": 31.8,
@@ -205,6 +202,14 @@
       "max_temp": null,
       "lat": 6.8577186,
       "lng": 80.5855038
+    },
+    {
+      "place": "Randenigala",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
     },
     {
       "place": "Norton",
@@ -309,6 +314,14 @@
       "max_temp": null,
       "lat": 6.7681194,
       "lng": 80.4715866
+    },
+    {
+      "place": "Thalangaha Estate",
+      "rain": 31.4,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.1467663,
+      "lng": 80.3438001
     },
     {
       "place": "Hiniduma",
@@ -446,5 +459,17 @@
       "lat": 7.139777,
       "lng": 80.3575128
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 67.0,
+    "max_rain_place": "Mapalana"
+  },
+  "min_temp": {
+    "min_temp": 13.7,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.4,
+    "max_temp_place": "Mullaitivu"
+  }
 }

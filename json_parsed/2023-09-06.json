@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/ecb88db1b88adbc674f98928b12fd2d6.pdf",
   "date_ut": 1693938600.0,
   "date": "2023-09-06",
-  "min_temp": {
-    "min_temp": 14.2,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 36.2,
-    "max_temp_place": "Batticaloa"
-  },
-  "max_rain": {
-    "max_rain": 92.6,
-    "max_rain_place": "Moraliya-Oya"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -215,6 +204,14 @@
       "lng": 80.5855038
     },
     {
+      "place": "Randenigala",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
+    },
+    {
       "place": "Norton",
       "rain": 53.4,
       "min_temp": null,
@@ -317,6 +314,14 @@
       "max_temp": null,
       "lat": 7.0255123,
       "lng": 80.229343
+    },
+    {
+      "place": "Benthotawatta",
+      "rain": 56.4,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.873053999999999,
+      "lng": 80.77179699999999
     },
     {
       "place": "Watawala",
@@ -462,5 +467,17 @@
       "lat": 7.042666,
       "lng": 80.8128636
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 92.6,
+    "max_rain_place": "Moraliya-Oya"
+  },
+  "min_temp": {
+    "min_temp": 14.2,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.2,
+    "max_temp_place": "Batticaloa"
+  }
 }

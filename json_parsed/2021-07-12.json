@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/958ce3cf346b72affefc8058ce5bab99.pdf",
   "date_ut": 1626028200.0,
   "date": "2021-07-12",
-  "min_temp": {
-    "min_temp": 18.7,
-    "min_temp_place": "Badulla"
-  },
-  "max_temp": {
-    "max_temp": 34.7,
-    "max_temp_place": "Batticaloa"
-  },
-  "max_rain": {
-    "max_rain": 36.2,
-    "max_rain_place": "Galle"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -29,6 +18,14 @@
       "rain": 0.0,
       "lat": 6.993400899999999,
       "lng": 81.0549815
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 20.2,
+      "max_temp": 23.4,
+      "rain": 0,
+      "lat": 6.825877999999999,
+      "lng": 80.9981576
     },
     {
       "place": "Batticaloa",
@@ -470,5 +467,17 @@
       "lat": 6.165568899999999,
       "lng": 80.9031172
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 36.2,
+    "max_rain_place": "Galle"
+  },
+  "min_temp": {
+    "min_temp": 18.7,
+    "min_temp_place": "Badulla"
+  },
+  "max_temp": {
+    "max_temp": 34.7,
+    "max_temp_place": "Batticaloa"
+  }
 }

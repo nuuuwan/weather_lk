@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/0a090d06f6a5032334b33ece60840d2c.pdf",
   "date_ut": 1630261800.0,
   "date": "2021-08-30",
-  "min_temp": {
-    "min_temp": 13.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.8,
-    "max_temp_place": "Mullaithivu"
-  },
-  "max_rain": {
-    "max_rain": 56.5,
-    "max_rain_place": "Lakshapana"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -478,5 +467,17 @@
       "lat": 7.166710300000001,
       "lng": 80.1233175
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 56.5,
+    "max_rain_place": "Lakshapana"
+  },
+  "min_temp": {
+    "min_temp": 13.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.8,
+    "max_temp_place": "Mullaithivu"
+  }
 }

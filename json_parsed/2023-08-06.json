@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/e8507308ac8a37cf19177e8939468bac.pdf",
   "date_ut": 1691260200.0,
   "date": "2023-08-06",
-  "min_temp": {
-    "min_temp": 13.8,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 37.9,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 44.5,
-    "max_rain_place": "Rantambe"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -45,6 +34,14 @@
       "rain": 0.0,
       "lat": 7.7249146,
       "lng": 81.6966911
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 27.6,
+      "max_temp": 30.6,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
     },
     {
       "place": "Galle",
@@ -167,6 +164,14 @@
       "lng": 80.3847345
     },
     {
+      "place": "Trincomalee",
+      "min_temp": 25.4,
+      "max_temp": 36.2,
+      "rain": 0,
+      "lat": 8.5873638,
+      "lng": 81.2152121
+    },
+    {
       "place": "Vavuniya",
       "min_temp": 25.2,
       "max_temp": 37.7,
@@ -197,6 +202,14 @@
       "max_temp": null,
       "lat": 6.8577186,
       "lng": 80.5855038
+    },
+    {
+      "place": "Randenigala",
+      "rain": 59.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
     },
     {
       "place": "Norton",
@@ -297,6 +310,14 @@
     {
       "place": "Monrovia",
       "rain": 0.3,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.873053999999999,
+      "lng": 80.77179699999999
+    },
+    {
+      "place": "Nawakiriaru Tank",
+      "rain": 0.0,
       "min_temp": null,
       "max_temp": null,
       "lat": 7.873053999999999,
@@ -446,5 +467,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 59.0,
+    "max_rain_place": "Randenigala"
+  },
+  "min_temp": {
+    "min_temp": 13.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 37.9,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

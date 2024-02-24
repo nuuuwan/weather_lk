@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/a0173139bdb4d5d17e64f43883a7463e.pdf",
   "date_ut": 1642185000.0,
   "date": "2022-01-15",
-  "min_temp": {
-    "min_temp": 9.7,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.4,
-    "max_temp_place": "Kurunagala"
-  },
-  "max_rain": {
-    "max_rain": 25.0,
-    "max_rain_place": "Dethanagala"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -47,6 +36,14 @@
       "lng": 81.6966911
     },
     {
+      "place": "Colombo",
+      "min_temp": 25.9,
+      "max_temp": 32.1,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
+    },
+    {
       "place": "Galle",
       "min_temp": 25.0,
       "max_temp": 31.1,
@@ -63,6 +60,14 @@
       "lng": 81.12123079999999
     },
     {
+      "place": "Jaffna",
+      "min_temp": 22.5,
+      "max_temp": 31.4,
+      "rain": 0,
+      "lat": 9.6614981,
+      "lng": 80.02554649999999
+    },
+    {
       "place": "Monaragala",
       "min_temp": 22.1,
       "max_temp": 33.2,
@@ -77,6 +82,14 @@
       "rain": 0.0,
       "lat": 7.3251558,
       "lng": 80.62297869999999
+    },
+    {
+      "place": "Katunayake",
+      "min_temp": 24.5,
+      "max_temp": 32.4,
+      "rain": 0,
+      "lat": 7.172484899999999,
+      "lng": 79.8853484
     },
     {
       "place": "Kurunagala",
@@ -454,5 +467,17 @@
       "lat": 9.3802886,
       "lng": 80.3769999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 25.0,
+    "max_rain_place": "Dethanagala"
+  },
+  "min_temp": {
+    "min_temp": 9.7,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.4,
+    "max_temp_place": "Kurunagala"
+  }
 }

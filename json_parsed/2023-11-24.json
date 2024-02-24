@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/ea3d0c6df727b0c5a2c1912e8a1be373.pdf",
   "date_ut": 1700764200.0,
   "date": "2023-11-24",
-  "min_temp": {
-    "min_temp": 10.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.8,
-    "max_temp_place": "Monaragala"
-  },
-  "max_rain": {
-    "max_rain": 58.4,
-    "max_rain_place": "Katandola"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -478,5 +467,17 @@
       "lat": 8.872387,
       "lng": 80.5077237
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 58.4,
+    "max_rain_place": "Katandola"
+  },
+  "min_temp": {
+    "min_temp": 10.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.8,
+    "max_temp_place": "Monaragala"
+  }
 }

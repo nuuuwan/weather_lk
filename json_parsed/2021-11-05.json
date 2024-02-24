@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/d4ed518db1087fa382e8a95247870cfa.pdf",
   "date_ut": 1636050600.0,
   "date": "2021-11-05",
-  "min_temp": {
-    "min_temp": 13.6,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.6,
-    "max_temp_place": "Pothuvil"
-  },
-  "max_rain": {
-    "max_rain": 75.3,
-    "max_rain_place": "Monrovia"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -486,5 +475,17 @@
       "lat": 9.7937885,
       "lng": 80.2209773
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 75.3,
+    "max_rain_place": "Monrovia"
+  },
+  "min_temp": {
+    "min_temp": 13.6,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.6,
+    "max_temp_place": "Pothuvil"
+  }
 }

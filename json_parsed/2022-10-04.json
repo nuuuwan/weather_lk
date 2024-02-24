@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/98ae838886113a4584e98c119520626c.pdf",
   "date_ut": 1664821800.0,
   "date": "2022-10-04",
-  "min_temp": {
-    "min_temp": 14.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.7,
-    "max_temp_place": "Batticaloa"
-  },
-  "max_rain": {
-    "max_rain": 152.8,
-    "max_rain_place": "Canyon"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -29,6 +18,14 @@
       "rain": 0.0,
       "lat": 6.993400899999999,
       "lng": 81.0549815
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 18.4,
+      "max_temp": 25.9,
+      "rain": 0,
+      "lat": 6.825877999999999,
+      "lng": 80.9981576
     },
     {
       "place": "Batticaloa",
@@ -71,12 +68,28 @@
       "lng": 80.02554649999999
     },
     {
+      "place": "Monaragala",
+      "min_temp": 22.2,
+      "max_temp": 34.1,
+      "rain": 0,
+      "lat": 6.890645399999999,
+      "lng": 81.34544170000001
+    },
+    {
       "place": "Katugasthota",
       "min_temp": 22.2,
       "max_temp": 26.4,
       "rain": 2.5,
       "lat": 7.3251558,
       "lng": 80.62297869999999
+    },
+    {
+      "place": "Katunayake",
+      "min_temp": 26.0,
+      "max_temp": 29.7,
+      "rain": 0,
+      "lat": 7.172484899999999,
+      "lng": 79.8853484
     },
     {
       "place": "Kurunagala",
@@ -462,5 +475,17 @@
       "lat": 7.2303052,
       "lng": 80.582033
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 152.8,
+    "max_rain_place": "Canyon"
+  },
+  "min_temp": {
+    "min_temp": 14.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.7,
+    "max_temp_place": "Batticaloa"
+  }
 }

@@ -1,19 +1,32 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/ac39b5094f1bee1441fa7a54f8cd8b97.pdf",
   "date_ut": 1659637800.0,
   "date": "2022-08-05",
-  "min_temp": {
-    "min_temp": 13.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.9,
-    "max_temp_place": "Batticaloa"
-  },
-  "max_rain": {
-    "max_rain": 76.2,
-    "max_rain_place": "Canyon"
-  },
   "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 25.1,
+      "max_temp": 30.0,
+      "rain": 0,
+      "lat": 8.311351799999999,
+      "lng": 80.4036508
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 20.0,
+      "max_temp": 26.7,
+      "rain": 0,
+      "lat": 6.993400899999999,
+      "lng": 81.0549815
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 18.7,
+      "max_temp": 24.8,
+      "rain": 0,
+      "lat": 6.825877999999999,
+      "lng": 80.9981576
+    },
     {
       "place": "Batticaloa",
       "min_temp": 24.9,
@@ -31,12 +44,36 @@
       "lng": 79.861243
     },
     {
+      "place": "Galle",
+      "min_temp": 25.8,
+      "max_temp": 28.3,
+      "rain": 0,
+      "lat": 6.032894799999999,
+      "lng": 80.2167912
+    },
+    {
       "place": "Hambanthota",
       "min_temp": 24.4,
       "max_temp": 30.7,
       "rain": 0.1,
       "lat": 6.1428829,
       "lng": 81.12123079999999
+    },
+    {
+      "place": "Jaffna",
+      "min_temp": 26.9,
+      "max_temp": 29.5,
+      "rain": 0,
+      "lat": 9.6614981,
+      "lng": 80.02554649999999
+    },
+    {
+      "place": "Monaragala",
+      "min_temp": 21.2,
+      "max_temp": 31.1,
+      "rain": 0,
+      "lat": 6.890645399999999,
+      "lng": 81.34544170000001
     },
     {
       "place": "Katugasthota",
@@ -69,6 +106,14 @@
       "rain": 0.5,
       "lat": 8.1155443,
       "lng": 80.47207639999999
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 27.0,
+      "max_temp": 29.8,
+      "rain": 0,
+      "lat": 8.980974300000002,
+      "lng": 79.90441489999999
     },
     {
       "place": "Polonnaruwa",
@@ -422,5 +467,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 76.2,
+    "max_rain_place": "Canyon"
+  },
+  "min_temp": {
+    "min_temp": 13.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.9,
+    "max_temp_place": "Batticaloa"
+  }
 }

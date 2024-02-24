@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/e3ec25edca412c5e4cf2c9ae7c9d4735.pdf",
   "date_ut": 1646159400.0,
   "date": "2022-03-02",
-  "min_temp": {
-    "min_temp": 14.3,
-    "min_temp_place": "Bandarawela"
-  },
-  "max_temp": {
-    "max_temp": 35.7,
-    "max_temp_place": "Colombo"
-  },
-  "max_rain": {
-    "max_rain": 15.7,
-    "max_rain_place": "Batuwangala"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -21,6 +10,14 @@
       "rain": 0.0,
       "lat": 8.311351799999999,
       "lng": 80.4036508
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 17.1,
+      "max_temp": 26.5,
+      "rain": 0,
+      "lat": 6.993400899999999,
+      "lng": 81.0549815
     },
     {
       "place": "Bandarawela",
@@ -125,6 +122,14 @@
       "rain": 0.0,
       "lat": 7.940338400000001,
       "lng": 81.0187984
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 14.0,
+      "max_temp": 20.1,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
     },
     {
       "place": "Pothuvil",
@@ -470,5 +475,17 @@
       "lat": 9.3802886,
       "lng": 80.3769999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 15.7,
+    "max_rain_place": "Batuwangala"
+  },
+  "min_temp": {
+    "min_temp": 14.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.7,
+    "max_temp_place": "Colombo"
+  }
 }

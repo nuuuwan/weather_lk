@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/40345fbf757023aff379401dcc48612b.pdf",
   "date_ut": 1700073000.0,
   "date": "2023-11-16",
-  "min_temp": {
-    "min_temp": 13.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.9,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 118.8,
-    "max_rain_place": "Atchuvely"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -79,6 +68,14 @@
       "lng": 80.02554649999999
     },
     {
+      "place": "Monaragala",
+      "min_temp": 22.9,
+      "max_temp": 32.5,
+      "rain": 0,
+      "lat": 6.890645399999999,
+      "lng": 81.34544170000001
+    },
+    {
       "place": "Katugasthota",
       "min_temp": 21.7,
       "max_temp": 29.5,
@@ -101,6 +98,22 @@
       "rain": 3.0,
       "lat": 7.4817695,
       "lng": 80.3608876
+    },
+    {
+      "place": "Maha Illuppallama",
+      "min_temp": 24.6,
+      "max_temp": 29.7,
+      "rain": 0,
+      "lat": 8.1155443,
+      "lng": 80.47207639999999
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 26.1,
+      "max_temp": 27.9,
+      "rain": 0,
+      "lat": 8.980974300000002,
+      "lng": 79.90441489999999
     },
     {
       "place": "Polonnaruwa",
@@ -133,6 +146,14 @@
       "rain": 1.3,
       "lat": 8.0407913,
       "lng": 79.839386
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 25.2,
+      "max_temp": 31.9,
+      "rain": 0,
+      "lat": 6.8195453,
+      "lng": 79.8800832
     },
     {
       "place": "Rathnapura",
@@ -181,6 +202,14 @@
       "max_temp": null,
       "lat": 6.8577186,
       "lng": 80.5855038
+    },
+    {
+      "place": "Randenigala",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
     },
     {
       "place": "Norton",
@@ -438,5 +467,17 @@
       "lat": 9.1538678,
       "lng": 80.64973119999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 118.8,
+    "max_rain_place": "Atchuvely"
+  },
+  "min_temp": {
+    "min_temp": 13.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.9,
+    "max_temp_place": "Rathnapura"
+  }
 }

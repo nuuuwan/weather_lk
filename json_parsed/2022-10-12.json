@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/7bc50b69eec7ddd7ec598435b0602ab7.pdf",
   "date_ut": 1665513000.0,
   "date": "2022-10-12",
-  "min_temp": {
-    "min_temp": 11.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.2,
-    "max_temp_place": "Anuradhapura"
-  },
-  "max_rain": {
-    "max_rain": 84.8,
-    "max_rain_place": "Diyabeduma"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -85,6 +74,14 @@
       "rain": 54.4,
       "lat": 6.890645399999999,
       "lng": 81.34544170000001
+    },
+    {
+      "place": "Katugasthota",
+      "min_temp": 20.6,
+      "max_temp": 29.8,
+      "rain": 0,
+      "lat": 7.3251558,
+      "lng": 80.62297869999999
     },
     {
       "place": "Katunayake",
@@ -478,5 +475,17 @@
       "lat": 7.0411825,
       "lng": 80.1289324
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 84.8,
+    "max_rain_place": "Diyabeduma"
+  },
+  "min_temp": {
+    "min_temp": 11.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.2,
+    "max_temp_place": "Anuradhapura"
+  }
 }

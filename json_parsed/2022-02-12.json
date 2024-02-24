@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/1e99b637d50d77caddc1aa7c42b2663d.pdf",
   "date_ut": 1644604200.0,
   "date": "2022-02-12",
-  "min_temp": {
-    "min_temp": 12.3,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 31.8,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 65.5,
-    "max_rain_place": "Benthotawatta"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -79,6 +68,14 @@
       "lng": 80.02554649999999
     },
     {
+      "place": "Monaragala",
+      "min_temp": 22.2,
+      "max_temp": 30.8,
+      "rain": 0,
+      "lat": 6.890645399999999,
+      "lng": 81.34544170000001
+    },
+    {
       "place": "Katugasthota",
       "min_temp": 20.8,
       "max_temp": 25.8,
@@ -141,6 +138,14 @@
       "rain": 3.3,
       "lat": 6.875270599999999,
       "lng": 81.8306334
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 23.0,
+      "max_temp": 30.4,
+      "rain": 0,
+      "lat": 8.0407913,
+      "lng": 79.839386
     },
     {
       "place": "Rathmalana",
@@ -470,5 +475,17 @@
       "lat": 6.929680599999999,
       "lng": 80.6049374
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 65.5,
+    "max_rain_place": "Benthotawatta"
+  },
+  "min_temp": {
+    "min_temp": 12.3,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 31.8,
+    "max_temp_place": "Rathnapura"
+  }
 }

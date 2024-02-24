@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/bf5d854d594d6cee1e3f29f43e86ce12.pdf",
   "date_ut": 1668018600.0,
   "date": "2022-11-10",
-  "min_temp": {
-    "min_temp": 13.2,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 31.6,
-    "max_temp_place": "Katunayake"
-  },
-  "max_rain": {
-    "max_rain": 132.5,
-    "max_rain_place": "Deniyaya"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -47,12 +36,28 @@
       "lng": 81.6966911
     },
     {
+      "place": "Colombo",
+      "min_temp": 24.0,
+      "max_temp": 31.5,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
+    },
+    {
       "place": "Galle",
       "min_temp": 24.4,
       "max_temp": 29.5,
       "rain": 1.0,
       "lat": 6.032894799999999,
       "lng": 80.2167912
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 24.2,
+      "max_temp": 32.0,
+      "rain": 0,
+      "lat": 6.1428829,
+      "lng": 81.12123079999999
     },
     {
       "place": "Jaffna",
@@ -101,6 +106,14 @@
       "rain": 5.7,
       "lat": 8.1155443,
       "lng": 80.47207639999999
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 24.6,
+      "max_temp": 27.6,
+      "rain": 0,
+      "lat": 8.980974300000002,
+      "lng": 79.90441489999999
     },
     {
       "place": "Polonnaruwa",
@@ -454,5 +467,17 @@
       "lat": 6.1467663,
       "lng": 80.3438001
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 132.5,
+    "max_rain_place": "Deniyaya"
+  },
+  "min_temp": {
+    "min_temp": 13.2,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.0,
+    "max_temp_place": "Hambanthota"
+  }
 }

@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/f66cb0f363922a9297ef3d18dc4e4e10.pdf",
   "date_ut": 1702319400.0,
   "date": "2023-12-12",
-  "min_temp": {
-    "min_temp": 12.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.7,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 113.8,
-    "max_rain_place": "Thalangaha Estate"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -93,6 +82,14 @@
       "rain": 7.3,
       "lat": 7.3251558,
       "lng": 80.62297869999999
+    },
+    {
+      "place": "Katunayake",
+      "min_temp": 24.7,
+      "max_temp": 31.8,
+      "rain": 0,
+      "lat": 7.172484899999999,
+      "lng": 79.8853484
     },
     {
       "place": "Kurunagala",
@@ -207,6 +204,14 @@
       "lng": 80.5855038
     },
     {
+      "place": "Randenigala",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
+    },
+    {
       "place": "Norton",
       "rain": 2.7,
       "min_temp": null,
@@ -309,6 +314,14 @@
       "max_temp": null,
       "lat": 6.1467663,
       "lng": 80.3438001
+    },
+    {
+      "place": "Rugam",
+      "rain": 34.3,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.6790279,
+      "lng": 81.49379929999999
     },
     {
       "place": "Benthotawatta",
@@ -454,5 +467,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 113.8,
+    "max_rain_place": "Thalangaha Estate"
+  },
+  "min_temp": {
+    "min_temp": 12.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.7,
+    "max_temp_place": "Rathnapura"
+  }
 }

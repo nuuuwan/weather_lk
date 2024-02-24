@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/f6e8e22fdd48388eef00f05f2efaa3f8.pdf",
   "date_ut": 1668969000.0,
   "date": "2022-11-21",
-  "min_temp": {
-    "min_temp": 12.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.1,
-    "max_temp_place": "Pothuvil"
-  },
-  "max_rain": {
-    "max_rain": 0.2,
-    "max_rain_place": "Girandurukotte"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -470,5 +459,17 @@
       "lat": 7.619725000000001,
       "lng": 81.5494688
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 0.2,
+    "max_rain_place": "Girandurukotte"
+  },
+  "min_temp": {
+    "min_temp": 12.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.1,
+    "max_temp_place": "Pothuvil"
+  }
 }

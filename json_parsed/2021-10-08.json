@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/3cf8d260f4eea31d547089c63078ef33.pdf",
   "date_ut": 1633631400.0,
   "date": "2021-10-08",
-  "min_temp": {
-    "min_temp": 13.4,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.2,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 6.6,
-    "max_rain_place": "Palugaswewa Estate"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -165,6 +154,14 @@
       "rain": 0.0,
       "lat": 6.8195453,
       "lng": 79.8800832
+    },
+    {
+      "place": "Rathnapura",
+      "min_temp": 22.9,
+      "max_temp": 32.4,
+      "rain": 0,
+      "lat": 6.7055742,
+      "lng": 80.3847345
     },
     {
       "place": "Trincomalee",
@@ -462,5 +459,17 @@
       "lat": 9.516667000000002,
       "lng": 79.68333299999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 6.6,
+    "max_rain_place": "Palugaswewa Estate"
+  },
+  "min_temp": {
+    "min_temp": 13.4,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.2,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

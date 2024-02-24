@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/ac2e8b94a4bb18a2689dbdac9cb862f8.pdf",
   "date_ut": 1706639400.0,
   "date": "2024-01-31",
-  "min_temp": {
-    "min_temp": 15.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.1,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 81.0,
-    "max_rain_place": "Hiniduma"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -53,6 +42,14 @@
       "rain": 3.0,
       "lat": 6.9270786,
       "lng": 79.861243
+    },
+    {
+      "place": "Galle",
+      "min_temp": 25.7,
+      "max_temp": 29.7,
+      "rain": 0,
+      "lat": 6.032894799999999,
+      "lng": 80.2167912
     },
     {
       "place": "Hambanthota",
@@ -141,6 +138,14 @@
       "rain": 0.0,
       "lat": 6.875270599999999,
       "lng": 81.8306334
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 24.5,
+      "max_temp": 30.8,
+      "rain": 0,
+      "lat": 8.0407913,
+      "lng": 79.839386
     },
     {
       "place": "Rathmalana",
@@ -462,5 +467,17 @@
       "lat": 6.8982844,
       "lng": 81.70073630000002
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 81.0,
+    "max_rain_place": "Hiniduma"
+  },
+  "min_temp": {
+    "min_temp": 15.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.1,
+    "max_temp_place": "Rathnapura"
+  }
 }

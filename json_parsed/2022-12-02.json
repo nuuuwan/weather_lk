@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/27524468c9c1fe7e7b1fb713f25ffb94.pdf",
   "date_ut": 1669919400.0,
   "date": "2022-12-02",
-  "min_temp": {
-    "min_temp": 11.4,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.0,
-    "max_temp_place": "Kurunagala"
-  },
-  "max_rain": {
-    "max_rain": 107.5,
-    "max_rain_place": "Kuttapitiya Tea"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -21,6 +10,14 @@
       "rain": 2.3,
       "lat": 8.311351799999999,
       "lng": 80.4036508
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 18.6,
+      "max_temp": 27.2,
+      "rain": 0,
+      "lat": 6.993400899999999,
+      "lng": 81.0549815
     },
     {
       "place": "Bandarawela",
@@ -45,6 +42,14 @@
       "rain": 0.0,
       "lat": 6.9270786,
       "lng": 79.861243
+    },
+    {
+      "place": "Galle",
+      "min_temp": 25.0,
+      "max_temp": 31.9,
+      "rain": 0,
+      "lat": 6.032894799999999,
+      "lng": 80.2167912
     },
     {
       "place": "Hambanthota",
@@ -133,6 +138,22 @@
       "rain": 0.4,
       "lat": 6.875270599999999,
       "lng": 81.8306334
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 23.7,
+      "max_temp": 33.5,
+      "rain": 0,
+      "lat": 8.0407913,
+      "lng": 79.839386
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 25.0,
+      "max_temp": 31.7,
+      "rain": 0,
+      "lat": 6.8195453,
+      "lng": 79.8800832
     },
     {
       "place": "Rathnapura",
@@ -454,5 +475,17 @@
       "lat": 6.165568899999999,
       "lng": 80.9031172
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 107.5,
+    "max_rain_place": "Kuttapitiya Tea"
+  },
+  "min_temp": {
+    "min_temp": 11.4,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.5,
+    "max_temp_place": "Puttalam"
+  }
 }

@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/895cc300f675ad04061f16e6b44b27d7.pdf",
   "date_ut": 1659033000.0,
   "date": "2022-07-29",
-  "min_temp": {
-    "min_temp": 13.7,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.7,
-    "max_temp_place": "Vavuniya"
-  },
-  "max_rain": {
-    "max_rain": 45.6,
-    "max_rain_place": "Minneriya"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -53,6 +42,14 @@
       "rain": 0.2,
       "lat": 6.9270786,
       "lng": 79.861243
+    },
+    {
+      "place": "Galle",
+      "min_temp": 25.1,
+      "max_temp": 28.0,
+      "rain": 0,
+      "lat": 6.032894799999999,
+      "lng": 80.2167912
     },
     {
       "place": "Hambanthota",
@@ -181,6 +178,14 @@
       "rain": 35.6,
       "lat": 8.7542029,
       "lng": 80.4982402
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 24.1,
+      "max_temp": 28.2,
+      "rain": 0,
+      "lat": 6.288780374382144,
+      "lng": 81.12460077774537
     },
     {
       "place": "Mullaithivu",
@@ -462,5 +467,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 45.6,
+    "max_rain_place": "Minneriya"
+  },
+  "min_temp": {
+    "min_temp": 13.7,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.7,
+    "max_temp_place": "Vavuniya"
+  }
 }

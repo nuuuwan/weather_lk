@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/830b664a02b980ec6e9d1fd571b36dbf.pdf",
   "date_ut": 1661365800.0,
   "date": "2022-08-25",
-  "min_temp": {
-    "min_temp": 13.9,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.6,
-    "max_temp_place": "Batticaloa"
-  },
-  "max_rain": {
-    "max_rain": 20.5,
-    "max_rain_place": "Mathugama"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -71,6 +60,22 @@
       "lng": 81.12123079999999
     },
     {
+      "place": "Jaffna",
+      "min_temp": 26.2,
+      "max_temp": 31.5,
+      "rain": 0,
+      "lat": 9.6614981,
+      "lng": 80.02554649999999
+    },
+    {
+      "place": "Monaragala",
+      "min_temp": 21.6,
+      "max_temp": 32.6,
+      "rain": 0,
+      "lat": 6.890645399999999,
+      "lng": 81.34544170000001
+    },
+    {
       "place": "Katugasthota",
       "min_temp": 21.7,
       "max_temp": 26.8,
@@ -101,6 +106,14 @@
       "rain": 0.0,
       "lat": 8.1155443,
       "lng": 80.47207639999999
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 26.1,
+      "max_temp": 29.3,
+      "rain": 0,
+      "lat": 8.980974300000002,
+      "lng": 79.90441489999999
     },
     {
       "place": "Polonnaruwa",
@@ -454,5 +467,17 @@
       "lat": 6.666861099999999,
       "lng": 80.70480839999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 20.5,
+    "max_rain_place": "Mathugama"
+  },
+  "min_temp": {
+    "min_temp": 13.9,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.6,
+    "max_temp_place": "Batticaloa"
+  }
 }

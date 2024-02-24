@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/f27bfdfa57b9f570722ba7715db603e9.pdf",
   "date_ut": 1670783400.0,
   "date": "2022-12-12",
-  "min_temp": {
-    "min_temp": 10.6,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.0,
-    "max_temp_place": "Hambanthota"
-  },
-  "max_rain": {
-    "max_rain": 19.6,
-    "max_rain_place": "Padukka Estate"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -470,5 +459,17 @@
       "lat": 7.200796799999999,
       "lng": 79.8736754
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 19.6,
+    "max_rain_place": "Padukka Estate"
+  },
+  "min_temp": {
+    "min_temp": 10.6,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.0,
+    "max_temp_place": "Hambanthota"
+  }
 }

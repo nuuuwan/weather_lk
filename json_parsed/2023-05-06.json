@@ -1,19 +1,16 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/8a73f33ba63429d4145383f06a071897.pdf",
   "date_ut": 1683311400.0,
   "date": "2023-05-06",
-  "min_temp": {
-    "min_temp": 14.1,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 31.2,
-    "max_temp_place": "Puttalam"
-  },
-  "max_rain": {
-    "max_rain": 31.2,
-    "max_rain_place": "Negombo"
-  },
   "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 24.2,
+      "max_temp": 28.9,
+      "rain": 0,
+      "lat": 8.311351799999999,
+      "lng": 80.4036508
+    },
     {
       "place": "Badulla",
       "min_temp": 18.9,
@@ -21,6 +18,14 @@
       "rain": 0.3,
       "lat": 6.993400899999999,
       "lng": 81.0549815
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 18.5,
+      "max_temp": 23.2,
+      "rain": 0,
+      "lat": 6.825877999999999,
+      "lng": 80.9981576
     },
     {
       "place": "Batticaloa",
@@ -95,12 +100,28 @@
       "lng": 80.3608876
     },
     {
+      "place": "Maha Illuppallama",
+      "min_temp": 23.9,
+      "max_temp": 28.7,
+      "rain": 0,
+      "lat": 8.1155443,
+      "lng": 80.47207639999999
+    },
+    {
       "place": "Mannar",
       "min_temp": 26.3,
       "max_temp": 29.8,
       "rain": 0.0,
       "lat": 8.980974300000002,
       "lng": 79.90441489999999
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 23.7,
+      "max_temp": 29.7,
+      "rain": 0,
+      "lat": 7.940338400000001,
+      "lng": 81.0187984
     },
     {
       "place": "Nuwara Eliya",
@@ -135,6 +156,14 @@
       "lng": 79.8800832
     },
     {
+      "place": "Rathnapura",
+      "min_temp": 23.5,
+      "max_temp": 29.9,
+      "rain": 0,
+      "lat": 6.7055742,
+      "lng": 80.3847345
+    },
+    {
       "place": "Trincomalee",
       "min_temp": 24.5,
       "max_temp": 29.2,
@@ -149,6 +178,14 @@
       "rain": 0.0,
       "lat": 8.7542029,
       "lng": 80.4982402
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 24.5,
+      "max_temp": 31.0,
+      "rain": 0,
+      "lat": 6.288780374382144,
+      "lng": 81.12460077774537
     },
     {
       "place": "Mullaithivu",
@@ -430,5 +467,17 @@
       "lat": 9.5044995,
       "lng": 80.402048
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 31.2,
+    "max_rain_place": "Negombo"
+  },
+  "min_temp": {
+    "min_temp": 14.1,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 31.2,
+    "max_temp_place": "Puttalam"
+  }
 }

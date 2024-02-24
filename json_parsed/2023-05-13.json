@@ -1,19 +1,16 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/3c807f5302719cc2a5a0bec9b436d679.pdf",
   "date_ut": 1683916200.0,
   "date": "2023-05-13",
-  "min_temp": {
-    "min_temp": 15.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.9,
-    "max_temp_place": "Pothuvil"
-  },
-  "max_rain": {
-    "max_rain": 126.8,
-    "max_rain_place": "Padukka Estate"
-  },
   "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 26.4,
+      "max_temp": 33.2,
+      "rain": 0,
+      "lat": 8.311351799999999,
+      "lng": 80.4036508
+    },
     {
       "place": "Badulla",
       "min_temp": 21.1,
@@ -45,6 +42,14 @@
       "rain": 2.6,
       "lat": 6.9270786,
       "lng": 79.861243
+    },
+    {
+      "place": "Galle",
+      "min_temp": 27.3,
+      "max_temp": 29.6,
+      "rain": 0,
+      "lat": 6.032894799999999,
+      "lng": 80.2167912
     },
     {
       "place": "Hambanthota",
@@ -93,6 +98,14 @@
       "rain": 0.5,
       "lat": 7.4817695,
       "lng": 80.3608876
+    },
+    {
+      "place": "Maha Illuppallama",
+      "min_temp": 26.2,
+      "max_temp": 32.2,
+      "rain": 0,
+      "lat": 8.1155443,
+      "lng": 80.47207639999999
     },
     {
       "place": "Mannar",
@@ -454,5 +467,17 @@
       "lat": 7.200796799999999,
       "lng": 79.8736754
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 126.8,
+    "max_rain_place": "Padukka Estate"
+  },
+  "min_temp": {
+    "min_temp": 15.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.9,
+    "max_temp_place": "Pothuvil"
+  }
 }

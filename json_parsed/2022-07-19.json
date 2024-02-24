@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/b0fef46650007ad77778bddf844b67c7.pdf",
   "date_ut": 1658169000.0,
   "date": "2022-07-19",
-  "min_temp": {
-    "min_temp": 12.1,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 37.1,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 72.3,
-    "max_rain_place": "Mahaberiyathenna"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -101,6 +90,14 @@
       "rain": 0.0,
       "lat": 7.172484899999999,
       "lng": 79.8853484
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 25.4,
+      "max_temp": 34.5,
+      "rain": 0,
+      "lat": 7.4817695,
+      "lng": 80.3608876
     },
     {
       "place": "Maha Illuppallama",
@@ -478,5 +475,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 72.3,
+    "max_rain_place": "Mahaberiyathenna"
+  },
+  "min_temp": {
+    "min_temp": 12.1,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 37.1,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

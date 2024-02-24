@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/20c57435494e7d64e79c2f4d4bf9fb2f.pdf",
   "date_ut": 1704047400.0,
   "date": "2024-01-01",
-  "min_temp": {
-    "min_temp": 15.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.8,
-    "max_temp_place": "Rathmalana"
-  },
-  "max_rain": {
-    "max_rain": 120.0,
-    "max_rain_place": "Deegavapi"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -175,6 +164,14 @@
       "lng": 80.3847345
     },
     {
+      "place": "Trincomalee",
+      "min_temp": 26.2,
+      "max_temp": 29.5,
+      "rain": 0,
+      "lat": 8.5873638,
+      "lng": 81.2152121
+    },
+    {
       "place": "Vavuniya",
       "min_temp": 24.4,
       "max_temp": 30.6,
@@ -205,6 +202,14 @@
       "max_temp": null,
       "lat": 6.8577186,
       "lng": 80.5855038
+    },
+    {
+      "place": "Randenigala",
+      "rain": 60.8,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
     },
     {
       "place": "Norton",
@@ -309,6 +314,14 @@
       "max_temp": null,
       "lat": 7.2847427,
       "lng": 81.78578850000001
+    },
+    {
+      "place": "Illukuchchanai",
+      "rain": 40.1,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.873053999999999,
+      "lng": 80.77179699999999
     },
     {
       "place": "Ampara",
@@ -454,5 +467,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 120.0,
+    "max_rain_place": "Deegavapi"
+  },
+  "min_temp": {
+    "min_temp": 15.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.8,
+    "max_temp_place": "Rathmalana"
+  }
 }

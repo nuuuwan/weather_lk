@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/1276e160f376aaef16efee4511ae59e0.pdf",
   "date_ut": 1659897000.0,
   "date": "2022-08-08",
-  "min_temp": {
-    "min_temp": 13.3,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.1,
-    "max_temp_place": "Pothuvil"
-  },
-  "max_rain": {
-    "max_rain": 7.8,
-    "max_rain_place": "Kuttapitiya Tea"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -213,6 +202,14 @@
       "max_temp": null,
       "lat": 6.8577186,
       "lng": 80.5855038
+    },
+    {
+      "place": "Randenigala",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
     },
     {
       "place": "Norton",
@@ -430,5 +427,17 @@
       "lat": 9.1538678,
       "lng": 80.64973119999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 7.8,
+    "max_rain_place": "Kuttapitiya Tea"
+  },
+  "min_temp": {
+    "min_temp": 13.3,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.1,
+    "max_temp_place": "Pothuvil"
+  }
 }

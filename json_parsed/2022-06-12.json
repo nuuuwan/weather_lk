@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/3ad5c3bb65fc86f13a15a948f55d4177.pdf",
   "date_ut": 1654972200.0,
   "date": "2022-06-12",
-  "min_temp": {
-    "min_temp": 18.3,
-    "min_temp_place": "Bandarawela"
-  },
-  "max_temp": {
-    "max_temp": 35.2,
-    "max_temp_place": "Pothuvil"
-  },
-  "max_rain": {
-    "max_rain": 43.5,
-    "max_rain_place": "Kirindiwela"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -87,6 +76,14 @@
       "lng": 81.34544170000001
     },
     {
+      "place": "Katugasthota",
+      "min_temp": 21.4,
+      "max_temp": 28.5,
+      "rain": 0,
+      "lat": 7.3251558,
+      "lng": 80.62297869999999
+    },
+    {
       "place": "Katunayake",
       "min_temp": 24.0,
       "max_temp": 29.7,
@@ -125,6 +122,14 @@
       "rain": 0.0,
       "lat": 7.940338400000001,
       "lng": 81.0187984
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 14.8,
+      "max_temp": 18.9,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
     },
     {
       "place": "Pothuvil",
@@ -478,5 +483,17 @@
       "lat": 6.9403158,
       "lng": 80.74084289999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 43.5,
+    "max_rain_place": "Kirindiwela"
+  },
+  "min_temp": {
+    "min_temp": 14.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.2,
+    "max_temp_place": "Pothuvil"
+  }
 }

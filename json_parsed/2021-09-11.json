@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/0a45700c1353b7a226ec405a3c17775f.pdf",
   "date_ut": 1631298600.0,
   "date": "2021-09-11",
-  "min_temp": {
-    "min_temp": 17.3,
-    "min_temp_place": "Bandarawela"
-  },
-  "max_temp": {
-    "max_temp": 37.3,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 20.5,
-    "max_rain_place": "Vogan"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -103,6 +92,14 @@
       "lng": 79.8853484
     },
     {
+      "place": "Kurunagala",
+      "min_temp": 24.4,
+      "max_temp": 32.1,
+      "rain": 0,
+      "lat": 7.4817695,
+      "lng": 80.3608876
+    },
+    {
       "place": "Maha Illuppallama",
       "min_temp": 25.1,
       "max_temp": 33.9,
@@ -125,6 +122,14 @@
       "rain": 0.0,
       "lat": 7.940338400000001,
       "lng": 81.0187984
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 14.5,
+      "max_temp": 21.7,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
     },
     {
       "place": "Pothuvil",
@@ -470,5 +475,17 @@
       "lat": 6.109917299999999,
       "lng": 80.901416
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 20.5,
+    "max_rain_place": "Vogan"
+  },
+  "min_temp": {
+    "min_temp": 14.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 37.3,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

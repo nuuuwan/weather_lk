@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/2a460818b447ce5961e3f1c883291b57.pdf",
   "date_ut": 1682361000.0,
   "date": "2023-04-25",
-  "min_temp": {
-    "min_temp": 11.6,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.5,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 142.0,
-    "max_rain_place": "Monaragala"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -69,6 +58,14 @@
       "rain": 0.0,
       "lat": 6.1428829,
       "lng": 81.12123079999999
+    },
+    {
+      "place": "Jaffna",
+      "min_temp": 26.0,
+      "max_temp": 35.2,
+      "rain": 0,
+      "lat": 9.6614981,
+      "lng": 80.02554649999999
     },
     {
       "place": "Monaragala",
@@ -133,6 +130,14 @@
       "rain": 9.0,
       "lat": 6.949716599999999,
       "lng": 80.7891068
+    },
+    {
+      "place": "Pothuvil",
+      "min_temp": 25.9,
+      "max_temp": 34.8,
+      "rain": 0,
+      "lat": 6.875270599999999,
+      "lng": 81.8306334
     },
     {
       "place": "Puttalam",
@@ -462,5 +467,17 @@
       "lat": 8.8855027,
       "lng": 80.2767327
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 142.0,
+    "max_rain_place": "Monaragala"
+  },
+  "min_temp": {
+    "min_temp": 11.6,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.5,
+    "max_temp_place": "Rathnapura"
+  }
 }

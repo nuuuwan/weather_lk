@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/351fe621c978347e79ac6bca9ee75434.pdf",
   "date_ut": 1651689000.0,
   "date": "2022-05-05",
-  "min_temp": {
-    "min_temp": 16.7,
-    "min_temp_place": "Bandarawela"
-  },
-  "max_temp": {
-    "max_temp": 36.0,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 53.5,
-    "max_rain_place": "Kuchchaveli"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -135,6 +124,14 @@
       "lng": 81.0187984
     },
     {
+      "place": "Nuwara Eliya",
+      "min_temp": 13.8,
+      "max_temp": 23.5,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
+    },
+    {
       "place": "Pothuvil",
       "min_temp": 26.1,
       "max_temp": 34.0,
@@ -189,6 +186,14 @@
       "rain": 0.0,
       "lat": 6.288780374382144,
       "lng": 81.12460077774537
+    },
+    {
+      "place": "Mullativu",
+      "min_temp": null,
+      "max_temp": null,
+      "rain": 0,
+      "lat": 9.2670911,
+      "lng": 80.81424799999999
     },
     {
       "place": "Castlereigh",
@@ -462,5 +467,17 @@
       "lat": 6.7545084,
       "lng": 81.7733721
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 53.5,
+    "max_rain_place": "Kuchchaveli"
+  },
+  "min_temp": {
+    "min_temp": 13.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.0,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

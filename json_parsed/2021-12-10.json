@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/6864e89adbca5c3dd88977f3dbfaa58e.pdf",
   "date_ut": 1639074600.0,
   "date": "2021-12-10",
-  "min_temp": {
-    "min_temp": 8.8,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.8,
-    "max_temp_place": "Katunayake"
-  },
-  "max_rain": {
-    "max_rain": 57.3,
-    "max_rain_place": "Mathugama"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -119,6 +108,14 @@
       "lng": 80.47207639999999
     },
     {
+      "place": "Mannar",
+      "min_temp": 25.5,
+      "max_temp": 31.6,
+      "rain": 0,
+      "lat": 8.980974300000002,
+      "lng": 79.90441489999999
+    },
+    {
       "place": "Polonnaruwa",
       "min_temp": 22.5,
       "max_temp": 31.8,
@@ -157,6 +154,14 @@
       "rain": 0.0,
       "lat": 6.8195453,
       "lng": 79.8800832
+    },
+    {
+      "place": "Rathnapura",
+      "min_temp": 22.3,
+      "max_temp": 33.3,
+      "rain": 0,
+      "lat": 6.7055742,
+      "lng": 80.3847345
     },
     {
       "place": "Trincomalee",
@@ -470,5 +475,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 57.3,
+    "max_rain_place": "Mathugama"
+  },
+  "min_temp": {
+    "min_temp": 8.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.3,
+    "max_temp_place": "Rathnapura"
+  }
 }

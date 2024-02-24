@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/2c213d84f308c3832cb584cbe6a319cd.pdf",
   "date_ut": 1625337000.0,
   "date": "2021-07-04",
-  "min_temp": {
-    "min_temp": 11.9,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 36.6,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 44.3,
-    "max_rain_place": "Hilpanakandura"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -95,6 +84,14 @@
       "lng": 80.62297869999999
     },
     {
+      "place": "Katunayake",
+      "min_temp": 24.2,
+      "max_temp": 30.9,
+      "rain": 0,
+      "lat": 7.172484899999999,
+      "lng": 79.8853484
+    },
+    {
       "place": "Kurunagala",
       "min_temp": 25.3,
       "max_temp": 32.0,
@@ -149,6 +146,14 @@
       "rain": 0.0,
       "lat": 8.0407913,
       "lng": 79.839386
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 27.9,
+      "max_temp": 32.4,
+      "rain": 0,
+      "lat": 6.8195453,
+      "lng": 79.8800832
     },
     {
       "place": "Rathnapura",
@@ -470,5 +475,17 @@
       "lat": 9.5044995,
       "lng": 80.402048
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 44.3,
+    "max_rain_place": "Hilpanakandura"
+  },
+  "min_temp": {
+    "min_temp": 11.9,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.6,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

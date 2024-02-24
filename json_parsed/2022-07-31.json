@@ -1,19 +1,16 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/21be694158611564e98cd5ee8f6b35ab.pdf",
   "date_ut": 1659205800.0,
   "date": "2022-07-31",
-  "min_temp": {
-    "min_temp": 12.4,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.6,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 69.5,
-    "max_rain_place": "Mattla"
-  },
   "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 24.9,
+      "max_temp": 32.8,
+      "rain": 0,
+      "lat": 8.311351799999999,
+      "lng": 80.4036508
+    },
     {
       "place": "Badulla",
       "min_temp": 18.3,
@@ -103,6 +100,14 @@
       "lng": 80.3608876
     },
     {
+      "place": "Maha Illuppallama",
+      "min_temp": 24.4,
+      "max_temp": 33.1,
+      "rain": 0,
+      "lat": 8.1155443,
+      "lng": 80.47207639999999
+    },
+    {
       "place": "Mannar",
       "min_temp": 27.7,
       "max_temp": 31.9,
@@ -125,6 +130,14 @@
       "rain": 1.3,
       "lat": 6.949716599999999,
       "lng": 80.7891068
+    },
+    {
+      "place": "Pothuvil",
+      "min_temp": 24.6,
+      "max_temp": 31.3,
+      "rain": 0,
+      "lat": 6.875270599999999,
+      "lng": 81.8306334
     },
     {
       "place": "Puttalam",
@@ -462,5 +475,17 @@
       "lat": 6.8982844,
       "lng": 81.70073630000002
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 69.5,
+    "max_rain_place": "Mattla"
+  },
+  "min_temp": {
+    "min_temp": 12.4,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.6,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

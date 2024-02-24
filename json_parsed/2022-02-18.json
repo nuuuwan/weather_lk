@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/d99707591a435c4cef3b97a52617d257.pdf",
   "date_ut": 1645122600.0,
   "date": "2022-02-18",
-  "min_temp": {
-    "min_temp": 9.2,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.2,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 4.6,
-    "max_rain_place": "Trincomalee"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -478,5 +467,17 @@
       "lat": 7.922822999999998,
       "lng": 81.56512699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 4.6,
+    "max_rain_place": "Trincomalee"
+  },
+  "min_temp": {
+    "min_temp": 9.2,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.2,
+    "max_temp_place": "Rathnapura"
+  }
 }

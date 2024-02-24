@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/48b1d161407009c2a707f792780df8f5.pdf",
   "date_ut": 1645209000.0,
   "date": "2022-02-19",
-  "min_temp": {
-    "min_temp": 11.6,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.9,
-    "max_temp_place": "Mattla"
-  },
-  "max_rain": {
-    "max_rain": 119.1,
-    "max_rain_place": "Katunayake"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -21,6 +10,38 @@
       "rain": 0.0,
       "lat": 8.311351799999999,
       "lng": 80.4036508
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 19.0,
+      "max_temp": 27.5,
+      "rain": 0,
+      "lat": 6.993400899999999,
+      "lng": 81.0549815
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 17.6,
+      "max_temp": 25.3,
+      "rain": 0,
+      "lat": 6.825877999999999,
+      "lng": 80.9981576
+    },
+    {
+      "place": "Batticaloa",
+      "min_temp": 25.1,
+      "max_temp": 29.7,
+      "rain": 0,
+      "lat": 7.7249146,
+      "lng": 81.6966911
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 25.8,
+      "max_temp": 30.7,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
     },
     {
       "place": "Galle",
@@ -39,6 +60,14 @@
       "lng": 81.12123079999999
     },
     {
+      "place": "Jaffna",
+      "min_temp": 23.1,
+      "max_temp": 30.0,
+      "rain": 0,
+      "lat": 9.6614981,
+      "lng": 80.02554649999999
+    },
+    {
       "place": "Monaragala",
       "min_temp": 23.8,
       "max_temp": 32.7,
@@ -47,12 +76,36 @@
       "lng": 81.34544170000001
     },
     {
+      "place": "Katugasthota",
+      "min_temp": 21.7,
+      "max_temp": 31.9,
+      "rain": 0,
+      "lat": 7.3251558,
+      "lng": 80.62297869999999
+    },
+    {
       "place": "Katunayake",
       "min_temp": 23.8,
       "max_temp": 31.8,
       "rain": 119.1,
       "lat": 7.172484899999999,
       "lng": 79.8853484
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 25.1,
+      "max_temp": 34.4,
+      "rain": 0,
+      "lat": 7.4817695,
+      "lng": 80.3608876
+    },
+    {
+      "place": "Maha Illuppallama",
+      "min_temp": 23.0,
+      "max_temp": 31.2,
+      "rain": 0,
+      "lat": 8.1155443,
+      "lng": 80.47207639999999
     },
     {
       "place": "Mannar",
@@ -117,6 +170,14 @@
       "rain": 0.0,
       "lat": 8.5873638,
       "lng": 81.2152121
+    },
+    {
+      "place": "Vavuniya",
+      "min_temp": 22.9,
+      "max_temp": 31.0,
+      "rain": 0,
+      "lat": 8.7542029,
+      "lng": 80.4982402
     },
     {
       "place": "Mattla",
@@ -414,5 +475,17 @@
       "lat": 7.6790279,
       "lng": 81.49379929999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 119.1,
+    "max_rain_place": "Katunayake"
+  },
+  "min_temp": {
+    "min_temp": 11.6,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.4,
+    "max_temp_place": "Kurunagala"
+  }
 }

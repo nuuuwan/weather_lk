@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/fe6988f680b7dd05fb9c0ea4d691ca00.pdf",
   "date_ut": 1693765800.0,
   "date": "2023-09-04",
-  "min_temp": {
-    "min_temp": 13.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.6,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 115.0,
-    "max_rain_place": "Kukuleganaga"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -143,6 +132,14 @@
       "lng": 80.7891068
     },
     {
+      "place": "Pothuvil",
+      "min_temp": 25.9,
+      "max_temp": 31.7,
+      "rain": 0,
+      "lat": 6.875270599999999,
+      "lng": 81.8306334
+    },
+    {
       "place": "Puttalam",
       "min_temp": 25.5,
       "max_temp": 30.7,
@@ -205,6 +202,14 @@
       "max_temp": null,
       "lat": 6.8577186,
       "lng": 80.5855038
+    },
+    {
+      "place": "Randenigala",
+      "rain": 2.8,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
     },
     {
       "place": "Norton",
@@ -309,6 +314,14 @@
       "max_temp": null,
       "lat": 7.0255123,
       "lng": 80.229343
+    },
+    {
+      "place": "Pasyala",
+      "rain": 66.3,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.166710300000001,
+      "lng": 80.1233175
     },
     {
       "place": "Ayagama",
@@ -454,5 +467,17 @@
       "lat": 6.936070099999999,
       "lng": 79.84504969999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 115.0,
+    "max_rain_place": "Kukuleganaga"
+  },
+  "min_temp": {
+    "min_temp": 13.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.6,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

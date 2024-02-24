@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/5a7a604bb17d31902ce4ed3b4f6ef932.pdf",
   "date_ut": 1641234600.0,
   "date": "2022-01-04",
-  "min_temp": {
-    "min_temp": 12.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.1,
-    "max_temp_place": "Colombo"
-  },
-  "max_rain": {
-    "max_rain": 158.7,
-    "max_rain_place": "Vakanari Wawa"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -63,6 +52,14 @@
       "lng": 80.2167912
     },
     {
+      "place": "Hambanthota",
+      "min_temp": 24.9,
+      "max_temp": 26.4,
+      "rain": 0,
+      "lat": 6.1428829,
+      "lng": 81.12123079999999
+    },
+    {
       "place": "Jaffna",
       "min_temp": 23.2,
       "max_temp": 29.1,
@@ -79,12 +76,28 @@
       "lng": 81.34544170000001
     },
     {
+      "place": "Katugasthota",
+      "min_temp": 21.0,
+      "max_temp": 27.1,
+      "rain": 0,
+      "lat": 7.3251558,
+      "lng": 80.62297869999999
+    },
+    {
       "place": "Katunayake",
       "min_temp": 23.5,
       "max_temp": 31.2,
       "rain": 0.0,
       "lat": 7.172484899999999,
       "lng": 79.8853484
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 24.0,
+      "max_temp": 29.0,
+      "rain": 0,
+      "lat": 7.4817695,
+      "lng": 80.3608876
     },
     {
       "place": "Maha Illuppallama",
@@ -141,6 +154,14 @@
       "rain": 15.4,
       "lat": 6.8195453,
       "lng": 79.8800832
+    },
+    {
+      "place": "Rathnapura",
+      "min_temp": 22.5,
+      "max_temp": 30.9,
+      "rain": 0,
+      "lat": 6.7055742,
+      "lng": 80.3847345
     },
     {
       "place": "Trincomalee",
@@ -446,5 +467,17 @@
       "lat": 6.521943200000001,
       "lng": 80.11368519999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 158.7,
+    "max_rain_place": "Vakanari Wawa"
+  },
+  "min_temp": {
+    "min_temp": 12.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.1,
+    "max_temp_place": "Colombo"
+  }
 }

@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/33c51e53fae8f6b0d04c503b45eceed9.pdf",
   "date_ut": 1647801000.0,
   "date": "2022-03-21",
-  "min_temp": {
-    "min_temp": 10.3,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 36.6,
-    "max_temp_place": "Mullaithivu"
-  },
-  "max_rain": {
-    "max_rain": 12.7,
-    "max_rain_place": "Vogan"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -55,6 +44,14 @@
       "lng": 79.861243
     },
     {
+      "place": "Galle",
+      "min_temp": 27.0,
+      "max_temp": 30.1,
+      "rain": 0,
+      "lat": 6.032894799999999,
+      "lng": 80.2167912
+    },
+    {
       "place": "Hambanthota",
       "min_temp": 26.3,
       "max_temp": 34.7,
@@ -93,6 +90,14 @@
       "rain": 0.0,
       "lat": 7.172484899999999,
       "lng": 79.8853484
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 25.6,
+      "max_temp": 33.3,
+      "rain": 0,
+      "lat": 7.4817695,
+      "lng": 80.3608876
     },
     {
       "place": "Maha Illuppallama",
@@ -470,5 +475,17 @@
       "lat": 9.7910875,
       "lng": 80.0339312
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 12.7,
+    "max_rain_place": "Vogan"
+  },
+  "min_temp": {
+    "min_temp": 10.3,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.6,
+    "max_temp_place": "Mullaithivu"
+  }
 }

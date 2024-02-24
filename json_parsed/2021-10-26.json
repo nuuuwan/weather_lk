@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/e6689bb7a1a387d607073256c0052ad5.pdf",
   "date_ut": 1635186600.0,
   "date": "2021-10-26",
-  "min_temp": {
-    "min_temp": 13.8,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.8,
-    "max_temp_place": "Mattla"
-  },
-  "max_rain": {
-    "max_rain": 140.6,
-    "max_rain_place": "Wevalthalawa"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -478,5 +467,17 @@
       "lat": 7.8777703,
       "lng": 80.01111560000001
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 140.6,
+    "max_rain_place": "Wevalthalawa"
+  },
+  "min_temp": {
+    "min_temp": 13.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.8,
+    "max_temp_place": "Mattla"
+  }
 }

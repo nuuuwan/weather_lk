@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/a74ec237a6c26d829ac64c5eeb34671e.pdf",
   "date_ut": 1645641000.0,
   "date": "2022-02-24",
-  "min_temp": {
-    "min_temp": 11.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.5,
-    "max_temp_place": "Kurunagala"
-  },
-  "max_rain": {
-    "max_rain": 142.6,
-    "max_rain_place": "Polonnaruwa"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -87,6 +76,14 @@
       "lng": 81.34544170000001
     },
     {
+      "place": "Katugasthota",
+      "min_temp": 20.9,
+      "max_temp": 33.6,
+      "rain": 0,
+      "lat": 7.3251558,
+      "lng": 80.62297869999999
+    },
+    {
       "place": "Katunayake",
       "min_temp": 24.5,
       "max_temp": 32.0,
@@ -101,6 +98,14 @@
       "rain": 0.0,
       "lat": 7.4817695,
       "lng": 80.3608876
+    },
+    {
+      "place": "Maha Illuppallama",
+      "min_temp": 22.9,
+      "max_temp": 30.7,
+      "rain": 0,
+      "lat": 8.1155443,
+      "lng": 80.47207639999999
     },
     {
       "place": "Mannar",
@@ -181,6 +186,14 @@
       "rain": 6.0,
       "lat": 6.288780374382144,
       "lng": 81.12460077774537
+    },
+    {
+      "place": "Mullaithivu",
+      "min_temp": 26.2,
+      "max_temp": 29.7,
+      "rain": 0,
+      "lat": 9.2670911,
+      "lng": 80.81424799999999
     },
     {
       "place": "Castlereigh",
@@ -462,5 +475,17 @@
       "lat": 7.9297432,
       "lng": 80.8709872
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 142.6,
+    "max_rain_place": "Polonnaruwa"
+  },
+  "min_temp": {
+    "min_temp": 11.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.5,
+    "max_temp_place": "Kurunagala"
+  }
 }

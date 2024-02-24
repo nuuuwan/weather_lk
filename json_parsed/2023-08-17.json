@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/a15248f924abe6bd7caf107bf4f4c9df.pdf",
   "date_ut": 1692210600.0,
   "date": "2023-08-17",
-  "min_temp": {
-    "min_temp": 14.8,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 38.1,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 20.3,
-    "max_rain_place": "Mathugama"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -167,6 +156,14 @@
       "lng": 79.8800832
     },
     {
+      "place": "Rathnapura",
+      "min_temp": 24.0,
+      "max_temp": 34.6,
+      "rain": 0,
+      "lat": 6.7055742,
+      "lng": 80.3847345
+    },
+    {
       "place": "Trincomalee",
       "min_temp": 25.0,
       "max_temp": 37.0,
@@ -205,6 +202,14 @@
       "max_temp": null,
       "lat": 6.8577186,
       "lng": 80.5855038
+    },
+    {
+      "place": "Randenigala",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
     },
     {
       "place": "Norton",
@@ -309,6 +314,14 @@
       "max_temp": null,
       "lat": 6.521943200000001,
       "lng": 80.11368519999999
+    },
+    {
+      "place": "Rathmalgahawewa",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 8.5233992,
+      "lng": 80.6964905
     },
     {
       "place": "Thalangaha Estate",
@@ -454,5 +467,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 20.3,
+    "max_rain_place": "Mathugama"
+  },
+  "min_temp": {
+    "min_temp": 14.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 38.1,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

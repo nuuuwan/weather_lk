@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/056c8b610d548ac6b1fbf7937fefa04e.pdf",
   "date_ut": 1648924200.0,
   "date": "2022-04-03",
-  "min_temp": {
-    "min_temp": 12.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 36.2,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 73.7,
-    "max_rain_place": "Huruliwawa"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -167,6 +156,22 @@
       "lng": 79.8800832
     },
     {
+      "place": "Rathnapura",
+      "min_temp": 22.6,
+      "max_temp": 34.0,
+      "rain": 0,
+      "lat": 6.7055742,
+      "lng": 80.3847345
+    },
+    {
+      "place": "Trincomalee",
+      "min_temp": 23.9,
+      "max_temp": 32.8,
+      "rain": 0,
+      "lat": 8.5873638,
+      "lng": 81.2152121
+    },
+    {
       "place": "Vavuniya",
       "min_temp": 23.9,
       "max_temp": 34.2,
@@ -319,6 +324,14 @@
       "lng": 80.77179699999999
     },
     {
+      "place": "Poddiwela Farm",
+      "rain": 11.3,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.766339299999999,
+      "lng": 79.8892005
+    },
+    {
       "place": "Angamedilla",
       "rain": 65.0,
       "min_temp": null,
@@ -462,5 +475,17 @@
       "lat": 9.7786397,
       "lng": 80.1160651
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 73.7,
+    "max_rain_place": "Huruliwawa"
+  },
+  "min_temp": {
+    "min_temp": 12.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.2,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

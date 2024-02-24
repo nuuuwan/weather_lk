@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/982789335200d29f95acf509afeef9fc.pdf",
   "date_ut": 1648492200.0,
   "date": "2022-03-29",
-  "min_temp": {
-    "min_temp": 10.6,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 36.2,
-    "max_temp_place": "Kurunagala"
-  },
-  "max_rain": {
-    "max_rain": 68.1,
-    "max_rain_place": "Padukka Estate"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -478,5 +467,17 @@
       "lat": 6.521943200000001,
       "lng": 80.11368519999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 68.1,
+    "max_rain_place": "Padukka Estate"
+  },
+  "min_temp": {
+    "min_temp": 10.6,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.2,
+    "max_temp_place": "Kurunagala"
+  }
 }

@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/b796d6e4165d8ed4ce61de9a67f17445.pdf",
   "date_ut": 1661020200.0,
   "date": "2022-08-21",
-  "min_temp": {
-    "min_temp": 16.3,
-    "min_temp_place": "Bandarawela"
-  },
-  "max_temp": {
-    "max_temp": 36.8,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 24.6,
-    "max_rain_place": "Kalavedi Ulpotha"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -21,6 +10,14 @@
       "rain": 0.0,
       "lat": 8.311351799999999,
       "lng": 80.4036508
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 17.7,
+      "max_temp": 30.6,
+      "rain": 0,
+      "lat": 6.993400899999999,
+      "lng": 81.0549815
     },
     {
       "place": "Bandarawela",
@@ -37,6 +34,14 @@
       "rain": 0.0,
       "lat": 7.7249146,
       "lng": 81.6966911
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 26.9,
+      "max_temp": 30.6,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
     },
     {
       "place": "Galle",
@@ -79,6 +84,14 @@
       "lng": 80.62297869999999
     },
     {
+      "place": "Katunayake",
+      "min_temp": 26.6,
+      "max_temp": 30.6,
+      "rain": 0,
+      "lat": 7.172484899999999,
+      "lng": 79.8853484
+    },
+    {
       "place": "Kurunagala",
       "min_temp": 24.6,
       "max_temp": 32.5,
@@ -111,6 +124,14 @@
       "lng": 81.0187984
     },
     {
+      "place": "Nuwara Eliya",
+      "min_temp": 12.7,
+      "max_temp": 21.5,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
+    },
+    {
       "place": "Pothuvil",
       "min_temp": 24.5,
       "max_temp": 32.7,
@@ -125,6 +146,14 @@
       "rain": 0.0,
       "lat": 8.0407913,
       "lng": 79.839386
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 26.7,
+      "max_temp": 31.6,
+      "rain": 0,
+      "lat": 6.8195453,
+      "lng": 79.8800832
     },
     {
       "place": "Rathnapura",
@@ -157,6 +186,14 @@
       "rain": 0.0,
       "lat": 6.288780374382144,
       "lng": 81.12460077774537
+    },
+    {
+      "place": "Mullativu",
+      "min_temp": 26.7,
+      "max_temp": 35.4,
+      "rain": 0,
+      "lat": 9.2670911,
+      "lng": 80.81424799999999
     },
     {
       "place": "Sw`n Rainfall",
@@ -438,5 +475,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 24.6,
+    "max_rain_place": "Kalavedi Ulpotha"
+  },
+  "min_temp": {
+    "min_temp": 12.7,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.8,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

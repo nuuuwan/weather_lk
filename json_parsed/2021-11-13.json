@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/e0ce812cac50c74491f149f468db22bc.pdf",
   "date_ut": 1636741800.0,
   "date": "2021-11-13",
-  "min_temp": {
-    "min_temp": 10.8,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.6,
-    "max_temp_place": "Pothuvil"
-  },
-  "max_rain": {
-    "max_rain": 78.0,
-    "max_rain_place": "Helboda North"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -31,6 +20,14 @@
       "lng": 81.0549815
     },
     {
+      "place": "Bandarawela",
+      "min_temp": 16.1,
+      "max_temp": 25.8,
+      "rain": 0,
+      "lat": 6.825877999999999,
+      "lng": 80.9981576
+    },
+    {
       "place": "Batticaloa",
       "min_temp": 25.1,
       "max_temp": 31.4,
@@ -45,6 +42,14 @@
       "rain": 0.4,
       "lat": 6.9270786,
       "lng": 79.861243
+    },
+    {
+      "place": "Galle",
+      "min_temp": 26.8,
+      "max_temp": 29.7,
+      "rain": 0,
+      "lat": 6.032894799999999,
+      "lng": 80.2167912
     },
     {
       "place": "Hambanthota",
@@ -157,6 +162,14 @@
       "rain": 20.2,
       "lat": 6.7055742,
       "lng": 80.3847345
+    },
+    {
+      "place": "Trincomalee",
+      "min_temp": 24.9,
+      "max_temp": 30.7,
+      "rain": 0,
+      "lat": 8.5873638,
+      "lng": 81.2152121
     },
     {
       "place": "Vavuniya",
@@ -462,5 +475,17 @@
       "lat": 7.127231500000001,
       "lng": 80.7102903
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 78.0,
+    "max_rain_place": "Helboda North"
+  },
+  "min_temp": {
+    "min_temp": 10.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.6,
+    "max_temp_place": "Pothuvil"
+  }
 }
