@@ -5,7 +5,7 @@ from utils import File, Log
 from weather_lk.analyze.SummaryWriteDataByPlace import SummaryWriteDataByPlace
 from weather_lk.constants import (COVERAGE_WINDOW_LIST, DIR_REPO,
                                   DISPLAY_PLACES, TEMPERATURE_CHART_WINDOWS,
-                                  URL_REMOTE_DATA)
+                                  URL_REMOTE_DATA, TEST_MODE)
 
 log = Log('SummaryReadMe')
 
@@ -160,13 +160,16 @@ class SummaryReadMe:
     def build_sub_readmes(self):
         links = []
 
+        temperature_infos = []
         for window in TEMPERATURE_CHART_WINDOWS:
-            temperature_infos = [
-                (
-                    f'temperature_by_city_(_last_{window}_days)',
-                    self.get_lines_temperature(window),
-                ),
+            id = f'temperature_by_city'
+            if window:
+                id += f'_(last_{window}_days)'
+            temperature_info = [
+                id,
+                self.get_lines_temperature(window),
             ]
+            temperature_infos.append(temperature_info)
 
         for id, lines in temperature_infos + [
             ('rainfall_by_city', self.lines_rainfall),
@@ -200,3 +203,6 @@ class SummaryReadMe:
         readme_path = os.path.join(DIR_REPO, 'README.md')
         File(readme_path).write_lines(lines)
         log.info(f'Wrote README to {readme_path}')
+
+        if TEST_MODE:
+            os.startfile(readme_path)
