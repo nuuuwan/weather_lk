@@ -55,7 +55,8 @@ class PDFParserExpandedData:
             for weather in self.weather_list
         ]
         sorted_max = sorted(place_and_max, key=lambda x: x[1], reverse=True)
-        max_rain = sorted_max[0][2]
+
+        max_rain = sorted_max[0][1]
         max_rain_place = sorted_max[0][0]
 
         return dict(
@@ -72,6 +73,7 @@ class PDFParserExpandedData:
                 weather.get('max_temp'),
             ]
             for weather in self.weather_list
+            if weather.get('min_temp') and weather.get('max_temp')
         ]
         sorted_min = sorted(place_min_and_max, key=lambda x: x[1])
         min_temp = sorted_min[0][1]

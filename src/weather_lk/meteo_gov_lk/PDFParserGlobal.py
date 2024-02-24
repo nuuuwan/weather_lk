@@ -1,8 +1,9 @@
 import os
 
-from utils import Log
+from utils import JSONFile, Log
 
-from weather_lk.constants import (DIR_REPO_PDF_ARCHIVE_ORG,
+from weather_lk.constants import (DIR_REPO_JSON_PLACEHOLDER,
+                                  DIR_REPO_PDF_ARCHIVE_ORG,
                                   DIR_REPO_PDF_GOOGLE_SEARCH,
                                   DIR_REPO_PDF_METEO_GOV_LK)
 from weather_lk.core.Data import Data
@@ -57,27 +58,53 @@ class PDFParserGlobal:
         try:
             parser = cls(pdf_path)
             if parser.is_parsed:
-                log.debug(f'{pdf_path} is already parsed')
-                return False
+                return 0
 
             date, data_path = parser.write_json()
             parser.write_placeholder_json(date, data_path)
-
+            return 1
         except Exception as e:
             log.error(f'PDFParser.parse_one({pdf_path}): {str(e)}')
             parser.write_placeholder_json('unknown', 'unknown')
+            return 2
 
-            return False
-        return True
+    @staticmethod
+    def cleanup_bad_runs():
+        bad_path_list = []
+        n = 0
+        for file_name in os.listdir(DIR_REPO_JSON_PLACEHOLDER):
+            if not file_name.endswith('.json'):
+                continue
+            file_path = os.path.join(DIR_REPO_JSON_PLACEHOLDER, file_name)
+            data = JSONFile(file_path).read()
+            if data['date'] == 'unknown':
+                bad_path_list.append(file_path)
+            n += 1
+        n_bad = len(bad_path_list)
+        for file_path in bad_path_list:
+            os.remove(file_path)
+            log.debug(f'Removed {file_path}')
+        log.info(f'Cleaned up {n_bad}/{n}.')
 
     @classmethod
     def parse_all(cls):
         Data.init()
+        PDFParserGlobal.cleanup_bad_runs()
+
         pdf_list = cls.get_pdf_paths()
-        i_parse = 0
-        for i_pdf, pdf_path in enumerate(pdf_list):
-            log.debug(f'{i_pdf+1}/{i_parse+1}) {pdf_path}')
-            if cls.parse_one(pdf_path):
-                i_parse += 1
-                if i_parse >= PDFParserGlobal.N_MAX_PARSE:
+
+        n = len(pdf_list)
+        n_old, n_new, n_fail = 0, 0, 0
+        for pdf_path in pdf_list:
+            result = cls.parse_one(pdf_path)
+            if result == 0:
+                n_old += 1
+            elif result == 1:
+                n_new += 1
+                if n_new >= cls.N_MAX_PARSE:
                     break
+            else:
+                n_fail += 1
+
+        log.info(f'Parsed {n_new} new pdfs.')
+        log.debug(f'{n=}, {n_old=}, {n_fail=}')
