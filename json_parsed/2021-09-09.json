@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/560d1b5c6589ea9f9bf1501382444fe3.pdf",
   "date_ut": 1631125800.0,
   "date": "2021-09-09",
-  "min_temp": {
-    "min_temp": 17.7,
-    "min_temp_place": "Badulla"
-  },
-  "max_temp": {
-    "max_temp": 35.9,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 37.0,
-    "max_rain_place": "Kalatuwawa"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -103,6 +92,14 @@
       "lng": 79.8853484
     },
     {
+      "place": "Kurunagala",
+      "min_temp": 24.0,
+      "max_temp": 31.2,
+      "rain": 0,
+      "lat": 7.4817695,
+      "lng": 80.3608876
+    },
+    {
       "place": "Maha Illuppallama",
       "min_temp": 24.2,
       "max_temp": 33.9,
@@ -125,6 +122,14 @@
       "rain": 0.0,
       "lat": 7.940338400000001,
       "lng": 81.0187984
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 13.7,
+      "max_temp": 19.5,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
     },
     {
       "place": "Pothuvil",
@@ -470,5 +475,17 @@
       "lat": 7.0411825,
       "lng": 80.1289324
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 37.0,
+    "max_rain_place": "Kalatuwawa"
+  },
+  "min_temp": {
+    "min_temp": 13.7,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.9,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

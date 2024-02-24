@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/776ad55d751677961395b95465c2e3f0.pdf",
   "date_ut": 1661797800.0,
   "date": "2022-08-30",
-  "min_temp": {
-    "min_temp": 18.8,
-    "min_temp_place": "Bandarawela"
-  },
-  "max_temp": {
-    "max_temp": 36.1,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 102.5,
-    "max_rain_place": "Polonnaruwa"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -133,6 +122,14 @@
       "rain": 102.5,
       "lat": 7.940338400000001,
       "lng": 81.0187984
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 13.5,
+      "max_temp": 20.0,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
     },
     {
       "place": "Pothuvil",
@@ -478,5 +475,17 @@
       "lat": 8.042103,
       "lng": 80.59383299999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 102.5,
+    "max_rain_place": "Polonnaruwa"
+  },
+  "min_temp": {
+    "min_temp": 13.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.1,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

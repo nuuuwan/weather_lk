@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/736dfb2d670e4ede4892f9a6068160b9.pdf",
   "date_ut": 1693247400.0,
   "date": "2023-08-29",
-  "min_temp": {
-    "min_temp": 17.4,
-    "min_temp_place": "Bandarawela"
-  },
-  "max_temp": {
-    "max_temp": 37.4,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 40.6,
-    "max_rain_place": "Ampara"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -21,6 +10,14 @@
       "rain": 0.0,
       "lat": 8.311351799999999,
       "lng": 80.4036508
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 18.0,
+      "max_temp": 31.9,
+      "rain": 0,
+      "lat": 6.993400899999999,
+      "lng": 81.0549815
     },
     {
       "place": "Bandarawela",
@@ -71,6 +68,14 @@
       "lng": 80.02554649999999
     },
     {
+      "place": "Monaragala",
+      "min_temp": 23.2,
+      "max_temp": 36.2,
+      "rain": 0,
+      "lat": 6.890645399999999,
+      "lng": 81.34544170000001
+    },
+    {
       "place": "Katugasthota",
       "min_temp": 22.1,
       "max_temp": 31.9,
@@ -117,6 +122,22 @@
       "rain": 0.0,
       "lat": 7.940338400000001,
       "lng": 81.0187984
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 13.6,
+      "max_temp": 21.7,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
+    },
+    {
+      "place": "Pothuvil",
+      "min_temp": 26.2,
+      "max_temp": 35.2,
+      "rain": 0,
+      "lat": 6.875270599999999,
+      "lng": 81.8306334
     },
     {
       "place": "Puttalam",
@@ -181,6 +202,14 @@
       "max_temp": null,
       "lat": 6.8577186,
       "lng": 80.5855038
+    },
+    {
+      "place": "Randenigala",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
     },
     {
       "place": "Norton",
@@ -285,6 +314,14 @@
       "max_temp": null,
       "lat": 7.301756300000001,
       "lng": 81.6747295
+    },
+    {
+      "place": "Angoda",
+      "rain": 10.2,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.9367411,
+      "lng": 79.92703639999999
     },
     {
       "place": "Guruluwana",
@@ -430,5 +467,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 40.6,
+    "max_rain_place": "Ampara"
+  },
+  "min_temp": {
+    "min_temp": 13.6,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 37.4,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

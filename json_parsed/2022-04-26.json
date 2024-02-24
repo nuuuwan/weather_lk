@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/d2197d6dfc4d8d70b21cfd2a46bdd6a8.pdf",
   "date_ut": 1650911400.0,
   "date": "2022-04-26",
-  "min_temp": {
-    "min_temp": 12.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.1,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 78.4,
-    "max_rain_place": "Thalangaha Estate"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -486,5 +475,17 @@
       "lat": 6.766339299999999,
       "lng": 79.8892005
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 78.4,
+    "max_rain_place": "Thalangaha Estate"
+  },
+  "min_temp": {
+    "min_temp": 12.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.1,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

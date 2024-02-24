@@ -324,6 +324,14 @@
       "lng": 80.3438001
     },
     {
+      "place": "Monrovia",
+      "rain": 15.2,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.873053999999999,
+      "lng": 80.77179699999999
+    },
+    {
       "place": "Deniyaya",
       "rain": 42.0,
       "min_temp": null,

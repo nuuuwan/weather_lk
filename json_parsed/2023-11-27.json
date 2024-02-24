@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/90d74bac48e35d10ea230c78c9ebeffe.pdf",
   "date_ut": 1701023400.0,
   "date": "2023-11-27",
-  "min_temp": {
-    "min_temp": 15.6,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.6,
-    "max_temp_place": "Puttalam"
-  },
-  "max_rain": {
-    "max_rain": 60.0,
-    "max_rain_place": "Kandaketiya"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -45,6 +34,14 @@
       "rain": 11.4,
       "lat": 7.7249146,
       "lng": 81.6966911
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 25.1,
+      "max_temp": 31.8,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
     },
     {
       "place": "Galle",
@@ -93,6 +90,14 @@
       "rain": 4.6,
       "lat": 7.172484899999999,
       "lng": 79.8853484
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 23.8,
+      "max_temp": 32.7,
+      "rain": 0,
+      "lat": 7.4817695,
+      "lng": 80.3608876
     },
     {
       "place": "Maha Illuppallama",
@@ -462,5 +467,17 @@
       "lat": 6.109917299999999,
       "lng": 80.901416
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 60.0,
+    "max_rain_place": "Kandaketiya"
+  },
+  "min_temp": {
+    "min_temp": 15.6,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.6,
+    "max_temp_place": "Puttalam"
+  }
 }

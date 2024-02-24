@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/d9f7e4d14e95df626950c4adeaefec0c.pdf",
   "date_ut": 1657650600.0,
   "date": "2022-07-13",
-  "min_temp": {
-    "min_temp": 13.4,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 36.8,
-    "max_temp_place": "Batticaloa"
-  },
-  "max_rain": {
-    "max_rain": 3.5,
-    "max_rain_place": "Hope"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -85,6 +74,14 @@
       "rain": 0.0,
       "lat": 6.890645399999999,
       "lng": 81.34544170000001
+    },
+    {
+      "place": "Katugasthota",
+      "min_temp": 23.3,
+      "max_temp": 28.0,
+      "rain": 0,
+      "lat": 7.3251558,
+      "lng": 80.62297869999999
     },
     {
       "place": "Katunayake",
@@ -470,5 +467,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 3.5,
+    "max_rain_place": "Hope"
+  },
+  "min_temp": {
+    "min_temp": 13.4,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.8,
+    "max_temp_place": "Batticaloa"
+  }
 }

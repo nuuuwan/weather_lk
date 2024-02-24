@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/c8917abf54ba1cde883ce58b82d40961.pdf",
   "date_ut": 1699295400.0,
   "date": "2023-11-07",
-  "min_temp": {
-    "min_temp": 12.8,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.0,
-    "max_temp_place": "Kurunagala"
-  },
-  "max_rain": {
-    "max_rain": 89.6,
-    "max_rain_place": "Colombo Fort"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -478,5 +467,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 89.6,
+    "max_rain_place": "Colombo Fort"
+  },
+  "min_temp": {
+    "min_temp": 12.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.0,
+    "max_temp_place": "Kurunagala"
+  }
 }

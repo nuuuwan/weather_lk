@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/b90869465f7670c1ef4a6e6fa4b18ca8.pdf",
   "date_ut": 1651257000.0,
   "date": "2022-04-30",
-  "min_temp": {
-    "min_temp": 12.7,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.2,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 47.4,
-    "max_rain_place": "Guruluwana"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -21,6 +10,14 @@
       "rain": 20.9,
       "lat": 8.311351799999999,
       "lng": 80.4036508
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 18.9,
+      "max_temp": 30.1,
+      "rain": 0,
+      "lat": 6.993400899999999,
+      "lng": 81.0549815
     },
     {
       "place": "Bandarawela",
@@ -133,6 +130,22 @@
       "rain": 7.0,
       "lat": 6.949716599999999,
       "lng": 80.7891068
+    },
+    {
+      "place": "Pothuvil",
+      "min_temp": 24.6,
+      "max_temp": 33.8,
+      "rain": 0,
+      "lat": 6.875270599999999,
+      "lng": 81.8306334
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 26.1,
+      "max_temp": 32.9,
+      "rain": 0,
+      "lat": 8.0407913,
+      "lng": 79.839386
     },
     {
       "place": "Rathmalana",
@@ -462,5 +475,17 @@
       "lat": 6.8833914,
       "lng": 80.93733879999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 47.4,
+    "max_rain_place": "Guruluwana"
+  },
+  "min_temp": {
+    "min_temp": 12.7,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.2,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

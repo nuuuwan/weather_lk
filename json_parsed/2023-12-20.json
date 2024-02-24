@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/28fb93c199d9ec5689e2a699cb3df070.pdf",
   "date_ut": 1703010600.0,
   "date": "2023-12-20",
-  "min_temp": {
-    "min_temp": 15.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.1,
-    "max_temp_place": "Colombo"
-  },
-  "max_rain": {
-    "max_rain": 82.1,
-    "max_rain_place": "Bowatenna"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -478,5 +467,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 82.1,
+    "max_rain_place": "Bowatenna"
+  },
+  "min_temp": {
+    "min_temp": 15.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.1,
+    "max_temp_place": "Colombo"
+  }
 }

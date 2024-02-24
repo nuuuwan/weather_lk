@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/51e97fde82b70e5b76d627337d1c7eb7.pdf",
   "date_ut": 1649615400.0,
   "date": "2022-04-11",
-  "min_temp": {
-    "min_temp": 13.4,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.9,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 144.5,
-    "max_rain_place": "Chilaw R.D"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -486,5 +475,17 @@
       "lat": 7.226803299999998,
       "lng": 80.1958755
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 144.5,
+    "max_rain_place": "Chilaw R.D"
+  },
+  "min_temp": {
+    "min_temp": 13.4,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.9,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

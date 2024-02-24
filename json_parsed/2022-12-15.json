@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/176bf47f83619ec50deed0a160c035cd.pdf",
   "date_ut": 1671042600.0,
   "date": "2022-12-15",
-  "min_temp": {
-    "min_temp": 9.8,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.3,
-    "max_temp_place": "Puttalam"
-  },
-  "max_rain": {
-    "max_rain": 83.0,
-    "max_rain_place": "Kukuleganaga"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -61,6 +50,14 @@
       "rain": 43.8,
       "lat": 6.032894799999999,
       "lng": 80.2167912
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 23.4,
+      "max_temp": 31.0,
+      "rain": 0,
+      "lat": 6.1428829,
+      "lng": 81.12123079999999
     },
     {
       "place": "Jaffna",
@@ -117,6 +114,14 @@
       "rain": 0.0,
       "lat": 8.980974300000002,
       "lng": 79.90441489999999
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 22.8,
+      "max_temp": 30.6,
+      "rain": 0,
+      "lat": 7.940338400000001,
+      "lng": 81.0187984
     },
     {
       "place": "Nuwara Eliya",
@@ -470,5 +475,17 @@
       "lat": 6.944946799999999,
       "lng": 80.53898339999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 83.0,
+    "max_rain_place": "Kukuleganaga"
+  },
+  "min_temp": {
+    "min_temp": 9.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.3,
+    "max_temp_place": "Puttalam"
+  }
 }

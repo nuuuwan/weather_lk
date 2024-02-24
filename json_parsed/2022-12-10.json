@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/93a1998942158f7d840980c63320f653.pdf",
   "date_ut": 1670610600.0,
   "date": "2022-12-10",
-  "min_temp": {
-    "min_temp": 12.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 31.8,
-    "max_temp_place": "Hambanthota"
-  },
-  "max_rain": {
-    "max_rain": 62.6,
-    "max_rain_place": "Benthotawatta"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -117,6 +106,14 @@
       "rain": 1.6,
       "lat": 8.1155443,
       "lng": 80.47207639999999
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 22.5,
+      "max_temp": 27.2,
+      "rain": 0,
+      "lat": 8.980974300000002,
+      "lng": 79.90441489999999
     },
     {
       "place": "Polonnaruwa",
@@ -470,5 +467,17 @@
       "lat": 6.2134658,
       "lng": 80.9760556
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 62.6,
+    "max_rain_place": "Benthotawatta"
+  },
+  "min_temp": {
+    "min_temp": 12.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 31.8,
+    "max_temp_place": "Hambanthota"
+  }
 }

@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/8b2f58f70442e442f8b91473c0ada1cc.pdf",
   "date_ut": 1650220200.0,
   "date": "2022-04-18",
-  "min_temp": {
-    "min_temp": 11.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.3,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 88.7,
-    "max_rain_place": "Ekgal"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -157,6 +146,14 @@
       "rain": 5.4,
       "lat": 8.0407913,
       "lng": 79.839386
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 25.7,
+      "max_temp": 33.0,
+      "rain": 0,
+      "lat": 6.8195453,
+      "lng": 79.8800832
     },
     {
       "place": "Rathnapura",
@@ -478,5 +475,17 @@
       "lat": 6.7377356,
       "lng": 81.1030573
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 88.7,
+    "max_rain_place": "Ekgal"
+  },
+  "min_temp": {
+    "min_temp": 11.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.3,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/0fb872630661e7a97ca1486ab935ba19.pdf",
   "date_ut": 1666809000.0,
   "date": "2022-10-27",
-  "min_temp": {
-    "min_temp": 13.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.0,
-    "max_temp_place": "Mattla"
-  },
-  "max_rain": {
-    "max_rain": 117.5,
-    "max_rain_place": "Liyangastota"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -127,12 +116,36 @@
       "lng": 79.90441489999999
     },
     {
+      "place": "Polonnaruwa",
+      "min_temp": 22.8,
+      "max_temp": 31.7,
+      "rain": 0,
+      "lat": 7.940338400000001,
+      "lng": 81.0187984
+    },
+    {
       "place": "Nuwara Eliya",
       "min_temp": 13.5,
       "max_temp": 19.7,
       "rain": 5.0,
       "lat": 6.949716599999999,
       "lng": 80.7891068
+    },
+    {
+      "place": "Pothuvil",
+      "min_temp": 24.9,
+      "max_temp": 31.6,
+      "rain": 0,
+      "lat": 6.875270599999999,
+      "lng": 81.8306334
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 23.2,
+      "max_temp": 31.4,
+      "rain": 0,
+      "lat": 8.0407913,
+      "lng": 79.839386
     },
     {
       "place": "Rathmalana",
@@ -462,5 +475,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 117.5,
+    "max_rain_place": "Liyangastota"
+  },
+  "min_temp": {
+    "min_temp": 13.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.0,
+    "max_temp_place": "Mattla"
+  }
 }

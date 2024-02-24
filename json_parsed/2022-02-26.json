@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/fe443533b7711c46b1517e9d5ba7b03d.pdf",
   "date_ut": 1645813800.0,
   "date": "2022-02-26",
-  "min_temp": {
-    "min_temp": 21.9,
-    "min_temp_place": "Katugasthota"
-  },
-  "max_temp": {
-    "max_temp": 34.3,
-    "max_temp_place": "Katunayake"
-  },
-  "max_rain": {
-    "max_rain": 23.9,
-    "max_rain_place": "Ilubuluwa Estate"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -21,6 +10,22 @@
       "rain": 0.0,
       "lat": 8.311351799999999,
       "lng": 80.4036508
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 19.4,
+      "max_temp": 26.4,
+      "rain": 0,
+      "lat": 6.993400899999999,
+      "lng": 81.0549815
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 16.6,
+      "max_temp": 24.1,
+      "rain": 0,
+      "lat": 6.825877999999999,
+      "lng": 80.9981576
     },
     {
       "place": "Batticaloa",
@@ -119,6 +124,14 @@
       "lng": 81.0187984
     },
     {
+      "place": "Nuwara Eliya",
+      "min_temp": 13.0,
+      "max_temp": 20.0,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
+    },
+    {
       "place": "Pothuvil",
       "min_temp": 24.2,
       "max_temp": 28.6,
@@ -141,6 +154,14 @@
       "rain": 0.6,
       "lat": 6.8195453,
       "lng": 79.8800832
+    },
+    {
+      "place": "Rathnapura",
+      "min_temp": 22.4,
+      "max_temp": 32.3,
+      "rain": 0,
+      "lat": 6.7055742,
+      "lng": 80.3847345
     },
     {
       "place": "Trincomalee",
@@ -446,5 +467,17 @@
       "lat": 9.6071274,
       "lng": 79.76522109999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 23.9,
+    "max_rain_place": "Ilubuluwa Estate"
+  },
+  "min_temp": {
+    "min_temp": 13.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.3,
+    "max_temp_place": "Katunayake"
+  }
 }

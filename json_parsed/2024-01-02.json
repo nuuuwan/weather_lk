@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/5e52644f982eddab039d550772561227.pdf",
   "date_ut": 1704133800.0,
   "date": "2024-01-02",
-  "min_temp": {
-    "min_temp": 12.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 30.1,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 196.7,
-    "max_rain_place": "Batuwangala"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -175,6 +164,14 @@
       "lng": 80.3847345
     },
     {
+      "place": "Trincomalee",
+      "min_temp": 26.0,
+      "max_temp": 28.3,
+      "rain": 0,
+      "lat": 8.5873638,
+      "lng": 81.2152121
+    },
+    {
       "place": "Vavuniya",
       "min_temp": 23.9,
       "max_temp": 28.5,
@@ -189,6 +186,14 @@
       "rain": 32.1,
       "lat": 6.288780374382144,
       "lng": 81.12460077774537
+    },
+    {
+      "place": "Ky;iyj;jPT/ Mulatiw",
+      "min_temp": 26.8,
+      "max_temp": null,
+      "rain": 0,
+      "lat": 7.873053999999999,
+      "lng": 80.77179699999999
     },
     {
       "place": "Castlereigh",
@@ -462,5 +467,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 196.7,
+    "max_rain_place": "Batuwangala"
+  },
+  "min_temp": {
+    "min_temp": 12.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 30.1,
+    "max_temp_place": "Rathnapura"
+  }
 }

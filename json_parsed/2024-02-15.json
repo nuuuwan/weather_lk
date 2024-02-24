@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/2cc05864734773ee00e658e2b8927073.pdf",
   "date_ut": 1707935400.0,
   "date": "2024-02-15",
-  "min_temp": {
-    "min_temp": 14.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.4,
-    "max_temp_place": "Colombo"
-  },
-  "max_rain": {
-    "max_rain": 17.8,
-    "max_rain_place": "Tissamaharamaya"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -111,6 +100,14 @@
       "lng": 80.3608876
     },
     {
+      "place": "Maha Illuppallama",
+      "min_temp": 24.0,
+      "max_temp": 31.6,
+      "rain": 0,
+      "lat": 8.1155443,
+      "lng": 80.47207639999999
+    },
+    {
       "place": "Mannar",
       "min_temp": 26.6,
       "max_temp": 31.6,
@@ -149,6 +146,14 @@
       "rain": 0.0,
       "lat": 8.0407913,
       "lng": 79.839386
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 26.5,
+      "max_temp": 33.4,
+      "rain": 0,
+      "lat": 6.8195453,
+      "lng": 79.8800832
     },
     {
       "place": "Rathnapura",
@@ -303,6 +308,14 @@
       "lng": 81.2876691
     },
     {
+      "place": "Panama Tank",
+      "rain": 8.6,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.7545084,
+      "lng": 81.7733721
+    },
+    {
       "place": "Hope",
       "rain": 15.0,
       "min_temp": null,
@@ -446,5 +459,17 @@
       "lat": 7.5166977,
       "lng": 81.0285377
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 17.8,
+    "max_rain_place": "Tissamaharamaya"
+  },
+  "min_temp": {
+    "min_temp": 14.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.4,
+    "max_temp_place": "Colombo"
+  }
 }

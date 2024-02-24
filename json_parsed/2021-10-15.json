@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/259c211db6b003e9f7c1691c863db007.pdf",
   "date_ut": 1634236200.0,
   "date": "2021-10-15",
-  "min_temp": {
-    "min_temp": 17.3,
-    "min_temp_place": "Bandarawela"
-  },
-  "max_temp": {
-    "max_temp": 36.6,
-    "max_temp_place": "Batticaloa"
-  },
-  "max_rain": {
-    "max_rain": 20.3,
-    "max_rain_place": "Warakapola"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -45,6 +34,14 @@
       "rain": 0.0,
       "lat": 7.7249146,
       "lng": 81.6966911
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 27.6,
+      "max_temp": 31.1,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
     },
     {
       "place": "Galle",
@@ -95,6 +92,14 @@
       "lng": 79.8853484
     },
     {
+      "place": "Kurunagala",
+      "min_temp": 25.6,
+      "max_temp": 31.5,
+      "rain": 0,
+      "lat": 7.4817695,
+      "lng": 80.3608876
+    },
+    {
       "place": "Maha Illuppallama",
       "min_temp": 25.5,
       "max_temp": 32.2,
@@ -117,6 +122,14 @@
       "rain": 0.0,
       "lat": 7.940338400000001,
       "lng": 81.0187984
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 14.4,
+      "max_temp": 19.3,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
     },
     {
       "place": "Pothuvil",
@@ -462,5 +475,17 @@
       "lat": 6.5853948,
       "lng": 79.96074
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 20.3,
+    "max_rain_place": "Warakapola"
+  },
+  "min_temp": {
+    "min_temp": 14.4,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.6,
+    "max_temp_place": "Batticaloa"
+  }
 }

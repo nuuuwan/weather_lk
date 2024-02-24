@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/b7f1eb02a72f3cf63145dd2290ee5bb4.pdf",
   "date_ut": 1653589800.0,
   "date": "2022-05-27",
-  "min_temp": {
-    "min_temp": 14.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 36.3,
-    "max_temp_place": "Mullaithivu"
-  },
-  "max_rain": {
-    "max_rain": 136.0,
-    "max_rain_place": "Vincit Estate"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -486,5 +475,17 @@
       "lat": 6.168829199999999,
       "lng": 80.1793976
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 136.0,
+    "max_rain_place": "Vincit Estate"
+  },
+  "min_temp": {
+    "min_temp": 14.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.3,
+    "max_temp_place": "Mullaithivu"
+  }
 }

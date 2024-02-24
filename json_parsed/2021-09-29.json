@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/800bed94085c37c8889e7828fcef5900.pdf",
   "date_ut": 1632853800.0,
   "date": "2021-09-29",
-  "min_temp": {
-    "min_temp": 12.8,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.3,
-    "max_temp_place": "Mullaithivu"
-  },
-  "max_rain": {
-    "max_rain": 72.0,
-    "max_rain_place": "Canyon"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -47,6 +36,14 @@
       "lng": 81.6966911
     },
     {
+      "place": "Colombo",
+      "min_temp": 24.4,
+      "max_temp": 28.8,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
+    },
+    {
       "place": "Galle",
       "min_temp": 26.4,
       "max_temp": 28.6,
@@ -69,6 +66,14 @@
       "rain": 0.0,
       "lat": 9.6614981,
       "lng": 80.02554649999999
+    },
+    {
+      "place": "Monaragala",
+      "min_temp": 22.4,
+      "max_temp": 30.0,
+      "rain": 0,
+      "lat": 6.890645399999999,
+      "lng": 81.34544170000001
     },
     {
       "place": "Katugasthota",
@@ -95,12 +100,28 @@
       "lng": 80.3608876
     },
     {
+      "place": "Maha Illuppallama",
+      "min_temp": 24.9,
+      "max_temp": 31.9,
+      "rain": 0,
+      "lat": 8.1155443,
+      "lng": 80.47207639999999
+    },
+    {
       "place": "Mannar",
       "min_temp": 27.3,
       "max_temp": 31.1,
       "rain": 0.0,
       "lat": 8.980974300000002,
       "lng": 79.90441489999999
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 26.3,
+      "max_temp": 30.3,
+      "rain": 0,
+      "lat": 7.940338400000001,
+      "lng": 81.0187984
     },
     {
       "place": "Nuwara Eliya",
@@ -117,6 +138,14 @@
       "rain": 0.1,
       "lat": 6.875270599999999,
       "lng": 81.8306334
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 26.6,
+      "max_temp": 30.1,
+      "rain": 0,
+      "lat": 8.0407913,
+      "lng": 79.839386
     },
     {
       "place": "Rathmalana",
@@ -438,5 +467,17 @@
       "lat": 7.142363899999999,
       "lng": 80.1037721
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 72.0,
+    "max_rain_place": "Canyon"
+  },
+  "min_temp": {
+    "min_temp": 12.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.3,
+    "max_temp_place": "Mullaithivu"
+  }
 }

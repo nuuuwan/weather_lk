@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/1206aceae59724cd9e919d1dd7cd8523.pdf",
   "date_ut": 1670869800.0,
   "date": "2022-12-13",
-  "min_temp": {
-    "min_temp": 9.8,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 31.6,
-    "max_temp_place": "Monaragala"
-  },
-  "max_rain": {
-    "max_rain": 17.6,
-    "max_rain_place": "Akkarayan"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -125,6 +114,14 @@
       "rain": 0.0,
       "lat": 8.980974300000002,
       "lng": 79.90441489999999
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 21.3,
+      "max_temp": 29.2,
+      "rain": 0,
+      "lat": 7.940338400000001,
+      "lng": 81.0187984
     },
     {
       "place": "Nuwara Eliya",
@@ -470,5 +467,17 @@
       "lat": 7.4924001,
       "lng": 79.9108744
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 17.6,
+    "max_rain_place": "Akkarayan"
+  },
+  "min_temp": {
+    "min_temp": 9.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 31.6,
+    "max_temp_place": "Monaragala"
+  }
 }

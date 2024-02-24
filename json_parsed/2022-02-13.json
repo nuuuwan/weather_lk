@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/a957ff3829f6cd6a2d731b8ff294c394.pdf",
   "date_ut": 1644690600.0,
   "date": "2022-02-13",
-  "min_temp": {
-    "min_temp": 13.6,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.7,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 186.3,
-    "max_rain_place": "TCO Navy"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -61,6 +50,14 @@
       "rain": 70.0,
       "lat": 6.032894799999999,
       "lng": 80.2167912
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 24.4,
+      "max_temp": 32.1,
+      "rain": 0,
+      "lat": 6.1428829,
+      "lng": 81.12123079999999
     },
     {
       "place": "Jaffna",
@@ -470,5 +467,17 @@
       "lat": 7.780602000000001,
       "lng": 80.818401
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 186.3,
+    "max_rain_place": "TCO Navy"
+  },
+  "min_temp": {
+    "min_temp": 13.6,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.7,
+    "max_temp_place": "Rathnapura"
+  }
 }

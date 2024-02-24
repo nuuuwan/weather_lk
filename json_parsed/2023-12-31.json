@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/385f33392603dca3497d79bb81888679.pdf",
   "date_ut": 1703961000.0,
   "date": "2023-12-31",
-  "min_temp": {
-    "min_temp": 14.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.2,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 134.0,
-    "max_rain_place": "Rantambe"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -37,6 +26,14 @@
       "rain": 13.5,
       "lat": 6.825877999999999,
       "lng": 80.9981576
+    },
+    {
+      "place": "Batticaloa",
+      "min_temp": 26.7,
+      "max_temp": 29.8,
+      "rain": 0,
+      "lat": 7.7249146,
+      "lng": 81.6966911
     },
     {
       "place": "Colombo",
@@ -191,6 +188,14 @@
       "lng": 81.12460077774537
     },
     {
+      "place": "Mullaitivu",
+      "min_temp": 27.0,
+      "max_temp": 29.8,
+      "rain": 0,
+      "lat": 9.2670911,
+      "lng": 80.81424799999999
+    },
+    {
       "place": "Castlereigh",
       "rain": 0.0,
       "min_temp": null,
@@ -309,6 +314,14 @@
       "max_temp": null,
       "lat": 7.5166977,
       "lng": 81.0285377
+    },
+    {
+      "place": "Vakanari Wawa",
+      "rain": 14.3,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.873053999999999,
+      "lng": 80.77179699999999
     },
     {
       "place": "Habarana Lodge",
@@ -454,5 +467,17 @@
       "lat": 7.0859822,
       "lng": 81.777335
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 134.0,
+    "max_rain_place": "Rantambe"
+  },
+  "min_temp": {
+    "min_temp": 14.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.2,
+    "max_temp_place": "Rathnapura"
+  }
 }

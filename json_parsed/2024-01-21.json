@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/f85a16518097e008544a4316f2945670.pdf",
   "date_ut": 1705775400.0,
   "date": "2024-01-21",
-  "min_temp": {
-    "min_temp": 14.9,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.2,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 67.5,
-    "max_rain_place": "Negombo"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -45,6 +34,14 @@
       "rain": 28.7,
       "lat": 7.7249146,
       "lng": 81.6966911
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 24.6,
+      "max_temp": 30.6,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
     },
     {
       "place": "Galle",
@@ -103,6 +100,14 @@
       "lng": 80.3608876
     },
     {
+      "place": "Maha Illuppallama",
+      "min_temp": 23.2,
+      "max_temp": 28.7,
+      "rain": 0,
+      "lat": 8.1155443,
+      "lng": 80.47207639999999
+    },
+    {
       "place": "Mannar",
       "min_temp": 24.3,
       "max_temp": 27.2,
@@ -141,6 +146,14 @@
       "rain": 1.0,
       "lat": 8.0407913,
       "lng": 79.839386
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 25.1,
+      "max_temp": 30.9,
+      "rain": 0,
+      "lat": 6.8195453,
+      "lng": 79.8800832
     },
     {
       "place": "Rathnapura",
@@ -462,5 +475,17 @@
       "lat": 8.2925501,
       "lng": 80.22655449999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 67.5,
+    "max_rain_place": "Negombo"
+  },
+  "min_temp": {
+    "min_temp": 14.9,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.2,
+    "max_temp_place": "Rathnapura"
+  }
 }

@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/113536e0409f5f19218d77dc6d923c14.pdf",
   "date_ut": 1705602600.0,
   "date": "2024-01-19",
-  "min_temp": {
-    "min_temp": 13.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.1,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 164.3,
-    "max_rain_place": "Mullaitivu"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -95,6 +84,14 @@
       "lng": 80.62297869999999
     },
     {
+      "place": "Katunayake",
+      "min_temp": 24.9,
+      "max_temp": 32.4,
+      "rain": 0,
+      "lat": 7.172484899999999,
+      "lng": 79.8853484
+    },
+    {
       "place": "Kurunagala",
       "min_temp": 24.4,
       "max_temp": 33.4,
@@ -165,6 +162,14 @@
       "rain": 2.9,
       "lat": 6.7055742,
       "lng": 80.3847345
+    },
+    {
+      "place": "Trincomalee",
+      "min_temp": 26.0,
+      "max_temp": 30.1,
+      "rain": 0,
+      "lat": 8.5873638,
+      "lng": 81.2152121
     },
     {
       "place": "Vavuniya",
@@ -470,5 +475,17 @@
       "lat": 9.0537187,
       "lng": 80.6604364
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 164.3,
+    "max_rain_place": "Mullaitivu"
+  },
+  "min_temp": {
+    "min_temp": 13.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.1,
+    "max_temp_place": "Rathnapura"
+  }
 }

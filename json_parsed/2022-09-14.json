@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/acd0b20f3efe68c5ef1f67675faa2d0e.pdf",
   "date_ut": 1663093800.0,
   "date": "2022-09-14",
-  "min_temp": {
-    "min_temp": 9.9,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.1,
-    "max_temp_place": "Mullaithivu"
-  },
-  "max_rain": {
-    "max_rain": 10.8,
-    "max_rain_place": "Rathmalana"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -149,6 +138,14 @@
       "rain": 0.1,
       "lat": 6.875270599999999,
       "lng": 81.8306334
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 25.0,
+      "max_temp": 31.3,
+      "rain": 0,
+      "lat": 8.0407913,
+      "lng": 79.839386
     },
     {
       "place": "Rathmalana",
@@ -478,5 +475,17 @@
       "lat": 9.7910875,
       "lng": 80.0339312
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 10.8,
+    "max_rain_place": "Rathmalana"
+  },
+  "min_temp": {
+    "min_temp": 9.9,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.1,
+    "max_temp_place": "Mullaithivu"
+  }
 }

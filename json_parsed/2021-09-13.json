@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/c9e93beb072784fcd44c16345a7a9026.pdf",
   "date_ut": 1631471400.0,
   "date": "2021-09-13",
-  "min_temp": {
-    "min_temp": 14.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 36.8,
-    "max_temp_place": "Pothuvil"
-  },
-  "max_rain": {
-    "max_rain": 28.2,
-    "max_rain_place": "Baddegama"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -101,6 +90,14 @@
       "rain": 4.9,
       "lat": 7.172484899999999,
       "lng": 79.8853484
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 24.6,
+      "max_temp": 32.0,
+      "rain": 0,
+      "lat": 7.4817695,
+      "lng": 80.3608876
     },
     {
       "place": "Maha Illuppallama",
@@ -470,5 +467,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 28.2,
+    "max_rain_place": "Baddegama"
+  },
+  "min_temp": {
+    "min_temp": 14.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.8,
+    "max_temp_place": "Pothuvil"
+  }
 }

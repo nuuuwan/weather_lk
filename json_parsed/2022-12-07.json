@@ -1,19 +1,16 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/3b952d6abeadcb8596b5d3cf562c5604.pdf",
   "date_ut": 1670351400.0,
   "date": "2022-12-07",
-  "min_temp": {
-    "min_temp": 19.0,
-    "min_temp_place": "Badulla"
-  },
-  "max_temp": {
-    "max_temp": 31.6,
-    "max_temp_place": "Rathmalana"
-  },
-  "max_rain": {
-    "max_rain": 6.6,
-    "max_rain_place": "Bowatenna"
-  },
   "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 23.4,
+      "max_temp": 28.8,
+      "rain": 0,
+      "lat": 8.311351799999999,
+      "lng": 80.4036508
+    },
     {
       "place": "Badulla",
       "min_temp": 19.0,
@@ -21,6 +18,14 @@
       "rain": 0.1,
       "lat": 6.993400899999999,
       "lng": 81.0549815
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 16.4,
+      "max_temp": 21.0,
+      "rain": 0,
+      "lat": 6.825877999999999,
+      "lng": 80.9981576
     },
     {
       "place": "Batticaloa",
@@ -109,6 +114,22 @@
       "rain": 0.0,
       "lat": 8.980974300000002,
       "lng": 79.90441489999999
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 24.4,
+      "max_temp": 28.4,
+      "rain": 0,
+      "lat": 7.940338400000001,
+      "lng": 81.0187984
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 11.6,
+      "max_temp": 19.1,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
     },
     {
       "place": "Pothuvil",
@@ -454,5 +475,17 @@
       "lat": 7.6790279,
       "lng": 81.49379929999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 6.6,
+    "max_rain_place": "Bowatenna"
+  },
+  "min_temp": {
+    "min_temp": 11.6,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 31.6,
+    "max_temp_place": "Rathmalana"
+  }
 }

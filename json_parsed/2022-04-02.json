@@ -1,19 +1,16 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/28cc6ffc8744440888c75405b88de4e5.pdf",
   "date_ut": 1648837800.0,
   "date": "2022-04-02",
-  "min_temp": {
-    "min_temp": 14.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.9,
-    "max_temp_place": "Maha Illuppallama"
-  },
-  "max_rain": {
-    "max_rain": 44.9,
-    "max_rain_place": "Holmwood"
-  },
   "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 24.4,
+      "max_temp": 34.5,
+      "rain": 0,
+      "lat": 8.311351799999999,
+      "lng": 80.4036508
+    },
     {
       "place": "Badulla",
       "min_temp": 21.1,
@@ -71,12 +68,28 @@
       "lng": 80.02554649999999
     },
     {
+      "place": "Monaragala",
+      "min_temp": 23.2,
+      "max_temp": 33.7,
+      "rain": 0,
+      "lat": 6.890645399999999,
+      "lng": 81.34544170000001
+    },
+    {
       "place": "Katugasthota",
       "min_temp": 20.8,
       "max_temp": 31.4,
       "rain": 7.6,
       "lat": 7.3251558,
       "lng": 80.62297869999999
+    },
+    {
+      "place": "Katunayake",
+      "min_temp": 25.0,
+      "max_temp": 32.5,
+      "rain": 0,
+      "lat": 7.172484899999999,
+      "lng": 79.8853484
     },
     {
       "place": "Kurunagala",
@@ -101,6 +114,14 @@
       "rain": 0.0,
       "lat": 8.980974300000002,
       "lng": 79.90441489999999
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 25.2,
+      "max_temp": 35.1,
+      "rain": 0,
+      "lat": 7.940338400000001,
+      "lng": 81.0187984
     },
     {
       "place": "Nuwara Eliya",
@@ -303,6 +324,14 @@
       "lng": 80.77179699999999
     },
     {
+      "place": "Dehiwala",
+      "rain": 15.1,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.855948499999999,
+      "lng": 79.86296829999999
+    },
+    {
       "place": "Mihinthale",
       "rain": 41.5,
       "min_temp": null,
@@ -446,5 +475,17 @@
       "lat": 6.8618547,
       "lng": 80.1691309
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 44.9,
+    "max_rain_place": "Holmwood"
+  },
+  "min_temp": {
+    "min_temp": 14.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.1,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

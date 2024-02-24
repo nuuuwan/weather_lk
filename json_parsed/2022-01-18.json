@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/4aca86bc0b620de623da105cd7827b16.pdf",
   "date_ut": 1642444200.0,
   "date": "2022-01-18",
-  "min_temp": {
-    "min_temp": 9.2,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.8,
-    "max_temp_place": "Katunayake"
-  },
-  "max_rain": {
-    "max_rain": 143.3,
-    "max_rain_place": "Atchuvely"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -23,12 +12,28 @@
       "lng": 80.4036508
     },
     {
+      "place": "Badulla",
+      "min_temp": 18.0,
+      "max_temp": 26.5,
+      "rain": 0,
+      "lat": 6.993400899999999,
+      "lng": 81.0549815
+    },
+    {
       "place": "Bandarawela",
       "min_temp": 16.1,
       "max_temp": 23.6,
       "rain": 0.0,
       "lat": 6.825877999999999,
       "lng": 80.9981576
+    },
+    {
+      "place": "Batticaloa",
+      "min_temp": 23.1,
+      "max_temp": 30.2,
+      "rain": 0,
+      "lat": 7.7249146,
+      "lng": 81.6966911
     },
     {
       "place": "Colombo",
@@ -470,5 +475,17 @@
       "lat": 7.301756300000001,
       "lng": 81.6747295
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 143.3,
+    "max_rain_place": "Atchuvely"
+  },
+  "min_temp": {
+    "min_temp": 9.2,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.8,
+    "max_temp_place": "Katunayake"
+  }
 }

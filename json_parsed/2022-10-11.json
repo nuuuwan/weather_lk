@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/e7a651115673ab7c7d5d9bfd3e259bb0.pdf",
   "date_ut": 1665426600.0,
   "date": "2022-10-11",
-  "min_temp": {
-    "min_temp": 12.9,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.6,
-    "max_temp_place": "Anuradhapura"
-  },
-  "max_rain": {
-    "max_rain": 119.0,
-    "max_rain_place": "Rambaawa"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -29,6 +18,14 @@
       "rain": 25.9,
       "lat": 6.993400899999999,
       "lng": 81.0549815
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 16.8,
+      "max_temp": 25.5,
+      "rain": 0,
+      "lat": 6.825877999999999,
+      "lng": 80.9981576
     },
     {
       "place": "Batticaloa",
@@ -53,6 +50,14 @@
       "rain": 0.0,
       "lat": 6.032894799999999,
       "lng": 80.2167912
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 25.8,
+      "max_temp": 32.0,
+      "rain": 0,
+      "lat": 6.1428829,
+      "lng": 81.12123079999999
     },
     {
       "place": "Jaffna",
@@ -149,6 +154,14 @@
       "rain": 2.5,
       "lat": 6.8195453,
       "lng": 79.8800832
+    },
+    {
+      "place": "Rathnapura",
+      "min_temp": 23.7,
+      "max_temp": 31.9,
+      "rain": 0,
+      "lat": 6.7055742,
+      "lng": 80.3847345
     },
     {
       "place": "Trincomalee",
@@ -454,5 +467,17 @@
       "lat": 7.0175672,
       "lng": 81.16648099999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 119.0,
+    "max_rain_place": "Rambaawa"
+  },
+  "min_temp": {
+    "min_temp": 12.9,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.6,
+    "max_temp_place": "Anuradhapura"
+  }
 }

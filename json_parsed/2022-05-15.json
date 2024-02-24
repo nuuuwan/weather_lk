@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/e1cfbf01ee08eb7c37b29ca7ed676ff6.pdf",
   "date_ut": 1652553000.0,
   "date": "2022-05-15",
-  "min_temp": {
-    "min_temp": 14.1,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.6,
-    "max_temp_place": "Mullaitivu"
-  },
-  "max_rain": {
-    "max_rain": 83.5,
-    "max_rain_place": "Kuttapitiya Tea"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -127,6 +116,14 @@
       "lng": 79.90441489999999
     },
     {
+      "place": "Polonnaruwa",
+      "min_temp": 25.8,
+      "max_temp": 33.2,
+      "rain": 0,
+      "lat": 7.940338400000001,
+      "lng": 81.0187984
+    },
+    {
       "place": "Nuwara Eliya",
       "min_temp": 14.1,
       "max_temp": 18.2,
@@ -141,6 +138,14 @@
       "rain": 0.0,
       "lat": 6.875270599999999,
       "lng": 81.8306334
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 27.2,
+      "max_temp": 31.5,
+      "rain": 0,
+      "lat": 8.0407913,
+      "lng": 79.839386
     },
     {
       "place": "Rathmalana",
@@ -470,5 +475,17 @@
       "lat": 6.2791538,
       "lng": 81.2876691
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 83.5,
+    "max_rain_place": "Kuttapitiya Tea"
+  },
+  "min_temp": {
+    "min_temp": 14.1,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.6,
+    "max_temp_place": "Mullaitivu"
+  }
 }

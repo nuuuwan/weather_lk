@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/f344d12a485464a39a7629b2b1974db6.pdf",
   "date_ut": 1658514600.0,
   "date": "2022-07-23",
-  "min_temp": {
-    "min_temp": 15.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.3,
-    "max_temp_place": "Trincomalee"
-  },
-  "max_rain": {
-    "max_rain": 36.4,
-    "max_rain_place": "Watawala"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -127,6 +116,14 @@
       "lng": 79.90441489999999
     },
     {
+      "place": "Polonnaruwa",
+      "min_temp": 24.5,
+      "max_temp": 35.3,
+      "rain": 0,
+      "lat": 7.940338400000001,
+      "lng": 81.0187984
+    },
+    {
       "place": "Nuwara Eliya",
       "min_temp": 15.0,
       "max_temp": 20.5,
@@ -149,6 +146,14 @@
       "rain": 1.0,
       "lat": 8.0407913,
       "lng": 79.839386
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 26.6,
+      "max_temp": 30.8,
+      "rain": 0,
+      "lat": 6.8195453,
+      "lng": 79.8800832
     },
     {
       "place": "Rathnapura",
@@ -470,5 +475,17 @@
       "lat": 7.5615466,
       "lng": 80.3686488
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 36.4,
+    "max_rain_place": "Watawala"
+  },
+  "min_temp": {
+    "min_temp": 15.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.3,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

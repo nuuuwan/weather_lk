@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/96a7d14702a2eaf98f5043b344d0ba7f.pdf",
   "date_ut": 1629916200.0,
   "date": "2021-08-26",
-  "min_temp": {
-    "min_temp": 14.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.9,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 88.2,
-    "max_rain_place": "Moraliya-Oya"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -29,6 +18,14 @@
       "rain": 30.2,
       "lat": 6.993400899999999,
       "lng": 81.0549815
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 18.0,
+      "max_temp": 24.7,
+      "rain": 0,
+      "lat": 6.825877999999999,
+      "lng": 80.9981576
     },
     {
       "place": "Batticaloa",
@@ -478,5 +475,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 88.2,
+    "max_rain_place": "Moraliya-Oya"
+  },
+  "min_temp": {
+    "min_temp": 14.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.9,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

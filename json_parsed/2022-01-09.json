@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/504acbd02eb132865136140fe55ba014.pdf",
   "date_ut": 1641666600.0,
   "date": "2022-01-09",
-  "min_temp": {
-    "min_temp": 13.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.1,
-    "max_temp_place": "Rathmalana"
-  },
-  "max_rain": {
-    "max_rain": 57.5,
-    "max_rain_place": "Unnichchai"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -486,5 +475,17 @@
       "lat": 6.309448199999999,
       "lng": 80.324096
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 57.5,
+    "max_rain_place": "Unnichchai"
+  },
+  "min_temp": {
+    "min_temp": 13.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.1,
+    "max_temp_place": "Rathmalana"
+  }
 }

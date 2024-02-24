@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/05166984a048866607d41004a06a7f9e.pdf",
   "date_ut": 1628274600.0,
   "date": "2021-08-07",
-  "min_temp": {
-    "min_temp": 15.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 36.3,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 65.3,
-    "max_rain_place": "Norton"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -103,6 +92,14 @@
       "lng": 79.8853484
     },
     {
+      "place": "Kurunagala",
+      "min_temp": 25.2,
+      "max_temp": 31.5,
+      "rain": 0,
+      "lat": 7.4817695,
+      "lng": 80.3608876
+    },
+    {
       "place": "Maha Illuppallama",
       "min_temp": 25.3,
       "max_temp": 33.4,
@@ -149,6 +146,14 @@
       "rain": 0.0,
       "lat": 8.0407913,
       "lng": 79.839386
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 27.3,
+      "max_temp": 32.0,
+      "rain": 0,
+      "lat": 6.8195453,
+      "lng": 79.8800832
     },
     {
       "place": "Rathnapura",
@@ -462,5 +467,17 @@
       "lat": 7.139777,
       "lng": 80.3575128
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 65.3,
+    "max_rain_place": "Norton"
+  },
+  "min_temp": {
+    "min_temp": 15.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.3,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

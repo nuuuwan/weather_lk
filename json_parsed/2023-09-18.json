@@ -1,19 +1,16 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/44d36c121815e416ff837ecd3b78179a.pdf",
   "date_ut": 1694975400.0,
   "date": "2023-09-18",
-  "min_temp": {
-    "min_temp": 14.4,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.6,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 111.0,
-    "max_rain_place": "Ampan"
-  },
   "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 25.1,
+      "max_temp": 32.6,
+      "rain": 0,
+      "lat": 8.311351799999999,
+      "lng": 80.4036508
+    },
     {
       "place": "Badulla",
       "min_temp": 19.8,
@@ -109,6 +106,14 @@
       "rain": 6.4,
       "lat": 8.1155443,
       "lng": 80.47207639999999
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 26.7,
+      "max_temp": 30.8,
+      "rain": 0,
+      "lat": 8.980974300000002,
+      "lng": 79.90441489999999
     },
     {
       "place": "Polonnaruwa",
@@ -462,5 +467,17 @@
       "lat": 9.7786397,
       "lng": 80.1160651
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 111.0,
+    "max_rain_place": "Ampan"
+  },
+  "min_temp": {
+    "min_temp": 14.4,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.6,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

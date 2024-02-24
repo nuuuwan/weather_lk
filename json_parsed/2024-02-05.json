@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/b7c298ada090304824d88af75c0045aa.pdf",
   "date_ut": 1707071400.0,
   "date": "2024-02-05",
-  "min_temp": {
-    "min_temp": 15.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.3,
-    "max_temp_place": "Katunayake"
-  },
-  "max_rain": {
-    "max_rain": 92.5,
-    "max_rain_place": "Kurunduoya"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -486,5 +475,17 @@
       "lat": 6.8787195,
       "lng": 80.8135558
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 92.5,
+    "max_rain_place": "Kurunduoya"
+  },
+  "min_temp": {
+    "min_temp": 15.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.3,
+    "max_temp_place": "Katunayake"
+  }
 }

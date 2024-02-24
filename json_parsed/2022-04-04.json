@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/fa25dfbdd20cb233efe4866023773665.pdf",
   "date_ut": 1649010600.0,
   "date": "2022-04-04",
-  "min_temp": {
-    "min_temp": 10.8,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.9,
-    "max_temp_place": "Vavuniya"
-  },
-  "max_rain": {
-    "max_rain": 65.2,
-    "max_rain_place": "Weheragala Irrigation"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -125,6 +114,14 @@
       "rain": 0.0,
       "lat": 8.980974300000002,
       "lng": 79.90441489999999
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 23.7,
+      "max_temp": 35.4,
+      "rain": 0,
+      "lat": 7.940338400000001,
+      "lng": 81.0187984
     },
     {
       "place": "Nuwara Eliya",
@@ -470,5 +467,17 @@
       "lat": 6.8618547,
       "lng": 80.1691309
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 65.2,
+    "max_rain_place": "Weheragala Irrigation"
+  },
+  "min_temp": {
+    "min_temp": 10.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.4,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

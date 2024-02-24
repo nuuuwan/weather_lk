@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/6fcc8e3ca6e8595edd606e86139e7bc1.pdf",
   "date_ut": 1668796200.0,
   "date": "2022-11-19",
-  "min_temp": {
-    "min_temp": 20.1,
-    "min_temp_place": "Katugasthota"
-  },
-  "max_temp": {
-    "max_temp": 32.3,
-    "max_temp_place": "Rathmalana"
-  },
-  "max_rain": {
-    "max_rain": 28.1,
-    "max_rain_place": "Passikuda Eatste"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -21,6 +10,22 @@
       "rain": 0.0,
       "lat": 8.311351799999999,
       "lng": 80.4036508
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 17.5,
+      "max_temp": 26.0,
+      "rain": 0,
+      "lat": 6.993400899999999,
+      "lng": 81.0549815
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 15.1,
+      "max_temp": 25.5,
+      "rain": 0,
+      "lat": 6.825877999999999,
+      "lng": 80.9981576
     },
     {
       "place": "Batticaloa",
@@ -95,6 +100,14 @@
       "lng": 80.3608876
     },
     {
+      "place": "Maha Illuppallama",
+      "min_temp": 22.6,
+      "max_temp": 30.9,
+      "rain": 0,
+      "lat": 8.1155443,
+      "lng": 80.47207639999999
+    },
+    {
       "place": "Mannar",
       "min_temp": 26.0,
       "max_temp": 29.8,
@@ -109,6 +122,22 @@
       "rain": 0.4,
       "lat": 7.940338400000001,
       "lng": 81.0187984
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 9.6,
+      "max_temp": 22.9,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
+    },
+    {
+      "place": "Pothuvil",
+      "min_temp": 24.6,
+      "max_temp": 29.9,
+      "rain": 0,
+      "lat": 6.875270599999999,
+      "lng": 81.8306334
     },
     {
       "place": "Puttalam",
@@ -446,5 +475,17 @@
       "lat": 9.7910875,
       "lng": 80.0339312
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 28.1,
+    "max_rain_place": "Passikuda Eatste"
+  },
+  "min_temp": {
+    "min_temp": 9.6,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.3,
+    "max_temp_place": "Rathmalana"
+  }
 }

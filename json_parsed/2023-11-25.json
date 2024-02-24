@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/b9868a491a658b4f7c64ce435daeb6f1.pdf",
   "date_ut": 1700850600.0,
   "date": "2023-11-25",
-  "min_temp": {
-    "min_temp": 16.8,
-    "min_temp_place": "Bandarawela"
-  },
-  "max_temp": {
-    "max_temp": 34.3,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 62.0,
-    "max_rain_place": "Benthotawatta"
-  },
   "weather_list": [
     {
       "place": "Badulla",
@@ -430,5 +419,17 @@
       "lat": 6.6355603,
       "lng": 80.3129541
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 62.0,
+    "max_rain_place": "Benthotawatta"
+  },
+  "min_temp": {
+    "min_temp": 16.8,
+    "min_temp_place": "Bandarawela"
+  },
+  "max_temp": {
+    "max_temp": 34.3,
+    "max_temp_place": "Rathnapura"
+  }
 }

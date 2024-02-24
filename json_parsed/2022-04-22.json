@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/a87291a3f51844958c00158630e4b0c3.pdf",
   "date_ut": 1650565800.0,
   "date": "2022-04-22",
-  "min_temp": {
-    "min_temp": 13.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.2,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 79.1,
-    "max_rain_place": "Ranorava"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -45,6 +34,14 @@
       "rain": 0.0,
       "lat": 7.7249146,
       "lng": 81.6966911
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 27.1,
+      "max_temp": 31.5,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
     },
     {
       "place": "Galle",
@@ -470,5 +467,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 79.1,
+    "max_rain_place": "Ranorava"
+  },
+  "min_temp": {
+    "min_temp": 13.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.2,
+    "max_temp_place": "Rathnapura"
+  }
 }

@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/3feb3943dfd77f43f1200083e1f48298.pdf",
   "date_ut": 1624991400.0,
   "date": "2021-06-30",
-  "min_temp": {
-    "min_temp": 18.0,
-    "min_temp_place": "Bandarawela"
-  },
-  "max_temp": {
-    "max_temp": 36.4,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 29.2,
-    "max_rain_place": "Monrovia"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -133,6 +122,14 @@
       "rain": 0.0,
       "lat": 7.940338400000001,
       "lng": 81.0187984
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 14.4,
+      "max_temp": 22.2,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
     },
     {
       "place": "Pothuvil",
@@ -478,5 +475,17 @@
       "lat": 6.944946799999999,
       "lng": 80.53898339999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 29.2,
+    "max_rain_place": "Monrovia"
+  },
+  "min_temp": {
+    "min_temp": 14.4,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.4,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

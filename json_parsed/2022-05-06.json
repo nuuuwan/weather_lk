@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/9ca38383e2109552f74885c720b53434.pdf",
   "date_ut": 1651775400.0,
   "date": "2022-05-06",
-  "min_temp": {
-    "min_temp": 17.4,
-    "min_temp_place": "Bandarawela"
-  },
-  "max_temp": {
-    "max_temp": 34.9,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 88.9,
-    "max_rain_place": "Galle"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -133,6 +122,14 @@
       "rain": 0.0,
       "lat": 7.940338400000001,
       "lng": 81.0187984
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 14.2,
+      "max_temp": 22.0,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
     },
     {
       "place": "Pothuvil",
@@ -470,5 +467,17 @@
       "lat": 6.309448199999999,
       "lng": 80.324096
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 88.9,
+    "max_rain_place": "Galle"
+  },
+  "min_temp": {
+    "min_temp": 14.2,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.9,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

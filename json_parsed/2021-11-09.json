@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/9e82a911395543dd6622a470ae47258d.pdf",
   "date_ut": 1636396200.0,
   "date": "2021-11-09",
-  "min_temp": {
-    "min_temp": 13.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 31.8,
-    "max_temp_place": "Vavuniya"
-  },
-  "max_rain": {
-    "max_rain": 300.4,
-    "max_rain_place": "Nochchiyagama"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -478,5 +467,17 @@
       "lat": 6.944946799999999,
       "lng": 80.53898339999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 300.4,
+    "max_rain_place": "Nochchiyagama"
+  },
+  "min_temp": {
+    "min_temp": 13.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 31.8,
+    "max_temp_place": "Vavuniya"
+  }
 }

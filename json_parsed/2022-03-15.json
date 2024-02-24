@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/d0da45cde843c15ab1db043d4d3e5ccb.pdf",
   "date_ut": 1647282600.0,
   "date": "2022-03-15",
-  "min_temp": {
-    "min_temp": 10.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 36.4,
-    "max_temp_place": "Kurunagala"
-  },
-  "max_rain": {
-    "max_rain": 12.3,
-    "max_rain_place": "Poddiwela Farm"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -165,6 +154,14 @@
       "rain": 0.0,
       "lat": 6.8195453,
       "lng": 79.8800832
+    },
+    {
+      "place": "Rathnapura",
+      "min_temp": 22.8,
+      "max_temp": 33.9,
+      "rain": 0,
+      "lat": 6.7055742,
+      "lng": 80.3847345
     },
     {
       "place": "Trincomalee",
@@ -486,5 +483,17 @@
       "lat": 9.7352621,
       "lng": 80.29345219999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 12.3,
+    "max_rain_place": "Poddiwela Farm"
+  },
+  "min_temp": {
+    "min_temp": 10.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.4,
+    "max_temp_place": "Kurunagala"
+  }
 }

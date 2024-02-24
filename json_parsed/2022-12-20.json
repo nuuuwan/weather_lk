@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/6e24c5c782515c49e0f8e0a0e8184ee7.pdf",
   "date_ut": 1671474600.0,
   "date": "2022-12-20",
-  "min_temp": {
-    "min_temp": 13.8,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 30.2,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 167.7,
-    "max_rain_place": "Kanthale Tank"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -45,6 +34,14 @@
       "rain": 33.0,
       "lat": 7.7249146,
       "lng": 81.6966911
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 23.9,
+      "max_temp": 27.9,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
     },
     {
       "place": "Galle",
@@ -189,6 +186,14 @@
       "rain": 6.8,
       "lat": 6.288780374382144,
       "lng": 81.12460077774537
+    },
+    {
+      "place": "Mullaithivu",
+      "min_temp": 26.4,
+      "max_temp": 32.7,
+      "rain": 0,
+      "lat": 9.2670911,
+      "lng": 80.81424799999999
     },
     {
       "place": "Castlereigh",
@@ -462,5 +467,17 @@
       "lat": 7.619725000000001,
       "lng": 81.5494688
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 167.7,
+    "max_rain_place": "Kanthale Tank"
+  },
+  "min_temp": {
+    "min_temp": 13.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.7,
+    "max_temp_place": "Mullaithivu"
+  }
 }

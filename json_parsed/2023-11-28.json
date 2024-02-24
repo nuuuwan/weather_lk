@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/f7d7f8675b4b7f56fef9c3b5db1117ea.pdf",
   "date_ut": 1701109800.0,
   "date": "2023-11-28",
-  "min_temp": {
-    "min_temp": 14.4,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.6,
-    "max_temp_place": "Galle"
-  },
-  "max_rain": {
-    "max_rain": 118.0,
-    "max_rain_place": "Nawakiriaru Tank"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -191,6 +180,14 @@
       "lng": 80.5855038
     },
     {
+      "place": "Randenigala",
+      "rain": 37.6,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
+    },
+    {
       "place": "Norton",
       "rain": 19.5,
       "min_temp": null,
@@ -293,6 +290,14 @@
       "max_temp": null,
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
+    },
+    {
+      "place": "Kuttapitiya Tea",
+      "rain": 48.3,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.653552299999999,
+      "lng": 80.5605111
     },
     {
       "place": "Kalatuwawa",
@@ -438,5 +443,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 118.0,
+    "max_rain_place": "Nawakiriaru Tank"
+  },
+  "min_temp": {
+    "min_temp": 14.4,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.6,
+    "max_temp_place": "Galle"
+  }
 }

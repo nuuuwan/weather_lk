@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/975704735bab43c04f3176ef36d9681f.pdf",
   "date_ut": 1705861800.0,
   "date": "2024-01-22",
-  "min_temp": {
-    "min_temp": 12.2,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.9,
-    "max_temp_place": "Katunayake"
-  },
-  "max_rain": {
-    "max_rain": 57.2,
-    "max_rain_place": "Moraliya-Oya"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -45,6 +34,14 @@
       "rain": 0.0,
       "lat": 7.7249146,
       "lng": 81.6966911
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 26.8,
+      "max_temp": 33.1,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
     },
     {
       "place": "Galle",
@@ -159,6 +156,14 @@
       "lng": 79.8800832
     },
     {
+      "place": "Rathnapura",
+      "min_temp": 23.3,
+      "max_temp": 33.8,
+      "rain": 0,
+      "lat": 6.7055742,
+      "lng": 80.3847345
+    },
+    {
       "place": "Trincomalee",
       "min_temp": 24.0,
       "max_temp": 30.4,
@@ -197,6 +202,14 @@
       "max_temp": null,
       "lat": 6.8577186,
       "lng": 80.5855038
+    },
+    {
+      "place": "Randenigala",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
     },
     {
       "place": "Norton",
@@ -309,6 +322,14 @@
       "max_temp": null,
       "lat": 7.0255123,
       "lng": 80.229343
+    },
+    {
+      "place": "Gonapitiya Merigold",
+      "rain": 1.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.042666,
+      "lng": 80.8128636
     },
     {
       "place": "Kirindiwela",
@@ -454,5 +475,17 @@
       "lat": 8.2925501,
       "lng": 80.22655449999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 57.2,
+    "max_rain_place": "Moraliya-Oya"
+  },
+  "min_temp": {
+    "min_temp": 12.2,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.9,
+    "max_temp_place": "Katunayake"
+  }
 }

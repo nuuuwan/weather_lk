@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/8596532b5978b422eb3c4bf8a827b85a.pdf",
   "date_ut": 1682274600.0,
   "date": "2023-04-24",
-  "min_temp": {
-    "min_temp": 13.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.8,
-    "max_temp_place": "Jaffna"
-  },
-  "max_rain": {
-    "max_rain": 69.0,
-    "max_rain_place": "Gonapitiya Merigold"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -478,5 +467,17 @@
       "lat": 7.162408999999999,
       "lng": 81.22158999999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 69.0,
+    "max_rain_place": "Gonapitiya Merigold"
+  },
+  "min_temp": {
+    "min_temp": 13.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.8,
+    "max_temp_place": "Jaffna"
+  }
 }

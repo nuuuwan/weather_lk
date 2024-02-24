@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/c793bad0a7d12e41f60774f83de0920f.pdf",
   "date_ut": 1640889000.0,
   "date": "2021-12-31",
-  "min_temp": {
-    "min_temp": 12.8,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.7,
-    "max_temp_place": "Kurunagala"
-  },
-  "max_rain": {
-    "max_rain": 78.3,
-    "max_rain_place": "Padukka Estate"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -55,6 +44,22 @@
       "lng": 79.861243
     },
     {
+      "place": "Galle",
+      "min_temp": 24.1,
+      "max_temp": 32.1,
+      "rain": 0,
+      "lat": 6.032894799999999,
+      "lng": 80.2167912
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 24.4,
+      "max_temp": 32.0,
+      "rain": 0,
+      "lat": 6.1428829,
+      "lng": 81.12123079999999
+    },
+    {
       "place": "Jaffna",
       "min_temp": 23.0,
       "max_temp": 29.2,
@@ -69,6 +74,14 @@
       "rain": 2.9,
       "lat": 6.890645399999999,
       "lng": 81.34544170000001
+    },
+    {
+      "place": "Katugasthota",
+      "min_temp": 20.4,
+      "max_temp": 31.6,
+      "rain": 0,
+      "lat": 7.3251558,
+      "lng": 80.62297869999999
     },
     {
       "place": "Katunayake",
@@ -141,6 +154,14 @@
       "rain": 0.5,
       "lat": 6.8195453,
       "lng": 79.8800832
+    },
+    {
+      "place": "Rathnapura",
+      "min_temp": 22.0,
+      "max_temp": 33.7,
+      "rain": 0,
+      "lat": 6.7055742,
+      "lng": 80.3847345
     },
     {
       "place": "Trincomalee",
@@ -454,5 +475,17 @@
       "lat": 7.3380723,
       "lng": 79.9276651
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 78.3,
+    "max_rain_place": "Padukka Estate"
+  },
+  "min_temp": {
+    "min_temp": 12.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.7,
+    "max_temp_place": "Rathnapura"
+  }
 }

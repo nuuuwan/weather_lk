@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/acff8269db240d523d962431a8e4ecc7.pdf",
   "date_ut": 1692901800.0,
   "date": "2023-08-25",
-  "min_temp": {
-    "min_temp": 11.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 37.6,
-    "max_temp_place": "Trincomalee"
-  },
-  "max_rain": {
-    "max_rain": 12.5,
-    "max_rain_place": "Colombo Fort"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -207,6 +196,14 @@
       "lng": 80.5855038
     },
     {
+      "place": "Randenigala",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
+    },
+    {
       "place": "Norton",
       "rain": 0.0,
       "min_temp": null,
@@ -309,6 +306,14 @@
       "max_temp": null,
       "lat": 6.936070099999999,
       "lng": 79.84504969999999
+    },
+    {
+      "place": "Nochchiyagama",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 8.2925501,
+      "lng": 80.22655449999999
     },
     {
       "place": "Lahugala Tank",
@@ -454,5 +459,17 @@
       "lat": 7.922822999999998,
       "lng": 81.56512699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 12.5,
+    "max_rain_place": "Colombo Fort"
+  },
+  "min_temp": {
+    "min_temp": 11.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 37.6,
+    "max_temp_place": "Trincomalee"
+  }
 }

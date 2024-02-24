@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/10afe74fab0ea1946171d99ca298e3bc.pdf",
   "date_ut": 1674844200.0,
   "date": "2023-01-28",
-  "min_temp": {
-    "min_temp": 16.4,
-    "min_temp_place": "Bandarawela"
-  },
-  "max_temp": {
-    "max_temp": 31.6,
-    "max_temp_place": "Rathmalana"
-  },
-  "max_rain": {
-    "max_rain": 104.4,
-    "max_rain_place": "Batticaloa"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -462,5 +451,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 104.4,
+    "max_rain_place": "Batticaloa"
+  },
+  "min_temp": {
+    "min_temp": 16.4,
+    "min_temp_place": "Bandarawela"
+  },
+  "max_temp": {
+    "max_temp": 31.6,
+    "max_temp_place": "Rathmalana"
+  }
 }

@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/609b503d7a33618cecc6694980763cc5.pdf",
   "date_ut": 1681669800.0,
   "date": "2023-04-17",
-  "min_temp": {
-    "min_temp": 16.7,
-    "min_temp_place": "Bandarawela"
-  },
-  "max_temp": {
-    "max_temp": 36.5,
-    "max_temp_place": "Vavuniya"
-  },
-  "max_rain": {
-    "max_rain": 64.0,
-    "max_rain_place": "Lakshapana"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -21,6 +10,14 @@
       "rain": 0.0,
       "lat": 8.311351799999999,
       "lng": 80.4036508
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 18.6,
+      "max_temp": 29.9,
+      "rain": 0,
+      "lat": 6.993400899999999,
+      "lng": 81.0549815
     },
     {
       "place": "Bandarawela",
@@ -95,6 +92,14 @@
       "lng": 79.8853484
     },
     {
+      "place": "Kurunagala",
+      "min_temp": 24.0,
+      "max_temp": 34.0,
+      "rain": 0,
+      "lat": 7.4817695,
+      "lng": 80.3608876
+    },
+    {
       "place": "Maha Illuppallama",
       "min_temp": 23.8,
       "max_temp": 34.9,
@@ -117,6 +122,14 @@
       "rain": 0.0,
       "lat": 7.940338400000001,
       "lng": 81.0187984
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 10.4,
+      "max_temp": 23.2,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
     },
     {
       "place": "Pothuvil",
@@ -454,5 +467,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 64.0,
+    "max_rain_place": "Lakshapana"
+  },
+  "min_temp": {
+    "min_temp": 10.4,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.5,
+    "max_temp_place": "Vavuniya"
+  }
 }

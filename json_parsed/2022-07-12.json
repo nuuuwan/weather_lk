@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/be6b65c5a5c3f62f9706278d5167f006.pdf",
   "date_ut": 1657564200.0,
   "date": "2022-07-12",
-  "min_temp": {
-    "min_temp": 13.9,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.3,
-    "max_temp_place": "Batticaloa"
-  },
-  "max_rain": {
-    "max_rain": 13.0,
-    "max_rain_place": "Castlereigh"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -53,6 +42,38 @@
       "rain": 0.0,
       "lat": 6.9270786,
       "lng": 79.861243
+    },
+    {
+      "place": "Galle",
+      "min_temp": 26.3,
+      "max_temp": 27.9,
+      "rain": 0,
+      "lat": 6.032894799999999,
+      "lng": 80.2167912
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 26.1,
+      "max_temp": 32.5,
+      "rain": 0,
+      "lat": 6.1428829,
+      "lng": 81.12123079999999
+    },
+    {
+      "place": "Jaffna",
+      "min_temp": 27.6,
+      "max_temp": 32.6,
+      "rain": 0,
+      "lat": 9.6614981,
+      "lng": 80.02554649999999
+    },
+    {
+      "place": "Monaragala",
+      "min_temp": 21.2,
+      "max_temp": 31.1,
+      "rain": 0,
+      "lat": 6.890645399999999,
+      "lng": 81.34544170000001
     },
     {
       "place": "Katugasthota",
@@ -446,5 +467,17 @@
       "lat": 9.3802886,
       "lng": 80.3769999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 13.0,
+    "max_rain_place": "Castlereigh"
+  },
+  "min_temp": {
+    "min_temp": 13.9,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.3,
+    "max_temp_place": "Batticaloa"
+  }
 }

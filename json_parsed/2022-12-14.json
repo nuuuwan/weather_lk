@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/8cc4e27cbee8dbb331c4789c1c91a2a6.pdf",
   "date_ut": 1670956200.0,
   "date": "2022-12-14",
-  "min_temp": {
-    "min_temp": 9.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.1,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 43.7,
-    "max_rain_place": "Jaffna Irrigation"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -478,5 +467,17 @@
       "lat": 9.7937885,
       "lng": 80.2209773
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 43.7,
+    "max_rain_place": "Jaffna Irrigation"
+  },
+  "min_temp": {
+    "min_temp": 9.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.1,
+    "max_temp_place": "Rathnapura"
+  }
 }

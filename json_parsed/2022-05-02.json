@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/ea96a87d1c9587cdb90673aac1d14c3e.pdf",
   "date_ut": 1651429800.0,
   "date": "2022-05-02",
-  "min_temp": {
-    "min_temp": 14.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 36.3,
-    "max_temp_place": "Mulatiw"
-  },
-  "max_rain": {
-    "max_rain": 150.0,
-    "max_rain_place": "Hiniduma"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -29,6 +18,14 @@
       "rain": 0.0,
       "lat": 6.993400899999999,
       "lng": 81.0549815
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 16.6,
+      "max_temp": 25.7,
+      "rain": 0,
+      "lat": 6.825877999999999,
+      "lng": 80.9981576
     },
     {
       "place": "Batticaloa",
@@ -85,6 +82,14 @@
       "rain": 0.0,
       "lat": 7.3251558,
       "lng": 80.62297869999999
+    },
+    {
+      "place": "Katunayake",
+      "min_temp": 28.8,
+      "max_temp": 32.7,
+      "rain": 0,
+      "lat": 7.172484899999999,
+      "lng": 79.8853484
     },
     {
       "place": "Kurunagala",
@@ -470,5 +475,17 @@
       "lat": 6.936070099999999,
       "lng": 79.84504969999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 150.0,
+    "max_rain_place": "Hiniduma"
+  },
+  "min_temp": {
+    "min_temp": 14.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 36.3,
+    "max_temp_place": "Mulatiw"
+  }
 }

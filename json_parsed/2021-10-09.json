@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/786614915efe92ff3815fc45c58714bd.pdf",
   "date_ut": 1633717800.0,
   "date": "2021-10-09",
-  "min_temp": {
-    "min_temp": 17.0,
-    "min_temp_place": "Bandarawela"
-  },
-  "max_temp": {
-    "max_temp": 35.0,
-    "max_temp_place": "Pothuvil"
-  },
-  "max_rain": {
-    "max_rain": 40.5,
-    "max_rain_place": "Point Pedro"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -103,6 +92,14 @@
       "lng": 79.8853484
     },
     {
+      "place": "Kurunagala",
+      "min_temp": 24.7,
+      "max_temp": 31.9,
+      "rain": 0,
+      "lat": 7.4817695,
+      "lng": 80.3608876
+    },
+    {
       "place": "Maha Illuppallama",
       "min_temp": 23.9,
       "max_temp": 32.2,
@@ -125,6 +122,14 @@
       "rain": 0.0,
       "lat": 7.940338400000001,
       "lng": 81.0187984
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 14.0,
+      "max_temp": 20.2,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
     },
     {
       "place": "Pothuvil",
@@ -181,6 +186,14 @@
       "rain": 0.0,
       "lat": 6.288780374382144,
       "lng": 81.12460077774537
+    },
+    {
+      "place": "Mullaithivu",
+      "min_temp": 26.7,
+      "max_temp": 33.2,
+      "rain": 0,
+      "lat": 9.2670911,
+      "lng": 80.81424799999999
     },
     {
       "place": "Castlereigh",
@@ -454,5 +467,17 @@
       "lat": 7.142363899999999,
       "lng": 80.1037721
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 40.5,
+    "max_rain_place": "Point Pedro"
+  },
+  "min_temp": {
+    "min_temp": 14.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.0,
+    "max_temp_place": "Pothuvil"
+  }
 }

@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/2009f789f663dc69fe64d722184ae70c.pdf",
   "date_ut": 1660674600.0,
   "date": "2022-08-17",
-  "min_temp": {
-    "min_temp": 13.3,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.8,
-    "max_temp_place": "Vavuniya"
-  },
-  "max_rain": {
-    "max_rain": 55.5,
-    "max_rain_place": "Randenigala"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -29,6 +18,14 @@
       "rain": 7.0,
       "lat": 6.993400899999999,
       "lng": 81.0549815
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 18.3,
+      "max_temp": 25.2,
+      "rain": 0,
+      "lat": 6.825877999999999,
+      "lng": 80.9981576
     },
     {
       "place": "Batticaloa",
@@ -53,6 +50,14 @@
       "rain": 0.0,
       "lat": 6.032894799999999,
       "lng": 80.2167912
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 25.6,
+      "max_temp": 30.4,
+      "rain": 0,
+      "lat": 6.1428829,
+      "lng": 81.12123079999999
     },
     {
       "place": "Jaffna",
@@ -109,6 +114,14 @@
       "rain": 0.0,
       "lat": 8.980974300000002,
       "lng": 79.90441489999999
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 25.0,
+      "max_temp": 35.7,
+      "rain": 0,
+      "lat": 7.940338400000001,
+      "lng": 81.0187984
     },
     {
       "place": "Nuwara Eliya",
@@ -454,5 +467,17 @@
       "lat": 9.7786397,
       "lng": 80.1160651
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 55.5,
+    "max_rain_place": "Randenigala"
+  },
+  "min_temp": {
+    "min_temp": 13.3,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.7,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

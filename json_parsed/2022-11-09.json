@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/1f7edf8ffed92442972a01b68845eaf0.pdf",
   "date_ut": 1667932200.0,
   "date": "2022-11-09",
-  "min_temp": {
-    "min_temp": 14.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 31.8,
-    "max_temp_place": "Puttalam"
-  },
-  "max_rain": {
-    "max_rain": 118.4,
-    "max_rain_place": "Colombo Fort"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -61,6 +50,14 @@
       "rain": 0.9,
       "lat": 6.032894799999999,
       "lng": 80.2167912
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 24.2,
+      "max_temp": 30.1,
+      "rain": 0,
+      "lat": 6.1428829,
+      "lng": 81.12123079999999
     },
     {
       "place": "Jaffna",
@@ -470,5 +467,17 @@
       "lat": 7.2847427,
       "lng": 81.78578850000001
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 118.4,
+    "max_rain_place": "Colombo Fort"
+  },
+  "min_temp": {
+    "min_temp": 14.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 31.8,
+    "max_temp_place": "Puttalam"
+  }
 }

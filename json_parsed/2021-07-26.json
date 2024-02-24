@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/01c67000f7ffe82c1a64660671190496.pdf",
   "date_ut": 1627237800.0,
   "date": "2021-07-26",
-  "min_temp": {
-    "min_temp": 13.3,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.9,
-    "max_temp_place": "Mullaithivu"
-  },
-  "max_rain": {
-    "max_rain": 85.0,
-    "max_rain_place": "Polatagama"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -21,6 +10,14 @@
       "rain": 0.0,
       "lat": 8.311351799999999,
       "lng": 80.4036508
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 20.8,
+      "max_temp": 30.2,
+      "rain": 0,
+      "lat": 6.993400899999999,
+      "lng": 81.0549815
     },
     {
       "place": "Bandarawela",
@@ -117,6 +114,14 @@
       "rain": 0.0,
       "lat": 8.980974300000002,
       "lng": 79.90441489999999
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 27.7,
+      "max_temp": 35.8,
+      "rain": 0,
+      "lat": 7.940338400000001,
+      "lng": 81.0187984
     },
     {
       "place": "Nuwara Eliya",
@@ -470,5 +475,17 @@
       "lat": 6.9403158,
       "lng": 80.74084289999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 85.0,
+    "max_rain_place": "Polatagama"
+  },
+  "min_temp": {
+    "min_temp": 13.3,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.9,
+    "max_temp_place": "Mullaithivu"
+  }
 }

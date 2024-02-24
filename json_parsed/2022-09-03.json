@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/3212cc89e3b1ada8c5ae8194d6599006.pdf",
   "date_ut": 1662143400.0,
   "date": "2022-09-03",
-  "min_temp": {
-    "min_temp": 13.3,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.6,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 20.0,
-    "max_rain_place": "Benthotawatta"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -85,6 +74,14 @@
       "rain": 0.0,
       "lat": 6.890645399999999,
       "lng": 81.34544170000001
+    },
+    {
+      "place": "Katugasthota",
+      "min_temp": 20.8,
+      "max_temp": 28.3,
+      "rain": 0,
+      "lat": 7.3251558,
+      "lng": 80.62297869999999
     },
     {
       "place": "Katunayake",
@@ -165,6 +162,22 @@
       "rain": 0.4,
       "lat": 6.7055742,
       "lng": 80.3847345
+    },
+    {
+      "place": "Trincomalee",
+      "min_temp": 24.0,
+      "max_temp": 32.4,
+      "rain": 0,
+      "lat": 8.5873638,
+      "lng": 81.2152121
+    },
+    {
+      "place": "Vavuniya",
+      "min_temp": 23.3,
+      "max_temp": 31.5,
+      "rain": 0,
+      "lat": 8.7542029,
+      "lng": 80.4982402
     },
     {
       "place": "Mattla",
@@ -462,5 +475,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 20.0,
+    "max_rain_place": "Benthotawatta"
+  },
+  "min_temp": {
+    "min_temp": 13.3,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.6,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

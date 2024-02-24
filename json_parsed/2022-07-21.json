@@ -1,19 +1,16 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/9cb8f22d3bc5bfb102a2a502c95a34a4.pdf",
   "date_ut": 1658341800.0,
   "date": "2022-07-21",
-  "min_temp": {
-    "min_temp": 14.8,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.7,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 51.2,
-    "max_rain_place": "Vavuniya"
-  },
   "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 24.5,
+      "max_temp": 34.3,
+      "rain": 0,
+      "lat": 8.311351799999999,
+      "lng": 80.4036508
+    },
     {
       "place": "Badulla",
       "min_temp": 21.1,
@@ -37,6 +34,14 @@
       "rain": 0.0,
       "lat": 7.7249146,
       "lng": 81.6966911
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 26.4,
+      "max_temp": 30.4,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
     },
     {
       "place": "Galle",
@@ -159,6 +164,14 @@
       "lng": 80.3847345
     },
     {
+      "place": "Trincomalee",
+      "min_temp": 25.0,
+      "max_temp": 33.6,
+      "rain": 0,
+      "lat": 8.5873638,
+      "lng": 81.2152121
+    },
+    {
       "place": "Vavuniya",
       "min_temp": 24.0,
       "max_temp": 35.0,
@@ -173,6 +186,14 @@
       "rain": 0.0,
       "lat": 6.288780374382144,
       "lng": 81.12460077774537
+    },
+    {
+      "place": "Mullativu",
+      "min_temp": 26.7,
+      "max_temp": 35.4,
+      "rain": 0,
+      "lat": 9.2670911,
+      "lng": 80.81424799999999
     },
     {
       "place": "Sw`n Rainfall",
@@ -438,5 +459,17 @@
       "lat": 7.2303052,
       "lng": 80.582033
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 51.2,
+    "max_rain_place": "Vavuniya"
+  },
+  "min_temp": {
+    "min_temp": 14.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.7,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

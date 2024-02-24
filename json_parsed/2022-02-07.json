@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/9fde65d8a26e68541de4f21db6db5c6f.pdf",
   "date_ut": 1644172200.0,
   "date": "2022-02-07",
-  "min_temp": {
-    "min_temp": 12.1,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.9,
-    "max_temp_place": "Katunayake"
-  },
-  "max_rain": {
-    "max_rain": 24.5,
-    "max_rain_place": "Akkaraipattu Irrigation"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -77,6 +66,14 @@
       "rain": 0.0,
       "lat": 9.6614981,
       "lng": 80.02554649999999
+    },
+    {
+      "place": "Monaragala",
+      "min_temp": 23.9,
+      "max_temp": 32.6,
+      "rain": 0,
+      "lat": 6.890645399999999,
+      "lng": 81.34544170000001
     },
     {
       "place": "Katugasthota",
@@ -478,5 +475,17 @@
       "lat": 9.3802886,
       "lng": 80.3769999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 24.5,
+    "max_rain_place": "Akkaraipattu Irrigation"
+  },
+  "min_temp": {
+    "min_temp": 12.1,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.9,
+    "max_temp_place": "Katunayake"
+  }
 }

@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/8b5af784d12239ac92dc81d6e2b06822.pdf",
   "date_ut": 1639593000.0,
   "date": "2021-12-16",
-  "min_temp": {
-    "min_temp": 12.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 30.9,
-    "max_temp_place": "Rathmalana"
-  },
-  "max_rain": {
-    "max_rain": 70.0,
-    "max_rain_place": "Shettikulam"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -45,6 +34,14 @@
       "rain": 43.3,
       "lat": 7.7249146,
       "lng": 81.6966911
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 24.5,
+      "max_temp": 30.6,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
     },
     {
       "place": "Galle",
@@ -167,6 +164,14 @@
       "lng": 80.3847345
     },
     {
+      "place": "Trincomalee",
+      "min_temp": 24.9,
+      "max_temp": 29.6,
+      "rain": 0,
+      "lat": 8.5873638,
+      "lng": 81.2152121
+    },
+    {
       "place": "Vavuniya",
       "min_temp": 23.5,
       "max_temp": 29.9,
@@ -181,6 +186,14 @@
       "rain": 0.2,
       "lat": 6.288780374382144,
       "lng": 81.12460077774537
+    },
+    {
+      "place": "Mullaithivu",
+      "min_temp": 25.9,
+      "max_temp": 30.1,
+      "rain": 0,
+      "lat": 9.2670911,
+      "lng": 80.81424799999999
     },
     {
       "place": "Castlereigh",
@@ -462,5 +475,17 @@
       "lat": 7.734387000000001,
       "lng": 80.7934798
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 70.0,
+    "max_rain_place": "Shettikulam"
+  },
+  "min_temp": {
+    "min_temp": 12.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 30.9,
+    "max_temp_place": "Rathmalana"
+  }
 }

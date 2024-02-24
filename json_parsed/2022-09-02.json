@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/46bf55946316e958030495272c884a7c.pdf",
   "date_ut": 1662057000.0,
   "date": "2022-09-02",
-  "min_temp": {
-    "min_temp": 13.1,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 31.6,
-    "max_temp_place": "Mattla"
-  },
-  "max_rain": {
-    "max_rain": 40.2,
-    "max_rain_place": "Ilubuluwa Estate"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -29,6 +18,14 @@
       "rain": 0.2,
       "lat": 6.993400899999999,
       "lng": 81.0549815
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 17.2,
+      "max_temp": 24.8,
+      "rain": 0,
+      "lat": 6.825877999999999,
+      "lng": 80.9981576
     },
     {
       "place": "Batticaloa",
@@ -71,6 +68,14 @@
       "lng": 80.02554649999999
     },
     {
+      "place": "Monaragala",
+      "min_temp": 21.0,
+      "max_temp": 31.1,
+      "rain": 0,
+      "lat": 6.890645399999999,
+      "lng": 81.34544170000001
+    },
+    {
       "place": "Katugasthota",
       "min_temp": 20.5,
       "max_temp": 26.3,
@@ -111,12 +116,28 @@
       "lng": 79.90441489999999
     },
     {
+      "place": "Polonnaruwa",
+      "min_temp": 24.2,
+      "max_temp": 30.6,
+      "rain": 0,
+      "lat": 7.940338400000001,
+      "lng": 81.0187984
+    },
+    {
       "place": "Nuwara Eliya",
       "min_temp": 13.1,
       "max_temp": 16.1,
       "rain": 6.7,
       "lat": 6.949716599999999,
       "lng": 80.7891068
+    },
+    {
+      "place": "Pothuvil",
+      "min_temp": 24.2,
+      "max_temp": 32.1,
+      "rain": 0,
+      "lat": 6.875270599999999,
+      "lng": 81.8306334
     },
     {
       "place": "Puttalam",
@@ -446,5 +467,17 @@
       "lat": 6.7144073,
       "lng": 79.9890604
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 40.2,
+    "max_rain_place": "Ilubuluwa Estate"
+  },
+  "min_temp": {
+    "min_temp": 13.1,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.1,
+    "max_temp_place": "Pothuvil"
+  }
 }

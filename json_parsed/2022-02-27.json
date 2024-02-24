@@ -1,19 +1,16 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/095b81f98f44600229852d05b5122a7c.pdf",
   "date_ut": 1645900200.0,
   "date": "2022-02-27",
-  "min_temp": {
-    "min_temp": 13.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.6,
-    "max_temp_place": "Kurunagala"
-  },
-  "max_rain": {
-    "max_rain": 76.1,
-    "max_rain_place": "Illukuchchanai"
-  },
   "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 23.8,
+      "max_temp": 31.4,
+      "rain": 0,
+      "lat": 8.311351799999999,
+      "lng": 80.4036508
+    },
     {
       "place": "Badulla",
       "min_temp": 19.2,
@@ -165,6 +162,14 @@
       "rain": 0.3,
       "lat": 6.7055742,
       "lng": 80.3847345
+    },
+    {
+      "place": "Trincomalee",
+      "min_temp": 26.1,
+      "max_temp": 30.2,
+      "rain": 0,
+      "lat": 8.5873638,
+      "lng": 81.2152121
     },
     {
       "place": "Vavuniya",
@@ -462,5 +467,17 @@
       "lat": 7.166710300000001,
       "lng": 80.1233175
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 76.1,
+    "max_rain_place": "Illukuchchanai"
+  },
+  "min_temp": {
+    "min_temp": 13.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.6,
+    "max_temp_place": "Kurunagala"
+  }
 }

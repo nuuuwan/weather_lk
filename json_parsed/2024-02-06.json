@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/2a9f2619da4dfbebc246128812f3f1eb.pdf",
   "date_ut": 1707157800.0,
   "date": "2024-02-06",
-  "min_temp": {
-    "min_temp": 18.6,
-    "min_temp_place": "Badulla"
-  },
-  "max_temp": {
-    "max_temp": 35.2,
-    "max_temp_place": "Katunayake"
-  },
-  "max_rain": {
-    "max_rain": 55.7,
-    "max_rain_place": "Padukka Estate"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -29,6 +18,14 @@
       "rain": 0.1,
       "lat": 6.993400899999999,
       "lng": 81.0549815
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 15.6,
+      "max_temp": 25.2,
+      "rain": 0,
+      "lat": 6.825877999999999,
+      "lng": 80.9981576
     },
     {
       "place": "Batticaloa",
@@ -125,6 +122,14 @@
       "rain": 0.0,
       "lat": 7.940338400000001,
       "lng": 81.0187984
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 7.5,
+      "max_temp": 20.8,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
     },
     {
       "place": "Pothuvil",
@@ -311,6 +316,14 @@
       "lng": 80.119188
     },
     {
+      "place": "Bata Atha",
+      "rain": 20.5,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.109917299999999,
+      "lng": 80.901416
+    },
+    {
       "place": "Hiniduma",
       "rain": 55.0,
       "min_temp": null,
@@ -454,5 +467,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 55.7,
+    "max_rain_place": "Padukka Estate"
+  },
+  "min_temp": {
+    "min_temp": 7.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.2,
+    "max_temp_place": "Katunayake"
+  }
 }

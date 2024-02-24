@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/64cad3c506c2c1ca9775f71584dd5094.pdf",
   "date_ut": 1695148200.0,
   "date": "2023-09-20",
-  "min_temp": {
-    "min_temp": 14.9,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.7,
-    "max_temp_place": "Mullaitivu"
-  },
-  "max_rain": {
-    "max_rain": 171.5,
-    "max_rain_place": "Balapitiya"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -454,5 +443,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 171.5,
+    "max_rain_place": "Balapitiya"
+  },
+  "min_temp": {
+    "min_temp": 14.9,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.7,
+    "max_temp_place": "Mullaitivu"
+  }
 }
