@@ -36,7 +36,7 @@ class ChartPlaceTemperature(ChartPlace, ChartTemperature):
     @staticmethod
     def plot_rolling(x, y_min_temp, y_max_temp):
         y_temp_mid = [(a + b) / 2 for a, b in zip(y_min_temp, y_max_temp)]
-        plt.plot(x, y_temp_mid, color='black')
+        plt.plot(x, y_temp_mid, color='black', linewidth=0.5)
 
     def draw(self):
         x, y_min_temp, y_max_temp = self.get_data()
