@@ -12,11 +12,11 @@ class PDFParserPlaceholder:
     @staticmethod
     def get_placeholder_path(file_id):
         return os.path.join(DIR_REPO_JSON_PLACEHOLDER, f'{file_id}.json')
-    
+
     @cached_property
     def placeholder_path(self):
         file_id = self.pdf_path.split(os.sep)[-1].split('.')[0]
-        return PDFParserPlaceholder.get_placeholder_path(file_id)   
+        return PDFParserPlaceholder.get_placeholder_path(file_id)
 
     @cached_property
     def is_parsed(self):

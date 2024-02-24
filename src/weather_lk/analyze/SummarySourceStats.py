@@ -1,10 +1,13 @@
 import os
 from functools import cached_property
+
 from utils import JSONFile, Log
+
 from weather_lk.meteo_gov_lk.PDFParserGlobal import PDFParserGlobal
 from weather_lk.meteo_gov_lk.PDFParserPlaceholder import PDFParserPlaceholder
 
 log = Log('SummarySourceStats')
+
 
 class SummarySourceStats:
     @staticmethod
@@ -12,26 +15,24 @@ class SummarySourceStats:
         pdf_name = os.path.basename(pdf_path)
         file_id = pdf_name[:32]
         placeholder_path = PDFParserPlaceholder.get_placeholder_path(file_id)
-        
+
         is_parse_attempted = False
         is_parse_successful = False
         date = None
-        if  os.path.exists(placeholder_path):
+        if os.path.exists(placeholder_path):
             is_parse_attempted = True
             placeholder_data = JSONFile(placeholder_path).read()
             data_path = placeholder_data['data_path']
-            
+
             if 'json_parsed' in data_path:
                 is_parse_successful = True
                 date = placeholder_data['date']
-            
 
         return dict(
             is_parse_attempted=is_parse_attempted,
             is_parse_successful=is_parse_successful,
             date=date,
         )
-        
 
     @staticmethod
     def get_source_stats(pdf_paths):
@@ -64,8 +65,11 @@ class SummarySourceStats:
     @cached_property
     def source_to_stats(self):
         source_to_stats = {}
-        for source_id, pdf_paths in PDFParserGlobal.source_to_pdf_paths().items():
-            source_to_stats[source_id] = SummarySourceStats.get_source_stats(pdf_paths)
+        for (
+            source_id,
+            pdf_paths,
+        ) in PDFParserGlobal.source_to_pdf_paths().items():
+            source_to_stats[source_id] = SummarySourceStats.get_source_stats(
+                pdf_paths
+            )
         return source_to_stats
-
-
