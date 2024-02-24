@@ -28,7 +28,7 @@ class SummaryReadMe:
 
     @property
     def lines_temperature(self):
-        lines = ['## Temperature', '']
+        lines = ['# Temperature', '']
         for place in DISPLAY_PLACES:
             label = SummaryWriteDataByPlace.get_place_label(place)
             image_path_temp = (
@@ -36,7 +36,7 @@ class SummaryReadMe:
             )
             lines.extend(
                 [
-                    f'### {place} 🌡️',
+                    f'## {place} 🌡️',
                     '',
                     f'![{place}]({image_path_temp})',
                     '',
@@ -46,7 +46,7 @@ class SummaryReadMe:
 
     @property
     def lines_rainfall(self):
-        lines = ['## Rainfall', '']
+        lines = ['# Rainfall', '']
         for place in DISPLAY_PLACES:
             label = SummaryWriteDataByPlace.get_place_label(place)
             image_path_rain = (
@@ -54,7 +54,7 @@ class SummaryReadMe:
             )
             lines.extend(
                 [
-                    f'### {place} 🌧️',
+                    f'## {place} 🌧️',
                     '',
                     f'![{place}]({image_path_rain})',
                     '',
@@ -65,7 +65,7 @@ class SummaryReadMe:
     @property
     def lines_coverage(self):
         lines = [
-            '## Coverage',
+            '# Coverage',
             '',
         ]
 
@@ -82,6 +82,31 @@ class SummaryReadMe:
         return lines
 
     @property
+    def lines_source_stats(self):
+        source_to_stats = self.source_to_stats
+        lines = ['# Source Statistics', '']
+        DELIM_COLUMN = ' | '
+        keys = [
+            'source_id',
+            'n',
+            'n_parse_attempted',
+            'n_parse_successful',
+            'min_date',
+            'max_date',
+        ]
+        sep = ['---' for _ in keys]
+
+        def build_row(values):
+            return DELIM_COLUMN + DELIM_COLUMN.join(values) + DELIM_COLUMN
+
+        lines.append(build_row(keys))
+        lines.append(build_row(sep))
+        for source_id, stats in source_to_stats.items():
+            values = [str(stats.get(key, '')) for key in keys]
+            lines.append(build_row([source_id] + values))
+        return lines
+
+    @property
     def lines_header(self):
         return [
             '# Sri Lanka :sri_lanka: Weather (weather_lk)',
@@ -92,13 +117,33 @@ class SummaryReadMe:
             '',
         ]
 
+    def build_sub_readmes(self):
+        links = []
+        for id, lines in [
+            ('temperature_by_city', self.lines_temperature),
+            ('rainfall_by_city', self.lines_rainfall),
+            ('data_coverage', self.lines_coverage),
+            ('source_statistics', self.lines_source_stats),
+        ]:
+            readme_path = os.path.join(DIR_REPO, f'README.{id}.md')
+            File(readme_path).write_lines(lines)
+            log.info(f'Wrote {readme_path}')
+            title = id.replace('_', ' ').title()
+            links.append(f'* [{title}](README.{id}.md)')
+        return links
+
     def build_readme(self):
+        # sub readmes
+        links = self.build_sub_readmes()
+
         lines = (
             self.lines_header
             + self.lines_country
-            + self.lines_temperature
-            + self.lines_rainfall
-            + self.lines_coverage
+            + [
+                '## More Information',
+                '',
+            ]
+            + links
         )
         readme_path = os.path.join(DIR_REPO, 'README.md')
         File(readme_path).write_lines(lines)
