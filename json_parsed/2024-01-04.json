@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/8a27e7c73094ee89a24eb2dfd33433bc.pdf",
   "date_ut": 1704306600.0,
   "date": "2024-01-04",
-  "min_temp": {
-    "min_temp": 11.8,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.4,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 27.4,
-    "max_rain_place": "Mapalana"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -197,6 +186,14 @@
       "rain": 0.0,
       "lat": 6.288780374382144,
       "lng": 81.12460077774537
+    },
+    {
+      "place": "Mullaitivu",
+      "min_temp": 26.5,
+      "max_temp": 29.7,
+      "rain": 0,
+      "lat": 9.2670911,
+      "lng": 80.81424799999999
     },
     {
       "place": "Castlereigh",
@@ -470,5 +467,17 @@
       "lat": 7.9458576,
       "lng": 80.6271415
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 27.4,
+    "max_rain_place": "Mapalana"
+  },
+  "min_temp": {
+    "min_temp": 11.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.4,
+    "max_temp_place": "Rathnapura"
+  }
 }

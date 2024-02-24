@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/d62610255e020bb54f47e07f965d3bc5.pdf",
   "date_ut": 1643567400.0,
   "date": "2022-01-31",
-  "min_temp": {
-    "min_temp": 10.7,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.0,
-    "max_temp_place": "Kurunagala"
-  },
-  "max_rain": {
-    "max_rain": 64.2,
-    "max_rain_place": "Maha"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -85,6 +74,14 @@
       "rain": 5.9,
       "lat": 6.890645399999999,
       "lng": 81.34544170000001
+    },
+    {
+      "place": "Katugasthota",
+      "min_temp": 21.6,
+      "max_temp": 30.8,
+      "rain": 0,
+      "lat": 7.3251558,
+      "lng": 80.62297869999999
     },
     {
       "place": "Katunayake",
@@ -478,5 +475,17 @@
       "lat": 8.1369099,
       "lng": 81.434079
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 64.2,
+    "max_rain_place": "Maha"
+  },
+  "min_temp": {
+    "min_temp": 10.7,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.0,
+    "max_temp_place": "Kurunagala"
+  }
 }

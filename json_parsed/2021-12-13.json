@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/2edd3925cdbeffd636ade37271be8153.pdf",
   "date_ut": 1639333800.0,
   "date": "2021-12-13",
-  "min_temp": {
-    "min_temp": 14.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.4,
-    "max_temp_place": "Katunayake"
-  },
-  "max_rain": {
-    "max_rain": 179.0,
-    "max_rain_place": "Mahadowa"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -101,6 +90,14 @@
       "rain": 0.0,
       "lat": 7.172484899999999,
       "lng": 79.8853484
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 23.2,
+      "max_temp": 32.6,
+      "rain": 0,
+      "lat": 7.4817695,
+      "lng": 80.3608876
     },
     {
       "place": "Maha Illuppallama",
@@ -478,5 +475,17 @@
       "lat": 7.213815599999999,
       "lng": 81.54318719999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 179.0,
+    "max_rain_place": "Mahadowa"
+  },
+  "min_temp": {
+    "min_temp": 14.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.4,
+    "max_temp_place": "Katunayake"
+  }
 }

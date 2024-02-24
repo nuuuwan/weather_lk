@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/02f860f72ae5179c0380bb891042a2e1.pdf",
   "date_ut": 1626978600.0,
   "date": "2021-07-23",
-  "min_temp": {
-    "min_temp": 13.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 35.0,
-    "max_temp_place": "Batticaloa"
-  },
-  "max_rain": {
-    "max_rain": 60.0,
-    "max_rain_place": "Maskeliya"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -149,6 +138,14 @@
       "rain": 0.0,
       "lat": 6.875270599999999,
       "lng": 81.8306334
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 27.4,
+      "max_temp": 31.4,
+      "rain": 0,
+      "lat": 8.0407913,
+      "lng": 79.839386
     },
     {
       "place": "Rathmalana",
@@ -478,5 +475,17 @@
       "lat": 9.6071274,
       "lng": 79.76522109999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 60.0,
+    "max_rain_place": "Maskeliya"
+  },
+  "min_temp": {
+    "min_temp": 13.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.0,
+    "max_temp_place": "Batticaloa"
+  }
 }

@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/10fb913d705aad7059c6163fca145a32.pdf",
   "date_ut": 1646245800.0,
   "date": "2022-03-03",
-  "min_temp": {
-    "min_temp": 12.7,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.8,
-    "max_temp_place": "Colombo"
-  },
-  "max_rain": {
-    "max_rain": 72.5,
-    "max_rain_place": "Inginiyagala"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -61,6 +50,14 @@
       "rain": 3.6,
       "lat": 6.032894799999999,
       "lng": 80.2167912
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 25.7,
+      "max_temp": 31.0,
+      "rain": 0,
+      "lat": 6.1428829,
+      "lng": 81.12123079999999
     },
     {
       "place": "Jaffna",
@@ -149,6 +146,22 @@
       "rain": 0.0,
       "lat": 8.0407913,
       "lng": 79.839386
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 25.6,
+      "max_temp": 33.5,
+      "rain": 0,
+      "lat": 6.8195453,
+      "lng": 79.8800832
+    },
+    {
+      "place": "Rathnapura",
+      "min_temp": 22.6,
+      "max_temp": 30.7,
+      "rain": 0,
+      "lat": 6.7055742,
+      "lng": 80.3847345
     },
     {
       "place": "Trincomalee",
@@ -470,5 +483,17 @@
       "lat": 7.042666,
       "lng": 80.8128636
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 72.5,
+    "max_rain_place": "Inginiyagala"
+  },
+  "min_temp": {
+    "min_temp": 12.7,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.8,
+    "max_temp_place": "Colombo"
+  }
 }

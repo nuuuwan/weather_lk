@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/949876d9410a9607731b2e5fdf4ee59b.pdf",
   "date_ut": 1629829800.0,
   "date": "2021-08-25",
-  "min_temp": {
-    "min_temp": 13.6,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.8,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 35.2,
-    "max_rain_place": "Angoda"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -85,6 +74,14 @@
       "rain": 0.0,
       "lat": 6.890645399999999,
       "lng": 81.34544170000001
+    },
+    {
+      "place": "Katugasthota",
+      "min_temp": 20.4,
+      "max_temp": 29.6,
+      "rain": 0,
+      "lat": 7.3251558,
+      "lng": 80.62297869999999
     },
     {
       "place": "Katunayake",
@@ -173,6 +170,14 @@
       "rain": 12.2,
       "lat": 8.5873638,
       "lng": 81.2152121
+    },
+    {
+      "place": "Vavuniya",
+      "min_temp": 24.0,
+      "max_temp": 31.9,
+      "rain": 0,
+      "lat": 8.7542029,
+      "lng": 80.4982402
     },
     {
       "place": "Mattla",
@@ -470,5 +475,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 35.2,
+    "max_rain_place": "Angoda"
+  },
+  "min_temp": {
+    "min_temp": 13.6,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.8,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

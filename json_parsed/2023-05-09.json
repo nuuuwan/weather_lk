@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/78be33ec58cb5c610bae747a87b6b6be.pdf",
   "date_ut": 1683570600.0,
   "date": "2023-05-09",
-  "min_temp": {
-    "min_temp": 14.1,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.2,
-    "max_temp_place": "Monaragala"
-  },
-  "max_rain": {
-    "max_rain": 90.4,
-    "max_rain_place": "Handapanagala"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -63,6 +52,14 @@
       "lng": 80.2167912
     },
     {
+      "place": "Hambanthota",
+      "min_temp": 26.8,
+      "max_temp": 31.7,
+      "rain": 0,
+      "lat": 6.1428829,
+      "lng": 81.12123079999999
+    },
+    {
       "place": "Jaffna",
       "min_temp": 26.8,
       "max_temp": 31.1,
@@ -85,6 +82,14 @@
       "rain": 23.4,
       "lat": 7.3251558,
       "lng": 80.62297869999999
+    },
+    {
+      "place": "Katunayake",
+      "min_temp": 26.1,
+      "max_temp": 31.5,
+      "rain": 0,
+      "lat": 7.172484899999999,
+      "lng": 79.8853484
     },
     {
       "place": "Kurunagala",
@@ -159,6 +164,14 @@
       "lng": 80.3847345
     },
     {
+      "place": "Trincomalee",
+      "min_temp": 24.7,
+      "max_temp": 29.6,
+      "rain": 0,
+      "lat": 8.5873638,
+      "lng": 81.2152121
+    },
+    {
       "place": "Vavuniya",
       "min_temp": 25.2,
       "max_temp": 31.4,
@@ -173,6 +186,14 @@
       "rain": 26.3,
       "lat": 6.288780374382144,
       "lng": 81.12460077774537
+    },
+    {
+      "place": "Mullaithivu",
+      "min_temp": 25.7,
+      "max_temp": 30.7,
+      "rain": 0,
+      "lat": 9.2670911,
+      "lng": 80.81424799999999
     },
     {
       "place": "Castlereigh",
@@ -446,5 +467,17 @@
       "lat": 7.399152799999999,
       "lng": 80.73345549999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 90.4,
+    "max_rain_place": "Handapanagala"
+  },
+  "min_temp": {
+    "min_temp": 14.1,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.2,
+    "max_temp_place": "Monaragala"
+  }
 }

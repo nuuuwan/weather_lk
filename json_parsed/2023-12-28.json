@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/f2261292fec20aceacf444c364cf3229.pdf",
   "date_ut": 1703701800.0,
   "date": "2023-12-28",
-  "min_temp": {
-    "min_temp": 15.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.0,
-    "max_temp_place": "Rathmalana"
-  },
-  "max_rain": {
-    "max_rain": 148.4,
-    "max_rain_place": "Aralaganwila"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -327,6 +316,14 @@
       "lng": 81.1747498
     },
     {
+      "place": "Hope",
+      "rain": 80.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.873053999999999,
+      "lng": 80.77179699999999
+    },
+    {
       "place": "Bibila",
       "rain": 140.6,
       "min_temp": null,
@@ -470,5 +467,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 148.4,
+    "max_rain_place": "Aralaganwila"
+  },
+  "min_temp": {
+    "min_temp": 15.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.0,
+    "max_temp_place": "Rathmalana"
+  }
 }

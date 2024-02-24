@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/7aa79b250cd93cbcbb5d69a4da94a09c.pdf",
   "date_ut": 1636914600.0,
   "date": "2021-11-15",
-  "min_temp": {
-    "min_temp": 13.2,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.9,
-    "max_temp_place": "Hambanthota"
-  },
-  "max_rain": {
-    "max_rain": 67.5,
-    "max_rain_place": "Hindawa"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -143,6 +132,14 @@
       "lng": 80.7891068
     },
     {
+      "place": "Pothuvil",
+      "min_temp": 24.5,
+      "max_temp": 31.9,
+      "rain": 0,
+      "lat": 6.875270599999999,
+      "lng": 81.8306334
+    },
+    {
       "place": "Puttalam",
       "min_temp": 25.7,
       "max_temp": 30.4,
@@ -181,6 +178,14 @@
       "rain": 5.4,
       "lat": 8.7542029,
       "lng": 80.4982402
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 23.7,
+      "max_temp": 31.2,
+      "rain": 0,
+      "lat": 6.288780374382144,
+      "lng": 81.12460077774537
     },
     {
       "place": "Mullaithivu",
@@ -470,5 +475,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 67.5,
+    "max_rain_place": "Hindawa"
+  },
+  "min_temp": {
+    "min_temp": 13.2,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.9,
+    "max_temp_place": "Hambanthota"
+  }
 }

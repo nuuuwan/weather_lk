@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/725ce71472fd5038f617c4bcbf074274.pdf",
   "date_ut": 1652293800.0,
   "date": "2022-05-12",
-  "min_temp": {
-    "min_temp": 0.0,
-    "min_temp_place": "Katunayake"
-  },
-  "max_temp": {
-    "max_temp": 32.2,
-    "max_temp_place": "Colombo"
-  },
-  "max_rain": {
-    "max_rain": 40.0,
-    "max_rain_place": "Benthotawatta"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -446,5 +435,17 @@
       "lat": 6.309448199999999,
       "lng": 80.324096
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 40.0,
+    "max_rain_place": "Benthotawatta"
+  },
+  "min_temp": {
+    "min_temp": 25.9,
+    "min_temp_place": "Colombo"
+  },
+  "max_temp": {
+    "max_temp": 32.2,
+    "max_temp_place": "Colombo"
+  }
 }

@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/0b8f1f5677e610f8d9f058bd350baabd.pdf",
   "date_ut": 1674671400.0,
   "date": "2023-01-26",
-  "min_temp": {
-    "min_temp": 9.6,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.7,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 65.0,
-    "max_rain_place": "Castlereigh"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -486,5 +475,17 @@
       "lat": 9.7786397,
       "lng": 80.1160651
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 65.0,
+    "max_rain_place": "Castlereigh"
+  },
+  "min_temp": {
+    "min_temp": 9.6,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.7,
+    "max_temp_place": "Rathnapura"
+  }
 }

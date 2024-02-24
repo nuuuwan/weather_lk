@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/cfaa7911aa0fbaa02270f677729fcf86.pdf",
   "date_ut": 1708540200.0,
   "date": "2024-02-22",
-  "min_temp": {
-    "min_temp": 11.4,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 37.0,
-    "max_temp_place": "Kurunagala"
-  },
-  "max_rain": {
-    "max_rain": 8.4,
-    "max_rain_place": "Lakshapana"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -167,6 +156,14 @@
       "lng": 79.8800832
     },
     {
+      "place": "Rathnapura",
+      "min_temp": 23.4,
+      "max_temp": 37.4,
+      "rain": 0,
+      "lat": 6.7055742,
+      "lng": 80.3847345
+    },
+    {
       "place": "Trincomalee",
       "min_temp": 23.6,
       "max_temp": 32.2,
@@ -205,6 +202,14 @@
       "max_temp": null,
       "lat": 6.8577186,
       "lng": 80.5855038
+    },
+    {
+      "place": "Randenigala",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
     },
     {
       "place": "Norton",
@@ -317,6 +322,14 @@
       "max_temp": null,
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
+    },
+    {
+      "place": "Wewessa Estate",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.9619518,
+      "lng": 81.10719519999999
     },
     {
       "place": "Guruluwana",
@@ -462,5 +475,17 @@
       "lat": 7.414383099999999,
       "lng": 81.8306334
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 8.4,
+    "max_rain_place": "Lakshapana"
+  },
+  "min_temp": {
+    "min_temp": 11.4,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 37.4,
+    "max_temp_place": "Rathnapura"
+  }
 }

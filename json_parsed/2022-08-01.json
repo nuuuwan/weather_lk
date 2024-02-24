@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/516e5704aefd75e599d4f756145bae37.pdf",
   "date_ut": 1659292200.0,
   "date": "2022-08-01",
-  "min_temp": {
-    "min_temp": 14.6,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.1,
-    "max_temp_place": "Mullaithivu"
-  },
-  "max_rain": {
-    "max_rain": 168.4,
-    "max_rain_place": "Watawala"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -45,6 +34,14 @@
       "rain": 0.0,
       "lat": 7.7249146,
       "lng": 81.6966911
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 26.9,
+      "max_temp": 30.7,
+      "rain": 0,
+      "lat": 6.9270786,
+      "lng": 79.861243
     },
     {
       "place": "Galle",
@@ -101,6 +98,14 @@
       "rain": 14.3,
       "lat": 7.4817695,
       "lng": 80.3608876
+    },
+    {
+      "place": "Maha Illuppallama",
+      "min_temp": 25.0,
+      "max_temp": 31.9,
+      "rain": 0,
+      "lat": 8.1155443,
+      "lng": 80.47207639999999
     },
     {
       "place": "Mannar",
@@ -462,5 +467,17 @@
       "lat": 6.8982844,
       "lng": 81.70073630000002
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 168.4,
+    "max_rain_place": "Watawala"
+  },
+  "min_temp": {
+    "min_temp": 14.6,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.1,
+    "max_temp_place": "Mullaithivu"
+  }
 }

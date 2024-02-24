@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/9dc518b161121eac6a0dcc662bcad156.pdf",
   "date_ut": 1625855400.0,
   "date": "2021-07-10",
-  "min_temp": {
-    "min_temp": 12.7,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.5,
-    "max_temp_place": "Vavuniya"
-  },
-  "max_rain": {
-    "max_rain": 271.2,
-    "max_rain_place": "Guruluwana"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -125,6 +114,14 @@
       "rain": 0.0,
       "lat": 8.980974300000002,
       "lng": 79.90441489999999
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 25.2,
+      "max_temp": 34.6,
+      "rain": 0,
+      "lat": 7.940338400000001,
+      "lng": 81.0187984
     },
     {
       "place": "Nuwara Eliya",
@@ -470,5 +467,17 @@
       "lat": 7.2303052,
       "lng": 80.582033
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 271.2,
+    "max_rain_place": "Guruluwana"
+  },
+  "min_temp": {
+    "min_temp": 12.7,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.6,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

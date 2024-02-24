@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/e1c832f118fac10fc07a426a146e7934.pdf",
   "date_ut": 1675449000.0,
   "date": "2023-02-04",
-  "min_temp": {
-    "min_temp": 13.8,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 31.2,
-    "max_temp_place": "Puttalam"
-  },
-  "max_rain": {
-    "max_rain": 141.5,
-    "max_rain_place": "Hiniduma"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -486,5 +475,17 @@
       "lat": 6.2791538,
       "lng": 81.2876691
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 141.5,
+    "max_rain_place": "Hiniduma"
+  },
+  "min_temp": {
+    "min_temp": 13.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 31.2,
+    "max_temp_place": "Puttalam"
+  }
 }

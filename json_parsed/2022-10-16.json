@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/6c9d2c891f59d3c5d875b1dbe7f01dfb.pdf",
   "date_ut": 1665858600.0,
   "date": "2022-10-16",
-  "min_temp": {
-    "min_temp": 12.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.6,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 74.1,
-    "max_rain_place": "Kuchchaveli"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -77,6 +66,14 @@
       "rain": 0.1,
       "lat": 9.6614981,
       "lng": 80.02554649999999
+    },
+    {
+      "place": "Monaragala",
+      "min_temp": 21.6,
+      "max_temp": 31.1,
+      "rain": 0,
+      "lat": 6.890645399999999,
+      "lng": 81.34544170000001
     },
     {
       "place": "Katugasthota",
@@ -181,6 +178,14 @@
       "rain": 22.1,
       "lat": 8.7542029,
       "lng": 80.4982402
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 23.2,
+      "max_temp": 30.8,
+      "rain": 0,
+      "lat": 6.288780374382144,
+      "lng": 81.12460077774537
     },
     {
       "place": "Mullaithivu",
@@ -470,5 +475,17 @@
       "lat": 8.3673704,
       "lng": 80.9843446
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 74.1,
+    "max_rain_place": "Kuchchaveli"
+  },
+  "min_temp": {
+    "min_temp": 12.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.6,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

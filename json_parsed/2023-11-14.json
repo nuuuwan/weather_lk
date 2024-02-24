@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/ef118f77944b9c82bc6fe0780a5a0644.pdf",
   "date_ut": 1699900200.0,
   "date": "2023-11-14",
-  "min_temp": {
-    "min_temp": 14.1,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 31.5,
-    "max_temp_place": "Colombo"
-  },
-  "max_rain": {
-    "max_rain": 92.3,
-    "max_rain_place": "Nedunkerni"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -215,6 +204,14 @@
       "lng": 80.5855038
     },
     {
+      "place": "Randenigala",
+      "rain": 1.6,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
+    },
+    {
       "place": "Norton",
       "rain": 7.3,
       "min_temp": null,
@@ -317,6 +314,14 @@
       "max_temp": null,
       "lat": 9.0537187,
       "lng": 80.6604364
+    },
+    {
+      "place": "Kilinochchi Agriculture",
+      "rain": 55.6,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 9.3802886,
+      "lng": 80.3769999
     },
     {
       "place": "Wallipuram",
@@ -462,5 +467,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 92.3,
+    "max_rain_place": "Nedunkerni"
+  },
+  "min_temp": {
+    "min_temp": 14.1,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 31.5,
+    "max_temp_place": "Colombo"
+  }
 }

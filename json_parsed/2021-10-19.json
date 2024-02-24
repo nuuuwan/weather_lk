@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/a0dd73452932d6e88cde432ce34c26c5.pdf",
   "date_ut": 1634581800.0,
   "date": "2021-10-19",
-  "min_temp": {
-    "min_temp": 16.4,
-    "min_temp_place": "Badulla"
-  },
-  "max_temp": {
-    "max_temp": 34.6,
-    "max_temp_place": "Monaragala"
-  },
-  "max_rain": {
-    "max_rain": 7.5,
-    "max_rain_place": "Watawala"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -71,6 +60,14 @@
       "lng": 81.12123079999999
     },
     {
+      "place": "Jaffna",
+      "min_temp": 27.3,
+      "max_temp": 31.8,
+      "rain": 0,
+      "lat": 9.6614981,
+      "lng": 80.02554649999999
+    },
+    {
       "place": "Monaragala",
       "min_temp": 20.7,
       "max_temp": 34.6,
@@ -125,6 +122,14 @@
       "rain": 0.0,
       "lat": 7.940338400000001,
       "lng": 81.0187984
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 11.8,
+      "max_temp": 18.2,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
     },
     {
       "place": "Pothuvil",
@@ -470,5 +475,17 @@
       "lat": 9.3802886,
       "lng": 80.3769999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 7.5,
+    "max_rain_place": "Watawala"
+  },
+  "min_temp": {
+    "min_temp": 11.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.6,
+    "max_temp_place": "Monaragala"
+  }
 }

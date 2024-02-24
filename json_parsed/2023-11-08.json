@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/e57824e9e7c4c5eec49159e309498bd7.pdf",
   "date_ut": 1699381800.0,
   "date": "2023-11-08",
-  "min_temp": {
-    "min_temp": 12.9,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.5,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 105.8,
-    "max_rain_place": "Ambepussa"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -215,6 +204,14 @@
       "lng": 80.5855038
     },
     {
+      "place": "Rainfall Randenigala",
+      "rain": 9.8,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.182267599999999,
+      "lng": 80.9284687
+    },
+    {
       "place": "Norton",
       "rain": 12.0,
       "min_temp": null,
@@ -317,6 +314,14 @@
       "max_temp": null,
       "lat": 7.241776299999999,
       "lng": 80.2112164
+    },
+    {
+      "place": "Atchuvely",
+      "rain": 53.8,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 9.7786397,
+      "lng": 80.1160651
     },
     {
       "place": "Thellippallei",
@@ -446,5 +451,17 @@
       "lat": 7.599531,
       "lng": 80.10185229999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 105.8,
+    "max_rain_place": "Ambepussa"
+  },
+  "min_temp": {
+    "min_temp": 12.9,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.5,
+    "max_temp_place": "Rathnapura"
+  }
 }

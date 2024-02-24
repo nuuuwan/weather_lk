@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/84fe8dc3f98bce822e6a75b4ac5dd3a4.pdf",
   "date_ut": 1669573800.0,
   "date": "2022-11-28",
-  "min_temp": {
-    "min_temp": 12.8,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.5,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 260.0,
-    "max_rain_place": "Handapanagala"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -478,5 +467,17 @@
       "lat": 7.2303052,
       "lng": 80.582033
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 260.0,
+    "max_rain_place": "Handapanagala"
+  },
+  "min_temp": {
+    "min_temp": 12.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.5,
+    "max_temp_place": "Rathnapura"
+  }
 }

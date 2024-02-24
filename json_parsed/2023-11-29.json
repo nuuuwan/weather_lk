@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/742a3e67bcaa5f7a964661b3f75cfe94.pdf",
   "date_ut": 1701196200.0,
   "date": "2023-11-29",
-  "min_temp": {
-    "min_temp": 14.1,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.7,
-    "max_temp_place": "Puttalam"
-  },
-  "max_rain": {
-    "max_rain": 85.6,
-    "max_rain_place": "Bandaragama"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -117,6 +106,14 @@
       "rain": 1.2,
       "lat": 8.1155443,
       "lng": 80.47207639999999
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 25.4,
+      "max_temp": 31.0,
+      "rain": 0,
+      "lat": 8.980974300000002,
+      "lng": 79.90441489999999
     },
     {
       "place": "Polonnaruwa",
@@ -470,5 +467,17 @@
       "lat": 6.521943200000001,
       "lng": 80.11368519999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 85.6,
+    "max_rain_place": "Bandaragama"
+  },
+  "min_temp": {
+    "min_temp": 14.1,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.7,
+    "max_temp_place": "Puttalam"
+  }
 }

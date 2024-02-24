@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/b3c6118452c46493ec25669792c70fd6.pdf",
   "date_ut": 1692297000.0,
   "date": "2023-08-18",
-  "min_temp": {
-    "min_temp": 14.0,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 37.5,
-    "max_temp_place": "Pothuvil"
-  },
-  "max_rain": {
-    "max_rain": 24.0,
-    "max_rain_place": "Galle"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -207,6 +196,14 @@
       "lng": 80.5855038
     },
     {
+      "place": "Randenigala",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
+    },
+    {
       "place": "Norton",
       "rain": 0.0,
       "min_temp": null,
@@ -309,6 +306,14 @@
       "max_temp": null,
       "lat": 6.109917299999999,
       "lng": 80.901416
+    },
+    {
+      "place": "Yakawawa",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.873053999999999,
+      "lng": 80.77179699999999
     },
     {
       "place": "Batuwangala",
@@ -454,5 +459,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 24.0,
+    "max_rain_place": "Galle"
+  },
+  "min_temp": {
+    "min_temp": 14.0,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 37.5,
+    "max_temp_place": "Pothuvil"
+  }
 }

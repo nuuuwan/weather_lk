@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/ba329bd357ba2df3c0f02a77033e2477.pdf",
   "date_ut": 1693074600.0,
   "date": "2023-08-27",
-  "min_temp": {
-    "min_temp": 20.1,
-    "min_temp_place": "Badulla"
-  },
-  "max_temp": {
-    "max_temp": 37.2,
-    "max_temp_place": "Mullaitivu"
-  },
-  "max_rain": {
-    "max_rain": 3.4,
-    "max_rain_place": "Colombo"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -29,6 +18,14 @@
       "rain": 0.0,
       "lat": 6.993400899999999,
       "lng": 81.0549815
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 17.6,
+      "max_temp": 28.1,
+      "rain": 0,
+      "lat": 6.825877999999999,
+      "lng": 80.9981576
     },
     {
       "place": "Batticaloa",
@@ -127,6 +124,14 @@
       "lng": 81.0187984
     },
     {
+      "place": "Nuwara Eliya",
+      "min_temp": 12.4,
+      "max_temp": 22.8,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
+    },
+    {
       "place": "Pothuvil",
       "min_temp": 26.3,
       "max_temp": 32.2,
@@ -197,6 +202,14 @@
       "max_temp": null,
       "lat": 6.8577186,
       "lng": 80.5855038
+    },
+    {
+      "place": "Randenigala",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
     },
     {
       "place": "Norton",
@@ -296,6 +309,14 @@
     },
     {
       "place": "Huruliwawa",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.873053999999999,
+      "lng": 80.77179699999999
+    },
+    {
+      "place": "Thubankenie",
       "rain": 0.0,
       "min_temp": null,
       "max_temp": null,
@@ -446,5 +467,17 @@
       "lat": 7.213815599999999,
       "lng": 81.54318719999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 3.4,
+    "max_rain_place": "Colombo"
+  },
+  "min_temp": {
+    "min_temp": 12.4,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 37.2,
+    "max_temp_place": "Mullaitivu"
+  }
 }

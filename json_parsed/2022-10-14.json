@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/eece72e49d981bfe45ca74d0e2ba9065.pdf",
   "date_ut": 1665685800.0,
   "date": "2022-10-14",
-  "min_temp": {
-    "min_temp": 14.1,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.0,
-    "max_temp_place": "Anuradhapura"
-  },
-  "max_rain": {
-    "max_rain": 264.0,
-    "max_rain_place": "Mathugama"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -486,5 +475,17 @@
       "lat": 7.2100496,
       "lng": 81.01361059999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 264.0,
+    "max_rain_place": "Mathugama"
+  },
+  "min_temp": {
+    "min_temp": 14.1,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.0,
+    "max_temp_place": "Anuradhapura"
+  }
 }

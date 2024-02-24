@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/11f8066318dae998c69464e8fe3b2434.pdf",
   "date_ut": 1665772200.0,
   "date": "2022-10-15",
-  "min_temp": {
-    "min_temp": 14.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.9,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 187.0,
-    "max_rain_place": "Elston"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -486,5 +475,17 @@
       "lat": 6.3424847,
       "lng": 80.5596582
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 187.0,
+    "max_rain_place": "Elston"
+  },
+  "min_temp": {
+    "min_temp": 14.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.9,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

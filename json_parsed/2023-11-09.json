@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/966fb0a1551a92fb1ca2d2a43c068287.pdf",
   "date_ut": 1699468200.0,
   "date": "2023-11-09",
-  "min_temp": {
-    "min_temp": 12.5,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 33.9,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 107.2,
-    "max_rain_place": "Kuliyapitiya"
-  },
   "weather_list": [
     {
       "place": "Badulla",
@@ -470,5 +459,17 @@
       "lat": 7.940338400000001,
       "lng": 81.0187984
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 107.2,
+    "max_rain_place": "Kuliyapitiya"
+  },
+  "min_temp": {
+    "min_temp": 12.5,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 33.9,
+    "max_temp_place": "Rathnapura"
+  }
 }

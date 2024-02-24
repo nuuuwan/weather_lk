@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/2812228ff47090cbe95532e0a218efab.pdf",
   "date_ut": 1701455400.0,
   "date": "2023-12-02",
-  "min_temp": {
-    "min_temp": 14.6,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 31.0,
-    "max_temp_place": "Rathmalana"
-  },
-  "max_rain": {
-    "max_rain": 98.4,
-    "max_rain_place": "Kalavedi Ulpotha"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -207,6 +196,14 @@
       "lng": 80.77179699999999
     },
     {
+      "place": "Castlereigh",
+      "rain": 8.5,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.8577186,
+      "lng": 80.5855038
+    },
+    {
       "place": "Norton",
       "rain": 17.2,
       "min_temp": null,
@@ -305,6 +302,14 @@
     {
       "place": "Sw`n Rainfall",
       "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.873053999999999,
+      "lng": 80.77179699999999
+    },
+    {
+      "place": "Almapil",
+      "rain": 104.7,
       "min_temp": null,
       "max_temp": null,
       "lat": 7.873053999999999,
@@ -454,5 +459,17 @@
       "lat": 7.0255123,
       "lng": 80.229343
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 104.7,
+    "max_rain_place": "Almapil"
+  },
+  "min_temp": {
+    "min_temp": 14.6,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 31.0,
+    "max_temp_place": "Rathmalana"
+  }
 }

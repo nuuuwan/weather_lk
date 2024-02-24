@@ -1,19 +1,32 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/4687997f17e175ed6bef39d569a138c8.pdf",
   "date_ut": 1624818600.0,
   "date": "2021-06-28",
-  "min_temp": {
-    "min_temp": 21.9,
-    "min_temp_place": "Katugasthota"
-  },
-  "max_temp": {
-    "max_temp": 34.0,
-    "max_temp_place": "Monaragala"
-  },
-  "max_rain": {
-    "max_rain": 54.5,
-    "max_rain_place": "Nedunkerni"
-  },
   "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 25.3,
+      "max_temp": 32.6,
+      "rain": 0,
+      "lat": 8.311351799999999,
+      "lng": 80.4036508
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 18.2,
+      "max_temp": 29.5,
+      "rain": 0,
+      "lat": 6.993400899999999,
+      "lng": 81.0549815
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 17.6,
+      "max_temp": 25.8,
+      "rain": 0,
+      "lat": 6.825877999999999,
+      "lng": 80.9981576
+    },
     {
       "place": "Batticaloa",
       "min_temp": 25.2,
@@ -79,12 +92,44 @@
       "lng": 79.8853484
     },
     {
+      "place": "Kurunagala",
+      "min_temp": 25.0,
+      "max_temp": 32.7,
+      "rain": 0,
+      "lat": 7.4817695,
+      "lng": 80.3608876
+    },
+    {
       "place": "Maha Illuppallama",
       "min_temp": 25.5,
       "max_temp": 31.9,
       "rain": 0.0,
       "lat": 8.1155443,
       "lng": 80.47207639999999
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 28.1,
+      "max_temp": 31.3,
+      "rain": 0,
+      "lat": 8.980974300000002,
+      "lng": 79.90441489999999
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 24.5,
+      "max_temp": 35.4,
+      "rain": 0,
+      "lat": 7.940338400000001,
+      "lng": 81.0187984
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 13.1,
+      "max_temp": 17.9,
+      "rain": 0,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
     },
     {
       "place": "Pothuvil",
@@ -422,5 +467,17 @@
       "lat": 6.595885,
       "lng": 80.45776699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 54.5,
+    "max_rain_place": "Nedunkerni"
+  },
+  "min_temp": {
+    "min_temp": 13.1,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.4,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

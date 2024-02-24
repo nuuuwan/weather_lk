@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/2873a93071954cabc823e28cb7cc679d.pdf",
   "date_ut": 1662316200.0,
   "date": "2022-09-05",
-  "min_temp": {
-    "min_temp": 15.4,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 34.0,
-    "max_temp_place": "Polonnaruwa"
-  },
-  "max_rain": {
-    "max_rain": 128.9,
-    "max_rain_place": "Kirindiwela"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -119,6 +108,14 @@
       "lng": 80.47207639999999
     },
     {
+      "place": "Mannar",
+      "min_temp": 27.0,
+      "max_temp": 29.9,
+      "rain": 0,
+      "lat": 8.980974300000002,
+      "lng": 79.90441489999999
+    },
+    {
       "place": "Polonnaruwa",
       "min_temp": 24.1,
       "max_temp": 34.0,
@@ -189,6 +186,14 @@
       "rain": 0.0,
       "lat": 6.288780374382144,
       "lng": 81.12460077774537
+    },
+    {
+      "place": "Mullaithivu",
+      "min_temp": 25.2,
+      "max_temp": 33.8,
+      "rain": 0,
+      "lat": 9.2670911,
+      "lng": 80.81424799999999
     },
     {
       "place": "Castlereigh",
@@ -470,5 +475,17 @@
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 128.9,
+    "max_rain_place": "Kirindiwela"
+  },
+  "min_temp": {
+    "min_temp": 15.4,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 34.0,
+    "max_temp_place": "Polonnaruwa"
+  }
 }

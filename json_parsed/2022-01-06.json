@@ -1,18 +1,7 @@
 {
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/8d962f07441044dbc062c8e0c435e885.pdf",
   "date_ut": 1641407400.0,
   "date": "2022-01-06",
-  "min_temp": {
-    "min_temp": 11.2,
-    "min_temp_place": "Nuwara Eliya"
-  },
-  "max_temp": {
-    "max_temp": 32.2,
-    "max_temp_place": "Rathnapura"
-  },
-  "max_rain": {
-    "max_rain": 108.4,
-    "max_rain_place": "Guruluwana"
-  },
   "weather_list": [
     {
       "place": "Anuradhapura",
@@ -55,6 +44,14 @@
       "lng": 79.861243
     },
     {
+      "place": "Galle",
+      "min_temp": 24.3,
+      "max_temp": 29.4,
+      "rain": 0,
+      "lat": 6.032894799999999,
+      "lng": 80.2167912
+    },
+    {
       "place": "Hambanthota",
       "min_temp": 23.8,
       "max_temp": 30.6,
@@ -71,6 +68,14 @@
       "lng": 80.02554649999999
     },
     {
+      "place": "Monaragala",
+      "min_temp": 23.7,
+      "max_temp": 31.5,
+      "rain": 0,
+      "lat": 6.890645399999999,
+      "lng": 81.34544170000001
+    },
+    {
       "place": "Katugasthota",
       "min_temp": 21.4,
       "max_temp": 28.6,
@@ -85,6 +90,14 @@
       "rain": 0.3,
       "lat": 7.172484899999999,
       "lng": 79.8853484
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 23.6,
+      "max_temp": 31.4,
+      "rain": 0,
+      "lat": 7.4817695,
+      "lng": 80.3608876
     },
     {
       "place": "Maha Illuppallama",
@@ -462,5 +475,17 @@
       "lat": 7.3096237,
       "lng": 80.7103532
     }
-  ]
+  ],
+  "max_rain": {
+    "max_rain": 108.4,
+    "max_rain_place": "Guruluwana"
+  },
+  "min_temp": {
+    "min_temp": 11.2,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 32.2,
+    "max_temp_place": "Rathnapura"
+  }
 }
