@@ -3,7 +3,7 @@ name: build_summaries
 on:
   workflow_dispatch:
   schedule:
-    - cron:  "40 */4 * * *"
+    - cron:  "40 * * * *"
 
 jobs:
   build_summaries:
