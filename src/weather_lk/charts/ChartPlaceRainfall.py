@@ -1,4 +1,5 @@
 from datetime import datetime
+
 from matplotlib import pyplot as plt
 from utils import Log
 
@@ -25,16 +26,22 @@ class ChartPlaceRainfall(ChartPlace, ChartRainfall):
         x, y_rain = zip(*[z for z in zip(x, y_rain) if (z[1] is not None)])
 
         return x, y_rain
-    
+
     @staticmethod
     def plot_rolling(x, y_rain):
         window = Chart.ROLLING_WINDOW
         y_rain_rolling = [
-            sum(y_rain[i - window : i]) / window
+            sum(y_rain[i - window: i]) / window
             for i in range(window, len(y_rain))
-        ] 
+        ]
         x_rolling = x[window:]
-        plt.plot(x_rolling, y_rain_rolling, color='black', linewidth=0.5, label=f"{window}-day rolling average")
+        plt.plot(
+            x_rolling,
+            y_rain_rolling,
+            color='black',
+            linewidth=0.5,
+            label=f"{window}-day rolling average",
+        )
         plt.legend()
 
     def draw(self):

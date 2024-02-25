@@ -2,29 +2,14 @@ import os
 
 from utils import File, Log
 
+from utils_future import Markdown
+from weather_lk.analyze.SummaryMonthTrend import SummaryMonthTrend
 from weather_lk.analyze.SummaryWriteDataByPlace import SummaryWriteDataByPlace
 from weather_lk.constants import (CHART_WINDOWS, COVERAGE_WINDOW_LIST,
                                   DIR_REPO, DISPLAY_PLACES, TEST_MODE,
                                   URL_REMOTE_DATA)
 
 log = Log('SummaryReadMe')
-
-DELIM_COLUMN = ' | '
-
-
-def build_row(values):
-    return DELIM_COLUMN + DELIM_COLUMN.join(values) + DELIM_COLUMN
-
-
-def build_table(keys, values_list):
-    sep = [(' ---- ' if 'id' in key else ' ---: ') for key in keys]
-    lines = [
-        build_row(keys),
-        build_row(sep),
-    ]
-    for values in values_list:
-        lines.append(build_row(values))
-    return lines
 
 
 class SummaryReadMe:
@@ -124,7 +109,7 @@ class SummaryReadMe:
                 str(stats.get(key, '')) for key in keys
             ]
             values_list.append(values)
-        return ['# Source Statistics', ''] + build_table(
+        return ['# Source Statistics', ''] + Markdown.build_table(
             [
                 'source_id',
             ]
@@ -142,7 +127,7 @@ class SummaryReadMe:
                 str(stats['year_to_n'].get(year, 0)) for year in keys
             ]
             values_list.append(values)
-        return ['', '## By Year', ''] + build_table(
+        return ['', '## By Year', ''] + Markdown.build_table(
             [
                 'source_id',
             ]
@@ -160,6 +145,15 @@ class SummaryReadMe:
             + 'Sri Lanka',
             '',
         ]
+
+    @property
+    def lines_month_trend(self):
+        lines = ['# Trends by Month', '']
+        for place in DISPLAY_PLACES:
+            s = SummaryMonthTrend(place)
+
+            lines.extend(s.md_table)
+        return lines
 
     def build_sub_readmes(self):
         links = []
@@ -193,6 +187,7 @@ class SummaryReadMe:
                     self.lines_source_stats
                     + self.lines_source_stats_year_to_n,
                 ),
+                ('trend_by_month', self.lines_month_trend),
             ]
         ):
             readme_path = os.path.join(DIR_REPO, f'README.{id}.md')
