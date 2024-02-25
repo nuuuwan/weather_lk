@@ -1,4 +1,9 @@
 from weather_lk import PDFParser
 
-if __name__ == "__main__":
+def main():
     PDFParser.parse_all()
+
+
+if __name__ == "__main__":
+    main()
+    

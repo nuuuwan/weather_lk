@@ -1,10 +1,6 @@
 from functools import cached_property
 
-import matplotlib.colors as colors
-
 from utils_future.Markdown import Markdown
-from weather_lk.charts.ChartRainfall import ChartRainfall
-from weather_lk.charts.ChartTemperature import ChartTemperature
 from weather_lk.core.Data import Data
 
 MONTH_NAMES = {
@@ -20,10 +16,12 @@ MONTH_NAMES = {
     '10': 'Oct',
     '11': 'Nov',
     '12': 'Dec',
+    '--': '(All)',
 }
 
 
 class SummaryMonthTrend:
+    ALL = '--'
     def __init__(self, place):
         self.place = place
 
@@ -41,6 +39,7 @@ class SummaryMonthTrend:
             if month not in idx:
                 idx[month] = []
             idx[month].append(d)
+   
 
         return {
             month: data
@@ -70,6 +69,7 @@ class SummaryMonthTrend:
 
         avg_rain = sum(rain_list) / n
         p_days_rain = len([d for d in rain_list if d > 0]) / n
+        p_days_rain_25mm = len([d for d in rain_list if d > 25]) / n
 
         return dict(
             n=n,
@@ -80,30 +80,53 @@ class SummaryMonthTrend:
             min_temp=min_temp,
             avg_rain=avg_rain,
             p_days_rain=p_days_rain,
+            p_days_rain_25mm=p_days_rain_25mm,
+        )
+    
+    @staticmethod
+    def get_all_stats(month_to_stats):
+        stats = list(month_to_stats.values())
+        n = sum([s['n'] for s in stats])
+        max_temp = max([s['max_temp'] for s in stats])
+        min_temp = min([s['min_temp'] for s in stats])
+        
+        avg_max_temp = sum([s['avg_max_temp']for s in stats]) / 12
+        avg_mid_temp = sum([s['avg_mid_temp']for s in stats]) / 12
+        avg_min_temp = sum([s['avg_min_temp']for s in stats]) / 12
+        avg_rain = sum([s['avg_rain']for s in stats]) / 12
+        p_days_rain = sum([s['p_days_rain']for s in stats]) / 12
+        p_days_rain_25mm = sum([s['p_days_rain_25mm']for s in stats]) / 12
+        
+        return dict(
+            n=n,
+            max_temp=max_temp,
+            avg_max_temp=avg_max_temp,
+            avg_mid_temp=avg_mid_temp,
+            avg_min_temp=avg_min_temp,
+            min_temp=min_temp,
+            avg_rain=avg_rain,
+            p_days_rain=p_days_rain,
+            p_days_rain_25mm=p_days_rain_25mm,
         )
 
     @cached_property
     def month_to_stats(self):
-        return {
+        idx = {
             month: self.get_month_stats(data)
             for month, data in self.month_to_data.items()
         }
+        idx[self.ALL] = SummaryMonthTrend.get_all_stats(idx)
+        return idx
 
     @staticmethod
     def format_stat(stat, stat_key):
         if 'temp' in stat_key:
-            (r, g, b) = ChartTemperature.get_color(stat)
-            hex_color = colors.rgb2hex((r, g, b))
-            return f'$$\\color{{{hex_color}}}{stat:.1f}$$'
-        if 'rain' in stat_key:
-            (r, g, b,__) = ChartRainfall.get_color(stat)
-            hex_color = colors.rgb2hex((r, g, b))
-            return f'$$\\color{{{hex_color}}}{stat:.1%}$$'
+            return f'{stat:.1f}'
         if 'p_' in stat_key:
-            (r, g, b) = ChartTemperature.get_color(stat * 30 + 5)
-            hex_color = colors.rgb2hex((r, g, b))
-            return f'$$\\color{{{hex_color}}}{stat:.1%}$$'
-
+            return f'{stat:.1%}'
+        if 'rain' in stat_key:
+            return f'{stat:.1f}'
+        
         if stat_key == 'n':
             return f'{stat:,}'
         return f'{stat:.1f}'
@@ -119,6 +142,7 @@ class SummaryMonthTrend:
             'min_temp': 'Record Low (°C)',
             'avg_rain': 'Avg Rain (mm)',
             'p_days_rain': '% Days Rain',
+            'p_days_rain_25mm': '% Days Rain > 25mm',
         }.get(stat_key, stat_key)
 
     @cached_property
