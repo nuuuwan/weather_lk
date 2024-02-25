@@ -18,3 +18,4 @@ Rainfall and Temperature data, extracted from the [Department of Meteorology](ht
 * [Rainfall By City (Last 91 Days)](README.rainfall_by_city_(last_91_days).md)
 * [Data Coverage](README.data_coverage.md)
 * [Source Statistics](README.source_statistics.md)
+* [Trend By Month](README.trend_by_month.md)
