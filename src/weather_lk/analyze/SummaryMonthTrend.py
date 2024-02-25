@@ -22,6 +22,7 @@ MONTH_NAMES = {
 
 class SummaryMonthTrend:
     ALL = '--'
+
     def __init__(self, place):
         self.place = place
 
@@ -39,7 +40,6 @@ class SummaryMonthTrend:
             if month not in idx:
                 idx[month] = []
             idx[month].append(d)
-   
 
         return {
             month: data
@@ -82,21 +82,21 @@ class SummaryMonthTrend:
             p_days_rain=p_days_rain,
             p_days_rain_25mm=p_days_rain_25mm,
         )
-    
+
     @staticmethod
     def get_all_stats(month_to_stats):
         stats = list(month_to_stats.values())
         n = sum([s['n'] for s in stats])
         max_temp = max([s['max_temp'] for s in stats])
         min_temp = min([s['min_temp'] for s in stats])
-        
-        avg_max_temp = sum([s['avg_max_temp']for s in stats]) / 12
-        avg_mid_temp = sum([s['avg_mid_temp']for s in stats]) / 12
-        avg_min_temp = sum([s['avg_min_temp']for s in stats]) / 12
-        avg_rain = sum([s['avg_rain']for s in stats]) / 12
-        p_days_rain = sum([s['p_days_rain']for s in stats]) / 12
-        p_days_rain_25mm = sum([s['p_days_rain_25mm']for s in stats]) / 12
-        
+
+        avg_max_temp = sum([s['avg_max_temp'] for s in stats]) / 12
+        avg_mid_temp = sum([s['avg_mid_temp'] for s in stats]) / 12
+        avg_min_temp = sum([s['avg_min_temp'] for s in stats]) / 12
+        avg_rain = sum([s['avg_rain'] for s in stats]) / 12
+        p_days_rain = sum([s['p_days_rain'] for s in stats]) / 12
+        p_days_rain_25mm = sum([s['p_days_rain_25mm'] for s in stats]) / 12
+
         return dict(
             n=n,
             max_temp=max_temp,
@@ -126,7 +126,7 @@ class SummaryMonthTrend:
             return f'{stat:.1%}'
         if 'rain' in stat_key:
             return f'{stat:.1f}'
-        
+
         if stat_key == 'n':
             return f'{stat:,}'
         return f'{stat:.1f}'
