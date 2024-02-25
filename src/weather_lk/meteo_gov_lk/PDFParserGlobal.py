@@ -107,7 +107,6 @@ class PDFParserGlobal:
             else:
                 n_fail += 1
             dt = time.time() - t_start
-            log.debug(f'{dt=:.3f}s')
             if dt > cls.MAX_RUNNING_TIME:
                 log.info(f'Stopping ({cls.MAX_RUNNING_TIME}s < {dt:.3f}s).')
                 break
