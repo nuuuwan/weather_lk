@@ -3,10 +3,13 @@ import time
 
 from utils import JSONFile, Log
 
-from weather_lk.constants import (DIR_REPO_JSON_PLACEHOLDER,
-                                  DIR_REPO_PDF_ARCHIVE_ORG,
-                                  DIR_REPO_PDF_GOOGLE_SEARCH,
-                                  DIR_REPO_PDF_METEO_GOV_LK, TEST_MODE)
+from weather_lk.constants import (
+    DIR_REPO_JSON_PLACEHOLDER,
+    DIR_REPO_PDF_ARCHIVE_ORG,
+    DIR_REPO_PDF_GOOGLE_SEARCH,
+    DIR_REPO_PDF_METEO_GOV_LK,
+    TEST_MODE,
+)
 from weather_lk.core.Data import Data
 
 log = Log('PDFParserGlobal')

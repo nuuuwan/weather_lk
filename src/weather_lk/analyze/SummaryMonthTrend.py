@@ -1,6 +1,10 @@
 from functools import cached_property
 
+import matplotlib.colors as colors
+
 from utils_future.Markdown import Markdown
+from weather_lk.charts.ChartRainfall import ChartRainfall
+from weather_lk.charts.ChartTemperature import ChartTemperature
 from weather_lk.core.Data import Data
 
 MONTH_NAMES = {
@@ -88,9 +92,18 @@ class SummaryMonthTrend:
     @staticmethod
     def format_stat(stat, stat_key):
         if 'temp' in stat_key:
-            return f'{stat:.1f}'
+            (r, g, b) = ChartTemperature.get_color(stat)
+            hex_color = colors.rgb2hex((r, g, b))
+            return f'$$\\color{{{hex_color}}}{stat:.1f}$$'
+        if 'rain' in stat_key:
+            (r, g, b,__) = ChartRainfall.get_color(stat)
+            hex_color = colors.rgb2hex((r, g, b))
+            return f'$$\\color{{{hex_color}}}{stat:.1%}$$'
         if 'p_' in stat_key:
-            return f'{stat:.1%}'
+            (r, g, b) = ChartTemperature.get_color(stat * 30 + 5)
+            hex_color = colors.rgb2hex((r, g, b))
+            return f'$$\\color{{{hex_color}}}{stat:.1%}$$'
+
         if stat_key == 'n':
             return f'{stat:,}'
         return f'{stat:.1f}'
