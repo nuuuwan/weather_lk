@@ -5,296 +5,296 @@
 | Stat | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
 |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |
 | Sample Size (Days) | 66 | 72 | 28 | 43 | 42 | 19 | 45 | 60 | 67 | 58 | 84 | 76 |
-| Record High (°C) | $$\color{#ff8580}34.7$$ | $$\color{#ff8080}35.5$$ | $$\color{#ff8080}35.7$$ | $$\color{#ff9b80}33.4$$ | $$\color{#ffa380}32.9$$ | $$\color{#ffb680}31.8$$ | $$\color{#ffac80}32.4$$ | $$\color{#ffaa80}  $$32.5 | $$\color{#ffb880}31.7$$ | $$\color{#ffaf80}32.2$$ | $$\color{#ff9980}33.5$$ | $$\color{#ff8d80}34.2$$ |
-| Mean daily maximum (°C) | $$\color{#ffb780}31.7$$ | $$\color{#ffb480}31.9$$ | $$\color{#ffaa80}32.5$$ | $$\color{#ffb080}32.1$$ | $$\color{#ffbd80}31.4$$ | $$\color{#ffc980}30.7$$ | $$\color{#ffcc80}30.5$$ | $$\color{#ffcc80}30.5$$ | $$\color{#ffd080}30.3$$ | $$\color{#ffd480}30.1$$ | $$\color{#ffcb80}30.6$$ | $$\color{#ffbe80}31.3$$ |
-| Daily Mean (°C) | $$\color{#fff980}27.8$$ | $$\color{#fff480}28.2$$ | $$\color{#ffe380}29.2$$ | $$\color{#ffea80}28.7$$ | $$\color{#ffeb80}28.7$$ | $$\color{#ffee80}28.5$$ | $$\color{#ffef80}28.4$$ | $$\color{#fff280}28.2$$ | $$\color{#fff880}27.9$$ | $$\color{#ffff80}27.5$$ | $$\color{#feff80}27.4$$ | $$\color{#fffb80}27.7$$ |
-| Mean daily minimum (°C) | $$\color{#c2ff80}23.9$$ | $$\color{#cbff80}24.4$$ | $$\color{#e3ff80}25.8$$ | $$\color{#dbff80}25.4$$ | $$\color{#e5ff80}26.0$$ | $$\color{#ecff80}26.4$$ | $$\color{#ebff80}26.3$$ | $$\color{#e6ff80}26.0$$ | $$\color{#deff80}25.5$$ | $$\color{#d3ff80}24.9$$ | $$\color{#c8ff80}24.3$$ | $$\color{#c6ff80}24.2$$ |
-| Record Low (°C) | $$\color{#80ff83}19.8$$ | $$\color{#aaff80}22.5$$ | $$\color{#b6ff80}23.2$$ | $$\color{#b1ff80}22.9$$ | $$\color{#acff80}22.6$$ | $$\color{#c5ff80}24.1$$ | $$\color{#b6ff80}23.2$$ | $$\color{#beff80}23.7$$ | $$\color{#b6ff80}23.2$$ | $$\color{#adff80}22.7$$ | $$\color{#a5ff80}22.2$$ | $$\color{#86ff80}20.4$$ |
-| Avg Rain (mm) | $$\color{#00ff0e}568.2%$$ | $$\color{#00ff06}221.0%$$ | $$\color{#00ff07}269.6%$$ | $$\color{#00ff22}1331.4%$$ | $$\color{#00ff21}1306.9%$$ | $$\color{#00ff0e}567.9%$$ | $$\color{#00ff0c}464.9%$$ | $$\color{#00ff0d}504.8%$$ | $$\color{#00ff1f}1210.9%$$ | $$\color{#00ff28}1560.0%$$ | $$\color{#00ff29}1626.2%$$ | $$\color{#00ff16}860.8%$$ |
-| % Days Rain | $$\color{#00ff01}33.3%$$ | $$\color{#00ff01}27.8%$$ | $$\color{#00ff01}25.0%$$ | $$\color{#00ff02}65.1%$$ | $$\color{#00ff02}97.6%$$ | $$\color{#00ff02}84.2%$$ | $$\color{#00ff01}44.4%$$ | $$\color{#00ff01}56.7%$$ | $$\color{#00ff02}82.1%$$ | $$\color{#00ff02}84.5%$$ | $$\color{#00ff02}77.4%$$ | $$\color{#00ff01}57.9%$$ |
+| Record High (°C) | 34.7 | 35.5 | 35.7 | 33.4 | 32.9 | 31.8 | 32.4 | 32.5 | 31.7 | 32.2 | 33.5 | 34.2 |
+| Mean daily maximum (°C) | 31.7 | 31.9 | 32.5 | 32.1 | 31.4 | 30.7 | 30.5 | 30.5 | 30.3 | 30.1 | 30.6 | 31.3 |
+| Daily Mean (°C) | 27.8 | 28.2 | 29.2 | 28.7 | 28.7 | 28.5 | 28.4 | 28.2 | 27.9 | 27.5 | 27.4 | 27.7 |
+| Mean daily minimum (°C) | 23.9 | 24.4 | 25.8 | 25.4 | 26.0 | 26.4 | 26.3 | 26.0 | 25.5 | 24.9 | 24.3 | 24.2 |
+| Record Low (°C) | 19.8 | 22.5 | 23.2 | 22.9 | 22.6 | 24.1 | 23.2 | 23.7 | 23.2 | 22.7 | 22.2 | 20.4 |
+| Avg Rain (mm) | 5.7 | 2.2 | 2.7 | 13.3 | 13.1 | 5.7 | 4.6 | 5.0 | 12.1 | 15.6 | 16.3 | 8.6 |
+| % Days Rain | 0.3 | 0.3 | 0.2 | 0.7 | 1.0 | 0.8 | 0.4 | 0.6 | 0.8 | 0.8 | 0.8 | 0.6 |
 
 ## Rathmalana
 
 | Stat | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
 |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |
 | Sample Size (Days) | 69 | 72 | 27 | 43 | 43 | 18 | 45 | 64 | 70 | 62 | 87 | 78 |
-| Record High (°C) | $$\color{#ff8580}34.7$$ | $$\color{#ff8180}34.9$$ | $$\color{#ff8080}35.4$$ | $$\color{#ff8b80}34.3$$ | $$\color{#ff8d80}34.2$$ | $$\color{#ff9e80}33.2$$ | $$\color{#ffa080}33.1$$ | $$\color{#ffa080}33.1$$ | $$\color{#ffa080}33.1$$ | $$\color{#ffa080}33.1$$ | $$\color{#ff9480}33.8$$ | $$\color{#ff8580}34.7$$ |
-| Mean daily maximum (°C) | $$\color{#ffb280}32.1$$ | $$\color{#ffae80}32.2$$ | $$\color{#ffa280}32.9$$ | $$\color{#ffa380}32.9$$ | $$\color{#ffb980}31.6$$ | $$\color{#ffb880}31.7$$ | $$\color{#ffba80}31.6$$ | $$\color{#ffbf80}31.3$$ | $$\color{#ffbf80}31.3$$ | $$\color{#ffc780}30.8$$ | $$\color{#ffbf80}31.3$$ | $$\color{#ffb880}31.7$$ |
-| Daily Mean (°C) | $$\color{#fff680}28.0$$ | $$\color{#fff280}28.3$$ | $$\color{#ffe680}29.0$$ | $$\color{#ffe580}29.1$$ | $$\color{#fff080}28.4$$ | $$\color{#ffe980}28.8$$ | $$\color{#ffe580}29.0$$ | $$\color{#ffea80}28.7$$ | $$\color{#fff080}28.4$$ | $$\color{#fffa80}27.8$$ | $$\color{#fffb80}27.7$$ | $$\color{#fff880}27.9$$ |
-| Mean daily minimum (°C) | $$\color{#c3ff80}24.0$$ | $$\color{#c8ff80}24.3$$ | $$\color{#d4ff80}25.0$$ | $$\color{#d8ff80}25.2$$ | $$\color{#e1ff80}25.7$$ | $$\color{#e5ff80}26.0$$ | $$\color{#edff80}26.4$$ | $$\color{#e9ff80}26.2$$ | $$\color{#dcff80}25.5$$ | $$\color{#d0ff80}24.7$$ | $$\color{#c6ff80}24.2$$ | $$\color{#c6ff80}24.2$$ |
-| Record Low (°C) | $$\color{#85ff80}20.3$$ | $$\color{#a3ff80}22.1$$ | $$\color{#a5ff80}22.2$$ | $$\color{#adff80}22.7$$ | $$\color{#b9ff80}23.4$$ | $$\color{#bdff80}23.6$$ | $$\color{#b8ff80}23.3$$ | $$\color{#bdff80}23.6$$ | $$\color{#b8ff80}23.3$$ | $$\color{#aaff80}22.5$$ | $$\color{#9cff80}21.7$$ | $$\color{#86ff80}20.4$$ |
-| Avg Rain (mm) | $$\color{#00ff09}360.0%$$ | $$\color{#00ff0b}443.6%$$ | $$\color{#00ff07}289.6%$$ | $$\color{#00ff21}1307.0%$$ | $$\color{#00ff20}1246.5%$$ | $$\color{#00ff11}673.9%$$ | $$\color{#00ff08}326.2%$$ | $$\color{#00ff0c}481.4%$$ | $$\color{#00ff1c}1090.1%$$ | $$\color{#00ff28}1555.3%$$ | $$\color{#00ff22}1324.3%$$ | $$\color{#00ff14}765.1%$$ |
-| % Days Rain | $$\color{#00ff01}36.2%$$ | $$\color{#00ff01}30.6%$$ | $$\color{#00ff01}33.3%$$ | $$\color{#00ff02}65.1%$$ | $$\color{#00ff02}90.7%$$ | $$\color{#00ff02}83.3%$$ | $$\color{#00ff01}48.9%$$ | $$\color{#00ff01}56.2%$$ | $$\color{#00ff02}78.6%$$ | $$\color{#00ff02}85.5%$$ | $$\color{#00ff02}74.7%$$ | $$\color{#00ff01}57.7%$$ |
+| Record High (°C) | 34.7 | 34.9 | 35.4 | 34.3 | 34.2 | 33.2 | 33.1 | 33.1 | 33.1 | 33.1 | 33.8 | 34.7 |
+| Mean daily maximum (°C) | 32.1 | 32.2 | 32.9 | 32.9 | 31.6 | 31.7 | 31.6 | 31.3 | 31.3 | 30.8 | 31.3 | 31.7 |
+| Daily Mean (°C) | 28.0 | 28.3 | 29.0 | 29.1 | 28.4 | 28.8 | 29.0 | 28.7 | 28.4 | 27.8 | 27.7 | 27.9 |
+| Mean daily minimum (°C) | 24.0 | 24.3 | 25.0 | 25.2 | 25.7 | 26.0 | 26.4 | 26.2 | 25.5 | 24.7 | 24.2 | 24.2 |
+| Record Low (°C) | 20.3 | 22.1 | 22.2 | 22.7 | 23.4 | 23.6 | 23.3 | 23.6 | 23.3 | 22.5 | 21.7 | 20.4 |
+| Avg Rain (mm) | 3.6 | 4.4 | 2.9 | 13.1 | 12.5 | 6.7 | 3.3 | 4.8 | 10.9 | 15.6 | 13.2 | 7.7 |
+| % Days Rain | 0.4 | 0.3 | 0.3 | 0.7 | 0.9 | 0.8 | 0.5 | 0.6 | 0.8 | 0.9 | 0.7 | 0.6 |
 
 ## Katunayake
 
 | Stat | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
 |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |
 | Sample Size (Days) | 66 | 76 | 33 | 45 | 43 | 19 | 44 | 64 | 72 | 65 | 94 | 78 |
-| Record High (°C) | $$\color{#ff8380}34.8$$ | $$\color{#ff8080}37.2$$ | $$\color{#ff8b80}34.3$$ | $$\color{#ff8380}34.8$$ | $$\color{#ffa380}32.9$$ | $$\color{#ffb680}31.8$$ | $$\color{#ffa880}32.6$$ | $$\color{#ffaa80}32.5$$ | $$\color{#ffb680}31.8$$ | $$\color{#ffb280}32.0$$ | $$\color{#ffa280}33.0$$ | $$\color{#ff9480}33.8$$ |
-| Mean daily maximum (°C) | $$\color{#ffb180}32.1$$ | $$\color{#ffa180}33.0$$ | $$\color{#ffab80}32.4$$ | $$\color{#ffae80}32.2$$ | $$\color{#ffe780}28.9$$ | $$\color{#ffce80}30.4$$ | $$\color{#ffc780}30.8$$ | $$\color{#ffd880}29.8$$ | $$\color{#ffdd80}29.5$$ | $$\color{#ffdb80}29.6$$ | $$\color{#ffc880}30.7$$ | $$\color{#ffbd80}31.4$$ |
-| Daily Mean (°C) | $$\color{#feff80}27.5$$ | $$\color{#fff780}28.0$$ | $$\color{#fff080}28.4$$ | $$\color{#fff180}28.3$$ | $$\color{#eaff80}26.2$$ | $$\color{#fffb80}27.7$$ | $$\color{#fff380}28.2$$ | $$\color{#fbff80}27.2$$ | $$\color{#f4ff80}26.9$$ | $$\color{#f4ff80}26.8$$ | $$\color{#faff80}27.2$$ | $$\color{#fdff80}27.4$$ |
-| Mean daily minimum (°C) | $$\color{#b0ff80}22.8$$ | $$\color{#b2ff80}23.0$$ | $$\color{#c9ff80}24.3$$ | $$\color{#cbff80}24.4$$ | $$\color{#d0ff80}24.7$$ | $$\color{#d6ff80}25.1$$ | $$\color{#e0ff80}25.7$$ | $$\color{#ddff80}25.5$$ | $$\color{#d4ff80}24.9$$ | $$\color{#cbff80}24.4$$ | $$\color{#bdff80}23.6$$ | $$\color{#b8ff80}23.3$$ |
-| Record Low (°C) | $$\color{#80ffb4}16.9$$ | $$\color{#80ff86}19.6$$ | $$\color{#a5ff80}22.2$$ | $$\color{#a8ff80}22.4$$ | $$\color{#b1ff80}22.9$$ | $$\color{#b4ff80}23.1$$ | $$\color{#a5ff80}22.2$$ | $$\color{#b6ff80}23.2$$ | $$\color{#b4ff80}23.1$$ | $$\color{#acff80}22.6$$ | $$\color{#8fff80}20.9$$ | $$\color{#80ff8f}19.1$$ |
-| Avg Rain (mm) | $$\color{#00ff03}125.0%$$ | $$\color{#00ff09}346.7%$$ | $$\color{#00ff04}156.1%$$ | $$\color{#00ff1a}1031.3%$$ | $$\color{#00ff27}1520.9%$$ | $$\color{#00ff07}287.9%$$ | $$\color{#00ff05}199.5%$$ | $$\color{#00ff0c}471.7%$$ | $$\color{#00ff13}745.3%$$ | $$\color{#00ff2b}1688.2%$$ | $$\color{#00ff22}1336.4%$$ | $$\color{#00ff0b}416.7%$$ |
-| % Days Rain | $$\color{#00ff01}28.8%$$ | $$\color{#00ff00}15.8%$$ | $$\color{#00ff00}6.1%$$ | $$\color{#00ff02}60.0%$$ | $$\color{#00ff02}88.4%$$ | $$\color{#00ff02}73.7%$$ | $$\color{#00ff01}50.0%$$ | $$\color{#00ff01}48.4%$$ | $$\color{#00ff02}72.2%$$ | $$\color{#00ff02}78.5%$$ | $$\color{#00ff02}74.5%$$ | $$\color{#00ff01}43.6%$$ |
+| Record High (°C) | 34.8 | 37.2 | 34.3 | 34.8 | 32.9 | 31.8 | 32.6 | 32.5 | 31.8 | 32.0 | 33.0 | 33.8 |
+| Mean daily maximum (°C) | 32.1 | 33.0 | 32.4 | 32.2 | 28.9 | 30.4 | 30.8 | 29.8 | 29.5 | 29.6 | 30.7 | 31.4 |
+| Daily Mean (°C) | 27.5 | 28.0 | 28.4 | 28.3 | 26.2 | 27.7 | 28.2 | 27.2 | 26.9 | 26.8 | 27.2 | 27.4 |
+| Mean daily minimum (°C) | 22.8 | 23.0 | 24.3 | 24.4 | 24.7 | 25.1 | 25.7 | 25.5 | 24.9 | 24.4 | 23.6 | 23.3 |
+| Record Low (°C) | 16.9 | 19.6 | 22.2 | 22.4 | 22.9 | 23.1 | 22.2 | 23.2 | 23.1 | 22.6 | 20.9 | 19.1 |
+| Avg Rain (mm) | 1.2 | 3.5 | 1.6 | 10.3 | 15.2 | 2.9 | 2.0 | 4.7 | 7.5 | 16.9 | 13.4 | 4.2 |
+| % Days Rain | 0.3 | 0.2 | 0.1 | 0.6 | 0.9 | 0.7 | 0.5 | 0.5 | 0.7 | 0.8 | 0.7 | 0.4 |
 
 ## Katugasthota
 
 | Stat | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
 |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |
 | Sample Size (Days) | 66 | 75 | 32 | 46 | 43 | 17 | 45 | 62 | 69 | 63 | 92 | 83 |
-| Record High (°C) | $$\color{#ffa580}32.8$$ | $$\color{#ff8f80}34.1$$ | $$\color{#ff8880}34.5$$ | $$\color{#ff8d80}34.2$$ | $$\color{#ffb180}32.1$$ | $$\color{#ffc080}31.2$$ | $$\color{#ffb280}32.0$$ | $$\color{#ff9e80}33.2$$ | $$\color{#ffb180}32.1$$ | $$\color{#ffbb80}31.5$$ | $$\color{#ffb680}31.8$$ | $$\color{#ffb180}32.1$$ |
-| Mean daily maximum (°C) | $$\color{#ffd880}29.8$$ | $$\color{#ffcf80}30.3$$ | $$\color{#ffb880}31.7$$ | $$\color{#ffba80}31.5$$ | $$\color{#ffdc80}29.6$$ | $$\color{#ffe580}29.1$$ | $$\color{#ffe680}29.0$$ | $$\color{#ffe280}29.2$$ | $$\color{#ffe880}28.9$$ | $$\color{#ffeb80}28.7$$ | $$\color{#ffe480}29.1$$ | $$\color{#ffe780}28.9$$ |
-| Daily Mean (°C) | $$\color{#cfff80}24.7$$ | $$\color{#d6ff80}25.1$$ | $$\color{#edff80}26.4$$ | $$\color{#f0ff80}26.6$$ | $$\color{#e5ff80}25.9$$ | $$\color{#d9ff80}25.3$$ | $$\color{#deff80}25.5$$ | $$\color{#ddff80}25.5$$ | $$\color{#cfff80}24.7$$ | $$\color{#d5ff80}25.0$$ | $$\color{#d5ff80}25.0$$ | $$\color{#d0ff80}24.7$$ |
-| Mean daily minimum (°C) | $$\color{#80ff86}19.6$$ | $$\color{#80ff82}19.9$$ | $$\color{#93ff80}21.2$$ | $$\color{#9bff80}21.6$$ | $$\color{#a7ff80}22.3$$ | $$\color{#99ff80}21.5$$ | $$\color{#a3ff80}22.1$$ | $$\color{#9eff80}21.8$$ | $$\color{#8fff80}20.9$$ | $$\color{#97ff80}21.4$$ | $$\color{#90ff80}21.0$$ | $$\color{#89ff80}20.6$$ |
-| Record Low (°C) | $$\color{#80fffa}12.8$$ | $$\color{#80ffd5}15.0$$ | $$\color{#80ff97}18.6$$ | $$\color{#80ff8a}19.4$$ | $$\color{#8dff80}20.8$$ | $$\color{#80ff91}19.0$$ | $$\color{#80ff8a}19.4$$ | $$\color{#80ff8a}19.4$$ | $$\color{#80ffa0}18.1$$ | $$\color{#80ff91}19.0$$ | $$\color{#80ffb8}16.7$$ | $$\color{#80ffc9}15.7$$ |
-| Avg Rain (mm) | $$\color{#00ff06}251.8%$$ | $$\color{#00ff08}328.7%$$ | $$\color{#00ff06}244.4%$$ | $$\color{#00ff11}673.3%$$ | $$\color{#00ff0e}535.8%$$ | $$\color{#00ff02}82.9%$$ | $$\color{#00ff0d}502.4%$$ | $$\color{#00ff0b}434.5%$$ | $$\color{#00ff12}690.3%$$ | $$\color{#00ff1d}1148.3%$$ | $$\color{#00ff24}1426.4%$$ | $$\color{#00ff12}691.9%$$ |
-| % Days Rain | $$\color{#00ff01}36.4%$$ | $$\color{#00ff01}32.0%$$ | $$\color{#00ff01}21.9%$$ | $$\color{#00ff02}60.9%$$ | $$\color{#00ff02}76.7%$$ | $$\color{#00ff02}58.8%$$ | $$\color{#00ff02}68.9%$$ | $$\color{#00ff01}50.0%$$ | $$\color{#00ff02}59.4%$$ | $$\color{#00ff02}74.6%$$ | $$\color{#00ff02}75.0%$$ | $$\color{#00ff02}63.9%$$ |
+| Record High (°C) | 32.8 | 34.1 | 34.5 | 34.2 | 32.1 | 31.2 | 32.0 | 33.2 | 32.1 | 31.5 | 31.8 | 32.1 |
+| Mean daily maximum (°C) | 29.8 | 30.3 | 31.7 | 31.5 | 29.6 | 29.1 | 29.0 | 29.2 | 28.9 | 28.7 | 29.1 | 28.9 |
+| Daily Mean (°C) | 24.7 | 25.1 | 26.4 | 26.6 | 25.9 | 25.3 | 25.5 | 25.5 | 24.7 | 25.0 | 25.0 | 24.7 |
+| Mean daily minimum (°C) | 19.6 | 19.9 | 21.2 | 21.6 | 22.3 | 21.5 | 22.1 | 21.8 | 20.9 | 21.4 | 21.0 | 20.6 |
+| Record Low (°C) | 12.8 | 15.0 | 18.6 | 19.4 | 20.8 | 19.0 | 19.4 | 19.4 | 18.1 | 19.0 | 16.7 | 15.7 |
+| Avg Rain (mm) | 2.5 | 3.3 | 2.4 | 6.7 | 5.4 | 0.8 | 5.0 | 4.3 | 6.9 | 11.5 | 14.3 | 6.9 |
+| % Days Rain | 0.4 | 0.3 | 0.2 | 0.6 | 0.8 | 0.6 | 0.7 | 0.5 | 0.6 | 0.7 | 0.8 | 0.6 |
 
 ## Nuwara Eliya
 
 | Stat | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
 |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |
 | Sample Size (Days) | 68 | 74 | 29 | 47 | 42 | 11 | 47 | 55 | 64 | 62 | 91 | 84 |
-| Record High (°C) | $$\color{#ffbb80}31.5$$ | $$\color{#b9ff80}23.4$$ | $$\color{#beff80}23.7$$ | $$\color{#caff80}24.4$$ | $$\color{#bdff80}23.6$$ | $$\color{#9cff80}21.7$$ | $$\color{#b6ff80}23.2$$ | $$\color{#b9ff80}23.4$$ | $$\color{#ffb680}31.8$$ | $$\color{#adff80}22.7$$ | $$\color{#b1ff80}22.9$$ | $$\color{#acff80}22.6$$ |
-| Mean daily maximum (°C) | $$\color{#83ff80}20.2$$ | $$\color{#8dff80}20.8$$ | $$\color{#9cff80}21.7$$ | $$\color{#a3ff80}22.1$$ | $$\color{#80ff83}19.8$$ | $$\color{#80ff87}19.5$$ | $$\color{#80ff86}19.6$$ | $$\color{#80ff87}19.6$$ | $$\color{#80ff88}19.5$$ | $$\color{#80ff89}19.5$$ | $$\color{#80ff80}20.1$$ | $$\color{#80ff88}19.5$$ |
-| Daily Mean (°C) | $$\color{#80ffcb}15.5$$ | $$\color{#80ffc3}16.1$$ | $$\color{#80ffba}16.6$$ | $$\color{#80ffaf}17.2$$ | $$\color{#80ffb4}16.9$$ | $$\color{#80ffb9}16.6$$ | $$\color{#80ffb9}16.6$$ | $$\color{#80ffba}16.5$$ | $$\color{#80ffbc}16.5$$ | $$\color{#80ffbf}16.3$$ | $$\color{#80ffba}16.5$$ | $$\color{#80ffc7}15.8$$ |
-| Mean daily minimum (°C) | $$\color{#80e4ff}10.9$$ | $$\color{#80ebff}11.3$$ | $$\color{#80eeff}11.5$$ | $$\color{#80fcff}12.3$$ | $$\color{#80ffe0}14.3$$ | $$\color{#80ffea}13.7$$ | $$\color{#80ffeb}13.7$$ | $$\color{#80ffee}13.5$$ | $$\color{#80ffef}13.4$$ | $$\color{#80fff5}13.1$$ | $$\color{#80fff6}13.0$$ | $$\color{#80f8ff}12.1$$ |
-| Record Low (°C) | $$\color{#8080ff}4.4$$ | $$\color{#8080ff}5.0$$ | $$\color{#80bdff}8.6$$ | $$\color{#80ccff}9.5$$ | $$\color{#80f1ff}11.7$$ | $$\color{#80f3ff}11.8$$ | $$\color{#80f5ff}11.9$$ | $$\color{#80e4ff}10.9$$ | $$\color{#80c9ff}9.3$$ | $$\color{#80caff}9.4$$ | $$\color{#80bbff}8.5$$ | $$\color{#8080ff}4.2$$ |
-| Avg Rain (mm) | $$\color{#00ff09}349.7%$$ | $$\color{#00ff05}176.5%$$ | $$\color{#00ff04}169.0%$$ | $$\color{#00ff0f}589.1%$$ | $$\color{#00ff0e}529.5%$$ | $$\color{#00ff07}260.0%$$ | $$\color{#00ff0e}549.1%$$ | $$\color{#00ff0e}555.6%$$ | $$\color{#00ff13}728.6%$$ | $$\color{#00ff21}1296.8%$$ | $$\color{#00ff16}860.7%$$ | $$\color{#00ff12}724.4%$$ |
-| % Days Rain | $$\color{#00ff01}47.1%$$ | $$\color{#00ff01}36.5%$$ | $$\color{#00ff01}44.8%$$ | $$\color{#00ff01}55.3%$$ | $$\color{#00ff02}78.6%$$ | $$\color{#00ff02}63.6%$$ | $$\color{#00ff02}83.0%$$ | $$\color{#00ff02}70.9%$$ | $$\color{#00ff02}76.6%$$ | $$\color{#00ff02}90.3%$$ | $$\color{#00ff02}83.5%$$ | $$\color{#00ff02}59.5%$$ |
+| Record High (°C) | 31.5 | 23.4 | 23.7 | 24.4 | 23.6 | 21.7 | 23.2 | 23.4 | 31.8 | 22.7 | 22.9 | 22.6 |
+| Mean daily maximum (°C) | 20.2 | 20.8 | 21.7 | 22.1 | 19.8 | 19.5 | 19.6 | 19.6 | 19.5 | 19.5 | 20.1 | 19.5 |
+| Daily Mean (°C) | 15.5 | 16.1 | 16.6 | 17.2 | 16.9 | 16.6 | 16.6 | 16.5 | 16.5 | 16.3 | 16.5 | 15.8 |
+| Mean daily minimum (°C) | 10.9 | 11.3 | 11.5 | 12.3 | 14.3 | 13.7 | 13.7 | 13.5 | 13.4 | 13.1 | 13.0 | 12.1 |
+| Record Low (°C) | 4.4 | 5.0 | 8.6 | 9.5 | 11.7 | 11.8 | 11.9 | 10.9 | 9.3 | 9.4 | 8.5 | 4.2 |
+| Avg Rain (mm) | 3.5 | 1.8 | 1.7 | 5.9 | 5.3 | 2.6 | 5.5 | 5.6 | 7.3 | 13.0 | 8.6 | 7.2 |
+| % Days Rain | 0.5 | 0.4 | 0.4 | 0.6 | 0.8 | 0.6 | 0.8 | 0.7 | 0.8 | 0.9 | 0.8 | 0.6 |
 
 ## Galle
 
 | Stat | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
 |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |
 | Sample Size (Days) | 71 | 74 | 28 | 47 | 44 | 19 | 46 | 63 | 71 | 63 | 92 | 80 |
-| Record High (°C) | $$\color{#ffa380}32.9$$ | $$\color{#ff9080}34.0$$ | $$\color{#ff9780}33.6$$ | $$\color{#ff9980}33.5$$ | $$\color{#ffbd80}31.4$$ | $$\color{#ffc980}30.7$$ | $$\color{#ffc280}31.1$$ | $$\color{#ffc780}30.8$$ | $$\color{#ffcf80}30.3$$ | $$\color{#ffb980}31.6$$ | $$\color{#ff9780}33.6$$ | $$\color{#ff9080}34.0$$ |
-| Mean daily maximum (°C) | $$\color{#ffd780}29.9$$ | $$\color{#ffca80}30.6$$ | $$\color{#ffcb80}30.6$$ | $$\color{#ffc680}30.9$$ | $$\color{#fff780}28.0$$ | $$\color{#ffdc80}29.5$$ | $$\color{#ffe480}29.1$$ | $$\color{#ffe780}28.9$$ | $$\color{#ffe580}29.0$$ | $$\color{#ffe780}28.9$$ | $$\color{#ffd980}29.7$$ | $$\color{#ffd480}30.0$$ |
-| Daily Mean (°C) | $$\color{#f8ff80}27.1$$ | $$\color{#fffe80}27.6$$ | $$\color{#fff680}28.0$$ | $$\color{#fff280}28.3$$ | $$\color{#e6ff80}26.0$$ | $$\color{#fff880}27.9$$ | $$\color{#fffe80}27.5$$ | $$\color{#fdff80}27.4$$ | $$\color{#fcff80}27.3$$ | $$\color{#f7ff80}27.0$$ | $$\color{#fbff80}27.2$$ | $$\color{#fcff80}27.3$$ |
-| Mean daily minimum (°C) | $$\color{#c9ff80}24.3$$ | $$\color{#ccff80}24.5$$ | $$\color{#ddff80}25.5$$ | $$\color{#e1ff80}25.7$$ | $$\color{#cfff80}24.7$$ | $$\color{#eaff80}26.3$$ | $$\color{#e5ff80}26.0$$ | $$\color{#e3ff80}25.9$$ | $$\color{#dfff80}25.6$$ | $$\color{#d7ff80}25.2$$ | $$\color{#d1ff80}24.8$$ | $$\color{#ceff80}24.6$$ |
-| Record Low (°C) | $$\color{#a1ff80}22.0$$ | $$\color{#adff80}22.7$$ | $$\color{#c5ff80}24.1$$ | $$\color{#c2ff80}23.9$$ | $$\color{#bdff80}23.6$$ | $$\color{#c5ff80}24.1$$ | $$\color{#b4ff80}23.1$$ | $$\color{#b1ff80}22.9$$ | $$\color{#a8ff80}22.4$$ | $$\color{#adff80}22.7$$ | $$\color{#b4ff80}23.1$$ | $$\color{#b2ff80}23.0$$ |
-| Avg Rain (mm) | $$\color{#00ff10}645.9%$$ | $$\color{#00ff10}616.5%$$ | $$\color{#00ff0d}515.7%$$ | $$\color{#00ff0e}555.5%$$ | $$\color{#00ff26}1493.2%$$ | $$\color{#00ff11}650.0%$$ | $$\color{#00ff0c}472.8%$$ | $$\color{#00ff0d}517.0%$$ | $$\color{#00ff1a}1001.7%$$ | $$\color{#00ff2b}1676.2%$$ | $$\color{#00ff1e}1174.9%$$ | $$\color{#00ff17}884.0%$$ |
-| % Days Rain | $$\color{#00ff01}42.3%$$ | $$\color{#00ff01}36.5%$$ | $$\color{#00ff01}50.0%$$ | $$\color{#00ff02}59.6%$$ | $$\color{#00ff02}95.5%$$ | $$\color{#00ff02}73.7%$$ | $$\color{#00ff02}69.6%$$ | $$\color{#00ff01}58.7%$$ | $$\color{#00ff02}81.7%$$ | $$\color{#00ff02}84.1%$$ | $$\color{#00ff02}71.7%$$ | $$\color{#00ff02}61.3%$$ |
+| Record High (°C) | 32.9 | 34.0 | 33.6 | 33.5 | 31.4 | 30.7 | 31.1 | 30.8 | 30.3 | 31.6 | 33.6 | 34.0 |
+| Mean daily maximum (°C) | 29.9 | 30.6 | 30.6 | 30.9 | 28.0 | 29.5 | 29.1 | 28.9 | 29.0 | 28.9 | 29.7 | 30.0 |
+| Daily Mean (°C) | 27.1 | 27.6 | 28.0 | 28.3 | 26.0 | 27.9 | 27.5 | 27.4 | 27.3 | 27.0 | 27.2 | 27.3 |
+| Mean daily minimum (°C) | 24.3 | 24.5 | 25.5 | 25.7 | 24.7 | 26.3 | 26.0 | 25.9 | 25.6 | 25.2 | 24.8 | 24.6 |
+| Record Low (°C) | 22.0 | 22.7 | 24.1 | 23.9 | 23.6 | 24.1 | 23.1 | 22.9 | 22.4 | 22.7 | 23.1 | 23.0 |
+| Avg Rain (mm) | 6.5 | 6.2 | 5.2 | 5.6 | 14.9 | 6.5 | 4.7 | 5.2 | 10.0 | 16.8 | 11.7 | 8.8 |
+| % Days Rain | 0.4 | 0.4 | 0.5 | 0.6 | 1.0 | 0.7 | 0.7 | 0.6 | 0.8 | 0.8 | 0.7 | 0.6 |
 
 ## Hambanthota
 
 | Stat | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
 |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |
 | Sample Size (Days) | 69 | 73 | 31 | 44 | 40 | 18 | 47 | 63 | 69 | 60 | 87 | 76 |
-| Record High (°C) | $$\color{#ffa780}32.7$$ | $$\color{#ff8f80}34.1$$ | $$\color{#ff8380}34.8$$ | $$\color{#ff8880}34.5$$ | $$\color{#ff9080}34.0$$ | $$\color{#ff9b80}33.4$$ | $$\color{#ff8080}36.1$$ | $$\color{#ff8080}35.2$$ | $$\color{#ff8080}36.5$$ | $$\color{#ff8080}35.2$$ | $$\color{#ff8d80}34.2$$ | $$\color{#ff9680}33.7$$ |
-| Mean daily maximum (°C) | $$\color{#ffc980}30.7$$ | $$\color{#ffba80}31.6$$ | $$\color{#ffaa80}32.5$$ | $$\color{#ffae80}32.3$$ | $$\color{#ffbd80}31.4$$ | $$\color{#ffc980}30.7$$ | $$\color{#ffb280}32.0$$ | $$\color{#ffbb80}31.5$$ | $$\color{#ffca80}30.6$$ | $$\color{#ffba80}31.5$$ | $$\color{#ffc380}31.1$$ | $$\color{#ffca80}30.6$$ |
-| Daily Mean (°C) | $$\color{#fbff80}27.3$$ | $$\color{#fff880}27.9$$ | $$\color{#ffe480}29.1$$ | $$\color{#ffe580}29.0$$ | $$\color{#ffeb80}28.7$$ | $$\color{#fff380}28.2$$ | $$\color{#ffe980}28.8$$ | $$\color{#ffef80}28.4$$ | $$\color{#fff980}27.9$$ | $$\color{#fff180}28.3$$ | $$\color{#fffa80}27.8$$ | $$\color{#feff80}27.4$$ |
-| Mean daily minimum (°C) | $$\color{#c1ff80}23.8$$ | $$\color{#c8ff80}24.3$$ | $$\color{#dfff80}25.6$$ | $$\color{#e1ff80}25.7$$ | $$\color{#e5ff80}26.0$$ | $$\color{#e1ff80}25.7$$ | $$\color{#deff80}25.6$$ | $$\color{#daff80}25.3$$ | $$\color{#d7ff80}25.1$$ | $$\color{#d5ff80}25.1$$ | $$\color{#cdff80}24.6$$ | $$\color{#c8ff80}24.3$$ |
-| Record Low (°C) | $$\color{#8bff80}20.7$$ | $$\color{#9bff80}21.6$$ | $$\color{#bdff80}23.6$$ | $$\color{#caff80}24.4$$ | $$\color{#c5ff80}24.1$$ | $$\color{#ceff80}24.6$$ | $$\color{#b4ff80}23.1$$ | $$\color{#bbff80}23.5$$ | $$\color{#b6ff80}23.2$$ | $$\color{#acff80}22.6$$ | $$\color{#afff80}22.8$$ | $$\color{#91ff80}21.0$$ |
-| Avg Rain (mm) | $$\color{#00ff0d}496.4%$$ | $$\color{#00ff06}251.9%$$ | $$\color{#00ff09}336.5%$$ | $$\color{#00ff07}294.1%$$ | $$\color{#00ff08}311.5%$$ | $$\color{#00ff03}121.1%$$ | $$\color{#00ff09}353.0%$$ | $$\color{#00ff05}190.3%$$ | $$\color{#00ff0d}527.2%$$ | $$\color{#00ff0c}451.0%$$ | $$\color{#00ff16}853.1%$$ | $$\color{#00ff18}937.6%$$ |
-| % Days Rain | $$\color{#00ff01}29.0%$$ | $$\color{#00ff01}28.8%$$ | $$\color{#00ff01}29.0%$$ | $$\color{#00ff01}29.5%$$ | $$\color{#00ff01}55.0%$$ | $$\color{#00ff01}33.3%$$ | $$\color{#00ff01}34.0%$$ | $$\color{#00ff01}25.4%$$ | $$\color{#00ff01}55.1%$$ | $$\color{#00ff01}50.0%$$ | $$\color{#00ff02}62.1%$$ | $$\color{#00ff02}59.2%$$ |
+| Record High (°C) | 32.7 | 34.1 | 34.8 | 34.5 | 34.0 | 33.4 | 36.1 | 35.2 | 36.5 | 35.2 | 34.2 | 33.7 |
+| Mean daily maximum (°C) | 30.7 | 31.6 | 32.5 | 32.3 | 31.4 | 30.7 | 32.0 | 31.5 | 30.6 | 31.5 | 31.1 | 30.6 |
+| Daily Mean (°C) | 27.3 | 27.9 | 29.1 | 29.0 | 28.7 | 28.2 | 28.8 | 28.4 | 27.9 | 28.3 | 27.8 | 27.4 |
+| Mean daily minimum (°C) | 23.8 | 24.3 | 25.6 | 25.7 | 26.0 | 25.7 | 25.6 | 25.3 | 25.1 | 25.1 | 24.6 | 24.3 |
+| Record Low (°C) | 20.7 | 21.6 | 23.6 | 24.4 | 24.1 | 24.6 | 23.1 | 23.5 | 23.2 | 22.6 | 22.8 | 21.0 |
+| Avg Rain (mm) | 5.0 | 2.5 | 3.4 | 2.9 | 3.1 | 1.2 | 3.5 | 1.9 | 5.3 | 4.5 | 8.5 | 9.4 |
+| % Days Rain | 0.3 | 0.3 | 0.3 | 0.3 | 0.6 | 0.3 | 0.3 | 0.3 | 0.6 | 0.5 | 0.6 | 0.6 |
 
 ## Jaffna
 
 | Stat | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
 |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |
 | Sample Size (Days) | 72 | 76 | 30 | 46 | 44 | 20 | 46 | 65 | 66 | 64 | 92 | 81 |
-| Record High (°C) | $$\color{#ffc280}31.1$$ | $$\color{#ff9980}33.5$$ | $$\color{#ff8680}34.6$$ | $$\color{#ff8080}35.8$$ | $$\color{#ff8080}35.0$$ | $$\color{#ff8880}34.5$$ | $$\color{#ff8080}35.5$$ | $$\color{#ff8080}35.2$$ | $$\color{#ff8880}34.5$$ | $$\color{#ff8f80}34.1$$ | $$\color{#ffac80}32.4$$ | $$\color{#ffa280}33.0$$ |
-| Mean daily maximum (°C) | $$\color{#ffde80}29.5$$ | $$\color{#ffd080}30.2$$ | $$\color{#ffb380}32.0$$ | $$\color{#ff9980}33.5$$ | $$\color{#ffb280}32.0$$ | $$\color{#ffaa80}32.5$$ | $$\color{#ffa680}32.8$$ | $$\color{#ffa880}32.6$$ | $$\color{#ffac80}32.4$$ | $$\color{#ffc480}31.0$$ | $$\color{#ffd980}29.7$$ | $$\color{#ffdf80}29.4$$ |
-| Daily Mean (°C) | $$\color{#e6ff80}26.0$$ | $$\color{#e7ff80}26.1$$ | $$\color{#fff480}28.2$$ | $$\color{#ffdb80}29.6$$ | $$\color{#ffdf80}29.4$$ | $$\color{#ffd680}29.9$$ | $$\color{#ffd980}29.8$$ | $$\color{#ffd980}29.7$$ | $$\color{#ffdc80}29.6$$ | $$\color{#fff480}28.1$$ | $$\color{#f4ff80}26.9$$ | $$\color{#efff80}26.5$$ |
-| Mean daily minimum (°C) | $$\color{#acff80}22.6$$ | $$\color{#a1ff80}22.0$$ | $$\color{#c9ff80}24.3$$ | $$\color{#e2ff80}25.8$$ | $$\color{#feff80}27.4$$ | $$\color{#fcff80}27.3$$ | $$\color{#f2ff80}26.8$$ | $$\color{#f4ff80}26.8$$ | $$\color{#f3ff80}26.8$$ | $$\color{#d9ff80}25.3$$ | $$\color{#c3ff80}24.0$$ | $$\color{#bfff80}23.7$$ |
-| Record Low (°C) | $$\color{#80ff96}18.7$$ | $$\color{#80ffa0}18.1$$ | $$\color{#99ff80}21.5$$ | $$\color{#c4ff80}24.0$$ | $$\color{#b9ff80}23.4$$ | $$\color{#ccff80}24.5$$ | $$\color{#a3ff80}22.1$$ | $$\color{#ccff80}24.5$$ | $$\color{#adff80}22.7$$ | $$\color{#a8ff80}22.4$$ | $$\color{#83ff80}20.2$$ | $$\color{#80ffaa}17.5$$ |
-| Avg Rain (mm) | $$\color{#00ff0b}437.6%$$ | $$\color{#00ff0a}402.4%$$ | $$\color{#00ff02}61.7%$$ | $$\color{#00ff0a}408.5%$$ | $$\color{#00ff0a}407.0%$$ | $$\color{#00ff00}11.0%$$ | $$\color{#00ff07}279.3%$$ | $$\color{#00ff03}113.2%$$ | $$\color{#00ff04}152.3%$$ | $$\color{#00ff1e}1186.3%$$ | $$\color{#00ff2c}1742.5%$$ | $$\color{#00ff18}945.3%$$ |
-| % Days Rain | $$\color{#00ff01}31.9%$$ | $$\color{#00ff00}14.5%$$ | $$\color{#00ff00}13.3%$$ | $$\color{#00ff01}41.3%$$ | $$\color{#00ff01}25.0%$$ | $$\color{#00ff00}10.0%$$ | $$\color{#00ff01}28.3%$$ | $$\color{#00ff00}13.8%$$ | $$\color{#00ff00}15.2%$$ | $$\color{#00ff02}59.4%$$ | $$\color{#00ff02}75.0%$$ | $$\color{#00ff02}65.4%$$ |
+| Record High (°C) | 31.1 | 33.5 | 34.6 | 35.8 | 35.0 | 34.5 | 35.5 | 35.2 | 34.5 | 34.1 | 32.4 | 33.0 |
+| Mean daily maximum (°C) | 29.5 | 30.2 | 32.0 | 33.5 | 32.0 | 32.5 | 32.8 | 32.6 | 32.4 | 31.0 | 29.7 | 29.4 |
+| Daily Mean (°C) | 26.0 | 26.1 | 28.2 | 29.6 | 29.4 | 29.9 | 29.8 | 29.7 | 29.6 | 28.1 | 26.9 | 26.5 |
+| Mean daily minimum (°C) | 22.6 | 22.0 | 24.3 | 25.8 | 27.4 | 27.3 | 26.8 | 26.8 | 26.8 | 25.3 | 24.0 | 23.7 |
+| Record Low (°C) | 18.7 | 18.1 | 21.5 | 24.0 | 23.4 | 24.5 | 22.1 | 24.5 | 22.7 | 22.4 | 20.2 | 17.5 |
+| Avg Rain (mm) | 4.4 | 4.0 | 0.6 | 4.1 | 4.1 | 0.1 | 2.8 | 1.1 | 1.5 | 11.9 | 17.4 | 9.5 |
+| % Days Rain | 0.3 | 0.1 | 0.1 | 0.4 | 0.2 | 0.1 | 0.3 | 0.1 | 0.2 | 0.6 | 0.8 | 0.7 |
 
 ## Mannar
 
 | Stat | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
 |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |
 | Sample Size (Days) | 71 | 77 | 31 | 49 | 44 | 16 | 50 | 62 | 66 | 62 | 83 | 75 |
-| Record High (°C) | $$\color{#ffbe80}31.3$$ | $$\color{#ff9780}33.6$$ | $$\color{#ff8080}35.1$$ | $$\color{#ff8080}35.0$$ | $$\color{#ff9b80}33.4$$ | $$\color{#ffbe80}31.3$$ | $$\color{#ff8b80}34.3$$ | $$\color{#ff9c80}33.3$$ | $$\color{#ffa280}33.0$$ | $$\color{#ffaf80}32.2$$ | $$\color{#ffb280}32.0$$ | $$\color{#ffbb80}31.5$$ |
-| Mean daily maximum (°C) | $$\color{#ffda80}29.7$$ | $$\color{#ffcb80}30.6$$ | $$\color{#ffb380}31.9$$ | $$\color{#ffa680}32.7$$ | $$\color{#ffc380}31.1$$ | $$\color{#ffc480}31.0$$ | $$\color{#ffc180}31.1$$ | $$\color{#ffc680}30.9$$ | $$\color{#ffc980}30.7$$ | $$\color{#ffce80}30.4$$ | $$\color{#ffd980}29.7$$ | $$\color{#ffdd80}29.5$$ |
-| Daily Mean (°C) | $$\color{#fbff80}27.2$$ | $$\color{#fffd80}27.6$$ | $$\color{#ffe780}28.9$$ | $$\color{#ffde80}29.4$$ | $$\color{#ffe780}28.9$$ | $$\color{#ffe180}29.3$$ | $$\color{#ffe580}29.0$$ | $$\color{#ffe880}28.9$$ | $$\color{#ffea80}28.8$$ | $$\color{#fff680}28.0$$ | $$\color{#fdff80}27.4$$ | $$\color{#fcff80}27.3$$ |
-| Mean daily minimum (°C) | $$\color{#d1ff80}24.8$$ | $$\color{#cfff80}24.7$$ | $$\color{#e3ff80}25.9$$ | $$\color{#e8ff80}26.2$$ | $$\color{#f3ff80}26.8$$ | $$\color{#fffd80}27.6$$ | $$\color{#f4ff80}26.9$$ | $$\color{#f4ff80}26.9$$ | $$\color{#f3ff80}26.8$$ | $$\color{#e0ff80}25.7$$ | $$\color{#d6ff80}25.1$$ | $$\color{#d7ff80}25.1$$ |
-| Record Low (°C) | $$\color{#99ff80}21.5$$ | $$\color{#92ff80}21.1$$ | $$\color{#c7ff80}24.2$$ | $$\color{#b4ff80}23.1$$ | $$\color{#bdff80}23.6$$ | $$\color{#e0ff80}25.7$$ | $$\color{#caff80}24.4$$ | $$\color{#c2ff80}23.9$$ | $$\color{#afff80}22.8$$ | $$\color{#adff80}22.7$$ | $$\color{#b4ff80}23.1$$ | $$\color{#80ff94}18.8$$ |
-| Avg Rain (mm) | $$\color{#00ff03}123.1%$$ | $$\color{#00ff04}170.0%$$ | $$\color{#00ff00}3.5%$$ | $$\color{#00ff0f}582.7%$$ | $$\color{#00ff0a}388.6%$$ | $$\color{#00ff00}0.0%$$ | $$\color{#00ff01}27.0%$$ | $$\color{#00ff01}55.3%$$ | $$\color{#00ff04}148.8%$$ | $$\color{#00ff12}725.3%$$ | $$\color{#00ff24}1422.9%$$ | $$\color{#00ff13}754.5%$$ |
-| % Days Rain | $$\color{#00ff01}21.1%$$ | $$\color{#00ff00}14.3%$$ | $$\color{#00ff00}6.5%$$ | $$\color{#00ff01}38.8%$$ | $$\color{#00ff01}25.0%$$ | $$\color{#00ff00}0.0%$$ | $$\color{#00ff00}14.0%$$ | $$\color{#00ff00}6.5%$$ | $$\color{#00ff00}10.6%$$ | $$\color{#00ff01}51.6%$$ | $$\color{#00ff02}69.9%$$ | $$\color{#00ff02}60.0%$$ |
+| Record High (°C) | 31.3 | 33.6 | 35.1 | 35.0 | 33.4 | 31.3 | 34.3 | 33.3 | 33.0 | 32.2 | 32.0 | 31.5 |
+| Mean daily maximum (°C) | 29.7 | 30.6 | 31.9 | 32.7 | 31.1 | 31.0 | 31.1 | 30.9 | 30.7 | 30.4 | 29.7 | 29.5 |
+| Daily Mean (°C) | 27.2 | 27.6 | 28.9 | 29.4 | 28.9 | 29.3 | 29.0 | 28.9 | 28.8 | 28.0 | 27.4 | 27.3 |
+| Mean daily minimum (°C) | 24.8 | 24.7 | 25.9 | 26.2 | 26.8 | 27.6 | 26.9 | 26.9 | 26.8 | 25.7 | 25.1 | 25.1 |
+| Record Low (°C) | 21.5 | 21.1 | 24.2 | 23.1 | 23.6 | 25.7 | 24.4 | 23.9 | 22.8 | 22.7 | 23.1 | 18.8 |
+| Avg Rain (mm) | 1.2 | 1.7 | 0.0 | 5.8 | 3.9 | 0.0 | 0.3 | 0.6 | 1.5 | 7.3 | 14.2 | 7.5 |
+| % Days Rain | 0.2 | 0.1 | 0.1 | 0.4 | 0.2 | 0.0 | 0.1 | 0.1 | 0.1 | 0.5 | 0.7 | 0.6 |
 
 ## Vavuniya
 
 | Stat | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
 |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |
 | Sample Size (Days) | 74 | 78 | 33 | 49 | 45 | 20 | 50 | 64 | 74 | 64 | 91 | 82 |
-| Record High (°C) | $$\color{#ffb180}32.1$$ | $$\color{#ff9280}33.9$$ | $$\color{#ff8080}36.8$$ | $$\color{#ff8080}36.5$$ | $$\color{#ff8080}35.2$$ | $$\color{#ff8080}37.5$$ | $$\color{#ff8080}36.4$$ | $$\color{#ff8080}39.1$$ | $$\color{#ff8080}37.5$$ | $$\color{#ff8080}36.9$$ | $$\color{#ff9080}34.0$$ | $$\color{#ffac80}32.4$$ |
-| Mean daily maximum (°C) | $$\color{#ffd380}30.1$$ | $$\color{#ffc480}31.0$$ | $$\color{#ff9d80}33.3$$ | $$\color{#ff8d80}34.2$$ | $$\color{#ffa780}32.7$$ | $$\color{#ff8b80}34.4$$ | $$\color{#ff8a80}34.4$$ | $$\color{#ff8780}34.6$$ | $$\color{#ff9180}34.0$$ | $$\color{#ffb480}31.9$$ | $$\color{#ffcb80}30.5$$ | $$\color{#ffd980}29.7$$ |
-| Daily Mean (°C) | $$\color{#eaff80}26.2$$ | $$\color{#eeff80}26.5$$ | $$\color{#fff180}28.3$$ | $$\color{#ffe280}29.2$$ | $$\color{#ffeb80}28.7$$ | $$\color{#ffd880}29.8$$ | $$\color{#ffdb80}29.6$$ | $$\color{#ffdb80}29.6$$ | $$\color{#ffe080}29.3$$ | $$\color{#fff880}27.9$$ | $$\color{#f6ff80}27.0$$ | $$\color{#ecff80}26.4$$ |
-| Mean daily minimum (°C) | $$\color{#a9ff80}22.4$$ | $$\color{#a2ff80}22.0$$ | $$\color{#b9ff80}23.4$$ | $$\color{#c8ff80}24.3$$ | $$\color{#d8ff80}25.2$$ | $$\color{#d9ff80}25.3$$ | $$\color{#d3ff80}24.9$$ | $$\color{#d0ff80}24.7$$ | $$\color{#cfff80}24.7$$ | $$\color{#c2ff80}23.9$$ | $$\color{#b9ff80}23.4$$ | $$\color{#b2ff80}23.0$$ |
-| Record Low (°C) | $$\color{#80ff9e}18.2$$ | $$\color{#80ffd1}15.2$$ | $$\color{#97ff80}21.4$$ | $$\color{#aaff80}22.5$$ | $$\color{#b2ff80}23.0$$ | $$\color{#c2ff80}23.9$$ | $$\color{#b1ff80}22.9$$ | $$\color{#aaff80}22.5$$ | $$\color{#aaff80}22.5$$ | $$\color{#a3ff80}22.1$$ | $$\color{#86ff80}20.4$$ | $$\color{#80ffbd}16.4$$ |
-| Avg Rain (mm) | $$\color{#00ff06}229.3%$$ | $$\color{#00ff0b}439.1%$$ | $$\color{#00ff03}134.8%$$ | $$\color{#00ff15}810.2%$$ | $$\color{#00ff0b}449.8%$$ | $$\color{#00ff02}74.5%$$ | $$\color{#00ff08}313.2%$$ | $$\color{#00ff09}353.4%$$ | $$\color{#00ff07}281.4%$$ | $$\color{#00ff12}697.2%$$ | $$\color{#00ff1d}1129.2%$$ | $$\color{#00ff1c}1078.9%$$ |
-| % Days Rain | $$\color{#00ff01}33.8%$$ | $$\color{#00ff00}15.4%$$ | $$\color{#00ff00}18.2%$$ | $$\color{#00ff01}36.7%$$ | $$\color{#00ff01}33.3%$$ | $$\color{#00ff00}5.0%$$ | $$\color{#00ff01}26.0%$$ | $$\color{#00ff01}23.4%$$ | $$\color{#00ff01}27.0%$$ | $$\color{#00ff02}59.4%$$ | $$\color{#00ff02}71.4%$$ | $$\color{#00ff02}64.6%$$ |
+| Record High (°C) | 32.1 | 33.9 | 36.8 | 36.5 | 35.2 | 37.5 | 36.4 | 39.1 | 37.5 | 36.9 | 34.0 | 32.4 |
+| Mean daily maximum (°C) | 30.1 | 31.0 | 33.3 | 34.2 | 32.7 | 34.4 | 34.4 | 34.6 | 34.0 | 31.9 | 30.5 | 29.7 |
+| Daily Mean (°C) | 26.2 | 26.5 | 28.3 | 29.2 | 28.7 | 29.8 | 29.6 | 29.6 | 29.3 | 27.9 | 27.0 | 26.4 |
+| Mean daily minimum (°C) | 22.4 | 22.0 | 23.4 | 24.3 | 25.2 | 25.3 | 24.9 | 24.7 | 24.7 | 23.9 | 23.4 | 23.0 |
+| Record Low (°C) | 18.2 | 15.2 | 21.4 | 22.5 | 23.0 | 23.9 | 22.9 | 22.5 | 22.5 | 22.1 | 20.4 | 16.4 |
+| Avg Rain (mm) | 2.3 | 4.4 | 1.3 | 8.1 | 4.5 | 0.7 | 3.1 | 3.5 | 2.8 | 7.0 | 11.3 | 10.8 |
+| % Days Rain | 0.3 | 0.2 | 0.2 | 0.4 | 0.3 | 0.1 | 0.3 | 0.2 | 0.3 | 0.6 | 0.7 | 0.6 |
 
 ## Mullaithivu
 
 | Stat | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
 |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |
 | Sample Size (Days) | 43 | 47 | 31 | 34 | 14 | 6 | 29 | 30 | 46 | 56 | 56 | 47 |
-| Record High (°C) | $$\color{#ffcf80}30.3$$ | $$\color{#ffc280}31.1$$ | $$\color{#ff8080}36.6$$ | $$\color{#ff8080}36.6$$ | $$\color{#ff8080}36.4$$ | $$\color{#ff8080}35.4$$ | $$\color{#ff8080}36.9$$ | $$\color{#ff8080}36.5$$ | $$\color{#ff8080}37.3$$ | $$\color{#ff8580}34.7$$ | $$\color{#ff9e80}33.2$$ | $$\color{#ffbd80}31.4$$ |
-| Mean daily maximum (°C) | $$\color{#ffe380}29.1$$ | $$\color{#ffdf80}29.4$$ | $$\color{#ffb780}31.7$$ | $$\color{#ffce80}30.4$$ | $$\color{#ffa180}33.0$$ | $$\color{#ff8e80}34.1$$ | $$\color{#ff8c80}34.3$$ | $$\color{#ff8b80}34.3$$ | $$\color{#ff8980}34.4$$ | $$\color{#ffb280}32.1$$ | $$\color{#ffd680}29.9$$ | $$\color{#ffdd80}29.5$$ |
-| Daily Mean (°C) | $$\color{#f8ff80}27.1$$ | $$\color{#feff80}27.4$$ | $$\color{#ffe980}28.8$$ | $$\color{#faff80}27.2$$ | $$\color{#ffe180}29.3$$ | $$\color{#ffd280}30.2$$ | $$\color{#ffd380}30.1$$ | $$\color{#ffd480}30.0$$ | $$\color{#ffd480}30.0$$ | $$\color{#ffee80}28.5$$ | $$\color{#fbff80}27.3$$ | $$\color{#fcff80}27.3$$ |
-| Mean daily minimum (°C) | $$\color{#d4ff80}25.0$$ | $$\color{#dcff80}25.4$$ | $$\color{#e3ff80}25.8$$ | $$\color{#eaff80}26.2$$ | $$\color{#ddff80}25.5$$ | $$\color{#e9ff80}26.2$$ | $$\color{#e4ff80}25.9$$ | $$\color{#e0ff80}25.7$$ | $$\color{#deff80}25.6$$ | $$\color{#d5ff80}25.0$$ | $$\color{#ceff80}24.6$$ | $$\color{#d7ff80}25.2$$ |
-| Record Low (°C) | $$\color{#8aff80}20.6$$ | $$\color{#99ff80}21.5$$ | $$\color{#beff80}23.7$$ | $$\color{#c7ff80}24.2$$ | $$\color{#beff80}23.7$$ | $$\color{#d8ff80}25.2$$ | $$\color{#c7ff80}24.2$$ | $$\color{#b9ff80}23.4$$ | $$\color{#b4ff80}23.1$$ | $$\color{#afff80}22.8$$ | $$\color{#a0ff80}21.9$$ | $$\color{#80ffa3}17.9$$ |
-| Avg Rain (mm) | $$\color{#00ff08}304.7%$$ | $$\color{#00ff11}683.6%$$ | $$\color{#00ff02}74.2%$$ | $$\color{#00ff03}126.5%$$ | $$\color{#00ff1e}1185.7%$$ | $$\color{#00ff0a}388.3%$$ | $$\color{#00ff06}244.1%$$ | $$\color{#00ff13}743.7%$$ | $$\color{#00ff05}201.3%$$ | $$\color{#00ff1c}1107.0%$$ | $$\color{#00ff2a}1647.9%$$ | $$\color{#00ff0f}590.6%$$ |
-| % Days Rain | $$\color{#00ff01}37.2%$$ | $$\color{#00ff01}23.4%$$ | $$\color{#00ff00}9.7%$$ | $$\color{#00ff01}23.5%$$ | $$\color{#00ff02}64.3%$$ | $$\color{#00ff01}33.3%$$ | $$\color{#00ff01}27.6%$$ | $$\color{#00ff01}26.7%$$ | $$\color{#00ff01}26.1%$$ | $$\color{#00ff01}57.1%$$ | $$\color{#00ff02}71.4%$$ | $$\color{#00ff01}44.7%$$ |
+| Record High (°C) | 30.3 | 31.1 | 36.6 | 36.6 | 36.4 | 35.4 | 36.9 | 36.5 | 37.3 | 34.7 | 33.2 | 31.4 |
+| Mean daily maximum (°C) | 29.1 | 29.4 | 31.7 | 30.4 | 33.0 | 34.1 | 34.3 | 34.3 | 34.4 | 32.1 | 29.9 | 29.5 |
+| Daily Mean (°C) | 27.1 | 27.4 | 28.8 | 27.2 | 29.3 | 30.2 | 30.1 | 30.0 | 30.0 | 28.5 | 27.3 | 27.3 |
+| Mean daily minimum (°C) | 25.0 | 25.4 | 25.8 | 26.2 | 25.5 | 26.2 | 25.9 | 25.7 | 25.6 | 25.0 | 24.6 | 25.2 |
+| Record Low (°C) | 20.6 | 21.5 | 23.7 | 24.2 | 23.7 | 25.2 | 24.2 | 23.4 | 23.1 | 22.8 | 21.9 | 17.9 |
+| Avg Rain (mm) | 3.0 | 6.8 | 0.7 | 1.3 | 11.9 | 3.9 | 2.4 | 7.4 | 2.0 | 11.1 | 16.5 | 5.9 |
+| % Days Rain | 0.4 | 0.2 | 0.1 | 0.2 | 0.6 | 0.3 | 0.3 | 0.3 | 0.3 | 0.6 | 0.7 | 0.4 |
 
 ## Batticaloa
 
 | Stat | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
 |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |
 | Sample Size (Days) | 68 | 75 | 33 | 48 | 41 | 20 | 48 | 64 | 73 | 61 | 88 | 82 |
-| Record High (°C) | $$\color{#ffca80}30.6$$ | $$\color{#ffc080}31.2$$ | $$\color{#ffa580}32.8$$ | $$\color{#ff8f80}34.1$$ | $$\color{#ff8080}37.1$$ | $$\color{#ff8080}38.5$$ | $$\color{#ff8080}37.4$$ | $$\color{#ff8080}36.0$$ | $$\color{#ff8080}36.6$$ | $$\color{#ff8080}36.7$$ | $$\color{#ffa880}32.6$$ | $$\color{#ffaa80}32.5$$ |
-| Mean daily maximum (°C) | $$\color{#ffe780}28.9$$ | $$\color{#ffdf80}29.4$$ | $$\color{#ffc780}30.8$$ | $$\color{#ffb180}32.1$$ | $$\color{#ffad80}32.3$$ | $$\color{#ff9780}33.6$$ | $$\color{#ffa180}33.0$$ | $$\color{#ff9f80}33.1$$ | $$\color{#ffa180}33.1$$ | $$\color{#ffb680}31.8$$ | $$\color{#ffd180}30.2$$ | $$\color{#ffe680}29.0$$ |
-| Daily Mean (°C) | $$\color{#e9ff80}26.2$$ | $$\color{#f3ff80}26.8$$ | $$\color{#fffb80}27.7$$ | $$\color{#ffea80}28.7$$ | $$\color{#ffe980}28.8$$ | $$\color{#ffd780}29.9$$ | $$\color{#ffe580}29.0$$ | $$\color{#ffe080}29.3$$ | $$\color{#ffe280}29.2$$ | $$\color{#fff280}28.2$$ | $$\color{#faff80}27.2$$ | $$\color{#edff80}26.4$$ |
-| Mean daily minimum (°C) | $$\color{#baff80}23.4$$ | $$\color{#c7ff80}24.2$$ | $$\color{#d0ff80}24.7$$ | $$\color{#daff80}25.3$$ | $$\color{#e3ff80}25.9$$ | $$\color{#e7ff80}26.1$$ | $$\color{#dfff80}25.6$$ | $$\color{#deff80}25.5$$ | $$\color{#dbff80}25.4$$ | $$\color{#cfff80}24.7$$ | $$\color{#c8ff80}24.3$$ | $$\color{#c5ff80}24.1$$ |
-| Record Low (°C) | $$\color{#83ff80}20.2$$ | $$\color{#80ff88}19.5$$ | $$\color{#b6ff80}23.2$$ | $$\color{#afff80}22.8$$ | $$\color{#c5ff80}24.1$$ | $$\color{#d4ff80}25.0$$ | $$\color{#bbff80}23.5$$ | $$\color{#a8ff80}22.4$$ | $$\color{#b1ff80}22.9$$ | $$\color{#acff80}22.6$$ | $$\color{#9bff80}21.6$$ | $$\color{#80ffa7}17.7$$ |
-| Avg Rain (mm) | $$\color{#00ff2e}1819.6%$$ | $$\color{#00ff0e}563.6%$$ | $$\color{#00ff0a}401.8%$$ | $$\color{#00ff07}261.9%$$ | $$\color{#00ff04}173.2%$$ | $$\color{#00ff00}5.5%$$ | $$\color{#00ff06}221.3%$$ | $$\color{#00ff06}230.5%$$ | $$\color{#00ff04}163.8%$$ | $$\color{#00ff0a}399.7%$$ | $$\color{#00ff2c}1715.6%$$ | $$\color{#00ff22}1346.0%$$ |
-| % Days Rain | $$\color{#00ff02}61.8%$$ | $$\color{#00ff01}34.7%$$ | $$\color{#00ff01}27.3%$$ | $$\color{#00ff01}20.8%$$ | $$\color{#00ff01}22.0%$$ | $$\color{#00ff00}10.0%$$ | $$\color{#00ff00}18.8%$$ | $$\color{#00ff00}15.6%$$ | $$\color{#00ff01}21.9%$$ | $$\color{#00ff01}42.6%$$ | $$\color{#00ff02}73.9%$$ | $$\color{#00ff02}68.3%$$ |
+| Record High (°C) | 30.6 | 31.2 | 32.8 | 34.1 | 37.1 | 38.5 | 37.4 | 36.0 | 36.6 | 36.7 | 32.6 | 32.5 |
+| Mean daily maximum (°C) | 28.9 | 29.4 | 30.8 | 32.1 | 32.3 | 33.6 | 33.0 | 33.1 | 33.1 | 31.8 | 30.2 | 29.0 |
+| Daily Mean (°C) | 26.2 | 26.8 | 27.7 | 28.7 | 28.8 | 29.9 | 29.0 | 29.3 | 29.2 | 28.2 | 27.2 | 26.4 |
+| Mean daily minimum (°C) | 23.4 | 24.2 | 24.7 | 25.3 | 25.9 | 26.1 | 25.6 | 25.5 | 25.4 | 24.7 | 24.3 | 24.1 |
+| Record Low (°C) | 20.2 | 19.5 | 23.2 | 22.8 | 24.1 | 25.0 | 23.5 | 22.4 | 22.9 | 22.6 | 21.6 | 17.7 |
+| Avg Rain (mm) | 18.2 | 5.6 | 4.0 | 2.6 | 1.7 | 0.1 | 2.2 | 2.3 | 1.6 | 4.0 | 17.2 | 13.5 |
+| % Days Rain | 0.6 | 0.3 | 0.3 | 0.2 | 0.2 | 0.1 | 0.2 | 0.2 | 0.2 | 0.4 | 0.7 | 0.7 |
 
 ## Pothuvil
 
 | Stat | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
 |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |
 | Sample Size (Days) | 73 | 76 | 31 | 46 | 44 | 19 | 44 | 64 | 68 | 61 | 90 | 83 |
-| Record High (°C) | $$\color{#ffad80}32.3$$ | $$\color{#ffac80}32.4$$ | $$\color{#ffa080}33.1$$ | $$\color{#ff8680}34.6$$ | $$\color{#ff8080}37.4$$ | $$\color{#ff8080}37.0$$ | $$\color{#ff8080}36.7$$ | $$\color{#ff8080}37.5$$ | $$\color{#ff8080}37.0$$ | $$\color{#ff8080}35.7$$ | $$\color{#ff9780}33.6$$ | $$\color{#ff9680}33.7$$ |
-| Mean daily maximum (°C) | $$\color{#ffd180}30.2$$ | $$\color{#ffca80}30.6$$ | $$\color{#ffb380}32.0$$ | $$\color{#ffa280}33.0$$ | $$\color{#ff9880}33.6$$ | $$\color{#ff8080}35.3$$ | $$\color{#ff9780}33.6$$ | $$\color{#ff9380}33.9$$ | $$\color{#ff9a80}33.4$$ | $$\color{#ffa980}32.6$$ | $$\color{#ffc180}31.1$$ | $$\color{#ffcd80}30.4$$ |
-| Daily Mean (°C) | $$\color{#f4ff80}26.8$$ | $$\color{#faff80}27.2$$ | $$\color{#fff080}28.4$$ | $$\color{#ffe380}29.1$$ | $$\color{#ffde80}29.4$$ | $$\color{#ffcb80}30.5$$ | $$\color{#ffdd80}29.5$$ | $$\color{#ffdb80}29.6$$ | $$\color{#ffe080}29.3$$ | $$\color{#ffec80}28.6$$ | $$\color{#fffb80}27.7$$ | $$\color{#faff80}27.2$$ |
-| Mean daily minimum (°C) | $$\color{#bbff80}23.5$$ | $$\color{#c0ff80}23.8$$ | $$\color{#d0ff80}24.8$$ | $$\color{#daff80}25.3$$ | $$\color{#e4ff80}25.9$$ | $$\color{#e2ff80}25.8$$ | $$\color{#daff80}25.3$$ | $$\color{#dbff80}25.4$$ | $$\color{#d8ff80}25.2$$ | $$\color{#cfff80}24.7$$ | $$\color{#c9ff80}24.3$$ | $$\color{#c4ff80}24.0$$ |
-| Record Low (°C) | $$\color{#88ff80}20.5$$ | $$\color{#8fff80}20.9$$ | $$\color{#acff80}22.6$$ | $$\color{#b8ff80}23.3$$ | $$\color{#c9ff80}24.3$$ | $$\color{#caff80}24.4$$ | $$\color{#c0ff80}23.8$$ | $$\color{#b1ff80}22.9$$ | $$\color{#acff80}22.6$$ | $$\color{#acff80}22.6$$ | $$\color{#9bff80}21.6$$ | $$\color{#91ff80}21.0$$ |
-| Avg Rain (mm) | $$\color{#00ff1b}1067.8%$$ | $$\color{#00ff12}714.2%$$ | $$\color{#00ff06}247.4%$$ | $$\color{#00ff05}190.9%$$ | $$\color{#00ff06}235.9%$$ | $$\color{#00ff02}63.7%$$ | $$\color{#00ff04}167.0%$$ | $$\color{#00ff04}139.5%$$ | $$\color{#00ff07}275.0%$$ | $$\color{#00ff0f}581.0%$$ | $$\color{#00ff1b}1074.4%$$ | $$\color{#00ff1c}1112.2%$$ |
-| % Days Rain | $$\color{#00ff01}49.3%$$ | $$\color{#00ff01}47.4%$$ | $$\color{#00ff01}22.6%$$ | $$\color{#00ff01}21.7%$$ | $$\color{#00ff00}13.6%$$ | $$\color{#00ff00}5.3%$$ | $$\color{#00ff01}25.0%$$ | $$\color{#00ff01}20.3%$$ | $$\color{#00ff01}25.0%$$ | $$\color{#00ff01}47.5%$$ | $$\color{#00ff02}64.4%$$ | $$\color{#00ff02}61.4%$$ |
+| Record High (°C) | 32.3 | 32.4 | 33.1 | 34.6 | 37.4 | 37.0 | 36.7 | 37.5 | 37.0 | 35.7 | 33.6 | 33.7 |
+| Mean daily maximum (°C) | 30.2 | 30.6 | 32.0 | 33.0 | 33.6 | 35.3 | 33.6 | 33.9 | 33.4 | 32.6 | 31.1 | 30.4 |
+| Daily Mean (°C) | 26.8 | 27.2 | 28.4 | 29.1 | 29.4 | 30.5 | 29.5 | 29.6 | 29.3 | 28.6 | 27.7 | 27.2 |
+| Mean daily minimum (°C) | 23.5 | 23.8 | 24.8 | 25.3 | 25.9 | 25.8 | 25.3 | 25.4 | 25.2 | 24.7 | 24.3 | 24.0 |
+| Record Low (°C) | 20.5 | 20.9 | 22.6 | 23.3 | 24.3 | 24.4 | 23.8 | 22.9 | 22.6 | 22.6 | 21.6 | 21.0 |
+| Avg Rain (mm) | 10.7 | 7.1 | 2.5 | 1.9 | 2.4 | 0.6 | 1.7 | 1.4 | 2.7 | 5.8 | 10.7 | 11.1 |
+| % Days Rain | 0.5 | 0.5 | 0.2 | 0.2 | 0.1 | 0.1 | 0.2 | 0.2 | 0.2 | 0.5 | 0.6 | 0.6 |
 
 ## Trincomalee
 
 | Stat | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
 |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |
 | Sample Size (Days) | 68 | 76 | 32 | 47 | 42 | 20 | 47 | 63 | 70 | 66 | 92 | 83 |
-| Record High (°C) | $$\color{#ffcc80}30.5$$ | $$\color{#ff9780}33.6$$ | $$\color{#ff8680}34.6$$ | $$\color{#ff8080}35.9$$ | $$\color{#ff8080}36.6$$ | $$\color{#ff8080}36.8$$ | $$\color{#ff8080}36.8$$ | $$\color{#ff8080}37.8$$ | $$\color{#ff8080}36.8$$ | $$\color{#ff8080}35.7$$ | $$\color{#ffaa80}32.5$$ | $$\color{#ffac80}32.4$$ |
-| Mean daily maximum (°C) | $$\color{#ffe280}29.2$$ | $$\color{#ffd680}29.9$$ | $$\color{#ffc180}31.2$$ | $$\color{#ffa280}33.0$$ | $$\color{#ffa280}33.0$$ | $$\color{#ff8780}34.6$$ | $$\color{#ff8d80}34.2$$ | $$\color{#ff8480}34.8$$ | $$\color{#ff8980}34.5$$ | $$\color{#ffb580}31.8$$ | $$\color{#ffd680}29.9$$ | $$\color{#ffe680}28.9$$ |
-| Daily Mean (°C) | $$\color{#edff80}26.4$$ | $$\color{#f8ff80}27.1$$ | $$\color{#fff880}27.9$$ | $$\color{#ffe680}29.0$$ | $$\color{#ffe580}29.0$$ | $$\color{#ffd080}30.3$$ | $$\color{#ffd780}29.8$$ | $$\color{#ffd380}30.1$$ | $$\color{#ffd880}29.8$$ | $$\color{#fff580}28.1$$ | $$\color{#f6ff80}26.9$$ | $$\color{#ecff80}26.4$$ |
-| Mean daily minimum (°C) | $$\color{#bdff80}23.6$$ | $$\color{#c9ff80}24.3$$ | $$\color{#d0ff80}24.7$$ | $$\color{#d4ff80}25.0$$ | $$\color{#d5ff80}25.0$$ | $$\color{#e4ff80}25.9$$ | $$\color{#ddff80}25.5$$ | $$\color{#dcff80}25.4$$ | $$\color{#d6ff80}25.1$$ | $$\color{#caff80}24.4$$ | $$\color{#c3ff80}24.0$$ | $$\color{#c5ff80}24.1$$ |
-| Record Low (°C) | $$\color{#80ff8b}19.3$$ | $$\color{#8aff80}20.6$$ | $$\color{#b4ff80}23.1$$ | $$\color{#97ff80}21.4$$ | $$\color{#bbff80}23.5$$ | $$\color{#beff80}23.7$$ | $$\color{#bbff80}23.5$$ | $$\color{#aaff80}22.5$$ | $$\color{#9eff80}21.8$$ | $$\color{#a0ff80}21.9$$ | $$\color{#86ff80}20.4$$ | $$\color{#80ffbb}16.5$$ |
-| Avg Rain (mm) | $$\color{#00ff10}619.1%$$ | $$\color{#00ff0e}539.3%$$ | $$\color{#00ff09}344.4%$$ | $$\color{#00ff07}276.4%$$ | $$\color{#00ff09}355.7%$$ | $$\color{#00ff00}13.0%$$ | $$\color{#00ff07}270.4%$$ | $$\color{#00ff04}174.0%$$ | $$\color{#00ff10}640.3%$$ | $$\color{#00ff16}850.9%$$ | $$\color{#00ff28}1577.2%$$ | $$\color{#00ff1f}1202.5%$$ |
-| % Days Rain | $$\color{#00ff01}52.9%$$ | $$\color{#00ff01}22.4%$$ | $$\color{#00ff00}12.5%$$ | $$\color{#00ff01}29.8%$$ | $$\color{#00ff01}26.2%$$ | $$\color{#00ff00}10.0%$$ | $$\color{#00ff01}25.5%$$ | $$\color{#00ff01}20.6%$$ | $$\color{#00ff01}30.0%$$ | $$\color{#00ff01}53.0%$$ | $$\color{#00ff02}76.1%$$ | $$\color{#00ff02}69.9%$$ |
+| Record High (°C) | 30.5 | 33.6 | 34.6 | 35.9 | 36.6 | 36.8 | 36.8 | 37.8 | 36.8 | 35.7 | 32.5 | 32.4 |
+| Mean daily maximum (°C) | 29.2 | 29.9 | 31.2 | 33.0 | 33.0 | 34.6 | 34.2 | 34.8 | 34.5 | 31.8 | 29.9 | 28.9 |
+| Daily Mean (°C) | 26.4 | 27.1 | 27.9 | 29.0 | 29.0 | 30.3 | 29.8 | 30.1 | 29.8 | 28.1 | 26.9 | 26.4 |
+| Mean daily minimum (°C) | 23.6 | 24.3 | 24.7 | 25.0 | 25.0 | 25.9 | 25.5 | 25.4 | 25.1 | 24.4 | 24.0 | 24.1 |
+| Record Low (°C) | 19.3 | 20.6 | 23.1 | 21.4 | 23.5 | 23.7 | 23.5 | 22.5 | 21.8 | 21.9 | 20.4 | 16.5 |
+| Avg Rain (mm) | 6.2 | 5.4 | 3.4 | 2.8 | 3.6 | 0.1 | 2.7 | 1.7 | 6.4 | 8.5 | 15.8 | 12.0 |
+| % Days Rain | 0.5 | 0.2 | 0.1 | 0.3 | 0.3 | 0.1 | 0.3 | 0.2 | 0.3 | 0.5 | 0.8 | 0.7 |
 
 ## Kurunagala
 
 | Stat | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
 |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |
 | Sample Size (Days) | 67 | 73 | 29 | 48 | 45 | 16 | 45 | 61 | 66 | 60 | 87 | 78 |
-| Record High (°C) | $$\color{#ff8080}35.0$$ | $$\color{#ff8080}37.0$$ | $$\color{#ff8080}37.3$$ | $$\color{#ff8080}36.1$$ | $$\color{#ff8580}34.7$$ | $$\color{#ffa880}32.6$$ | $$\color{#ff8080}35.7$$ | $$\color{#ff8080}35.8$$ | $$\color{#ff8580}34.7$$ | $$\color{#ff9b80}33.4$$ | $$\color{#ffa080}33.1$$ | $$\color{#ff9680}33.7$$ |
-| Mean daily maximum (°C) | $$\color{#ffb280}32.0$$ | $$\color{#ff9e80}33.2$$ | $$\color{#ff8080}35.1$$ | $$\color{#ff9480}33.8$$ | $$\color{#ffbf80}31.2$$ | $$\color{#ffbd80}31.4$$ | $$\color{#ffba80}31.5$$ | $$\color{#ffb280}32.0$$ | $$\color{#ffc180}31.1$$ | $$\color{#ffc780}30.8$$ | $$\color{#ffc480}30.9$$ | $$\color{#ffc480}31.0$$ |
-| Daily Mean (°C) | $$\color{#faff80}27.2$$ | $$\color{#fffa80}27.8$$ | $$\color{#ffda80}29.7$$ | $$\color{#ffe780}28.9$$ | $$\color{#fffa80}27.8$$ | $$\color{#fff580}28.1$$ | $$\color{#fff380}28.2$$ | $$\color{#fff180}28.3$$ | $$\color{#fffc80}27.7$$ | $$\color{#fbff80}27.3$$ | $$\color{#f7ff80}27.0$$ | $$\color{#f6ff80}27.0$$ |
-| Mean daily minimum (°C) | $$\color{#a9ff80}22.4$$ | $$\color{#a7ff80}22.4$$ | $$\color{#c8ff80}24.3$$ | $$\color{#c5ff80}24.1$$ | $$\color{#caff80}24.4$$ | $$\color{#d2ff80}24.8$$ | $$\color{#d2ff80}24.8$$ | $$\color{#ceff80}24.6$$ | $$\color{#c8ff80}24.3$$ | $$\color{#bfff80}23.8$$ | $$\color{#b4ff80}23.1$$ | $$\color{#b1ff80}22.9$$ |
-| Record Low (°C) | $$\color{#80ffb1}17.1$$ | $$\color{#80ff8b}19.3$$ | $$\color{#a1ff80}22.0$$ | $$\color{#a0ff80}21.9$$ | $$\color{#aaff80}22.5$$ | $$\color{#b9ff80}23.4$$ | $$\color{#adff80}22.7$$ | $$\color{#a8ff80}22.4$$ | $$\color{#afff80}22.8$$ | $$\color{#9eff80}21.8$$ | $$\color{#86ff80}20.4$$ | $$\color{#80ff9c}18.3$$ |
-| Avg Rain (mm) | $$\color{#00ff0a}405.4%$$ | $$\color{#00ff04}143.3%$$ | $$\color{#00ff0a}387.6%$$ | $$\color{#00ff1a}1022.3%$$ | $$\color{#00ff18}929.3%$$ | $$\color{#00ff05}209.4%$$ | $$\color{#00ff0b}433.1%$$ | $$\color{#00ff0b}425.1%$$ | $$\color{#00ff18}935.9%$$ | $$\color{#00ff22}1324.5%$$ | $$\color{#00ff2a}1651.5%$$ | $$\color{#00ff0c}485.8%$$ |
-| % Days Rain | $$\color{#00ff01}32.8%$$ | $$\color{#00ff00}17.8%$$ | $$\color{#00ff01}37.9%$$ | $$\color{#00ff02}68.8%$$ | $$\color{#00ff02}77.8%$$ | $$\color{#00ff01}56.2%$$ | $$\color{#00ff01}57.8%$$ | $$\color{#00ff01}44.3%$$ | $$\color{#00ff02}68.2%$$ | $$\color{#00ff02}76.7%$$ | $$\color{#00ff02}77.0%$$ | $$\color{#00ff01}53.8%$$ |
+| Record High (°C) | 35.0 | 37.0 | 37.3 | 36.1 | 34.7 | 32.6 | 35.7 | 35.8 | 34.7 | 33.4 | 33.1 | 33.7 |
+| Mean daily maximum (°C) | 32.0 | 33.2 | 35.1 | 33.8 | 31.2 | 31.4 | 31.5 | 32.0 | 31.1 | 30.8 | 30.9 | 31.0 |
+| Daily Mean (°C) | 27.2 | 27.8 | 29.7 | 28.9 | 27.8 | 28.1 | 28.2 | 28.3 | 27.7 | 27.3 | 27.0 | 27.0 |
+| Mean daily minimum (°C) | 22.4 | 22.4 | 24.3 | 24.1 | 24.4 | 24.8 | 24.8 | 24.6 | 24.3 | 23.8 | 23.1 | 22.9 |
+| Record Low (°C) | 17.1 | 19.3 | 22.0 | 21.9 | 22.5 | 23.4 | 22.7 | 22.4 | 22.8 | 21.8 | 20.4 | 18.3 |
+| Avg Rain (mm) | 4.1 | 1.4 | 3.9 | 10.2 | 9.3 | 2.1 | 4.3 | 4.3 | 9.4 | 13.2 | 16.5 | 4.9 |
+| % Days Rain | 0.3 | 0.2 | 0.4 | 0.7 | 0.8 | 0.6 | 0.6 | 0.4 | 0.7 | 0.8 | 0.8 | 0.5 |
 
 ## Puttalam
 
 | Stat | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
 |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |
 | Sample Size (Days) | 72 | 75 | 32 | 43 | 39 | 17 | 44 | 64 | 65 | 59 | 86 | 77 |
-| Record High (°C) | $$\color{#ff9080}34.0$$ | $$\color{#ff8080}35.5$$ | $$\color{#ff8580}34.7$$ | $$\color{#ff8080}36.8$$ | $$\color{#ff9480}33.8$$ | $$\color{#ffa780}32.7$$ | $$\color{#ff9780}33.6$$ | $$\color{#ff9480}33.8$$ | $$\color{#ff9b80}33.4$$ | $$\color{#ffa780}32.7$$ | $$\color{#ff9080}34.0$$ | $$\color{#ff9e80}33.2$$ |
-| Mean daily maximum (°C) | $$\color{#ffbd80}31.4$$ | $$\color{#ffac80}32.4$$ | $$\color{#ffac80}32.4$$ | $$\color{#ff9a80}33.4$$ | $$\color{#ffce80}30.4$$ | $$\color{#ffbf80}31.3$$ | $$\color{#ffb980}31.6$$ | $$\color{#ffb580}31.8$$ | $$\color{#ffb880}31.7$$ | $$\color{#ffc280}31.1$$ | $$\color{#ffd080}30.3$$ | $$\color{#ffc580}30.9$$ |
-| Daily Mean (°C) | $$\color{#f0ff80}26.6$$ | $$\color{#fdff80}27.4$$ | $$\color{#fff380}28.2$$ | $$\color{#ffe480}29.1$$ | $$\color{#fffb80}27.7$$ | $$\color{#ffe680}29.0$$ | $$\color{#ffe780}28.9$$ | $$\color{#ffe480}29.1$$ | $$\color{#ffe780}28.9$$ | $$\color{#fff780}28.0$$ | $$\color{#f2ff80}26.7$$ | $$\color{#f9ff80}27.1$$ |
-| Mean daily minimum (°C) | $$\color{#a7ff80}22.4$$ | $$\color{#a8ff80}22.4$$ | $$\color{#c4ff80}24.0$$ | $$\color{#d0ff80}24.7$$ | $$\color{#d5ff80}25.0$$ | $$\color{#f2ff80}26.7$$ | $$\color{#e9ff80}26.2$$ | $$\color{#eaff80}26.3$$ | $$\color{#e7ff80}26.1$$ | $$\color{#d3ff80}24.9$$ | $$\color{#bfff80}23.8$$ | $$\color{#b9ff80}23.4$$ |
-| Record Low (°C) | $$\color{#80ff92}18.9$$ | $$\color{#80ff9b}18.4$$ | $$\color{#9eff80}21.8$$ | $$\color{#adff80}22.7$$ | $$\color{#adff80}22.7$$ | $$\color{#ccff80}24.5$$ | $$\color{#b2ff80}23.0$$ | $$\color{#b8ff80}23.3$$ | $$\color{#c5ff80}24.1$$ | $$\color{#9bff80}21.6$$ | $$\color{#86ff80}20.4$$ | $$\color{#80ff8a}19.4$$ |
-| Avg Rain (mm) | $$\color{#00ff08}307.1%$$ | $$\color{#00ff05}206.9%$$ | $$\color{#00ff04}164.1%$$ | $$\color{#00ff0d}493.3%$$ | $$\color{#00ff18}942.6%$$ | $$\color{#00ff02}69.4%$$ | $$\color{#00ff02}70.0%$$ | $$\color{#00ff01}41.1%$$ | $$\color{#00ff05}195.1%$$ | $$\color{#00ff1a}1011.2%$$ | $$\color{#00ff21}1296.7%$$ | $$\color{#00ff11}650.0%$$ |
-| % Days Rain | $$\color{#00ff01}26.4%$$ | $$\color{#00ff01}22.7%$$ | $$\color{#00ff00}15.6%$$ | $$\color{#00ff01}41.9%$$ | $$\color{#00ff01}53.8%$$ | $$\color{#00ff01}29.4%$$ | $$\color{#00ff01}20.5%$$ | $$\color{#00ff01}20.3%$$ | $$\color{#00ff01}33.8%$$ | $$\color{#00ff02}62.7%$$ | $$\color{#00ff02}72.1%$$ | $$\color{#00ff01}58.4%$$ |
+| Record High (°C) | 34.0 | 35.5 | 34.7 | 36.8 | 33.8 | 32.7 | 33.6 | 33.8 | 33.4 | 32.7 | 34.0 | 33.2 |
+| Mean daily maximum (°C) | 31.4 | 32.4 | 32.4 | 33.4 | 30.4 | 31.3 | 31.6 | 31.8 | 31.7 | 31.1 | 30.3 | 30.9 |
+| Daily Mean (°C) | 26.6 | 27.4 | 28.2 | 29.1 | 27.7 | 29.0 | 28.9 | 29.1 | 28.9 | 28.0 | 26.7 | 27.1 |
+| Mean daily minimum (°C) | 22.4 | 22.4 | 24.0 | 24.7 | 25.0 | 26.7 | 26.2 | 26.3 | 26.1 | 24.9 | 23.8 | 23.4 |
+| Record Low (°C) | 18.9 | 18.4 | 21.8 | 22.7 | 22.7 | 24.5 | 23.0 | 23.3 | 24.1 | 21.6 | 20.4 | 19.4 |
+| Avg Rain (mm) | 3.1 | 2.1 | 1.6 | 4.9 | 9.4 | 0.7 | 0.7 | 0.4 | 2.0 | 10.1 | 13.0 | 6.5 |
+| % Days Rain | 0.3 | 0.2 | 0.2 | 0.4 | 0.5 | 0.3 | 0.2 | 0.2 | 0.3 | 0.6 | 0.7 | 0.6 |
 
 ## Anuradhapura
 
 | Stat | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
 |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |
 | Sample Size (Days) | 71 | 76 | 31 | 44 | 40 | 18 | 44 | 65 | 68 | 60 | 87 | 77 |
-| Record High (°C) | $$\color{#ff8080}37.4$$ | $$\color{#ff8680}34.6$$ | $$\color{#ff8080}36.0$$ | $$\color{#ff8080}35.7$$ | $$\color{#ff8180}34.9$$ | $$\color{#ff8080}35.5$$ | $$\color{#ff8080}36.8$$ | $$\color{#ff8080}37.3$$ | $$\color{#ff8080}36.0$$ | $$\color{#ff8080}35.0$$ | $$\color{#ffa380}32.9$$ | $$\color{#ffa080}33.1$$ |
-| Mean daily maximum (°C) | $$\color{#ffce80}30.4$$ | $$\color{#ffbb80}31.5$$ | $$\color{#ff9c80}33.3$$ | $$\color{#ff9180}34.0$$ | $$\color{#ffb480}31.9$$ | $$\color{#ffa480}32.8$$ | $$\color{#ffa180}33.1$$ | $$\color{#ff9580}33.7$$ | $$\color{#ffa980}32.6$$ | $$\color{#ffb480}31.9$$ | $$\color{#ffc980}30.7$$ | $$\color{#ffd680}29.9$$ |
-| Daily Mean (°C) | $$\color{#eeff80}26.5$$ | $$\color{#faff80}27.2$$ | $$\color{#ffec80}28.6$$ | $$\color{#ffe180}29.3$$ | $$\color{#fff280}28.3$$ | $$\color{#ffe580}29.0$$ | $$\color{#ffe680}29.0$$ | $$\color{#ffdf80}29.4$$ | $$\color{#ffed80}28.5$$ | $$\color{#fff680}28.0$$ | $$\color{#f9ff80}27.2$$ | $$\color{#f0ff80}26.6$$ |
-| Mean daily minimum (°C) | $$\color{#acff80}22.6$$ | $$\color{#b1ff80}22.9$$ | $$\color{#c2ff80}23.9$$ | $$\color{#ceff80}24.6$$ | $$\color{#d9ff80}25.3$$ | $$\color{#d9ff80}25.3$$ | $$\color{#d3ff80}24.9$$ | $$\color{#d5ff80}25.0$$ | $$\color{#d2ff80}24.8$$ | $$\color{#c6ff80}24.1$$ | $$\color{#bdff80}23.6$$ | $$\color{#b8ff80}23.3$$ |
-| Record Low (°C) | $$\color{#80ff92}18.9$$ | $$\color{#80ff86}19.6$$ | $$\color{#a8ff80}22.4$$ | $$\color{#a7ff80}22.3$$ | $$\color{#b2ff80}23.0$$ | $$\color{#c9ff80}24.3$$ | $$\color{#aaff80}22.5$$ | $$\color{#a5ff80}22.2$$ | $$\color{#b1ff80}22.9$$ | $$\color{#97ff80}21.4$$ | $$\color{#8fff80}20.9$$ | $$\color{#80ffa8}17.6$$ |
-| Avg Rain (mm) | $$\color{#00ff0a}380.8%$$ | $$\color{#00ff07}278.3%$$ | $$\color{#00ff08}305.8%$$ | $$\color{#00ff1c}1111.6%$$ | $$\color{#00ff0d}511.5%$$ | $$\color{#00ff00}0.0%$$ | $$\color{#00ff09}361.8%$$ | $$\color{#00ff05}209.5%$$ | $$\color{#00ff08}300.9%$$ | $$\color{#00ff12}717.7%$$ | $$\color{#00ff1c}1098.4%$$ | $$\color{#00ff17}885.7%$$ |
-| % Days Rain | $$\color{#00ff01}33.8%$$ | $$\color{#00ff01}22.4%$$ | $$\color{#00ff00}19.4%$$ | $$\color{#00ff01}45.5%$$ | $$\color{#00ff01}42.5%$$ | $$\color{#00ff00}0.0%$$ | $$\color{#00ff01}22.7%$$ | $$\color{#00ff00}9.2%$$ | $$\color{#00ff01}23.5%$$ | $$\color{#00ff02}61.7%$$ | $$\color{#00ff02}72.4%$$ | $$\color{#00ff02}64.9%$$ |
+| Record High (°C) | 37.4 | 34.6 | 36.0 | 35.7 | 34.9 | 35.5 | 36.8 | 37.3 | 36.0 | 35.0 | 32.9 | 33.1 |
+| Mean daily maximum (°C) | 30.4 | 31.5 | 33.3 | 34.0 | 31.9 | 32.8 | 33.1 | 33.7 | 32.6 | 31.9 | 30.7 | 29.9 |
+| Daily Mean (°C) | 26.5 | 27.2 | 28.6 | 29.3 | 28.3 | 29.0 | 29.0 | 29.4 | 28.5 | 28.0 | 27.2 | 26.6 |
+| Mean daily minimum (°C) | 22.6 | 22.9 | 23.9 | 24.6 | 25.3 | 25.3 | 24.9 | 25.0 | 24.8 | 24.1 | 23.6 | 23.3 |
+| Record Low (°C) | 18.9 | 19.6 | 22.4 | 22.3 | 23.0 | 24.3 | 22.5 | 22.2 | 22.9 | 21.4 | 20.9 | 17.6 |
+| Avg Rain (mm) | 3.8 | 2.8 | 3.1 | 11.1 | 5.1 | 0.0 | 3.6 | 2.1 | 3.0 | 7.2 | 11.0 | 8.9 |
+| % Days Rain | 0.3 | 0.2 | 0.2 | 0.5 | 0.4 | 0.0 | 0.2 | 0.1 | 0.2 | 0.6 | 0.7 | 0.6 |
 
 ## Maha Illuppallama
 
 | Stat | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
 |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |
 | Sample Size (Days) | 66 | 73 | 32 | 48 | 41 | 19 | 46 | 63 | 70 | 63 | 83 | 81 |
-| Record High (°C) | $$\color{#ffa880}32.6$$ | $$\color{#ff8a80}34.4$$ | $$\color{#ff8080}35.7$$ | $$\color{#ff8080}35.8$$ | $$\color{#ff8880}34.5$$ | $$\color{#ff9980}33.5$$ | $$\color{#ff8080}36.3$$ | $$\color{#ff8080}36.4$$ | $$\color{#ff8080}36.3$$ | $$\color{#ff8d80}34.2$$ | $$\color{#ffa080}33.1$$ | $$\color{#ff9780}33.6$$ |
-| Mean daily maximum (°C) | $$\color{#ffd280}30.2$$ | $$\color{#ffc180}31.1$$ | $$\color{#ff9c80}33.3$$ | $$\color{#ff9180}34.0$$ | $$\color{#ffba80}31.6$$ | $$\color{#ffb080}32.1$$ | $$\color{#ffa480}32.9$$ | $$\color{#ffa180}33.0$$ | $$\color{#ffb380}32.0$$ | $$\color{#ffba80}31.5$$ | $$\color{#ffcb80}30.5$$ | $$\color{#ffda80}29.7$$ |
-| Daily Mean (°C) | $$\color{#e4ff80}25.9$$ | $$\color{#e4ff80}25.9$$ | $$\color{#fff580}28.1$$ | $$\color{#ffea80}28.8$$ | $$\color{#fff880}27.9$$ | $$\color{#ffeb80}28.7$$ | $$\color{#ffeb80}28.7$$ | $$\color{#ffe880}28.8$$ | $$\color{#fff680}28.0$$ | $$\color{#fffe80}27.6$$ | $$\color{#f2ff80}26.7$$ | $$\color{#e7ff80}26.1$$ |
-| Mean daily minimum (°C) | $$\color{#9bff80}21.6$$ | $$\color{#93ff80}21.1$$ | $$\color{#afff80}22.8$$ | $$\color{#bbff80}23.5$$ | $$\color{#d3ff80}24.9$$ | $$\color{#d8ff80}25.2$$ | $$\color{#cdff80}24.6$$ | $$\color{#cfff80}24.7$$ | $$\color{#cbff80}24.5$$ | $$\color{#bcff80}23.6$$ | $$\color{#b0ff80}22.9$$ | $$\color{#abff80}22.5$$ |
-| Record Low (°C) | $$\color{#80ffb3}17.0$$ | $$\color{#80ffb8}16.7$$ | $$\color{#8aff80}20.6$$ | $$\color{#99ff80}21.5$$ | $$\color{#a7ff80}22.3$$ | $$\color{#b8ff80}23.3$$ | $$\color{#a7ff80}22.3$$ | $$\color{#a5ff80}22.2$$ | $$\color{#a8ff80}22.4$$ | $$\color{#80ff8a}19.4$$ | $$\color{#80ff92}18.9$$ | $$\color{#80ffa8}17.6$$ |
-| Avg Rain (mm) | $$\color{#00ff0e}540.0%$$ | $$\color{#00ff07}280.5%$$ | $$\color{#00ff04}152.2%$$ | $$\color{#00ff14}771.9%$$ | $$\color{#00ff0b}412.7%$$ | $$\color{#00ff00}14.7%$$ | $$\color{#00ff0b}430.2%$$ | $$\color{#00ff04}137.3%$$ | $$\color{#00ff05}185.1%$$ | $$\color{#00ff12}708.7%$$ | $$\color{#00ff1e}1181.1%$$ | $$\color{#00ff16}880.6%$$ |
-| % Days Rain | $$\color{#00ff01}36.4%$$ | $$\color{#00ff01}26.0%$$ | $$\color{#00ff01}28.1%$$ | $$\color{#00ff01}52.1%$$ | $$\color{#00ff01}46.3%$$ | $$\color{#00ff00}5.3%$$ | $$\color{#00ff01}30.4%$$ | $$\color{#00ff00}15.9%$$ | $$\color{#00ff01}27.1%$$ | $$\color{#00ff01}55.6%$$ | $$\color{#00ff02}77.1%$$ | $$\color{#00ff02}66.7%$$ |
+| Record High (°C) | 32.6 | 34.4 | 35.7 | 35.8 | 34.5 | 33.5 | 36.3 | 36.4 | 36.3 | 34.2 | 33.1 | 33.6 |
+| Mean daily maximum (°C) | 30.2 | 31.1 | 33.3 | 34.0 | 31.6 | 32.1 | 32.9 | 33.0 | 32.0 | 31.5 | 30.5 | 29.7 |
+| Daily Mean (°C) | 25.9 | 25.9 | 28.1 | 28.8 | 27.9 | 28.7 | 28.7 | 28.8 | 28.0 | 27.6 | 26.7 | 26.1 |
+| Mean daily minimum (°C) | 21.6 | 21.1 | 22.8 | 23.5 | 24.9 | 25.2 | 24.6 | 24.7 | 24.5 | 23.6 | 22.9 | 22.5 |
+| Record Low (°C) | 17.0 | 16.7 | 20.6 | 21.5 | 22.3 | 23.3 | 22.3 | 22.2 | 22.4 | 19.4 | 18.9 | 17.6 |
+| Avg Rain (mm) | 5.4 | 2.8 | 1.5 | 7.7 | 4.1 | 0.1 | 4.3 | 1.4 | 1.9 | 7.1 | 11.8 | 8.8 |
+| % Days Rain | 0.4 | 0.3 | 0.3 | 0.5 | 0.5 | 0.1 | 0.3 | 0.2 | 0.3 | 0.6 | 0.8 | 0.7 |
 
 ## Polonnaruwa
 
 | Stat | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
 |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |
 | Sample Size (Days) | 71 | 77 | 32 | 45 | 39 | 18 | 45 | 63 | 66 | 58 | 91 | 77 |
-| Record High (°C) | $$\color{#ffa380}32.9$$ | $$\color{#ff8880}34.5$$ | $$\color{#ff8080}35.9$$ | $$\color{#ff8080}36.9$$ | $$\color{#ff8080}36.1$$ | $$\color{#ff8080}37.4$$ | $$\color{#ff8080}37.1$$ | $$\color{#ff8080}38.1$$ | $$\color{#ff8080}38.3$$ | $$\color{#ff8080}36.1$$ | $$\color{#ff8f80}34.1$$ | $$\color{#ffa280}33.0$$ |
-| Mean daily maximum (°C) | $$\color{#ffd380}30.1$$ | $$\color{#ffc580}30.9$$ | $$\color{#ff9e80}33.2$$ | $$\color{#ff8480}34.7$$ | $$\color{#ff9980}33.5$$ | $$\color{#ff8080}35.0$$ | $$\color{#ff8080}34.9$$ | $$\color{#ff8080}35.3$$ | $$\color{#ff8080}35.4$$ | $$\color{#ffa080}33.1$$ | $$\color{#ffc080}31.2$$ | $$\color{#ffd280}30.2$$ |
-| Daily Mean (°C) | $$\color{#e9ff80}26.2$$ | $$\color{#efff80}26.6$$ | $$\color{#fff080}28.4$$ | $$\color{#ffde80}29.4$$ | $$\color{#ffe180}29.3$$ | $$\color{#ffcc80}30.5$$ | $$\color{#ffce80}30.4$$ | $$\color{#ffcc80}30.5$$ | $$\color{#ffce80}30.4$$ | $$\color{#ffec80}28.6$$ | $$\color{#fcff80}27.4$$ | $$\color{#f1ff80}26.7$$ |
-| Mean daily minimum (°C) | $$\color{#a6ff80}22.3$$ | $$\color{#a5ff80}22.2$$ | $$\color{#bbff80}23.5$$ | $$\color{#c5ff80}24.1$$ | $$\color{#d5ff80}25.0$$ | $$\color{#e5ff80}26.0$$ | $$\color{#e2ff80}25.8$$ | $$\color{#e1ff80}25.7$$ | $$\color{#dbff80}25.4$$ | $$\color{#c7ff80}24.2$$ | $$\color{#bbff80}23.5$$ | $$\color{#b5ff80}23.2$$ |
-| Record Low (°C) | $$\color{#80ffa5}17.8$$ | $$\color{#80ff92}18.9$$ | $$\color{#9cff80}21.7$$ | $$\color{#a8ff80}22.4$$ | $$\color{#bbff80}23.5$$ | $$\color{#b6ff80}23.2$$ | $$\color{#b4ff80}23.1$$ | $$\color{#b4ff80}23.1$$ | $$\color{#a8ff80}22.4$$ | $$\color{#8dff80}20.8$$ | $$\color{#80ff8d}19.2$$ | $$\color{#80ffa0}18.1$$ |
-| Avg Rain (mm) | $$\color{#00ff17}918.0%$$ | $$\color{#00ff11}658.4%$$ | $$\color{#00ff05}207.8%$$ | $$\color{#00ff11}667.6%$$ | $$\color{#00ff08}298.5%$$ | $$\color{#00ff00}0.0%$$ | $$\color{#00ff09}366.7%$$ | $$\color{#00ff08}311.4%$$ | $$\color{#00ff07}267.3%$$ | $$\color{#00ff0f}568.8%$$ | $$\color{#00ff21}1297.8%$$ | $$\color{#00ff24}1410.5%$$ |
-| % Days Rain | $$\color{#00ff01}52.1%$$ | $$\color{#00ff01}39.0%$$ | $$\color{#00ff01}28.1%$$ | $$\color{#00ff01}44.4%$$ | $$\color{#00ff01}23.1%$$ | $$\color{#00ff00}0.0%$$ | $$\color{#00ff01}26.7%$$ | $$\color{#00ff00}15.9%$$ | $$\color{#00ff01}21.2%$$ | $$\color{#00ff01}55.2%$$ | $$\color{#00ff02}78.0%$$ | $$\color{#00ff02}74.0%$$ |
+| Record High (°C) | 32.9 | 34.5 | 35.9 | 36.9 | 36.1 | 37.4 | 37.1 | 38.1 | 38.3 | 36.1 | 34.1 | 33.0 |
+| Mean daily maximum (°C) | 30.1 | 30.9 | 33.2 | 34.7 | 33.5 | 35.0 | 34.9 | 35.3 | 35.4 | 33.1 | 31.2 | 30.2 |
+| Daily Mean (°C) | 26.2 | 26.6 | 28.4 | 29.4 | 29.3 | 30.5 | 30.4 | 30.5 | 30.4 | 28.6 | 27.4 | 26.7 |
+| Mean daily minimum (°C) | 22.3 | 22.2 | 23.5 | 24.1 | 25.0 | 26.0 | 25.8 | 25.7 | 25.4 | 24.2 | 23.5 | 23.2 |
+| Record Low (°C) | 17.8 | 18.9 | 21.7 | 22.4 | 23.5 | 23.2 | 23.1 | 23.1 | 22.4 | 20.8 | 19.2 | 18.1 |
+| Avg Rain (mm) | 9.2 | 6.6 | 2.1 | 6.7 | 3.0 | 0.0 | 3.7 | 3.1 | 2.7 | 5.7 | 13.0 | 14.1 |
+| % Days Rain | 0.5 | 0.4 | 0.3 | 0.4 | 0.2 | 0.0 | 0.3 | 0.2 | 0.2 | 0.6 | 0.8 | 0.7 |
 
 ## Badulla
 
 | Stat | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
 |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |
 | Sample Size (Days) | 71 | 75 | 29 | 44 | 38 | 15 | 46 | 60 | 71 | 61 | 89 | 80 |
-| Record High (°C) | $$\color{#ffee80}28.5$$ | $$\color{#ffd380}30.1$$ | $$\color{#ffc080}31.2$$ | $$\color{#ffc080}31.2$$ | $$\color{#ffb480}31.9$$ | $$\color{#ff9980}33.5$$ | $$\color{#ff9780}33.6$$ | $$\color{#ff9780}33.6$$ | $$\color{#ffac80}32.4$$ | $$\color{#ffc780}30.8$$ | $$\color{#ffe480}29.1$$ | $$\color{#ffe780}28.9$$ |
-| Mean daily maximum (°C) | $$\color{#dbff80}25.4$$ | $$\color{#f0ff80}26.6$$ | $$\color{#ffef80}28.5$$ | $$\color{#ffe180}29.2$$ | $$\color{#ffd780}29.8$$ | $$\color{#ffcd80}30.4$$ | $$\color{#ffd480}30.0$$ | $$\color{#ffd880}29.8$$ | $$\color{#ffdd80}29.5$$ | $$\color{#fff780}28.0$$ | $$\color{#f5ff80}26.9$$ | $$\color{#e0ff80}25.7$$ |
-| Daily Mean (°C) | $$\color{#9dff80}21.7$$ | $$\color{#a6ff80}22.3$$ | $$\color{#bbff80}23.5$$ | $$\color{#c6ff80}24.1$$ | $$\color{#d2ff80}24.8$$ | $$\color{#caff80}24.4$$ | $$\color{#cdff80}24.5$$ | $$\color{#c9ff80}24.3$$ | $$\color{#c6ff80}24.2$$ | $$\color{#baff80}23.5$$ | $$\color{#b3ff80}23.0$$ | $$\color{#a6ff80}22.3$$ |
-| Mean daily minimum (°C) | $$\color{#80ffa0}18.1$$ | $$\color{#80ffa3}17.9$$ | $$\color{#80ff98}18.5$$ | $$\color{#80ff91}19.0$$ | $$\color{#80ff82}19.8$$ | $$\color{#80ff9c}18.3$$ | $$\color{#80ff90}19.0$$ | $$\color{#80ff94}18.8$$ | $$\color{#80ff93}18.9$$ | $$\color{#80ff92}18.9$$ | $$\color{#80ff8f}19.1$$ | $$\color{#80ff94}18.8$$ |
-| Record Low (°C) | $$\color{#80e2ff}10.8$$ | $$\color{#80fffd}12.6$$ | $$\color{#80ffb6}16.8$$ | $$\color{#80ffbb}16.5$$ | $$\color{#80ffa5}17.8$$ | $$\color{#80ffcc}15.5$$ | $$\color{#80ffb9}16.6$$ | $$\color{#80ffd6}14.9$$ | $$\color{#80ffd6}14.9$$ | $$\color{#80ffbd}16.4$$ | $$\color{#80ffec}13.6$$ | $$\color{#80ffdf}14.4$$ |
-| Avg Rain (mm) | $$\color{#00ff0f}591.0%$$ | $$\color{#00ff08}315.1%$$ | $$\color{#00ff08}331.0%$$ | $$\color{#00ff1a}1031.8%$$ | $$\color{#00ff0c}451.1%$$ | $$\color{#00ff01}29.3%$$ | $$\color{#00ff0c}476.1%$$ | $$\color{#00ff0c}473.5%$$ | $$\color{#00ff0c}464.6%$$ | $$\color{#00ff15}821.3%$$ | $$\color{#00ff1c}1083.9%$$ | $$\color{#00ff1b}1066.4%$$ |
-| % Days Rain | $$\color{#00ff02}60.6%$$ | $$\color{#00ff01}41.3%$$ | $$\color{#00ff01}48.3%$$ | $$\color{#00ff02}68.2%$$ | $$\color{#00ff01}47.4%$$ | $$\color{#00ff00}6.7%$$ | $$\color{#00ff01}43.5%$$ | $$\color{#00ff01}43.3%$$ | $$\color{#00ff01}53.5%$$ | $$\color{#00ff02}68.9%$$ | $$\color{#00ff02}77.5%$$ | $$\color{#00ff02}75.0%$$ |
+| Record High (°C) | 28.5 | 30.1 | 31.2 | 31.2 | 31.9 | 33.5 | 33.6 | 33.6 | 32.4 | 30.8 | 29.1 | 28.9 |
+| Mean daily maximum (°C) | 25.4 | 26.6 | 28.5 | 29.2 | 29.8 | 30.4 | 30.0 | 29.8 | 29.5 | 28.0 | 26.9 | 25.7 |
+| Daily Mean (°C) | 21.7 | 22.3 | 23.5 | 24.1 | 24.8 | 24.4 | 24.5 | 24.3 | 24.2 | 23.5 | 23.0 | 22.3 |
+| Mean daily minimum (°C) | 18.1 | 17.9 | 18.5 | 19.0 | 19.8 | 18.3 | 19.0 | 18.8 | 18.9 | 18.9 | 19.1 | 18.8 |
+| Record Low (°C) | 10.8 | 12.6 | 16.8 | 16.5 | 17.8 | 15.5 | 16.6 | 14.9 | 14.9 | 16.4 | 13.6 | 14.4 |
+| Avg Rain (mm) | 5.9 | 3.2 | 3.3 | 10.3 | 4.5 | 0.3 | 4.8 | 4.7 | 4.6 | 8.2 | 10.8 | 10.7 |
+| % Days Rain | 0.6 | 0.4 | 0.5 | 0.7 | 0.5 | 0.1 | 0.4 | 0.4 | 0.5 | 0.7 | 0.8 | 0.8 |
 
 ## Bandarawela
 
 | Stat | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
 |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |
 | Sample Size (Days) | 66 | 71 | 31 | 49 | 40 | 17 | 42 | 57 | 65 | 60 | 86 | 79 |
-| Record High (°C) | $$\color{#e2ff80}25.8$$ | $$\color{#fcff80}27.3$$ | $$\color{#fcff80}27.3$$ | $$\color{#f8ff80}27.1$$ | $$\color{#ffe080}29.3$$ | $$\color{#ffe480}29.1$$ | $$\color{#ffd180}30.2$$ | $$\color{#ffe480}29.1$$ | $$\color{#ffe480}29.1$$ | $$\color{#fdff80}27.4$$ | $$\color{#faff80}27.2$$ | $$\color{#ecff80}26.4$$ |
-| Mean daily maximum (°C) | $$\color{#b7ff80}23.2$$ | $$\color{#cbff80}24.5$$ | $$\color{#daff80}25.3$$ | $$\color{#e1ff80}25.7$$ | $$\color{#e4ff80}25.9$$ | $$\color{#f7ff80}27.0$$ | $$\color{#efff80}26.5$$ | $$\color{#edff80}26.5$$ | $$\color{#e5ff80}26.0$$ | $$\color{#d4ff80}25.0$$ | $$\color{#c4ff80}24.0$$ | $$\color{#b8ff80}23.3$$ |
-| Daily Mean (°C) | $$\color{#80ff87}19.5$$ | $$\color{#81ff80}20.1$$ | $$\color{#8dff80}20.8$$ | $$\color{#96ff80}21.3$$ | $$\color{#a0ff80}21.9$$ | $$\color{#a8ff80}22.4$$ | $$\color{#a9ff80}22.4$$ | $$\color{#a3ff80}22.1$$ | $$\color{#9cff80}21.7$$ | $$\color{#8cff80}20.8$$ | $$\color{#88ff80}20.5$$ | $$\color{#80ff80}19.9$$ |
-| Mean daily minimum (°C) | $$\color{#80ffc6}15.8$$ | $$\color{#80ffc9}15.7$$ | $$\color{#80ffc0}16.2$$ | $$\color{#80ffb3}16.9$$ | $$\color{#80ff9c}18.3$$ | $$\color{#80ffa7}17.7$$ | $$\color{#80ff9c}18.3$$ | $$\color{#80ffa5}17.8$$ | $$\color{#80ffab}17.4$$ | $$\color{#80ffb3}17.0$$ | $$\color{#80ffaf}17.2$$ | $$\color{#80ffba}16.5$$ |
-| Record Low (°C) | $$\color{#80e4ff}10.9$$ | $$\color{#80e2ff}10.8$$ | $$\color{#80ffeb}13.7$$ | $$\color{#80ffdb}14.6$$ | $$\color{#80ffb9}16.6$$ | $$\color{#80ffc0}16.2$$ | $$\color{#80ffc2}16.1$$ | $$\color{#80ffc0}16.2$$ | $$\color{#80ffc9}15.7$$ | $$\color{#80ffd6}14.9$$ | $$\color{#80fff5}13.1$$ | $$\color{#80e9ff}11.2$$ |
-| Avg Rain (mm) | $$\color{#00ff0c}462.6%$$ | $$\color{#00ff06}224.8%$$ | $$\color{#00ff07}265.5%$$ | $$\color{#00ff13}751.0%$$ | $$\color{#00ff0e}544.5%$$ | $$\color{#00ff07}287.1%$$ | $$\color{#00ff0d}523.1%$$ | $$\color{#00ff0c}484.9%$$ | $$\color{#00ff11}666.9%$$ | $$\color{#00ff18}928.3%$$ | $$\color{#00ff1f}1205.7%$$ | $$\color{#00ff14}782.8%$$ |
-| % Days Rain | $$\color{#00ff01}54.5%$$ | $$\color{#00ff01}40.8%$$ | $$\color{#00ff01}48.4%$$ | $$\color{#00ff02}69.4%$$ | $$\color{#00ff02}65.0%$$ | $$\color{#00ff01}29.4%$$ | $$\color{#00ff01}45.2%$$ | $$\color{#00ff01}45.6%$$ | $$\color{#00ff02}64.6%$$ | $$\color{#00ff02}78.3%$$ | $$\color{#00ff02}81.4%$$ | $$\color{#00ff02}73.4%$$ |
+| Record High (°C) | 25.8 | 27.3 | 27.3 | 27.1 | 29.3 | 29.1 | 30.2 | 29.1 | 29.1 | 27.4 | 27.2 | 26.4 |
+| Mean daily maximum (°C) | 23.2 | 24.5 | 25.3 | 25.7 | 25.9 | 27.0 | 26.5 | 26.5 | 26.0 | 25.0 | 24.0 | 23.3 |
+| Daily Mean (°C) | 19.5 | 20.1 | 20.8 | 21.3 | 21.9 | 22.4 | 22.4 | 22.1 | 21.7 | 20.8 | 20.5 | 19.9 |
+| Mean daily minimum (°C) | 15.8 | 15.7 | 16.2 | 16.9 | 18.3 | 17.7 | 18.3 | 17.8 | 17.4 | 17.0 | 17.2 | 16.5 |
+| Record Low (°C) | 10.9 | 10.8 | 13.7 | 14.6 | 16.6 | 16.2 | 16.1 | 16.2 | 15.7 | 14.9 | 13.1 | 11.2 |
+| Avg Rain (mm) | 4.6 | 2.2 | 2.7 | 7.5 | 5.4 | 2.9 | 5.2 | 4.8 | 6.7 | 9.3 | 12.1 | 7.8 |
+| % Days Rain | 0.5 | 0.4 | 0.5 | 0.7 | 0.7 | 0.3 | 0.5 | 0.5 | 0.6 | 0.8 | 0.8 | 0.7 |
 
 ## Monaragala
 
 | Stat | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
 |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |
 | Sample Size (Days) | 71 | 75 | 30 | 47 | 42 | 19 | 47 | 60 | 69 | 61 | 89 | 82 |
-| Record High (°C) | $$\color{#ff9280}33.9$$ | $$\color{#ff8080}35.0$$ | $$\color{#ff8080}35.3$$ | $$\color{#ff8080}35.5$$ | $$\color{#ff8080}35.1$$ | $$\color{#ff8080}36.3$$ | $$\color{#ff8080}37.3$$ | $$\color{#ff8080}37.5$$ | $$\color{#ff8080}36.5$$ | $$\color{#ff8080}36.4$$ | $$\color{#ff9b80}33.4$$ | $$\color{#ff8b80}34.3$$ |
-| Mean daily maximum (°C) | $$\color{#ffcc80}30.5$$ | $$\color{#ffbb80}31.5$$ | $$\color{#ff9f80}33.2$$ | $$\color{#ff9880}33.6$$ | $$\color{#ffab80}32.4$$ | $$\color{#ff8d80}34.2$$ | $$\color{#ff9180}34.0$$ | $$\color{#ff8c80}34.3$$ | $$\color{#ff9680}33.7$$ | $$\color{#ffae80}32.3$$ | $$\color{#ffc180}31.1$$ | $$\color{#ffce80}30.4$$ |
-| Daily Mean (°C) | $$\color{#e5ff80}26.0$$ | $$\color{#f2ff80}26.7$$ | $$\color{#fffc80}27.7$$ | $$\color{#fff780}28.0$$ | $$\color{#fffc80}27.7$$ | $$\color{#fff080}28.4$$ | $$\color{#fff580}28.1$$ | $$\color{#fff480}28.1$$ | $$\color{#fff680}28.1$$ | $$\color{#faff80}27.2$$ | $$\color{#f2ff80}26.7$$ | $$\color{#ecff80}26.4$$ |
-| Mean daily minimum (°C) | $$\color{#98ff80}21.5$$ | $$\color{#a1ff80}22.0$$ | $$\color{#a4ff80}22.2$$ | $$\color{#a7ff80}22.3$$ | $$\color{#b1ff80}22.9$$ | $$\color{#abff80}22.6$$ | $$\color{#a4ff80}22.2$$ | $$\color{#a1ff80}22.0$$ | $$\color{#a9ff80}22.4$$ | $$\color{#a3ff80}22.1$$ | $$\color{#a7ff80}22.3$$ | $$\color{#a7ff80}22.3$$ |
-| Record Low (°C) | $$\color{#80ffe7}13.9$$ | $$\color{#80ffa7}17.7$$ | $$\color{#80ff83}19.8$$ | $$\color{#85ff80}20.3$$ | $$\color{#8aff80}20.6$$ | $$\color{#85ff80}20.3$$ | $$\color{#85ff80}20.3$$ | $$\color{#80ffa5}17.8$$ | $$\color{#80ff88}19.5$$ | $$\color{#80ff81}19.9$$ | $$\color{#80ff96}18.7$$ | $$\color{#80ff9c}18.3$$ |
-| Avg Rain (mm) | $$\color{#00ff0b}448.0%$$ | $$\color{#00ff0d}524.7%$$ | $$\color{#00ff06}247.3%$$ | $$\color{#00ff20}1263.0%$$ | $$\color{#00ff14}774.5%$$ | $$\color{#00ff02}88.4%$$ | $$\color{#00ff11}665.5%$$ | $$\color{#00ff07}287.3%$$ | $$\color{#00ff0d}498.0%$$ | $$\color{#00ff1b}1053.0%$$ | $$\color{#00ff26}1500.6%$$ | $$\color{#00ff15}821.8%$$ |
-| % Days Rain | $$\color{#00ff01}40.8%$$ | $$\color{#00ff01}38.7%$$ | $$\color{#00ff01}33.3%$$ | $$\color{#00ff02}59.6%$$ | $$\color{#00ff01}40.5%$$ | $$\color{#00ff00}10.5%$$ | $$\color{#00ff01}38.3%$$ | $$\color{#00ff01}30.0%$$ | $$\color{#00ff01}47.8%$$ | $$\color{#00ff02}67.2%$$ | $$\color{#00ff02}78.7%$$ | $$\color{#00ff02}63.4%$$ |
+| Record High (°C) | 33.9 | 35.0 | 35.3 | 35.5 | 35.1 | 36.3 | 37.3 | 37.5 | 36.5 | 36.4 | 33.4 | 34.3 |
+| Mean daily maximum (°C) | 30.5 | 31.5 | 33.2 | 33.6 | 32.4 | 34.2 | 34.0 | 34.3 | 33.7 | 32.3 | 31.1 | 30.4 |
+| Daily Mean (°C) | 26.0 | 26.7 | 27.7 | 28.0 | 27.7 | 28.4 | 28.1 | 28.1 | 28.1 | 27.2 | 26.7 | 26.4 |
+| Mean daily minimum (°C) | 21.5 | 22.0 | 22.2 | 22.3 | 22.9 | 22.6 | 22.2 | 22.0 | 22.4 | 22.1 | 22.3 | 22.3 |
+| Record Low (°C) | 13.9 | 17.7 | 19.8 | 20.3 | 20.6 | 20.3 | 20.3 | 17.8 | 19.5 | 19.9 | 18.7 | 18.3 |
+| Avg Rain (mm) | 4.5 | 5.2 | 2.5 | 12.6 | 7.7 | 0.9 | 6.7 | 2.9 | 5.0 | 10.5 | 15.0 | 8.2 |
+| % Days Rain | 0.4 | 0.4 | 0.3 | 0.6 | 0.4 | 0.1 | 0.4 | 0.3 | 0.5 | 0.7 | 0.8 | 0.6 |
 
 ## Rathnapura
 
 | Stat | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
 |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |
 | Sample Size (Days) | 69 | 71 | 29 | 43 | 41 | 20 | 48 | 65 | 68 | 61 | 90 | 73 |
-| Record High (°C) | $$\color{#ff8080}35.4$$ | $$\color{#ff8080}37.5$$ | $$\color{#ff8080}35.8$$ | $$\color{#ff8080}35.6$$ | $$\color{#ff8f80}34.1$$ | $$\color{#ff9e80}33.2$$ | $$\color{#ff8680}34.6$$ | $$\color{#ff8080}37.1$$ | $$\color{#ff8080}35.2$$ | $$\color{#ff8b80}34.3$$ | $$\color{#ff8080}35.0$$ | $$\color{#ff8880}34.5$$ |
-| Mean daily maximum (°C) | $$\color{#ffa780}32.7$$ | $$\color{#ff9780}33.6$$ | $$\color{#ff9680}33.7$$ | $$\color{#ff9780}33.6$$ | $$\color{#ffc680}30.9$$ | $$\color{#ffc180}31.1$$ | $$\color{#ffc280}31.1$$ | $$\color{#ffbd80}31.4$$ | $$\color{#ffc680}30.8$$ | $$\color{#ffcb80}30.5$$ | $$\color{#ffb680}31.8$$ | $$\color{#ffb580}31.9$$ |
-| Daily Mean (°C) | $$\color{#fdff80}27.4$$ | $$\color{#fff680}28.0$$ | $$\color{#ffee80}28.5$$ | $$\color{#ffef80}28.4$$ | $$\color{#f9ff80}27.1$$ | $$\color{#fdff80}27.4$$ | $$\color{#ffff80}27.5$$ | $$\color{#fffe80}27.6$$ | $$\color{#f7ff80}27.0$$ | $$\color{#f4ff80}26.8$$ | $$\color{#fbff80}27.3$$ | $$\color{#fbff80}27.2$$ |
-| Mean daily minimum (°C) | $$\color{#a4ff80}22.1$$ | $$\color{#a8ff80}22.4$$ | $$\color{#b7ff80}23.3$$ | $$\color{#b6ff80}23.2$$ | $$\color{#c3ff80}24.0$$ | $$\color{#bcff80}23.6$$ | $$\color{#c2ff80}23.9$$ | $$\color{#c0ff80}23.8$$ | $$\color{#b6ff80}23.2$$ | $$\color{#b5ff80}23.1$$ | $$\color{#aeff80}22.7$$ | $$\color{#acff80}22.6$$ |
-| Record Low (°C) | $$\color{#80ffa5}17.8$$ | $$\color{#80ff86}19.6$$ | $$\color{#a1ff80}22.0$$ | $$\color{#91ff80}21.0$$ | $$\color{#a7ff80}22.3$$ | $$\color{#a8ff80}22.4$$ | $$\color{#a0ff80}21.9$$ | $$\color{#a8ff80}22.4$$ | $$\color{#9cff80}21.7$$ | $$\color{#9cff80}21.7$$ | $$\color{#85ff80}20.3$$ | $$\color{#80ff8b}19.3$$ |
-| Avg Rain (mm) | $$\color{#00ff11}679.3%$$ | $$\color{#00ff15}816.6%$$ | $$\color{#00ff1d}1129.0%$$ | $$\color{#00ff24}1399.8%$$ | $$\color{#00ff3f}2468.8%$$ | $$\color{#00ff19}968.5%$$ | $$\color{#00ff1d}1128.3%$$ | $$\color{#00ff1c}1113.8%$$ | $$\color{#00ff32}1948.5%$$ | $$\color{#00ff33}2005.7%$$ | $$\color{#00ff2b}1674.3%$$ | $$\color{#00ff19}994.5%$$ |
-| % Days Rain | $$\color{#00ff01}50.7%$$ | $$\color{#00ff01}53.5%$$ | $$\color{#00ff01}58.6%$$ | $$\color{#00ff02}83.7%$$ | $$\color{#00ff03}100.0%$$ | $$\color{#00ff02}80.0%$$ | $$\color{#00ff02}79.2%$$ | $$\color{#00ff02}73.8%$$ | $$\color{#00ff02}85.3%$$ | $$\color{#00ff02}95.1%$$ | $$\color{#00ff02}80.0%$$ | $$\color{#00ff02}76.7%$$ |
+| Record High (°C) | 35.4 | 37.5 | 35.8 | 35.6 | 34.1 | 33.2 | 34.6 | 37.1 | 35.2 | 34.3 | 35.0 | 34.5 |
+| Mean daily maximum (°C) | 32.7 | 33.6 | 33.7 | 33.6 | 30.9 | 31.1 | 31.1 | 31.4 | 30.8 | 30.5 | 31.8 | 31.9 |
+| Daily Mean (°C) | 27.4 | 28.0 | 28.5 | 28.4 | 27.1 | 27.4 | 27.5 | 27.6 | 27.0 | 26.8 | 27.3 | 27.2 |
+| Mean daily minimum (°C) | 22.1 | 22.4 | 23.3 | 23.2 | 24.0 | 23.6 | 23.9 | 23.8 | 23.2 | 23.1 | 22.7 | 22.6 |
+| Record Low (°C) | 17.8 | 19.6 | 22.0 | 21.0 | 22.3 | 22.4 | 21.9 | 22.4 | 21.7 | 21.7 | 20.3 | 19.3 |
+| Avg Rain (mm) | 6.8 | 8.2 | 11.3 | 14.0 | 24.7 | 9.7 | 11.3 | 11.1 | 19.5 | 20.1 | 16.7 | 9.9 |
+| % Days Rain | 0.5 | 0.5 | 0.6 | 0.8 | 1.0 | 0.8 | 0.8 | 0.7 | 0.9 | 1.0 | 0.8 | 0.8 |
