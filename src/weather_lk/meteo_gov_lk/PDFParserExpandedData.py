@@ -1,10 +1,11 @@
 import os
 import re
+import shutil
 from functools import cached_property
 
 from utils import TIME_FORMAT_DATE, JSONFile, Log, Time, TimeFormat
 
-from weather_lk.constants import DIR_REPO_JSON_PARSED
+from weather_lk.constants import DIR_REPO_JSON_PARSED, DIR_REPO_PDF_PARSED
 from weather_lk.meteo_gov_lk.REGEX import REGEX
 from weather_lk.place_to_latlng.PlaceToLatLng import (DEFAULT_LATLNG,
                                                       PlaceToLatLng)
@@ -125,4 +126,10 @@ class PDFParserExpandedData:
 
         JSONFile(data_path).write(self.expanded_data)
         log.info(f'Wrote to data to {data_path}')
+
+        parsed_pdf_path = os.path.join(DIR_REPO_PDF_PARSED, f'{date}.pdf')
+        if not os.path.exists(DIR_REPO_PDF_PARSED):
+            os.makedirs(DIR_REPO_PDF_PARSED)
+        shutil.copyfile(self.pdf_path, parsed_pdf_path)
+
         return date, data_path

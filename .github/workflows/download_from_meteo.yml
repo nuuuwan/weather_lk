@@ -3,7 +3,7 @@ name: download_from_meteo
 on:
   workflow_dispatch:
   schedule:
-    - cron:  "0 * * * *"
+    - cron:  "0  * * *"
 
 jobs:
   download_from_meteo:
