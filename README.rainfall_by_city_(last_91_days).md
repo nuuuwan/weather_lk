@@ -40,9 +40,9 @@
 
 ![Vavuniya](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/rainfall/80.50E-8.75N-Vavuniya-91days.png)
 
-## Mullaithivu ☔
+## Mullaitivu ☔
 
-![Mullaithivu](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/rainfall/80.81E-9.27N-Mullaithivu-91days.png)
+![Mullaitivu](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/rainfall/80.81E-9.27N-Mullaitivu-91days.png)
 
 ## Batticaloa ☔
 

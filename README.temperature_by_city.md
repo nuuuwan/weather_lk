@@ -40,9 +40,9 @@
 
 ![Vavuniya](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/temperature/80.50E-8.75N-Vavuniya.png)
 
-## Mullaithivu 🌡️
+## Mullaitivu 🌡️
 
-![Mullaithivu](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/temperature/80.81E-9.27N-Mullaithivu.png)
+![Mullaitivu](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/temperature/80.81E-9.27N-Mullaitivu.png)
 
 ## Batticaloa 🌡️
 
