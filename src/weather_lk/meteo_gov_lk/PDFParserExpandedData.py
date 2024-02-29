@@ -131,5 +131,6 @@ class PDFParserExpandedData:
         if not os.path.exists(DIR_REPO_PDF_PARSED):
             os.makedirs(DIR_REPO_PDF_PARSED)
         shutil.copyfile(self.pdf_path, parsed_pdf_path)
+        log.info(f'Copied {self.pdf_path} to {parsed_pdf_path}')
 
         return date, data_path
