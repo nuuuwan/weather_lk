@@ -1,10 +1,11 @@
 import os
-from functools import cache
+from functools import cache, cached_property
 
 from utils import Git, JSONFile, Log
 
 from weather_lk.constants import (BRANCH_NAME, DIR_REPO, DIR_REPO_JSON_PARSED,
                                   GIT_REPO_URL, TEST_MODE)
+from weather_lk.core.NORMALIZED_NAME_IDX import NORMALIZED_NAME_IDX
 
 log = Log('Data')
 
@@ -28,7 +29,15 @@ class Data:
                 data_path = os.path.join(DIR_REPO_JSON_PARSED, file_name)
                 data_path_list.append(data_path)
         return data_path_list
-
+    @staticmethod
+    def clean(data):
+        for place in NORMALIZED_NAME_IDX:
+            normalized = NORMALIZED_NAME_IDX[place]
+            for item in data['weather_list']:
+                if item['place'] == place:
+                    item['place'] = normalized
+        return data
+    
     @staticmethod
     def list_all():
         data_path_list = Data.get_data_path_list()
@@ -37,7 +46,8 @@ class Data:
             data = JSONFile(data_path).read()
             data_list.append(data)
 
-        sorted_data_list = sorted(data_list, key=lambda x: x['date'])
+        cleaned_data_list = [Data.clean(data) for data in data_list]
+        sorted_data_list = sorted(cleaned_data_list, key=lambda x: x['date'])
         log.info(f'Found {len(data_list)} data files.')
         return sorted_data_list
 
@@ -75,6 +85,17 @@ class Data:
 
         idx = dict(sorted(idx.items(), key=lambda item: item[0]))
         return idx
+
+    @cached_property
+    def place_list(self):
+        idx_by_place = Data.idx_by_place()
+        place_and_n = [
+            (place, len(idx_by_place[place])) for place in idx_by_place
+        ]
+        sorted_place_and_n = sorted(
+            place_and_n, key=lambda x: x[1], reverse=True
+        )
+        return [place for place, __ in sorted_place_and_n]
 
 
 def main():
