@@ -66,7 +66,7 @@ DISPLAY_PLACES = [
     # LK-43 Vavuniya
     'Vavuniya',
     # LK-44 Mullaitivu
-    'Mullaithivu',
+    'Mullaitivu',
     # LK-45 Kilinochchi
     # LK-51 Batticaloa
     'Batticaloa',
