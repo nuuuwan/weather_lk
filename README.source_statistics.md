@@ -3,7 +3,7 @@
 | source_id | n | n_parse_attempted | n_parse_successful | n_parse_failed | min_date | max_date |
 |  ----  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |
 | `pdf_meteo_gov_lk` | 706 | 706 | 706 | 0 | 2021-06-28 | 2024-03-03 |
-| `pdf_archive_org` | 177 | 177 | 72 | 105 | 2018-11-04 | 2023-11-06 |
+| `pdf_archive_org` | 200 | 200 | 72 | 128 | 2018-11-04 | 2023-11-06 |
 | `pdf_google_search` | 103 | 103 | 98 | 5 | 2022-01-14 | 2024-02-23 |
 
 ## By Year
