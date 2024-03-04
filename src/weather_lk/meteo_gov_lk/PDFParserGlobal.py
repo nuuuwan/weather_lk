@@ -29,21 +29,19 @@ class PDFParserGlobal:
         return True
 
     @staticmethod
-    def source_to_pdf_paths():
-        source_to_pdf_paths = {}
+    def source_to_file_name():
+        source_to_file_name = {}
         for dir in PDFParserGlobal.PDF_DIR_LIST:
             source_id = os.path.basename(dir)
-            if source_id not in source_to_pdf_paths:
-                source_to_pdf_paths[source_id] = []
+            if source_id not in source_to_file_name:
+                source_to_file_name[source_id] = []
 
             for file_name in os.listdir(dir):
                 if not PDFParserGlobal.is_valid_pdf(file_name):
                     continue
-                source_to_pdf_paths[source_id].append(
-                    os.path.join(dir, file_name)
-                )
+                source_to_file_name[source_id].append(file_name)
 
-        return source_to_pdf_paths
+        return source_to_file_name
 
     @staticmethod
     def get_pdf_paths():

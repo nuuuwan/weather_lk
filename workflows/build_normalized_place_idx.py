@@ -17,9 +17,12 @@ OFFICIAL_PLACE_LIST = [
     'Wellawaya',
 ]
 
+
 def main():
-    data_place_list =  Data().place_list
-    place_list = OFFICIAL_PLACE_LIST + [place for place in data_place_list if place not in OFFICIAL_PLACE_LIST]
+    data_place_list = Data().place_list
+    place_list = OFFICIAL_PLACE_LIST + [
+        place for place in data_place_list if place not in OFFICIAL_PLACE_LIST
+    ]
     n = len(place_list)
     idx = {}
     for i in range(n - 1):
@@ -28,7 +31,7 @@ def main():
             place_j = place_list[j]
             if place_i == place_j:
                 continue
-            
+
             score = fuzz.ratio(place_i, place_j)
             if score >= SCORE_THRESHOLD and place_j not in idx:
                 idx[place_j] = (place_i, score)
@@ -36,7 +39,7 @@ def main():
 
     lines = ['# Auto Generated', 'NORMALIZED_NAME_IDX = {']
     for place, (normalized, score) in idx.items():
-        lines.append(f'    "{place}": "{normalized}",  # {score}')    
+        lines.append(f'    "{place}": "{normalized}",  # {score}')
     lines.append('}')
 
     File(NORMALIZED_NAME_IDX).write_lines(lines)

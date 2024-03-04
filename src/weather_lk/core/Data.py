@@ -29,6 +29,7 @@ class Data:
                 data_path = os.path.join(DIR_REPO_JSON_PARSED, file_name)
                 data_path_list.append(data_path)
         return data_path_list
+
     @staticmethod
     def clean(data):
         for place in NORMALIZED_NAME_IDX:
@@ -37,7 +38,7 @@ class Data:
                 if item['place'] == place:
                     item['place'] = normalized
         return data
-    
+
     @staticmethod
     def list_all():
         data_path_list = Data.get_data_path_list()
@@ -48,7 +49,6 @@ class Data:
 
         cleaned_data_list = [Data.clean(data) for data in data_list]
         sorted_data_list = sorted(cleaned_data_list, key=lambda x: x['date'])
-        log.info(f'Found {len(data_list)} data files.')
         return sorted_data_list
 
     @staticmethod
