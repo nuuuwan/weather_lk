@@ -8,55 +8,32 @@ from weather_lk.constants import (BRANCH_NAME, DEFAULT_LATLNG, DIR_REPO,
                                   PLACE_TO_LATLNG_PATH,
                                   PLACE_TO_LATLNG_PATH_NEW)
 from weather_lk.core.NORMALIZED_NAME_IDX import NORMALIZED_NAME_IDX
+from weather_lk.core.Data import Data
 log = Log('History')
 
 
 class PlaceToLatLng:
     @cached_property
-    def history_list(self) -> list:
-        self.git = Git(GIT_REPO_URL)
-        self.git.clone(DIR_REPO)
-        self.git.checkout(BRANCH_NAME)
-
-        history_list = []
-        for file_only in os.listdir(DIR_REPO_JSON_PARSED):
-            if not (
-                file_only.endswith('.json')
-            ):
-                continue
-            file_path = os.path.join(DIR_REPO_JSON_PARSED, file_only)
-            data = JSONFile(file_path).read()
-            date = data['date']
-            weather_list = data['weather_list']
-            history_list.append(dict(date=date, weather_list=weather_list))
-        n = len(history_list)
-        log.info(f'Loaded data for {n} days.')
-        return history_list
-    
     def place_list(self):
         place_set = set()
-        for history in self.history_list:
-            for weather in history['weather_list']:
-                place = weather['place']
-                place_set.add(place)
-                place_norm = NORMALIZED_NAME_IDX.get(place, place)
-                place_set.add(place_norm)
-        place_list = sorted(list(place_set))
-        return place_list
+        for place in Data().raw_place_list:
+            place_set.add(NORMALIZED_NAME_IDX.get(place,place))
+            place_set.add(place)
+        return sorted(list(place_set))
 
     def build_place_to_latlng(self, place_to_latlng_old) -> dict:
-       place_to_latlng = place_to_latlng_old
-       for place in self.place_list():
-        if place not in place_to_latlng:
-            if (
-                place_to_latlng_old.get(place, DEFAULT_LATLNG)
-                != DEFAULT_LATLNG
-            ):
-                place_to_latlng[place] = place_to_latlng_old[place]
-            else:
-                latlng = PlaceToLatLng.get_latlng(place)
-                log.debug(f'{place} -> {latlng}')
-                place_to_latlng[place] = latlng
+        place_to_latlng = place_to_latlng_old
+        for place in self.place_list:
+            if place not in place_to_latlng:
+                if (
+                    place_to_latlng_old.get(place, DEFAULT_LATLNG)
+                    != DEFAULT_LATLNG
+                ):
+                    place_to_latlng[place] = place_to_latlng_old[place]
+                else:
+                    latlng = PlaceToLatLng.get_latlng(place)
+                    log.debug(f'{place} -> {latlng}')
+                    place_to_latlng[place] = latlng
         place_to_latlng = dict(
             sorted(place_to_latlng.items(), key=lambda item: item[0])
         )
@@ -80,4 +57,5 @@ class PlaceToLatLng:
 
         n = len(place_to_latlng.keys())
         JSONFile(PLACE_TO_LATLNG_PATH_NEW).write(place_to_latlng)
-        log.info(f'Saved {n} places to {PLACE_TO_LATLNG_PATH}.')
+        log.info(f'Saved {n} places to {PLACE_TO_LATLNG_PATH_NEW}.')
+        log.warn(f'Must be copied to {PLACE_TO_LATLNG_PATH}.')
