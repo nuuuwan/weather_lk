@@ -15,7 +15,7 @@ OFFICIAL_PLACE_LIST = [
     'Hambantota',
     'Katugastota',
     'Kurunegala',
-    'Mahailuppallama',
+    'Maha Illuppallama',
     'Mattala',
     'Moneragala',
     'Mullaitivu',

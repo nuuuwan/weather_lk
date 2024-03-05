@@ -3,7 +3,7 @@ NORMALIZED_NAME_IDX = {
     "Hambanthota": "Hambantota",  # 95
     "Katugasthota": "Katugastota",  # 96
     "Kurunagala": "Kurunegala",  # 90
-    "Maha Illuppallama": "Mahailuppallama",  # 88
+    "Maha Illuppallama": "Maha Illuppallama",  # 88
     "Mattla": "Mattala",  # 92
     "Monaragala": "Moneragala",  # 90
     "Mullaithivu": "Mullaitivu",  # 95
