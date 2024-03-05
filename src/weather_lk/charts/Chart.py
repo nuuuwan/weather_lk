@@ -61,7 +61,9 @@ class Chart:
     @staticmethod
     def annotate_one(
         xi, yi, extreme, color, unit, gap_units, color_light, sign, i
-    ):
+    ):  
+        if yi == 0:
+            return
         caption = f'#{i+1} {yi:.1f}{unit}'
         if isinstance(xi, datetime.datetime):
             date_str = xi.strftime('%Y-%m-%d')
@@ -74,12 +76,6 @@ class Chart:
             xytext=(xi, extreme + i * sign * gap_units),
             text=caption,
             color=color,
-            # arrowprops=dict(
-            #     facecolor=color_light,
-            #     width=0.25,
-            #     headwidth=5,
-            #     edgecolor=color_light,
-            # ),
             bbox=dict(
                 facecolor=color_light, edgecolor='none', boxstyle="round"
             ),

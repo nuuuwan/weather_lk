@@ -7,7 +7,7 @@ from weather_lk.constants import (BRANCH_NAME, DEFAULT_LATLNG, DIR_REPO,
                                   DIR_REPO_JSON_PARSED, GIT_REPO_URL, GMAPS,
                                   PLACE_TO_LATLNG_PATH,
                                   PLACE_TO_LATLNG_PATH_NEW)
-
+from weather_lk.core.NORMALIZED_NAME_IDX import NORMALIZED_NAME_IDX
 log = Log('History')
 
 
@@ -21,8 +21,7 @@ class PlaceToLatLng:
         history_list = []
         for file_only in os.listdir(DIR_REPO_JSON_PARSED):
             if not (
-                file_only.startswith('weather_lk.')
-                and file_only.endswith('.json')
+                file_only.endswith('.json')
             ):
                 continue
             file_path = os.path.join(DIR_REPO_JSON_PARSED, file_only)
@@ -33,22 +32,31 @@ class PlaceToLatLng:
         n = len(history_list)
         log.info(f'Loaded data for {n} days.')
         return history_list
-
-    def build_place_to_latlng(self, place_to_latlng_old) -> dict:
-        place_to_latlng = {}
+    
+    def place_list(self):
+        place_set = set()
         for history in self.history_list:
             for weather in history['weather_list']:
                 place = weather['place']
-                if place not in place_to_latlng:
-                    if (
-                        place_to_latlng_old.get(place, DEFAULT_LATLNG)
-                        != DEFAULT_LATLNG
-                    ):
-                        place_to_latlng[place] = place_to_latlng_old[place]
-                    else:
-                        latlng = PlaceToLatLng.get_latlng(place)
-                        log.debug(f'{place} -> {latlng}')
-                        place_to_latlng[place] = latlng
+                place_set.add(place)
+                place_norm = NORMALIZED_NAME_IDX.get(place, place)
+                place_set.add(place_norm)
+        place_list = sorted(list(place_set))
+        return place_list
+
+    def build_place_to_latlng(self, place_to_latlng_old) -> dict:
+       place_to_latlng = place_to_latlng_old
+       for place in self.place_list():
+        if place not in place_to_latlng:
+            if (
+                place_to_latlng_old.get(place, DEFAULT_LATLNG)
+                != DEFAULT_LATLNG
+            ):
+                place_to_latlng[place] = place_to_latlng_old[place]
+            else:
+                latlng = PlaceToLatLng.get_latlng(place)
+                log.debug(f'{place} -> {latlng}')
+                place_to_latlng[place] = latlng
         place_to_latlng = dict(
             sorted(place_to_latlng.items(), key=lambda item: item[0])
         )

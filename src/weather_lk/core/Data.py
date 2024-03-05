@@ -38,15 +38,18 @@ class Data:
                 if item['place'] == place:
                     item['place'] = normalized
         return data
-
     @staticmethod
-    def list_all():
+    def list_all_raw():        
         data_path_list = Data.get_data_path_list()
         data_list = []
         for data_path in data_path_list:
             data = JSONFile(data_path).read()
             data_list.append(data)
-
+        return data_list
+    
+    @staticmethod
+    def list_all():
+        data_list = Data.list_all_raw()
         cleaned_data_list = [Data.clean(data) for data in data_list]
         sorted_data_list = sorted(cleaned_data_list, key=lambda x: x['date'])
         return sorted_data_list
@@ -97,6 +100,16 @@ class Data:
         )
         return [place for place, __ in sorted_place_and_n]
 
+    @cached_property
+    def raw_place_list(self):
+        data_list = Data.list_all_raw()
+        place_set = set()
+        for data in data_list:
+            weather_list = data['weather_list']
+            for item in weather_list:
+                place = item['place']
+                place_set.add(place)
+        return sorted(list(place_set))
 
 def main():
     idx = Data.idx_by_place()

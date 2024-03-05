@@ -27,11 +27,12 @@ OFFICIAL_PLACE_LIST = [
 
 
 def main():
-    data_place_list = Data().place_list
+    data_place_list = Data().raw_place_list
     place_list = OFFICIAL_PLACE_LIST + [
         place for place in data_place_list if place not in OFFICIAL_PLACE_LIST
     ]
     n = len(place_list)
+    log.debug(f'{n=}')
     idx = {}
     for i in range(n - 1):
         place_i = place_list[i]
@@ -41,10 +42,14 @@ def main():
                 continue
 
             score = fuzz.ratio(place_i, place_j)
-            if score >= SCORE_THRESHOLD and place_j not in idx:
-                idx[place_j] = (place_i, score)
-                log.debug(f'{place_j} -> {place_i} ({score})')
-
+            if score >= SCORE_THRESHOLD:
+                
+                if place_j not in idx:
+                    idx[place_j] = (place_i, score)
+                    log.info(f'{place_j} -> {place_i} ({score})')
+                else:
+                    log.debug(f'{place_j} -> {place_i} ({score})')
+            
     lines = ['# Auto Generated', 'NORMALIZED_NAME_IDX = {']
     for place, (normalized, score) in idx.items():
         lines.append(f'    "{place}": "{normalized}",  # {score}')

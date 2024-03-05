@@ -1,20 +1,20 @@
 DISPLAY_PLACES = [
     # LK-11 Colombo
     'Colombo',
-    'Rathmalana',
+    'Ratmalana',
     # LK-12 Gampaha
     'Katunayake',
     # LK-13 Kalutara
     # LK-21 Kandy
-    'Katugasthota',
+    'Katugastota',
     # LK-22 Matale
     # LK-23 Nuwara Eliya
     'Nuwara Eliya',
-    # LK-31 Galle
+    # LK-31 Galles
     'Galle',
     # LK-32 Matara
     # LK-33 Hambantota
-    'Hambanthota',
+    'Hambantota',
     # LK-41 Jaffna
     'Jaffna',
     # LK-42 Mannar
@@ -27,11 +27,11 @@ DISPLAY_PLACES = [
     # LK-51 Batticaloa
     'Batticaloa',
     # LK-52 Ampara
-    'Pothuvil',
+    'Pottuvil',
     # LK-53 Trincomalee
     'Trincomalee',
     # LK-61 Kurunegala
-    'Kurunagala',
+    'Kurunegala',
     # LK-62 Puttalam
     'Puttalam',
     # LK-71 Anuradhapura
@@ -43,8 +43,8 @@ DISPLAY_PLACES = [
     'Badulla',
     'Bandarawela',
     # LK-82 Moneragala
-    'Monaragala',
+    'Moneragala',
     # LK-91 Ratnapura
-    'Rathnapura',
+    'Ratnapura',
     # LK-92 Kegalle
 ]
