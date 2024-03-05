@@ -4,17 +4,17 @@
 
 ![Colombo](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/rainfall/79.86E-6.93N-Colombo-91days.png)
 
-## Rathmalana ☔
+## Ratmalana ☔
 
-![Rathmalana](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/rainfall/79.88E-6.82N-Rathmalana-91days.png)
+![Ratmalana](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/rainfall/79.88E-6.82N-Ratmalana-91days.png)
 
 ## Katunayake ☔
 
 ![Katunayake](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/rainfall/79.89E-7.17N-Katunayake-91days.png)
 
-## Katugasthota ☔
+## Katugastota ☔
 
-![Katugasthota](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/rainfall/80.62E-7.33N-Katugasthota-91days.png)
+![Katugastota](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/rainfall/80.62E-7.34N-Katugastota-91days.png)
 
 ## Nuwara Eliya ☔
 
@@ -24,9 +24,9 @@
 
 ![Galle](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/rainfall/80.22E-6.03N-Galle-91days.png)
 
-## Hambanthota ☔
+## Hambantota ☔
 
-![Hambanthota](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/rainfall/81.12E-6.14N-Hambanthota-91days.png)
+![Hambantota](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/rainfall/81.12E-6.14N-Hambantota-91days.png)
 
 ## Jaffna ☔
 
@@ -48,17 +48,17 @@
 
 ![Batticaloa](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/rainfall/81.70E-7.72N-Batticaloa-91days.png)
 
-## Pothuvil ☔
+## Pottuvil ☔
 
-![Pothuvil](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/rainfall/81.83E-6.88N-Pothuvil-91days.png)
+![Pottuvil](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/rainfall/81.83E-6.88N-Pottuvil-91days.png)
 
 ## Trincomalee ☔
 
 ![Trincomalee](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/rainfall/81.22E-8.59N-Trincomalee-91days.png)
 
-## Kurunagala ☔
+## Kurunegala ☔
 
-![Kurunagala](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/rainfall/80.36E-7.48N-Kurunagala-91days.png)
+![Kurunegala](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/rainfall/80.36E-7.48N-Kurunegala-91days.png)
 
 ## Puttalam ☔
 
@@ -70,7 +70,7 @@
 
 ## Maha Illuppallama ☔
 
-![Maha Illuppallama](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/rainfall/80.47E-8.12N-Maha-Illuppallama-91days.png)
+![Maha Illuppallama](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/rainfall/80.46E-8.10N-Maha-Illuppallama-91days.png)
 
 ## Polonnaruwa ☔
 
@@ -84,10 +84,10 @@
 
 ![Bandarawela](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/rainfall/81.00E-6.83N-Bandarawela-91days.png)
 
-## Monaragala ☔
+## Moneragala ☔
 
-![Monaragala](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/rainfall/81.35E-6.89N-Monaragala-91days.png)
+![Moneragala](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/rainfall/81.35E-6.89N-Moneragala-91days.png)
 
-## Rathnapura ☔
+## Ratnapura ☔
 
-![Rathnapura](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/rainfall/80.38E-6.71N-Rathnapura-91days.png)
+![Ratnapura](https://raw.githubusercontent.com/nuuuwan/weather_lk/data/charts/rainfall/80.38E-6.71N-Ratnapura-91days.png)
