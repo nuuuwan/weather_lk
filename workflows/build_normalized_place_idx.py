@@ -12,8 +12,16 @@ SCORE_THRESHOLD = 85
 log = Log('build_normalized_place_idx')
 
 OFFICIAL_PLACE_LIST = [
+    'Hambantota',
+    'Katugastota',
+    'Kurunegala',
+    'Mahailuppallama',
     'Mattala',
+    'Moneragala',
     'Mullaitivu',
+    'Pottuvil',
+    'Ratmalana',
+    'Ratnapura',
     'Wellawaya',
 ]
 
