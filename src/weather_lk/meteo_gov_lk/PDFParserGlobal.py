@@ -3,7 +3,7 @@ import time
 
 from utils import JSONFile, Log
 
-from weather_lk.constants import (DIR_REPO_JSON_PLACEHOLDER,
+from weather_lk.constants import (DIR_REPO, DIR_REPO_JSON_PLACEHOLDER,
                                   DIR_REPO_PDF_ARCHIVE_ORG,
                                   DIR_REPO_PDF_GOOGLE_SEARCH,
                                   DIR_REPO_PDF_METEO_GOV_LK, TEST_MODE)
@@ -42,6 +42,22 @@ class PDFParserGlobal:
                 source_to_file_name[source_id].append(file_name)
 
         return source_to_file_name
+
+    @staticmethod
+    def source_to_pdf_paths():
+        source_to_pdf_paths = {}
+        for (
+            source_id,
+            file_names,
+        ) in PDFParserGlobal.source_to_file_name().items():
+            dir = os.path.join(DIR_REPO, source_id)
+            for file_name in file_names:
+                pdf_path = os.path.join(dir, file_name)
+                if source_id not in source_to_pdf_paths:
+                    source_to_pdf_paths[source_id] = []
+                source_to_pdf_paths[source_id].append(pdf_path)
+
+        return source_to_pdf_paths
 
     @staticmethod
     def get_pdf_paths():
