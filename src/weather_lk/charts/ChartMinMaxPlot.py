@@ -31,6 +31,8 @@ class ChartMinMaxPlot(ChartPlace):
                 if (z[1] is not None)
                 and (z[2] is not None)
                 and (z[1] <= z[2])
+                and (z[1] != 0)
+                and (z[2] != 0)
             ]
         )
 
