@@ -22,4 +22,4 @@ Rainfall and Temperature data, extracted from the [Department of Meteorology](ht
 
 ## Special Charts
 
-* [Min Max Plot](README.min_max_plot.md)
+* [Min Max Plot](/tmp/weather_lk/README.min_max_plot.md)
