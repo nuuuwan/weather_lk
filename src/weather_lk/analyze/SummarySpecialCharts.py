@@ -13,10 +13,8 @@ log = Log('SummarySpecialCharts')
 
 
 class SummarySpecialCharts:
-    README_MIN_MAX_PLOT_PATH = os.path.join(
-        DIR_REPO, 'README.min_max_plot.md'
-    )
-
+    README_MIN_MAX_PLOT_PATH =  'README.min_max_plot.md'
+    
     @staticmethod
     def init():
         if not os.path.exists(DIR_DATA_CHARTS):
@@ -51,8 +49,9 @@ class SummarySpecialCharts:
     def build_min_max_plot_readme(self, lines_inner):
         lines = ['# Min Max Plots', ''] + lines_inner
 
-        File(SummarySpecialCharts.README_MIN_MAX_PLOT_PATH).write_lines(lines)
-        log.info(f'Wrote {SummarySpecialCharts.README_MIN_MAX_PLOT_PATH}')
+        readme_path = os.path.join(DIR_REPO, SummarySpecialCharts.README_MIN_MAX_PLOT_PATH)
+        File(readme_path).write_lines(lines)
+        log.info(f'Wrote {readme_path}')
 
     def build_min_max_plot(self):
         lines_inner = self.draw_min_max_plot()
