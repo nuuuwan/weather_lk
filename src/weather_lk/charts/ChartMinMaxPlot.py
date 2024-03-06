@@ -179,7 +179,7 @@ class ChartMinMaxPlot(ChartPlace):
                     xy=(y_min_i, y_max_i),
                     xytext=(y_min_i, y_max_i),
                     text=caption,
-                    color=color,
+                    color="black",
                     bbox=dict(
                         facecolor=color_light,
                         edgecolor='none',
@@ -199,7 +199,7 @@ class ChartMinMaxPlot(ChartPlace):
                     xy=(y_min_i, y_max_i),
                     xytext=(y_min_i, y_max_i),
                     text=caption,
-                    color=color,
+                    color="black",
                     bbox=dict(
                         facecolor=color_light,
                         edgecolor='none',
