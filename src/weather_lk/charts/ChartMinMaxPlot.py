@@ -122,8 +122,8 @@ class ChartMinMaxPlot(ChartPlace):
 
     def annotate(self):
         x, y_min_temp, y_max_temp = self.get_data()
-        candidate_y_min = sorted(y_min_temp)[:3]
-        candidate_y_max = sorted(y_max_temp)[-3:]
+        candidate_y_min = sorted(y_min_temp)[:1]
+        candidate_y_max = sorted(y_max_temp)[-1:]
 
         for x_i, y_min_i, y_max_i in zip(x, y_min_temp, y_max_temp):
             if y_min_i in candidate_y_min:
