@@ -72,7 +72,7 @@ class ChartMinMaxPlot(ChartPlace):
 
     def draw_lines(self):
         ax = plt.gca()
-        
+
         x_lim = ax.get_xlim()
         y_lim = ax.get_ylim()
 
@@ -86,7 +86,7 @@ class ChartMinMaxPlot(ChartPlace):
         # x=y
         min_min_temp = np.min(y_min_temp)
         max_max_temp = np.max(y_max_temp)
-        d_max = int(max_max_temp - min_min_temp )
+        d_max = int(max_max_temp - min_min_temp)
         min_max_temp = np.max(y_min_temp)
         max_min_temp = np.min(y_max_temp)
 
@@ -126,7 +126,7 @@ class ChartMinMaxPlot(ChartPlace):
         candidate_y_max = sorted(y_max_temp)[-3:]
 
         for x_i, y_min_i, y_max_i in zip(x, y_min_temp, y_max_temp):
-            if (y_min_i in candidate_y_min):
+            if y_min_i in candidate_y_min:
                 color = ChartTemperature.get_color(y_min_i)
                 color_light = color + (0.25,)
                 date_str = x_i.strftime('%Y-%m-%d')
@@ -137,10 +137,12 @@ class ChartMinMaxPlot(ChartPlace):
                     text=caption,
                     color=color,
                     bbox=dict(
-                        facecolor=color_light, edgecolor='none', boxstyle="round"
+                        facecolor=color_light,
+                        edgecolor='none',
+                        boxstyle="round",
                     ),
                 )
-            if (y_max_i in candidate_y_max):
+            if y_max_i in candidate_y_max:
                 color = ChartTemperature.get_color(y_max_i)
                 color_light = color + (0.25,)
                 date_str = x_i.strftime('%Y-%m-%d')
@@ -151,11 +153,11 @@ class ChartMinMaxPlot(ChartPlace):
                     text=caption,
                     color=color,
                     bbox=dict(
-                        facecolor=color_light, edgecolor='none', boxstyle="round"
+                        facecolor=color_light,
+                        edgecolor='none',
+                        boxstyle="round",
                     ),
                 )
-
-   
 
     def set_text(self):
         plt.title(self.get_title(), fontsize=20)

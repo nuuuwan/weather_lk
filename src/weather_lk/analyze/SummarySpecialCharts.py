@@ -4,14 +4,9 @@ from functools import cached_property
 from utils import File, Log
 
 from weather_lk.charts.ChartMinMaxPlot import ChartMinMaxPlot
-from weather_lk.constants import (
-    DIR_DATA_CHARTS,
-    DIR_DATA_CHARTS_MIN_MAX_PLOT,
-    DIR_REPO,
-    DISPLAY_PLACES,
-    TEST_MODE,
-    URL_REMOTE_DATA,
-)
+from weather_lk.constants import (DIR_DATA_CHARTS,
+                                  DIR_DATA_CHARTS_MIN_MAX_PLOT, DIR_REPO,
+                                  DISPLAY_PLACES, TEST_MODE, URL_REMOTE_DATA)
 from weather_lk.core.Data import Data
 
 log = Log('SummarySpecialCharts')
