@@ -6,6 +6,7 @@ from matplotlib.ticker import MultipleLocator
 from utils import TIME_FORMAT_TIME, Log, Time
 
 from weather_lk.charts.ChartPlace import ChartPlace
+from weather_lk.charts.ChartTemperature import ChartTemperature
 from weather_lk.constants import DIR_DATA_CHARTS_MIN_MAX_PLOT
 
 log = Log('ChartMinMaxPlot')
@@ -53,7 +54,15 @@ class ChartMinMaxPlot(ChartPlace):
     def draw(self):
         y_min_temp, y_max_temp = self.get_data()
 
-        plt.scatter(y_min_temp, y_max_temp, color=(1, 0, 0, 0.4), marker='o')
+        for x_i, y_i in zip(y_min_temp, y_max_temp):
+            mid_temp = (x_i + y_i) / 2
+            color = ChartTemperature.get_color(mid_temp)
+            plt.scatter(x_i, y_i, color=color, marker='o')
+
+        self.draw_lines()
+
+    def draw_lines(self):
+        y_min_temp, y_max_temp = self.get_data()
 
         ax = plt.gca()
         ax.xaxis.set_major_locator(MultipleLocator(5))
@@ -62,11 +71,28 @@ class ChartMinMaxPlot(ChartPlace):
         ax.yaxis.set_minor_locator(MultipleLocator(1))
 
         # x=y
+        # min_min_temp = np.min(y_min_temp)
+        # max_max_temp = np.max(y_max_temp)
+        
+        min_max_temp = np.max(y_min_temp)
+        max_min_temp = np.min(y_max_temp)
+        
+        d = 0
+           
         lims = [
-            np.min([ax.get_xlim(), ax.get_ylim()]),  # min of both axes
-            np.max([ax.get_xlim(), ax.get_ylim()]),  # max of both axes
+            min_max_temp,  
+            min(max_min_temp- d, min_max_temp),  
         ]
-        ax.plot(lims, lims, color='#8888', linestyle='--')
+        lims2 = [
+            max(min_max_temp+ d, max_min_temp),  
+            max_min_temp,  
+        ]
+        if d % 5 == 0:
+            color = '#cccf'
+        else:
+            color = '#ccc2'
+        ax.plot(lims, lims2, color=color, linestyle='--')
+    
 
         # min-median
         min_median = np.median(y_min_temp)
