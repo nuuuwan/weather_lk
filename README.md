@@ -19,3 +19,7 @@ Rainfall and Temperature data, extracted from the [Department of Meteorology](ht
 * [Data Coverage](README.data_coverage.md)
 * [Source Statistics](README.source_statistics.md)
 * [Trend By Month](README.trend_by_month.md)
+
+## Special Charts
+
+* [Min Max Plot](README.min_max_plot.md)
