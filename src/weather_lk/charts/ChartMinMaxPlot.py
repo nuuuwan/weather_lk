@@ -131,42 +131,42 @@ class ChartMinMaxPlot(ChartPlace):
         gap_max = max(gaps)
         gap_min = min(gaps)
 
-        for x_i, y_min_i, y_max_i in zip(x, y_min_temp, y_max_temp):
-            if y_min_i in candidate_y_min:
-                color = ChartTemperature.get_color(y_min_i)
-                color_light = color + (0.25,)
-                date_str = x_i.strftime('%Y-%m-%d')
-                caption = f'{date_str} {y_min_i:.1f}°C'
-                plt.annotate(
-                    xy=(y_min_i, y_max_i),
-                    xytext=(y_min_i, y_max_i),
-                    text=caption,
-                    color=color,
-                    bbox=dict(
-                        facecolor=color_light,
-                        edgecolor='none',
-                        boxstyle="round",
-                    ),
-                )
-                break
-        for x_i, y_min_i, y_max_i in zip(x, y_min_temp, y_max_temp):
-            if y_max_i in candidate_y_max:
-                color = ChartTemperature.get_color(y_max_i)
-                color_light = color + (0.25,)
-                date_str = x_i.strftime('%Y-%m-%d')
-                caption = f'{date_str} {y_max_i:.1f}°C'
-                plt.annotate(
-                    xy=(y_min_i, y_max_i),
-                    xytext=(y_min_i, y_max_i),
-                    text=caption,
-                    color=color,
-                    bbox=dict(
-                        facecolor=color_light,
-                        edgecolor='none',
-                        boxstyle="round",
-                    ),
-                )
-                break
+        # for x_i, y_min_i, y_max_i in zip(x, y_min_temp, y_max_temp):
+        #     if y_min_i in candidate_y_min:
+        #         color = ChartTemperature.get_color(y_min_i)
+        #         color_light = color + (0.25,)
+        #         date_str = x_i.strftime('%Y-%m-%d')
+        #         caption = f'{date_str} {y_min_i:.1f}°C'
+        #         plt.annotate(
+        #             xy=(y_min_i, y_max_i),
+        #             xytext=(y_min_i, y_max_i),
+        #             text=caption,
+        #             color=color,
+        #             bbox=dict(
+        #                 facecolor=color_light,
+        #                 edgecolor='none',
+        #                 boxstyle="round",
+        #             ),
+        #         )
+        #         break
+        # for x_i, y_min_i, y_max_i in zip(x, y_min_temp, y_max_temp):
+        #     if y_max_i in candidate_y_max:
+        #         color = ChartTemperature.get_color(y_max_i)
+        #         color_light = color + (0.25,)
+        #         date_str = x_i.strftime('%Y-%m-%d')
+        #         caption = f'{date_str} {y_max_i:.1f}°C'
+        #         plt.annotate(
+        #             xy=(y_min_i, y_max_i),
+        #             xytext=(y_min_i, y_max_i),
+        #             text=caption,
+        #             color=color,
+        #             bbox=dict(
+        #                 facecolor=color_light,
+        #                 edgecolor='none',
+        #                 boxstyle="round",
+        #             ),
+        #         )
+        #         break
 
         for x_i, y_min_i, y_max_i in zip(x, y_min_temp, y_max_temp):
             gap = y_max_i - y_min_i
@@ -174,7 +174,7 @@ class ChartMinMaxPlot(ChartPlace):
                 color = ChartTemperature.get_color((y_max_i + y_min_i) / 2)
                 color_light = color + (0.25,)
                 date_str = x_i.strftime('%Y-%m-%d')
-                caption = f'{date_str} Δ={gap:.1f}°C ({y_min_i:.1f}°C to {y_max_i:.1f}°C)'
+                caption = f'{date_str} {gap:.1f}°C ({y_min_i:.1f}°C to {y_max_i:.1f}°C)'
                 plt.annotate(
                     xy=(y_min_i, y_max_i),
                     xytext=(y_min_i, y_max_i),
@@ -194,7 +194,7 @@ class ChartMinMaxPlot(ChartPlace):
                 color = ChartTemperature.get_color((y_max_i + y_min_i) / 2)
                 color_light = color + (0.25,)
                 date_str = x_i.strftime('%Y-%m-%d')
-                caption = f'{date_str} Δ={gap:.1f}°C ({y_min_i:.1f}°C to {y_max_i:.1f}°C)'
+                caption = f'{date_str} {gap:.1f}°C ({y_min_i:.1f}°C to {y_max_i:.1f}°C)'
                 plt.annotate(
                     xy=(y_min_i, y_max_i),
                     xytext=(y_min_i, y_max_i),

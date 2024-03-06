@@ -5,9 +5,14 @@ from utils import File, Log
 
 from weather_lk.analyze.SummaryWriteDataByPlace import SummaryWriteDataByPlace
 from weather_lk.charts.ChartMinMaxPlot import ChartMinMaxPlot
-from weather_lk.constants import (DIR_DATA_CHARTS,
-                                  DIR_DATA_CHARTS_MIN_MAX_PLOT, DIR_REPO,
-                                  DISPLAY_PLACES, TEST_MODE, URL_REMOTE_DATA)
+from weather_lk.constants import (
+    DIR_DATA_CHARTS,
+    DIR_DATA_CHARTS_MIN_MAX_PLOT,
+    DIR_REPO,
+    DISPLAY_PLACES,
+    TEST_MODE,
+    URL_REMOTE_DATA,
+)
 from weather_lk.core.Data import Data
 
 log = Log('SummarySpecialCharts')
@@ -28,7 +33,7 @@ class SummarySpecialCharts:
         idx_by_place = Data.idx_by_place()
         readme_lines = []
         for place in DISPLAY_PLACES:
-            if TEST_MODE and place != 'Mullaitivu':
+            if TEST_MODE and place != 'Colombo':
                 continue
             data_for_place = idx_by_place.get(place, None)
             if data_for_place is None:
