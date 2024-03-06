@@ -38,15 +38,16 @@ class Data:
                 if item['place'] == place:
                     item['place'] = normalized
         return data
+
     @staticmethod
-    def list_all_raw():        
+    def list_all_raw():
         data_path_list = Data.get_data_path_list()
         data_list = []
         for data_path in data_path_list:
             data = JSONFile(data_path).read()
             data_list.append(data)
         return data_list
-    
+
     @staticmethod
     def list_all():
         data_list = Data.list_all_raw()
@@ -110,6 +111,7 @@ class Data:
                 place = item['place']
                 place_set.add(place)
         return sorted(list(place_set))
+
 
 def main():
     idx = Data.idx_by_place()

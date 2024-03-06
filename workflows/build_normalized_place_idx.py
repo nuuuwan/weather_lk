@@ -43,13 +43,12 @@ def main():
 
             score = fuzz.ratio(place_i, place_j)
             if score >= SCORE_THRESHOLD:
-                
                 if place_j not in idx:
                     idx[place_j] = (place_i, score)
                     log.info(f'{place_j} -> {place_i} ({score})')
                 else:
                     log.debug(f'{place_j} -> {place_i} ({score})')
-            
+
     lines = ['# Auto Generated', 'NORMALIZED_NAME_IDX = {']
     for place, (normalized, score) in idx.items():
         lines.append(f'    "{place}": "{normalized}",  # {score}')

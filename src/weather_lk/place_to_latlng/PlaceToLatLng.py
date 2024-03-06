@@ -1,14 +1,12 @@
-import os
 from functools import cached_property
 
-from utils import Git, JSONFile, Log
+from utils import JSONFile, Log
 
-from weather_lk.constants import (BRANCH_NAME, DEFAULT_LATLNG, DIR_REPO,
-                                  DIR_REPO_JSON_PARSED, GIT_REPO_URL, GMAPS,
-                                  PLACE_TO_LATLNG_PATH,
+from weather_lk.constants import (DEFAULT_LATLNG, GMAPS, PLACE_TO_LATLNG_PATH,
                                   PLACE_TO_LATLNG_PATH_NEW)
-from weather_lk.core.NORMALIZED_NAME_IDX import NORMALIZED_NAME_IDX
 from weather_lk.core.Data import Data
+from weather_lk.core.NORMALIZED_NAME_IDX import NORMALIZED_NAME_IDX
+
 log = Log('History')
 
 
@@ -17,7 +15,7 @@ class PlaceToLatLng:
     def place_list(self):
         place_set = set()
         for place in Data().raw_place_list:
-            place_set.add(NORMALIZED_NAME_IDX.get(place,place))
+            place_set.add(NORMALIZED_NAME_IDX.get(place, place))
             place_set.add(place)
         return sorted(list(place_set))
 

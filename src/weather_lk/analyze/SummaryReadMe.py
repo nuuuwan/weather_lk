@@ -210,6 +210,7 @@ class SummaryReadMe:
                 '',
             ]
             + links
+            + self.lines_special_charts
         )
         readme_path = os.path.join(DIR_REPO, 'README.md')
         File(readme_path).write_lines(lines)

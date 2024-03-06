@@ -61,7 +61,7 @@ class Chart:
     @staticmethod
     def annotate_one(
         xi, yi, extreme, color, unit, gap_units, color_light, sign, i
-    ):  
+    ):
         if yi == 0:
             return
         caption = f'#{i+1} {yi:.1f}{unit}'

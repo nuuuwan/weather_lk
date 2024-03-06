@@ -3,9 +3,10 @@ import tempfile
 
 import googlemaps
 
+from weather_lk.constants.DISPLAY_PLACES import DISPLAY_PLACES
+
 # ...
 
-from weather_lk.constants.DISPLAY_PLACES import DISPLAY_PLACES
 
 # ...
 
@@ -33,6 +34,7 @@ DIR_DATA_BY_PLACE = os.path.join(DIR_REPO, 'data_by_place')
 DIR_DATA_CHARTS = os.path.join(DIR_REPO, 'charts')
 DIR_DATA_CHARTS_RAINFALL = os.path.join(DIR_DATA_CHARTS, 'rainfall')
 DIR_DATA_CHARTS_TEMPERATURE = os.path.join(DIR_DATA_CHARTS, 'temperature')
+DIR_DATA_CHARTS_MIN_MAX_PLOT = os.path.join(DIR_DATA_CHARTS, 'min_max_plot')
 
 
 URL_REMOTE_DATA = 'https://raw.githubusercontent.com/nuuuwan/weather_lk/data'
@@ -47,4 +49,3 @@ DIR_REPO_JSON_PLACEHOLDER = os.path.join(DIR_REPO, 'json_placeholder')
 
 COVERAGE_WINDOW_LIST = [7, 28, 365, 3652]
 CHART_WINDOWS = [None, 28, 91]
-
