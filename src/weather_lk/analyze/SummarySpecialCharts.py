@@ -4,17 +4,22 @@ from functools import cached_property
 from utils import File, Log
 
 from weather_lk.charts.ChartMinMaxPlot import ChartMinMaxPlot
-from weather_lk.constants import (DIR_DATA_CHARTS,
-                                  DIR_DATA_CHARTS_MIN_MAX_PLOT, DIR_REPO,
-                                  DISPLAY_PLACES, TEST_MODE, URL_REMOTE_DATA)
+from weather_lk.constants import (
+    DIR_DATA_CHARTS,
+    DIR_DATA_CHARTS_MIN_MAX_PLOT,
+    DIR_REPO,
+    DISPLAY_PLACES,
+    TEST_MODE,
+    URL_REMOTE_DATA,
+)
 from weather_lk.core.Data import Data
 
 log = Log('SummarySpecialCharts')
 
 
 class SummarySpecialCharts:
-    README_MIN_MAX_PLOT_PATH =  'README.min_max_plot.md'
-    
+    README_MIN_MAX_PLOT_PATH = 'README.min_max_plot.md'
+
     @staticmethod
     def init():
         if not os.path.exists(DIR_DATA_CHARTS):
@@ -52,7 +57,9 @@ class SummarySpecialCharts:
     def build_min_max_plot_readme(self, lines_inner):
         lines = ['# Min Max Plots', ''] + lines_inner
 
-        readme_path = os.path.join(DIR_REPO, SummarySpecialCharts.README_MIN_MAX_PLOT_PATH)
+        readme_path = os.path.join(
+            DIR_REPO, SummarySpecialCharts.README_MIN_MAX_PLOT_PATH
+        )
         File(readme_path).write_lines(lines)
         log.info(f'Wrote {readme_path}')
 
