@@ -6,7 +6,7 @@ from utils import File, Log
 from weather_lk.charts.ChartMinMaxPlot import ChartMinMaxPlot
 from weather_lk.constants import (DIR_DATA_CHARTS,
                                   DIR_DATA_CHARTS_MIN_MAX_PLOT, DIR_REPO,
-                                  DISPLAY_PLACES, TEST_MODE)
+                                  DISPLAY_PLACES, TEST_MODE, URL_REMOTE_DATA)
 from weather_lk.core.Data import Data
 
 log = Log('SummarySpecialCharts')
@@ -35,11 +35,14 @@ class SummarySpecialCharts:
                 continue
 
             ChartMinMaxPlot(place, data_for_place).write()
+            image_path_rain = (
+                URL_REMOTE_DATA + '/charts/min_max_plot/' + f'{place}.png'
+            )
             readme_lines.extend(
                 [
                     f'### {place}',
                     '',
-                    f'![{place} Min Max Plot]({DIR_DATA_CHARTS_MIN_MAX_PLOT}/{place}.png)',
+                    f'![{place} Min Max Plot]({image_path_rain})',
                     '',
                     '',
                 ]
