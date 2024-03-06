@@ -70,36 +70,39 @@ class ChartMinMaxPlot(ChartPlace):
         self.draw_lines()
 
     def draw_lines(self):
+        ax = plt.gca()
+        
+        x_lim = ax.get_xlim()
+        y_lim = ax.get_ylim()
+
         y_min_temp, y_max_temp = self.get_data()
 
-        ax = plt.gca()
         ax.xaxis.set_major_locator(MultipleLocator(5))
         ax.xaxis.set_minor_locator(MultipleLocator(1))
         ax.yaxis.set_major_locator(MultipleLocator(5))
         ax.yaxis.set_minor_locator(MultipleLocator(1))
 
         # x=y
-        # min_min_temp = np.min(y_min_temp)
-        # max_max_temp = np.max(y_max_temp)
-
+        min_min_temp = np.min(y_min_temp)
+        max_max_temp = np.max(y_max_temp)
+        d_max = int(max_max_temp - min_min_temp )
         min_max_temp = np.max(y_min_temp)
         max_min_temp = np.min(y_max_temp)
 
-        d = 0
-
-        lims = [
-            min_max_temp,
-            min(max_min_temp - d, min_max_temp),
-        ]
-        lims2 = [
-            max(min_max_temp + d, max_min_temp),
-            max_min_temp,
-        ]
-        if d % 5 == 0:
-            color = '#cccf'
-        else:
-            color = '#ccc2'
-        ax.plot(lims, lims2, color=color, linestyle='--')
+        for d in range(0, d_max):
+            lims = [
+                min_max_temp,
+                min(max_min_temp - d, min_max_temp),
+            ]
+            lims2 = [
+                max(min_max_temp + d, max_min_temp),
+                max_min_temp,
+            ]
+            if d % 5 == 0:
+                color = '#cccf'
+            else:
+                color = '#ccc2'
+            ax.plot(lims, lims2, color=color, linestyle='--')
 
         # min-median
         min_median = np.median(y_min_temp)
@@ -111,6 +114,10 @@ class ChartMinMaxPlot(ChartPlace):
 
         # text
         self.set_text()
+
+        # force lims
+        ax.set_xlim(x_lim)
+        ax.set_ylim(y_lim)
 
     def set_text(self):
         plt.title(self.get_title(), fontsize=20)
