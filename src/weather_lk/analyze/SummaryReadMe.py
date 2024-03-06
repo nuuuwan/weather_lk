@@ -5,14 +5,9 @@ from utils import File, Log
 from utils_future import Markdown
 from weather_lk.analyze.SummaryMonthTrend import SummaryMonthTrend
 from weather_lk.analyze.SummaryWriteDataByPlace import SummaryWriteDataByPlace
-from weather_lk.constants import (
-    CHART_WINDOWS,
-    COVERAGE_WINDOW_LIST,
-    DIR_REPO,
-    DISPLAY_PLACES,
-    TEST_MODE,
-    URL_REMOTE_DATA,
-)
+from weather_lk.constants import (CHART_WINDOWS, COVERAGE_WINDOW_LIST,
+                                  DIR_REPO, DISPLAY_PLACES, TEST_MODE,
+                                  URL_REMOTE_DATA)
 
 log = Log('SummaryReadMe')
 

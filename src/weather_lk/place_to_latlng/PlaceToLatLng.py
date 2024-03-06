@@ -2,12 +2,8 @@ from functools import cached_property
 
 from utils import JSONFile, Log
 
-from weather_lk.constants import (
-    DEFAULT_LATLNG,
-    GMAPS,
-    PLACE_TO_LATLNG_PATH,
-    PLACE_TO_LATLNG_PATH_NEW,
-)
+from weather_lk.constants import (DEFAULT_LATLNG, GMAPS, PLACE_TO_LATLNG_PATH,
+                                  PLACE_TO_LATLNG_PATH_NEW)
 from weather_lk.core.Data import Data
 from weather_lk.core.NORMALIZED_NAME_IDX import NORMALIZED_NAME_IDX
 

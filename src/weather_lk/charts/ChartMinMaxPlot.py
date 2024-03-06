@@ -1,9 +1,10 @@
 from datetime import datetime
 
 import matplotlib.pyplot as plt
+import numpy as np
 from matplotlib.ticker import MultipleLocator
 from utils import TIME_FORMAT_TIME, Log, Time
-import numpy as np
+
 from weather_lk.charts.ChartPlace import ChartPlace
 from weather_lk.constants import DIR_DATA_CHARTS_MIN_MAX_PLOT
 
