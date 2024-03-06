@@ -144,6 +144,8 @@ class ChartMinMaxPlot(ChartPlace):
                         boxstyle="round",
                     ),
                 )
+                break
+        for x_i, y_min_i, y_max_i in zip(x, y_min_temp, y_max_temp):
             if y_max_i in candidate_y_max:
                 color = ChartTemperature.get_color(y_max_i)
                 color_light = color + (0.25,)
@@ -160,6 +162,7 @@ class ChartMinMaxPlot(ChartPlace):
                         boxstyle="round",
                     ),
                 )
+                break
 
     def set_text(self):
         plt.title(self.get_title(), fontsize=20)

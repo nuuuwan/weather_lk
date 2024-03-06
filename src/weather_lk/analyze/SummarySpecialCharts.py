@@ -28,7 +28,7 @@ class SummarySpecialCharts:
         idx_by_place = Data.idx_by_place()
         readme_lines = []
         for place in DISPLAY_PLACES:
-            if TEST_MODE and place != 'Colombo':
+            if TEST_MODE and place != 'Mullaitivu':
                 continue
             data_for_place = idx_by_place.get(place, None)
             if data_for_place is None:
