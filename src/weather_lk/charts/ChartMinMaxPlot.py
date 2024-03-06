@@ -59,11 +59,13 @@ class ChartMinMaxPlot(ChartPlace):
             color = ChartTemperature.get_color(mid_temp)
             if i >= n - 28:
                 edgecolors = "#000"
-            elif i >=  n- 91:
+            elif i >= n - 91:
                 edgecolors = "#888"
             else:
                 edgecolors = "#ccc"
-            plt.scatter(x_i, y_i, color=color, edgecolors=edgecolors, marker='o')
+            plt.scatter(
+                x_i, y_i, color=color, edgecolors=edgecolors, marker='o'
+            )
 
         self.draw_lines()
 
@@ -79,26 +81,25 @@ class ChartMinMaxPlot(ChartPlace):
         # x=y
         # min_min_temp = np.min(y_min_temp)
         # max_max_temp = np.max(y_max_temp)
-        
+
         min_max_temp = np.max(y_min_temp)
         max_min_temp = np.min(y_max_temp)
-        
+
         d = 0
-           
+
         lims = [
-            min_max_temp,  
-            min(max_min_temp- d, min_max_temp),  
+            min_max_temp,
+            min(max_min_temp - d, min_max_temp),
         ]
         lims2 = [
-            max(min_max_temp+ d, max_min_temp),  
-            max_min_temp,  
+            max(min_max_temp + d, max_min_temp),
+            max_min_temp,
         ]
         if d % 5 == 0:
             color = '#cccf'
         else:
             color = '#ccc2'
         ax.plot(lims, lims2, color=color, linestyle='--')
-    
 
         # min-median
         min_median = np.median(y_min_temp)
