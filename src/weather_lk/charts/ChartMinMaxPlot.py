@@ -3,7 +3,7 @@ from datetime import datetime
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MultipleLocator
 from utils import TIME_FORMAT_TIME, Log, Time
-
+import numpy as np
 from weather_lk.charts.ChartPlace import ChartPlace
 from weather_lk.constants import DIR_DATA_CHARTS_MIN_MAX_PLOT
 
@@ -52,7 +52,7 @@ class ChartMinMaxPlot(ChartPlace):
     def draw(self):
         y_min_temp, y_max_temp = self.get_data()
 
-        plt.scatter(y_min_temp, y_max_temp, color=(1, 0, 0, 0.1), marker='o')
+        plt.scatter(y_min_temp, y_max_temp, color=(1, 0, 0, 0.4), marker='o')
 
         ax = plt.gca()
         ax.xaxis.set_major_locator(MultipleLocator(5))
@@ -60,6 +60,22 @@ class ChartMinMaxPlot(ChartPlace):
         ax.yaxis.set_major_locator(MultipleLocator(5))
         ax.yaxis.set_minor_locator(MultipleLocator(1))
 
+        # x=y
+        lims = [
+            np.min([ax.get_xlim(), ax.get_ylim()]),  # min of both axes
+            np.max([ax.get_xlim(), ax.get_ylim()]),  # max of both axes
+        ]
+        ax.plot(lims, lims, color='#8888', linestyle='--')
+
+        # min-median
+        min_median = np.median(y_min_temp)
+        plt.axvline(x=min_median, color='#0088', linestyle='--')
+
+        # max-median
+        max_median = np.median(y_max_temp)
+        plt.axhline(y=max_median, color='#8008', linestyle='--')
+
+        # text
         self.set_text()
 
     def set_text(self):

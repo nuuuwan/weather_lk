@@ -3,8 +3,13 @@ from functools import cache, cached_property
 
 from utils import Git, JSONFile, Log
 
-from weather_lk.constants import (BRANCH_NAME, DIR_REPO, DIR_REPO_JSON_PARSED,
-                                  GIT_REPO_URL, TEST_MODE)
+from weather_lk.constants import (
+    BRANCH_NAME,
+    DIR_REPO,
+    DIR_REPO_JSON_PARSED,
+    GIT_REPO_URL,
+    TEST_MODE,
+)
 from weather_lk.core.NORMALIZED_NAME_IDX import NORMALIZED_NAME_IDX
 
 log = Log('Data')
