@@ -34,7 +34,7 @@ class ChartMinMaxPlot(ChartPlace):
             ]
         )
 
-        return y_min_temp, y_max_temp
+        return x, y_min_temp, y_max_temp
 
     def before_draw(self):
         plt.close()
@@ -52,7 +52,7 @@ class ChartMinMaxPlot(ChartPlace):
         plt.grid(True)
 
     def draw(self):
-        y_min_temp, y_max_temp = self.get_data()
+        __, y_min_temp, y_max_temp = self.get_data()
         n = len(y_min_temp)
         for i, (x_i, y_i) in enumerate(zip(y_min_temp, y_max_temp)):
             mid_temp = (x_i + y_i) / 2
@@ -68,6 +68,7 @@ class ChartMinMaxPlot(ChartPlace):
             )
 
         self.draw_lines()
+        self.annotate()
 
     def draw_lines(self):
         ax = plt.gca()
@@ -75,7 +76,7 @@ class ChartMinMaxPlot(ChartPlace):
         x_lim = ax.get_xlim()
         y_lim = ax.get_ylim()
 
-        y_min_temp, y_max_temp = self.get_data()
+        __, y_min_temp, y_max_temp = self.get_data()
 
         ax.xaxis.set_major_locator(MultipleLocator(5))
         ax.xaxis.set_minor_locator(MultipleLocator(1))
@@ -118,6 +119,43 @@ class ChartMinMaxPlot(ChartPlace):
         # force lims
         ax.set_xlim(x_lim)
         ax.set_ylim(y_lim)
+
+    def annotate(self):
+        x, y_min_temp, y_max_temp = self.get_data()
+        candidate_y_min = sorted(y_min_temp)[:3]
+        candidate_y_max = sorted(y_max_temp)[-3:]
+
+        for x_i, y_min_i, y_max_i in zip(x, y_min_temp, y_max_temp):
+            if (y_min_i in candidate_y_min):
+                color = ChartTemperature.get_color(y_min_i)
+                color_light = color + (0.25,)
+                date_str = x_i.strftime('%Y-%m-%d')
+                caption = f'{date_str} {y_min_i:.1f}°C'
+                plt.annotate(
+                    xy=(y_min_i, y_max_i),
+                    xytext=(y_min_i, y_max_i),
+                    text=caption,
+                    color=color,
+                    bbox=dict(
+                        facecolor=color_light, edgecolor='none', boxstyle="round"
+                    ),
+                )
+            if (y_max_i in candidate_y_max):
+                color = ChartTemperature.get_color(y_max_i)
+                color_light = color + (0.25,)
+                date_str = x_i.strftime('%Y-%m-%d')
+                caption = f'{date_str} {y_max_i:.1f}°C'
+                plt.annotate(
+                    xy=(y_min_i, y_max_i),
+                    xytext=(y_min_i, y_max_i),
+                    text=caption,
+                    color=color,
+                    bbox=dict(
+                        facecolor=color_light, edgecolor='none', boxstyle="round"
+                    ),
+                )
+
+   
 
     def set_text(self):
         plt.title(self.get_title(), fontsize=20)
