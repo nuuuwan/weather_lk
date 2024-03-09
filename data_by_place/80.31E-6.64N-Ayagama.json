@@ -168,6 +168,12 @@
     "max_temp": null
   },
   {
+    "date": "2022-05-21",
+    "rain": 8.2,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2022-05-23",
     "rain": 9.5,
     "min_temp": null,
@@ -212,6 +218,12 @@
   {
     "date": "2022-06-13",
     "rain": 14.1,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-06-25",
+    "rain": 34.4,
     "min_temp": null,
     "max_temp": null
   },

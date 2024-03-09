@@ -48,6 +48,12 @@
     "max_temp": null
   },
   {
+    "date": "2021-02-02",
+    "rain": 0.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2021-07-14",
     "rain": 0.0,
     "min_temp": null,
@@ -451,6 +457,18 @@
   },
   {
     "date": "2022-06-14",
+    "rain": 0.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-06-29",
+    "rain": 0.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2022-06-30",
     "rain": 0.0,
     "min_temp": null,
     "max_temp": null
