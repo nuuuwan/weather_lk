@@ -552,6 +552,12 @@
     "max_temp": null
   },
   {
+    "date": "2023-03-13",
+    "rain": 47.6,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2023-03-17",
     "rain": 44.6,
     "min_temp": null,
@@ -698,6 +704,12 @@
   {
     "date": "2023-09-22",
     "rain": 87.6,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2023-10-09",
+    "rain": 22.6,
     "min_temp": null,
     "max_temp": null
   },
