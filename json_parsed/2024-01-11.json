@@ -1,5 +1,5 @@
 {
-  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/d8bcf66c2f0b0f2b2b1bc8bfcc5005aa.pdf",
+  "pdf_path": "/tmp/weather_lk/pdf_google_search/7eff8e71615a162f9da6ce90fc35587c.pdf",
   "date_ut": 1704911400.0,
   "date": "2024-01-11",
   "weather_list": [
@@ -104,8 +104,8 @@
       "min_temp": 23.0,
       "max_temp": 26.6,
       "rain": 34.4,
-      "lat": 8.1155443,
-      "lng": 80.47207639999999
+      "lat": 8.103736399999999,
+      "lng": 80.4604643
     },
     {
       "place": "Mannar",
@@ -135,7 +135,7 @@
       "place": "Pothuvil",
       "min_temp": 23.4,
       "max_temp": 25.3,
-      "rain": 172.1,
+      "rain": 72.1,
       "lat": 6.875270599999999,
       "lng": 81.8306334
     },
@@ -269,7 +269,7 @@
     },
     {
       "place": "Samanala Wawa",
-      "rain": 20.0,
+      "rain": 200.0,
       "min_temp": null,
       "max_temp": null,
       "lat": 6.6788795,
