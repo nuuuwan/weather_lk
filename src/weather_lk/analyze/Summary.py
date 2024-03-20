@@ -31,5 +31,5 @@ class Summary(
             self.write_coverage()
             self.build_readme()
         else:
-            self.build_special_charts()
-            # self.build_readme()
+            self.draw_charts_by_place()
+   

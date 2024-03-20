@@ -2,6 +2,7 @@ from utils import Log
 
 from weather_lk.analyze.SummaryWriteDataByPlace import SummaryWriteDataByPlace
 from weather_lk.charts.Chart import Chart
+from weather_lk.core.Data import Data
 
 log = Log('ChartPlace')
 
@@ -14,8 +15,11 @@ class ChartPlace(Chart):
 
     def get_title(self):
         title = self.place
+        data_latest = Data.max()
+        date = data_latest['date']
         if self.window:
-            title += f' (Last {self.window} days)'
+            title += f' - Last {self.window} days'
+        title += f', as of {date}'
         return title
 
     def get_xlabel(self):
