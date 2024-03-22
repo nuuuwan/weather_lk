@@ -4936,5 +4936,11 @@
     "rain": 0,
     "min_temp": 21.4,
     "max_temp": 34.6
+  },
+  {
+    "date": "2024-03-22",
+    "rain": 3.2,
+    "min_temp": 22.9,
+    "max_temp": 34.4
   }
 ]
