@@ -4,7 +4,6 @@ from datetime import datetime
 import matplotlib.pyplot as plt
 from utils import SECONDS_IN, TIME_FORMAT_DATE, Log, Time, TSVFile
 
-from weather_lk.analyze import SummaryCoverage
 from weather_lk.core.Data import Data
 
 log = Log('SummaryCoverage')
