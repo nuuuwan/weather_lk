@@ -19,7 +19,7 @@ class Chart:
         plt.xlabel(self.get_xlabel())
         plt.ylabel(ylabel)
 
-        time_str = TimeFormat.Time.formatNow
+        time_str = TimeFormat.TIME.formatNow
         footer_text = f'Generated at {time_str}'
         plt.figtext(0.5, 0.05, footer_text, ha='center', fontsize=8)
 

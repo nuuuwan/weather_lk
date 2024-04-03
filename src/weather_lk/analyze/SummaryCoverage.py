@@ -31,7 +31,7 @@ class SummaryCoverage:
         max_days = max(SummaryCoverage.COVERAGE_WINDOW_LIST)
         for i in range(0, max_days):
             date = TimeFormat.DATE.stringify(
-                Time(t.ut - TimeUnit.SECONDS_IN.DAY * i + 1)
+                Time(t.ut - TimeUnit.SECOND_IN.DAY * i + 1)
             )
             n, n_temp, n_rain = 0, 0, 0
             has_data = date in idx_by_date
