@@ -3,7 +3,7 @@ import re
 import shutil
 from functools import cached_property
 
-from utils import TIME_FORMAT_DATE, JSONFile, Log, Time, TimeFormat
+from utils import JSONFile, Log, Time, TimeFormat
 
 from weather_lk.core import Data
 from weather_lk.meteo_gov_lk.REGEX import REGEX
@@ -101,7 +101,7 @@ class PDFParserExpandedData:
     @cached_property
     def expanded_data(self):
         date_ut = self.date_ut
-        date = TIME_FORMAT_DATE.stringify(Time(date_ut))
+        date = TimeFormat.DATE.stringify(Time(date_ut))
         log.debug(f'{date=}')
 
         expanded_data = (
@@ -120,7 +120,7 @@ class PDFParserExpandedData:
     def write_json(self):
         expanded_data = self.expanded_data
         date_ut = expanded_data['date_ut']
-        date = TIME_FORMAT_DATE.stringify(Time(date_ut))
+        date = TimeFormat.DATE.stringify(Time(date_ut))
         if not os.path.exists(Data.DIR_REPO_JSON_PARSED):
             os.makedirs(Data.DIR_REPO_JSON_PARSED)
         data_path = os.path.join(Data.DIR_REPO_JSON_PARSED, f'{date}.json')

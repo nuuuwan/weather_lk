@@ -2,7 +2,7 @@ import datetime
 import os
 
 import matplotlib.pyplot as plt
-from utils import TIME_FORMAT_TIME, Log, Time
+from utils import TimeFormat, Log, Time
 
 from weather_lk.constants import TEST_MODE
 
@@ -19,7 +19,7 @@ class Chart:
         plt.xlabel(self.get_xlabel())
         plt.ylabel(ylabel)
 
-        time_str = TIME_FORMAT_TIME.stringify(Time.now())
+        time_str = TimeFormat.Time.formatNow
         footer_text = f'Generated at {time_str}'
         plt.figtext(0.5, 0.05, footer_text, ha='center', fontsize=8)
 

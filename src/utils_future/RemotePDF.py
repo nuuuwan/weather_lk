@@ -1,7 +1,7 @@
 import os
 import tempfile
 
-from utils import WWW, Log, hashx
+from utils import WWW, Log, Hash
 
 log = Log('weather_lk')
 
@@ -13,7 +13,7 @@ class RemotePDF:
     def file_hash(file_path) -> str:
         with open(file_path, 'rb') as f:
             file_content = f.read().decode('utf-8', errors='ignore')
-            h32 = hashx.md5(file_content)
+            h32 = Hash.md5(file_content)
             return h32
 
     def __init__(self, pdf_url):
