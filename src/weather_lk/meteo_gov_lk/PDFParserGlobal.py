@@ -3,11 +3,8 @@ import time
 
 from utils import JSONFile, Log
 
-from weather_lk.constants import (DIR_REPO, DIR_REPO_JSON_PLACEHOLDER,
-                                  DIR_REPO_PDF_ARCHIVE_ORG,
-                                  DIR_REPO_PDF_GOOGLE_SEARCH,
-                                  DIR_REPO_PDF_METEO_GOV_LK, TEST_MODE)
-from weather_lk.core.Data import Data
+from weather_lk.core import Data
+from weather_lk.constants import TEST_MODE
 
 log = Log('PDFParserGlobal')
 
@@ -15,9 +12,9 @@ log = Log('PDFParserGlobal')
 class PDFParserGlobal:
     MAX_RUNNING_TIME = 1 if TEST_MODE else 60 * (15 - 5)
     PDF_DIR_LIST = [
-        DIR_REPO_PDF_METEO_GOV_LK,
-        DIR_REPO_PDF_ARCHIVE_ORG,
-        DIR_REPO_PDF_GOOGLE_SEARCH,
+        Data.DIR_REPO_PDF_METEO_GOV_LK,
+        Data.DIR_REPO_PDF_ARCHIVE_ORG,
+        Data.DIR_REPO_PDF_GOOGLE_SEARCH,
     ]
 
     @staticmethod
@@ -87,10 +84,12 @@ class PDFParserGlobal:
     def cleanup_bad_runs():
         bad_path_list = []
         n = 0
-        for file_name in os.listdir(DIR_REPO_JSON_PLACEHOLDER):
+        for file_name in os.listdir(Data.DIR_REPO_JSON_PLACEHOLDER):
             if not file_name.endswith('.json'):
                 continue
-            file_path = os.path.join(DIR_REPO_JSON_PLACEHOLDER, file_name)
+            file_path = os.path.join(
+                Data.DIR_REPO_JSON_PLACEHOLDER, file_name
+            )
             data = JSONFile(file_path).read()
             if data['date'] == 'unknown':
                 bad_path_list.append(file_path)

@@ -5,10 +5,9 @@ from functools import cached_property
 
 from utils import TIME_FORMAT_DATE, JSONFile, Log, Time, TimeFormat
 
-from weather_lk.constants import DIR_REPO_JSON_PARSED, DIR_REPO_PDF_PARSED
+from weather_lk.core import Data
 from weather_lk.meteo_gov_lk.REGEX import REGEX
-from weather_lk.place_to_latlng.PlaceToLatLng import (DEFAULT_LATLNG,
-                                                      PlaceToLatLng)
+from weather_lk.place_to_latlng import PlaceToLatLng
 
 log = Log('PDFParserExpandedData')
 
@@ -36,7 +35,9 @@ class PDFParserExpandedData:
         for d in weather_list:
             expanded_d = d
             place = d['place']
-            lat, lng = PLACE_TO_LATLNG.get(place, DEFAULT_LATLNG)
+            lat, lng = PLACE_TO_LATLNG.get(
+                place, PlaceToLatLng.DEFAULT_LATLNG
+            )
             expanded_d['lat'] = lat
             expanded_d['lng'] = lng
             expanded_weather_list.append(expanded_d)
@@ -120,16 +121,18 @@ class PDFParserExpandedData:
         expanded_data = self.expanded_data
         date_ut = expanded_data['date_ut']
         date = TIME_FORMAT_DATE.stringify(Time(date_ut))
-        if not os.path.exists(DIR_REPO_JSON_PARSED):
-            os.makedirs(DIR_REPO_JSON_PARSED)
-        data_path = os.path.join(DIR_REPO_JSON_PARSED, f'{date}.json')
+        if not os.path.exists(Data.DIR_REPO_JSON_PARSED):
+            os.makedirs(Data.DIR_REPO_JSON_PARSED)
+        data_path = os.path.join(Data.DIR_REPO_JSON_PARSED, f'{date}.json')
 
         JSONFile(data_path).write(self.expanded_data)
         log.info(f'Wrote to data to {data_path}')
 
-        parsed_pdf_path = os.path.join(DIR_REPO_PDF_PARSED, f'{date}.pdf')
-        if not os.path.exists(DIR_REPO_PDF_PARSED):
-            os.makedirs(DIR_REPO_PDF_PARSED)
+        parsed_pdf_path = os.path.join(
+            Data.DIR_REPO_PDF_PARSED, f'{date}.pdf'
+        )
+        if not os.path.exists(Data.DIR_REPO_PDF_PARSED):
+            os.makedirs(Data.DIR_REPO_PDF_PARSED)
         shutil.copyfile(self.pdf_path, parsed_pdf_path)
         log.info(f'Copied {self.pdf_path} to {parsed_pdf_path}')
 

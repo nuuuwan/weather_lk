@@ -3,16 +3,21 @@ import os
 from utils import File, Log
 
 from utils_future import Markdown
+from weather_lk.analyze.SummaryDataCharts import SummaryDataCharts
+from weather_lk.analyze.SummaryCoverage import SummaryCoverage
 from weather_lk.analyze.SummaryMonthTrend import SummaryMonthTrend
 from weather_lk.analyze.SummaryWriteDataByPlace import SummaryWriteDataByPlace
-from weather_lk.constants import (CHART_WINDOWS, COVERAGE_WINDOW_LIST,
-                                  DIR_REPO, DISPLAY_PLACES, TEST_MODE,
-                                  URL_REMOTE_DATA)
+from weather_lk.constants import DISPLAY_PLACES, TEST_MODE
+from weather_lk.core import Data
 
 log = Log('SummaryReadMe')
 
 
 class SummaryReadMe:
+    URL_REMOTE_DATA = (
+        'https://raw.githubusercontent.com/nuuuwan/weather_lk/data'
+    )
+
     @property
     def lines_country(self):
         lines = []
@@ -20,10 +25,10 @@ class SummaryReadMe:
             [
                 '## Weather Nationwide :sri_lanka:',
                 '',
-                f'![Temperature]({URL_REMOTE_DATA}'
+                f'![Temperature]({SummaryReadMe.URL_REMOTE_DATA}'
                 + '/charts/country_temperature.png)',
                 '',
-                f'![Rainfall]({URL_REMOTE_DATA}/charts/country_rainfall.png)',
+                f'![Rainfall]({SummaryReadMe.URL_REMOTE_DATA}/charts/country_rainfall.png)',
                 '',
             ]
         )
@@ -39,7 +44,9 @@ class SummaryReadMe:
             if window:
                 label += f'-{window}days'
             image_path_temp = (
-                URL_REMOTE_DATA + '/charts/temperature/' + f'{label}.png'
+                SummaryReadMe.URL_REMOTE_DATA
+                + '/charts/temperature/'
+                + f'{label}.png'
             )
             lines.extend(
                 [
@@ -61,7 +68,9 @@ class SummaryReadMe:
             if window:
                 label += f'-{window}days'
             image_path_rain = (
-                URL_REMOTE_DATA + '/charts/rainfall/' + f'{label}.png'
+                SummaryReadMe.URL_REMOTE_DATA
+                + '/charts/rainfall/'
+                + f'{label}.png'
             )
             lines.extend(
                 [
@@ -80,12 +89,12 @@ class SummaryReadMe:
             '',
         ]
 
-        for window in COVERAGE_WINDOW_LIST:
+        for window in SummaryCoverage.COVERAGE_WINDOW_LIST:
             lines.extend(
                 [
                     f'### Last {window:,} days',
                     '',
-                    f'![Coverage]({URL_REMOTE_DATA}/coverage-{window}days.png)',
+                    f'![Coverage]({SummaryReadMe.URL_REMOTE_DATA}/coverage-{window}days.png)',
                     '',
                 ]
             )
@@ -160,7 +169,7 @@ class SummaryReadMe:
 
         temperature_infos = []
         rainfall_infos = []
-        for window in CHART_WINDOWS:
+        for window in SummaryDataCharts.CHART_WINDOWS:
             suffix = ''
             if window:
                 suffix += f'_(last_{window}_days)'
@@ -190,7 +199,7 @@ class SummaryReadMe:
                 ('trend_by_month', self.lines_month_trend),
             ]
         ):
-            readme_path = os.path.join(DIR_REPO, f'README.{id}.md')
+            readme_path = os.path.join(Data.DIR_REPO, f'README.{id}.md')
             lines = [line.strip() for line in lines]
             File(readme_path).write_lines(lines)
             log.info(f'Wrote {readme_path}')
@@ -212,7 +221,7 @@ class SummaryReadMe:
             + links
             + self.lines_special_charts
         )
-        readme_path = os.path.join(DIR_REPO, 'README.md')
+        readme_path = os.path.join(Data.DIR_REPO, 'README.md')
         File(readme_path).write_lines(lines)
         log.info(f'Wrote README to {readme_path}')
 

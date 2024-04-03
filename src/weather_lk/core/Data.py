@@ -1,32 +1,49 @@
 import os
+import tempfile
 from functools import cache, cached_property
 
 from utils import Git, JSONFile, Log
 
-from weather_lk.constants import (BRANCH_NAME, DIR_REPO, DIR_REPO_JSON_PARSED,
-                                  GIT_REPO_URL, TEST_MODE)
+from weather_lk.constants import TEST_MODE
 from weather_lk.core.NORMALIZED_NAME_IDX import NORMALIZED_NAME_IDX
 
 log = Log('Data')
 
 
 class Data:
+    BRANCH_NAME = 'data'
+    GIT_REPO_URL = 'https://github.com/nuuuwan/weather_lk'
+    DIR_REPO = os.path.join(tempfile.gettempdir(), 'weather_lk')
+
+    DIR_DATA_CHARTS = os.path.join(DIR_REPO, 'charts')
+    DIR_DATA_BY_PLACE = os.path.join(DIR_REPO, 'data_by_place')
+    DIR_DATA_CHARTS_MIN_MAX_PLOT = os.path.join(
+        DIR_DATA_CHARTS, 'min_max_plot'
+    )
+    DIR_DATA_CHARTS_RAINFALL = os.path.join(DIR_DATA_CHARTS, 'rainfall')
+    DIR_DATA_CHARTS_TEMPERATURE = os.path.join(DIR_DATA_CHARTS, 'temperature')
+
+    DIR_REPO_PDF_ARCHIVE_ORG = os.path.join(DIR_REPO, 'pdf_archive_org')
+    DIR_REPO_PDF_METEO_GOV_LK = os.path.join(DIR_REPO, 'pdf_meteo_gov_lk')
+    DIR_REPO_PDF_GOOGLE_SEARCH = os.path.join(DIR_REPO, 'pdf_google_search')
+    DIR_REPO_PDF_PARSED = os.path.join(DIR_REPO, 'pdf_parsed')
+    DIR_REPO_JSON_PARSED = os.path.join(DIR_REPO, 'json_parsed')
+    DIR_REPO_JSON_PLACEHOLDER = os.path.join(DIR_REPO, 'json_placeholder')
+
     @staticmethod
     def init():
-        git = Git(GIT_REPO_URL)
-        git.clone(DIR_REPO)
-        git.checkout(BRANCH_NAME)
+        git = Git(Data.GIT_REPO_URL)
+        git.clone(Data.DIR_REPO)
+        git.checkout(Data.BRANCH_NAME)
 
     @staticmethod
     @cache
     def get_data_path_list():
-        if not TEST_MODE:
-            Data.init()
-
+        Data.init()
         data_path_list = []
-        for file_name in os.listdir(DIR_REPO_JSON_PARSED):
+        for file_name in os.listdir(Data.DIR_REPO_JSON_PARSED):
             if file_name.endswith('.json'):
-                data_path = os.path.join(DIR_REPO_JSON_PARSED, file_name)
+                data_path = os.path.join(Data.DIR_REPO_JSON_PARSED, file_name)
                 data_path_list.append(data_path)
         return data_path_list
 

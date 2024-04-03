@@ -6,26 +6,24 @@ from weather_lk.charts.ChartCountryRainfall import ChartCountryRainfall
 from weather_lk.charts.ChartCountryTemperature import ChartCountryTemperature
 from weather_lk.charts.ChartPlaceRainfall import ChartPlaceRainfall
 from weather_lk.charts.ChartPlaceTemperature import ChartPlaceTemperature
-from weather_lk.constants import (CHART_WINDOWS, DIR_DATA_CHARTS,
-                                  DIR_DATA_CHARTS_RAINFALL,
-                                  DIR_DATA_CHARTS_TEMPERATURE, DISPLAY_PLACES,
-                                  TEST_MODE)
+from weather_lk.constants import DISPLAY_PLACES, TEST_MODE
 from weather_lk.core.Data import Data
 
 log = Log('SummaryDataCharts')
 
 
 class SummaryDataCharts:
+    CHART_WINDOWS = [None, 28, 91]
     N_ANNOTATE = 10
 
     @staticmethod
     def init():
-        if not os.path.exists(DIR_DATA_CHARTS):
-            os.makedirs(DIR_DATA_CHARTS)
-        if not os.path.exists(DIR_DATA_CHARTS_RAINFALL):
-            os.makedirs(DIR_DATA_CHARTS_RAINFALL)
-        if not os.path.exists(DIR_DATA_CHARTS_TEMPERATURE):
-            os.makedirs(DIR_DATA_CHARTS_TEMPERATURE)
+        if not os.path.exists(Data.DIR_DATA_CHARTS):
+            os.makedirs(Data.DIR_DATA_CHARTS)
+        if not os.path.exists(Data.DIR_DATA_CHARTS_RAINFALL):
+            os.makedirs(Data.DIR_DATA_CHARTS_RAINFALL)
+        if not os.path.exists(Data.DIR_DATA_CHARTS_TEMPERATURE):
+            os.makedirs(Data.DIR_DATA_CHARTS_TEMPERATURE)
 
     def draw_charts_by_place(self):
         SummaryDataCharts.init()
@@ -39,7 +37,7 @@ class SummaryDataCharts:
                 log.warning(f'No data for {place}')
                 continue
 
-            for window in CHART_WINDOWS:
+            for window in SummaryDataCharts.CHART_WINDOWS:
                 ChartPlaceTemperature(
                     place, data_for_place, window=window
                 ).write()

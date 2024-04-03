@@ -2,7 +2,7 @@ import os
 
 from weather_lk.charts.ChartCountry import ChartCountry
 from weather_lk.charts.ChartTemperature import ChartTemperature
-from weather_lk.constants import DIR_DATA_CHARTS
+from weather_lk.core import Data
 
 
 class ChartCountryTemperature(ChartCountry, ChartTemperature):
@@ -10,7 +10,7 @@ class ChartCountryTemperature(ChartCountry, ChartTemperature):
         return 'country_temperature'
 
     def get_dir(self):
-        return DIR_DATA_CHARTS
+        return Data.DIR_DATA_CHARTS
 
     def get_data(self):
         sorted_weather_list = self.sorted_weather_list

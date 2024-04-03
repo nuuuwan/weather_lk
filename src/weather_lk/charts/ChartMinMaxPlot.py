@@ -7,14 +7,14 @@ from utils import TIME_FORMAT_TIME, Log, Time
 
 from weather_lk.charts.ChartPlace import ChartPlace
 from weather_lk.charts.ChartTemperature import ChartTemperature
-from weather_lk.constants import DIR_DATA_CHARTS_MIN_MAX_PLOT
+from weather_lk.core import Data
 
 log = Log('ChartMinMaxPlot')
 
 
 class ChartMinMaxPlot(ChartPlace):
     def get_dir(self):
-        return DIR_DATA_CHARTS_MIN_MAX_PLOT
+        return Data.DIR_DATA_CHARTS_MIN_MAX_PLOT
 
     def get_data(self):
         d_list = self.data_for_place

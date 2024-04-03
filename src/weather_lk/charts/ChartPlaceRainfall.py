@@ -6,14 +6,14 @@ from utils import Log
 from weather_lk.charts.Chart import Chart
 from weather_lk.charts.ChartPlace import ChartPlace
 from weather_lk.charts.ChartRainfall import ChartRainfall
-from weather_lk.constants import DIR_DATA_CHARTS_RAINFALL
+from weather_lk.core import Data
 
 log = Log('ChartPlaceRainfall')
 
 
 class ChartPlaceRainfall(ChartPlace, ChartRainfall):
     def get_dir(self):
-        return DIR_DATA_CHARTS_RAINFALL
+        return Data.DIR_DATA_CHARTS_RAINFALL
 
     def get_data(self):
         d_list = self.data_for_place

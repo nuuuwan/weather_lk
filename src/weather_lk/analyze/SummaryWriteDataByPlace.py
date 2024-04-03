@@ -3,7 +3,6 @@ from functools import cache
 
 from utils import JSONFile, Log, TSVFile
 
-from weather_lk.constants import DIR_DATA_BY_PLACE
 from weather_lk.core.Data import Data
 from weather_lk.place_to_latlng.PlaceToLatLng import PlaceToLatLng
 
@@ -26,17 +25,17 @@ class SummaryWriteDataByPlace:
         label = SummaryWriteDataByPlace.get_place_label(place)
         n = len(data_for_place)
 
-        json_path = os.path.join(DIR_DATA_BY_PLACE, f'{label}.json')
+        json_path = os.path.join(Data.DIR_DATA_BY_PLACE, f'{label}.json')
         JSONFile(json_path).write(data_for_place)
 
-        tsv_path = os.path.join(DIR_DATA_BY_PLACE, f'{label}.tsv')
+        tsv_path = os.path.join(Data.DIR_DATA_BY_PLACE, f'{label}.tsv')
         TSVFile(tsv_path).write(data_for_place)
 
         log.info(f'Wrote {json_path}/tsv ({n} records)')
 
     def write_by_place(self):
-        if not os.path.exists(DIR_DATA_BY_PLACE):
-            os.makedirs(DIR_DATA_BY_PLACE)
+        if not os.path.exists(Data.DIR_DATA_BY_PLACE):
+            os.makedirs(Data.DIR_DATA_BY_PLACE)
 
         for place, data_for_place in Data.idx_by_place().items():
             try:

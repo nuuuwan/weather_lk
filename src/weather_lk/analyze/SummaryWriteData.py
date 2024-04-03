@@ -2,7 +2,6 @@ import os
 
 from utils import JSONFile, Log
 
-from weather_lk.constants import DIR_REPO
 from weather_lk.core.Data import Data
 from weather_lk.place_to_latlng.PlaceToLatLng import PlaceToLatLng
 
@@ -15,7 +14,7 @@ class SummaryWriteData:
 
     @staticmethod
     def __write_json(label, x):
-        summary_json_path = os.path.join(DIR_REPO, f'{label}.json')
+        summary_json_path = os.path.join(Data.DIR_REPO, f'{label}.json')
         JSONFile(summary_json_path).write(x)
         file_size_m = os.path.getsize(summary_json_path) / 1024 / 1024
         log.info(

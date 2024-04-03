@@ -7,7 +7,7 @@ from googlesearch import search
 from utils import Log
 
 from utils_future import RemotePDF
-from weather_lk.constants import DIR_REPO_PDF_GOOGLE_SEARCH
+from weather_lk.core import Data
 
 log = Log('GoogleSearch')
 
@@ -42,10 +42,10 @@ class GoogleSearch:
         return filtered_pdf_link_list
 
     def download_all(self):
-        if not os.path.exists(DIR_REPO_PDF_GOOGLE_SEARCH):
-            os.makedirs(DIR_REPO_PDF_GOOGLE_SEARCH)
+        if not os.path.exists(Data.DIR_REPO_PDF_GOOGLE_SEARCH):
+            os.makedirs(Data.DIR_REPO_PDF_GOOGLE_SEARCH)
 
         for pdf_link in self.pdf_link_list:
-            RemotePDF(pdf_link).download(DIR_REPO_PDF_GOOGLE_SEARCH)
+            RemotePDF(pdf_link).download(Data.DIR_REPO_PDF_GOOGLE_SEARCH)
             log.debug(f'😴 Sleeping for {GoogleSearch.T_WAIT}s')
             time.sleep(GoogleSearch.T_WAIT)

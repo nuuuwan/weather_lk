@@ -6,7 +6,7 @@ from selenium.webdriver.firefox.options import Options
 from utils import Log
 
 from utils_future import RemotePDF
-from weather_lk.constants import DIR_REPO_PDF_METEO_GOV_LK
+from weather_lk.core import Data
 
 log = Log('weather_lk')
 
@@ -37,4 +37,4 @@ class MeteoGovLkPage:
         return pdf_url
 
     def download(self):
-        RemotePDF(self.pdf_url).download(DIR_REPO_PDF_METEO_GOV_LK)
+        RemotePDF(self.pdf_url).download(Data.DIR_REPO_PDF_METEO_GOV_LK)

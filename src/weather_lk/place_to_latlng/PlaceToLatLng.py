@@ -1,9 +1,9 @@
+import os
 from functools import cached_property
 
+import googlemaps
 from utils import JSONFile, Log
 
-from weather_lk.constants import (DEFAULT_LATLNG, GMAPS, PLACE_TO_LATLNG_PATH,
-                                  PLACE_TO_LATLNG_PATH_NEW)
 from weather_lk.core.Data import Data
 from weather_lk.core.NORMALIZED_NAME_IDX import NORMALIZED_NAME_IDX
 
@@ -11,6 +11,18 @@ log = Log('History')
 
 
 class PlaceToLatLng:
+    DIR_DATA_PLACE_TO_LATLNG = 'data_place_to_latlng'
+    PLACE_TO_LATLNG_PATH = os.path.join(
+        DIR_DATA_PLACE_TO_LATLNG, 'place_to_latlng.json'
+    )
+    PLACE_TO_LATLNG_PATH_NEW = os.path.join(
+        DIR_DATA_PLACE_TO_LATLNG, 'place_to_latlng.new.json'
+    )
+
+    GMAPS_API_KEY = os.environ.get('GMAPS_API_KEY')
+    GMAPS = googlemaps.Client(GMAPS_API_KEY) if GMAPS_API_KEY else None
+    DEFAULT_LATLNG = [0, 0]
+
     @cached_property
     def place_list(self):
         place_set = set()
@@ -24,8 +36,8 @@ class PlaceToLatLng:
         for place in self.place_list:
             if place not in place_to_latlng:
                 if (
-                    place_to_latlng_old.get(place, DEFAULT_LATLNG)
-                    != DEFAULT_LATLNG
+                    place_to_latlng_old.get(place, PlaceToLatLng.DEFAULT_LATLNG)
+                    != PlaceToLatLng.DEFAULT_LATLNG
                 ):
                     place_to_latlng[place] = place_to_latlng_old[place]
                 else:
@@ -39,21 +51,21 @@ class PlaceToLatLng:
 
     @staticmethod
     def get_latlng(place: str):
-        geocode_result = GMAPS.geocode(f'{place}, Sri Lanka')
+        geocode_result = PlaceToLatLng.GMAPS.geocode(f'{place}, Sri Lanka')
         if not geocode_result:
-            return DEFAULT_LATLNG
+            return PlaceToLatLng.DEFAULT_LATLNG
         d = geocode_result[0]['geometry']['location']
         return (d['lat'], d['lng'])
 
     @staticmethod
     def get_place_to_latlng():
-        return JSONFile(PLACE_TO_LATLNG_PATH).read()
+        return JSONFile(PlaceToLatLng.PLACE_TO_LATLNG_PATH).read()
 
     def save_place_to_latlng(self):
-        place_to_latlng_old = JSONFile(PLACE_TO_LATLNG_PATH).read()
+        place_to_latlng_old = JSONFile(PlaceToLatLng.PLACE_TO_LATLNG_PATH).read()
         place_to_latlng = self.build_place_to_latlng(place_to_latlng_old)
 
         n = len(place_to_latlng.keys())
-        JSONFile(PLACE_TO_LATLNG_PATH_NEW).write(place_to_latlng)
-        log.info(f'Saved {n} places to {PLACE_TO_LATLNG_PATH_NEW}.')
-        log.warn(f'Must be copied to {PLACE_TO_LATLNG_PATH}.')
+        JSONFile(PlaceToLatLng.PLACE_TO_LATLNG_PATH_NEW).write(place_to_latlng)
+        log.info(f'Saved {n} places to {PlaceToLatLng.PLACE_TO_LATLNG_PATH_NEW}.')
+        log.warn(f'Must be copied to {PlaceToLatLng.PLACE_TO_LATLNG_PATH}.')

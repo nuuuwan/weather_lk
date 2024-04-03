@@ -3,7 +3,7 @@ from functools import cached_property
 
 from utils import JSONFile, Log
 
-from weather_lk.constants import DIR_REPO
+from weather_lk.core import Data
 from weather_lk.meteo_gov_lk.PDFParserGlobal import PDFParserGlobal
 from weather_lk.meteo_gov_lk.PDFParserPlaceholder import PDFParserPlaceholder
 
@@ -92,7 +92,7 @@ class SummarySourceStats:
             SummarySourceStats.SOURCE_ID_MULTIPLE: [],
         }
         for source_id, file_names in source_to_file_name.items():
-            dir = os.path.join(DIR_REPO, source_id)
+            dir = os.path.join(Data.DIR_REPO, source_id)
             for file_name in file_names:
                 is_duplicate = len(file_name_to_source_set[file_name]) > 1
                 pdf_path = os.path.join(dir, file_name)

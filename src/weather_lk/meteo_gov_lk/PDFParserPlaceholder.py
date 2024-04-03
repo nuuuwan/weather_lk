@@ -3,7 +3,7 @@ from functools import cached_property
 
 from utils import JSONFile, Log
 
-from weather_lk.constants import DIR_REPO_JSON_PLACEHOLDER
+from weather_lk.core import Data
 
 log = Log('PDFParserPlaceholder')
 
@@ -11,7 +11,7 @@ log = Log('PDFParserPlaceholder')
 class PDFParserPlaceholder:
     @staticmethod
     def get_placeholder_path(file_id):
-        return os.path.join(DIR_REPO_JSON_PLACEHOLDER, f'{file_id}.json')
+        return os.path.join(Data.DIR_REPO_JSON_PLACEHOLDER, f'{file_id}.json')
 
     @cached_property
     def placeholder_path(self):
@@ -23,8 +23,8 @@ class PDFParserPlaceholder:
         return os.path.exists(self.placeholder_path)
 
     def write_placeholder_json(self, date, data_path):
-        if not os.path.exists(DIR_REPO_JSON_PLACEHOLDER):
-            os.makedirs(DIR_REPO_JSON_PLACEHOLDER)
+        if not os.path.exists(Data.DIR_REPO_JSON_PLACEHOLDER):
+            os.makedirs(Data.DIR_REPO_JSON_PLACEHOLDER)
         placeholder_path = self.placeholder_path
         JSONFile(placeholder_path).write(
             dict(

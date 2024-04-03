@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 from utils import Log
 
 from utils_future import RemotePDF
-from weather_lk.constants import DIR_REPO_PDF_ARCHIVE_ORG
+from weather_lk.core import Data
 
 log = Log('WayBack')
 
@@ -77,10 +77,10 @@ class WayBack:
         return all_pdf_links
 
     def download_all(self):
-        if not os.path.exists(DIR_REPO_PDF_ARCHIVE_ORG):
-            os.makedirs(DIR_REPO_PDF_ARCHIVE_ORG)
+        if not os.path.exists(Data.DIR_REPO_PDF_ARCHIVE_ORG):
+            os.makedirs(Data.DIR_REPO_PDF_ARCHIVE_ORG)
 
         for pdf_link in self.pdf_link_list:
-            RemotePDF(pdf_link).download(DIR_REPO_PDF_ARCHIVE_ORG)
+            RemotePDF(pdf_link).download(Data.DIR_REPO_PDF_ARCHIVE_ORG)
             log.debug(f'😴 Sleeping for {WayBack.T_WAIT}s')
             time.sleep(WayBack.T_WAIT)

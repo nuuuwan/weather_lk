@@ -4,13 +4,15 @@ from datetime import datetime
 import matplotlib.pyplot as plt
 from utils import SECONDS_IN, TIME_FORMAT_DATE, Log, Time, TSVFile
 
-from weather_lk.constants import COVERAGE_WINDOW_LIST, DIR_REPO
+from weather_lk.analyze import SummaryCoverage
 from weather_lk.core.Data import Data
 
 log = Log('SummaryCoverage')
 
 
 class SummaryCoverage:
+    COVERAGE_WINDOW_LIST = [7, 28, 365, 3652]
+
     @staticmethod
     def get_n_temp(weather_list):
         return sum(
@@ -27,7 +29,7 @@ class SummaryCoverage:
         t = Time.now()
         idx_by_date = Data.idx_by_date()
         c_list = []
-        max_days = max(COVERAGE_WINDOW_LIST)
+        max_days = max(SummaryCoverage.COVERAGE_WINDOW_LIST)
         for i in range(0, max_days):
             date = TIME_FORMAT_DATE.stringify(
                 Time(t.ut - SECONDS_IN.DAY * i + 1)
@@ -54,11 +56,11 @@ class SummaryCoverage:
 
     def write_coverage(self):
         coverage = self.get_coverage()
-        tsv_path = os.path.join(DIR_REPO, 'coverage.tsv')
+        tsv_path = os.path.join(Data.DIR_REPO, 'coverage.tsv')
         TSVFile(tsv_path).write(coverage)
         log.info(f'Wrote coverage to {tsv_path}')
 
-        for window in COVERAGE_WINDOW_LIST:
+        for window in SummaryCoverage.COVERAGE_WINDOW_LIST:
             self.draw_coverage_chart(window)
 
     def draw_coverage_chart(self, window):
@@ -86,7 +88,7 @@ class SummaryCoverage:
         plt.bar(x, y_temp, color='r', label='Temperature & Rainfall')
         plt.legend(loc='upper left')
 
-        image_path = os.path.join(DIR_REPO, f'coverage-{window}days.png')
+        image_path = os.path.join(Data.DIR_REPO, f'coverage-{window}days.png')
         plt.savefig(image_path, dpi=300)
         plt.close()
         log.info(f'Wrote chart to {image_path}')

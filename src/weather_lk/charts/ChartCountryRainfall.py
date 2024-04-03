@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 from weather_lk.charts.ChartCountry import ChartCountry
 from weather_lk.charts.ChartRainfall import ChartRainfall
-from weather_lk.constants import DIR_DATA_CHARTS
+from weather_lk.core import Data
 
 
 class ChartCountryRainfall(ChartCountry, ChartRainfall):
@@ -12,7 +12,7 @@ class ChartCountryRainfall(ChartCountry, ChartRainfall):
         return 'country_rainfall'
 
     def get_dir(self):
-        return DIR_DATA_CHARTS
+        return Data.DIR_DATA_CHARTS
 
     def get_data(self):
         sorted_weather_list = self.sorted_weather_list
