@@ -36,7 +36,9 @@ class PlaceToLatLng:
         for place in self.place_list:
             if place not in place_to_latlng:
                 if (
-                    place_to_latlng_old.get(place, PlaceToLatLng.DEFAULT_LATLNG)
+                    place_to_latlng_old.get(
+                        place, PlaceToLatLng.DEFAULT_LATLNG
+                    )
                     != PlaceToLatLng.DEFAULT_LATLNG
                 ):
                     place_to_latlng[place] = place_to_latlng_old[place]
@@ -62,10 +64,16 @@ class PlaceToLatLng:
         return JSONFile(PlaceToLatLng.PLACE_TO_LATLNG_PATH).read()
 
     def save_place_to_latlng(self):
-        place_to_latlng_old = JSONFile(PlaceToLatLng.PLACE_TO_LATLNG_PATH).read()
+        place_to_latlng_old = JSONFile(
+            PlaceToLatLng.PLACE_TO_LATLNG_PATH
+        ).read()
         place_to_latlng = self.build_place_to_latlng(place_to_latlng_old)
 
         n = len(place_to_latlng.keys())
-        JSONFile(PlaceToLatLng.PLACE_TO_LATLNG_PATH_NEW).write(place_to_latlng)
-        log.info(f'Saved {n} places to {PlaceToLatLng.PLACE_TO_LATLNG_PATH_NEW}.')
+        JSONFile(PlaceToLatLng.PLACE_TO_LATLNG_PATH_NEW).write(
+            place_to_latlng
+        )
+        log.info(
+            f'Saved {n} places to {PlaceToLatLng.PLACE_TO_LATLNG_PATH_NEW}.'
+        )
         log.warn(f'Must be copied to {PlaceToLatLng.PLACE_TO_LATLNG_PATH}.')

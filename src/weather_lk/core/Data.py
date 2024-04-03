@@ -4,7 +4,6 @@ from functools import cache, cached_property
 
 from utils import Git, JSONFile, Log
 
-from weather_lk.constants import TEST_MODE
 from weather_lk.core.NORMALIZED_NAME_IDX import NORMALIZED_NAME_IDX
 
 log = Log('Data')
@@ -33,7 +32,10 @@ class Data:
     @staticmethod
     def init():
         git = Git(Data.GIT_REPO_URL)
-        git.clone(Data.DIR_REPO)
+        if os.path.exists(Data.DIR_REPO):
+            log.debug('Repo Exists. Not cloning.')
+            return
+        git.clone(Data.DIR_REPO, Data.BRANCH_NAME)
         git.checkout(Data.BRANCH_NAME)
 
     @staticmethod

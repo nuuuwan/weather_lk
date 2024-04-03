@@ -8,7 +8,6 @@ from weather_lk.analyze.SummarySpecialCharts import SummarySpecialCharts
 from weather_lk.analyze.SummaryWriteData import SummaryWriteData
 from weather_lk.analyze.SummaryWriteDataByPlace import SummaryWriteDataByPlace
 
-
 log = Log('Summary')
 
 
@@ -22,7 +21,6 @@ class Summary(
     SummarySpecialCharts,
 ):
     def write_all(self):
-
         self.write()
         self.write_by_place()
         self.draw_charts_by_place()
@@ -30,4 +28,3 @@ class Summary(
         self.build_special_charts()
         self.write_coverage()
         self.build_readme()
-

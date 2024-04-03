@@ -3,8 +3,8 @@ import os
 from utils import File, Log
 
 from utils_future import Markdown
-from weather_lk.analyze.SummaryDataCharts import SummaryDataCharts
 from weather_lk.analyze.SummaryCoverage import SummaryCoverage
+from weather_lk.analyze.SummaryDataCharts import SummaryDataCharts
 from weather_lk.analyze.SummaryMonthTrend import SummaryMonthTrend
 from weather_lk.analyze.SummaryWriteDataByPlace import SummaryWriteDataByPlace
 from weather_lk.constants import DISPLAY_PLACES, TEST_MODE

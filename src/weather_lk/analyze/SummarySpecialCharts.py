@@ -3,11 +3,11 @@ from functools import cached_property
 
 from utils import File, Log
 
+from weather_lk.analyze.SummaryReadMe import SummaryReadMe
 from weather_lk.analyze.SummaryWriteDataByPlace import SummaryWriteDataByPlace
 from weather_lk.charts.ChartMinMaxPlot import ChartMinMaxPlot
 from weather_lk.constants import DISPLAY_PLACES, TEST_MODE
 from weather_lk.core.Data import Data
-from weather_lk.analyze.SummaryReadMe import SummaryReadMe
 
 log = Log('SummarySpecialCharts')
 

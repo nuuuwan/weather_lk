@@ -3,8 +3,8 @@ import time
 
 from utils import JSONFile, Log
 
-from weather_lk.core import Data
 from weather_lk.constants import TEST_MODE
+from weather_lk.core import Data
 
 log = Log('PDFParserGlobal')
 
@@ -47,7 +47,7 @@ class PDFParserGlobal:
             source_id,
             file_names,
         ) in PDFParserGlobal.source_to_file_name().items():
-            dir = os.path.join(DIR_REPO, source_id)
+            dir = os.path.join(Data.DIR_REPO, source_id)
             for file_name in file_names:
                 pdf_path = os.path.join(dir, file_name)
                 if source_id not in source_to_pdf_paths:
