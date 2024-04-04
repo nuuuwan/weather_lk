@@ -46,8 +46,7 @@ class Chart:
         plt.savefig(image_path, dpi=Chart.DPI)
         plt.close()
         log.info(f'Wrote chart to {image_path}')
-        if TEST_MODE:
-            os.startfile(image_path)
+
         return image_path
 
     def write(self):

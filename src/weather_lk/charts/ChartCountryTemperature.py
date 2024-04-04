@@ -48,4 +48,4 @@ class ChartCountryTemperature(ChartCountry, ChartTemperature):
 
 if __name__ == '__main__':
     image_path = ChartCountryTemperature().write()
-    os.startfile(image_path)
+

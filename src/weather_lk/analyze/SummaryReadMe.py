@@ -225,5 +225,3 @@ class SummaryReadMe:
         File(readme_path).write_lines(lines)
         log.info(f'Wrote README to {readme_path}')
 
-        if TEST_MODE:
-            os.startfile(readme_path)

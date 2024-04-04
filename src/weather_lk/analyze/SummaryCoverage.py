@@ -91,4 +91,4 @@ class SummaryCoverage:
         plt.savefig(image_path, dpi=300)
         plt.close()
         log.info(f'Wrote chart to {image_path}')
-        # os.startfile(image_path)
+

@@ -41,4 +41,4 @@ class ChartCountryRainfall(ChartCountry, ChartRainfall):
 
 if __name__ == '__main__':
     image_path = ChartCountryRainfall().write()
-    os.startfile(image_path)
+
