@@ -259,7 +259,7 @@ date	has_data	n	n_temp	n_rain
 2023-07-23	False	0	0	0
 2023-07-22	False	0	0	0
 2023-07-21	False	0	0	0
-2023-07-20	False	0	0	0
+2023-07-20	True	58	24	58
 2023-07-19	False	0	0	0
 2023-07-18	False	0	0	0
 2023-07-17	False	0	0	0
