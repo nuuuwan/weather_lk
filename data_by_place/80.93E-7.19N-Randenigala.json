@@ -3756,6 +3756,12 @@
     "max_temp": null
   },
   {
+    "date": "2023-08-12",
+    "rain": 42.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2023-08-13",
     "rain": 0.0,
     "min_temp": null,
