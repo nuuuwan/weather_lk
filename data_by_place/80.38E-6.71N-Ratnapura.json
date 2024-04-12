@@ -5086,5 +5086,11 @@
     "rain": 0,
     "min_temp": 24.9,
     "max_temp": 35.7
+  },
+  {
+    "date": "2024-04-12",
+    "rain": 1.6,
+    "min_temp": 24.8,
+    "max_temp": 35.8
   }
 ]
