@@ -306,6 +306,12 @@
     "max_temp": null
   },
   {
+    "date": "2023-03-01",
+    "rain": 42.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2023-04-21",
     "rain": 9.0,
     "min_temp": null,
