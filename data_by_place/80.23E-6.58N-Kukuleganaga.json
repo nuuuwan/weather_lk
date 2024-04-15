@@ -5086,5 +5086,11 @@
     "rain": 5.0,
     "min_temp": null,
     "max_temp": null
+  },
+  {
+    "date": "2024-04-15",
+    "rain": 6.0,
+    "min_temp": null,
+    "max_temp": null
   }
 ]
