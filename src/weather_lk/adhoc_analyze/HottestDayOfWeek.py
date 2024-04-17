@@ -19,6 +19,7 @@ DAYS_OF_WEEK = [
 ]
 Q = 0.1
 
+
 class HottestDayOfWeek:
     def __init__(self, place):
         self.place = place
@@ -73,7 +74,10 @@ class HottestDayOfWeek:
 
         min_temp_list = [data['min_temp'] for data in data_list_with_temp]
         max_temp_list = [data['max_temp'] for data in data_list_with_temp]
-        mean_temp_list = [(min_temp + max_temp) / 2.0 for min_temp, max_temp in zip(min_temp_list, max_temp_list)]
+        mean_temp_list = [
+            (min_temp + max_temp) / 2.0
+            for min_temp, max_temp in zip(min_temp_list, max_temp_list)
+        ]
 
         return dict(
             n=n,
@@ -101,25 +105,37 @@ class HottestDayOfWeek:
         stats = self.day_of_week_to_summary_statistics
 
         x = DAYS_OF_WEEK
-        y_temp_min_mean = [stats[dow]['mean_temp']['mean_minus2'] for dow in x]
-        y_temp_max_mean = [stats[dow]['mean_temp']['mean_plus2']  for dow in x]
-        y_temp_diff = [y_max - y_min for y_max, y_min in zip(y_temp_max_mean, y_temp_min_mean)]
+        y_temp_min_mean = [
+            stats[dow]['mean_temp']['mean_minus2'] for dow in x
+        ]
+        y_temp_max_mean = [stats[dow]['mean_temp']['mean_plus2'] for dow in x]
+        y_temp_diff = [
+            y_max - y_min
+            for y_max, y_min in zip(y_temp_max_mean, y_temp_min_mean)
+        ]
         y = [stats[dow]['mean_temp']['mean'] for dow in x]
-   
-        plt.close()
-        plt.bar(x, y_temp_min_mean,  color="white")
-        plt.bar(x, y_temp_diff,  color="pink", bottom=y_temp_min_mean)
-        plt.plot(x, y,  color="red")
 
-        plt.title(f'{self.place} - Max and Min Daily Temp - Mean across Days of Week')
+        plt.close()
+        plt.bar(x, y_temp_min_mean, color="white")
+        plt.bar(x, y_temp_diff, color="pink", bottom=y_temp_min_mean)
+        plt.plot(x, y, color="red")
+
+        plt.title(
+            f'{self.place} - Max and Min Daily Temp - Mean across Days of Week'
+        )
         plt.xlabel('Day of Week')
         plt.ylabel('Temperature (Celsius)')
 
         ylim_min = math.floor(min(y_temp_min_mean) / Q) * Q
         ylim_max = math.ceil(max(y_temp_max_mean) / Q) * Q
-        plt.ylim(ylim_min,ylim_max)
+        plt.ylim(ylim_min, ylim_max)
 
-        image_path = os.path.join('src', 'weather_lk', 'adhoc_analyze',  f'HottestDayOfWeek.range.{self.place}.png')
+        image_path = os.path.join(
+            'src',
+            'weather_lk',
+            'adhoc_analyze',
+            f'HottestDayOfWeek.range.{self.place}.png',
+        )
         plt.savefig(image_path)
         plt.close()
         log.info(f'Saved {image_path}')
@@ -129,22 +145,30 @@ class HottestDayOfWeek:
         stats = self.day_of_week_to_summary_statistics
         x = DAYS_OF_WEEK
         y = [stats[dow]['mean_temp']['mean'] for dow in x]
-        ylim_min = math.floor(min(y)/Q) * Q
-        ylim_max = math.ceil(max(y)/Q) * Q
+        ylim_min = math.floor(min(y) / Q) * Q
+        ylim_max = math.ceil(max(y) / Q) * Q
 
         plt.close()
-        plt.plot(x, y,  color="red")
+        plt.plot(x, y, color="red")
 
-        plt.title(f'{self.place} - Mean Daily Temp - Mean across Days of Week')
+        plt.title(
+            f'{self.place} - Mean Daily Temp - Mean across Days of Week'
+        )
         plt.xlabel('Day of Week')
         plt.ylabel('Temperature (Celsius)')
-        plt.ylim(ylim_min,ylim_max)
+        plt.ylim(ylim_min, ylim_max)
 
-        image_path = os.path.join('src', 'weather_lk', 'adhoc_analyze', f'HottestDayOfWeek.line.{self.place}.png')
+        image_path = os.path.join(
+            'src',
+            'weather_lk',
+            'adhoc_analyze',
+            f'HottestDayOfWeek.line.{self.place}.png',
+        )
         plt.savefig(image_path)
         plt.close()
         log.info(f'Saved {image_path}')
         os.startfile(image_path)
+
 
 def main():
     for place in ['Colombo', 'Katugastota', 'Jaffna', 'Galle']:
