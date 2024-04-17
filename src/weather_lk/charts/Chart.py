@@ -2,9 +2,7 @@ import datetime
 import os
 
 import matplotlib.pyplot as plt
-from utils import TimeFormat, Log, Time
-
-from weather_lk.constants import TEST_MODE
+from utils import Log, TimeFormat
 
 log = Log('Chart')
 

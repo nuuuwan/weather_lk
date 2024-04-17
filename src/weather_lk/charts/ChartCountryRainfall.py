@@ -1,5 +1,3 @@
-import os
-
 import matplotlib.pyplot as plt
 
 from weather_lk.charts.ChartCountry import ChartCountry
@@ -41,4 +39,3 @@ class ChartCountryRainfall(ChartCountry, ChartRainfall):
 
 if __name__ == '__main__':
     image_path = ChartCountryRainfall().write()
-

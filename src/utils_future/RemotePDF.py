@@ -1,7 +1,7 @@
 import os
 import tempfile
 
-from utils import WWW, Log, Hash
+from utils import WWW, Hash, Log
 
 log = Log('weather_lk')
 

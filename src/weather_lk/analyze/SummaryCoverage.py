@@ -2,7 +2,7 @@ import os
 from datetime import datetime
 
 import matplotlib.pyplot as plt
-from utils import TimeUnit, TimeFormat, Log, Time, TSVFile
+from utils import Log, Time, TimeFormat, TimeUnit, TSVFile
 
 from weather_lk.core.Data import Data
 
@@ -91,4 +91,3 @@ class SummaryCoverage:
         plt.savefig(image_path, dpi=300)
         plt.close()
         log.info(f'Wrote chart to {image_path}')
-

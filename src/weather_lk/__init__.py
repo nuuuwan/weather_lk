@@ -1,5 +1,6 @@
 # weather_lk (auto generate by build_inits.py)
 
+from weather_lk.adhoc_analyze import HottestDayOfWeek
 from weather_lk.analyze import (Summary, SummaryCoverage, SummaryDataCharts,
                                 SummaryMonthTrend, SummaryReadMe,
                                 SummarySourceStats, SummarySpecialCharts,

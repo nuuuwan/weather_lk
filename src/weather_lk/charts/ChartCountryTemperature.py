@@ -1,5 +1,3 @@
-import os
-
 from weather_lk.charts.ChartCountry import ChartCountry
 from weather_lk.charts.ChartTemperature import ChartTemperature
 from weather_lk.core import Data
@@ -48,4 +46,3 @@ class ChartCountryTemperature(ChartCountry, ChartTemperature):
 
 if __name__ == '__main__':
     image_path = ChartCountryTemperature().write()
-

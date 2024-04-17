@@ -3,7 +3,7 @@ from datetime import datetime
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.ticker import MultipleLocator
-from utils import TimeFormat, Log, Time
+from utils import Log, TimeFormat
 
 from weather_lk.charts.ChartPlace import ChartPlace
 from weather_lk.charts.ChartTemperature import ChartTemperature

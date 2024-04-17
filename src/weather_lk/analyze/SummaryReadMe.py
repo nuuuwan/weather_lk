@@ -7,7 +7,7 @@ from weather_lk.analyze.SummaryCoverage import SummaryCoverage
 from weather_lk.analyze.SummaryDataCharts import SummaryDataCharts
 from weather_lk.analyze.SummaryMonthTrend import SummaryMonthTrend
 from weather_lk.analyze.SummaryWriteDataByPlace import SummaryWriteDataByPlace
-from weather_lk.constants import DISPLAY_PLACES, TEST_MODE
+from weather_lk.constants import DISPLAY_PLACES
 from weather_lk.core import Data
 
 log = Log('SummaryReadMe')
@@ -224,4 +224,3 @@ class SummaryReadMe:
         readme_path = os.path.join(Data.DIR_REPO, 'README.md')
         File(readme_path).write_lines(lines)
         log.info(f'Wrote README to {readme_path}')
-
