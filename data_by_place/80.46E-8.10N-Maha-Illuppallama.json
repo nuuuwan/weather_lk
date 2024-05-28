@@ -5410,5 +5410,11 @@
     "rain": 0,
     "min_temp": 26.1,
     "max_temp": 31.3
+  },
+  {
+    "date": "2024-05-28",
+    "rain": 0.0,
+    "min_temp": 25.6,
+    "max_temp": 30.5
   }
 ]
