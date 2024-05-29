@@ -5356,5 +5356,11 @@
     "rain": 83.5,
     "min_temp": null,
     "max_temp": null
+  },
+  {
+    "date": "2024-05-29",
+    "rain": 57.4,
+    "min_temp": null,
+    "max_temp": null
   }
 ]
