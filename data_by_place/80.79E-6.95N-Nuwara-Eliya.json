@@ -5398,5 +5398,11 @@
     "rain": 4.5,
     "min_temp": 13.7,
     "max_temp": 20.3
+  },
+  {
+    "date": "2024-06-01",
+    "rain": 0,
+    "min_temp": 14.2,
+    "max_temp": 23.7
   }
 ]
