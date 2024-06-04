@@ -31,7 +31,7 @@ class ChartPlaceRainfall(ChartPlace, ChartRainfall):
     def plot_rolling(x, y_rain):
         window = Chart.ROLLING_WINDOW
         y_rain_rolling = [
-            sum(y_rain[i - window: i]) / window
+            sum(y_rain[i - window + 1: i + 1]) / window
             for i in range(window, len(y_rain))
         ]
         x_rolling = x[window:]
