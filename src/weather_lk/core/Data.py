@@ -13,6 +13,7 @@ class Data:
     BRANCH_NAME = 'data'
     GIT_REPO_URL = 'https://github.com/nuuuwan/weather_lk'
     DIR_REPO = os.path.join(tempfile.gettempdir(), 'weather_lk')
+    log.debug(f'{DIR_REPO=}')
 
     DIR_DATA_CHARTS = os.path.join(DIR_REPO, 'charts')
     DIR_DATA_BY_PLACE = os.path.join(DIR_REPO, 'data_by_place')
