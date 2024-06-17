@@ -1,9 +1,9 @@
+numpy<2
 bs4
 camelot-py[cv]
 googlemaps
 infograph-nuuuwan
 matplotlib
-numpy
 opencv-python
 PyPDF2<=2.0.0
 selenium
