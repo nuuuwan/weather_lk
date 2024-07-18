@@ -1,0 +1,19 @@
+# main
+cd D:\_CODING\py\weather_lk
+git pull origin main
+python workflows/download_from_meteo.py
+python workflows/parse_all.py
+python workflows/build_summaries.py
+ls C:\Users\ASUS\AppData\Local\Temp\weather_lk
+
+# data
+cd D:\_CODING\data\weather_lk
+git pull origin data
+
+cp C:\Users\ASUS\AppData\Local\Temp\weather_lk\pdf_meteo_gov_lk\*.pdf pdf_meteo_gov_lk\
+cp C:\Users\ASUS\AppData\Local\Temp\weather_lk\*.* .
+
+echo "* $(date) _pipeline_manual" >> update.log
+git add .
+git commit -m "🤖 $(date) - _pipeline_manual.yml"
+git push origin data
