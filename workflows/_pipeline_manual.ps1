@@ -17,3 +17,8 @@ echo "* $(date) _pipeline_manual" >> update.log
 git add .
 git commit -m "🤖 $(date) - _pipeline_manual.yml"
 git push origin data
+
+
+# back
+cd D:\_CODING\py\weather_lk
+firefox_open https://github.com/nuuuwan/weather_lk/blob/data/README.md
