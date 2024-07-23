@@ -5608,5 +5608,17 @@
     "rain": 0.3,
     "min_temp": 14.8,
     "max_temp": 16.5
+  },
+  {
+    "date": "2024-07-22",
+    "rain": 0.0,
+    "min_temp": 14.9,
+    "max_temp": 20.6
+  },
+  {
+    "date": "2024-07-23",
+    "rain": 5.0,
+    "min_temp": 14.6,
+    "max_temp": 18.6
   }
 ]
