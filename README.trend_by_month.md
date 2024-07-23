@@ -4,109 +4,109 @@
 
 | Stat | Jul | (All) |
 |  ---:  |  ---:  |  ---:  |
-| Sample Size (Days) | 5 | 5 |
+| Sample Size (Days) | 6 | 6 |
 | Record High (°C) | 32.2 | 32.2 |
-| Mean daily maximum (°C) | 31.1 | 2.6 |
-| Daily Mean (°C) | 28.4 | 2.4 |
-| Mean daily minimum (°C) | 25.6 | 2.1 |
-| Record Low (°C) | 24.9 | 24.9 |
-| Avg Rain (mm) | 2.0 | 0.2 |
-| % Days Rain | 60.0% | 5.0% |
+| Mean daily maximum (°C) | 31.0 | 2.6 |
+| Daily Mean (°C) | 28.2 | 2.4 |
+| Mean daily minimum (°C) | 25.4 | 2.1 |
+| Record Low (°C) | 24.6 | 24.6 |
+| Avg Rain (mm) | 3.8 | 0.3 |
+| % Days Rain | 66.7% | 5.6% |
 | % Days Rain > 25mm | 0.0% | 0.0% |
 
 ## Ratmalana
 
 | Stat | Jul | (All) |
 |  ---:  |  ---:  |  ---:  |
-| Sample Size (Days) | 5 | 5 |
+| Sample Size (Days) | 6 | 6 |
 | Record High (°C) | 32.8 | 32.8 |
 | Mean daily maximum (°C) | 31.9 | 2.7 |
-| Daily Mean (°C) | 28.9 | 2.4 |
-| Mean daily minimum (°C) | 25.9 | 2.2 |
-| Record Low (°C) | 25.0 | 25.0 |
-| Avg Rain (mm) | 0.6 | 0.1 |
-| % Days Rain | 40.0% | 3.3% |
+| Daily Mean (°C) | 28.8 | 2.4 |
+| Mean daily minimum (°C) | 25.7 | 2.1 |
+| Record Low (°C) | 24.6 | 24.6 |
+| Avg Rain (mm) | 1.9 | 0.2 |
+| % Days Rain | 50.0% | 4.2% |
 | % Days Rain > 25mm | 0.0% | 0.0% |
 
 ## Katunayake
 
 | Stat | Jul | (All) |
 |  ---:  |  ---:  |  ---:  |
-| Sample Size (Days) | 5 | 5 |
+| Sample Size (Days) | 6 | 6 |
 | Record High (°C) | 31.7 | 31.7 |
 | Mean daily maximum (°C) | 30.9 | 2.6 |
-| Daily Mean (°C) | 28.2 | 2.3 |
-| Mean daily minimum (°C) | 25.5 | 2.1 |
-| Record Low (°C) | 24.9 | 24.9 |
-| Avg Rain (mm) | 1.3 | 0.1 |
-| % Days Rain | 60.0% | 5.0% |
+| Daily Mean (°C) | 28.1 | 2.3 |
+| Mean daily minimum (°C) | 25.3 | 2.1 |
+| Record Low (°C) | 24.2 | 24.2 |
+| Avg Rain (mm) | 3.5 | 0.3 |
+| % Days Rain | 66.7% | 5.6% |
 | % Days Rain > 25mm | 0.0% | 0.0% |
 
 ## Katugastota
 
 | Stat | Jul | (All) |
 |  ---:  |  ---:  |  ---:  |
-| Sample Size (Days) | 5 | 5 |
+| Sample Size (Days) | 6 | 6 |
 | Record High (°C) | 30.8 | 30.8 |
-| Mean daily maximum (°C) | 28.4 | 2.4 |
+| Mean daily maximum (°C) | 28.6 | 2.4 |
 | Daily Mean (°C) | 25.7 | 2.1 |
-| Mean daily minimum (°C) | 23.0 | 1.9 |
-| Record Low (°C) | 21.9 | 21.9 |
-| Avg Rain (mm) | 4.6 | 0.4 |
-| % Days Rain | 80.0% | 6.7% |
+| Mean daily minimum (°C) | 22.8 | 1.9 |
+| Record Low (°C) | 21.8 | 21.8 |
+| Avg Rain (mm) | 4.1 | 0.3 |
+| % Days Rain | 83.3% | 6.9% |
 | % Days Rain > 25mm | 0.0% | 0.0% |
 
 ## Nuwara Eliya
 
 | Stat | Jul | (All) |
 |  ---:  |  ---:  |  ---:  |
-| Sample Size (Days) | 5 | 5 |
+| Sample Size (Days) | 6 | 6 |
 | Record High (°C) | 20.6 | 20.6 |
-| Mean daily maximum (°C) | 18.0 | 1.5 |
+| Mean daily maximum (°C) | 18.1 | 1.5 |
 | Daily Mean (°C) | 16.4 | 1.4 |
 | Mean daily minimum (°C) | 14.7 | 1.2 |
 | Record Low (°C) | 14.5 | 14.5 |
-| Avg Rain (mm) | 2.2 | 0.2 |
-| % Days Rain | 80.0% | 6.7% |
+| Avg Rain (mm) | 2.7 | 0.2 |
+| % Days Rain | 83.3% | 6.9% |
 | % Days Rain > 25mm | 0.0% | 0.0% |
 
 ## Galle
 
 | Stat | Jul | (All) |
 |  ---:  |  ---:  |  ---:  |
-| Sample Size (Days) | 5 | 5 |
-| Record High (°C) | 30.1 | 30.1 |
-| Mean daily maximum (°C) | 29.4 | 2.5 |
-| Daily Mean (°C) | 27.6 | 2.3 |
-| Mean daily minimum (°C) | 25.7 | 2.1 |
+| Sample Size (Days) | 6 | 6 |
+| Record High (°C) | 30.4 | 30.4 |
+| Mean daily maximum (°C) | 29.6 | 2.5 |
+| Daily Mean (°C) | 27.7 | 2.3 |
+| Mean daily minimum (°C) | 25.8 | 2.1 |
 | Record Low (°C) | 24.2 | 24.2 |
-| Avg Rain (mm) | 2.8 | 0.2 |
-| % Days Rain | 80.0% | 6.7% |
+| Avg Rain (mm) | 6.0 | 0.5 |
+| % Days Rain | 83.3% | 6.9% |
 | % Days Rain > 25mm | 0.0% | 0.0% |
 
 ## Hambantota
 
 | Stat | Jul | (All) |
 |  ---:  |  ---:  |  ---:  |
-| Sample Size (Days) | 5 | 5 |
+| Sample Size (Days) | 6 | 6 |
 | Record High (°C) | 35.8 | 35.8 |
-| Mean daily maximum (°C) | 33.2 | 2.8 |
-| Daily Mean (°C) | 29.4 | 2.4 |
-| Mean daily minimum (°C) | 25.5 | 2.1 |
+| Mean daily maximum (°C) | 33.1 | 2.8 |
+| Daily Mean (°C) | 29.3 | 2.4 |
+| Mean daily minimum (°C) | 25.6 | 2.1 |
 | Record Low (°C) | 24.1 | 24.1 |
 | Avg Rain (mm) | 0.1 | 0.0 |
-| % Days Rain | 20.0% | 1.7% |
+| % Days Rain | 16.7% | 1.4% |
 | % Days Rain > 25mm | 0.0% | 0.0% |
 
 ## Jaffna
 
 | Stat | Jul | (All) |
 |  ---:  |  ---:  |  ---:  |
-| Sample Size (Days) | 5 | 5 |
+| Sample Size (Days) | 6 | 6 |
 | Record High (°C) | 33.3 | 33.3 |
 | Mean daily maximum (°C) | 32.7 | 2.7 |
-| Daily Mean (°C) | 30.2 | 2.5 |
-| Mean daily minimum (°C) | 27.8 | 2.3 |
+| Daily Mean (°C) | 30.5 | 2.5 |
+| Mean daily minimum (°C) | 28.3 | 2.4 |
 | Record Low (°C) | 27.0 | 27.0 |
 | Avg Rain (mm) | 0.0 | 0.0 |
 | % Days Rain | 0.0% | 0.0% |
@@ -116,7 +116,7 @@
 
 | Stat | Jul | (All) |
 |  ---:  |  ---:  |  ---:  |
-| Sample Size (Days) | 5 | 5 |
+| Sample Size (Days) | 6 | 6 |
 | Record High (°C) | 32.0 | 32.0 |
 | Mean daily maximum (°C) | 31.5 | 2.6 |
 | Daily Mean (°C) | 29.7 | 2.5 |
@@ -130,11 +130,11 @@
 
 | Stat | Jul | (All) |
 |  ---:  |  ---:  |  ---:  |
-| Sample Size (Days) | 5 | 5 |
-| Record High (°C) | 36.8 | 36.8 |
-| Mean daily maximum (°C) | 34.8 | 2.9 |
-| Daily Mean (°C) | 30.3 | 2.5 |
-| Mean daily minimum (°C) | 25.9 | 2.2 |
+| Sample Size (Days) | 6 | 6 |
+| Record High (°C) | 37.8 | 37.8 |
+| Mean daily maximum (°C) | 35.3 | 2.9 |
+| Daily Mean (°C) | 30.5 | 2.5 |
+| Mean daily minimum (°C) | 25.8 | 2.1 |
 | Record Low (°C) | 25.0 | 25.0 |
 | Avg Rain (mm) | 0.0 | 0.0 |
 | % Days Rain | 0.0% | 0.0% |
@@ -144,11 +144,11 @@
 
 | Stat | Jul | (All) |
 |  ---:  |  ---:  |  ---:  |
-| Sample Size (Days) | 5 | 5 |
-| Record High (°C) | 35.1 | 35.1 |
-| Mean daily maximum (°C) | 27.6 | 2.3 |
-| Daily Mean (°C) | 24.6 | 2.1 |
-| Mean daily minimum (°C) | 27.0 | 2.2 |
+| Sample Size (Days) | 6 | 6 |
+| Record High (°C) | 37.7 | 37.7 |
+| Mean daily maximum (°C) | 29.2 | 2.4 |
+| Daily Mean (°C) | 25.9 | 2.2 |
+| Mean daily minimum (°C) | 26.9 | 2.2 |
 | Record Low (°C) | 26.4 | 26.4 |
 | Avg Rain (mm) | 0.0 | 0.0 |
 | % Days Rain | 0.0% | 0.0% |
@@ -158,11 +158,11 @@
 
 | Stat | Jul | (All) |
 |  ---:  |  ---:  |  ---:  |
-| Sample Size (Days) | 5 | 5 |
+| Sample Size (Days) | 6 | 6 |
 | Record High (°C) | 38.7 | 38.7 |
-| Mean daily maximum (°C) | 35.9 | 3.0 |
-| Daily Mean (°C) | 31.2 | 2.6 |
-| Mean daily minimum (°C) | 26.5 | 2.2 |
+| Mean daily maximum (°C) | 36.1 | 3.0 |
+| Daily Mean (°C) | 31.3 | 2.6 |
+| Mean daily minimum (°C) | 26.6 | 2.2 |
 | Record Low (°C) | 25.6 | 25.6 |
 | Avg Rain (mm) | 0.0 | 0.0 |
 | % Days Rain | 0.0% | 0.0% |
@@ -172,10 +172,10 @@
 
 | Stat | Jul | (All) |
 |  ---:  |  ---:  |  ---:  |
-| Sample Size (Days) | 5 | 5 |
-| Record High (°C) | 36.3 | 36.3 |
-| Mean daily maximum (°C) | 35.4 | 2.9 |
-| Daily Mean (°C) | 30.8 | 2.6 |
+| Sample Size (Days) | 6 | 6 |
+| Record High (°C) | 36.6 | 36.6 |
+| Mean daily maximum (°C) | 35.6 | 3.0 |
+| Daily Mean (°C) | 30.9 | 2.6 |
 | Mean daily minimum (°C) | 26.2 | 2.2 |
 | Record Low (°C) | 24.9 | 24.9 |
 | Avg Rain (mm) | 0.0 | 0.0 |
@@ -186,10 +186,10 @@
 
 | Stat | Jul | (All) |
 |  ---:  |  ---:  |  ---:  |
-| Sample Size (Days) | 5 | 5 |
-| Record High (°C) | 37.1 | 37.1 |
-| Mean daily maximum (°C) | 35.2 | 2.9 |
-| Daily Mean (°C) | 31.1 | 2.6 |
+| Sample Size (Days) | 6 | 6 |
+| Record High (°C) | 37.8 | 37.8 |
+| Mean daily maximum (°C) | 35.6 | 3.0 |
+| Daily Mean (°C) | 31.3 | 2.6 |
 | Mean daily minimum (°C) | 27.1 | 2.3 |
 | Record Low (°C) | 26.7 | 26.7 |
 | Avg Rain (mm) | 0.0 | 0.0 |
@@ -200,24 +200,24 @@
 
 | Stat | Jul | (All) |
 |  ---:  |  ---:  |  ---:  |
-| Sample Size (Days) | 5 | 5 |
+| Sample Size (Days) | 6 | 6 |
 | Record High (°C) | 33.4 | 33.4 |
 | Mean daily maximum (°C) | 31.4 | 2.6 |
 | Daily Mean (°C) | 28.5 | 2.4 |
 | Mean daily minimum (°C) | 25.6 | 2.1 |
-| Record Low (°C) | 25.5 | 25.5 |
+| Record Low (°C) | 25.4 | 25.4 |
 | Avg Rain (mm) | 0.6 | 0.0 |
-| % Days Rain | 60.0% | 5.0% |
+| % Days Rain | 66.7% | 5.6% |
 | % Days Rain > 25mm | 0.0% | 0.0% |
 
 ## Puttalam
 
 | Stat | Jul | (All) |
 |  ---:  |  ---:  |  ---:  |
-| Sample Size (Days) | 5 | 5 |
-| Record High (°C) | 32.6 | 32.6 |
-| Mean daily maximum (°C) | 31.7 | 2.6 |
-| Daily Mean (°C) | 29.4 | 2.5 |
+| Sample Size (Days) | 6 | 6 |
+| Record High (°C) | 32.9 | 32.9 |
+| Mean daily maximum (°C) | 31.9 | 2.7 |
+| Daily Mean (°C) | 29.5 | 2.5 |
 | Mean daily minimum (°C) | 27.1 | 2.3 |
 | Record Low (°C) | 27.0 | 27.0 |
 | Avg Rain (mm) | 0.0 | 0.0 |
@@ -228,11 +228,11 @@
 
 | Stat | Jul | (All) |
 |  ---:  |  ---:  |  ---:  |
-| Sample Size (Days) | 5 | 5 |
-| Record High (°C) | 35.7 | 35.7 |
-| Mean daily maximum (°C) | 34.2 | 2.8 |
-| Daily Mean (°C) | 30.1 | 2.5 |
-| Mean daily minimum (°C) | 26.0 | 2.2 |
+| Sample Size (Days) | 6 | 6 |
+| Record High (°C) | 36.6 | 36.6 |
+| Mean daily maximum (°C) | 34.6 | 2.9 |
+| Daily Mean (°C) | 30.2 | 2.5 |
+| Mean daily minimum (°C) | 25.9 | 2.2 |
 | Record Low (°C) | 25.0 | 25.0 |
 | Avg Rain (mm) | 0.0 | 0.0 |
 | % Days Rain | 0.0% | 0.0% |
@@ -242,10 +242,10 @@
 
 | Stat | Jul | (All) |
 |  ---:  |  ---:  |  ---:  |
-| Sample Size (Days) | 5 | 5 |
+| Sample Size (Days) | 6 | 6 |
 | Record High (°C) | 34.0 | 34.0 |
-| Mean daily maximum (°C) | 25.9 | 2.2 |
-| Daily Mean (°C) | 23.2 | 1.9 |
+| Mean daily maximum (°C) | 27.2 | 2.3 |
+| Daily Mean (°C) | 24.3 | 2.0 |
 | Mean daily minimum (°C) | 25.5 | 2.1 |
 | Record Low (°C) | 25.4 | 25.4 |
 | Avg Rain (mm) | 0.0 | 0.0 |
@@ -256,10 +256,10 @@
 
 | Stat | Jul | (All) |
 |  ---:  |  ---:  |  ---:  |
-| Sample Size (Days) | 5 | 5 |
+| Sample Size (Days) | 6 | 6 |
 | Record High (°C) | 37.3 | 37.3 |
-| Mean daily maximum (°C) | 35.1 | 2.9 |
-| Daily Mean (°C) | 31.1 | 2.6 |
+| Mean daily maximum (°C) | 35.5 | 3.0 |
+| Daily Mean (°C) | 31.3 | 2.6 |
 | Mean daily minimum (°C) | 27.0 | 2.3 |
 | Record Low (°C) | 24.3 | 24.3 |
 | Avg Rain (mm) | 0.0 | 0.0 |
@@ -270,11 +270,11 @@
 
 | Stat | Jul | (All) |
 |  ---:  |  ---:  |  ---:  |
-| Sample Size (Days) | 5 | 5 |
+| Sample Size (Days) | 6 | 6 |
 | Record High (°C) | 33.3 | 33.3 |
-| Mean daily maximum (°C) | 29.9 | 2.5 |
-| Daily Mean (°C) | 24.8 | 2.1 |
-| Mean daily minimum (°C) | 19.7 | 1.6 |
+| Mean daily maximum (°C) | 30.2 | 2.5 |
+| Daily Mean (°C) | 24.9 | 2.1 |
+| Mean daily minimum (°C) | 19.6 | 1.6 |
 | Record Low (°C) | 18.0 | 18.0 |
 | Avg Rain (mm) | 0.0 | 0.0 |
 | % Days Rain | 0.0% | 0.0% |
@@ -284,24 +284,24 @@
 
 | Stat | Jul | (All) |
 |  ---:  |  ---:  |  ---:  |
-| Sample Size (Days) | 5 | 5 |
+| Sample Size (Days) | 6 | 6 |
 | Record High (°C) | 29.5 | 29.5 |
-| Mean daily maximum (°C) | 26.3 | 2.2 |
-| Daily Mean (°C) | 23.3 | 1.9 |
-| Mean daily minimum (°C) | 20.4 | 1.7 |
+| Mean daily maximum (°C) | 26.6 | 2.2 |
+| Daily Mean (°C) | 23.4 | 2.0 |
+| Mean daily minimum (°C) | 20.3 | 1.7 |
 | Record Low (°C) | 18.7 | 18.7 |
-| Avg Rain (mm) | 0.0 | 0.0 |
-| % Days Rain | 20.0% | 1.7% |
+| Avg Rain (mm) | 0.1 | 0.0 |
+| % Days Rain | 33.3% | 2.8% |
 | % Days Rain > 25mm | 0.0% | 0.0% |
 
 ## Moneragala
 
 | Stat | Jul | (All) |
 |  ---:  |  ---:  |  ---:  |
-| Sample Size (Days) | 5 | 5 |
+| Sample Size (Days) | 6 | 6 |
 | Record High (°C) | 37.5 | 37.5 |
-| Mean daily maximum (°C) | 34.2 | 2.9 |
-| Daily Mean (°C) | 28.3 | 2.4 |
+| Mean daily maximum (°C) | 34.6 | 2.9 |
+| Daily Mean (°C) | 28.5 | 2.4 |
 | Mean daily minimum (°C) | 22.4 | 1.9 |
 | Record Low (°C) | 20.4 | 20.4 |
 | Avg Rain (mm) | 0.0 | 0.0 |
@@ -312,12 +312,12 @@
 
 | Stat | Jul | (All) |
 |  ---:  |  ---:  |  ---:  |
-| Sample Size (Days) | 5 | 5 |
+| Sample Size (Days) | 6 | 6 |
 | Record High (°C) | 34.2 | 34.2 |
-| Mean daily maximum (°C) | 32.3 | 2.7 |
+| Mean daily maximum (°C) | 32.5 | 2.7 |
 | Daily Mean (°C) | 28.0 | 2.3 |
-| Mean daily minimum (°C) | 23.8 | 2.0 |
+| Mean daily minimum (°C) | 23.6 | 2.0 |
 | Record Low (°C) | 22.4 | 22.4 |
-| Avg Rain (mm) | 3.3 | 0.3 |
-| % Days Rain | 60.0% | 5.0% |
+| Avg Rain (mm) | 2.7 | 0.2 |
+| % Days Rain | 50.0% | 4.2% |
 | % Days Rain > 25mm | 0.0% | 0.0% |
