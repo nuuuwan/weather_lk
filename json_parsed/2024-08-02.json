@@ -1,5 +1,5 @@
 {
-  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/faf08db0a46b92d2b81d37dd466268cf.pdf",
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/6134849119f51a7a125426ff349ed137.pdf",
   "date_ut": 1722537000.0,
   "date": "2024-08-02",
   "weather_list": [
@@ -316,12 +316,12 @@
       "lng": 80.77179699999999
     },
     {
-      "place": "Elephant Pass",
-      "rain": 24.0,
+      "place": "Boossa",
+      "rain": 26.0,
       "min_temp": null,
       "max_temp": null,
-      "lat": 9.5044995,
-      "lng": 80.402048
+      "lat": 6.0889494,
+      "lng": 80.1560648
     },
     {
       "place": "Dellawa TF",
@@ -332,86 +332,6 @@
       "lng": 80.44934049999999
     },
     {
-      "place": "Deniyaya Tea Estate",
-      "rain": 22.5,
-      "min_temp": null,
-      "max_temp": null,
-      "lat": 6.3424605,
-      "lng": 80.5596169
-    },
-    {
-      "place": "Derangala TF",
-      "rain": 21.5,
-      "min_temp": null,
-      "max_temp": null,
-      "lat": 6.2277491,
-      "lng": 80.4465594
-    },
-    {
-      "place": "Helboda North",
-      "rain": 27.0,
-      "min_temp": null,
-      "max_temp": null,
-      "lat": 8.8855027,
-      "lng": 80.2767327
-    },
-    {
-      "place": "Gampaha",
-      "rain": 21.2,
-      "min_temp": null,
-      "max_temp": null,
-      "lat": 7.0840484,
-      "lng": 80.0098314
-    },
-    {
-      "place": "Ivy Hills TF",
-      "rain": 27.0,
-      "min_temp": null,
-      "max_temp": null,
-      "lat": 7.873053999999999,
-      "lng": 80.77179699999999
-    },
-    {
-      "place": "Akuressa",
-      "rain": 20.0,
-      "min_temp": null,
-      "max_temp": null,
-      "lat": 6.100138800000001,
-      "lng": 80.4759567
-    },
-    {
-      "place": "Yattapatha",
-      "rain": 27.0,
-      "min_temp": null,
-      "max_temp": null,
-      "lat": 6.4085318,
-      "lng": 80.2850929
-    },
-    {
-      "place": "Hanwella",
-      "rain": 19.0,
-      "min_temp": null,
-      "max_temp": null,
-      "lat": 6.8978344,
-      "lng": 80.0814292
-    },
-    {
-      "place": "Boossa",
-      "rain": 26.0,
-      "min_temp": null,
-      "max_temp": null,
-      "lat": 6.0889494,
-      "lng": 80.1560648
-    },
-    {
-      "place": "Moraliya-Oya",
-      "rain": 17.6,
-      "min_temp": null,
-      "max_temp": null,
-      "lat": 7.0255123,
-      "lng": 80.229343
-    },
-    {
       "place": "Bogoda TF",
       "rain": 25.5,
       "min_temp": null,
@@ -420,12 +340,12 @@
       "lng": 80.98987009999999
     },
     {
-      "place": "Guruluwana",
-      "rain": 17.5,
+      "place": "Point Pedro",
+      "rain": 28.0,
       "min_temp": null,
       "max_temp": null,
-      "lat": 6.7912154,
-      "lng": 80.43543369999999
+      "lat": 9.7937885,
+      "lng": 80.2209773
     },
     {
       "place": "Udugama",
@@ -436,12 +356,12 @@
       "lng": 80.3380213
     },
     {
-      "place": "Watawala",
-      "rain": 17.2,
+      "place": "Poddiwela Farm",
+      "rain": 27.8,
       "min_temp": null,
       "max_temp": null,
-      "lat": 6.944946799999999,
-      "lng": 80.53898339999999
+      "lat": 6.766339299999999,
+      "lng": 79.8892005
     },
     {
       "place": "Madampe",
@@ -452,12 +372,100 @@
       "lng": 79.8413319
     },
     {
-      "place": "Devagiri TF",
-      "rain": 17.0,
+      "place": "Vithanakanda Estate",
+      "rain": 27.5,
       "min_temp": null,
       "max_temp": null,
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
+    },
+    {
+      "place": "Atchuvely",
+      "rain": 23.4,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 9.7786397,
+      "lng": 80.1160651
+    },
+    {
+      "place": "Benthotawatta",
+      "rain": 27.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.873053999999999,
+      "lng": 80.77179699999999
+    },
+    {
+      "place": "Hiniduma",
+      "rain": 22.5,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.309448199999999,
+      "lng": 80.324096
+    },
+    {
+      "place": "Helboda North",
+      "rain": 27.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 8.8855027,
+      "lng": 80.2767327
+    },
+    {
+      "place": "Deniyaya",
+      "rain": 22.5,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.3424847,
+      "lng": 80.5596582
+    },
+    {
+      "place": "Ivy Hills TF",
+      "rain": 27.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.873053999999999,
+      "lng": 80.77179699999999
+    },
+    {
+      "place": "Deniyaya Tea Estate",
+      "rain": 22.5,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.3424605,
+      "lng": 80.5596169
+    },
+    {
+      "place": "Yattapatha",
+      "rain": 27.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.4085318,
+      "lng": 80.2850929
+    },
+    {
+      "place": "Derangala TF",
+      "rain": 21.5,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.2277491,
+      "lng": 80.4465594
+    },
+    {
+      "place": "Batuwangala",
+      "rain": 26.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.3801159,
+      "lng": 80.38117510000001
+    },
+    {
+      "place": "Gampaha",
+      "rain": 21.2,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.0840484,
+      "lng": 80.0098314
     }
   ],
   "max_rain": {
