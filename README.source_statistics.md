@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Source Statistics
 
 | source_id | n | n_parse_attempted | n_parse_successful | n_parse_failed | min_date | max_date |
@@ -13,3 +14,24 @@
 | `all` | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | `multiple` | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | `pdf_meteo_gov_lk` | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+=======
+# Source Statistics
+
+| source_id | n | n_parse_attempted | n_parse_successful | n_parse_failed | min_date | max_date |
+|  ----  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |
+| `all` | 1925 | 1925 | 1265 | 660 | 2018-11-04 | 2024-08-05 |
+| `multiple` | 585 | 585 | 578 | 7 | 2021-07-05 | 2024-07-24 |
+| `pdf_meteo_gov_lk` | 563 | 563 | 560 | 3 | 2021-06-28 | 2024-08-05 |
+| `pdf_archive_org` | 691 | 691 | 49 | 642 | 2018-11-04 | 2023-04-02 |
+| `pdf_google_search` | 86 | 86 | 78 | 8 | 2021-02-02 | 2024-01-11 |
+
+## By Year
+
+| source_id | 2024 | 2023 | 2022 | 2021 | 2020 | 2019 | 2018 | 2017 | 2016 | 2015 | 2014 |
+|  ----  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |  ---:  |
+| `all` | 305 | 300 | 446 | 173 | 14 | 23 | 4 | 0 | 0 | 0 | 0 |
+| `multiple` | 209 | 127 | 238 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `pdf_meteo_gov_lk` | 95 | 106 | 194 | 165 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `pdf_archive_org` | 0 | 2 | 3 | 3 | 14 | 23 | 4 | 0 | 0 | 0 | 0 |
+| `pdf_google_search` | 1 | 65 | 11 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+>>>>>>> 2f5ae21ce27ff1e3c0b7e9d62f97f35c131170de
