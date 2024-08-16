@@ -29,7 +29,7 @@ class SummaryMonthTrend:
     @cached_property
     def data(self):
         idx = Data.idx_by_place()
-        return idx[self.place]
+        return idx.get(self.place, [])
 
     @cached_property
     def month_to_data(self):
