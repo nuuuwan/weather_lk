@@ -1,7 +1,9 @@
 from functools import cached_property
 
+from utils import Log
 from utils_future.Markdown import Markdown
 from weather_lk.core.Data import Data
+
 
 MONTH_NAMES = {
     '01': 'Jan',
@@ -19,6 +21,8 @@ MONTH_NAMES = {
     '--': '(All)',
 }
 
+log = Log('SummaryMonthTrend')
+
 
 class SummaryMonthTrend:
     ALL = '--'
@@ -29,7 +33,11 @@ class SummaryMonthTrend:
     @cached_property
     def data(self):
         idx = Data.idx_by_place()
-        return idx(self.place, [])
+        if self.place not in idx:
+            log.debug(idx.keys())
+            log.warning(f'No data for: "{self.place}"')
+            return []
+        return idx[self.place]
 
     @cached_property
     def month_to_data(self):
@@ -49,8 +57,6 @@ class SummaryMonthTrend:
     @staticmethod
     def get_month_stats(data_for_month):
         n = len(data_for_month)
-        if len(n) == 0:
-            return None
         min_temp_list = [d['min_temp'] for d in data_for_month]
         max_temp_list = [d['max_temp'] for d in data_for_month]
         rain_list = [d['rain'] for d in data_for_month]
@@ -89,6 +95,8 @@ class SummaryMonthTrend:
     def get_all_stats(month_to_stats):
         stats = list(month_to_stats.values())
         n = sum([s['n'] for s in stats])
+        if n == 0:
+            return None
         max_temp = max([s['max_temp'] for s in stats])
         min_temp = min([s['min_temp'] for s in stats])
 
@@ -154,7 +162,10 @@ class SummaryMonthTrend:
         lines = [f'## {self.place}', '']
         keys = ['Stat'] + [MONTH_NAMES[month] for month in months]
         values_list = []
-        stat_keys = list(month_to_stats.values())[0].keys()
+        data = list(month_to_stats.values())[0]
+        if not data:
+            return lines
+        stat_keys = data.keys()
         for stat_key in stat_keys:
             values = []
             for month in months:
