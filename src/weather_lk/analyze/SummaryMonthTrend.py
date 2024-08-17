@@ -29,7 +29,7 @@ class SummaryMonthTrend:
     @cached_property
     def data(self):
         idx = Data.idx_by_place()
-        return idx.get(self.place, [])
+        return idx(self.place, [])
 
     @cached_property
     def month_to_data(self):
@@ -49,6 +49,8 @@ class SummaryMonthTrend:
     @staticmethod
     def get_month_stats(data_for_month):
         n = len(data_for_month)
+        if len(n) == 0:
+            return None
         min_temp_list = [d['min_temp'] for d in data_for_month]
         max_temp_list = [d['max_temp'] for d in data_for_month]
         rain_list = [d['rain'] for d in data_for_month]
