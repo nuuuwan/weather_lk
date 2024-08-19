@@ -1,13 +1,15 @@
 # main
 cd D:\_CODING\py\weather_lk
+git checkout main
 git pull origin main
 python workflows/download_from_meteo.py
 python workflows/parse_all.py
 python workflows/build_summaries.py
-ls C:\Users\ASUS\AppData\Local\Temp\weather_lk
+# ls C:\Users\ASUS\AppData\Local\Temp\weather_lk
 
 # data
 cd D:\_CODING\data\weather_lk
+git checkout data
 git pull origin data
 
 cp C:\Users\ASUS\AppData\Local\Temp\weather_lk\pdf_meteo_gov_lk\*.pdf pdf_meteo_gov_lk\
@@ -21,4 +23,5 @@ git push origin data
 
 # back
 cd D:\_CODING\py\weather_lk
+git checkout main
 firefox_open https://github.com/nuuuwan/weather_lk/blob/data/README.md
