@@ -57,6 +57,8 @@ class SummaryMonthTrend:
     @staticmethod
     def get_month_stats(data_for_month):
         n = len(data_for_month)
+        if n == 0:
+            return None
         min_temp_list = [d['min_temp'] for d in data_for_month]
         max_temp_list = [d['max_temp'] for d in data_for_month]
         rain_list = [d['rain'] for d in data_for_month]
@@ -69,11 +71,14 @@ class SummaryMonthTrend:
         min_temp_list = [t for t in min_temp_list if t]
         max_temp_list = [t for t in max_temp_list if t]
 
+        if len(max_temp_list) == 0:
+            return None
+
         min_temp = min(min_temp_list)
         max_temp = max(max_temp_list)
-        avg_min_temp = sum(min_temp_list) / n
-        avg_max_temp = sum(max_temp_list) / n
-        avg_mid_temp = sum(mid_temp_list) / n
+        avg_min_temp = sum(min_temp_list) / len(min_temp_list)
+        avg_max_temp = sum(max_temp_list) / len(max_temp_list)
+        avg_mid_temp = sum(mid_temp_list) / len(mid_temp_list)
 
         avg_rain = sum(rain_list) / n
         p_days_rain = len([d for d in rain_list if d > 0]) / n
@@ -94,7 +99,7 @@ class SummaryMonthTrend:
     @staticmethod
     def get_all_stats(month_to_stats):
         stats = list(month_to_stats.values())
-        n = sum([s['n'] for s in stats])
+        n = sum([s['n'] for s in stats if s])
         if n == 0:
             return None
         max_temp = max([s['max_temp'] for s in stats])
