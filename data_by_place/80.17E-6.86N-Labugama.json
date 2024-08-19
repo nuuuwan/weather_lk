@@ -1204,5 +1204,11 @@
     "rain": 3.9,
     "min_temp": null,
     "max_temp": null
+  },
+  {
+    "date": "2024-08-18",
+    "rain": 72.6,
+    "min_temp": null,
+    "max_temp": null
   }
 ]
