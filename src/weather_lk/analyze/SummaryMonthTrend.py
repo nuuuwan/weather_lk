@@ -1,9 +1,9 @@
 from functools import cached_property
 
 from utils import Log
+
 from utils_future.Markdown import Markdown
 from weather_lk.core.Data import Data
-
 
 MONTH_NAMES = {
     '01': 'Jan',
