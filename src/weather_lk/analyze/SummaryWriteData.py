@@ -23,5 +23,12 @@ class SummaryWriteData:
 
     def write(self):
         SummaryWriteData.__write_json('list_all', Data.list_all())
-        SummaryWriteData.__write_json('idx_by_place', Data.idx_by_place())
-        SummaryWriteData.__write_json('idx_by_date', Data.idx_by_date())
+
+        idx_by_place = Data.idx_by_place()
+        SummaryWriteData.__write_json('idx_by_place', idx_by_place)
+
+        idx_by_date = Data.idx_by_date()
+        date_list = sorted(list(idx_by_date.keys()))
+        SummaryWriteData.__write_json('idx_by_date', idx_by_date)
+        SummaryWriteData.__write_json('date_list', date_list)
+        
