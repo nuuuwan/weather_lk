@@ -5758,5 +5758,11 @@
     "rain": 0,
     "min_temp": 25.9,
     "max_temp": 30.1
+  },
+  {
+    "date": "2024-08-23",
+    "rain": 0.0,
+    "min_temp": 26.5,
+    "max_temp": 32.6
   }
 ]
