@@ -1,0 +1,491 @@
+{
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/ada7e9d19c2dcdfc6f8f0c4eff682c86.pdf",
+  "date_ut": 1725388200.0,
+  "date": "2024-09-04",
+  "weather_list": [
+    {
+      "place": "Anuradhapura",
+      "min_temp": 26.0,
+      "max_temp": 33.2,
+      "rain": 0.0,
+      "lat": 8.311351799999999,
+      "lng": 80.4036508
+    },
+    {
+      "place": "Badulla",
+      "min_temp": 20.6,
+      "max_temp": 27.6,
+      "rain": 0.0,
+      "lat": 6.993400899999999,
+      "lng": 81.0549815
+    },
+    {
+      "place": "Bandarawela",
+      "min_temp": 19.1,
+      "max_temp": 26.0,
+      "rain": 0,
+      "lat": 6.825877999999999,
+      "lng": 80.9981576
+    },
+    {
+      "place": "Batticaloa",
+      "min_temp": 26.3,
+      "max_temp": 33.1,
+      "rain": 0.0,
+      "lat": 7.7249146,
+      "lng": 81.6966911
+    },
+    {
+      "place": "Colombo",
+      "min_temp": 25.0,
+      "max_temp": 28.8,
+      "rain": 14.6,
+      "lat": 6.9270786,
+      "lng": 79.861243
+    },
+    {
+      "place": "Galle",
+      "min_temp": 26.8,
+      "max_temp": 28.5,
+      "rain": 0.1,
+      "lat": 6.032894799999999,
+      "lng": 80.2167912
+    },
+    {
+      "place": "Hambanthota",
+      "min_temp": 26.3,
+      "max_temp": 31.1,
+      "rain": 0.0,
+      "lat": 6.1428829,
+      "lng": 81.12123079999999
+    },
+    {
+      "place": "Jaffna",
+      "min_temp": 28.1,
+      "max_temp": 32.9,
+      "rain": 0.0,
+      "lat": 9.6614981,
+      "lng": 80.02554649999999
+    },
+    {
+      "place": "Monaragala",
+      "min_temp": 23.7,
+      "max_temp": 32.8,
+      "rain": 0.0,
+      "lat": 6.890645399999999,
+      "lng": 81.34544170000001
+    },
+    {
+      "place": "Katugasthota",
+      "min_temp": 22.2,
+      "max_temp": 26.1,
+      "rain": 2.6,
+      "lat": 7.3251558,
+      "lng": 80.62297869999999
+    },
+    {
+      "place": "Katunayake",
+      "min_temp": 25.0,
+      "max_temp": 29.0,
+      "rain": 8.7,
+      "lat": 7.172484899999999,
+      "lng": 79.8853484
+    },
+    {
+      "place": "Kurunagala",
+      "min_temp": 24.5,
+      "max_temp": 29.5,
+      "rain": 1.3,
+      "lat": 7.4817695,
+      "lng": 80.3608876
+    },
+    {
+      "place": "Maha Illuppallama",
+      "min_temp": 25.6,
+      "max_temp": 30.9,
+      "rain": 0,
+      "lat": 8.103736399999999,
+      "lng": 80.4604643
+    },
+    {
+      "place": "Mannar",
+      "min_temp": 27.8,
+      "max_temp": 31.3,
+      "rain": 0.0,
+      "lat": 8.980974300000002,
+      "lng": 79.90441489999999
+    },
+    {
+      "place": "Polonnaruwa",
+      "min_temp": 27.4,
+      "max_temp": 35.6,
+      "rain": 0.0,
+      "lat": 7.940338400000001,
+      "lng": 81.0187984
+    },
+    {
+      "place": "Nuwara Eliya",
+      "min_temp": 14.8,
+      "max_temp": 18.1,
+      "rain": 2.1,
+      "lat": 6.949716599999999,
+      "lng": 80.7891068
+    },
+    {
+      "place": "Pothuvil",
+      "min_temp": 25.4,
+      "max_temp": 35.6,
+      "rain": 0.7,
+      "lat": 6.875270599999999,
+      "lng": 81.8306334
+    },
+    {
+      "place": "Puttalam",
+      "min_temp": 26.7,
+      "max_temp": 30.8,
+      "rain": 0.0,
+      "lat": 8.0407913,
+      "lng": 79.839386
+    },
+    {
+      "place": "Rathmalana",
+      "min_temp": 25.2,
+      "max_temp": 29.4,
+      "rain": 17.4,
+      "lat": 6.8195453,
+      "lng": 79.8800832
+    },
+    {
+      "place": "Rathnapura",
+      "min_temp": 23.9,
+      "max_temp": 30.2,
+      "rain": 8.1,
+      "lat": 6.7055742,
+      "lng": 80.3847345
+    },
+    {
+      "place": "Trincomalee",
+      "min_temp": 26.5,
+      "max_temp": 34.2,
+      "rain": 0.0,
+      "lat": 8.5873638,
+      "lng": 81.2152121
+    },
+    {
+      "place": "Vavuniya",
+      "min_temp": 25.3,
+      "max_temp": 33.3,
+      "rain": 1.7,
+      "lat": 8.7542029,
+      "lng": 80.4982402
+    },
+    {
+      "place": "Mattla",
+      "min_temp": 25.1,
+      "max_temp": 32.6,
+      "rain": 0,
+      "lat": 6.288780374382144,
+      "lng": 81.12460077774537
+    },
+    {
+      "place": "Mullaitivu",
+      "min_temp": 26.7,
+      "max_temp": 34.6,
+      "rain": 0.0,
+      "lat": 9.2670911,
+      "lng": 80.81424799999999
+    },
+    {
+      "place": "Castlereigh",
+      "rain": 4.5,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.8577186,
+      "lng": 80.5855038
+    },
+    {
+      "place": "Randenigala",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
+    },
+    {
+      "place": "Norton",
+      "rain": 4.5,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.9168796,
+      "lng": 80.5171737
+    },
+    {
+      "place": "Rantambe",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.1910444,
+      "lng": 80.9463464
+    },
+    {
+      "place": "Maussakele",
+      "rain": 2.5,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.8645162,
+      "lng": 80.52717559999999
+    },
+    {
+      "place": "Bowatenna",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.671017399999998,
+      "lng": 80.65627529999999
+    },
+    {
+      "place": "Canyon",
+      "rain": 5.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.87025261687585,
+      "lng": 80.52581841045284
+    },
+    {
+      "place": "Ukuwela",
+      "rain": 5.6,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.423462299999999,
+      "lng": 80.6306103
+    },
+    {
+      "place": "Lakshapana",
+      "rain": 6.4,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.9247584,
+      "lng": 80.491047
+    },
+    {
+      "place": "Samanala Wawa",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.6788795,
+      "lng": 80.79936459999999
+    },
+    {
+      "place": "Upper Kotmale",
+      "rain": 3.6,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.9389539,
+      "lng": 80.663037
+    },
+    {
+      "place": "Kukuleganaga",
+      "rain": 9.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.582781400000001,
+      "lng": 80.23423249999999
+    },
+    {
+      "place": "Kotmale",
+      "rain": 4.7,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.0223089,
+      "lng": 80.5910567
+    },
+    {
+      "place": "Victoriya",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.873053999999999,
+      "lng": 80.77179699999999
+    },
+    {
+      "place": "Neboda",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.5916551,
+      "lng": 80.09260139999999
+    },
+    {
+      "place": "Mellawa",
+      "rain": 48.7,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.3380723,
+      "lng": 79.9276651
+    },
+    {
+      "place": "Penrith Estate",
+      "rain": 18.5,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.955735799999999,
+      "lng": 80.1902963
+    },
+    {
+      "place": "Lahugala",
+      "rain": 47.5,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.872087199999999,
+      "lng": 81.72262979999999
+    },
+    {
+      "place": "Neboda(AWS)",
+      "rain": 17.5,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.5916551,
+      "lng": 80.09260139999999
+    },
+    {
+      "place": "Hanwella",
+      "rain": 30.5,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.8978344,
+      "lng": 80.0814292
+    },
+    {
+      "place": "Andigama",
+      "rain": 15.9,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.7782889,
+      "lng": 79.9486489
+    },
+    {
+      "place": "Halwathura Estate",
+      "rain": 24.5,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.7150006,
+      "lng": 80.1838882
+    },
+    {
+      "place": "Kirindiwela",
+      "rain": 15.2,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.0411825,
+      "lng": 80.1289324
+    },
+    {
+      "place": "Hindawa",
+      "rain": 23.2,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.513648099999998,
+      "lng": 80.1400671
+    },
+    {
+      "place": "Labugama",
+      "rain": 14.1,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.8618547,
+      "lng": 80.1691309
+    },
+    {
+      "place": "Negombo",
+      "rain": 20.5,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.200796799999999,
+      "lng": 79.8736754
+    },
+    {
+      "place": "Melkopiwatta",
+      "rain": 14.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.873053999999999,
+      "lng": 80.77179699999999
+    },
+    {
+      "place": "Nikaweratiya",
+      "rain": 20.1,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.7463861,
+      "lng": 80.1316927
+    },
+    {
+      "place": "Kesbewa",
+      "rain": 14.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.778670099999999,
+      "lng": 79.9472502
+    },
+    {
+      "place": "Lahugala Tank",
+      "rain": 18.6,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.8982844,
+      "lng": 81.70073630000002
+    },
+    {
+      "place": "Arakawila",
+      "rain": 14.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.8147243,
+      "lng": 80.1407545
+    },
+    {
+      "place": "Eheliyagoda",
+      "rain": 18.5,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.8485638,
+      "lng": 80.26001
+    },
+    {
+      "place": "Dampalessa",
+      "rain": 13.7,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.873053999999999,
+      "lng": 80.77179699999999
+    },
+    {
+      "place": "Ayr Estate",
+      "rain": 18.5,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.873053999999999,
+      "lng": 80.77179699999999
+    },
+    {
+      "place": "Dummalasooriya",
+      "rain": 12.5,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.4924001,
+      "lng": 79.9108744
+    }
+  ],
+  "max_rain": {
+    "max_rain": 48.7,
+    "max_rain_place": "Mellawa"
+  },
+  "min_temp": {
+    "min_temp": 14.8,
+    "min_temp_place": "Nuwara Eliya"
+  },
+  "max_temp": {
+    "max_temp": 35.6,
+    "max_temp_place": "Polonnaruwa"
+  }
+}
