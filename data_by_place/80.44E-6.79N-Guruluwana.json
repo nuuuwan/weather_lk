@@ -2020,5 +2020,11 @@
     "rain": 30.7,
     "min_temp": null,
     "max_temp": null
+  },
+  {
+    "date": "2024-09-14",
+    "rain": 8.4,
+    "min_temp": null,
+    "max_temp": null
   }
 ]

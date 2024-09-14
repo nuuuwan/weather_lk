@@ -5860,5 +5860,11 @@
     "rain": 0.0,
     "min_temp": 23.7,
     "max_temp": 36.3
+  },
+  {
+    "date": "2024-09-14",
+    "rain": 0,
+    "min_temp": 22.8,
+    "max_temp": 36.8
   }
 ]
