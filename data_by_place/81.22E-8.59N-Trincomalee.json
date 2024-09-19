@@ -3186,6 +3186,12 @@
     "max_temp": 27.4
   },
   {
+    "date": "2022-12-27",
+    "rain": 2.0,
+    "min_temp": 24.0,
+    "max_temp": 29.3
+  },
+  {
     "date": "2022-12-28",
     "rain": 2.1,
     "min_temp": 25.2,
@@ -5914,5 +5920,17 @@
     "rain": 0.0,
     "min_temp": 26.7,
     "max_temp": 37.7
+  },
+  {
+    "date": "2024-09-17",
+    "rain": 0.0,
+    "min_temp": 27.1,
+    "max_temp": 35.8
+  },
+  {
+    "date": "2024-09-18",
+    "rain": 3.2,
+    "min_temp": 26.5,
+    "max_temp": null
   }
 ]
