@@ -526,5 +526,11 @@
     "rain": 14.2,
     "min_temp": null,
     "max_temp": null
+  },
+  {
+    "date": "2024-10-09",
+    "rain": 23.8,
+    "min_temp": null,
+    "max_temp": null
   }
 ]

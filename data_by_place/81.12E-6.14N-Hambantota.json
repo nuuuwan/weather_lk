@@ -5878,5 +5878,23 @@
     "rain": 0.0,
     "min_temp": 26.0,
     "max_temp": 31.4
+  },
+  {
+    "date": "2024-10-07",
+    "rain": 5.1,
+    "min_temp": 25.0,
+    "max_temp": 32.2
+  },
+  {
+    "date": "2024-10-08",
+    "rain": 0.0,
+    "min_temp": 25.2,
+    "max_temp": 33.6
+  },
+  {
+    "date": "2024-10-09",
+    "rain": 34.8,
+    "min_temp": 22.5,
+    "max_temp": 33.7
   }
 ]
