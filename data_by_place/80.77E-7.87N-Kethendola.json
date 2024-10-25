@@ -900,6 +900,12 @@
     "max_temp": null
   },
   {
+    "date": "2024-07-06",
+    "rain": 87.2,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2024-07-19",
     "rain": 6.5,
     "min_temp": null,
@@ -926,6 +932,12 @@
   {
     "date": "2024-09-08",
     "rain": 7.1,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-09-26",
+    "rain": 4.2,
     "min_temp": null,
     "max_temp": null
   },
