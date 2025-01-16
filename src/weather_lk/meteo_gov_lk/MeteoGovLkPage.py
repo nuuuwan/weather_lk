@@ -29,7 +29,8 @@ class MeteoGovLkPage:
         time.sleep(MeteoGovLkPage.T_WAIT)
 
         a_daily = browser.find_element(
-            "xpath", "//a[text()='Daily Weather Summary']"
+            "xpath",
+            "//a[text()='Daily Rainfall']",
         )
         pdf_url = a_daily.get_attribute("href")
         log.debug(f"{pdf_url=}")
