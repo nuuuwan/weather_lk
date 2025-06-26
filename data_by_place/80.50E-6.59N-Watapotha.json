@@ -1,0 +1,38 @@
+[
+  {
+    "date": "2024-04-07",
+    "rain": 8.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-04-11",
+    "rain": 44.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-04-23",
+    "rain": 10.5,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-05-05",
+    "rain": 0.5,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-06-17",
+    "rain": 2.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-07-13",
+    "rain": 14.5,
+    "min_temp": null,
+    "max_temp": null
+  }
+]

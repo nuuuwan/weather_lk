@@ -1,0 +1,230 @@
+[
+  {
+    "date": "2024-04-03",
+    "rain": 38.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-04-15",
+    "rain": 52.5,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-04-19",
+    "rain": 46.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-05-01",
+    "rain": 33.5,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-05-07",
+    "rain": 72.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-05-08",
+    "rain": 18.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-06-14",
+    "rain": 1.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-06-30",
+    "rain": 0.5,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-07-30",
+    "rain": 119.5,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-08-02",
+    "rain": 26.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-08-16",
+    "rain": 18.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-08-27",
+    "rain": 1.5,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-08-31",
+    "rain": 57.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-09-07",
+    "rain": 5.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-09-14",
+    "rain": 6.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-09-18",
+    "rain": 9.5,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-09-26",
+    "rain": 7.5,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-10-08",
+    "rain": 106.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-10-14",
+    "rain": 114.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-10-19",
+    "rain": 6.5,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-10-21",
+    "rain": 110.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-10-24",
+    "rain": 97.5,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-11-21",
+    "rain": 39.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-12-22",
+    "rain": 44.5,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2024-12-30",
+    "rain": 16.5,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2025-01-01",
+    "rain": 64.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2025-01-17",
+    "rain": 19.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2025-01-24",
+    "rain": 9.5,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2025-01-26",
+    "rain": 5.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2025-02-06",
+    "rain": 0.5,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2025-02-18",
+    "rain": 76.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2025-03-12",
+    "rain": 63.5,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2025-03-20",
+    "rain": 58.5,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2025-03-25",
+    "rain": 30.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2025-03-29",
+    "rain": 27.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2025-04-05",
+    "rain": 77.0,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2025-04-13",
+    "rain": 14.5,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
+    "date": "2025-04-14",
+    "rain": 2.5,
+    "min_temp": null,
+    "max_temp": null
+  }
+]

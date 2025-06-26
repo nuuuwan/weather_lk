@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Department of Meteorology</title>
+  <link rel="icon" href="images/dom-logo.png?v=1.0.1" type="image/x-icon">
+  <link rel="stylesheet" href="style.css?v=1.0.19">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+</head>
+<body>
+
+<br><br>
+<div class="container">
+
+  <div class="header">
+    <div class="left-section">
+      <img src="images/gov-logo.png?v=1.0.1" alt="Sri Lanka Emblem" class="left-logo">
+      <div class="text-content">
+        <h1>DEPARTMENT OF METEOROLOGY</h1>
+        <p>SRI LANKA</p>
+      </div>
+    </div>
+    <div class="right-section">
+      <img src="images/metlogo.png?v=1.0.1" alt="Meteorology Logo" class="right-logo">
+    </div>
+  </div>
+  <p class="warning-message" style="text-align: justify;">
+    Notice: The Department of Meteorology website is temporarily unavailable due to technical issues. 
+    In the meantime, please use this portal to access the latest weather updates. 
+    We are working to restore full service as soon as possible.<br>
+    <span style="font-size: 11px;">
+    දැනුම්දීම: තාක්ෂණික ගැටළු නිසා කාලගුණ විද්‍යා දෙපාර්තමේන්තුවේ වෙබ් අඩවිය තාවකාලිකව අක්‍රිය වී ඇත. 
+    එම නිසා, කරුණාකර නවතම කාලගුණ තොරතුරු ලබා ගැනීමට මෙම ද්වාරය භාවිතා කරන්න. 
+    අපි සේවාව සම්පූර්ණයෙන් යථාතත්වයට පත් කිරීමට කටයුතු කරමින් සිටිමු.
+	</span>
+  </p>
+  <!-- Main content split into left and right -->
+  <div class="main-content">
+    <!-- Left section: Notice, Online Users, Tabs -->
+    <div class="left-panel">
+
+
+  <!-- Online Users Count Only -->
+  <div class="visit-counter">
+    Online Users : 396  </div>
+
+  <!-- Tabs -->
+  <div class="tabs" id="tabs"></div>
+</div>
+
+  <!-- Right section: SLMap image -->
+  <div class="right-panel">
+    <p style="margin-bottom: 10px;"><b> Last 24 hour Rainfall map</b> </p>
+     <img src="images/SLMap.jpg?v=1748664440" alt="Sri Lanka Weather Map" class="weather-map">
+  </div>
+
+    <!-- Full-width tab section -->
+<div class="full-width-section">
+
+  <!-- Tab Content Area -->
+  <div class="tab-content" id="tab-content">Loading...</div>
+
+  
+
+  <!-- Contact Info -->
+<footer class="contact-section">
+  <h2>Contact Us</h2>
+  <div class="contact-container">
+    <!-- Left Side: Current Contact Info -->
+    <div class="contact-info">
+      Department of Meteorology<br>
+      383, Bauddhaloka Mawatha, Colombo 7, Sri Lanka<br>      
+      Tel :  +94 2694846/47 | +94 2682669 | +94 2681647<br>
+      Weather Inquiries : +94 11 2 686 686<br>
+      Email : <a href="mailto:info@meteo.gov.lk">info@meteo.gov.lk</a><br>
+
+    </div>
+
+    <!-- Right Side: New Section -->
+    <div class="contact-extra">
+      <b>Online Weather Data</b><br>  
+      Email : <a href="mailto:metdpa@meteo.gov.lk">metdpa@meteo.gov.lk</a><br>
+                  <a class="facebook-link" href="https://www.facebook.com/share/16DHXGzzC5/" target="_blank">
+        <i class="fab fa-facebook-square"></i> Visit our Facebook Page
+      </a>
+    </div>
+
+  </div>
+
+</footer>
+</div>
+</div>
+
+<script src="script.js?v=1.0.19"></script>
+</body>
+</html>

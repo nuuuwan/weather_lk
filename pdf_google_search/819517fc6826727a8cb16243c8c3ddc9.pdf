@@ -1,0 +1,2829 @@
+
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr"
+	  class='com_content view-article itemid-136 j36 mm-hover'>
+
+<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="og:image" content="https://meteo.gov.lk/images/weather/weather-forecast.jpg" />
+	<meta name="og:title" content="Home English" />
+	<meta name="og:description" content="QUICK LINKSWEATHER FORECASTWEATHER MAPSRI LANKA CLIMATEAGRO BULLETIN ..." />
+	<meta name="author" content="Super User" />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>Home</title>
+	<link href="https://meteo.gov.lk/index.php?option=com_content&amp;view=article&amp;id=55:2019-05-10-09-09-34&amp;catid=10&amp;lang=si&amp;Itemid=148" rel="alternate" hreflang="si" />
+	<link href="https://meteo.gov.lk/index.php?option=com_content&amp;view=article&amp;id=1:home-page&amp;catid=11&amp;lang=ta&amp;Itemid=142" rel="alternate" hreflang="ta" />
+	<link href="https://meteo.gov.lk/index.php?lang=en" rel="alternate" hreflang="en" />
+	<link href="/templates/jsl_meteo/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="https://meteo.gov.lk/index.php?option=com_search&amp;format=opensearch&amp;lang=en" rel="search" title="Search Department of Meteorology - Sri Lanka" type="application/opensearchdescription+xml" />
+	<link rel="stylesheet" href="t3-assets/dev/meteo/templates.jsl_meteo.less.bootstrap.less.css" type="text/css" />
+	<link rel="stylesheet" href="https://meteo.gov.lk/plugins/content/fastsocialshare/style/style.css" type="text/css" />
+	<link rel="stylesheet" href="/templates/system/css/system.css" type="text/css" />
+	<link rel="stylesheet" href="t3-assets/dev/meteo/plugins.system.t3.base-bs3.less.t3.less.css" type="text/css" />
+	<link rel="stylesheet" href="t3-assets/dev/meteo/templates.jsl_meteo.less.core.less.css" type="text/css" />
+	<link rel="stylesheet" href="t3-assets/dev/meteo/templates.jsl_meteo.less.typography.less.css" type="text/css" />
+	<link rel="stylesheet" href="t3-assets/dev/meteo/templates.jsl_meteo.less.forms.less.css" type="text/css" />
+	<link rel="stylesheet" href="t3-assets/dev/meteo/templates.jsl_meteo.less.navigation.less.css" type="text/css" />
+	<link rel="stylesheet" href="t3-assets/dev/meteo/templates.jsl_meteo.less.navbar.less.css" type="text/css" />
+	<link rel="stylesheet" href="t3-assets/dev/meteo/templates.jsl_meteo.less.modules.less.css" type="text/css" />
+	<link rel="stylesheet" href="t3-assets/dev/meteo/templates.jsl_meteo.less.joomla.less.css" type="text/css" />
+	<link rel="stylesheet" href="t3-assets/dev/meteo/templates.jsl_meteo.less.components.less.css" type="text/css" />
+	<link rel="stylesheet" href="t3-assets/dev/meteo/templates.jsl_meteo.less.style.less.css" type="text/css" />
+	<link rel="stylesheet" href="t3-assets/dev/meteo/templates.jsl_meteo.less.template.less.css" type="text/css" />
+	<link rel="stylesheet" href="t3-assets/dev/meteo/plugins.system.t3.base-bs3.less.megamenu.less.css" type="text/css" />
+	<link rel="stylesheet" href="t3-assets/dev/meteo/templates.jsl_meteo.less.megamenu.less.css" type="text/css" />
+	<link rel="stylesheet" href="/templates/jsl_meteo/fonts/font-awesome/css/font-awesome.min.css" type="text/css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" type="text/css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,300" type="text/css" />
+	<link rel="stylesheet" href="/templates/jsl_meteo/css/custom.css" type="text/css" />
+	<link rel="stylesheet" href="t3-assets/dev/meteo/templates.jsl_meteo.less.home.less.css" type="text/css" />
+	<link rel="stylesheet" href="https://meteo.gov.lk/media/com_uniterevolution2/assets/rs-plugin/css/settings.css" type="text/css" />
+	<link rel="stylesheet" href="https://meteo.gov.lk/media/com_uniterevolution2/assets/rs-plugin/css/dynamic-captions.css" type="text/css" />
+	<link rel="stylesheet" href="https://meteo.gov.lk/media/com_uniterevolution2/assets/rs-plugin/css/static-captions.css" type="text/css" />
+	<link rel="stylesheet" href="https://meteo.gov.lk/modules/mod_lanka_sun_moon_data/assets/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="https://meteo.gov.lk/modules/mod_24hrs_weather_stats/assets/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="https://meteo.gov.lk/modules/mod_lanka_weather_map/assets/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="https://meteo.gov.lk/modules/mod_lanka_weather_map/assets/css/ammap.css" type="text/css" />
+	<link rel="stylesheet" href="https://meteo.gov.lk/modules/mod_lanka_weather_scroller/assets/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="https://meteo.gov.lk/modules/mod_tabs_gk5/styles/style1.css" type="text/css" />
+	<link rel="stylesheet" href="/media/mod_languages/css/template.css" type="text/css" />
+	<link rel="stylesheet" href="/media/jui/css/chosen.css" type="text/css" />
+	<link rel="stylesheet" href="https://meteo.gov.lk/modules/mod_lanka_weather_warnings/assets/css/style.css" type="text/css" />
+	<style type="text/css">
+#gk-tabs-111 .gkTabsContainer0, #gk-tabs-111 .gkTabsContainer1, #gk-tabs-111 .gkTabsContainer2 { height: 200px; }
+	</style>
+	<script src="/media/jui/js/jquery.min.js" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js" type="text/javascript"></script>
+	<script src="/media/system/js/caption.js" type="text/javascript"></script>
+	<script src="/plugins/system/t3/base-bs3/bootstrap/js/bootstrap.js" type="text/javascript"></script>
+	<script src="/plugins/system/t3/base-bs3/js/jquery.tap.min.js" type="text/javascript"></script>
+	<script src="/plugins/system/t3/base-bs3/js/script.js" type="text/javascript"></script>
+	<script src="/plugins/system/t3/base-bs3/js/menu.js" type="text/javascript"></script>
+	<script src="/plugins/system/t3/base-bs3/js/nav-collapse.js" type="text/javascript"></script>
+	<script src="https://meteo.gov.lk/media/com_uniterevolution2/assets/rs-plugin/js/jquery.themepunch.plugins.min.js" type="text/javascript"></script>
+	<script src="https://meteo.gov.lk/media/com_uniterevolution2/assets/rs-plugin/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
+	<script src="https://meteo.gov.lk/modules/mod_lanka_sun_moon_data/assets/js/script.js" type="text/javascript"></script>
+	<script src="https://meteo.gov.lk/modules/mod_24hrs_weather_stats/assets/js/script.js" type="text/javascript"></script>
+	<script src="https://meteo.gov.lk/modules/mod_lanka_weather_map/assets/js/script.js" type="text/javascript"></script>
+	<script src="https://meteo.gov.lk/modules/mod_lanka_weather_map/assets/js/ammap.js" type="text/javascript"></script>
+	<script src="https://meteo.gov.lk/modules/mod_lanka_weather_map/assets/js/sriLankaHigh.js" type="text/javascript"></script>
+	<script src="https://meteo.gov.lk/modules/mod_lanka_weather_scroller/assets/js/marquee.min.js" type="text/javascript"></script>
+	<script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+	<script src="/media/system/js/core.js" type="text/javascript"></script>
+	<script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+	<script src="https://meteo.gov.lk/modules/mod_tabs_gk5/scripts/engine.mootools.js" type="text/javascript"></script>
+	<script src="/media/jui/js/chosen.jquery.min.js" type="text/javascript"></script>
+	<script src="/media/system/js/html5fallback.js" type="text/javascript"></script>
+	<script src="https://meteo.gov.lk/modules/mod_lanka_weather_warnings/assets/js/script.js" type="text/javascript"></script>
+	<script type="text/javascript">
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});jQuery(function($){ $(".hasTooltip").tooltip({"html": true,"container": "body"}); });window.addEvent("load", function() {
+
+ document.getElementById("mapdiv").style.overflow = "visible";
+
+});
+		jQuery(document).ready(function (){
+			jQuery('.advancedSelect').chosen({"disable_search_threshold":10,"search_contains":true,"allow_single_deselect":true,"placeholder_text_multiple":"Type or select some options","placeholder_text_single":"Select an option","no_results_text":"No results match"});
+		});
+	
+	</script>
+	<link href="https://meteo.gov.lk/index.php?lang=en" rel="alternate" hreflang="x-default" />
+
+	
+<!-- META FOR IOS & HANDHELD -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<style type="text/stylesheet">
+		@-webkit-viewport   { width: device-width; }
+		@-moz-viewport      { width: device-width; }
+		@-ms-viewport       { width: device-width; }
+		@-o-viewport        { width: device-width; }
+		@viewport           { width: device-width; }
+	</style>
+	<script type="text/javascript">
+		//<![CDATA[
+		if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+			var msViewportStyle = document.createElement("style");
+			msViewportStyle.appendChild(
+				document.createTextNode("@-ms-viewport{width:auto!important}")
+			);
+			document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+		}
+		//]]>
+	</script>
+<meta name="HandheldFriendly" content="true"/>
+<meta name="apple-mobile-web-app-capable" content="YES"/>
+<!-- //META FOR IOS & HANDHELD -->
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-72889973-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- Le HTML5 shim and media query for IE8 support -->
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script type="text/javascript" src="/plugins/system/t3/base-bs3/js/respond.min.js"></script>
+<![endif]-->
+
+<!-- You can add Google Analytics here or use T3 Injection feature -->
+	</head>
+
+<body>
+
+<div class="t3-wrapper"> <!-- Need this wrapper for off-canvas menu. Remove if you don't use of-canvas -->
+
+	
+<!-- HEADER -->
+<div class="wrap header-wrap">
+<header id="t3-header" class="container t3-header">
+	<div class="row">
+
+		<!-- LOGO -->
+		<div class="col-xs-12 col-sm-12  col-md-6">
+			<div class="logo-image logo-control">
+				<a href="" title="DEPARTMENT OF METEOROLOGY">
+											<img class="logo-img" src="/templates/jsl_meteo/images/logo.png" alt="DEPARTMENT OF METEOROLOGY" />
+																<img class="logo-img-sm" src="/images/logo-small.png" alt="DEPARTMENT OF METEOROLOGY" />
+										<span>DEPARTMENT OF METEOROLOGY</span>
+				</a>
+				<small class="site-slogan">SRI LANKA</small>
+			</div>
+		</div>
+		<!-- //LOGO -->
+			<div class="col-xs-6 col-sm-6 col-md-4 warining">
+            
+			            
+            				<div class="moduletable">
+						<div class="search">
+	<form action="/index.php?lang=en" method="post" class="form-inline form-search">
+		<label for="mod-search-searchword" class="element-invisible">Search ...</label> <input name="searchword" id="mod-search-searchword" maxlength="200"  class="form-control search-query" type="search" size="0" placeholder="Search ..." />		<input type="hidden" name="task" value="search" />
+		<input type="hidden" name="option" value="com_search" />
+		<input type="hidden" name="Itemid" value="536" />
+	</form>
+</div>
+		</div>
+			<div class="moduletable">
+						
+<div class="row">
+</div>		</div>
+	
+                                                                    			
+			
+            </div>
+
+					<div class="col-xs-6 col-sm-6 col-md-2">
+									<!-- HEAD SEARCH -->
+					<div class="head-search ">
+								<div class="moduletable">
+						<div class="mod-languages">
+
+	<form name="lang" method="post" action="https://meteo.gov.lk/index.php">
+	<select class="inputbox advancedSelect" onchange="document.location.replace(this.value);" >
+			<option dir="ltr" value="/index.php?option=com_content&amp;view=article&amp;id=55:2019-05-10-09-09-34&amp;catid=10&amp;lang=si&amp;Itemid=148" >
+		සිංහල</option>
+			<option dir="ltr" value="/index.php?option=com_content&amp;view=article&amp;id=1:home-page&amp;catid=11&amp;lang=ta&amp;Itemid=142" >
+		தமிழ்</option>
+			<option dir="ltr" value="/index.php?lang=en" selected="selected">
+		English (UK)</option>
+		</select>
+	</form>
+
+</div>
+		</div>
+			<div class="moduletable">
+						
+
+<div class="custom"  >
+	<div class="row">
+<div class="col-md-4"><a href="http://www.gov.lk/" target="_blank"><img src="images/icons/goc-link.png" alt="goc link" style="display: block; margin-left: auto; margin-right: auto;" /></a></div>
+<div class="col-md-4"><a href="http://www.siyabas.lk/sinhala_how_to_install.html" target="_blank"><img src="images/icons/si-link.png" alt="si link" style="display: block; margin-left: auto; margin-right: auto;" /></a></div>
+<div class="col-md-4"><a href="http://www.emathumozhihal.lk/tamil_how_to_install_in_english.html" target="_blank"><img src="images/icons/ta-link.png" alt="ta link" style="display: block; margin-left: auto; margin-right: auto;" /></a></div>
+</div></div>
+		</div>
+	
+					</div>
+					<!-- //HEAD SEARCH -->
+				
+							</div>
+		
+	</div>
+    <!-- //SCOLLING WARNINGS / ADVISORY-->
+    
+   	
+
+</header>
+</div>
+
+<div class="row">
+        
+                 
+</div>
+    
+<!-- //HEADER -->
+
+	
+<!-- MAIN NAVIGATION -->
+<nav id="t3-mainnav" class="wrap navbar navbar-default t3-mainnav">
+	<div class="container">
+
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		
+											<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".t3-navbar-collapse">
+					<i class="fa fa-bars"></i>
+				</button>
+			
+			
+		</div>
+
+					<div class="t3-navbar-collapse navbar-collapse collapse"></div>
+		
+		<div class="t3-navbar navbar-collapse collapse">
+			<div  class="t3-megamenu"  data-responsive="true">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="nav navbar-nav level0">
+<li itemprop='name' class="current active" data-id="136" data-level="1">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=3&amp;Itemid=136&amp;lang=en"   data-target="#">Home </a>
+
+</li>
+<li itemprop='name' class="dropdown mega" data-id="157" data-level="1">
+<a itemprop='url' class=" dropdown-toggle" href=""   data-target="#" data-toggle="dropdown">WEATHER FORECAST/WARNING<em class="caret"></em></a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+<li itemprop='name'  data-id="289" data-level="2">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=9&amp;Itemid=289&amp;lang=en"   data-target="#">General Weather Forecast </a>
+
+</li>
+<li itemprop='name' class="dropdown-submenu mega" data-id="291" data-level="2">
+<a itemprop='url' class="" href="#"   data-target="#">Model Weather Forecast</a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level2">
+<li itemprop='name'  data-id="293" data-level="3">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=14&amp;Itemid=293&amp;lang=en"   data-target="#">9 Days Weather Forecast </a>
+
+</li>
+<li itemprop='name'  data-id="615" data-level="3">
+<a itemprop='url' class="" href="/images/2024/aug1.pdf" target="_blank"   data-target="#">Weekly Rainfall Anomaly Forecast</a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name' class="dropdown-submenu mega" data-id="156" data-level="2">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=11&amp;Itemid=156&amp;lang=en"   data-target="#">Warnings </a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level2">
+<li itemprop='name' class="dropdown-submenu mega" data-id="276" data-level="3">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=75&amp;Itemid=276&amp;lang=en"   data-target="#">Severe Weather Warnings </a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level3">
+<li itemprop='name'  data-id="554" data-level="4">
+<a itemprop='url' class="" href="images/SeaArea/WW2024122201S_merged.pdf" target="_blank"   data-target="#">For Sea area / Land area</a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name' class="dropdown mega" data-id="279" data-level="1">
+<a itemprop='url' class=" dropdown-toggle" href="image/2024_08_22.pdf"   data-target="#" data-toggle="dropdown">Marine Weather<em class="caret"></em></a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+<li itemprop='name'  data-id="559" data-level="2">
+<a itemprop='url' class="" href="images/8day_marine/2024_12_26.pdf" target="_blank"   data-target="#">FORECAST FOR COASTAL AREAS AROUND SRI LANKA</a>
+
+</li>
+<li itemprop='name'  data-id="298" data-level="2">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=84&amp;Itemid=298&amp;lang=en"   data-target="#">Sea Area around Sri Lanka </a>
+
+</li>
+<li itemprop='name' class="dropdown-submenu mega" data-id="547" data-level="2">
+<a itemprop='url' class="" href=""   data-target="#">International Marine Forecast</a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level2">
+<li itemprop='name'  data-id="295" data-level="3">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=197&amp;Itemid=295&amp;lang=en"   data-target="#">Shipping Report </a>
+
+</li>
+<li itemprop='name'  data-id="296" data-level="3">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=198&amp;Itemid=296&amp;lang=en"   data-target="#">Fleet Forecast </a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name'  data-id="550" data-level="2">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=190&amp;Itemid=550&amp;lang=en"   data-target="#">Multi-day Boats Forecast </a>
+
+</li>
+<li itemprop='name'  data-id="597" data-level="2">
+<a itemprop='url' class="" href="images/fisher/FA20241226E.pdf" target="_blank"   data-target="#">Fisherman Weather Advisory</a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name' class="dropdown mega" data-id="576" data-level="1">
+<a itemprop='url' class=" dropdown-toggle" href=""   data-target="#" data-toggle="dropdown">CLIMATE<em class="caret"></em></a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+<li itemprop='name' class="dropdown-submenu mega" data-id="290" data-level="2">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=78&amp;Itemid=290&amp;lang=en"   data-target="#">Seasonal  Forecast </a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level2">
+<li itemprop='name'  data-id="638" data-level="3">
+<a itemprop='url' class="" href="" target="_blank"   data-target="#">Current condition and forecasts of ENSO and IOD</a>
+
+</li>
+<li itemprop='name'  data-id="639" data-level="3">
+<a itemprop='url' class="" href="" target="_blank"   data-target="#">Seasonal, Monthly and weekly Rainfall Forecasts</a>
+
+</li>
+<li itemprop='name'  data-id="640" data-level="3">
+<a itemprop='url' class="" href="" target="_blank"   data-target="#">Consensus Seasonal Weather Outlook</a>
+
+</li>
+<li itemprop='name'  data-id="641" data-level="3">
+<a itemprop='url' class="" href="" target="_blank"   data-target="#">Temperature Forecast</a>
+
+</li>
+<li itemprop='name'  data-id="642" data-level="3">
+<a itemprop='url' class="" href="" target="_blank"   data-target="#">Rainfall Forecast</a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name'  data-id="546" data-level="2">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=188&amp;Itemid=546&amp;lang=en"   data-target="#">Monthly Drought Monitoring Bulletin </a>
+
+</li>
+<li itemprop='name'  data-id="310" data-level="2">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=94&amp;Itemid=310&amp;lang=en"   data-target="#">Climate of Sri Lanka </a>
+
+</li>
+<li itemprop='name' class="dropdown-submenu mega" data-id="281" data-level="2">
+<a itemprop='url' class="" href="#"   data-target="#"><img src="images/neeew.gif" alt="Agromet  Information" /><span class="image-title">Agromet  Information</span> </a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level2">
+<li itemprop='name'  data-id="299" data-level="3">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=86&amp;Itemid=299&amp;lang=en"   data-target="#"><img src="images/neeew.gif" alt="Monthly Agromet Bulletin" /><span class="image-title">Monthly Agromet Bulletin</span>  </a>
+
+</li>
+<li itemprop='name'  data-id="301" data-level="3">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=28&amp;Itemid=301&amp;lang=en"   data-target="#">Weekly Agromet Bulletin </a>
+
+</li>
+<li itemprop='name'  data-id="606" data-level="3">
+<a itemprop='url' class="" href="http://222.165.186.51/public/savg07d.html" target="_blank"   data-target="#">Agromat soil temperature &amp; water</a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name' class="dropdown mega" data-id="563" data-level="1">
+<a itemprop='url' class=" dropdown-toggle" href="images/2024/MERGE20241118DJ.pdf"   data-target="#" data-toggle="dropdown">Weather Summary<em class="caret"></em></a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+<li itemprop='name'  data-id="564" data-level="2">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=194&amp;Itemid=564&amp;lang=en"   data-target="#">Weekly Weather Summary </a>
+
+</li>
+<li itemprop='name'  data-id="565" data-level="2">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=195&amp;Itemid=565&amp;lang=en"   data-target="#">Monthly Weather Summary - Weather Synopsis  </a>
+
+</li>
+<li itemprop='name'  data-id="567" data-level="2">
+<a itemprop='url' class="" href="/images/mergepdf/20241226_RF_merged.pdf" target="_blank"   data-target="#">Daily Rainfall</a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name' class="dropdown mega" data-id="187" data-level="1">
+<a itemprop='url' class=" dropdown-toggle" href="#"   data-target="#" data-toggle="dropdown">Education  and Training<em class="caret"></em></a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+<li itemprop='name'  data-id="631" data-level="2">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=223&amp;Itemid=631&amp;lang=en" target="_blank"   data-target="#"><img src="images/neeew.gif" alt="Research Articles" /><span class="image-title">Research Articles</span>  </a>
+
+</li>
+<li itemprop='name' class="dropdown-submenu mega" data-id="577" data-level="2">
+<a itemprop='url' class="" href=""   data-target="#">PUBLICATIONS</a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level2">
+<li itemprop='name' class="dropdown-submenu mega" data-id="545" data-level="3">
+<a itemprop='url' class="" href=""   data-target="#">Research Journal </a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level3">
+<li itemprop='name'  data-id="215" data-level="4">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=27&amp;Itemid=215&amp;lang=en"   data-target="#">Research Journal - MET </a>
+
+</li>
+<li itemprop='name'  data-id="544" data-level="4">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=187&amp;Itemid=544&amp;lang=en"   data-target="#">Journal volume  ii - JAICA </a>
+
+</li>
+<li itemprop='name'  data-id="566" data-level="4">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=196&amp;Itemid=566&amp;lang=en"   data-target="#">Journal volume  III </a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name'  data-id="601" data-level="3">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=208&amp;Itemid=601&amp;lang=en"   data-target="#">Climate News Letter </a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name'  data-id="192" data-level="2">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=21&amp;Itemid=192&amp;lang=en"   data-target="#">Booklet </a>
+
+</li>
+<li itemprop='name' class="dropdown-submenu mega" data-id="583" data-level="2">
+<a itemprop='url' class="" href=""   data-target="#">Awareness Stories</a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level2">
+<li itemprop='name'  data-id="584" data-level="3">
+<a itemprop='url' class="" href="/images//janu-magic--To-WEB.pdf" target="_blank"   data-target="#">story 1 - මැජික් ස0දර්ශනය</a>
+
+</li>
+<li itemprop='name'  data-id="585" data-level="3">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=206&amp;Itemid=585&amp;lang=en"   data-target="#">story 2 - Tsunami </a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name'  data-id="613" data-level="1">
+<a itemprop='url' class="" href="https://prism.lka.wfp.org/" target="_blank"   data-target="#"><img src="images/neeew.gif" alt="PRISM Drought Monitoring &amp; Analyzing Tool" /><span class="image-title">PRISM Drought Monitoring &amp; Analyzing Tool</span> </a>
+
+</li>
+<li itemprop='name' class="dropdown mega" data-id="139" data-level="1">
+<a itemprop='url' class=" dropdown-toggle" href="#"   data-target="#" data-toggle="dropdown">Information /  Services<em class="caret"></em></a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+<li itemprop='name' class="dropdown-submenu mega" data-id="214" data-level="2">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=25&amp;Itemid=214&amp;lang=en"   data-target="#"><img src="images/neeew.gif" alt="Services" /><span class="image-title">Services</span>  </a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level2">
+<li itemprop='name'  data-id="321" data-level="3">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=100&amp;Itemid=321&amp;lang=en"   data-target="#">Weather and Climate Data </a>
+
+</li>
+<li itemprop='name'  data-id="611" data-level="3">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=211&amp;Itemid=611&amp;lang=en"   data-target="#"><img src="images/neeew.gif" alt="Reservation of Auditorium" /><span class="image-title">Reservation of Auditorium</span>  </a>
+
+</li>
+<li itemprop='name'  data-id="629" data-level="3">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=222&amp;Itemid=629&amp;lang=en" target="_blank"   data-target="#"><img src="images/neeew.gif" alt="Reservation for Visit" /><span class="image-title">Reservation for Visit</span>  </a>
+
+</li>
+<li itemprop='name'  data-id="634" data-level="3">
+<a itemprop='url' class="" href="/images/Circuit-Bunglow-Application-New-2.pdf" target="_blank"   data-target="#">Reservation  - Nuwara Eliya Circuit Bunglow</a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name' class="dropdown-submenu mega" data-id="311" data-level="2">
+<a itemprop='url' class="" href=""   data-target="#">Information</a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level2">
+<li itemprop='name' class="dropdown-submenu mega" data-id="212" data-level="3">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=184&amp;Itemid=212&amp;lang=en"   data-target="#">Recruitment / Promotions </a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level3">
+<li itemprop='name'  data-id="632" data-level="4">
+<a itemprop='url' class="" href="/images/AA/IMG_0001-2.pdf" target="_blank"   data-target="#">SLTS Grade 1 Supra</a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name'  data-id="594" data-level="3">
+<a itemprop='url' class="" href="/images/IMG_0001.pdf" target="_blank"   data-target="#">Annual Transfer</a>
+
+</li>
+<li itemprop='name'  data-id="636" data-level="3">
+<a itemprop='url' class="" href="/images/_0001.pdf" onclick="window.open(this.href,'targetWindow','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes');return false;"   data-target="#">Auction of obsolete items</a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name' class="dropdown-submenu mega" data-id="183" data-level="2">
+<a itemprop='url' class="" href="#"   data-target="#">Astronomical Information</a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level2">
+<li itemprop='name'  data-id="302" data-level="3">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=16&amp;Itemid=302&amp;lang=en"   data-target="#">Sunrise Sunset  / Moonrise Moonset </a>
+
+</li>
+<li itemprop='name'  data-id="303" data-level="3">
+<a itemprop='url' class="" href="/images/2024/Over-Head-Sun-s-positions-2024-update.pdf" target="_blank"   data-target="#">Over Head Sun's Position</a>
+
+</li>
+<li itemprop='name'  data-id="304" data-level="3">
+<a itemprop='url' class="" href="/images/Ramadan-Information-2024-wip.pdf"   data-target="#">Ramazan data</a>
+
+</li>
+<li itemprop='name'  data-id="305" data-level="3">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=88&amp;Itemid=305&amp;lang=en"   data-target="#">New Moon / Full Moon </a>
+
+</li>
+<li itemprop='name'  data-id="306" data-level="3">
+<a itemprop='url' class="" href="/images/Eclipses-in-2024.pdf" target="_blank"   data-target="#">Eclipses</a>
+
+</li>
+<li itemprop='name'  data-id="579" data-level="3">
+<a itemprop='url' class="" href="/images/MOON-PHASES-2024.JPG" target="_blank"   data-target="#">Moon Phases for Colombo</a>
+
+</li>
+<li itemprop='name'  data-id="616" data-level="3">
+<a itemprop='url' class="" href="/images/Visibility-of-New-Moon.pdf" target="_blank"   data-target="#">Visibility of New Moon</a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name' class="dropdown-submenu mega" data-id="609" data-level="2">
+<a itemprop='url' class="" href="/images/English-Ad.pdf" target="_blank"   data-target="#">Procurement</a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level2">
+<li itemprop='name'  data-id="618" data-level="3">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=219&amp;Itemid=618&amp;lang=en" target="_blank"   data-target="#">BIDDING DOCUMENTS </a>
+
+</li>
+<li itemprop='name'  data-id="619" data-level="3">
+<a itemprop='url' class="" href="/images/2024/English-Ad-1.pdf" target="_blank"   data-target="#">Climate Resilience Multi-Phase Programmatic Approach (CResMPA) REQUEST FOR EXPRESSIONS OF INTEREST</a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name' class="dropdown mega" data-id="137" data-level="1">
+<a itemprop='url' class=" dropdown-toggle" href="/index.php?option=com_content&amp;view=article&amp;id=6&amp;Itemid=137&amp;lang=en"   data-target="#" data-toggle="dropdown">About Us <em class="caret"></em></a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+<li itemprop='name'  data-id="610" data-level="2">
+<a itemprop='url' class="" href="/index.php?option=com_content&amp;view=article&amp;id=210&amp;Itemid=610&amp;lang=en"   data-target="#">Our Team </a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name' class="dropdown mega" data-id="141" data-level="1">
+<a itemprop='url' class=" dropdown-toggle" href="/index.php?option=com_contact&amp;view=contact&amp;id=1&amp;Itemid=141&amp;lang=en"   data-target="#" data-toggle="dropdown">Contact Us <em class="caret"></em></a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+<li itemprop='name'  data-id="607" data-level="2">
+<a itemprop='url' class="" href="/images/information-commission-26.pdf"   data-target="#">Implementation of the Right to Information Act</a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+</ul>
+</div>
+
+		</div>
+
+	</div>
+</nav>
+<!-- //MAIN NAVIGATION -->
+
+	
+<div class="home">
+      <div class="wrap t3-sl t3-sl-1 ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          
+
+<!-- START REVOLUTION SLIDER 4.3.8 b5 fullwidth mode -->
+
+<div id="rev_slider_2_2_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:20px;max-height:350px;">
+	<div id="rev_slider_2_2" class="rev_slider fullwidthabanner" style="display:none;max-height:350px;height:350px;">
+<ul>	<!-- SLIDE  -->
+	<li data-transition="random" data-slotamount="7" data-masterspeed="300" >
+		<!-- MAIN IMAGE -->
+		<img src="http://www.meteo.gov.lk/images/srilanka-map.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 1 -->
+		<div class="tp-caption medium_bg_darkblue sfr tp-resizeme"
+			data-x="567"
+			data-y="267" 
+			data-speed="300"
+			data-start="500"
+			data-easing="Power3.easeInOut"
+			data-splitin="none"
+			data-splitout="none"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+			style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">Sri Lanka
+		</div>
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="random" data-slotamount="7" data-masterspeed="300" >
+		<!-- MAIN IMAGE -->
+		<img src=" http://www.meteo.gov.lk/images/plane_clouds.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 1 -->
+		<div class="tp-caption medium_bg_darkblue tp-fade tp-resizeme"
+			data-x="714"
+			data-y="290" 
+			data-speed="300"
+			data-start="500"
+			data-easing="Power3.easeInOut"
+			data-splitin="none"
+			data-splitout="none"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+			style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">AVIATION WEATHER
+		</div>
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="random" data-slotamount="7" data-masterspeed="300" >
+		<!-- MAIN IMAGE -->
+		<img src="http://www.meteo.gov.lk/images/marine-weather.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 1 -->
+		<div class="tp-caption medium_bg_darkblue sft tp-resizeme"
+			data-x="735"
+			data-y="293" 
+			data-speed="300"
+			data-start="500"
+			data-easing="Power3.easeInOut"
+			data-splitin="none"
+			data-splitout="none"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+			style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">MARINE WEATHER
+		</div>
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="random" data-slotamount="7" data-masterspeed="300" >
+		<!-- MAIN IMAGE -->
+		<img src="https://www.meteo.gov.lk/images/agri.jpg"  alt="agri"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 1 -->
+		<div class="tp-caption medium_bg_darkblue sft tp-resizeme"
+			data-x="521"
+			data-y="241" 
+			data-speed="300"
+			data-start="500"
+			data-easing="Power3.easeInOut"
+			data-splitin="none"
+			data-splitout="none"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+			style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">AGRO-METEOROLOGICAL INFORMATION
+		</div>
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="random" data-slotamount="7" data-masterspeed="300" >
+		<!-- MAIN IMAGE -->
+		<img src="http://www.meteo.gov.lk/images/sigiriya.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+	</li>
+</ul>
+<div class="tp-bannertimer tp-bottom" style="display:none; visibility: hidden !important;"></div>	</div>
+</div>			
+			<script type="text/javascript">
+
+				var tpj=jQuery;				
+												
+				var revapi2;
+				
+				tpj(document).ready(function() {
+								
+				if(tpj('#rev_slider_2_2').revolution == undefined)
+					revslider_showDoubleJqueryError('#rev_slider_2_2');
+				else
+				   revapi2 = tpj('#rev_slider_2_2').show().revolution(
+					{
+						dottedOverlay:"none",
+						delay:9000,
+						startwidth:960,
+						startheight:350,
+						hideThumbs:200,
+						
+						thumbWidth:100,
+						thumbHeight:50,
+						thumbAmount:5,
+						
+						navigationType:"bullet",
+						navigationArrows:"solo",
+						navigationStyle:"round",
+						
+						touchenabled:"on",
+						onHoverStop:"on",
+						
+						swipe_velocity: 0.7,
+							swipe_min_touches: 1,
+							swipe_max_touches: 1,
+							drag_block_vertical: false,
+						
+						keyboardNavigation:"off",
+						
+						navigationHAlign:"center",
+						navigationVAlign:"bottom",
+						navigationHOffset:0,
+						navigationVOffset:20,
+
+						soloArrowLeftHalign:"left",
+						soloArrowLeftValign:"center",
+						soloArrowLeftHOffset:20,
+						soloArrowLeftVOffset:0,
+
+						soloArrowRightHalign:"right",
+						soloArrowRightValign:"center",
+						soloArrowRightHOffset:20,
+						soloArrowRightVOffset:0,
+								
+						shadow:1,
+						fullWidth:"on",
+						fullScreen:"off",
+
+						spinner:"spinner0",
+						
+						stopLoop:"off",
+						stopAfterLoops:-1,
+						stopAtSlide:-1,
+
+						
+						shuffle:"off",
+						
+						autoHeight:"off",						
+						forceFullWidth:"off",						
+												
+												
+						hideTimerBar:"on",						
+						hideThumbsOnMobile:"off",
+						hideNavDelayOnMobile:1500,						hideBulletsOnMobile:"off",
+						hideArrowsOnMobile:"off",
+						hideThumbsUnderResolution:0,
+						
+						hideSliderAtLimit:0,
+						hideCaptionAtLimit:0,
+						hideAllCaptionAtLilmit:0,
+						startWithSlide:0,
+						fullScreenOffsetContainer: "",
+						isJoomla:true
+					});
+				
+				});	//ready
+				
+			</script>
+			
+			<!-- END REVOLUTION SLIDER -->			<div class="moduletablewf">
+							<h3 class="weatherforecasts">Weather Forecasts</h3>
+						
+<div id="gk-tabs-111" class="gkTabsGK5" data-config="{'activator':'click','animation':'0','animation_interval':'5000','animation_type':'slide_vertical','active_tab':'1','cookie_save':'0','auto_height':'1','module_height':'200','rtl':'0'}" data-swipe="1">
+	<div class="gkTabsWrap vertical">
+	    	    <ol class="gkTabsNav" data-amount="7">
+	    		    	
+	    		    		    	<li class="gkTab gkTabs-1 active" data-animation="default">
+	    			    			Public Weather	    			    	</li>
+	    		    		    	<li class="gkTab gkTabs-2" data-animation="default">
+	    			    			Marine Weather	    			    	</li>
+	    		    		    	<li class="gkTab gkTabs-3" data-animation="default">
+	    			    			City Forecasts	    			    	</li>
+	    		    		    	<li class="gkTab gkTabs-4" data-animation="default">
+	    			    			9 Day Weather Forcast	    			    	</li>
+	    		    		    	<li class="gkTab gkTabs-5" data-animation="default">
+	    			    			Weekly Weather	    			    	</li>
+	    		    		    	<li class="gkTab gkTabs-6" data-animation="default">
+	    			    			Anawaki Mobile App (Android)	    			    	</li>
+	    		    		    	<li class="gkTab gkTabs-7" data-animation="default">
+	    			    			GIS Weather portal	    			    	</li>
+	    		    </ol>
+	    	                
+		<div class="gkTabsContainer">
+	    	
+<div class="gkTabsItem gk-slide_vertical gk-active">
+	
+<div class='article_anywhere'>
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+            <p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 12.5pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">WEATHER FORECAST FOR 27 DECEMBER 2024</span></p>
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 12.5pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Issued at 05.30 a.m. on 27 December 2024</span></p>
+<p>&nbsp;</p>
+<p dir="ltr" style="line-height: 1.38; text-align: justify; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Several spells of showers may occur in Northern, North-central, Eastern provinces and in Matale district.</span></p>
+<p>&nbsp;</p>
+<p dir="ltr" style="line-height: 1.38; text-align: justify; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Showers or thundershowers may occur at a few places in Western, Sabaragamuwa, Southern North-western and Uva provinces and in Nuwara-Eliya and Kandy districts during the evening or night.</span></p>
+<p dir="ltr" style="line-height: 1.38; text-align: justify; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Misty conditions can be expected at some places in Western, Sabaragamuwa, Central, Southern and Uva provinces during the morning.</span></p>
+<p dir="ltr" style="line-height: 1.38; text-align: justify; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">The general public is kindly requested to take adequate precautions to minimize damages caused by temporary localized strong winds and lightning during thundershowers.</span></p>
+<p><span style="font-size: 12pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;"></span></p><div class="fastsocialshare_container"><div class="fastsocialshare-share-fbl button_count">						
+						<script>
+						var loadAsyncDeferredFacebook = function() {
+							(function(d, s, id) {
+							  var js, fjs = d.getElementsByTagName(s)[0];
+							  if (d.getElementById(id)) return;
+							  js = d.createElement(s); js.id = id;
+							  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+							  fjs.parentNode.insertBefore(js, fjs);
+							}(document, 'script', 'facebook-jssdk'));
+						}
+
+				  		if (window.addEventListener)
+							window.addEventListener("load", loadAsyncDeferredFacebook, false);
+						else if (window.attachEvent)
+							window.attachEvent("onload", loadAsyncDeferredFacebook);
+						else
+					  		window.onload = loadAsyncDeferredFacebook;
+						</script>
+				<div class="fb-like"
+					data-href="https://meteo.gov.lk/index.php?option=com_content&view=article&id=9:general-weather-forecast&catid=12:weather-forecasts&Itemid=289&lang=en"
+					data-layout="button_count"
+                	data-width="100"
+					data-action="like"
+					data-show-faces="true"
+					data-share="false">
+				</div></div>						<div id="fbshare_container" class="fastsocialshare-share-fbsh">
+    					<a style="text-decoration:none; border-radius: 2px; padding:2px 5px; font-size:14px; background-color:#3B5998; color:#FFFFFF !important;" onclick="window.open('http://www.facebook.com/sharer/sharer.php?u=https://meteo.gov.lk/index.php?option=com_content&view=article&id=9:general-weather-forecast&catid=12:weather-forecasts&Itemid=289&lang=en','fbshare','width=480,height=100')" href="javascript:void(0)"><span style="text-decoration:none; font-weight:bold; font-size:14px;margin-right:4px;">f</span>Share</a>
+    					
+						</div>						<div class="fastsocialshare-share-tw">
+						<a href="https://twitter.com/share" class="twitter-share-button"  data-text="Public Weather Forecast English" data-count="horizontal" data-via="" data-url="https://meteo.gov.lk/index.php?option=com_content&view=article&id=9:general-weather-forecast&catid=12:weather-forecasts&Itemid=289&lang=en" data-lang="en">Tweet</a>
+						</div>
+						<script>
+							var loadAsyncDeferredTwitter =  function() {
+	            						var d = document;
+	            						var s = 'script';
+	            						var id = 'twitter-wjs';
+					            		var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){
+						        		js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}
+					        		}
+						
+							if (window.addEventListener)
+								window.addEventListener("load", loadAsyncDeferredTwitter, false);
+							else if (window.attachEvent)
+								window.attachEvent("onload", loadAsyncDeferredTwitter);
+							else
+								window.onload = loadAsyncDeferredTwitter;
+						</script>						<div class="fastsocialshare-share-gone">
+						<script type="text/javascript">
+							 window.___gcfg = {
+						        lang: 'en'
+						      };
+							var loadAsyncDeferredGooglePlus =  function() {
+								var po = document.createElement('script'); 
+								po.type = 'text/javascript'; 
+								po.async = true;
+								po.src = 'https://apis.google.com/js/plusone.js';
+								po.innerHTML =  {lang: 'en'};
+								var s = document.getElementsByTagName('script')[0]; 
+								s.parentNode.insertBefore(po, s);
+							};
+			
+							 if (window.addEventListener)
+							  window.addEventListener("load", loadAsyncDeferredGooglePlus, false);
+							else if (window.attachEvent)
+							  window.attachEvent("onload", loadAsyncDeferredGooglePlus);
+							else
+							  window.onload = loadAsyncDeferredGooglePlus;
+						</script>
+						<g:plusone annotation='bubble' size="medium" href='https://meteo.gov.lk/index.php?option=com_content&view=article&id=9:general-weather-forecast&catid=12:weather-forecasts&Itemid=289&lang=en'></g:plusone>
+						<g:plus annotation='bubble' href='https://meteo.gov.lk/index.php?option=com_content&view=article&id=9:general-weather-forecast&catid=12:weather-forecasts&Itemid=289&lang=en' action='share'></g:plus>
+						</div><div class="fastsocialshare_clearer"></div></div>
+        </div></div>
+<div class="gkTabsItem gk-slide_vertical gk-hide">
+	
+<div class='article_anywhere'>
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+            <p dir="ltr" style="line-height: 1.38; margin-right: 1pt; text-align: center; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">WEATHER FORECAST FOR SEA AREAS AROUND THE ISLAND DURING NEXT 24 HOURS</span></p>
+<p dir="ltr" style="line-height: 1.38; margin-right: 1pt; text-align: center; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Issued at 05.30 a.m. on 27 December</span><span style="font-size: 12pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">2024</span></p>
+<p>&nbsp;</p>
+<div dir="ltr" style="text-align: left;">
+<table style="border: none; border-collapse: collapse;"><colgroup><col width="602" /></colgroup>
+<tbody>
+<tr style="height: 15pt;">
+<td style="padding: 0pt 5pt; overflow: hidden; border: 0.9375pt dashed #000000;">
+<p dir="ltr" style="line-height: 1.38; margin-top: 12pt; margin-right: 6pt; margin-bottom: 7pt; text-align: justify;"><span style="font-size: 12pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Condition of Rain:</span></p>
+</td>
+</tr>
+<tr style="height: 57pt;">
+<td style="padding: 0pt 5pt; overflow: hidden; border: 0.9375pt dashed #000000;">
+<p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-right: 6pt; margin-bottom: 7pt; text-align: justify;"><span style="font-size: 12pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Several spells of light showers will occur in the sea areas extending from Mannar to Batticaloa via Kankasanthurai and Trincomalee. Showers or thundershowers may occur at a few places in the other sea areas around the island during the evening or night.</span></p>
+</td>
+</tr>
+<tr style="height: 15pt;">
+<td style="padding: 0pt 5pt; overflow: hidden; border: 0.9375pt dashed #000000;">
+<p dir="ltr" style="line-height: 1.38; margin-top: 12pt; margin-right: 6pt; margin-bottom: 7pt; text-align: justify;"><span style="font-size: 12pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Winds:</span></p>
+</td>
+</tr>
+<tr style="height: 56.25pt;">
+<td style="padding: 0pt 5pt; overflow: hidden; border: 0.9375pt dashed #000000;">
+<p dir="ltr" style="line-height: 1.38; margin-top: 12pt; margin-right: 6pt; margin-bottom: 7pt; text-align: justify;"><span style="font-size: 12pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Winds will be North- easterly in the sea areas around the island and speed will be (20-30) kmph. Wind speed can increase up to 40 kmph at times in the sea areas off the coast extending from Puttalam to Trincomalee via Kankasanthurai.</span></p>
+</td>
+</tr>
+<tr style="height: 15pt;">
+<td style="padding: 0pt 5pt; overflow: hidden; border: 0.9375pt dashed #000000;">
+<p dir="ltr" style="line-height: 1.38; margin-top: 12pt; margin-right: 6pt; margin-bottom: 7pt; text-align: justify;"><span style="font-size: 12pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">State of Sea:</span></p>
+</td>
+</tr>
+<tr style="height: 115.5pt;">
+<td style="padding: 0pt 5pt; overflow: hidden; border: 0.9375pt dashed #000000;">
+<p dir="ltr" style="line-height: 1.38; margin-top: 12pt; margin-right: 6pt; margin-bottom: 7pt; text-align: justify;"><span style="font-size: 12pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">The sea areas off the coast extending from Puttalam to Trincomalee via Kankasanthurai may be fairly rough at times.</span></p>
+<p dir="ltr" style="line-height: 1.38; margin-top: 12pt; margin-right: 6pt; margin-bottom: 7pt; text-align: justify;"><span style="font-size: 12pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Temporarily strong gusty winds and very rough seas can be expected during thundershowers.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span><span>&nbsp;</span></span></p>
+<p><span style="font-size: 14pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;"></span></p><div class="fastsocialshare_container"><div class="fastsocialshare-share-fbl button_count">						
+						<script>
+						var loadAsyncDeferredFacebook = function() {
+							(function(d, s, id) {
+							  var js, fjs = d.getElementsByTagName(s)[0];
+							  if (d.getElementById(id)) return;
+							  js = d.createElement(s); js.id = id;
+							  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+							  fjs.parentNode.insertBefore(js, fjs);
+							}(document, 'script', 'facebook-jssdk'));
+						}
+
+				  		if (window.addEventListener)
+							window.addEventListener("load", loadAsyncDeferredFacebook, false);
+						else if (window.attachEvent)
+							window.attachEvent("onload", loadAsyncDeferredFacebook);
+						else
+					  		window.onload = loadAsyncDeferredFacebook;
+						</script>
+				<div class="fb-like"
+					data-href="https://meteo.gov.lk/index.php?option=com_content&view=article&id=84:forecast-for-sea-areas-around-the-island&catid=39:marine&Itemid=298&lang=en"
+					data-layout="button_count"
+                	data-width="100"
+					data-action="like"
+					data-show-faces="true"
+					data-share="false">
+				</div></div>						<div id="fbshare_container" class="fastsocialshare-share-fbsh">
+    					<a style="text-decoration:none; border-radius: 2px; padding:2px 5px; font-size:14px; background-color:#3B5998; color:#FFFFFF !important;" onclick="window.open('http://www.facebook.com/sharer/sharer.php?u=https://meteo.gov.lk/index.php?option=com_content&view=article&id=84:forecast-for-sea-areas-around-the-island&catid=39:marine&Itemid=298&lang=en','fbshare','width=480,height=100')" href="javascript:void(0)"><span style="text-decoration:none; font-weight:bold; font-size:14px;margin-right:4px;">f</span>Share</a>
+    					
+						</div>						<div class="fastsocialshare-share-tw">
+						<a href="https://twitter.com/share" class="twitter-share-button"  data-text="FORECAST FOR SEA AREAS AROUND THE ISLAND" data-count="horizontal" data-via="" data-url="https://meteo.gov.lk/index.php?option=com_content&view=article&id=84:forecast-for-sea-areas-around-the-island&catid=39:marine&Itemid=298&lang=en" data-lang="en">Tweet</a>
+						</div>
+						<script>
+							var loadAsyncDeferredTwitter =  function() {
+	            						var d = document;
+	            						var s = 'script';
+	            						var id = 'twitter-wjs';
+					            		var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){
+						        		js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}
+					        		}
+						
+							if (window.addEventListener)
+								window.addEventListener("load", loadAsyncDeferredTwitter, false);
+							else if (window.attachEvent)
+								window.attachEvent("onload", loadAsyncDeferredTwitter);
+							else
+								window.onload = loadAsyncDeferredTwitter;
+						</script>						<div class="fastsocialshare-share-gone">
+						<script type="text/javascript">
+							 window.___gcfg = {
+						        lang: 'en'
+						      };
+							var loadAsyncDeferredGooglePlus =  function() {
+								var po = document.createElement('script'); 
+								po.type = 'text/javascript'; 
+								po.async = true;
+								po.src = 'https://apis.google.com/js/plusone.js';
+								po.innerHTML =  {lang: 'en'};
+								var s = document.getElementsByTagName('script')[0]; 
+								s.parentNode.insertBefore(po, s);
+							};
+			
+							 if (window.addEventListener)
+							  window.addEventListener("load", loadAsyncDeferredGooglePlus, false);
+							else if (window.attachEvent)
+							  window.attachEvent("onload", loadAsyncDeferredGooglePlus);
+							else
+							  window.onload = loadAsyncDeferredGooglePlus;
+						</script>
+						<g:plusone annotation='bubble' size="medium" href='https://meteo.gov.lk/index.php?option=com_content&view=article&id=84:forecast-for-sea-areas-around-the-island&catid=39:marine&Itemid=298&lang=en'></g:plusone>
+						<g:plus annotation='bubble' href='https://meteo.gov.lk/index.php?option=com_content&view=article&id=84:forecast-for-sea-areas-around-the-island&catid=39:marine&Itemid=298&lang=en' action='share'></g:plus>
+						</div><div class="fastsocialshare_clearer"></div></div>
+        </div></div>
+<div class="gkTabsItem gk-slide_vertical gk-hide">
+	
+<div class='article_anywhere'>
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+            <p dir="ltr" style="line-height: 1.38; margin-right: 1pt; text-align: center; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 14pt; font-family: Arial, sans-serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">GENERAL WEATHER FORECAST FOR NEXT 36 HOURS</span></p>
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 13pt; font-family: Arial, sans-serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Issued at 04.00 p.m. on 26 December 2024.</span></p>
+<p>&nbsp;</p>
+<p dir="ltr" style="line-height: 1.38; text-align: justify; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial, sans-serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Several spells of showers may occur in Northern, North-central, Eastern provinces and Matale district.</span></p>
+<p>&nbsp;</p>
+<p dir="ltr" style="line-height: 1.38; text-align: justify; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial, sans-serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Showers or thundershowers may occur at a few places in Western, and Sabaragamuwa provinces and in Galle, and Matara districts during the evening or night.</span></p>
+<p dir="ltr" style="line-height: 1.38; text-align: justify; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 12pt; font-family: Arial, sans-serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Misty conditions can be expected at some places in Western, Sabaragamuwa, Central, Southern and Uva provinces during the morning.</span></p>
+<p><span style="font-size: 12pt; font-family: Arial, sans-serif; background-color: transparent; font-weight: bold; vertical-align: baseline;"></span></p>
+<div dir="ltr" style="text-align: left;">
+<table style="border: none; border-collapse: collapse;"><colgroup><col width="95" /><col width="61" /><col width="61" /><col width="61" /><col width="63" /><col width="260" /></colgroup>
+<tbody>
+<tr style="height: 16.5pt;">
+<td colspan="4" style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">&nbsp; &nbsp; &nbsp; &nbsp; Weather Forecast for Main Cities</span></p>
+</td>
+<td style="border-bottom: 1.36363pt solid #000000; border-top-width: 1.36363pt; border-top-color: #000000; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: right; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Date :</span></p>
+</td>
+<td style="border-right: 1.36363pt solid #000000; border-bottom: 1.36363pt solid #000000; border-top-width: 1.36363pt; border-top-color: #000000; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: justify; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">27-Dec-2024</span></p>
+</td>
+</tr>
+<tr style="height: 16.5pt;">
+<td rowspan="2" style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">City</span></p>
+</td>
+<td colspan="2" style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Temperature (</span><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;"><span style="font-size: 0.6em; vertical-align: super;">0</span></span><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">C)</span></p>
+</td>
+<td colspan="2" style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: justify; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Relative Humidity (%)</span></p>
+</td>
+<td rowspan="2" style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Weather</span></p>
+</td>
+</tr>
+<tr style="height: 12pt;">
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Max</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Min</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Max</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Min</span></p>
+</td>
+</tr>
+<tr style="height: 12pt;">
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: justify; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: Arial, sans-serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Anuradhapura</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">33</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">23</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">95</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">50</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: justify; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Several spells of showers</span></p>
+</td>
+</tr>
+<tr style="height: 12pt;">
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: justify; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: Arial, sans-serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Batticaloa</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">29</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">24</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">95</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">80</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: justify; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Several spells of showers</span></p>
+</td>
+</tr>
+<tr style="height: 12pt;">
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: justify; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: Arial, sans-serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Colombo</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">30</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">23</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">90</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">60</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: justify; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Showers or thundershowers are likely after 2.00p.m</span></p>
+</td>
+</tr>
+<tr style="height: 12pt;">
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: justify; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: Arial, sans-serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Galle</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">29</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">24</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">90</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">65</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: justify; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Showers or thundershowers are likely after 2.00p.m</span></p>
+</td>
+</tr>
+<tr style="height: 12pt;">
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: justify; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: Arial, sans-serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Jaffna</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">31</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">24</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">95</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">65</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: justify; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Several spells of showers</span></p>
+</td>
+</tr>
+<tr style="height: 12pt;">
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: justify; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: Arial, sans-serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Kandy</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">30</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">19</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">95</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">45</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: justify; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Showers or thundershowers are likely after 2.00p.m</span></p>
+</td>
+</tr>
+<tr style="height: 12pt;">
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: justify; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: Arial, sans-serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Nuwara-Eliya</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">21</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">11</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">75</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">25</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: justify; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Showers or thundershowers are likely after 2.00p.m</span></p>
+</td>
+</tr>
+<tr style="height: 12pt;">
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: justify; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: Arial, sans-serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Ratnapura</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">35</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">21</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">95</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">50</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: justify; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Showers or thundershowers are likely after 4.00p.m</span></p>
+</td>
+</tr>
+<tr style="height: 12pt;">
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: justify; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: Arial, sans-serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Trincomalee</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">31</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">24</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">95</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">65</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: justify; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Several spells of light showers</span></p>
+</td>
+</tr>
+<tr style="height: 12pt;">
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: justify; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: Arial, sans-serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Mannar</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">31</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">25</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">95</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: center; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">65</span></p>
+</td>
+<td style="border-width: 1.36363pt; border-left-style: solid; border-color: #000000; border-right-style: solid; border-bottom-style: solid; padding: 0pt 5pt; overflow: hidden;">
+<p dir="ltr" style="line-height: 1.38; text-align: justify; margin-top: 12pt; margin-bottom: 0pt;"><span style="font-size: 9pt; font-family: 'Times New Roman', serif; background-color: transparent; font-weight: bold; vertical-align: baseline;">Showers or thundershowers are likely after 2.00p.m</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><span id="docs-internal-guid-5feec1a8-7fff-bec3-81af-9e518d1499b0"></span></p>
+<p>&nbsp;</p><div class="fastsocialshare_container"><div class="fastsocialshare-share-fbl button_count">						
+						<script>
+						var loadAsyncDeferredFacebook = function() {
+							(function(d, s, id) {
+							  var js, fjs = d.getElementsByTagName(s)[0];
+							  if (d.getElementById(id)) return;
+							  js = d.createElement(s); js.id = id;
+							  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+							  fjs.parentNode.insertBefore(js, fjs);
+							}(document, 'script', 'facebook-jssdk'));
+						}
+
+				  		if (window.addEventListener)
+							window.addEventListener("load", loadAsyncDeferredFacebook, false);
+						else if (window.attachEvent)
+							window.attachEvent("onload", loadAsyncDeferredFacebook);
+						else
+					  		window.onload = loadAsyncDeferredFacebook;
+						</script>
+				<div class="fb-like"
+					data-href="https://meteo.gov.lk/index.php?option=com_content&view=article&id=13:city-forecasts&catid=8:english-conetnt&Itemid=136&lang=en"
+					data-layout="button_count"
+                	data-width="100"
+					data-action="like"
+					data-show-faces="true"
+					data-share="false">
+				</div></div>						<div id="fbshare_container" class="fastsocialshare-share-fbsh">
+    					<a style="text-decoration:none; border-radius: 2px; padding:2px 5px; font-size:14px; background-color:#3B5998; color:#FFFFFF !important;" onclick="window.open('http://www.facebook.com/sharer/sharer.php?u=https://meteo.gov.lk/index.php?option=com_content&view=article&id=13:city-forecasts&catid=8:english-conetnt&Itemid=136&lang=en','fbshare','width=480,height=100')" href="javascript:void(0)"><span style="text-decoration:none; font-weight:bold; font-size:14px;margin-right:4px;">f</span>Share</a>
+    					
+						</div>						<div class="fastsocialshare-share-tw">
+						<a href="https://twitter.com/share" class="twitter-share-button"  data-text="City Forecasts" data-count="horizontal" data-via="" data-url="https://meteo.gov.lk/index.php?option=com_content&view=article&id=13:city-forecasts&catid=8:english-conetnt&Itemid=136&lang=en" data-lang="en">Tweet</a>
+						</div>
+						<script>
+							var loadAsyncDeferredTwitter =  function() {
+	            						var d = document;
+	            						var s = 'script';
+	            						var id = 'twitter-wjs';
+					            		var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){
+						        		js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}
+					        		}
+						
+							if (window.addEventListener)
+								window.addEventListener("load", loadAsyncDeferredTwitter, false);
+							else if (window.attachEvent)
+								window.attachEvent("onload", loadAsyncDeferredTwitter);
+							else
+								window.onload = loadAsyncDeferredTwitter;
+						</script>						<div class="fastsocialshare-share-gone">
+						<script type="text/javascript">
+							 window.___gcfg = {
+						        lang: 'en'
+						      };
+							var loadAsyncDeferredGooglePlus =  function() {
+								var po = document.createElement('script'); 
+								po.type = 'text/javascript'; 
+								po.async = true;
+								po.src = 'https://apis.google.com/js/plusone.js';
+								po.innerHTML =  {lang: 'en'};
+								var s = document.getElementsByTagName('script')[0]; 
+								s.parentNode.insertBefore(po, s);
+							};
+			
+							 if (window.addEventListener)
+							  window.addEventListener("load", loadAsyncDeferredGooglePlus, false);
+							else if (window.attachEvent)
+							  window.attachEvent("onload", loadAsyncDeferredGooglePlus);
+							else
+							  window.onload = loadAsyncDeferredGooglePlus;
+						</script>
+						<g:plusone annotation='bubble' size="medium" href='https://meteo.gov.lk/index.php?option=com_content&view=article&id=13:city-forecasts&catid=8:english-conetnt&Itemid=136&lang=en'></g:plusone>
+						<g:plus annotation='bubble' href='https://meteo.gov.lk/index.php?option=com_content&view=article&id=13:city-forecasts&catid=8:english-conetnt&Itemid=136&lang=en' action='share'></g:plus>
+						</div><div class="fastsocialshare_clearer"></div></div>
+        </div></div>
+<div class="gkTabsItem gk-slide_vertical gk-hide">
+	
+<div class='article_anywhere'>
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+            <p>&nbsp;</p>
+<div style="background-color: #d0f5a9;">
+<p>&nbsp;</p>
+<p style="text-align: center;"><strong><span style="font-size: 14pt;"><a href="http://222.165.186.51/public/emfc10d.html" target="_blank">9 Days Weather Forecast</a></span></strong></p>
+<p>&nbsp;</p>
+<p><a href="/image/tenday/WRF_2018021412a.pdf"><strong><img src="tenday/202008060000_nmc21.pdf" alt="" /> </strong></a></p>
+</div><div class="fastsocialshare_container"><div class="fastsocialshare-share-fbl button_count">						
+						<script>
+						var loadAsyncDeferredFacebook = function() {
+							(function(d, s, id) {
+							  var js, fjs = d.getElementsByTagName(s)[0];
+							  if (d.getElementById(id)) return;
+							  js = d.createElement(s); js.id = id;
+							  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+							  fjs.parentNode.insertBefore(js, fjs);
+							}(document, 'script', 'facebook-jssdk'));
+						}
+
+				  		if (window.addEventListener)
+							window.addEventListener("load", loadAsyncDeferredFacebook, false);
+						else if (window.attachEvent)
+							window.attachEvent("onload", loadAsyncDeferredFacebook);
+						else
+					  		window.onload = loadAsyncDeferredFacebook;
+						</script>
+				<div class="fb-like"
+					data-href="https://meteo.gov.lk/index.php?option=com_content&view=article&id=14:10-day-weather-forecast&catid=12:weather-forecasts&Itemid=293&lang=en"
+					data-layout="button_count"
+                	data-width="100"
+					data-action="like"
+					data-show-faces="true"
+					data-share="false">
+				</div></div>						<div id="fbshare_container" class="fastsocialshare-share-fbsh">
+    					<a style="text-decoration:none; border-radius: 2px; padding:2px 5px; font-size:14px; background-color:#3B5998; color:#FFFFFF !important;" onclick="window.open('http://www.facebook.com/sharer/sharer.php?u=https://meteo.gov.lk/index.php?option=com_content&view=article&id=14:10-day-weather-forecast&catid=12:weather-forecasts&Itemid=293&lang=en','fbshare','width=480,height=100')" href="javascript:void(0)"><span style="text-decoration:none; font-weight:bold; font-size:14px;margin-right:4px;">f</span>Share</a>
+    					
+						</div>						<div class="fastsocialshare-share-tw">
+						<a href="https://twitter.com/share" class="twitter-share-button"  data-text="9 Days Weather Forecast" data-count="horizontal" data-via="" data-url="https://meteo.gov.lk/index.php?option=com_content&view=article&id=14:10-day-weather-forecast&catid=12:weather-forecasts&Itemid=293&lang=en" data-lang="en">Tweet</a>
+						</div>
+						<script>
+							var loadAsyncDeferredTwitter =  function() {
+	            						var d = document;
+	            						var s = 'script';
+	            						var id = 'twitter-wjs';
+					            		var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){
+						        		js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}
+					        		}
+						
+							if (window.addEventListener)
+								window.addEventListener("load", loadAsyncDeferredTwitter, false);
+							else if (window.attachEvent)
+								window.attachEvent("onload", loadAsyncDeferredTwitter);
+							else
+								window.onload = loadAsyncDeferredTwitter;
+						</script>						<div class="fastsocialshare-share-gone">
+						<script type="text/javascript">
+							 window.___gcfg = {
+						        lang: 'en'
+						      };
+							var loadAsyncDeferredGooglePlus =  function() {
+								var po = document.createElement('script'); 
+								po.type = 'text/javascript'; 
+								po.async = true;
+								po.src = 'https://apis.google.com/js/plusone.js';
+								po.innerHTML =  {lang: 'en'};
+								var s = document.getElementsByTagName('script')[0]; 
+								s.parentNode.insertBefore(po, s);
+							};
+			
+							 if (window.addEventListener)
+							  window.addEventListener("load", loadAsyncDeferredGooglePlus, false);
+							else if (window.attachEvent)
+							  window.attachEvent("onload", loadAsyncDeferredGooglePlus);
+							else
+							  window.onload = loadAsyncDeferredGooglePlus;
+						</script>
+						<g:plusone annotation='bubble' size="medium" href='https://meteo.gov.lk/index.php?option=com_content&view=article&id=14:10-day-weather-forecast&catid=12:weather-forecasts&Itemid=293&lang=en'></g:plusone>
+						<g:plus annotation='bubble' href='https://meteo.gov.lk/index.php?option=com_content&view=article&id=14:10-day-weather-forecast&catid=12:weather-forecasts&Itemid=293&lang=en' action='share'></g:plus>
+						</div><div class="fastsocialshare_clearer"></div></div>
+        </div></div>
+<div class="gkTabsItem gk-slide_vertical gk-hide">
+	
+<div class='article_anywhere'>
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+            <p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div style="background-color: #d0f5a9;">
+<p>&nbsp;</p>
+<p style="text-align: center;"><span style="font-size: 18pt;">Weekly Rainfall Forecast - 2024</span></p>
+<p style="text-align: center;"><img src="images/2024-12-24-12_45_04-1.jpeg" alt="" width="747" height="1013" class="pull-center" /></p>
+<p>&nbsp;</p>
+</div><div class="fastsocialshare_container"><div class="fastsocialshare-share-fbl button_count">						
+						<script>
+						var loadAsyncDeferredFacebook = function() {
+							(function(d, s, id) {
+							  var js, fjs = d.getElementsByTagName(s)[0];
+							  if (d.getElementById(id)) return;
+							  js = d.createElement(s); js.id = id;
+							  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+							  fjs.parentNode.insertBefore(js, fjs);
+							}(document, 'script', 'facebook-jssdk'));
+						}
+
+				  		if (window.addEventListener)
+							window.addEventListener("load", loadAsyncDeferredFacebook, false);
+						else if (window.attachEvent)
+							window.attachEvent("onload", loadAsyncDeferredFacebook);
+						else
+					  		window.onload = loadAsyncDeferredFacebook;
+						</script>
+				<div class="fb-like"
+					data-href="https://meteo.gov.lk/index.php?option=com_content&view=article&id=202:weekly&catid=2:uncategorised&Itemid=621&lang=en"
+					data-layout="button_count"
+                	data-width="100"
+					data-action="like"
+					data-show-faces="true"
+					data-share="false">
+				</div></div>						<div id="fbshare_container" class="fastsocialshare-share-fbsh">
+    					<a style="text-decoration:none; border-radius: 2px; padding:2px 5px; font-size:14px; background-color:#3B5998; color:#FFFFFF !important;" onclick="window.open('http://www.facebook.com/sharer/sharer.php?u=https://meteo.gov.lk/index.php?option=com_content&view=article&id=202:weekly&catid=2:uncategorised&Itemid=621&lang=en','fbshare','width=480,height=100')" href="javascript:void(0)"><span style="text-decoration:none; font-weight:bold; font-size:14px;margin-right:4px;">f</span>Share</a>
+    					
+						</div>						<div class="fastsocialshare-share-tw">
+						<a href="https://twitter.com/share" class="twitter-share-button"  data-text="Weekly Rainfall Anomaly Forecast" data-count="horizontal" data-via="" data-url="https://meteo.gov.lk/index.php?option=com_content&view=article&id=202:weekly&catid=2:uncategorised&Itemid=621&lang=en" data-lang="en">Tweet</a>
+						</div>
+						<script>
+							var loadAsyncDeferredTwitter =  function() {
+	            						var d = document;
+	            						var s = 'script';
+	            						var id = 'twitter-wjs';
+					            		var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){
+						        		js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}
+					        		}
+						
+							if (window.addEventListener)
+								window.addEventListener("load", loadAsyncDeferredTwitter, false);
+							else if (window.attachEvent)
+								window.attachEvent("onload", loadAsyncDeferredTwitter);
+							else
+								window.onload = loadAsyncDeferredTwitter;
+						</script>						<div class="fastsocialshare-share-gone">
+						<script type="text/javascript">
+							 window.___gcfg = {
+						        lang: 'en'
+						      };
+							var loadAsyncDeferredGooglePlus =  function() {
+								var po = document.createElement('script'); 
+								po.type = 'text/javascript'; 
+								po.async = true;
+								po.src = 'https://apis.google.com/js/plusone.js';
+								po.innerHTML =  {lang: 'en'};
+								var s = document.getElementsByTagName('script')[0]; 
+								s.parentNode.insertBefore(po, s);
+							};
+			
+							 if (window.addEventListener)
+							  window.addEventListener("load", loadAsyncDeferredGooglePlus, false);
+							else if (window.attachEvent)
+							  window.attachEvent("onload", loadAsyncDeferredGooglePlus);
+							else
+							  window.onload = loadAsyncDeferredGooglePlus;
+						</script>
+						<g:plusone annotation='bubble' size="medium" href='https://meteo.gov.lk/index.php?option=com_content&view=article&id=202:weekly&catid=2:uncategorised&Itemid=621&lang=en'></g:plusone>
+						<g:plus annotation='bubble' href='https://meteo.gov.lk/index.php?option=com_content&view=article&id=202:weekly&catid=2:uncategorised&Itemid=621&lang=en' action='share'></g:plus>
+						</div><div class="fastsocialshare_clearer"></div></div>
+        </div></div>
+<div class="gkTabsItem gk-slide_vertical gk-hide">
+	
+<div class='article_anywhere'>
+
+
+
+
+<dl class="article-info">
+	<dt class="article-info-term">Details</dt>
+    
+    
+    
+    
+    
+    
+    
+        <dd class="hits">
+        Hits: 15977    </dd>
+    </dl>
+        <div style="background-color: #d0f5a9;">
+<p style="text-align: center;"><span style="color: #008000;"><span style="font-size: 36pt;"><strong><span style="font-family: Arial, Helvetica, sans-serif;"></span></strong></span><span style="text-decoration: underline; font-family: 'arial black', 'avant garde'; font-size: 18pt;"><strong>Anawaki</strong></span></span></p>
+<p style="text-align: center;"><span style="text-decoration: underline; color: #0000ff; font-family: verdana, geneva;"><span style="font-size: 36pt;"><span style="font-size: 24pt;"></span></span></span><span style="font-size: 12pt;"><strong><span style="font-family: 'comic sans ms', sans-serif;">Play Store link -&nbsp;<span style="background-color: #ffff00;"><a href="https://play.google.com/store/apps/details?id=com.weather.portal.gov" target="_blank" style="color: #1155cc; background-color: #ffff00;" data-saferedirecturl="https://www.google.com/url?q=https://play.google.com/store/apps/details?id%3Dcom.weather.portal.gov&amp;source=gmail&amp;ust=1699430788244000&amp;usg=AOvVaw3ojzZQtK9wslBPHfYkfBUF">https://play.google.com/store/<wbr />apps/details?id=com.weather.<wbr />portal.gov</a></span></span></strong></span></p>
+<p>&nbsp;</p>
+<p style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 14pt;">&ldquo;Anawaki&rdquo; is a mobile application powered by the Department of Meteorology Sri Lanka enables you make better preparation for the day in relation to giving location specific, more reliable weather forecasts and information. Check the weather forecast in your location or any location in Sri Lanka in a blink of an eye. Simply know what the weather brings and always prepare for the weather changes.</span></p>
+<p>&nbsp;</p>
+<p><img src="images/unnamed-1.png" alt="" width="174" height="300" style="float: left;" /></p>
+<p>&nbsp;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="images/qr-new.jpg" alt="" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+<p>&nbsp;</p><div class="fastsocialshare_container"><div class="fastsocialshare-share-fbl button_count">						
+						<script>
+						var loadAsyncDeferredFacebook = function() {
+							(function(d, s, id) {
+							  var js, fjs = d.getElementsByTagName(s)[0];
+							  if (d.getElementById(id)) return;
+							  js = d.createElement(s); js.id = id;
+							  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+							  fjs.parentNode.insertBefore(js, fjs);
+							}(document, 'script', 'facebook-jssdk'));
+						}
+
+				  		if (window.addEventListener)
+							window.addEventListener("load", loadAsyncDeferredFacebook, false);
+						else if (window.attachEvent)
+							window.attachEvent("onload", loadAsyncDeferredFacebook);
+						else
+					  		window.onload = loadAsyncDeferredFacebook;
+						</script>
+				<div class="fb-like"
+					data-href="https://meteo.gov.lk/index.php?option=com_content&view=article&id=215:mobile-app&catid=2:uncategorised&Itemid=136&lang=en"
+					data-layout="button_count"
+                	data-width="100"
+					data-action="like"
+					data-show-faces="true"
+					data-share="false">
+				</div></div>						<div id="fbshare_container" class="fastsocialshare-share-fbsh">
+    					<a style="text-decoration:none; border-radius: 2px; padding:2px 5px; font-size:14px; background-color:#3B5998; color:#FFFFFF !important;" onclick="window.open('http://www.facebook.com/sharer/sharer.php?u=https://meteo.gov.lk/index.php?option=com_content&view=article&id=215:mobile-app&catid=2:uncategorised&Itemid=136&lang=en','fbshare','width=480,height=100')" href="javascript:void(0)"><span style="text-decoration:none; font-weight:bold; font-size:14px;margin-right:4px;">f</span>Share</a>
+    					
+						</div>						<div class="fastsocialshare-share-tw">
+						<a href="https://twitter.com/share" class="twitter-share-button"  data-text="Anawaki Mobile App(Android)" data-count="horizontal" data-via="" data-url="https://meteo.gov.lk/index.php?option=com_content&view=article&id=215:mobile-app&catid=2:uncategorised&Itemid=136&lang=en" data-lang="en">Tweet</a>
+						</div>
+						<script>
+							var loadAsyncDeferredTwitter =  function() {
+	            						var d = document;
+	            						var s = 'script';
+	            						var id = 'twitter-wjs';
+					            		var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){
+						        		js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}
+					        		}
+						
+							if (window.addEventListener)
+								window.addEventListener("load", loadAsyncDeferredTwitter, false);
+							else if (window.attachEvent)
+								window.attachEvent("onload", loadAsyncDeferredTwitter);
+							else
+								window.onload = loadAsyncDeferredTwitter;
+						</script>						<div class="fastsocialshare-share-gone">
+						<script type="text/javascript">
+							 window.___gcfg = {
+						        lang: 'en'
+						      };
+							var loadAsyncDeferredGooglePlus =  function() {
+								var po = document.createElement('script'); 
+								po.type = 'text/javascript'; 
+								po.async = true;
+								po.src = 'https://apis.google.com/js/plusone.js';
+								po.innerHTML =  {lang: 'en'};
+								var s = document.getElementsByTagName('script')[0]; 
+								s.parentNode.insertBefore(po, s);
+							};
+			
+							 if (window.addEventListener)
+							  window.addEventListener("load", loadAsyncDeferredGooglePlus, false);
+							else if (window.attachEvent)
+							  window.attachEvent("onload", loadAsyncDeferredGooglePlus);
+							else
+							  window.onload = loadAsyncDeferredGooglePlus;
+						</script>
+						<g:plusone annotation='bubble' size="medium" href='https://meteo.gov.lk/index.php?option=com_content&view=article&id=215:mobile-app&catid=2:uncategorised&Itemid=136&lang=en'></g:plusone>
+						<g:plus annotation='bubble' href='https://meteo.gov.lk/index.php?option=com_content&view=article&id=215:mobile-app&catid=2:uncategorised&Itemid=136&lang=en' action='share'></g:plus>
+						</div><div class="fastsocialshare_clearer"></div></div>
+        </div></div>
+<div class="gkTabsItem gk-slide_vertical gk-hide">
+	
+<div class='article_anywhere'>
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+            <div style="background-color: #d0f5a9;">
+<p>&nbsp;</p>
+<p style="text-align: center;"><span style="text-decoration: underline; font-size: 18pt; font-family: 'arial black', 'avant garde'; color: #044904;"><strong>GIS Weather portal</strong></span></p>
+<p>&nbsp;</p>
+<p><span style="color: #003366;"></span></p>
+<p style="text-align: center;"><span style="text-decoration: underline;"><span style="font-size: 18pt;"><strong><span style="color: #222222; font-family: Calibri, sans-serif; font-size: 14.6667px; text-decoration: underline;"></span></strong></span></span><strong><span style="font-size: 18pt;">URL:&nbsp;<span style="color: #1155cc; background-color: #ffff00; font-size: 14pt;"><a href="https://weather.meteo.gov.lk/" style="background-color: #ffff00;">https://weather.meteo.gov.lk/</a><a href="https://weather.meteo.gov.lk/" style="background-color: #ffff00;"></a></span></span></strong></p>
+<p>&nbsp;</p>
+<p style="text-align: justify;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 12pt;"><a href="https://weather.meteo.gov.lk/" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://weather.meteo.gov.lk/&amp;source=gmail&amp;ust=1699435039371000&amp;usg=AOvVaw1sEVujQXWhzq4R3m_sj-FS"></a>Description - The website "<a href="https://weather.meteo.gov.lk/" target="_blank" style="color: #1155cc;" data-saferedirecturl="https://www.google.com/url?q=https://weather.meteo.gov.lk/&amp;source=gmail&amp;ust=1699435039371000&amp;usg=AOvVaw1sEVujQXWhzq4R3m_sj-FS">https://weather.meteo.gov.lk/</a><wbr />" is a platform dedicated for providing precise and reliable weather information in Sri Lanka. It serves as an official source of meteorological data, maintained by the Meteorological department of Sri lanka. The website aims to deliver more reliable up-to-date weather forecasts, warnings and observations to the public, businesses, and different interested sectors in Sri Lanka. In addition to the basic weather data, the website also provides insights into climate patterns, seasonal variations, and other meteorological phenomena relevant to Sri Lanka. This can be particularly useful for individuals planning outdoor activities, farmers monitoring weather conditions for agricultural purposes or for businesses making decisions depending on the prevailing weather.</span></p>
+<p style="text-align: center;">&nbsp;<img src="images/unnamed-2.png" alt="" width="373" height="249" /></p>
+</div><div class="fastsocialshare_container"><div class="fastsocialshare-share-fbl button_count">						
+						<script>
+						var loadAsyncDeferredFacebook = function() {
+							(function(d, s, id) {
+							  var js, fjs = d.getElementsByTagName(s)[0];
+							  if (d.getElementById(id)) return;
+							  js = d.createElement(s); js.id = id;
+							  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+							  fjs.parentNode.insertBefore(js, fjs);
+							}(document, 'script', 'facebook-jssdk'));
+						}
+
+				  		if (window.addEventListener)
+							window.addEventListener("load", loadAsyncDeferredFacebook, false);
+						else if (window.attachEvent)
+							window.attachEvent("onload", loadAsyncDeferredFacebook);
+						else
+					  		window.onload = loadAsyncDeferredFacebook;
+						</script>
+				<div class="fb-like"
+					data-href="https://meteo.gov.lk/index.php?option=com_content&view=article&id=216:gis-weather-portal&catid=2:uncategorised&Itemid=136&lang=en"
+					data-layout="button_count"
+                	data-width="100"
+					data-action="like"
+					data-show-faces="true"
+					data-share="false">
+				</div></div>						<div id="fbshare_container" class="fastsocialshare-share-fbsh">
+    					<a style="text-decoration:none; border-radius: 2px; padding:2px 5px; font-size:14px; background-color:#3B5998; color:#FFFFFF !important;" onclick="window.open('http://www.facebook.com/sharer/sharer.php?u=https://meteo.gov.lk/index.php?option=com_content&view=article&id=216:gis-weather-portal&catid=2:uncategorised&Itemid=136&lang=en','fbshare','width=480,height=100')" href="javascript:void(0)"><span style="text-decoration:none; font-weight:bold; font-size:14px;margin-right:4px;">f</span>Share</a>
+    					
+						</div>						<div class="fastsocialshare-share-tw">
+						<a href="https://twitter.com/share" class="twitter-share-button"  data-text="GIS Weather portal" data-count="horizontal" data-via="" data-url="https://meteo.gov.lk/index.php?option=com_content&view=article&id=216:gis-weather-portal&catid=2:uncategorised&Itemid=136&lang=en" data-lang="en">Tweet</a>
+						</div>
+						<script>
+							var loadAsyncDeferredTwitter =  function() {
+	            						var d = document;
+	            						var s = 'script';
+	            						var id = 'twitter-wjs';
+					            		var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){
+						        		js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}
+					        		}
+						
+							if (window.addEventListener)
+								window.addEventListener("load", loadAsyncDeferredTwitter, false);
+							else if (window.attachEvent)
+								window.attachEvent("onload", loadAsyncDeferredTwitter);
+							else
+								window.onload = loadAsyncDeferredTwitter;
+						</script>						<div class="fastsocialshare-share-gone">
+						<script type="text/javascript">
+							 window.___gcfg = {
+						        lang: 'en'
+						      };
+							var loadAsyncDeferredGooglePlus =  function() {
+								var po = document.createElement('script'); 
+								po.type = 'text/javascript'; 
+								po.async = true;
+								po.src = 'https://apis.google.com/js/plusone.js';
+								po.innerHTML =  {lang: 'en'};
+								var s = document.getElementsByTagName('script')[0]; 
+								s.parentNode.insertBefore(po, s);
+							};
+			
+							 if (window.addEventListener)
+							  window.addEventListener("load", loadAsyncDeferredGooglePlus, false);
+							else if (window.attachEvent)
+							  window.attachEvent("onload", loadAsyncDeferredGooglePlus);
+							else
+							  window.onload = loadAsyncDeferredGooglePlus;
+						</script>
+						<g:plusone annotation='bubble' size="medium" href='https://meteo.gov.lk/index.php?option=com_content&view=article&id=216:gis-weather-portal&catid=2:uncategorised&Itemid=136&lang=en'></g:plusone>
+						<g:plus annotation='bubble' href='https://meteo.gov.lk/index.php?option=com_content&view=article&id=216:gis-weather-portal&catid=2:uncategorised&Itemid=136&lang=en' action='share'></g:plus>
+						</div><div class="fastsocialshare_clearer"></div></div>
+        </div></div>	    </div>
+		
+			</div>
+		
+	</div>
+		</div>
+	
+        </div>
+        <div class="col-md-4">
+          <hr />
+ 
+ <div id="maptypes" >
+  <a style="text-align:center;" href="javascript:load_latest_data();">Weather Observations<br />2024-12-27 <br/>(3 Hourly)</a>
+  
+ <!--<a href="javascript:load_forecast();">FORECAST</a>-->
+  </div>
+ <div id="mapdiv" style="overflow:visible !important ;" >
+ 	
+ </div>
+ 
+ <script>
+ 
+ function load_latest_data(){
+	 
+ var map = AmCharts.makeChart( "mapdiv", {
+
+  type: "map",
+  "theme": "light",
+  pathToImages: "http://www.amcharts.com/lib/3/images/",
+
+  dataProvider: {
+    map: "sriLankaHigh",
+    zoomLevel: 1.0,
+    zoomLongitude: 80.7718,
+    zoomLatitude: 7.8831,
+    getAreasFromMap : true,
+	developerMode : true,
+    images: [{ latitude: 9.668990,
+      longitude: 80.023305,
+      imageURL: '/images/icons1/weather-clear.png',
+      width: 32,
+      height: 32,
+	  label: 'Jaffna',
+	  title: 'Jaffna  : fair',
+	  description: 'Temperature : 28.5&#8451;<br>Rainfall : 0mm<br>RH : 92.3% <br>Reported Time :  2024-12-27 0830<img style="width:48px;height:48px;position:absolute;bottom:0;right:0;" src="/images/icons1/weather-clear.png"/>'
+	  
+    },{ latitude: 8.993940,
+      longitude: 79.884423,
+      imageURL: '/images/icons1/weather-clear.png',
+      width: 32,
+      height: 32,
+	  label: 'Mannar',
+	  title: 'Mannar  : fair',
+	  description: 'Temperature : 28.4&#8451;<br>Rainfall : 0mm<br>RH : 93.5% <br>Reported Time :  2024-12-27 0830<img style="width:48px;height:48px;position:absolute;bottom:0;right:0;" src="/images/icons1/weather-clear.png"/>'
+	  
+    },{ latitude: 8.760444,
+      longitude: 80.496415,
+      imageURL: '/images/icons1/weather-clear.png',
+      width: 32,
+      height: 32,
+	  label: 'Vavuniya',
+	  title: 'Vavuniya  : fair',
+	  description: 'Temperature : 27.4&#8451;<br>Rainfall : 0mm<br>RH : 86% <br>Reported Time :  2024-12-27 0830<img style="width:48px;height:48px;position:absolute;bottom:0;right:0;" src="/images/icons1/weather-clear.png"/>'
+	  
+    },{ latitude: 8.586263,
+      longitude: 81.205834,
+      imageURL: '/images/icons1/weather-clear.png',
+      width: 32,
+      height: 32,
+	  label: 'Trincomalee',
+	  title: 'Trincomalee  : fair',
+	  description: 'Temperature : 26&#8451;<br>Rainfall : 0mm<br>RH : 92% <br>Reported Time :  2024-12-27 0830<img style="width:48px;height:48px;position:absolute;bottom:0;right:0;" src="/images/icons1/weather-clear.png"/>'
+	  
+    },{ latitude: 8.349752,
+      longitude: 80.401649,
+      imageURL: '/images/icons1/weather-clear.png',
+      width: 32,
+      height: 32,
+	  label: 'Anuradhapura',
+	  title: 'Anuradhapura  : fair',
+	  description: 'Temperature : 26.6&#8451;<br>Rainfall : 0mm<br>RH : 95% <br>Reported Time :  2024-12-27 0830<img style="width:48px;height:48px;position:absolute;bottom:0;right:0;" src="/images/icons1/weather-clear.png"/>'
+	  
+    },{ latitude: 8.114900,
+      longitude: 80.470674,
+      imageURL: '/images/icons1/weather-clear.png',
+      width: 32,
+      height: 32,
+	  label: 'Maha Iluppallama',
+	  title: 'Maha Iluppallama  : fair',
+	  description: 'Temperature : 25.5&#8451;<br>Rainfall : 0mm<br>RH : 93% <br>Reported Time :  2024-12-27 0830<img style="width:48px;height:48px;position:absolute;bottom:0;right:0;" src="/images/icons1/weather-clear.png"/>'
+	  
+    },{ latitude: 7.936322,
+      longitude: 81.005716,
+      imageURL: '/images/icons1/weather-clear.png',
+      width: 32,
+      height: 32,
+	  label: 'Polonnaruwa',
+	  title: 'Polonnaruwa  : fair',
+	  description: 'Temperature : 25.8&#8451;<br>Rainfall : 0mm<br>RH : 87% <br>Reported Time :  2024-12-27 0830<img style="width:48px;height:48px;position:absolute;bottom:0;right:0;" src="/images/icons1/weather-clear.png"/>'
+	  
+    },{ latitude: 8.040763,
+      longitude: 79.839090,
+      imageURL: '/images/icons1/weather-clear.png',
+      width: 32,
+      height: 32,
+	  label: 'Puttalam',
+	  title: 'Puttalam  : fair',
+	  description: 'Temperature : 25.5&#8451;<br>Rainfall : 0mm<br>RH : 93% <br>Reported Time :  2024-12-27 0830<img style="width:48px;height:48px;position:absolute;bottom:0;right:0;" src="/images/icons1/weather-clear.png"/>'
+	  
+    },{ latitude: 7.483342,
+      longitude: 80.357436,
+      imageURL: '/images/icons1/weather-clear.png',
+      width: 32,
+      height: 32,
+	  label: 'Kurunegala',
+	  title: 'Kurunegala  : fair',
+	  description: 'Temperature : 25.5&#8451;<br>Rainfall : 0mm<br>RH : 79% <br>Reported Time :  2024-12-27 0830<img style="width:48px;height:48px;position:absolute;bottom:0;right:0;" src="/images/icons1/weather-clear.png"/>'
+	  
+    },{ latitude: 7.737571,
+      longitude: 81.682943,
+      imageURL: '/images/icons1/cloudy12.png',
+      width: 32,
+      height: 32,
+	  label: 'Batticaloa',
+	  title: 'Batticaloa  : cloudy',
+	  description: 'Temperature : 26.1&#8451;<br>Rainfall : 4.2mm<br>RH : 89% <br>Reported Time :  2024-12-27 0830<img style="width:48px;height:48px;position:absolute;bottom:0;right:0;" src="/images/icons1/cloudy12.png"/>'
+	  
+    },{ latitude: 6.986916,
+      longitude: 81.059703,
+      imageURL: '/images/icons1/weather-clear.png',
+      width: 32,
+      height: 32,
+	  label: 'Badulla',
+	  title: 'Badulla  : fair',
+	  description: 'Temperature : 19.8&#8451;<br>Rainfall : 0mm<br>RH : 89% <br>Reported Time :  2024-12-27 0830<img style="width:48px;height:48px;position:absolute;bottom:0;right:0;" src="/images/icons1/weather-clear.png"/>'
+	  
+    },{ latitude: 7.324053,
+      longitude: 80.623641,
+      imageURL: '/images/icons1/weather-clear.png',
+      width: 32,
+      height: 32,
+	  label: 'Katugastota',
+	  title: 'Katugastota  : fair',
+	  description: 'Temperature : 22.4&#8451;<br>Rainfall : 0mm<br>RH : 80% <br>Reported Time :  2024-12-27 0830<img style="width:48px;height:48px;position:absolute;bottom:0;right:0;" src="/images/icons1/weather-clear.png"/>'
+	  
+    },{ latitude: 7.169654,
+      longitude: 79.887899,
+      imageURL: '/images/icons1/fog.png',
+      width: 32,
+      height: 32,
+	  label: 'Katunayake',
+	  title: 'Katunayake  : Mist',
+	  description: 'Temperature : 25.9&#8451;<br>Rainfall : 0mm<br>RH : 87% <br>Reported Time :  2024-12-27 0830<img style="width:48px;height:48px;position:absolute;bottom:0;right:0;" src="/images/icons1/fog.png"/>'
+	  
+    },{ latitude: 6.928018,
+      longitude: 79.855956,
+      imageURL: '/images/icons1/weather-clear.png',
+      width: 32,
+      height: 32,
+	  label: 'Colombo',
+	  title: 'Colombo  : fair',
+	  description: 'Temperature : 28.2&#8451;<br>Rainfall : 0mm<br>RH : 68.9% <br>Reported Time :  2024-12-27 0830<img style="width:48px;height:48px;position:absolute;bottom:0;right:0;" src="/images/icons1/weather-clear.png"/>'
+	  
+    },{ latitude: 6.819334,
+      longitude: 79.879716,
+      imageURL: '/images/icons1/weather-clear.png',
+      width: 32,
+      height: 32,
+	  label: 'Rathmalana',
+	  title: 'Rathmalana  : fair',
+	  description: 'Temperature : 27.6&#8451;<br>Rainfall : 1.1mm<br>RH : 81% <br>Reported Time :  2024-12-27 0830<img style="width:48px;height:48px;position:absolute;bottom:0;right:0;" src="/images/icons1/weather-clear.png"/>'
+	  
+    },{ latitude: 6.959544,
+      longitude: 80.770990,
+      imageURL: '/images/icons1/weather-clear.png',
+      width: 32,
+      height: 32,
+	  label: 'Nuwara Eliya',
+	  title: 'Nuwara Eliya  : fair',
+	  description: 'Temperature : 17.2&#8451;<br>Rainfall : 0mm<br>RH : 94.2% <br>Reported Time :  2024-12-27 0830<img style="width:48px;height:48px;position:absolute;bottom:0;right:0;" src="/images/icons1/weather-clear.png"/>'
+	  
+    },{ latitude: 6.830321,
+      longitude: 80.989489,
+      imageURL: '/images/icons1/weather-clear.png',
+      width: 32,
+      height: 32,
+	  label: 'Bandarawela',
+	  title: 'Bandarawela  : fair',
+	  description: 'Temperature : 19.6&#8451;<br>Rainfall : 0mm<br>RH : 72% <br>Reported Time :  2024-12-27 0830<img style="width:48px;height:48px;position:absolute;bottom:0;right:0;" src="/images/icons1/weather-clear.png"/>'
+	  
+    },{ latitude: 6.691031,
+      longitude: 80.397262,
+      imageURL: '/images/icons1/fog.png',
+      width: 32,
+      height: 32,
+	  label: 'Ratnapura',
+	  title: 'Ratnapura  : Mist',
+	  description: 'Temperature : 25.8&#8451;<br>Rainfall : 0mm<br>RH : 100% <br>Reported Time :  2024-12-27 0830<img style="width:48px;height:48px;position:absolute;bottom:0;right:0;" src="/images/icons1/fog.png"/>'
+	  
+    },{ latitude: 6.873017,
+      longitude: 81.350692,
+      imageURL: '/images/icons1/weather-clear.png',
+      width: 32,
+      height: 32,
+	  label: 'Monaragala',
+	  title: 'Monaragala  : fair',
+	  description: 'Temperature : 25.1&#8451;<br>Rainfall : 0mm<br>RH : 81% <br>Reported Time :  2024-12-27 0830<img style="width:48px;height:48px;position:absolute;bottom:0;right:0;" src="/images/icons1/weather-clear.png"/>'
+	  
+    },{ latitude: 6.304504,
+      longitude: 81.108455,
+      imageURL: '/images/icons1/fog.png',
+      width: 32,
+      height: 32,
+	  label: 'Mattala',
+	  title: 'Mattala  : Mist',
+	  description: 'Temperature : 26&#8451;<br>Rainfall : 0mm<br>RH : 84% <br>Reported Time :  2024-12-27 0830<img style="width:48px;height:48px;position:absolute;bottom:0;right:0;" src="/images/icons1/fog.png"/>'
+	  
+    },{ latitude: 6.133025,
+      longitude: 81.108108,
+      imageURL: '/images/icons1/weather-clear.png',
+      width: 32,
+      height: 32,
+	  label: 'Hambanthota',
+	  title: 'Hambanthota  : fair',
+	  description: 'Temperature : 28.5&#8451;<br>Rainfall : 0mm<br>RH : 85% <br>Reported Time :  2024-12-27 0830<img style="width:48px;height:48px;position:absolute;bottom:0;right:0;" src="/images/icons1/weather-clear.png"/>'
+	  
+    },{ latitude: 6.049874,
+      longitude: 80.222447,
+      imageURL: '/images/icons1/weather-clear.png',
+      width: 32,
+      height: 32,
+	  label: ' Galle',
+	  title: ' Galle  : fair',
+	  description: 'Temperature : 27.8&#8451;<br>Rainfall : 0mm<br>RH : 83% <br>Reported Time :  2024-12-27 0830<img style="width:48px;height:48px;position:absolute;bottom:0;right:0;" src="/images/icons1/weather-clear.png"/>'
+	  
+    },{ latitude: 6.875504,
+      longitude: 81.830732,
+      imageURL: '/images/icons1/weather-clear.png',
+      width: 32,
+      height: 32,
+	  label: 'Pottuvil',
+	  title: 'Pottuvil  : fair',
+	  description: 'Temperature : 28.3&#8451;<br>Rainfall : 0mm<br>RH : 66.5% <br>Reported Time :  2024-12-27 0830<img style="width:48px;height:48px;position:absolute;bottom:0;right:0;" src="/images/icons1/weather-clear.png"/>'
+	  
+    },{ latitude: 9.2671,
+      longitude: 80.8142,
+      imageURL: '/images/icons1/weather-clear.png',
+      width: 32,
+      height: 32,
+	  label: 'Mullaitivu',
+	  title: 'Mullaitivu  : fair',
+	  description: 'Temperature : 27.2&#8451;<br>Rainfall : 0mm<br>RH : 90% <br>Reported Time :  2024-12-27 0830<img style="width:48px;height:48px;position:absolute;bottom:0;right:0;" src="/images/icons1/weather-clear.png"/>'
+	  
+    },]
+  },
+
+  imagesSettings: {
+    labelRollOverColor: "#000",
+    labelPosition: "top"
+  },
+
+  areasSettings: {
+	autoZoom      : true,
+    selectedColor : "#bbe094",
+    rollOverOutlineColor: "#FFFFFF",
+    rollOverColor: "#00af43",
+    alpha: 0.8,
+	'color':"#7adfa9"
+  },
+
+  "export": {
+    "enabled": true
+  }
+} );
+
+ document.getElementById("mapdiv").style.overflow = "visible";
+
+ }
+ 
+
+ 
+ 
+ function load_forecast(){
+	 
+	  var targetSVG = "M9,0C4.029,0,0,4.029,0,9s4.029,9,9,9s9-4.029,9-9S13.971,0,9,0z M9,15.93 c-3.83,0-6.93-3.1-6.93-6.93S5.17,2.07,9,2.07s6.93,3.1,6.93,6.93S12.83,15.93,9,15.93 M12.5,9c0,1.933-1.567,3.5-3.5,3.5S5.5,10.933,5.5,9S7.067,5.5,9,5.5 S12.5,7.067,12.5,9z";
+	  
+ var map2 = AmCharts.makeChart( "mapdiv", {
+
+  type: "map",
+  "theme": "light",
+  pathToImages: "http://www.amcharts.com/lib/3/images/",
+
+  dataProvider: {
+    map: "sriLankaHigh",
+    zoomLevel: 1.0,
+    zoomLongitude: 80.7718,
+    zoomLatitude: 7.8831,
+    getAreasFromMap : true,
+    images: []
+  },
+
+  imagesSettings: {
+    labelRollOverColor: "#000",
+    labelPosition: "bottom"
+  },
+
+  areasSettings: {
+	autoZoom      : true,
+    selectedColor : "#CC0000",
+    rollOverOutlineColor: "#FFFFFF",
+    rollOverColor: "#CC0000",
+    alpha: 0.8
+  },
+
+  "export": {
+    "enabled": true
+  }
+} );
+
+ document.getElementById("mapdiv").style.overflow = "visible";
+ 
+ }
+ 
+ 
+ 
+ function load_forecast_tomorrow(){
+	 
+	  var targetSVG = "M9,0C4.029,0,0,4.029,0,9s4.029,9,9,9s9-4.029,9-9S13.971,0,9,0z M9,15.93 c-3.83,0-6.93-3.1-6.93-6.93S5.17,2.07,9,2.07s6.93,3.1,6.93,6.93S12.83,15.93,9,15.93 M12.5,9c0,1.933-1.567,3.5-3.5,3.5S5.5,10.933,5.5,9S7.067,5.5,9,5.5 S12.5,7.067,12.5,9z";
+	  
+ var map2 = AmCharts.makeChart( "mapdiv", {
+
+  type: "map",
+  "theme": "light",
+  pathToImages: "http://www.amcharts.com/lib/3/images/",
+
+  dataProvider: {
+    map: "sriLankaHigh",
+    zoomLevel: 1.0,
+    zoomLongitude: 80.7718,
+    zoomLatitude: 7.8831,
+    getAreasFromMap : true,
+    images: []
+  },
+
+  imagesSettings: {
+    labelRollOverColor: "#000",
+    labelPosition: "bottom"
+  },
+
+  areasSettings: {
+	autoZoom      : true,
+    selectedColor : "#CC0000",
+    rollOverOutlineColor: "#FFFFFF",
+    rollOverColor: "#CC0000",
+    alpha: 0.8,
+	color:"#90EE90"
+  },
+
+  "export": {
+    "enabled": true
+  }
+} );
+
+ document.getElementById("mapdiv").style.overflow = "visible";
+ 
+ }
+ 
+ 
+  function load_forecast_day_after_tomorrow(){
+	 
+	  var targetSVG = "M9,0C4.029,0,0,4.029,0,9s4.029,9,9,9s9-4.029,9-9S13.971,0,9,0z M9,15.93 c-3.83,0-6.93-3.1-6.93-6.93S5.17,2.07,9,2.07s6.93,3.1,6.93,6.93S12.83,15.93,9,15.93 M12.5,9c0,1.933-1.567,3.5-3.5,3.5S5.5,10.933,5.5,9S7.067,5.5,9,5.5 S12.5,7.067,12.5,9z";
+	  
+ var map2 = AmCharts.makeChart( "mapdiv", {
+
+  type: "map",
+  "theme": "light",
+  pathToImages: "http://www.amcharts.com/lib/3/images/",
+
+  dataProvider: {
+    map: "sriLankaHigh",
+    zoomLevel: 1.0,
+    zoomLongitude: 80.7718,
+    zoomLatitude: 7.8831,
+    getAreasFromMap : true,
+    images: []
+  },
+
+  imagesSettings: {
+    labelRollOverColor: "#000",
+    labelPosition: "bottom"
+  },
+
+  areasSettings: {
+	autoZoom      : true,
+    selectedColor : "#CC0000",
+    rollOverOutlineColor: "#FFFFFF",
+    rollOverColor: "#CC0000",
+    alpha: 0.8,
+	color:"#90EE90"
+  },
+
+  "export": {
+    "enabled": true
+  }
+} );
+
+ document.getElementById("mapdiv").style.overflow = "visible";
+ 
+ }
+//Default load
+//
+ load_latest_data();
+
+
+
+
+ </script>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+      <!-- HOME SL 2 -->
+  
+  <div class="container home2">
+    <div class="row">
+      <div class="col-md-3">
+        		<div class="moduletable">
+							<h3>Satellite Images</h3>
+						
+
+<div class="custom"  style="background-image:url(images/phocagallery/cloud_photos/2018.05.17.jpg)" >
+	<p>&nbsp;</p>
+<div style="background-color: #cef6f5;">
+<p style="text-align: center;"><a href="http://www.data.jma.go.jp/mscweb/data/himawari/sat_img.php?area=ha5" target="_blank"><img src="images/pic.jpg" alt="" width="209" height="150" /></a><span style="font-size: 14pt; font-family: 'arial black', 'avant garde'; color: #0000ff;"><a href="http://www.data.jma.go.jp/mscweb/data/himawari/sat_img.php?area=ha5" target="_blank" style="color: #0000ff;"><br /></a></span><span style="color: #0000ff;"><strong><span style="font-family: 'book antiqua', palatino; font-size: 10pt;">Courtesy&nbsp;of&nbsp;Himawari&nbsp;Satellite</span></strong></span></p>
+</div></div>
+		</div>
+	
+      </div>
+      <div class="col-md-3">
+        		<div class="moduletable">
+							<h3>Last 24 hours</h3>
+						
+<div class="last24stats">
+    <div class="row24">
+        <div class="last24icon">
+        <img src="https://meteo.gov.lk/modules/mod_24hrs_weather_stats/assets/images/high_temp.png"  alt="max temperature" />
+        
+        </div>
+        <div class="last24details">
+        	<strong>
+			<span class="last24title">Max. Temperature 34.2°C</span>
+            </strong><br />
+ 
+            Anuradhapura        </div>
+    </div>
+    <div class="row24">
+        <div class="last24icon">
+        <img src="https://meteo.gov.lk/modules/mod_24hrs_weather_stats/assets/images/low_temp.png" alt="min temperature" />        
+        </div>
+        <div class="last24details">
+        
+      <strong><span class="last24title">Min. Temperature 11.1°C</span></strong>
+      
+      <br />
+
+        Nuwara Eliya        </div>
+    </div>
+    <div class="row24">
+        <div class="last24icon">
+        	<img src="https://meteo.gov.lk/modules/mod_24hrs_weather_stats/assets/images/rain24.png" alt="max rain" /></div>
+        <div class="last24details">
+        <strong><span class="last24title">Max. Rainfall 2.0mm</span></strong><br />
+
+        Derangala ( Matara - AWS)        </div>
+    </div>
+    <div class="last24reporteddate"></div>
+    
+</div>
+
+		</div>
+	
+      </div>
+      <div class="col-md-3">
+        		<div class="moduletable">
+							<h3>Find us on </h3>
+						
+
+<div class="custom"  style="background-image:url(images/fb.png)" >
+	<div style="background-color: #cef6f5;">
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;<a href="http://www.facebook.com/SLMetDept/" target="_blank"><img src="images/1.png" alt="" width="120" height="43" /></a></p>
+<p style="text-align: center;"><span style="font-size: 8pt;"><strong><span style="color: #000000;"><a href="Https://www.facebook.com/SLMetDept/"></a></span></strong></span></p>
+<p><a href="https://twitter.com/SLMetDept" target="_blank"><img src="images/twi.png" alt="" width="121" height="43" style="display: block; margin-left: auto; margin-right: auto;" /></a></p>
+<p style="text-align: center;"><span style="font-size: 10pt;"></span></p>
+<p>&nbsp;</p>
+</div></div>
+		</div>
+	
+      </div>
+      <div class="col-md-3">
+        		<div class="moduletable">
+							<h3>Online Service</h3>
+						
+
+<div class="custom"  >
+	<p style="text-align: center;"><img src="images/new-icon-gif-20.jpg" alt="" width="84" height="59" /></p>
+<p style="text-align: center;"><span style="font-size: 10pt;"><span style="font-family: 'arial black', 'avant garde';"></span><span style="color: #3366ff;"><strong><span style="line-height: 107%;">Providing Meteorological data and information online</span></strong></span></span></p>
+<p style="text-align: center;"><span style="color: #000000;"><strong><span style="font-size: 10pt; background-color: #ffff00;"><span style="line-height: 107%;">(<a href="mailto:metdpa@meteo.gov.lk" style="background-color: #ffff00; color: #000000;">metdpa@meteo.gov.lk</a>)</span></span></strong></span></p>
+<p style="text-align: center;"><span style="font-family: 'arial black', 'avant garde';"><span style="color: #ff0000;"><a href="index.php?option=com_content&amp;view=article&amp;id=100&amp;catid=21&amp;lang=en-GB&amp;Itemid=321" hreflang="en" style="color: #ff0000;">Weather and Climate Data</a></span><strong><span style="color: #ff0000;"><a href="index.php?option=com_content&amp;view=article&amp;id=100&amp;catid=21&amp;lang=en-GB&amp;Itemid=321" hreflang="en" style="color: #ff0000;"><br /></a></span></strong></span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></div>
+		</div>
+	
+      </div>
+    </div>
+  </div>
+  
+  <!-- //HOME SL 2 -->
+    <div id="t3-mainbody" class="container t3-mainbody">
+    <div class="row"> 
+      
+      <!-- MAIN CONTENT -->
+      <div id="t3-content" class="t3-content col-xs-12">
+                <div class="item-page clearfix">
+
+
+<!-- Article -->
+<article itemscope itemtype="http://schema.org/Article">
+  <meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" itemid="https://google.com/article"/>
+	<meta itemprop="inLanguage" content="en" />
+
+
+<!-- Aside -->
+<aside class="article-aside clearfix">
+    
+    
+
+			<div class="btn-group pull-right">
+			<a class="btn dropdown-toggle" data-toggle="dropdown" href="#"> <span class="fa fa-cog"></span> <span class="caret"></span> </a>
+						<ul class="dropdown-menu">
+									<li class="print-icon"> <a href="/index.php?option=com_content&amp;view=article&amp;id=3:home-english&amp;catid=8&amp;lang=en&amp;Itemid=136&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Print" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><span class="fa fa-print"></span>&#160;Print&#160;</a> </li>
+													<li class="email-icon"> <a href="/index.php?option=com_mailto&amp;tmpl=component&amp;template=jsl_meteo&amp;link=918864826df5456fd646cad3dbb5acf9a4e02eb7&amp;lang=en" title="Email" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><span class="fa fa-envelope"></span> Email</a> </li>
+											</ul>
+		</div>
+	
+  </aside>  
+<!-- //Aside -->
+
+
+
+	
+
+
+	
+
+	
+	
+	<section class="article-content clearfix" itemprop="articleBody">
+		<h2 style="text-align: center;">QUICK LINKS</h2>
+<div class="container-fluid home-services">
+<div class="row">
+<div class="col-md-3">
+<h3>WEATHER FORECAST</h3>
+<p><img src="images/weather/weather-forecast.jpg" alt="weather forecast" /></p>
+</div>
+<div class="col-md-3">
+<h3>WEATHER MAP</h3>
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=102&amp;Itemid=360&amp;lang=en"><img src="images/weather/weathermap.jpg" alt="weathermap" /></a></p>
+</div>
+<div class="col-md-3">
+<h3>SRI LANKA CLIMATE</h3>
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=94&amp;Itemid=310&amp;lang=en"><img src="images/weather/srilanka_climate.jpg" alt="srilanka climate" /></a></p>
+</div>
+<div class="col-md-3">
+<h3>AGRO BULLETIN</h3>
+<p><a href="index.php?option=com_content&amp;view=article&amp;id=28&amp;Itemid=301&amp;lang=en"><img src="images/weather/srilanka_agro-weather.jpg" alt="srilanka agro weather" /></a></p>
+</div>
+</div>
+</div> <div class="fastsocialshare_container"><div class="fastsocialshare-share-fbl button_count">						<div id="fb-root"></div>
+						<script>
+						var loadAsyncDeferredFacebook = function() {
+							(function(d, s, id) {
+							  var js, fjs = d.getElementsByTagName(s)[0];
+							  if (d.getElementById(id)) return;
+							  js = d.createElement(s); js.id = id;
+							  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+							  fjs.parentNode.insertBefore(js, fjs);
+							}(document, 'script', 'facebook-jssdk'));
+						}
+
+				  		if (window.addEventListener)
+							window.addEventListener("load", loadAsyncDeferredFacebook, false);
+						else if (window.attachEvent)
+							window.attachEvent("onload", loadAsyncDeferredFacebook);
+						else
+					  		window.onload = loadAsyncDeferredFacebook;
+						</script>
+				<div class="fb-like"
+					data-href="https://meteo.gov.lk/index.php?option=com_content&view=article&id=3:home-english&catid=8:english-conetnt&Itemid=136&lang=en"
+					data-layout="button_count"
+                	data-width="100"
+					data-action="like"
+					data-show-faces="true"
+					data-share="false">
+				</div></div>						<div id="fbshare_container" class="fastsocialshare-share-fbsh">
+    					<a style="text-decoration:none; border-radius: 2px; padding:2px 5px; font-size:14px; background-color:#3B5998; color:#FFFFFF !important;" onclick="window.open('http://www.facebook.com/sharer/sharer.php?u=https://meteo.gov.lk/index.php?option=com_content&view=article&id=3:home-english&catid=8:english-conetnt&Itemid=136&lang=en','fbshare','width=480,height=100')" href="javascript:void(0)"><span style="text-decoration:none; font-weight:bold; font-size:14px;margin-right:4px;">f</span>Share</a>
+    					
+						</div>						<div class="fastsocialshare-share-tw">
+						<a href="https://twitter.com/share" class="twitter-share-button"  data-text="Home English" data-count="horizontal" data-via="" data-url="https://meteo.gov.lk/index.php?option=com_content&view=article&id=3:home-english&catid=8:english-conetnt&Itemid=136&lang=en" data-lang="en">Tweet</a>
+						</div>
+						<script>
+							var loadAsyncDeferredTwitter =  function() {
+	            						var d = document;
+	            						var s = 'script';
+	            						var id = 'twitter-wjs';
+					            		var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){
+						        		js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}
+					        		}
+						
+							if (window.addEventListener)
+								window.addEventListener("load", loadAsyncDeferredTwitter, false);
+							else if (window.attachEvent)
+								window.attachEvent("onload", loadAsyncDeferredTwitter);
+							else
+								window.onload = loadAsyncDeferredTwitter;
+						</script>						<div class="fastsocialshare-share-gone">
+						<script type="text/javascript">
+							 window.___gcfg = {
+						        lang: 'en'
+						      };
+							var loadAsyncDeferredGooglePlus =  function() {
+								var po = document.createElement('script'); 
+								po.type = 'text/javascript'; 
+								po.async = true;
+								po.src = 'https://apis.google.com/js/plusone.js';
+								po.innerHTML =  {lang: 'en'};
+								var s = document.getElementsByTagName('script')[0]; 
+								s.parentNode.insertBefore(po, s);
+							};
+			
+							 if (window.addEventListener)
+							  window.addEventListener("load", loadAsyncDeferredGooglePlus, false);
+							else if (window.attachEvent)
+							  window.attachEvent("onload", loadAsyncDeferredGooglePlus);
+							else
+							  window.onload = loadAsyncDeferredGooglePlus;
+						</script>
+						<g:plusone annotation='bubble' size="medium" href='https://meteo.gov.lk/index.php?option=com_content&view=article&id=3:home-english&catid=8:english-conetnt&Itemid=136&lang=en'></g:plusone>
+						<g:plus annotation='bubble' href='https://meteo.gov.lk/index.php?option=com_content&view=article&id=3:home-english&catid=8:english-conetnt&Itemid=136&lang=en' action='share'></g:plus>
+						</div><div class="fastsocialshare_clearer"></div></div>	</section>
+
+  <!-- footer -->
+    <!-- //footer -->
+
+	
+	
+	
+</article>
+<!-- //Article -->
+
+
+</div>
+      </div>
+      <!-- //MAIN CONTENT --> 
+      
+    </div>
+  </div>
+      </div>
+
+	
+<!-- FOOTER -->
+<footer id="t3-footer" class="wrap t3-footer">
+
+			<!-- FOOT NAVIGATION -->
+		<div class="container">
+				<!-- SPOTLIGHT -->
+	<div class="t3-spotlight t3-footnav  row">
+					<div class=" col-lg-3 col-md-6 col-sm-12 col-xs-12">
+								<div class="t3-module module " id="Mod134"><div class="module-inner"><h3 class="module-title "><span>News</span></h3><div class="module-ct"><!-- START REVOLUTION SLIDER 4.3.8 b5 responsitive mode -->
+			<style type='text/css'>
+				#rev_slider_4_1, #rev_slider_4_1_wrapper { width:500px; height:250px;}
+						
+			   @media only screen and (min-width: 940px)  {
+			 		  #rev_slider_4_1, #rev_slider_4_1_wrapper { width:500px; height:250px;}	
+			   }
+			
+						
+			   @media only screen and (min-width: 780px) and (max-width: 939px) {
+			 		  #rev_slider_4_1, #rev_slider_4_1_wrapper { width:770px; height:385px;}	
+			   }
+			
+						
+			   @media only screen and (min-width: 510px) and (max-width: 779px) {
+			 		  #rev_slider_4_1, #rev_slider_4_1_wrapper { width:500px; height:250px;}	
+			   }
+			
+						
+			   @media only screen and (min-width: 0px) and (max-width: 509px) {
+			 		  #rev_slider_4_1, #rev_slider_4_1_wrapper { width:310px; height:155px;}	
+			   }
+			
+			</style>
+<div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper" style="margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;">
+	<div id="rev_slider_4_1" class="rev_slider" style="display:none;">
+<ul>	<!-- SLIDE  -->
+	<li data-transition="random" data-slotamount="7" data-masterspeed="300" >
+		<!-- MAIN IMAGE -->
+		<img src="http://www.meteo.gov.lk/images/slideshows/met2.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="random" data-slotamount="7" data-masterspeed="300" >
+		<!-- MAIN IMAGE -->
+		<img src="http://www.meteo.gov.lk/images/slideshows/serv.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="random" data-slotamount="7" data-masterspeed="300" >
+		<!-- MAIN IMAGE -->
+		<img src="http://www.meteo.gov.lk/images/slideshows/IMG_5093.JPG"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="random" data-slotamount="7" data-masterspeed="300" >
+		<!-- MAIN IMAGE -->
+		<img src="http://www.meteo.gov.lk/images/slideshows/IMG_2109.JPG"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="random" data-slotamount="7" data-masterspeed="300" >
+		<!-- MAIN IMAGE -->
+		<img src="http://www.meteo.gov.lk/images/slideshows/IMG-20210426-WA0006.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="random" data-slotamount="7" data-masterspeed="300" >
+		<!-- MAIN IMAGE -->
+		<img src="http://www.meteo.gov.lk/images/slideshows/obs.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="random" data-slotamount="7" data-masterspeed="300" >
+		<!-- MAIN IMAGE -->
+		<img src="http://www.meteo.gov.lk/images/slideshows/mannar.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 1 -->
+		<div class="tp-caption excerpt tp-fade tp-resizeme"
+			data-x="137"
+			data-y="177" 
+			data-speed="300"
+			data-start="500"
+			data-easing="Power3.easeInOut"
+			data-splitin="none"
+			data-splitout="none"
+			data-elementdelay="0.1"
+			data-endelementdelay="0.1"
+			data-endspeed="300"
+			style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">Mannar
+		</div>
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="random" data-slotamount="7" >
+		<!-- MAIN IMAGE -->
+		<img src="https://www.meteo.gov.lk/images/slideshows/polo.jpg"  alt="polo"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="random" data-slotamount="7" >
+		<!-- MAIN IMAGE -->
+		<img src="https://www.meteo.gov.lk/images/slideshows/mulatv.jpg"  alt="mulatv"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="random" data-slotamount="7" >
+		<!-- MAIN IMAGE -->
+		<img src="https://www.meteo.gov.lk/images/slideshows/putt.jpg"  alt="putt"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="random" data-slotamount="7" data-masterspeed="300" >
+		<!-- MAIN IMAGE -->
+		<img src="https://meteo.gov.lk/media/com_uniterevolution2/assets/images/transparent.png"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="random" data-slotamount="7" data-masterspeed="300" >
+		<!-- MAIN IMAGE -->
+		<img src=""  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+		<!-- LAYERS -->
+	</li>
+</ul>
+<div class="tp-bannertimer tp-bottom" style="display:none; visibility: hidden !important;"></div>	</div>
+</div>			
+			<script type="text/javascript">
+
+				var tpj=jQuery;				
+												
+				var revapi4;
+				
+				tpj(document).ready(function() {
+								
+				if(tpj('#rev_slider_4_1').revolution == undefined)
+					revslider_showDoubleJqueryError('#rev_slider_4_1');
+				else
+				   revapi4 = tpj('#rev_slider_4_1').show().revolution(
+					{
+						dottedOverlay:"none",
+						delay:1000,
+						startwidth:500,
+						startheight:250,
+						hideThumbs:200,
+						
+						thumbWidth:100,
+						thumbHeight:50,
+						thumbAmount:5,
+						
+						navigationType:"none",
+						navigationArrows:"solo",
+						navigationStyle:"round",
+						
+						touchenabled:"on",
+						onHoverStop:"on",
+						
+						swipe_velocity: 0.7,
+							swipe_min_touches: 1,
+							swipe_max_touches: 1,
+							drag_block_vertical: false,
+						
+						keyboardNavigation:"off",
+						
+						navigationHAlign:"center",
+						navigationVAlign:"bottom",
+						navigationHOffset:0,
+						navigationVOffset:20,
+
+						soloArrowLeftHalign:"left",
+						soloArrowLeftValign:"center",
+						soloArrowLeftHOffset:20,
+						soloArrowLeftVOffset:0,
+
+						soloArrowRightHalign:"right",
+						soloArrowRightValign:"center",
+						soloArrowRightHOffset:20,
+						soloArrowRightVOffset:0,
+								
+						shadow:3,
+						fullWidth:"off",
+						fullScreen:"off",
+
+						spinner:"spinner0",
+						
+						stopLoop:"off",
+						stopAfterLoops:-1,
+						stopAtSlide:-1,
+
+						
+						shuffle:"off",
+						
+												
+												
+												
+												
+						hideTimerBar:"on",						
+						hideThumbsOnMobile:"off",
+						hideNavDelayOnMobile:1500,						hideBulletsOnMobile:"off",
+						hideArrowsOnMobile:"off",
+						hideThumbsUnderResolution:0,
+						
+						hideSliderAtLimit:0,
+						hideCaptionAtLimit:0,
+						hideAllCaptionAtLilmit:0,
+						startWithSlide:0,
+						fullScreenOffsetContainer: "",
+						isJoomla:true
+					});
+				
+				});	//ready
+				
+			</script>
+			
+			<!-- END REVOLUTION SLIDER -->	</div></div></div>
+							</div>
+					<div class=" col-lg-3 col-md-6 col-sm-12 col-xs-12">
+								&nbsp;
+							</div>
+					<div class=" col-lg-3 col-md-6 col-sm-12 col-xs-12">
+								<div class="t3-module module " id="Mod96"><div class="module-inner"><h3 class="module-title "><span>Contact Us</span></h3><div class="module-ct">
+
+<div class="custom"  >
+	<p><strong>Address</strong><br />Department of Meteorology&nbsp;<br />383,&nbsp;Bauddhaloka Mawatha,&nbsp;<br />Colombo 07<br />Sri Lanka</p>
+<p><strong>Phone</strong>:&nbsp; +94 11 268 9396 / +94 11 269 4847<br /><strong>Fax</strong>: &nbsp;+94 11 269 8311<br /><strong>Email</strong> : <a href="mailto:info@meteo.gov.lk">info@meteo.gov.lk</a></p>
+<p style="text-align: justify;"><a href="http://www.gic.gov.lk"><strong>Government Infomation Center<br /></strong></a>Callers within Sri Lanka dial 1919<br />Callers outside Sri Lanka dial +94 11 2 191919</p></div>
+</div></div></div>
+							</div>
+					<div class=" col-lg-3 col-md-6 col-sm-12 col-xs-12">
+								<div class="t3-module module " id="Mod110"><div class="module-inner"><h3 class="module-title "><span>Cartoon Site</span></h3><div class="module-ct">
+
+<div class="custom"  >
+	<p><a href="http://www.saveyourself-srilanka.com/" target="_blank"><span style="color: #ffffff;"><img src="images/cartoonsite.jpg" alt="" width="167" height="167" />&nbsp;</span></a></p></div>
+</div></div></div>
+							</div>
+			</div>
+<!-- SPOTLIGHT -->		</div>
+		<!-- //FOOT NAVIGATION -->
+	
+	<section class="t3-copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 copyright ">
+					
+
+<div class="custom"  >
+	<p>2016 &copy; Department of Meteorology - Sri Lanka. All Rights Reserved. | <a href="https://www.joomlasrilanka.com/" title="web design sri lanka company" target="_blank">Web Design and Development By Joomla Sri Lanka</a></p></div>
+
+        
+				</div>
+							</div>
+		</div>
+	</section>
+
+</footer>
+<!-- //FOOTER -->
+</div>
+
+
+</body>
+</html>

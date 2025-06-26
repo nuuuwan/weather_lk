@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2021-08-21",
+    "rain": 15.9,
+    "temp_min": null,
+    "temp_max": null
+  },
+  {
+    "date": "2021-08-15",
+    "rain": 13.3,
+    "temp_min": null,
+    "temp_max": null
+  },
+  {
+    "date": "2021-07-19",
+    "rain": 50.5,
+    "temp_min": null,
+    "temp_max": null
+  },
+  {
+    "date": "2021-07-16",
+    "rain": 6.0,
+    "temp_min": null,
+    "temp_max": null
+  }
+]
