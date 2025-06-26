@@ -2,7 +2,10 @@ import time
 from functools import cached_property
 
 from selenium import webdriver
+from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
 from utils import Log
 
 from utils_future import RemotePDF
@@ -30,29 +33,23 @@ class MeteoGovLkPage:
         log.debug(f"Browsing {MeteoGovLkPage.URL}...")
         browser.get(self.URL)
 
-        log.debug(f"😴 Sleeping for {MeteoGovLkPage.T_WAIT}s...")
-        time.sleep(MeteoGovLkPage.T_WAIT)
-
-        button_weather_data = browser.find_element(
-            "xpath",
-            "//button[text()='Weather Data']",
+        wait = WebDriverWait(browser, MeteoGovLkPage.PAGE_LOAD_TIMEOUT)
+        button_weather_data = wait.until(
+            EC.element_to_be_clickable(
+                (By.XPATH, "//button[text()='Weather Data']")
+            )
         )
-        if not button_weather_data:
-            raise MeteoGovLkPageException("Button 'Weather Data' not found.")
         log.debug("Clicking button 'Weather Data'...")
         button_weather_data.click()
 
-        log.debug(f"😴 Sleeping for {MeteoGovLkPage.T_WAIT}s...")
-        time.sleep(MeteoGovLkPage.T_WAIT)
-
-        a_weather_report = browser.find_element(
-            "xpath",
-            "//a[text()='Weather Report for the 24hour Period']",
-        )
-        if not a_weather_report:
-            raise MeteoGovLkPageException(
-                "Link 'Weather Report for the 24hour Period' not found."
+        a_weather_report = wait.until(
+            EC.presence_of_element_located(
+                (
+                    By.XPATH,
+                    "//a[text()='Weather Report for the 24hour Period']",
+                )
             )
+        )
         log.debug("Found a_weather_report.")
         pdf_url = a_weather_report.get_attribute("href")
         log.debug(f"{pdf_url=}")
