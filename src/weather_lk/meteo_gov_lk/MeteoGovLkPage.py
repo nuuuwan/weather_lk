@@ -54,7 +54,7 @@ class MeteoGovLkPage:
                 "Link 'Weather Report for the 24hour Period' not found."
             )
         log.debug("Found a_weather_report.")
-        pdf_url = MeteoGovLkPage.URL + a_weather_report.get_attribute("href")
+        pdf_url = a_weather_report.get_attribute("href")
         log.debug(f"{pdf_url=}")
         return pdf_url
 
