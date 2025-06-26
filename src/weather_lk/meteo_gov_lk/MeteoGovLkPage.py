@@ -30,30 +30,37 @@ class MeteoGovLkPage:
         browser = webdriver.Firefox(options=options)
         browser.set_page_load_timeout(MeteoGovLkPage.PAGE_LOAD_TIMEOUT)
 
-        log.debug(f"Browsing {MeteoGovLkPage.URL}...")
-        browser.get(self.URL)
+        try:
+            log.debug(f"Browsing {MeteoGovLkPage.URL}...")
+            browser.get(self.URL)
 
-        wait = WebDriverWait(browser, MeteoGovLkPage.PAGE_LOAD_TIMEOUT)
-        button_weather_data = wait.until(
-            EC.element_to_be_clickable(
-                (By.XPATH, "//button[text()='Weather Data']")
+            time.sleep(MeteoGovLkPage.T_WAIT)
+
+            log.debug("Clicking button 'Weather Data'...")
+            button_weather_data = browser.find_element(
+                By.XPATH, "//button[text()='Weather Data']"
             )
-        )
-        log.debug("Clicking button 'Weather Data'...")
-        button_weather_data.click()
-
-        a_weather_report = wait.until(
-            EC.presence_of_element_located(
-                (
-                    By.XPATH,
-                    "//a[text()='Weather Report for the 24hour Period']",
+            if not button_weather_data:
+                raise MeteoGovLkPageException(
+                    "Button 'Weather Data' not found."
                 )
+            button_weather_data.click()
+            time.sleep(MeteoGovLkPage.T_WAIT)
+
+            a_weather_report = browser.find_element(
+                By.XPATH, "//a[text()='Weather Report for the 24hour Period']"
             )
-        )
-        log.debug("Found a_weather_report.")
-        pdf_url = a_weather_report.get_attribute("href")
-        log.debug(f"{pdf_url=}")
-        return pdf_url
+            if not a_weather_report:
+                raise MeteoGovLkPageException(
+                    "Link 'Weather Report for the 24hour Period' not found."
+                )
+            log.debug("Found a_weather_report.")
+            pdf_url = a_weather_report.get_attribute("href")
+            log.debug(f"{pdf_url=}")
+            return pdf_url
+
+        finally:
+            browser.quit()
 
     def download(self):
         RemotePDF(self.pdf_url).download(Data.DIR_REPO_PDF_METEO_GOV_LK)
