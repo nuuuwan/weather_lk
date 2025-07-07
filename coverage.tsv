@@ -1,4 +1,5 @@
 date	has_data	n	n_temp	n_rain
+2025-07-08	False	0	0	0
 2025-07-07	True	55	20	55
 2025-07-06	True	56	24	56
 2025-07-05	True	58	24	58
@@ -3650,4 +3651,3 @@ date	has_data	n	n_temp	n_rain
 2015-07-12	False	0	0	0
 2015-07-11	False	0	0	0
 2015-07-10	False	0	0	0
-2015-07-09	False	0	0	0
