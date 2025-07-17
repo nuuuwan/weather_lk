@@ -1,5 +1,5 @@
 {
-  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/50c322555156d57ff080d4d42bbfe616.pdf",
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/2e62ec918c494577ea52168e01538b34.pdf",
   "date_ut": 1752690600.0,
   "date": "2025-07-17",
   "weather_list": [
@@ -180,6 +180,22 @@
       "lng": 80.81424799999999
     },
     {
+      "place": "Castlereigh",
+      "rain": 16.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.8577186,
+      "lng": 80.5855038
+    },
+    {
+      "place": "Randenigala",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.188888899999999,
+      "lng": 80.92500000000001
+    },
+    {
       "place": "Norton",
       "rain": 28.0,
       "min_temp": null,
@@ -194,6 +210,14 @@
       "max_temp": null,
       "lat": 7.1910444,
       "lng": 80.9463464
+    },
+    {
+      "place": "Maussakele",
+      "rain": 18.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.8645162,
+      "lng": 80.52717559999999
     },
     {
       "place": "Bowatenna",
@@ -228,6 +252,14 @@
       "lng": 80.491047
     },
     {
+      "place": "Samanala Wawa",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.6788795,
+      "lng": 80.79936459999999
+    },
+    {
       "place": "Upper Kotmale",
       "rain": 12.7,
       "min_temp": null,
@@ -244,12 +276,20 @@
       "lng": 80.23423249999999
     },
     {
-      "place": "Neboda",
-      "rain": 20.0,
+      "place": "Kotmale",
+      "rain": 6.3,
       "min_temp": null,
       "max_temp": null,
-      "lat": 6.5916551,
-      "lng": 80.09260139999999
+      "lat": 7.0223089,
+      "lng": 80.5910567
+    },
+    {
+      "place": "Victoriya",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.873053999999999,
+      "lng": 80.77179699999999
     },
     {
       "place": "Laxapana TF",
