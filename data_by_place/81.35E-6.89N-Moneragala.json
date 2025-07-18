@@ -7114,5 +7114,11 @@
     "rain": 9.7,
     "min_temp": 21.9,
     "max_temp": 36.0
+  },
+  {
+    "date": "2025-07-18",
+    "rain": 0,
+    "min_temp": 21.8,
+    "max_temp": 34.4
   }
 ]
