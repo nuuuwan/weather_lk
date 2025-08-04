@@ -6610,5 +6610,11 @@
     "rain": 0.0,
     "min_temp": 25.6,
     "max_temp": 34.5
+  },
+  {
+    "date": "2025-08-04",
+    "rain": 0,
+    "min_temp": 25.0,
+    "max_temp": 28.6
   }
 ]
