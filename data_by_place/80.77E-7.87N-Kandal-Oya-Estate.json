@@ -10,5 +10,11 @@
     "rain": 0.5,
     "min_temp": null,
     "max_temp": null
+  },
+  {
+    "date": "2025-08-11",
+    "rain": 17.0,
+    "min_temp": null,
+    "max_temp": null
   }
 ]
