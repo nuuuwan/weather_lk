@@ -1,5 +1,5 @@
 {
-  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/2f2244a082dc31d6fec08b5d42f04ee8.pdf",
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/d6b3a9fd7c67accf103fe88c909aa32d.pdf",
   "date_ut": 1754850600.0,
   "date": "2025-08-11",
   "weather_list": [
@@ -285,7 +285,7 @@
     },
     {
       "place": "Maskeliya",
-      "rain": 0.0,
+      "rain": 1.0,
       "min_temp": null,
       "max_temp": null,
       "lat": 6.832929399999999,
@@ -308,28 +308,12 @@
       "lng": 81.54318719999999
     },
     {
-      "place": "Puliyam Pokkanai",
+      "place": "Meesaiayi",
       "rain": 75.0,
       "min_temp": null,
       "max_temp": null,
-      "lat": 9.4503831,
-      "lng": 80.5327324
-    },
-    {
-      "place": "Bandaragama",
-      "rain": 23.0,
-      "min_temp": null,
-      "max_temp": null,
-      "lat": 6.7144073,
-      "lng": 79.9890604
-    },
-    {
-      "place": "Atchuvely",
-      "rain": 65.5,
-      "min_temp": null,
-      "max_temp": null,
-      "lat": 9.7786397,
-      "lng": 80.1160651
+      "lat": 7.873053999999999,
+      "lng": 80.77179699999999
     },
     {
       "place": "Eheliyagoda",
@@ -340,12 +324,12 @@
       "lng": 80.26001
     },
     {
-      "place": "Point Pedro",
-      "rain": 60.1,
+      "place": "Atchuvely",
+      "rain": 65.5,
       "min_temp": null,
       "max_temp": null,
-      "lat": 9.7937885,
-      "lng": 80.2209773
+      "lat": 9.7786397,
+      "lng": 80.1160651
     },
     {
       "place": "Arakawila",
@@ -356,12 +340,12 @@
       "lng": 80.1407545
     },
     {
-      "place": "",
-      "rain": 43.4,
+      "place": "Point Pedro",
+      "rain": 60.1,
       "min_temp": null,
       "max_temp": null,
-      "lat": 7.873053999999999,
-      "lng": 80.77179699999999
+      "lat": 9.7937885,
+      "lng": 80.2209773
     },
     {
       "place": "Labugama",
@@ -372,12 +356,12 @@
       "lng": 80.1691309
     },
     {
-      "place": "Ampan",
-      "rain": 33.0,
+      "place": "",
+      "rain": 43.4,
       "min_temp": null,
       "max_temp": null,
-      "lat": 9.7352621,
-      "lng": 80.29345219999999
+      "lat": 7.873053999999999,
+      "lng": 80.77179699999999
     },
     {
       "place": "Keselhenawa",
@@ -388,28 +372,28 @@
       "lng": 0
     },
     {
+      "place": "Ampan",
+      "rain": 33.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 9.7352621,
+      "lng": 80.29345219999999
+    },
+    {
+      "place": "Halgolla TF",
+      "rain": 17.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 7.048652799999999,
+      "lng": 80.5799505
+    },
+    {
       "place": "Padukka Estate",
       "rain": 27.3,
       "min_temp": null,
       "max_temp": null,
       "lat": 6.824363,
       "lng": 80.119188
-    },
-    {
-      "place": "Kandal Oya Estate",
-      "rain": 17.0,
-      "min_temp": null,
-      "max_temp": null,
-      "lat": 7.873053999999999,
-      "lng": 80.77179699999999
-    },
-    {
-      "place": "Elephant Pass",
-      "rain": 26.3,
-      "min_temp": null,
-      "max_temp": null,
-      "lat": 9.5044995,
-      "lng": 80.402048
     },
     {
       "place": "Warakapola",
@@ -420,28 +404,28 @@
       "lng": 80.1958755
     },
     {
+      "place": "Elephant Pass",
+      "rain": 26.3,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 9.5044995,
+      "lng": 80.402048
+    },
+    {
+      "place": "Hanwella",
+      "rain": 15.5,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.8978344,
+      "lng": 80.0814292
+    },
+    {
       "place": "Jaffna Irrigation",
       "rain": 26.0,
       "min_temp": null,
       "max_temp": null,
       "lat": 9.6614981,
       "lng": 80.02554649999999
-    },
-    {
-      "place": "Halgolla TF",
-      "rain": 15.5,
-      "min_temp": null,
-      "max_temp": null,
-      "lat": 7.048652799999999,
-      "lng": 80.5799505
-    },
-    {
-      "place": "Halwathura Estate",
-      "rain": 24.0,
-      "min_temp": null,
-      "max_temp": null,
-      "lat": 6.7150006,
-      "lng": 80.1838882
     },
     {
       "place": "Kiriella",
@@ -452,25 +436,41 @@
       "lng": 80.2737021
     },
     {
-      "place": "Thalduwa Estate",
+      "place": "Halwathura Estate",
       "rain": 24.0,
       "min_temp": null,
       "max_temp": null,
-      "lat": 6.965634199999999,
-      "lng": 80.23172869999999
+      "lat": 6.7150006,
+      "lng": 80.1838882
     },
     {
-      "place": "Penrith Estate",
+      "place": "Ayr Estate",
       "rain": 15.0,
       "min_temp": null,
       "max_temp": null,
-      "lat": 6.955735799999999,
-      "lng": 80.1902963
+      "lat": 7.873053999999999,
+      "lng": 80.77179699999999
+    },
+    {
+      "place": "Bandaragama",
+      "rain": 23.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.7144073,
+      "lng": 79.9890604
+    },
+    {
+      "place": "Kalatuwawa",
+      "rain": 14.6,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.850000000000001,
+      "lng": 80.2
     }
   ],
   "max_rain": {
     "max_rain": 75.0,
-    "max_rain_place": "Puliyam Pokkanai"
+    "max_rain_place": "Meesaiayi"
   },
   "min_temp": {
     "min_temp": 12.9,
