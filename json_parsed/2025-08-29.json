@@ -1,5 +1,5 @@
 {
-  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/b0174bfe0e9aa8f5da5f02b6a0009b60.pdf",
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/7a05526139b2142d878720f53edfc965.pdf",
   "date_ut": 1756405800.0,
   "date": "2025-08-29",
   "weather_list": [
@@ -47,7 +47,7 @@
       "place": "Galle",
       "min_temp": 26.0,
       "max_temp": 28.9,
-      "rain": 0.0,
+      "rain": 6.3,
       "lat": 6.032894799999999,
       "lng": 80.2167912
     },
@@ -79,7 +79,7 @@
       "place": "Katugasthota",
       "min_temp": 23.3,
       "max_temp": 29.5,
-      "rain": 0.0,
+      "rain": 2.3,
       "lat": 7.3251558,
       "lng": 80.62297869999999
     },
@@ -87,7 +87,7 @@
       "place": "Katunayake",
       "min_temp": 26.9,
       "max_temp": 31.5,
-      "rain": 2.3,
+      "rain": 0.0,
       "lat": 7.172484899999999,
       "lng": 79.8853484
     },
@@ -111,7 +111,7 @@
       "place": "Mannar",
       "min_temp": 27.4,
       "max_temp": 31.7,
-      "rain": 0.4,
+      "rain": 0.0,
       "lat": 8.980974300000002,
       "lng": 79.90441489999999
     },
@@ -119,7 +119,7 @@
       "place": "Polonnaruwa",
       "min_temp": 26.8,
       "max_temp": null,
-      "rain": 2.6,
+      "rain": 0.0,
       "lat": 7.940338400000001,
       "lng": 81.0187984
     },
@@ -127,23 +127,23 @@
       "place": "Nuwara Eliya",
       "min_temp": 14.4,
       "max_temp": 19.0,
-      "rain": 0.0,
+      "rain": 2.6,
       "lat": 6.949716599999999,
       "lng": 80.7891068
     },
     {
-      "place": "Puttalam",
-      "min_temp": 26.5,
-      "max_temp": 31.5,
-      "rain": 8.6,
-      "lat": 8.0407913,
-      "lng": 79.839386
+      "place": "Pothuvil",
+      "min_temp": 26.2,
+      "max_temp": 36.7,
+      "rain": 0.0,
+      "lat": 6.875270599999999,
+      "lng": 81.8306334
     },
     {
       "place": "Rathmalana",
       "min_temp": 26.0,
       "max_temp": 31.4,
-      "rain": 6.3,
+      "rain": 0.4,
       "lat": 6.8195453,
       "lng": 79.8800832
     },
@@ -151,7 +151,7 @@
       "place": "Rathnapura",
       "min_temp": 24.1,
       "max_temp": 32.4,
-      "rain": 0,
+      "rain": 8.6,
       "lat": 6.7055742,
       "lng": 80.3847345
     },
@@ -477,7 +477,7 @@
     "min_temp_place": "Nuwara Eliya"
   },
   "max_temp": {
-    "max_temp": 36.1,
-    "max_temp_place": "Mullaitivu"
+    "max_temp": 36.7,
+    "max_temp_place": "Pothuvil"
   }
 }
