@@ -36,7 +36,7 @@ class MeteoGovLkPage:
 
             log.debug("Clicking button 'Weather Data'...")
             button_weather_data = browser.find_element(
-                By.XPATH, "//button[text()='Weather Data']"
+                By.XPATH, "//button[text()='Agromet / Weather Data']"
             )
             if not button_weather_data:
                 raise MeteoGovLkPageException(
