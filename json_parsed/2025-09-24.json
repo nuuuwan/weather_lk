@@ -1,5 +1,5 @@
 {
-  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/358feb5b50e733b0a0d87b52921f7938.pdf",
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/daa68ae7462015e61456438ce5247f9f.pdf",
   "date_ut": 1758652200.0,
   "date": "2025-09-24",
   "weather_list": [
@@ -15,7 +15,7 @@
       "place": "Badulla",
       "min_temp": 20.2,
       "max_temp": 33.4,
-      "rain": 0,
+      "rain": 0.0,
       "lat": 6.993400899999999,
       "lng": 81.0549815
     },
@@ -23,7 +23,7 @@
       "place": "Bandarawela",
       "min_temp": 18.2,
       "max_temp": 26.7,
-      "rain": 1.2,
+      "rain": 0,
       "lat": 6.825877999999999,
       "lng": 80.9981576
     },
@@ -39,7 +39,7 @@
       "place": "Colombo",
       "min_temp": 27.8,
       "max_temp": 31.7,
-      "rain": 3.5,
+      "rain": 0.3,
       "lat": 6.9270786,
       "lng": 79.861243
     },
@@ -47,7 +47,7 @@
       "place": "Galle",
       "min_temp": 26.5,
       "max_temp": 30.4,
-      "rain": 3.7,
+      "rain": 8.9,
       "lat": 6.032894799999999,
       "lng": 80.2167912
     },
@@ -55,7 +55,7 @@
       "place": "Hambanthota",
       "min_temp": 25.5,
       "max_temp": 31.5,
-      "rain": 0.0,
+      "rain": 2.2,
       "lat": 6.1428829,
       "lng": 81.12123079999999
     },
@@ -79,7 +79,7 @@
       "place": "Katugasthota",
       "min_temp": 23.1,
       "max_temp": 29.7,
-      "rain": 0.7,
+      "rain": 0.3,
       "lat": 7.3251558,
       "lng": 80.62297869999999
     },
@@ -87,7 +87,7 @@
       "place": "Katunayake",
       "min_temp": 26.3,
       "max_temp": 31.7,
-      "rain": 1.2,
+      "rain": 3.0,
       "lat": 7.172484899999999,
       "lng": 79.8853484
     },
@@ -95,7 +95,7 @@
       "place": "Kurunagala",
       "min_temp": 25.0,
       "max_temp": 32.6,
-      "rain": 0,
+      "rain": 0.2,
       "lat": 7.4817695,
       "lng": 80.3608876
     },
@@ -103,7 +103,7 @@
       "place": "Maha Illuppallama",
       "min_temp": 25.0,
       "max_temp": 34.0,
-      "rain": 0.0,
+      "rain": 0,
       "lat": 8.103736399999999,
       "lng": 80.4604643
     },
@@ -127,7 +127,7 @@
       "place": "Nuwara Eliya",
       "min_temp": 13.5,
       "max_temp": 18.4,
-      "rain": 3.3,
+      "rain": 0.0,
       "lat": 6.949716599999999,
       "lng": 80.7891068
     },
@@ -151,7 +151,7 @@
       "place": "Rathmalana",
       "min_temp": 26.9,
       "max_temp": 32.2,
-      "rain": 7.6,
+      "rain": 2.8,
       "lat": 6.8195453,
       "lng": 79.8800832
     },
@@ -159,7 +159,7 @@
       "place": "Rathnapura",
       "min_temp": 24.3,
       "max_temp": 31.8,
-      "rain": 28.7,
+      "rain": 4.3,
       "lat": 6.7055742,
       "lng": 80.3847345
     },
@@ -183,7 +183,7 @@
       "place": "Mattla",
       "min_temp": 25.0,
       "max_temp": 33.0,
-      "rain": 0.0,
+      "rain": 0.9,
       "lat": 6.288780374382144,
       "lng": 81.12460077774537
     },
@@ -191,7 +191,7 @@
       "place": "Mullaitivu",
       "min_temp": 26.9,
       "max_temp": 35.1,
-      "rain": 9.3,
+      "rain": 0.0,
       "lat": 9.2670911,
       "lng": 80.81424799999999
     },
