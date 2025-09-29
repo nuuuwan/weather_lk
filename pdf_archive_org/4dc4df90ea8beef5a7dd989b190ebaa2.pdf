@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Wayback Machine</title>
+    <script>
+    /*
+    @licstart  The following is the entire license notice for the JavaScript code in this page.
+
+    Copyright (C) 2020 Internet Archive
+
+    The JavaScript code in this page is free software: you can
+    redistribute it and/or modify it under the terms of the GNU Affero
+    General Public License as published by the Free Software
+    Foundation, either version 3 of the License, or (at your option)
+    any later version.  The code is distributed WITHOUT ANY WARRANTY;
+    without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+    As additional permission under GNU AGPL version 3 section 7, you
+    may distribute non-source (e.g., minimized or compacted) forms of
+    that code without the copy of the GNU AGPL normally required by
+    section 4, provided you include this license notice and a URL
+    through which recipients can access the Corresponding Source.
+
+    @licend  The above is the entire license notice for the JavaScript code in this page.
+    */
+    </script>    <script type="text/javascript">
+      window.webComponentLoaderConfig = {
+      baseUrl: 'https://archive.org',
+      version: '29e56e87'
+      }
+    </script>
+    <!-- is_embedded: False; context:  -->
+    <!-- navbar fallback -->
+    <script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+    <link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/archive.min.css?v=iq6QSMQa" />
+    <!-- navbar fallback end -->
+    <script type="text/javascript">if('archive_analytics' in window){var v=archive_analytics.values;v.path='/web';v.service='wb';v.server_name='wwwb-app214.us.archive.org';v.server_ms=5072;archive_analytics.send_pageview_on_load()}</script>
+    <link href="https://web-static.archive.org/_static/images/archive.ico" rel="shortcut icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/styles.css?v=HdpcXpRm" />
+    <script type="text/javascript" src="https://web-static.archive.org/_static/js/ui.js?v=7LYlZ-C2" charset="utf-8"></script>
+    <base target="_top">
+    <link href="https://web-static.archive.org/_static/css/web.css" rel="stylesheet" type="text/css"/>
+    <!-- include component js and css -->
+    <link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/waybackjs/main.d7687e44880b3f63cb85.css" />
+<script src="https://web-static.archive.org/_static/waybackjs/runtime.6c8259adea859a0cc91a.js"></script>
+<script src="https://web-static.archive.org/_static/waybackjs/vendors~main.7ab4f9006d8218463378.js"></script>
+<script src="https://web-static.archive.org/_static/waybackjs/main.d7687e44880b3f63cb85.js"></script>
+    <style>
+      html, body { margin:0; padding:0 }
+      #faux-header {
+        height: 50px;
+        width: 100%;
+        margin:0;
+        background-color:black;
+      }
+      #react-wayback-search {
+        max-width: 1170px;
+        margin: 0 auto;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body class="navia">
+<!-- failed to fetch: The read operation timed out -->
+    <script>update_aoheader();</script>
+<div style="display: block; float: right; width: 28px; margin-top: 4px;">
+        <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location.href), '', 'height=400,width=600'); return false;"
+            class="social_button" title="Share on Facebook"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a href="#" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(window.location.href) + '&via=internetarchive', '', 'height=400,width=600'); return false;"
+            class="social_button" title="Share on Twitter"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+    </div>
+    <script>
+      var config = {"api_url_anchor": "/__wb/search/anchor?q={{query}}", "api_url_calendar_captures": "/__wb/calendarcaptures?url={{url}}\u0026selected_year={{year}}", "api_url_host": "/__wb/search/host?q={{query}}", "api_url_metadata": "/__wb/search/metadata?q={{query}}", "api_url_sitemap": "/web/timemap/json?url={{url}}/\u0026fl=timestamp:4,original,urlkey\u0026matchType=prefix\u0026filter=statuscode:200\u0026filter=mimetype:text/html\u0026collapse=urlkey\u0026collapse=timestamp:4\u0026limit=100000", "api_url_sparkline": "/__wb/sparkline?output=json\u0026url={{url}}\u0026collection=web", "bundling": {"public_path": "https://web-static.archive.org/_static/waybackjs"}, "diff": {"calendarURL": "/__wb/calendarcaptures/2", "cdxServer": "/web/timemap", "diffgraphPrefix": "/web/diffgraph/", "limit": 3000, "maxSunburstLevelLength": "70", "snapshotsPrefix": "/web/", "sparklineURL": "/__wb/sparkline", "urlPrefix": "/web/diff/", "waybackDiscoverDiff": "https://wayback-api.archive.org/services/simhash", "webMonitoringProcessingURL": "https://wayback-api.archive.org/services/diff"}, "features": {"beta_promo": false, "changes_calendar": true, "landing": "carousel", "landing_layout_with_trend": false, "search": "v1"}, "matomo": {"disabled": false, "siteId": "3", "url": "//matomo.archive.org/"}, "num_of_explored_web_pages": "946 billion", "search_v2": {"search_collections": {"options": {"EndOfTerm2008WebCrawls": 21, "EndOfTerm2012WebCrawls": 40, "EndOfTerm2016WebCrawls": 0, "EndOfTerm2020WebCrawls": 1, "EndOfTerm2024Videos": 14, "EndOfTerm2024WebCrawls": 18, "FOIAonline.gov": 32, "HongKong": 31, "badoo.com": 19, "cmt.com": 37, "congress.gov": 5, "covid": 12, "dcist.com": 41, "eric.ed.gov": 33, "exiledonline.com": 2, "files.eric.ed.gov": 17, "gawker.com": 26, "gov": 38, "gov-pdf": 3, "hk.appledaily.com": 36, "hkcnews.com": 9, "independent-media-afghanistan": 20, "independent-media-belarus": 27, "independent-media-central-america": 8, "local-news-us": 35, "mediacloud": 29, "mtv.com": 23, "northkorea": 30, "pastebin.com": 28, "pdf": 15, "poetry.com": 22, "presentations": 43, "realdonaldtrump": 42, "russian-independent-media": 34, "scmp.com": 7, "tammybruce.com": 13, "telegram": 11, "themessenger.com": 25, "thestandnews.com": 24, "time.com": 10, "towcenter-pink-slime-news-sites": 16, "unicef": 6, "vice.com": 4, "zaman.com.tr": 39}}}, "spn": {}, "url_playback": "/web/{{date}}/{{url}}", "url_playback_screenshot": "/web/", "url_save_page_now": "/save/{{query}}", "url_search_page": "/web/*/{{url}}*", "url_thumb": "https://web.archive.org/thumb/{{item}}?generate=1"};
+      document.addEventListener('DOMContentLoaded', function(){
+        var e = document.getElementById('react-wayback-search'),
+            c = e.getAttribute('component');
+        const root = ReactDOMClient.createRoot(e);
+        root.render(React.createElement(window[c], { config: config }), e);
+      });
+    </script>
+    <div id="react-wayback-search" component="WaybackSearchComponent"></div>
+    <noscript>
+      <div class="no-script-message">
+        The Wayback Machine requires your browser to support JavaScript, please email <a href="mailto:info@archive.org">info@archive.org</a><br/>if you have any questions about this.
+      </div>
+    </noscript>
+    <footer>
+      <div id="footerHome">
+        <p>
+          The Wayback Machine is an initiative of the
+          <a href="//archive.org/">Internet Archive</a>,
+          a 501(c)(3) non-profit, building a digital library of
+          Internet sites and other cultural artifacts in digital form.
+          <br/>Other <a href="//archive.org/projects/">projects</a> include
+          <a href="https://openlibrary.org/">Open Library</a> &amp;
+          <a href="https://archive-it.org">archive-it.org</a>.
+        </p>
+        <p>
+          Your use of the Wayback Machine is subject to the Internet Archive's
+          <a href="//archive.org/about/terms.php">Terms of Use</a>.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
