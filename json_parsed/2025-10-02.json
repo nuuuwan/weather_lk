@@ -1,5 +1,5 @@
 {
-  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/5addc3819c482295424370e164a94f21.pdf",
+  "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/ce7effea4d0f7e6271f302f06f458dea.pdf",
   "date_ut": 1759343400.0,
   "date": "2025-10-02",
   "weather_list": [
@@ -316,14 +316,6 @@
       "lng": 81.54318719999999
     },
     {
-      "place": "Bandaragama",
-      "rain": 0.5,
-      "min_temp": null,
-      "max_temp": null,
-      "lat": 6.7144073,
-      "lng": 79.9890604
-    },
-    {
       "place": "Hiniduma",
       "rain": 1.0,
       "min_temp": null,
@@ -466,6 +458,22 @@
       "max_temp": null,
       "lat": 7.873053999999999,
       "lng": 80.77179699999999
+    },
+    {
+      "place": "Bandaragama",
+      "rain": 0.5,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 6.7144073,
+      "lng": 79.9890604
+    },
+    {
+      "place": "Nochchiyagama",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null,
+      "lat": 8.2925501,
+      "lng": 80.22655449999999
     }
   ],
   "max_rain": {
