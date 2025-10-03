@@ -27,7 +27,7 @@ class RemotePDF:
         log.debug(f'{temp_file_path=}')
 
         try:
-            WWW.download_binary(self.pdf_url, temp_file_path)
+            WWW(self.pdf_url).download_binary(temp_file_path)
         except Exception as e:
             log.error(f'RemotePDF({self.pdf_url}).download(): {str(e)}')
             return
@@ -41,3 +41,4 @@ class RemotePDF:
             log.info(f'Downloaded {self.pdf_url} to {file_path}')
         else:
             log.debug(f'{file_path} exists')
+
