@@ -88,5 +88,11 @@
     "rain": 46.7,
     "min_temp": null,
     "max_temp": null
+  },
+  {
+    "date": "2025-10-09",
+    "rain": 23.3,
+    "min_temp": null,
+    "max_temp": null
   }
 ]
