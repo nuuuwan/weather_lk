@@ -205113,12 +205113,6 @@
       "rain": 7.9,
       "min_temp": null,
       "max_temp": null
-    },
-    {
-      "date": "2025-10-22",
-      "rain": 47.9,
-      "min_temp": null,
-      "max_temp": null
     }
   ],
   "Laksakanda": [
@@ -385501,6 +385495,12 @@
     {
       "date": "2025-10-04",
       "rain": 32.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2025-10-22",
+      "rain": 169.6,
       "min_temp": null,
       "max_temp": null
     }

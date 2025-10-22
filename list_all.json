@@ -614604,7 +614604,7 @@
     }
   },
   {
-    "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/8b968758cd79fc047dbb75f1e0e75617.pdf",
+    "pdf_path": "/tmp/weather_lk/pdf_meteo_gov_lk/26b4e3a177661dec08e2197b8dc235f2.pdf",
     "date_ut": 1761071400.0,
     "date": "2025-10-22",
     "weather_list": [
@@ -614929,28 +614929,28 @@
         "lng": 81.54318719999999
       },
       {
+        "place": "Thellippallei",
+        "rain": 169.6,
+        "min_temp": null,
+        "max_temp": null,
+        "lat": 9.7910875,
+        "lng": 80.0339312
+      },
+      {
+        "place": "Hanwella",
+        "rain": 50.1,
+        "min_temp": null,
+        "max_temp": null,
+        "lat": 6.8978344,
+        "lng": 80.0814292
+      },
+      {
         "place": "Atchuvely",
         "rain": 112.8,
         "min_temp": null,
         "max_temp": null,
         "lat": 9.7786397,
         "lng": 80.1160651
-      },
-      {
-        "place": "Lahugala Tank",
-        "rain": 47.9,
-        "min_temp": null,
-        "max_temp": null,
-        "lat": 6.8982844,
-        "lng": 81.70073630000002
-      },
-      {
-        "place": "Nainathive",
-        "rain": 112.5,
-        "min_temp": null,
-        "max_temp": null,
-        "lat": 9.6071274,
-        "lng": 79.76522109999999
       },
       {
         "place": "Elston",
@@ -614961,6 +614961,22 @@
         "lng": 80.77179699999999
       },
       {
+        "place": "Nainathive",
+        "rain": 112.5,
+        "min_temp": null,
+        "max_temp": null,
+        "lat": 9.6071274,
+        "lng": 79.76522109999999
+      },
+      {
+        "place": "Neboda(ARG)",
+        "rain": 46.5,
+        "min_temp": null,
+        "max_temp": null,
+        "lat": 0,
+        "lng": 0
+      },
+      {
         "place": "Palavi",
         "rain": 79.1,
         "min_temp": null,
@@ -614969,7 +614985,7 @@
         "lng": 80.21818859999999
       },
       {
-        "place": "Neboda(ARG)",
+        "place": "Palanda(ARG)",
         "rain": 46.5,
         "min_temp": null,
         "max_temp": null,
@@ -614985,12 +615001,12 @@
         "lng": 80.77179699999999
       },
       {
-        "place": "Palanda(ARG)",
-        "rain": 46.5,
+        "place": "Halwathura Estate",
+        "rain": 44.0,
         "min_temp": null,
         "max_temp": null,
-        "lat": 0,
-        "lng": 0
+        "lat": 6.7150006,
+        "lng": 80.1838882
       },
       {
         "place": "Ayagama",
@@ -615001,12 +615017,12 @@
         "lng": 80.3129541
       },
       {
-        "place": "Halwathura Estate",
-        "rain": 44.0,
+        "place": "Warakapola",
+        "rain": 42.7,
         "min_temp": null,
         "max_temp": null,
-        "lat": 6.7150006,
-        "lng": 80.1838882
+        "lat": 7.226803299999998,
+        "lng": 80.1958755
       },
       {
         "place": "Mathugama",
@@ -615017,12 +615033,12 @@
         "lng": 80.11368519999999
       },
       {
-        "place": "Warakapola",
-        "rain": 42.7,
+        "place": "Divulapitiya",
+        "rain": 42.5,
         "min_temp": null,
         "max_temp": null,
-        "lat": 7.226803299999998,
-        "lng": 80.1958755
+        "lat": 7.2303143,
+        "lng": 80.016474
       },
       {
         "place": "Padukka Estate",
@@ -615033,12 +615049,12 @@
         "lng": 80.119188
       },
       {
-        "place": "Divulapitiya",
-        "rain": 42.5,
+        "place": "Menikkanda TF",
+        "rain": 42.0,
         "min_temp": null,
         "max_temp": null,
-        "lat": 7.2303143,
-        "lng": 80.016474
+        "lat": 0,
+        "lng": 0
       },
       {
         "place": "Kaluthara",
@@ -615049,22 +615065,6 @@
         "lng": 79.96074
       },
       {
-        "place": "Menikkanda TF",
-        "rain": 42.0,
-        "min_temp": null,
-        "max_temp": null,
-        "lat": 0,
-        "lng": 0
-      },
-      {
-        "place": "Keselhenawa",
-        "rain": 51.5,
-        "min_temp": null,
-        "max_temp": null,
-        "lat": 0,
-        "lng": 0
-      },
-      {
         "place": "Vogan",
         "rain": 41.8,
         "min_temp": null,
@@ -615073,12 +615073,12 @@
         "lng": 80.77179699999999
       },
       {
-        "place": "Hanwella",
-        "rain": 50.1,
+        "place": "Keselhenawa",
+        "rain": 51.5,
         "min_temp": null,
         "max_temp": null,
-        "lat": 6.8978344,
-        "lng": 80.0814292
+        "lat": 0,
+        "lng": 0
       },
       {
         "place": "Melkopiwatta",
@@ -615090,8 +615090,8 @@
       }
     ],
     "max_rain": {
-      "max_rain": 112.8,
-      "max_rain_place": "Atchuvely"
+      "max_rain": 169.6,
+      "max_rain_place": "Thellippallei"
     },
     "min_temp": {
       "min_temp": 13.8,
