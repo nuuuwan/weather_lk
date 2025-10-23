@@ -2405,6 +2405,144 @@
       "rain": 0.0,
       "min_temp": 26.2,
       "max_temp": 32.6
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 12.3,
+      "min_temp": 22.4,
+      "max_temp": 31.5
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 0,
+      "min_temp": 19.4,
+      "max_temp": 27.4
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 0.7,
+      "min_temp": 18.3,
+      "max_temp": 23.0
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 0.0,
+      "min_temp": 25.9,
+      "max_temp": 31.7
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 50.7,
+      "min_temp": 23.3,
+      "max_temp": 30.0
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 54.5,
+      "min_temp": 23.4,
+      "max_temp": 28.6
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 15.0,
+      "min_temp": 23.1,
+      "max_temp": 30.6
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 0.3,
+      "min_temp": 26.9,
+      "max_temp": 31.0
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 0.7,
+      "min_temp": 23.0,
+      "max_temp": 32.1
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 11.7,
+      "min_temp": 21.2,
+      "max_temp": 27.4
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 68.3,
+      "min_temp": 23.4,
+      "max_temp": 30.0
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 42.5,
+      "min_temp": 23.0,
+      "max_temp": 29.2
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 24.8,
+      "min_temp": 22.9,
+      "max_temp": 30.0
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 4.5,
+      "min_temp": 25.8,
+      "max_temp": 30.8
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 3.4,
+      "min_temp": 24.0,
+      "max_temp": 33.4
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 17.2,
+      "min_temp": 14.1,
+      "max_temp": 17.0
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 0.0,
+      "min_temp": 25.8,
+      "max_temp": 34.1
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 44.0,
+      "min_temp": 24.0,
+      "max_temp": 30.5
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 78.0,
+      "min_temp": 23.3,
+      "max_temp": 31.4
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 44.9,
+      "min_temp": 22.4,
+      "max_temp": 32.1
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 0.1,
+      "min_temp": 24.3,
+      "max_temp": 32.2
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 3.6,
+      "min_temp": 24.0,
+      "max_temp": 32.1
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 8.5,
+      "min_temp": 22.9,
+      "max_temp": 31.5
     }
   ],
   "Achchuveli": [
@@ -8543,6 +8681,12 @@
     {
       "date": "2025-10-20",
       "rain": 81.7,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 96.8,
       "min_temp": null,
       "max_temp": null
     }
@@ -22105,6 +22249,12 @@
       "rain": 117.4,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 83.7,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Ayagama": [
@@ -34963,6 +35113,12 @@
     {
       "date": "2025-10-21",
       "rain": 141.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 69.0,
       "min_temp": null,
       "max_temp": null
     }
@@ -54633,6 +54789,12 @@
       "rain": 70.0,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 113.3,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Beralapanathara": [
@@ -64731,6 +64893,12 @@
       "rain": 3.2,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 23.3,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Canawarella": [
@@ -72517,6 +72685,12 @@
       "rain": 26.1,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 45.7,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Castlereigh": [
@@ -80083,6 +80257,12 @@
     {
       "date": "2025-10-22",
       "rain": 16.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 27.0,
       "min_temp": null,
       "max_temp": null
     }
@@ -98089,6 +98269,12 @@
       "rain": 42.5,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 75.0,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Diyabeduma": [
@@ -99487,6 +99673,12 @@
     {
       "date": "2025-06-27",
       "rain": 65.2,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 84.0,
       "min_temp": null,
       "max_temp": null
     }
@@ -128329,6 +128521,12 @@
       "rain": 50.1,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 76.0,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Helboda North": [
@@ -131293,6 +131491,12 @@
     {
       "date": "2025-06-27",
       "rain": 18.1,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 88.6,
       "min_temp": null,
       "max_temp": null
     }
@@ -138747,6 +138951,12 @@
     {
       "date": "2025-10-22",
       "rain": 4.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 0.0,
       "min_temp": null,
       "max_temp": null
     }
@@ -156149,6 +156359,12 @@
     {
       "date": "2025-09-30",
       "rain": 9.3,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 79.2,
       "min_temp": null,
       "max_temp": null
     }
@@ -175579,6 +175795,12 @@
       "rain": 109.0,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 80.0,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Kirindiwela": [
@@ -184797,6 +185019,12 @@
       "rain": 11.2,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 10.5,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Kuchchaveli": [
@@ -193187,6 +193415,12 @@
       "rain": 25.0,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 65.0,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Kuliyapitiya": [
@@ -193673,6 +193907,12 @@
     {
       "date": "2025-10-20",
       "rain": 93.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 190.0,
       "min_temp": null,
       "max_temp": null
     }
@@ -213205,6 +213445,12 @@
       "rain": 26.0,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 53.2,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Laxapana TF": [
@@ -213397,6 +213643,12 @@
     {
       "date": "2025-09-30",
       "rain": 14.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 69.0,
       "min_temp": null,
       "max_temp": null
     }
@@ -226627,6 +226879,12 @@
       "rain": 11.5,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 90.5,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Maliboda": [
@@ -239387,6 +239645,12 @@
       "rain": 10.5,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 34.5,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Mathale-PWD": [
@@ -241477,6 +241741,12 @@
     {
       "date": "2025-10-22",
       "rain": 61.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 69.4,
       "min_temp": null,
       "max_temp": null
     }
@@ -256585,6 +256855,12 @@
       "rain": 15.0,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 28.0,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Maylambauely": [
@@ -258135,6 +258411,12 @@
       "rain": 41.5,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 78.0,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Mellawa": [
@@ -258735,6 +259017,12 @@
     {
       "date": "2025-07-08",
       "rain": 5.6,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 104.6,
       "min_temp": null,
       "max_temp": null
     }
@@ -278369,6 +278657,12 @@
       "rain": 0.0,
       "min_temp": 24.5,
       "max_temp": 30.7
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 0,
+      "min_temp": 24.5,
+      "max_temp": 32.9
     }
   ],
   "Musali": [
@@ -282645,6 +282939,12 @@
       "rain": 46.5,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 71.0,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Neboda(AWS)": [
@@ -283837,6 +284137,12 @@
     {
       "date": "2025-05-03",
       "rain": 25.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 78.0,
       "min_temp": null,
       "max_temp": null
     }
@@ -294185,6 +294491,12 @@
     {
       "date": "2025-10-22",
       "rain": 30.8,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 49.4,
       "min_temp": null,
       "max_temp": null
     }
@@ -305001,6 +305313,12 @@
       "rain": 57.6,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 77.5,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Palampeddi": [
@@ -305551,6 +305869,12 @@
     {
       "date": "2025-10-22",
       "rain": 46.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 78.0,
       "min_temp": null,
       "max_temp": null
     }
@@ -337491,6 +337815,30 @@
       "rain": 0.0,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Rainfall Angoda": [
@@ -346215,6 +346563,12 @@
       "rain": 1.0,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Ranorava": [
@@ -354689,6 +355043,12 @@
     {
       "date": "2025-10-22",
       "rain": 1.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 0.8,
       "min_temp": null,
       "max_temp": null
     }
@@ -379677,6 +380037,12 @@
       "rain": 0.0,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 14.5,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Seeppukulama": [
@@ -403937,6 +404303,12 @@
       "rain": 8.7,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 14.0,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Ulhitiya": [
@@ -414321,6 +414693,12 @@
     {
       "date": "2025-10-22",
       "rain": 7.7,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 13.5,
       "min_temp": null,
       "max_temp": null
     }
@@ -431125,6 +431503,12 @@
     {
       "date": "2025-10-22",
       "rain": 0.7,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2025-10-23",
+      "rain": 1.5,
       "min_temp": null,
       "max_temp": null
     }
