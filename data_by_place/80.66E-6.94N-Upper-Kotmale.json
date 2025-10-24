@@ -7558,5 +7558,11 @@
     "rain": 13.5,
     "min_temp": null,
     "max_temp": null
+  },
+  {
+    "date": "2025-10-24",
+    "rain": 8.9,
+    "min_temp": null,
+    "max_temp": null
   }
 ]
