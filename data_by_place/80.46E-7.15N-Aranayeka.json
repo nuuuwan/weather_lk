@@ -550,5 +550,11 @@
     "rain": 5.6,
     "min_temp": null,
     "max_temp": null
+  },
+  {
+    "date": "2025-11-06",
+    "rain": 38.0,
+    "min_temp": null,
+    "max_temp": null
   }
 ]
