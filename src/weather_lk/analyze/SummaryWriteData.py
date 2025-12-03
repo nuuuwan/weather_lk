@@ -51,7 +51,7 @@ class SummaryWriteData:
             flat_item = {
                 "id": weather["place"],
                 "time_ut": time_ut,
-                "rain_mm": weather["rain_mm"],
+                "rain_mm": weather["rain"],
                 "temp_min_c": weather["min_temp"],
                 "temp_max_c": weather["max_temp"],
             }
