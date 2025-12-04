@@ -1,6 +1,6 @@
 import os
 
-from utils import JSONFile, Log
+from utils import JSONFile, Log, Time, TimeFormat
 
 from weather_lk.core.Data import Data
 from weather_lk.place_to_latlng.PlaceToLatLng import PlaceToLatLng
@@ -98,6 +98,34 @@ class SummaryWriteData:
         SummaryWriteData.__write_json("flat", flat)
         SummaryWriteData.__write_json("flat_places", flat_places)
 
+    @staticmethod
+    def __write_alert_data__(d_list):
+        alert_data = {
+            "url_source": "https://meteo.gov.lk",
+            "url_structured": "https://raw.githubusercontent.com/nuuuwan/weather_lk/refs/heads/data/flat.json",
+            "event": "weather_report",
+            "event_measures": ["rain_mm", "temp_min_c", "temp_max_c"],
+            "frequency": "daily",
+        }
+        event_data = {}
+        for d in d_list:
+
+            date_part = TimeFormat.DATE_ID.format(Time(d["date_ut"]))
+            weather_list = d["weather_list"]
+            for weather in weather_list:
+                place = weather["place"]
+                if place not in event_data:
+                    event_data[place] = {}
+                event_data[place][date_part] = {
+                    "rain_mm": weather["rain"],
+                    "temp_min_c": weather["min_temp"],
+                    "temp_max_c": weather["max_temp"],
+                }
+
+        alert_data["event_data"] = event_data
+
+        SummaryWriteData.__write_json("alert_data", alert_data)
+
     def write(self):
         d_list = Data.list_all()
         SummaryWriteData.__write_list_all__(d_list)
@@ -105,3 +133,4 @@ class SummaryWriteData:
         SummaryWriteData.__write_idx_by_date__()
         SummaryWriteData.__write_latest_flat__(d_list)
         SummaryWriteData.__write_flat__(d_list)
+        SummaryWriteData.__write_alert_data__(d_list)
