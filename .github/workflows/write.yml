@@ -2,8 +2,6 @@ name: write
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "40 * * * *"
 
 jobs:
   write:
