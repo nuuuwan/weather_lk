@@ -9,7 +9,7 @@ from weather_lk.charts.ChartPlace import ChartPlace
 from weather_lk.charts.ChartTemperature import ChartTemperature
 from weather_lk.core import Data
 
-log = Log('ChartMinMaxPlot')
+log = Log("ChartMinMaxPlot")
 
 
 class ChartMinMaxPlot(ChartPlace):
@@ -19,9 +19,9 @@ class ChartMinMaxPlot(ChartPlace):
     def get_data(self):
         d_list = self.data_for_place
 
-        x = [datetime.strptime(d['date'], '%Y-%m-%d') for d in d_list]
-        y_min_temp = [d['min_temp'] for d in d_list]
-        y_max_temp = [d['max_temp'] for d in d_list]
+        x = [datetime.strptime(d["date"], "%Y-%m-%d") for d in d_list]
+        y_min_temp = [d["min_temp"] for d in d_list]
+        y_max_temp = [d["max_temp"] for d in d_list]
 
         # clean nulls
         x, y_min_temp, y_max_temp = zip(
@@ -45,11 +45,11 @@ class ChartMinMaxPlot(ChartPlace):
         fig.autofmt_xdate()
         fig.set_size_inches(12, 12)
 
-        for side in ['bottom', 'left', 'top', 'right']:
+        for side in ["bottom", "left", "top", "right"]:
             ax.spines[side].set_visible(False)
 
-        ax.grid(True, which='minor', linewidth=0.25, color='#ccc')
-        ax.grid(True, which='major', linewidth=0.5, color='#888')
+        ax.grid(True, which="minor", linewidth=0.25, color="#ccc")
+        ax.grid(True, which="major", linewidth=0.5, color="#888")
 
         plt.grid(True)
 
@@ -66,7 +66,7 @@ class ChartMinMaxPlot(ChartPlace):
             else:
                 edgecolors = "#ccc"
             plt.scatter(
-                x_i, y_i, color=color, edgecolors=edgecolors, marker='o'
+                x_i, y_i, color=color, edgecolors=edgecolors, marker="o"
             )
 
         self.draw_lines()
@@ -102,18 +102,18 @@ class ChartMinMaxPlot(ChartPlace):
                 max_min_temp,
             ]
             if d % 5 == 0:
-                color = '#cccf'
+                color = "#cccf"
             else:
-                color = '#ccc2'
-            ax.plot(lims, lims2, color=color, linestyle='--')
+                color = "#ccc2"
+            ax.plot(lims, lims2, color=color, linestyle="--")
 
         # min-median
         min_median = np.median(y_min_temp)
-        plt.axvline(x=min_median, color='#0088', linestyle='--')
+        plt.axvline(x=min_median, color="#0088", linestyle="--")
 
         # max-median
         max_median = np.median(y_max_temp)
-        plt.axhline(y=max_median, color='#8008', linestyle='--')
+        plt.axhline(y=max_median, color="#8008", linestyle="--")
 
         # text
         self.set_text()
@@ -173,11 +173,8 @@ class ChartMinMaxPlot(ChartPlace):
             if gap == gap_max:
                 color = ChartTemperature.get_color((y_max_i + y_min_i) / 2)
                 color_light = color + (0.25,)
-                date_str = x_i.strftime('%Y-%m-%d')
-                caption = f'{date_str} {
-                    gap:.1f}°C ({
-                    y_min_i:.1f}°C to {
-                    y_max_i:.1f}°C)'
+                date_str = x_i.strftime("%Y-%m-%d")
+                caption = f"{date_str} {gap:.1f}°C ({y_min_i:.1f}°C to {y_max_i:.1f}°C)"
                 plt.annotate(
                     xy=(y_min_i, y_max_i),
                     xytext=(y_min_i, y_max_i),
@@ -185,7 +182,7 @@ class ChartMinMaxPlot(ChartPlace):
                     color="black",
                     bbox=dict(
                         facecolor=color_light,
-                        edgecolor='none',
+                        edgecolor="none",
                         boxstyle="round",
                     ),
                 )
@@ -196,11 +193,11 @@ class ChartMinMaxPlot(ChartPlace):
             if gap == gap_min:
                 color = ChartTemperature.get_color((y_max_i + y_min_i) / 2)
                 color_light = color + (0.25,)
-                date_str = x_i.strftime('%Y-%m-%d')
-                caption = f'{date_str} {
+                date_str = x_i.strftime("%Y-%m-%d")
+                caption = f"{date_str} {
                     gap:.1f}°C ({
                     y_min_i:.1f}°C to {
-                    y_max_i:.1f}°C)'
+                    y_max_i:.1f}°C)"
                 plt.annotate(
                     xy=(y_min_i, y_max_i),
                     xytext=(y_min_i, y_max_i),
@@ -208,7 +205,7 @@ class ChartMinMaxPlot(ChartPlace):
                     color="black",
                     bbox=dict(
                         facecolor=color_light,
-                        edgecolor='none',
+                        edgecolor="none",
                         boxstyle="round",
                     ),
                 )
@@ -216,9 +213,9 @@ class ChartMinMaxPlot(ChartPlace):
 
     def set_text(self):
         plt.title(self.get_title(), fontsize=20)
-        plt.xlabel('Min Temperature (°C)')
-        plt.ylabel('Max Temperature (°C)')
+        plt.xlabel("Min Temperature (°C)")
+        plt.ylabel("Max Temperature (°C)")
 
         time_str = TimeFormat.TIME.formatNow
-        footer_text = f'Generated at {time_str}'
-        plt.figtext(0.5, 0.05, footer_text, ha='center', fontsize=8)
+        footer_text = f"Generated at {time_str}"
+        plt.figtext(0.5, 0.05, footer_text, ha="center", fontsize=8)
