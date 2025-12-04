@@ -133,6 +133,13 @@
     ]
   },
   {
+    "id": "Oddusudan",
+    "lat_lng": [
+      9.1538678,
+      80.64973119999999
+    ]
+  },
+  {
     "id": "Thunukkai",
     "lat_lng": [
       9.1340486,
@@ -182,6 +189,13 @@
     ]
   },
   {
+    "id": "Madu",
+    "lat_lng": [
+      8.856361,
+      80.2042436
+    ]
+  },
+  {
     "id": "Kuchchaveli",
     "lat_lng": [
       8.821385,
@@ -211,6 +225,13 @@
   },
   {
     "id": "Shettikulam",
+    "lat_lng": [
+      8.665595600000001,
+      80.2962385
+    ]
+  },
+  {
+    "id": "Cheddikulam",
     "lat_lng": [
       8.665595600000001,
       80.2962385
@@ -312,6 +333,13 @@
     "lat_lng": [
       8.0727324,
       79.9556424
+    ]
+  },
+  {
+    "id": "Palugaswewa",
+    "lat_lng": [
+      8.0604407,
+      80.68817179999999
     ]
   },
   {
@@ -2107,17 +2135,17 @@
     ]
   },
   {
-    "id": "Mattala",
-    "lat_lng": [
-      6.305154300000001,
-      81.11409119999999
-    ]
-  },
-  {
     "id": "Katandola",
     "lat_lng": [
       6.3017971,
       80.1958755
+    ]
+  },
+  {
+    "id": "Mattala",
+    "lat_lng": [
+      6.288780374382144,
+      81.12460077774537
     ]
   },
   {
@@ -2548,13 +2576,6 @@
     ]
   },
   {
-    "id": "Oddusudan",
-    "lat_lng": [
-      0,
-      0
-    ]
-  },
-  {
     "id": "Wadakada",
     "lat_lng": [
       0,
@@ -2695,13 +2716,6 @@
     ]
   },
   {
-    "id": "Cheddikulam",
-    "lat_lng": [
-      0,
-      0
-    ]
-  },
-  {
     "id": "Dunkeld Estate Factory",
     "lat_lng": [
       0,
@@ -2744,13 +2758,6 @@
     ]
   },
   {
-    "id": "Madu",
-    "lat_lng": [
-      0,
-      0
-    ]
-  },
-  {
     "id": "Iyankankulama",
     "lat_lng": [
       0,
@@ -2773,13 +2780,6 @@
   },
   {
     "id": "Aludeniya Estate",
-    "lat_lng": [
-      0,
-      0
-    ]
-  },
-  {
-    "id": "Palugaswewa",
     "lat_lng": [
       0,
       0
@@ -2906,6 +2906,13 @@
   },
   {
     "id": "Handungamuwa(ARG)",
+    "lat_lng": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "Rambava",
     "lat_lng": [
       0,
       0

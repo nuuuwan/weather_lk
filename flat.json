@@ -534168,5 +534168,411 @@
     "rain_mm": 0.0,
     "temp_min_c": null,
     "temp_max_c": null
+  },
+  {
+    "id": "Anuradhapura",
+    "time_ut": 1764786600.0,
+    "rain_mm": 4.7,
+    "temp_min_c": 23.1,
+    "temp_max_c": 32.2
+  },
+  {
+    "id": "Badulla",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.0,
+    "temp_min_c": 21.1,
+    "temp_max_c": 28.4
+  },
+  {
+    "id": "Bandarawela",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.0,
+    "temp_min_c": 18.1,
+    "temp_max_c": 25.6
+  },
+  {
+    "id": "Batticaloa",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.0,
+    "temp_min_c": 25.2,
+    "temp_max_c": 31.2
+  },
+  {
+    "id": "Colombo",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0,
+    "temp_min_c": 24.8,
+    "temp_max_c": 31.0
+  },
+  {
+    "id": "Galle",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.0,
+    "temp_min_c": 24.6,
+    "temp_max_c": 29.3
+  },
+  {
+    "id": "Hambantota",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.0,
+    "temp_min_c": 25.4,
+    "temp_max_c": 31.7
+  },
+  {
+    "id": "Jaffna",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.0,
+    "temp_min_c": 23.6,
+    "temp_max_c": 30.9
+  },
+  {
+    "id": "Moneragala",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.0,
+    "temp_min_c": 22.6,
+    "temp_max_c": 32.7
+  },
+  {
+    "id": "Katugastota",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.1,
+    "temp_min_c": 21.0,
+    "temp_max_c": 30.6
+  },
+  {
+    "id": "Katunayake",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.0,
+    "temp_min_c": 23.8,
+    "temp_max_c": 31.1
+  },
+  {
+    "id": "Kurunegala",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.0,
+    "temp_min_c": 23.6,
+    "temp_max_c": 32.7
+  },
+  {
+    "id": "Maha Illuppallama",
+    "time_ut": 1764786600.0,
+    "rain_mm": 11.2,
+    "temp_min_c": 22.7,
+    "temp_max_c": 32.0
+  },
+  {
+    "id": "Mannar",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.0,
+    "temp_min_c": 25.0,
+    "temp_max_c": 30.1
+  },
+  {
+    "id": "Polonnaruwa",
+    "time_ut": 1764786600.0,
+    "rain_mm": 1.1,
+    "temp_min_c": 24.6,
+    "temp_max_c": 33.6
+  },
+  {
+    "id": "Nuwara Eliya",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0,
+    "temp_min_c": 10.4,
+    "temp_max_c": 22.4
+  },
+  {
+    "id": "Pottuvil",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.0,
+    "temp_min_c": 24.9,
+    "temp_max_c": 32.0
+  },
+  {
+    "id": "Puttalam",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.0,
+    "temp_min_c": 23.6,
+    "temp_max_c": 30.8
+  },
+  {
+    "id": "Ratmalana",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0,
+    "temp_min_c": 24.5,
+    "temp_max_c": 31.7
+  },
+  {
+    "id": "Ratnapura",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.0,
+    "temp_min_c": 22.4,
+    "temp_max_c": 34.2
+  },
+  {
+    "id": "Trincomalee",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.0,
+    "temp_min_c": 24.1,
+    "temp_max_c": 32.1
+  },
+  {
+    "id": "Vavuniya",
+    "time_ut": 1764786600.0,
+    "rain_mm": 58.5,
+    "temp_min_c": 23.5,
+    "temp_max_c": 31.7
+  },
+  {
+    "id": "Mattala",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.0,
+    "temp_min_c": 24.1,
+    "temp_max_c": 32.4
+  },
+  {
+    "id": "Mullaitivu",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.0,
+    "temp_min_c": 24.5,
+    "temp_max_c": 29.4
+  },
+  {
+    "id": "Castlereigh",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Randenigala",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.5,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Norton",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Rantambe",
+    "time_ut": 1764786600.0,
+    "rain_mm": 2.2,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Maussakele",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Bowatenna",
+    "time_ut": 1764786600.0,
+    "rain_mm": 7.5,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Canyon",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Ukuwela",
+    "time_ut": 1764786600.0,
+    "rain_mm": 1.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Lakshapana",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Samanala Wawa",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Upper Kotmale",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Kukuleganaga",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Kotmale",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Maskeliya",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Victoriya",
+    "time_ut": 1764786600.0,
+    "rain_mm": 2.4,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Inginiyagala",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Rambava",
+    "time_ut": 1764786600.0,
+    "rain_mm": 76.2,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Cheddikulam",
+    "time_ut": 1764786600.0,
+    "rain_mm": 6.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Madatugama",
+    "time_ut": 1764786600.0,
+    "rain_mm": 53.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Tabbowa",
+    "time_ut": 1764786600.0,
+    "rain_mm": 2.1,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Mihinthale",
+    "time_ut": 1764786600.0,
+    "rain_mm": 31.3,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Oddusudan",
+    "time_ut": 1764786600.0,
+    "rain_mm": 1.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Yakawawa",
+    "time_ut": 1764786600.0,
+    "rain_mm": 19.7,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Ampan",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.5,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Rathmalgahawewa",
+    "time_ut": 1764786600.0,
+    "rain_mm": 17.5,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Wilpita Estate",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.5,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Kilinochchi Agriculture",
+    "time_ut": 1764786600.0,
+    "rain_mm": 12.3,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Thunukkai",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.5,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Palugaswewa",
+    "time_ut": 1764786600.0,
+    "rain_mm": 9.5,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Madu",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.5,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Vavunikulam",
+    "time_ut": 1764786600.0,
+    "rain_mm": 7.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Parangiyawadiya",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Puliyam Pokkanai",
+    "time_ut": 1764786600.0,
+    "rain_mm": 6.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Hilpanakandura",
+    "time_ut": 1764786600.0,
+    "rain_mm": 0.0,
+    "temp_min_c": null,
+    "temp_max_c": null
   }
 ]
