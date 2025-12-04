@@ -21,27 +21,24 @@ class SummaryWriteData:
             f"Wrote summary to {summary_json_path} ({file_size_m:.2f} MB)"
         )
 
-    def write(self):
-        d_list = Data.list_all()
+    @staticmethod
+    def __write_list_all__(d_list):
         SummaryWriteData.__write_json("list_all", d_list)
 
+    @staticmethod
+    def __write_idx_by_place__():
         idx_by_place = Data.idx_by_place()
         SummaryWriteData.__write_json("idx_by_place", idx_by_place)
 
+    @staticmethod
+    def __write_idx_by_date__():
         idx_by_date = Data.idx_by_date()
         date_list = sorted(list(idx_by_date.keys()))
         SummaryWriteData.__write_json("idx_by_date", idx_by_date)
         SummaryWriteData.__write_json("date_list", date_list)
 
-        #   {
-        #     "place": "Anuradhapura",
-        #     "min_temp": 24.5,
-        #     "max_temp": 30.4,
-        #     "rain": 1.7,
-        #     "lat": 8.311351799999999,
-        #     "lng": 80.4036508
-        #   },
-
+    @staticmethod
+    def __write_latest__(d_list):
         latest = d_list[-1]
         time_ut = latest["date_ut"]
         weather_list = latest["weather_list"]
@@ -64,4 +61,11 @@ class SummaryWriteData:
             latest_places.append(place_item)
 
         SummaryWriteData.__write_json("latest_flat", latest_flat)
-        SummaryWriteData.__write_json("latest_places", latest_flat)
+        SummaryWriteData.__write_json("latest_places", latest_places)
+
+    def write(self):
+        d_list = Data.list_all()
+        SummaryWriteData.__write_list_all__(d_list)
+        SummaryWriteData.__write_idx_by_place__()
+        SummaryWriteData.__write_idx_by_date__()
+        SummaryWriteData.__write_latest__(d_list)
