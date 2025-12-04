@@ -80,9 +80,10 @@ class SummaryWriteData:
                 }
                 flat.append(flat_item)
 
-                id_to_latlng[weather["place"]] = (
-                    [weather["lat"], weather["lng"]],
-                )
+                id_to_latlng[weather["place"]] = [
+                    weather["lat"],
+                    weather["lng"],
+                ]
 
         flat_places = [
             {
