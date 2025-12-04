@@ -38,7 +38,7 @@ class SummaryWriteData:
         SummaryWriteData.__write_json("date_list", date_list)
 
     @staticmethod
-    def __write_latest__(d_list):
+    def __write_latest_flat__(d_list):
         latest = d_list[-1]
         time_ut = latest["date_ut"]
         weather_list = latest["weather_list"]
@@ -63,9 +63,44 @@ class SummaryWriteData:
         SummaryWriteData.__write_json("latest_flat", latest_flat)
         SummaryWriteData.__write_json("latest_places", latest_places)
 
+    @staticmethod
+    def __write_flat__(d_list):
+        id_to_latlng = {}
+        flat = []
+        for d in d_list:
+            time_ut = d["date_ut"]
+            weather_list = d["weather_list"]
+            for weather in weather_list:
+                flat_item = {
+                    "id": weather["place"],
+                    "time_ut": time_ut,
+                    "rain_mm": weather["rain"],
+                    "temp_min_c": weather["min_temp"],
+                    "temp_max_c": weather["max_temp"],
+                }
+                flat.append(flat_item)
+
+                id_to_latlng[weather["place"]] = (
+                    [weather["lat"], weather["lng"]],
+                )
+
+        flat_places = [
+            {
+                "id": place,
+                "lat_lng": lat_lng,
+            }
+            for place, lat_lng in sorted(
+                id_to_latlng.items(), key=lambda x: (-x[1][0], x[1][1])
+            )
+        ]
+
+        SummaryWriteData.__write_json("flat", flat)
+        SummaryWriteData.__write_json("flat_places", flat_places)
+
     def write(self):
         d_list = Data.list_all()
         SummaryWriteData.__write_list_all__(d_list)
         SummaryWriteData.__write_idx_by_place__()
         SummaryWriteData.__write_idx_by_date__()
-        SummaryWriteData.__write_latest__(d_list)
+        SummaryWriteData.__write_latest_flat__(d_list)
+        SummaryWriteData.__write_flat__(d_list)

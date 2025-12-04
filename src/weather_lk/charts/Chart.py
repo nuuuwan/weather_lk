@@ -61,7 +61,7 @@ class Chart:
     ):
         if yi == 0:
             return
-        caption = f'#{i+1} {yi:.1f}{unit}'
+        caption = f'#{i + 1} {yi:.1f}{unit}'
         if isinstance(xi, datetime.datetime):
             date_str = xi.strftime('%Y-%m-%d')
             caption += f' ({date_str})'

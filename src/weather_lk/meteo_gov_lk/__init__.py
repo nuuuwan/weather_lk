@@ -1,4 +1,5 @@
 # weather_lk.meteo_gov_lk (auto generate by build_inits.py)
+# flake8: noqa: F408
 
 from weather_lk.meteo_gov_lk.MeteoGovLkPage import MeteoGovLkPage
 from weather_lk.meteo_gov_lk.PDFParser import PDFParser

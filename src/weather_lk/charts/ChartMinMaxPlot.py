@@ -174,7 +174,10 @@ class ChartMinMaxPlot(ChartPlace):
                 color = ChartTemperature.get_color((y_max_i + y_min_i) / 2)
                 color_light = color + (0.25,)
                 date_str = x_i.strftime('%Y-%m-%d')
-                caption = f'{date_str} {gap:.1f}°C ({y_min_i:.1f}°C to {y_max_i:.1f}°C)'
+                caption = f'{date_str} {
+                    gap:.1f}°C ({
+                    y_min_i:.1f}°C to {
+                    y_max_i:.1f}°C)'
                 plt.annotate(
                     xy=(y_min_i, y_max_i),
                     xytext=(y_min_i, y_max_i),
@@ -194,7 +197,10 @@ class ChartMinMaxPlot(ChartPlace):
                 color = ChartTemperature.get_color((y_max_i + y_min_i) / 2)
                 color_light = color + (0.25,)
                 date_str = x_i.strftime('%Y-%m-%d')
-                caption = f'{date_str} {gap:.1f}°C ({y_min_i:.1f}°C to {y_max_i:.1f}°C)'
+                caption = f'{date_str} {
+                    gap:.1f}°C ({
+                    y_min_i:.1f}°C to {
+                    y_max_i:.1f}°C)'
                 plt.annotate(
                     xy=(y_min_i, y_max_i),
                     xytext=(y_min_i, y_max_i),

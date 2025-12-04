@@ -41,4 +41,3 @@ class RemotePDF:
             log.info(f'Downloaded {self.pdf_url} to {file_path}')
         else:
             log.debug(f'{file_path} exists')
-

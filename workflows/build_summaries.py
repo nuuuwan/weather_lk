@@ -1,6 +1,5 @@
 """Daily Weather Report."""
 
-
 from weather_lk import Summary
 
 

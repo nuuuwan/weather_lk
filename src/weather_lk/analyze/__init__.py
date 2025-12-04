@@ -1,4 +1,5 @@
 # weather_lk.analyze (auto generate by build_inits.py)
+# flake8: noqa: F408
 
 from weather_lk.analyze.Summary import Summary
 from weather_lk.analyze.SummaryCoverage import SummaryCoverage

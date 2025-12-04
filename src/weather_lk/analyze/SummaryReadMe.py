@@ -28,7 +28,8 @@ class SummaryReadMe:
                 f'![Temperature]({SummaryReadMe.URL_REMOTE_DATA}'
                 + '/charts/country_temperature.png)',
                 '',
-                f'![Rainfall]({SummaryReadMe.URL_REMOTE_DATA}/charts/country_rainfall.png)',
+                f'![Rainfall]({
+                    SummaryReadMe.URL_REMOTE_DATA}/charts/country_rainfall.png)',
                 '',
             ]
         )
@@ -94,7 +95,8 @@ class SummaryReadMe:
                 [
                     f'### Last {window:,} days',
                     '',
-                    f'![Coverage]({SummaryReadMe.URL_REMOTE_DATA}/coverage-{window}days.png)',
+                    f'![Coverage]({
+                        SummaryReadMe.URL_REMOTE_DATA}/coverage-{window}days.png)',
                     '',
                 ]
             )

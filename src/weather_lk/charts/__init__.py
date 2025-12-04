@@ -1,4 +1,5 @@
 # weather_lk.charts (auto generate by build_inits.py)
+# flake8: noqa: F408
 
 from weather_lk.charts.Chart import Chart
 from weather_lk.charts.ChartCountry import ChartCountry
