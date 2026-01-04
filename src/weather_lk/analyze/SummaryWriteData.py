@@ -102,7 +102,8 @@ class SummaryWriteData:
     def __write_alert_data__(d_list):
         alert_data = {
             "url_source": "https://meteo.gov.lk",
-            "url_structured": "https://raw.githubusercontent.com/nuuuwan/weather_lk/refs/heads/data/flat.json",
+            "url_structured": "https://raw.githubusercontent.com"
+            + "/nuuuwan/weather_lk/refs/heads/data/flat.json",
             "event": "weather_report",
             "event_measures": ["rain_mm", "temp_min_c", "temp_max_c"],
             "frequency": "daily",
