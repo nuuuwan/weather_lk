@@ -70,7 +70,9 @@ class PlaceToLatLng:
         place_to_latlng = self.build_place_to_latlng(place_to_latlng_old)
 
         n = len(place_to_latlng.keys())
-        JSONFile(PlaceToLatLng.PLACE_TO_LATLNG_PATH_NEW).write(place_to_latlng)
+        JSONFile(PlaceToLatLng.PLACE_TO_LATLNG_PATH_NEW).write(
+            place_to_latlng
+        )
         log.info(
             f"Saved {n} places to {PlaceToLatLng.PLACE_TO_LATLNG_PATH_NEW}."
         )
