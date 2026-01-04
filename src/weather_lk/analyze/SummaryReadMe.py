@@ -99,12 +99,15 @@ class SummaryReadMe:
         ]
 
         for window in SummaryCoverage.COVERAGE_WINDOW_LIST:
+            image_path = os.path.join(
+                SummaryReadMe.URL_REMOTE_DATA,
+                f"coverage-{window}days.png",
+            )
             lines.extend(
                 [
                     f"### Last {window:,} days",
                     "",
-                    f"![Coverage]({
-                        SummaryReadMe.URL_REMOTE_DATA}/coverage-{window}days.png)",
+                    f"![Coverage]({image_path})",
                     "",
                 ]
             )
