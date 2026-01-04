@@ -10,75 +10,83 @@ from weather_lk.analyze.SummaryWriteDataByPlace import SummaryWriteDataByPlace
 from weather_lk.constants import DISPLAY_PLACES
 from weather_lk.core import Data
 
-log = Log('SummaryReadMe')
+log = Log("SummaryReadMe")
 
 
 class SummaryReadMe:
     URL_REMOTE_DATA = (
-        'https://raw.githubusercontent.com/nuuuwan/weather_lk/data'
+        "https://raw.githubusercontent.com/nuuuwan/weather_lk/data"
     )
 
     @property
     def lines_country(self):
         lines = []
+        temp_image_path = os.path.join(
+            SummaryReadMe.URL_REMOTE_DATA,
+            "charts",
+            "country_temperature.png",
+        )
+        rain_image_path = os.path.join(
+            SummaryReadMe.URL_REMOTE_DATA,
+            "charts",
+            "country_rainfall.png",
+        )
         lines.extend(
             [
-                '## Weather Nationwide :sri_lanka:',
-                '',
-                f'![Temperature]({SummaryReadMe.URL_REMOTE_DATA}'
-                + '/charts/country_temperature.png)',
-                '',
-                f'![Rainfall]({
-                    SummaryReadMe.URL_REMOTE_DATA}/charts/country_rainfall.png)',
-                '',
+                "## Weather Nationwide :sri_lanka:",
+                "",
+                f"![Temperature]({temp_image_path})",
+                "",
+                f"![Rainfall]({rain_image_path})",
+                "",
             ]
         )
         return lines
 
     def get_lines_temperature(self, window):
-        title = 'Temperature 🌡️'
+        title = "Temperature 🌡️"
         if window:
-            title += f' (Last {window} days)'
-        lines = [f'# {title}', '']
+            title += f" (Last {window} days)"
+        lines = [f"# {title}", ""]
         for place in DISPLAY_PLACES:
             label = SummaryWriteDataByPlace.get_place_label(place)
             if window:
-                label += f'-{window}days'
+                label += f"-{window}days"
             image_path_temp = (
                 SummaryReadMe.URL_REMOTE_DATA
-                + '/charts/temperature/'
-                + f'{label}.png'
+                + "/charts/temperature/"
+                + f"{label}.png"
             )
             lines.extend(
                 [
-                    f'## {place} 🌡️',
-                    '',
-                    f'![{place}]({image_path_temp})',
-                    '',
+                    f"## {place} 🌡️",
+                    "",
+                    f"![{place}]({image_path_temp})",
+                    "",
                 ]
             )
         return lines
 
     def get_lines_rainfall(self, window):
-        title = 'Rainfall'
+        title = "Rainfall"
         if window:
-            title += f' (Last {window} days)'
-        lines = [f'# {title}', '']
+            title += f" (Last {window} days)"
+        lines = [f"# {title}", ""]
         for place in DISPLAY_PLACES:
             label = SummaryWriteDataByPlace.get_place_label(place)
             if window:
-                label += f'-{window}days'
+                label += f"-{window}days"
             image_path_rain = (
                 SummaryReadMe.URL_REMOTE_DATA
-                + '/charts/rainfall/'
-                + f'{label}.png'
+                + "/charts/rainfall/"
+                + f"{label}.png"
             )
             lines.extend(
                 [
-                    f'## {place} ☔',
-                    '',
-                    f'![{place}]({image_path_rain})',
-                    '',
+                    f"## {place} ☔",
+                    "",
+                    f"![{place}]({image_path_rain})",
+                    "",
                 ]
             )
         return lines
@@ -86,18 +94,18 @@ class SummaryReadMe:
     @property
     def lines_coverage(self):
         lines = [
-            '# Coverage',
-            '',
+            "# Coverage",
+            "",
         ]
 
         for window in SummaryCoverage.COVERAGE_WINDOW_LIST:
             lines.extend(
                 [
-                    f'### Last {window:,} days',
-                    '',
-                    f'![Coverage]({
-                        SummaryReadMe.URL_REMOTE_DATA}/coverage-{window}days.png)',
-                    '',
+                    f"### Last {window:,} days",
+                    "",
+                    f"![Coverage]({
+                        SummaryReadMe.URL_REMOTE_DATA}/coverage-{window}days.png)",
+                    "",
                 ]
             )
 
@@ -107,22 +115,22 @@ class SummaryReadMe:
     def lines_source_stats(self):
         source_to_stats = self.source_to_stats
         keys = [
-            'n',
-            'n_parse_attempted',
-            'n_parse_successful',
-            'n_parse_failed',
-            'min_date',
-            'max_date',
+            "n",
+            "n_parse_attempted",
+            "n_parse_successful",
+            "n_parse_failed",
+            "min_date",
+            "max_date",
         ]
         values_list = []
         for source_id, stats in source_to_stats.items():
-            values = [f'`{source_id}`'] + [
-                str(stats.get(key, '')) for key in keys
+            values = [f"`{source_id}`"] + [
+                str(stats.get(key, "")) for key in keys
             ]
             values_list.append(values)
-        return ['# Source Statistics', ''] + Markdown.build_table(
+        return ["# Source Statistics", ""] + Markdown.build_table(
             [
-                'source_id',
+                "source_id",
             ]
             + keys,
             values_list,
@@ -134,13 +142,13 @@ class SummaryReadMe:
         keys = [str(year) for year in range(2024, 2024 - 11, -1)]
         values_list = []
         for source_id, stats in source_to_stats.items():
-            values = [f'`{source_id}`'] + [
-                str(stats['year_to_n'].get(year, 0)) for year in keys
+            values = [f"`{source_id}`"] + [
+                str(stats["year_to_n"].get(year, 0)) for year in keys
             ]
             values_list.append(values)
-        return ['', '## By Year', ''] + Markdown.build_table(
+        return ["", "## By Year", ""] + Markdown.build_table(
             [
-                'source_id',
+                "source_id",
             ]
             + keys,
             values_list,
@@ -149,17 +157,17 @@ class SummaryReadMe:
     @property
     def lines_header(self):
         return [
-            '# Sri Lanka :sri_lanka: Weather (weather_lk)',
-            '',
-            'Rainfall and Temperature data, extracted from the '
-            + '[Department of Meteorology](http://www.meteo.gov.lk/), '
-            + 'Sri Lanka',
-            '',
+            "# Sri Lanka :sri_lanka: Weather (weather_lk)",
+            "",
+            "Rainfall and Temperature data, extracted from the "
+            + "[Department of Meteorology](http://www.meteo.gov.lk/), "
+            + "Sri Lanka",
+            "",
         ]
 
     @property
     def lines_month_trend(self):
-        lines = ['# Trends by Month', '']
+        lines = ["# Trends by Month", ""]
         for place in DISPLAY_PLACES:
             s = SummaryMonthTrend(place)
 
@@ -172,18 +180,18 @@ class SummaryReadMe:
         temperature_infos = []
         rainfall_infos = []
         for window in SummaryDataCharts.CHART_WINDOWS:
-            suffix = ''
+            suffix = ""
             if window:
-                suffix += f'_(last_{window}_days)'
+                suffix += f"_(last_{window}_days)"
 
             temperature_info = [
-                'temperature_by_city' + suffix,
+                "temperature_by_city" + suffix,
                 self.get_lines_temperature(window),
             ]
             temperature_infos.append(temperature_info)
 
             rainfall_info = [
-                'rainfall_by_city' + suffix,
+                "rainfall_by_city" + suffix,
                 self.get_lines_rainfall(window),
             ]
             rainfall_infos.append(rainfall_info)
@@ -192,21 +200,21 @@ class SummaryReadMe:
             temperature_infos
             + rainfall_infos
             + [
-                ('data_coverage', self.lines_coverage),
+                ("data_coverage", self.lines_coverage),
                 (
-                    'source_statistics',
+                    "source_statistics",
                     self.lines_source_stats
                     + self.lines_source_stats_year_to_n,
                 ),
-                ('trend_by_month', self.lines_month_trend),
+                ("trend_by_month", self.lines_month_trend),
             ]
         ):
-            readme_path = os.path.join(Data.DIR_REPO, f'README.{id}.md')
+            readme_path = os.path.join(Data.DIR_REPO, f"README.{id}.md")
             lines = [line.strip() for line in lines]
             File(readme_path).write_lines(lines)
-            log.info(f'Wrote {readme_path}')
-            title = id.replace('_', ' ').title()
-            links.append(f'* [{title}](README.{id}.md)')
+            log.info(f"Wrote {readme_path}")
+            title = id.replace("_", " ").title()
+            links.append(f"* [{title}](README.{id}.md)")
         return links
 
     def build_readme(self):
@@ -217,12 +225,12 @@ class SummaryReadMe:
             self.lines_header
             + self.lines_country
             + [
-                '## More Information',
-                '',
+                "## More Information",
+                "",
             ]
             + links
             + self.lines_special_charts
         )
-        readme_path = os.path.join(Data.DIR_REPO, 'README.md')
+        readme_path = os.path.join(Data.DIR_REPO, "README.md")
         File(readme_path).write_lines(lines)
-        log.info(f'Wrote README to {readme_path}')
+        log.info(f"Wrote README to {readme_path}")
