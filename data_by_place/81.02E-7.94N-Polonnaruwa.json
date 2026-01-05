@@ -7798,5 +7798,11 @@
     "rain": 0,
     "min_temp": 21.7,
     "max_temp": 30.4
+  },
+  {
+    "date": "2026-01-05",
+    "rain": 0.5,
+    "min_temp": 22.8,
+    "max_temp": 30.1
   }
 ]
