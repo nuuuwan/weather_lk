@@ -2093,6 +2093,13 @@
     ]
   },
   {
+    "id": "Sirikandura Estate",
+    "lat_lng": [
+      6.5098354,
+      80.13569269999999
+    ]
+  },
+  {
     "id": "Ellakanda Watta",
     "lat_lng": [
       6.4502159,
@@ -2535,13 +2542,6 @@
   },
   {
     "id": "Muttur Base Hospital",
-    "lat_lng": [
-      0,
-      0
-    ]
-  },
-  {
-    "id": "Sirikandura Estate",
     "lat_lng": [
       0,
       0
