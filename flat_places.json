@@ -1456,6 +1456,13 @@
     ]
   },
   {
+    "id": "Dunumale Estate",
+    "lat_lng": [
+      7.1473524,
+      80.2126109
+    ]
+  },
+  {
     "id": "Nittambuwa",
     "lat_lng": [
       7.142363899999999,
@@ -2710,13 +2717,6 @@
   },
   {
     "id": "Battaramulla",
-    "lat_lng": [
-      0,
-      0
-    ]
-  },
-  {
-    "id": "Dunumale Estate",
     "lat_lng": [
       0,
       0
