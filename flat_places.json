@@ -364,6 +364,13 @@
     ]
   },
   {
+    "id": "Mahailluppallama",
+    "lat_lng": [
+      8.103736399999999,
+      80.4604643
+    ]
+  },
+  {
     "id": "Tabbowa",
     "lat_lng": [
       8.0727324,
@@ -2612,13 +2619,6 @@
   },
   {
     "id": "Dikoya",
-    "lat_lng": [
-      0,
-      0
-    ]
-  },
-  {
-    "id": "Mahailluppallama",
     "lat_lng": [
       0,
       0
