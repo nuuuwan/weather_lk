@@ -7852,5 +7852,11 @@
     "rain": 0.0,
     "min_temp": 7.4,
     "max_temp": 22.8
+  },
+  {
+    "date": "2026-01-22",
+    "rain": 0.0,
+    "min_temp": 3.5,
+    "max_temp": 20.7
   }
 ]
