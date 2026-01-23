@@ -434,6 +434,13 @@
     ]
   },
   {
+    "id": "Nawagattegama",
+    "lat_lng": [
+      8.0065397,
+      80.1121493
+    ]
+  },
+  {
     "id": "Galgamuwa",
     "lat_lng": [
       7.9864944,
@@ -2836,13 +2843,6 @@
   },
   {
     "id": "Barricaloa",
-    "lat_lng": [
-      0,
-      0
-    ]
-  },
-  {
-    "id": "Nawagattegama",
     "lat_lng": [
       0,
       0

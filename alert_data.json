@@ -6589,6 +6589,11 @@
         "rain_mm": 0.0,
         "temp_min_c": 20.0,
         "temp_max_c": 29.6
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": 20.4,
+        "temp_max_c": 30.6
       }
     },
     "Badulla": {
@@ -13191,6 +13196,11 @@
         "rain_mm": 0.0,
         "temp_min_c": 15.1,
         "temp_max_c": 23.8
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": 14.8,
+        "temp_max_c": 25.6
       }
     },
     "Bandarawela": {
@@ -19743,6 +19753,11 @@
         "rain_mm": 0.0,
         "temp_min_c": 11.5,
         "temp_max_c": 23.4
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": 12.5,
+        "temp_max_c": 23.0
       }
     },
     "Batticaloa": {
@@ -26310,6 +26325,11 @@
         "rain_mm": 0.0,
         "temp_min_c": 22.1,
         "temp_max_c": 28.5
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": 22.2,
+        "temp_max_c": 29.2
       }
     },
     "Colombo": {
@@ -32867,6 +32887,11 @@
         "rain_mm": 0.0,
         "temp_min_c": 22.1,
         "temp_max_c": 31.8
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": 22.6,
+        "temp_max_c": 32.2
       }
     },
     "Galle": {
@@ -39499,6 +39524,11 @@
         "rain_mm": 0.0,
         "temp_min_c": 23.0,
         "temp_max_c": 29.5
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": 23.7,
+        "temp_max_c": 29.0
       }
     },
     "Hambantota": {
@@ -45991,6 +46021,11 @@
         "rain_mm": 0.0,
         "temp_min_c": 22.0,
         "temp_max_c": 32.7
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": 20.7,
+        "temp_max_c": 32.5
       }
     },
     "Jaffna": {
@@ -52583,6 +52618,11 @@
         "rain_mm": 0.0,
         "temp_min_c": 19.5,
         "temp_max_c": 28.6
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": 19.3,
+        "temp_max_c": 28.2
       }
     },
     "Moneragala": {
@@ -59155,6 +59195,11 @@
         "rain_mm": 0.0,
         "temp_min_c": 18.9,
         "temp_max_c": 30.0
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": 17.5,
+        "temp_max_c": 30.5
       }
     },
     "Katugastota": {
@@ -65767,6 +65812,11 @@
         "rain_mm": 0.0,
         "temp_min_c": 15.9,
         "temp_max_c": 28.4
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": 16.3,
+        "temp_max_c": 29.5
       }
     },
     "Katunayake": {
@@ -72364,6 +72414,11 @@
         "rain_mm": 0.0,
         "temp_min_c": 20.0,
         "temp_max_c": 32.0
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": 20.9,
+        "temp_max_c": 32.0
       }
     },
     "Kurunegala": {
@@ -78956,6 +79011,11 @@
         "rain_mm": 0.0,
         "temp_min_c": 19.8,
         "temp_max_c": 30.3
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": 21.0,
+        "temp_max_c": 31.0
       }
     },
     "Maha Illuppallama": {
@@ -85498,6 +85558,11 @@
         "rain_mm": 0.0,
         "temp_min_c": 18.8,
         "temp_max_c": 29.6
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": 19.3,
+        "temp_max_c": 29.4
       }
     },
     "Mannar": {
@@ -92090,6 +92155,11 @@
         "rain_mm": 0.0,
         "temp_min_c": 24.5,
         "temp_max_c": 28.9
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": 25.1,
+        "temp_max_c": 28.8
       }
     },
     "Polonnaruwa": {
@@ -105224,6 +105294,11 @@
         "rain_mm": 0.0,
         "temp_min_c": 3.5,
         "temp_max_c": 20.7
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": 5.0,
+        "temp_max_c": 19.3
       }
     },
     "Pottuvil": {
@@ -111826,6 +111901,11 @@
         "rain_mm": 0.0,
         "temp_min_c": 21.0,
         "temp_max_c": 30.7
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": 21.0,
+        "temp_max_c": 30.8
       }
     },
     "Puttalam": {
@@ -118348,6 +118428,11 @@
         "rain_mm": 0.0,
         "temp_min_c": 20.0,
         "temp_max_c": 29.9
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": 20.7,
+        "temp_max_c": 29.3
       }
     },
     "Ratmalana": {
@@ -124920,6 +125005,11 @@
         "rain_mm": 0.0,
         "temp_min_c": 22.3,
         "temp_max_c": 32.7
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": 22.4,
+        "temp_max_c": 30.7
       }
     },
     "Ratnapura": {
@@ -131506,6 +131596,11 @@
       "20260122": {
         "rain_mm": 0.0,
         "temp_min_c": 18.9,
+        "temp_max_c": 33.5
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": 19.9,
         "temp_max_c": 33.5
       }
     },
@@ -144716,6 +144811,11 @@
         "rain_mm": 0.0,
         "temp_min_c": 20.0,
         "temp_max_c": 30.2
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": 20.6,
+        "temp_max_c": 30.5
       }
     },
     "Mattala": {
@@ -151283,6 +151383,11 @@
         "rain_mm": 0.0,
         "temp_min_c": 19.7,
         "temp_max_c": 31.3
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": 19.1,
+        "temp_max_c": 32.3
       }
     },
     "Castlereigh": {
@@ -157885,6 +157990,11 @@
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
       }
     },
     "Randenigala": {
@@ -164409,6 +164519,11 @@
         "temp_max_c": null
       },
       "20260122": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
+      },
+      "20260123": {
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
@@ -171011,6 +171126,11 @@
         "temp_max_c": null
       },
       "20260122": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
+      },
+      "20260123": {
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
@@ -177626,6 +177746,11 @@
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
       }
     },
     "Maussakele": {
@@ -184235,6 +184360,11 @@
         "temp_max_c": null
       },
       "20260122": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
+      },
+      "20260123": {
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
@@ -190850,6 +190980,11 @@
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
       }
     },
     "Canyon": {
@@ -197457,6 +197592,11 @@
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
       }
     },
     "Ukuwela": {
@@ -204056,6 +204196,11 @@
         "temp_max_c": null
       },
       "20260122": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
+      },
+      "20260123": {
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
@@ -210666,6 +210811,11 @@
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
       }
     },
     "Samanala Wawa": {
@@ -217268,6 +217418,11 @@
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
       }
     },
     "Upper Kotmale": {
@@ -223860,6 +224015,11 @@
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
       }
     },
     "Kukuleganaga": {
@@ -230449,6 +230609,11 @@
         "temp_max_c": null
       },
       "20260122": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
+      },
+      "20260123": {
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
@@ -237059,6 +237224,11 @@
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
       }
     },
     "Maskeliya": {
@@ -239963,6 +240133,11 @@
         "temp_max_c": null
       },
       "20260122": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
+      },
+      "20260123": {
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
@@ -246573,6 +246748,11 @@
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
       }
     },
     "Neboda": {
@@ -250366,6 +250546,11 @@
       },
       "20260110": {
         "rain_mm": 9.0,
+        "temp_min_c": null,
+        "temp_max_c": null
+      },
+      "20260123": {
+        "rain_mm": 1.3,
         "temp_min_c": null,
         "temp_max_c": null
       }
@@ -257572,6 +257757,11 @@
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
       }
     },
     "Rambaawa": {
@@ -258611,6 +258801,11 @@
         "temp_max_c": null
       },
       "20260122": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
+      },
+      "20260123": {
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
@@ -264302,6 +264497,11 @@
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
       }
     },
     "Mora": {
@@ -265914,6 +266114,11 @@
         "temp_max_c": null
       },
       "20260122": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
+      },
+      "20260123": {
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
@@ -273665,6 +273870,11 @@
         "rain_mm": 55.3,
         "temp_min_c": null,
         "temp_max_c": null
+      },
+      "20260123": {
+        "rain_mm": 0.7,
+        "temp_min_c": null,
+        "temp_max_c": null
       }
     },
     "": {
@@ -276296,6 +276506,11 @@
         "temp_max_c": null
       },
       "20260122": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
+      },
+      "20260123": {
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
@@ -282959,6 +283174,11 @@
         "temp_max_c": null
       },
       "20260122": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
+      },
+      "20260123": {
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
@@ -308166,6 +308386,11 @@
         "temp_max_c": null
       },
       "20260122": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
+      },
+      "20260123": {
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
@@ -334940,6 +335165,11 @@
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
       }
     },
     "Mahaberiyathenna": {
@@ -338041,6 +338271,11 @@
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
       }
     },
     "Ledger Estate": {
@@ -339052,6 +339287,11 @@
         "temp_max_c": null
       },
       "20260122": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
+      },
+      "20260123": {
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
@@ -341877,6 +342117,11 @@
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
+      },
+      "20260123": {
+        "rain_mm": 3.0,
+        "temp_min_c": null,
+        "temp_max_c": null
       }
     },
     "Kilinochchi Agriculture": {
@@ -344010,6 +344255,11 @@
         "temp_max_c": null
       },
       "20260122": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
+      },
+      "20260123": {
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
@@ -346521,6 +346771,11 @@
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
       }
     },
     "Elkaduwa": {
@@ -348594,6 +348849,11 @@
         "temp_max_c": null
       },
       "20260122": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
+      },
+      "20260123": {
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
@@ -356627,6 +356887,11 @@
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
       }
     },
     "Mullaitivu": {
@@ -362709,6 +362974,11 @@
         "rain_mm": 0.0,
         "temp_min_c": 25.3,
         "temp_max_c": 29.3
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": 25.5,
+        "temp_max_c": 29.6
       }
     },
     "Anamaduwa": {
@@ -365651,6 +365921,11 @@
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
+      },
+      "20260123": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
       }
     },
     "Nochchiyagama": {
@@ -366385,6 +366660,11 @@
         "temp_max_c": null
       },
       "20260122": {
+        "rain_mm": 0.0,
+        "temp_min_c": null,
+        "temp_max_c": null
+      },
+      "20260123": {
         "rain_mm": 0.0,
         "temp_min_c": null,
         "temp_max_c": null
@@ -385874,6 +386154,11 @@
         "rain_mm": 25.5,
         "temp_min_c": null,
         "temp_max_c": null
+      },
+      "20260123": {
+        "rain_mm": 8.5,
+        "temp_min_c": null,
+        "temp_max_c": null
       }
     },
     "Thanamalwila": {
@@ -385935,6 +386220,11 @@
       },
       "20251029": {
         "rain_mm": 7.5,
+        "temp_min_c": null,
+        "temp_max_c": null
+      },
+      "20260123": {
+        "rain_mm": 0.5,
         "temp_min_c": null,
         "temp_max_c": null
       }
