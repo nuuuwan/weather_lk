@@ -1132,5 +1132,11 @@
     "rain": 90.5,
     "min_temp": null,
     "max_temp": null
+  },
+  {
+    "date": "2026-01-24",
+    "rain": 6.2,
+    "min_temp": null,
+    "max_temp": null
   }
 ]
