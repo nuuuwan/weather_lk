@@ -2107,6 +2107,13 @@
     ]
   },
   {
+    "id": "Neboda(ARG)",
+    "lat_lng": [
+      6.5916551,
+      80.09260139999999
+    ]
+  },
+  {
     "id": "Watapotha",
     "lat_lng": [
       6.5878008,
@@ -2808,13 +2815,6 @@
   },
   {
     "id": "Iyankankulama",
-    "lat_lng": [
-      0,
-      0
-    ]
-  },
-  {
-    "id": "Neboda(ARG)",
     "lat_lng": [
       0,
       0
