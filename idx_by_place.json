@@ -4601,6 +4601,12 @@
       "rain": 9.5,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 56.5,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Alampil": [
@@ -6637,6 +6643,12 @@
     {
       "date": "2025-11-25",
       "rain": 71.3,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 25.0,
       "min_temp": null,
       "max_temp": null
     }
@@ -18479,6 +18491,12 @@
       "rain": 0.0,
       "min_temp": 21.7,
       "max_temp": 30.5
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 1.2,
+      "min_temp": 22.6,
+      "max_temp": 30.5
     }
   ],
   "Arakawila": [
@@ -19971,6 +19989,12 @@
     {
       "date": "2025-11-18",
       "rain": 126.6,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 41.0,
       "min_temp": null,
       "max_temp": null
     }
@@ -22103,6 +22127,12 @@
     {
       "date": "2026-01-15",
       "rain": 11.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 47.0,
       "min_temp": null,
       "max_temp": null
     }
@@ -24419,6 +24449,12 @@
     {
       "date": "2026-01-30",
       "rain": 64.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 71.0,
       "min_temp": null,
       "max_temp": null
     }
@@ -33419,6 +33455,12 @@
       "rain": 1.9,
       "min_temp": 16.6,
       "max_temp": 26.1
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 28.6,
+      "min_temp": 19.4,
+      "max_temp": 22.2
     }
   ],
   "Bakamuna": [
@@ -44597,6 +44639,12 @@
       "rain": 1.1,
       "min_temp": 17.1,
       "max_temp": 25.1
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 10.5,
+      "min_temp": 17.6,
+      "max_temp": 20.8
     }
   ],
   "Barricaloa": [
@@ -53319,6 +53367,12 @@
       "rain": 86.7,
       "min_temp": 23.4,
       "max_temp": 28.6
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 38.7,
+      "min_temp": 22.9,
+      "max_temp": 25.4
     }
   ],
   "Batuwangala": [
@@ -67959,6 +68013,12 @@
       "rain": 0.0,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 12.3,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Canawarella": [
@@ -76153,6 +76213,12 @@
       "rain": 0.0,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 3.8,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Castlereigh": [
@@ -84127,6 +84193,12 @@
     {
       "date": "2026-01-30",
       "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 4.0,
       "min_temp": null,
       "max_temp": null
     }
@@ -102583,6 +102655,12 @@
       "rain": 67.0,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 23.0,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Diddenipotha TF": [
@@ -106049,6 +106127,12 @@
     {
       "date": "2025-11-28",
       "rain": 249.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 28.0,
       "min_temp": null,
       "max_temp": null
     }
@@ -118707,6 +118791,12 @@
       "rain": 0.0,
       "min_temp": 24.7,
       "max_temp": 29.3
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 0.3,
+      "min_temp": 25.0,
+      "max_temp": 30.0
     }
   ],
   "Galoola": [
@@ -120557,6 +120647,12 @@
     {
       "date": "2026-01-26",
       "rain": 11.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 23.0,
       "min_temp": null,
       "max_temp": null
     }
@@ -133169,6 +133265,12 @@
     {
       "date": "2026-01-28",
       "rain": 1.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 23.5,
       "min_temp": null,
       "max_temp": null
     }
@@ -146081,6 +146183,18 @@
       "rain": 4.0,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 25.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 25.0,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Iranamadu": [
@@ -154555,6 +154669,12 @@
       "rain": 0.0,
       "min_temp": 19.2,
       "max_temp": 29.6
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 0.0,
+      "min_temp": 23.4,
+      "max_temp": 29.1
     }
   ],
   "Jaffna Irrigation": [
@@ -156027,6 +156147,12 @@
     {
       "date": "2026-01-15",
       "rain": 6.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 40.5,
       "min_temp": null,
       "max_temp": null
     }
@@ -172629,6 +172755,12 @@
       "rain": 0.0,
       "min_temp": 21.3,
       "max_temp": 30.1
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 8.3,
+      "min_temp": 21.0,
+      "max_temp": 26.3
     }
   ],
   "Katunayake": [
@@ -180593,6 +180725,12 @@
       "rain": 0.0,
       "min_temp": 23.6,
       "max_temp": 32.2
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 1.8,
+      "min_temp": 23.4,
+      "max_temp": 31.7
     }
   ],
   "Kaudulla": [
@@ -194507,6 +194645,12 @@
       "rain": 0.0,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 7.0,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Kuchchaveli": [
@@ -203411,6 +203555,12 @@
     {
       "date": "2026-01-30",
       "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 3.0,
       "min_temp": null,
       "max_temp": null
     }
@@ -212559,6 +212709,12 @@
       "rain": 0.0,
       "min_temp": 23.3,
       "max_temp": 31.6
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 0.2,
+      "min_temp": 23.8,
+      "max_temp": 29.9
     }
   ],
   "Kuruvita": [
@@ -224371,6 +224527,12 @@
     {
       "date": "2026-01-30",
       "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 1.7,
       "min_temp": null,
       "max_temp": null
     }
@@ -236543,6 +236705,12 @@
       "rain": 0.0,
       "min_temp": 21.8,
       "max_temp": 30.1
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 0.6,
+      "min_temp": 22.9,
+      "max_temp": 30.1
     }
   ],
   "Maha Illuppallama36.2": [
@@ -239375,6 +239543,12 @@
     {
       "date": "2026-01-30",
       "rain": 78.4,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 29.6,
       "min_temp": null,
       "max_temp": null
     }
@@ -247335,6 +247509,12 @@
       "rain": 0.0,
       "min_temp": 24.8,
       "max_temp": 29.5
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 0.0,
+      "min_temp": 25.1,
+      "max_temp": 29.3
     }
   ],
   "Mapalana": [
@@ -252347,6 +252527,12 @@
     {
       "date": "2026-01-30",
       "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 2.5,
       "min_temp": null,
       "max_temp": null
     }
@@ -262405,6 +262591,12 @@
       "rain": 0.0,
       "min_temp": 22.4,
       "max_temp": 33.0
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 0.7,
+      "min_temp": 22.7,
+      "max_temp": 30.5
     }
   ],
   "Maussakele": [
@@ -270391,6 +270583,12 @@
     {
       "date": "2026-01-30",
       "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 3.5,
       "min_temp": null,
       "max_temp": null
     }
@@ -283325,6 +283523,12 @@
       "rain": 2.3,
       "min_temp": 23.1,
       "max_temp": 31.5
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 3.4,
+      "min_temp": 22.4,
+      "max_temp": 26.0
     }
   ],
   "Monrovia": [
@@ -293411,6 +293615,12 @@
       "rain": 0.0,
       "min_temp": 25.5,
       "max_temp": 29.5
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 0.0,
+      "min_temp": 25.5,
+      "max_temp": 29.3
     }
   ],
   "Musali": [
@@ -296519,6 +296729,12 @@
     {
       "date": "2026-01-30",
       "rain": 5.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 32.1,
       "min_temp": null,
       "max_temp": null
     }
@@ -310071,6 +310287,12 @@
       "rain": 0.0,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 5.6,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Nuwara Eliya": [
@@ -317969,6 +318191,12 @@
       "rain": 0.0,
       "min_temp": 5.3,
       "max_temp": 22.0
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 28.9,
+      "min_temp": 14.0,
+      "max_temp": 17.1
     }
   ],
   "Oddusudan": [
@@ -325691,6 +325919,12 @@
     {
       "date": "2026-01-27",
       "rain": 10.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 51.0,
       "min_temp": null,
       "max_temp": null
     }
@@ -338307,6 +338541,12 @@
       "rain": 0.0,
       "min_temp": 23.1,
       "max_temp": 30.7
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 8.4,
+      "min_temp": 23.5,
+      "max_temp": 29.8
     }
   ],
   "Polontalawa": [
@@ -347439,6 +347679,12 @@
       "rain": 3.2,
       "min_temp": 22.7,
       "max_temp": 31.4
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 0.4,
+      "min_temp": 23.0,
+      "max_temp": 28.0
     }
   ],
   "Puliyam Pokkanai": [
@@ -364807,6 +365053,12 @@
       "rain": 0.0,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 32.0,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Ranorava": [
@@ -373815,6 +374067,12 @@
     {
       "date": "2026-01-30",
       "rain": 0.3,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 33.5,
       "min_temp": null,
       "max_temp": null
     }
@@ -390635,6 +390893,12 @@
       "rain": 0.0,
       "min_temp": 21.5,
       "max_temp": 34.9
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 0.6,
+      "min_temp": 23.4,
+      "max_temp": 32.4
     }
   ],
   "Rufuskulam": [
@@ -392005,6 +392269,12 @@
     {
       "date": "2026-01-29",
       "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 55.7,
       "min_temp": null,
       "max_temp": null
     }
@@ -400153,6 +400423,12 @@
       "rain": 0.0,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 3.5,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Seeppukulama": [
@@ -402525,6 +402801,12 @@
     {
       "date": "2026-01-23",
       "rain": 1.3,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 28.0,
       "min_temp": null,
       "max_temp": null
     }
@@ -408019,6 +408301,12 @@
     {
       "date": "2026-01-30",
       "rain": 8.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 40.0,
       "min_temp": null,
       "max_temp": null
     }
@@ -416609,6 +416897,12 @@
       "rain": 0.0,
       "min_temp": 24.6,
       "max_temp": 28.9
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 19.9,
+      "min_temp": 23.4,
+      "max_temp": 29.0
     }
   ],
   "Udaiyaarkaddu": [
@@ -425727,6 +426021,12 @@
       "rain": 0.0,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 5.9,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Ulhitiya": [
@@ -428717,6 +429017,12 @@
     {
       "date": "2026-01-30",
       "rain": 35.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 80.0,
       "min_temp": null,
       "max_temp": null
     }
@@ -436681,6 +436987,12 @@
     {
       "date": "2026-01-30",
       "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 12.8,
       "min_temp": null,
       "max_temp": null
     }
@@ -454453,6 +454765,12 @@
       "rain": 0.0,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 22.8,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Vincit Estate": [
@@ -465519,6 +465837,12 @@
       "rain": 0.0,
       "min_temp": null,
       "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 37.5,
+      "min_temp": null,
+      "max_temp": null
     }
   ],
   "Wilpita Estate": [
@@ -465657,6 +465981,12 @@
     {
       "date": "2026-01-15",
       "rain": 10.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2026-01-31",
+      "rain": 32.0,
       "min_temp": null,
       "max_temp": null
     }
