@@ -8026,5 +8026,11 @@
     "rain": 8.2,
     "min_temp": null,
     "max_temp": null
+  },
+  {
+    "date": "2026-02-07",
+    "rain": 31.5,
+    "min_temp": null,
+    "max_temp": null
   }
 ]
