@@ -1022,6 +1022,13 @@
     ]
   },
   {
+    "id": "Alton Estate Factory",
+    "lat_lng": [
+      7.873053999999999,
+      80.77179699999999
+    ]
+  },
+  {
     "id": "Mandapathathady",
     "lat_lng": [
       7.873053999999999,
@@ -2765,13 +2772,6 @@
     ]
   },
   {
-    "id": "Alton Estate Factory",
-    "lat_lng": [
-      0,
-      0
-    ]
-  },
-  {
     "id": "Gomarankadawal",
     "lat_lng": [
       0,
@@ -2934,6 +2934,13 @@
   },
   {
     "id": "Ayyiththimalai",
+    "lat_lng": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "Panama",
     "lat_lng": [
       0,
       0
