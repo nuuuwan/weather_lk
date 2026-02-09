@@ -1939,6 +1939,13 @@
     ]
   },
   {
+    "id": "Tientsin Bangalow",
+    "lat_lng": [
+      6.813441999999999,
+      80.65747859999999
+    ]
+  },
+  {
     "id": "Bogawanthalawa",
     "lat_lng": [
       6.7972337,
@@ -2675,13 +2682,6 @@
   },
   {
     "id": "Dikoya",
-    "lat_lng": [
-      0,
-      0
-    ]
-  },
-  {
-    "id": "Tientsin Bangalow",
     "lat_lng": [
       0,
       0
