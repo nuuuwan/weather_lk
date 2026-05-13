@@ -34,23 +34,34 @@ class MeteoGovLkPage:
 
             time.sleep(MeteoGovLkPage.T_WAIT)
 
-            log.debug("Clicking button 'Weather Data'...")
+            log.debug("Clicking button with 'Weather Data'...")
             button_weather_data = browser.find_element(
                 By.XPATH, "//button[contains(text(), 'Weather Data')]"
             )
             if not button_weather_data:
                 raise MeteoGovLkPageException(
-                    "Button 'Weather Data' not found."
+                    "Button with 'Weather Data' not found."
                 )
             button_weather_data.click()
             time.sleep(MeteoGovLkPage.T_WAIT)
 
+            log.debug("Clicking button 'Other Weather Data'...")
+            button_other_weather_data = browser.find_element(
+                By.XPATH, "//button[contains(text(), 'Other Weather Data')]"
+            )
+            if not button_other_weather_data:
+                raise MeteoGovLkPageException(
+                    "Button 'Other Weather Data' not found."
+                )
+            button_other_weather_data.click()
+            time.sleep(MeteoGovLkPage.T_WAIT)
+
             a_weather_report = browser.find_element(
-                By.XPATH, "//a[text()='Weather Report for the 24hour Period']"
+                By.XPATH, "//a[contains(text(), '24 Hour Weather Report')]"
             )
             if not a_weather_report:
                 raise MeteoGovLkPageException(
-                    "Link 'Weather Report for the 24hour Period' not found."
+                    "Link '24 Hour Weather Report' not found."
                 )
             log.debug("Found a_weather_report.")
             pdf_url = a_weather_report.get_attribute("href")
