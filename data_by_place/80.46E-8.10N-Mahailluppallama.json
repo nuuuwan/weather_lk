@@ -76,5 +76,11 @@
     "rain": 10.3,
     "min_temp": 24.4,
     "max_temp": 31.8
+  },
+  {
+    "date": "2026-05-13",
+    "rain": 4.2,
+    "min_temp": 24.6,
+    "max_temp": 31.6
   }
 ]
