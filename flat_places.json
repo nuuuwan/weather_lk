@@ -1505,6 +1505,13 @@
     ]
   },
   {
+    "id": "Vweyangoda",
+    "lat_lng": [
+      7.154055199999999,
+      80.05937519999999
+    ]
+  },
+  {
     "id": "Aranayeka",
     "lat_lng": [
       7.1496651,
@@ -2724,13 +2731,6 @@
   },
   {
     "id": "Nainathivu",
-    "lat_lng": [
-      0,
-      0
-    ]
-  },
-  {
-    "id": "Vweyangoda",
     "lat_lng": [
       0,
       0

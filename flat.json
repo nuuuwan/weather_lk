@@ -551738,5 +551738,404 @@
     "rain_mm": 23.5,
     "temp_min_c": null,
     "temp_max_c": null
+  },
+  {
+    "id": "Anuradhapura",
+    "time_ut": 1778783400.0,
+    "rain_mm": 19.0,
+    "temp_min_c": 23.5,
+    "temp_max_c": 31.5
+  },
+  {
+    "id": "Badulla",
+    "time_ut": 1778783400.0,
+    "rain_mm": 0.2,
+    "temp_min_c": 20.0,
+    "temp_max_c": 28.0
+  },
+  {
+    "id": "Bandarawela",
+    "time_ut": 1778783400.0,
+    "rain_mm": 0.2,
+    "temp_min_c": 18.7,
+    "temp_max_c": 27.0
+  },
+  {
+    "id": "Batticaloa",
+    "time_ut": 1778783400.0,
+    "rain_mm": 94.8,
+    "temp_min_c": 24.0,
+    "temp_max_c": 34.6
+  },
+  {
+    "id": "Colombo",
+    "time_ut": 1778783400.0,
+    "rain_mm": 98.1,
+    "temp_min_c": 22.7,
+    "temp_max_c": 27.6
+  },
+  {
+    "id": "Galle",
+    "time_ut": 1778783400.0,
+    "rain_mm": 12.8,
+    "temp_min_c": 24.9,
+    "temp_max_c": 29.9
+  },
+  {
+    "id": "Hambantota",
+    "time_ut": 1778783400.0,
+    "rain_mm": 0.2,
+    "temp_min_c": 25.5,
+    "temp_max_c": 30.6
+  },
+  {
+    "id": "Jaffna",
+    "time_ut": 1778783400.0,
+    "rain_mm": 22.5,
+    "temp_min_c": 24.1,
+    "temp_max_c": 30.2
+  },
+  {
+    "id": "Moneragala",
+    "time_ut": 1778783400.0,
+    "rain_mm": 0.5,
+    "temp_min_c": 23.0,
+    "temp_max_c": 32.4
+  },
+  {
+    "id": "Katugastota",
+    "time_ut": 1778783400.0,
+    "rain_mm": 11.2,
+    "temp_min_c": 21.4,
+    "temp_max_c": 28.0
+  },
+  {
+    "id": "Katunayake",
+    "time_ut": 1778783400.0,
+    "rain_mm": 85.5,
+    "temp_min_c": 23.0,
+    "temp_max_c": 29.0
+  },
+  {
+    "id": "Kurunegala",
+    "time_ut": 1778783400.0,
+    "rain_mm": 41.7,
+    "temp_min_c": 22.6,
+    "temp_max_c": 29.7
+  },
+  {
+    "id": "Maha Illuppallama",
+    "time_ut": 1778783400.0,
+    "rain_mm": 3.5,
+    "temp_min_c": 22.4,
+    "temp_max_c": 30.7
+  },
+  {
+    "id": "Mannar",
+    "time_ut": 1778783400.0,
+    "rain_mm": 24.5,
+    "temp_min_c": 24.8,
+    "temp_max_c": 31.3
+  },
+  {
+    "id": "Nuwara Eliya",
+    "time_ut": 1778783400.0,
+    "rain_mm": 6.4,
+    "temp_min_c": 14.3,
+    "temp_max_c": 19.5
+  },
+  {
+    "id": "Pottuvil",
+    "time_ut": 1778783400.0,
+    "rain_mm": 0.0,
+    "temp_min_c": 25.5,
+    "temp_max_c": 34.4
+  },
+  {
+    "id": "Ratmalana",
+    "time_ut": 1778783400.0,
+    "rain_mm": 85.3,
+    "temp_min_c": 22.6,
+    "temp_max_c": 28.9
+  },
+  {
+    "id": "Ratnapura",
+    "time_ut": 1778783400.0,
+    "rain_mm": 63.9,
+    "temp_min_c": 22.2,
+    "temp_max_c": 26.9
+  },
+  {
+    "id": "Trincomalee",
+    "time_ut": 1778783400.0,
+    "rain_mm": 41.0,
+    "temp_min_c": 23.5,
+    "temp_max_c": 31.8
+  },
+  {
+    "id": "Vavuniya",
+    "time_ut": 1778783400.0,
+    "rain_mm": 6.5,
+    "temp_min_c": 23.2,
+    "temp_max_c": 32.5
+  },
+  {
+    "id": "Mullaitivu",
+    "time_ut": 1778783400.0,
+    "rain_mm": 27.1,
+    "temp_min_c": 23.6,
+    "temp_max_c": 29.5
+  },
+  {
+    "id": "Castlereigh",
+    "time_ut": 1778783400.0,
+    "rain_mm": 86.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Randenigala",
+    "time_ut": 1778783400.0,
+    "rain_mm": 1.2,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Norton",
+    "time_ut": 1778783400.0,
+    "rain_mm": 92.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Rantambe",
+    "time_ut": 1778783400.0,
+    "rain_mm": 1.1,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Maussakele",
+    "time_ut": 1778783400.0,
+    "rain_mm": 78.5,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Bowatenna",
+    "time_ut": 1778783400.0,
+    "rain_mm": 6.3,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Canyon",
+    "time_ut": 1778783400.0,
+    "rain_mm": 99.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Ukuwela",
+    "time_ut": 1778783400.0,
+    "rain_mm": 13.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Lakshapana",
+    "time_ut": 1778783400.0,
+    "rain_mm": 94.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Samanala Wawa",
+    "time_ut": 1778783400.0,
+    "rain_mm": 0.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Upper Kotmale",
+    "time_ut": 1778783400.0,
+    "rain_mm": 24.8,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Kukuleganaga",
+    "time_ut": 1778783400.0,
+    "rain_mm": 113.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Kotmale",
+    "time_ut": 1778783400.0,
+    "rain_mm": 19.5,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Maskeliya",
+    "time_ut": 1778783400.0,
+    "rain_mm": 67.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Victoriya",
+    "time_ut": 1778783400.0,
+    "rain_mm": 9.5,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Inginiyagala",
+    "time_ut": 1778783400.0,
+    "rain_mm": 0.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Kuliyapitiya",
+    "time_ut": 1778783400.0,
+    "rain_mm": 193.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Pambegama TF",
+    "time_ut": 1778783400.0,
+    "rain_mm": 135.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Penrith Estate",
+    "time_ut": 1778783400.0,
+    "rain_mm": 175.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Thalduwa Estate",
+    "time_ut": 1778783400.0,
+    "rain_mm": 131.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Andigama",
+    "time_ut": 1778783400.0,
+    "rain_mm": 167.2,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Angoda",
+    "time_ut": 1778783400.0,
+    "rain_mm": 125.7,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Awissawella",
+    "time_ut": 1778783400.0,
+    "rain_mm": 163.8,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Colombo Fort",
+    "time_ut": 1778783400.0,
+    "rain_mm": 124.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Vweyangoda",
+    "time_ut": 1778783400.0,
+    "rain_mm": 162.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Pasyala",
+    "time_ut": 1778783400.0,
+    "rain_mm": 120.8,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Kirindiwela",
+    "time_ut": 1778783400.0,
+    "rain_mm": 160.2,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Wathupitiwala",
+    "time_ut": 1778783400.0,
+    "rain_mm": 118.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Anamaduwa",
+    "time_ut": 1778783400.0,
+    "rain_mm": 159.6,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Port Authority",
+    "time_ut": 1778783400.0,
+    "rain_mm": 108.7,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Kirindiwela",
+    "time_ut": 1778783400.0,
+    "rain_mm": 157.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Hanwella",
+    "time_ut": 1778783400.0,
+    "rain_mm": 108.3,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Moraliya-Oya",
+    "time_ut": 1778783400.0,
+    "rain_mm": 147.8,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Kamalasram",
+    "time_ut": 1778783400.0,
+    "rain_mm": 104.4,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Dampalessa",
+    "time_ut": 1778783400.0,
+    "rain_mm": 141.0,
+    "temp_min_c": null,
+    "temp_max_c": null
+  },
+  {
+    "id": "Niriella",
+    "time_ut": 1778783400.0,
+    "rain_mm": 102.0,
+    "temp_min_c": null,
+    "temp_max_c": null
   }
 ]
