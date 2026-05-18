@@ -8110,5 +8110,11 @@
     "rain": 7.5,
     "min_temp": null,
     "max_temp": null
+  },
+  {
+    "date": "2026-05-18",
+    "rain": 0.6,
+    "min_temp": null,
+    "max_temp": null
   }
 ]
