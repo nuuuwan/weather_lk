@@ -25,6 +25,12 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-17",
+      "rain": 97.7,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2019-10-30",
       "rain": 45.2,
       "min_temp": null,
@@ -10733,6 +10739,18 @@
       "rain": 1.3,
       "min_temp": 22.7,
       "max_temp": 34.3
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 22.1,
+      "min_temp": 23.3,
+      "max_temp": 30.9
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 4.1,
+      "min_temp": 24.4,
+      "max_temp": 31.9
     },
     {
       "date": "2019-10-25",
@@ -22579,6 +22597,12 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-19",
+      "rain": 84.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2019-11-05",
       "rain": 23.8,
       "min_temp": null,
@@ -24779,6 +24803,12 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-19",
+      "rain": 40.2,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2019-10-25",
       "rain": 50.8,
       "min_temp": null,
@@ -25877,6 +25907,18 @@
       "rain": 14.6,
       "min_temp": 17.7,
       "max_temp": 29.4
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 1.7,
+      "min_temp": 19.2,
+      "max_temp": 26.1
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 5.4,
+      "min_temp": 19.2,
+      "max_temp": 28.1
     },
     {
       "date": "2019-10-25",
@@ -34463,6 +34505,12 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-19",
+      "rain": 56.9,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2019-11-06",
       "rain": 16.4,
       "min_temp": null,
@@ -37289,6 +37337,18 @@
       "rain": 2.5,
       "min_temp": 15.7,
       "max_temp": 24.8
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 10.2,
+      "min_temp": 17.7,
+      "max_temp": 23.5
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 15.2,
+      "min_temp": 16.6,
+      "max_temp": 25.0
     },
     {
       "date": "2019-10-25",
@@ -45625,6 +45685,12 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-17",
+      "rain": 40.7,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2020-01-22",
       "rain": 15.2,
       "min_temp": null,
@@ -46113,6 +46179,18 @@
       "rain": 0.0,
       "min_temp": 25.6,
       "max_temp": 31.1
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 0,
+      "min_temp": 25.0,
+      "max_temp": 30.0
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 0.2,
+      "min_temp": 25.6,
+      "max_temp": 30.5
     },
     {
       "date": "2019-10-25",
@@ -60947,6 +61025,18 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-17",
+      "rain": 12.1,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 20.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2019-10-25",
       "rain": 18.7,
       "min_temp": null,
@@ -69261,6 +69351,18 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-17",
+      "rain": 1.8,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 13.6,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2019-10-25",
       "rain": 19.5,
       "min_temp": null,
@@ -77353,6 +77455,18 @@
     {
       "date": "2019-10-04",
       "rain": 45.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 2.1,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 35.0,
       "min_temp": null,
       "max_temp": null
     },
@@ -86805,6 +86919,18 @@
       "rain": 3.4,
       "min_temp": 23.1,
       "max_temp": 31.5
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 3.6,
+      "min_temp": 23.6,
+      "max_temp": 30.1
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 5.1,
+      "min_temp": 23.9,
+      "max_temp": 31.7
     },
     {
       "date": "2019-10-25",
@@ -102531,6 +102657,18 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-17",
+      "rain": 40.9,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 54.1,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2019-11-06",
       "rain": 46.8,
       "min_temp": null,
@@ -106143,6 +106281,12 @@
     {
       "date": "2019-06-29",
       "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 40.0,
       "min_temp": null,
       "max_temp": null
     },
@@ -110639,6 +110783,12 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-19",
+      "rain": 81.1,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2019-11-19",
       "rain": 96.1,
       "min_temp": null,
@@ -111967,6 +112117,12 @@
   ],
   "Galgamuwa": [
     {
+      "date": "2019-10-17",
+      "rain": 99.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2022-04-06",
       "rain": 64.2,
       "min_temp": null,
@@ -112407,6 +112563,18 @@
       "rain": 0.4,
       "min_temp": 24.0,
       "max_temp": 31.6
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 3.6,
+      "min_temp": 23.4,
+      "max_temp": 28.5
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 0.7,
+      "min_temp": 24.5,
+      "max_temp": 31.7
     },
     {
       "date": "2019-10-25",
@@ -122413,6 +122581,12 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-19",
+      "rain": 48.8,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2020-03-19",
       "rain": 16.1,
       "min_temp": null,
@@ -126193,6 +126367,18 @@
       "rain": 0.0,
       "min_temp": 24.2,
       "max_temp": 30.9
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 14.4,
+      "min_temp": 24.2,
+      "max_temp": 28.9
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 0.1,
+      "min_temp": 24.7,
+      "max_temp": 30.7
     },
     {
       "date": "2019-10-25",
@@ -135157,6 +135343,12 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-19",
+      "rain": 110.8,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2019-10-25",
       "rain": 61.0,
       "min_temp": null,
@@ -137883,6 +138075,12 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-19",
+      "rain": 49.9,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2020-02-04",
       "rain": 0.0,
       "min_temp": null,
@@ -139501,6 +139699,12 @@
     {
       "date": "2019-10-04",
       "rain": 41.2,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 43.8,
       "min_temp": null,
       "max_temp": null
     },
@@ -143550,6 +143754,12 @@
     }
   ],
   "Horagasgara": [
+    {
+      "date": "2019-10-19",
+      "rain": 29.7,
+      "min_temp": null,
+      "max_temp": null
+    },
     {
       "date": "2019-10-25",
       "rain": 78.8,
@@ -148849,6 +149059,18 @@
       "rain": 0.0,
       "min_temp": 25.4,
       "max_temp": 33.0
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 5.3,
+      "min_temp": 24.4,
+      "max_temp": 29.6
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 0.5,
+      "min_temp": 24.5,
+      "max_temp": 30.7
     },
     {
       "date": "2019-10-25",
@@ -165215,6 +165437,12 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-19",
+      "rain": 51.1,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2020-03-19",
       "rain": 9.0,
       "min_temp": null,
@@ -166783,6 +167011,12 @@
   ],
   "Karandipowal": [
     {
+      "date": "2019-10-17",
+      "rain": 48.1,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2019-11-19",
       "rain": 36.8,
       "min_temp": null,
@@ -167181,6 +167415,18 @@
       "rain": 25.9,
       "min_temp": 21.1,
       "max_temp": 30.9
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 42.3,
+      "min_temp": 22.9,
+      "max_temp": 28.1
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 7.2,
+      "min_temp": 21.2,
+      "max_temp": 30.0
     },
     {
       "date": "2019-10-25",
@@ -175277,6 +175523,18 @@
       "rain": 21.2,
       "min_temp": 23.0,
       "max_temp": 31.4
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 4.0,
+      "min_temp": 23.0,
+      "max_temp": 30.0
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 27.0,
+      "min_temp": 23.7,
+      "max_temp": 31.5
     },
     {
       "date": "2019-10-25",
@@ -189367,6 +189625,18 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-17",
+      "rain": 21.2,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2019-10-25",
       "rain": 25.4,
       "min_temp": null,
@@ -198417,6 +198687,18 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-17",
+      "rain": 30.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 14.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2019-10-25",
       "rain": 33.0,
       "min_temp": null,
@@ -206405,6 +206687,12 @@
   ],
   "Kuliyapitiya": [
     {
+      "date": "2019-10-19",
+      "rain": 43.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2021-07-02",
       "rain": 41.1,
       "min_temp": null,
@@ -206929,6 +207217,12 @@
   ],
   "Kundasale": [
     {
+      "date": "2019-10-17",
+      "rain": 54.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2019-11-05",
       "rain": 39.7,
       "min_temp": null,
@@ -207128,6 +207422,12 @@
     }
   ],
   "Kurunduoya": [
+    {
+      "date": "2019-10-19",
+      "rain": 55.2,
+      "min_temp": null,
+      "max_temp": null
+    },
     {
       "date": "2020-01-22",
       "rain": 37.4,
@@ -207699,6 +207999,18 @@
       "rain": 9.5,
       "min_temp": 22.5,
       "max_temp": 33.1
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 11.4,
+      "min_temp": 22.4,
+      "max_temp": 30.0
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 0.3,
+      "min_temp": 22.5,
+      "max_temp": 32.4
     },
     {
       "date": "2019-10-25",
@@ -216561,6 +216873,12 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-17",
+      "rain": 51.7,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2020-03-21",
       "rain": 25.6,
       "min_temp": null,
@@ -219637,6 +219955,18 @@
     {
       "date": "2019-10-04",
       "rain": 24.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 2.9,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 34.4,
       "min_temp": null,
       "max_temp": null
     },
@@ -228541,6 +228871,12 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-17",
+      "rain": 133.4,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2021-07-06",
       "rain": 27.6,
       "min_temp": null,
@@ -232073,6 +232409,18 @@
       "rain": 7.5,
       "min_temp": 22.4,
       "max_temp": 34.2
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 33.5,
+      "min_temp": 22.5,
+      "max_temp": 30.6
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 2.6,
+      "min_temp": 24.0,
+      "max_temp": 32.2
     },
     {
       "date": "2019-10-25",
@@ -240199,6 +240547,12 @@
   ],
   "Mahadowa": [
     {
+      "date": "2019-10-19",
+      "rain": 55.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2019-12-18",
       "rain": 38.0,
       "min_temp": null,
@@ -243003,6 +243357,18 @@
       "rain": 6.1,
       "min_temp": 25.4,
       "max_temp": 31.9
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 28.1,
+      "min_temp": 24.4,
+      "max_temp": 30.2
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 1.0,
+      "min_temp": 25.5,
+      "max_temp": 31.6
     },
     {
       "date": "2019-10-25",
@@ -252537,6 +252903,18 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-17",
+      "rain": 1.9,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 2.2,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2019-10-25",
       "rain": 9.8,
       "min_temp": null,
@@ -256399,6 +256777,12 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-19",
+      "rain": 39.1,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2019-11-23",
       "rain": 28.2,
       "min_temp": null,
@@ -258373,6 +258757,18 @@
       "rain": 2.4,
       "min_temp": 22.4,
       "max_temp": 31.3
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 7.6,
+      "min_temp": 23.4,
+      "max_temp": 28.7
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 25.4,
+      "min_temp": 23.4,
+      "max_temp": 31.7
     },
     {
       "date": "2019-10-25",
@@ -266413,6 +266809,18 @@
     {
       "date": "2019-10-04",
       "rain": 18.2,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 1.8,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 13.5,
       "min_temp": null,
       "max_temp": null
     },
@@ -279589,6 +279997,18 @@
       "max_temp": 31.2
     },
     {
+      "date": "2019-10-17",
+      "rain": 0.2,
+      "min_temp": 22.9,
+      "max_temp": 30.5
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 5.9,
+      "min_temp": 22.9,
+      "max_temp": 32.6
+    },
+    {
       "date": "2019-10-25",
       "rain": 59.3,
       "min_temp": 21.8,
@@ -287565,6 +287985,12 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-19",
+      "rain": 38.7,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2019-10-25",
       "rain": 51.7,
       "min_temp": null,
@@ -288765,6 +289191,12 @@
     {
       "date": "2019-07-26",
       "rain": 10.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 52.0,
       "min_temp": null,
       "max_temp": null
     },
@@ -300947,6 +301379,12 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-19",
+      "rain": 33.4,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2019-10-25",
       "rain": 41.2,
       "min_temp": null,
@@ -304093,6 +304531,12 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-17",
+      "rain": 54.6,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2019-11-05",
       "rain": 27.3,
       "min_temp": null,
@@ -304845,6 +305289,12 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-17",
+      "rain": 43.6,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2019-12-24",
       "rain": 54.3,
       "min_temp": null,
@@ -305238,6 +305688,12 @@
     }
   ],
   "Nochchiyagama": [
+    {
+      "date": "2019-10-17",
+      "rain": 72.2,
+      "min_temp": null,
+      "max_temp": null
+    },
     {
       "date": "2021-08-23",
       "rain": 52.0,
@@ -306601,6 +307057,18 @@
     {
       "date": "2019-10-04",
       "rain": 17.2,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 5.6,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 42.1,
       "min_temp": null,
       "max_temp": null
     },
@@ -314693,6 +315161,18 @@
       "rain": 9.6,
       "min_temp": 11.1,
       "max_temp": 21.2
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 3.1,
+      "min_temp": 13.0,
+      "max_temp": 19.4
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 3.0,
+      "min_temp": 12.3,
+      "max_temp": 20.9
     },
     {
       "date": "2019-10-25",
@@ -324487,6 +324967,12 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-17",
+      "rain": 58.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2019-10-25",
       "rain": 49.0,
       "min_temp": null,
@@ -330547,6 +331033,12 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-17",
+      "rain": 47.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2019-11-19",
       "rain": 57.2,
       "min_temp": null,
@@ -331887,6 +332379,12 @@
     {
       "date": "2019-02-11",
       "rain": 28.1,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 66.4,
       "min_temp": null,
       "max_temp": null
     },
@@ -335381,6 +335879,18 @@
       "rain": 16.2,
       "min_temp": 23.5,
       "max_temp": 34.6
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 7.1,
+      "min_temp": 23.4,
+      "max_temp": 31.4
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 0.0,
+      "min_temp": 23.7,
+      "max_temp": 32.5
     },
     {
       "date": "2019-10-25",
@@ -344605,6 +345115,18 @@
       "max_temp": 31.9
     },
     {
+      "date": "2019-10-17",
+      "rain": 8.7,
+      "min_temp": 23.9,
+      "max_temp": 28.8
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 10.8,
+      "min_temp": 25.0,
+      "max_temp": 31.5
+    },
+    {
       "date": "2019-10-25",
       "rain": 50.1,
       "min_temp": 23.3,
@@ -352783,6 +353305,18 @@
       "max_temp": 31.4
     },
     {
+      "date": "2019-10-17",
+      "rain": 25.8,
+      "min_temp": 23.5,
+      "max_temp": 31.1
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 25.1,
+      "min_temp": 24.1,
+      "max_temp": 32.7
+    },
+    {
       "date": "2019-10-25",
       "rain": 17.3,
       "min_temp": 24.5,
@@ -360911,6 +361445,12 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-17",
+      "rain": 76.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2019-12-05",
       "rain": 103.5,
       "min_temp": null,
@@ -362305,6 +362845,18 @@
     {
       "date": "2019-10-04",
       "rain": 0.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 17.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 9.6,
       "min_temp": null,
       "max_temp": null
     },
@@ -370219,6 +370771,12 @@
   ],
   "Ranorava": [
     {
+      "date": "2019-10-17",
+      "rain": 72.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2019-11-05",
       "rain": 28.0,
       "min_temp": null,
@@ -371356,6 +371914,18 @@
     },
     {
       "date": "2019-10-04",
+      "rain": 1.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 26.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-19",
       "rain": 1.5,
       "min_temp": null,
       "max_temp": null
@@ -380419,6 +380989,18 @@
       "max_temp": 32.3
     },
     {
+      "date": "2019-10-17",
+      "rain": 3.3,
+      "min_temp": 24.1,
+      "max_temp": 31.4
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 4.6,
+      "min_temp": 24.3,
+      "max_temp": 32.2
+    },
+    {
       "date": "2019-10-25",
       "rain": 60.0,
       "min_temp": 23.6,
@@ -388465,6 +389047,18 @@
       "rain": 15.1,
       "min_temp": 22.8,
       "max_temp": 32.7
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 26.5,
+      "min_temp": 22.3,
+      "max_temp": 31.0
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 11.7,
+      "min_temp": 23.2,
+      "max_temp": 32.3
     },
     {
       "date": "2019-10-25",
@@ -398101,6 +398695,18 @@
     {
       "date": "2019-10-04",
       "rain": 28.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 30.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 31.0,
       "min_temp": null,
       "max_temp": null
     },
@@ -409227,6 +409833,12 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-17",
+      "rain": 54.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2021-10-21",
       "rain": 73.5,
       "min_temp": null,
@@ -414847,6 +415459,18 @@
       "rain": 0.6,
       "min_temp": 23.9,
       "max_temp": 32.0
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 0,
+      "min_temp": 24.2,
+      "max_temp": 30.4
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 0.5,
+      "min_temp": 24.6,
+      "max_temp": 31.0
     },
     {
       "date": "2019-10-25",
@@ -424057,6 +424681,18 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-17",
+      "rain": 20.2,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 1.0,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2019-10-25",
       "rain": 21.9,
       "min_temp": null,
@@ -432899,6 +433535,12 @@
   ],
   "Ulinduwewa": [
     {
+      "date": "2019-10-17",
+      "rain": 58.1,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2019-10-30",
       "rain": 85.0,
       "min_temp": null,
@@ -433007,6 +433649,12 @@
     {
       "date": "2019-07-26",
       "rain": 10.9,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 82.3,
       "min_temp": null,
       "max_temp": null
     },
@@ -435153,6 +435801,18 @@
     {
       "date": "2019-10-04",
       "rain": 14.4,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 3.9,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 15.0,
       "min_temp": null,
       "max_temp": null
     },
@@ -445073,6 +445733,18 @@
       "max_temp": 33.7
     },
     {
+      "date": "2019-10-17",
+      "rain": 67.0,
+      "min_temp": 22.9,
+      "max_temp": 30.6
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 3.5,
+      "min_temp": 23.6,
+      "max_temp": 31.6
+    },
+    {
       "date": "2019-10-25",
       "rain": 2.9,
       "min_temp": 23.1,
@@ -453183,6 +453855,18 @@
     {
       "date": "2019-10-04",
       "rain": 5.2,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 3.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-19",
+      "rain": 6.3,
       "min_temp": null,
       "max_temp": null
     },
@@ -461719,6 +462403,12 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-19",
+      "rain": 43.5,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2019-11-19",
       "rain": 36.8,
       "min_temp": null,
@@ -463569,6 +464259,12 @@
       "max_temp": null
     },
     {
+      "date": "2019-10-19",
+      "rain": 43.1,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
       "date": "2019-10-25",
       "rain": 44.8,
       "min_temp": null,
@@ -465279,6 +465975,12 @@
     {
       "date": "2019-10-04",
       "rain": 42.6,
+      "min_temp": null,
+      "max_temp": null
+    },
+    {
+      "date": "2019-10-17",
+      "rain": 60.3,
       "min_temp": null,
       "max_temp": null
     },

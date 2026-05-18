@@ -1,5 +1,11 @@
 [
   {
+    "date": "2019-10-17",
+    "rain": 72.2,
+    "min_temp": null,
+    "max_temp": null
+  },
+  {
     "date": "2021-08-23",
     "rain": 52.0,
     "min_temp": null,
