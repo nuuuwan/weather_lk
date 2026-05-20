@@ -2,6 +2,7 @@ import time
 from functools import cached_property
 
 from selenium import webdriver
+from selenium.common.exceptions import WebDriverException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 from utils import Log
@@ -20,9 +21,10 @@ class MeteoGovLkPage:
     URL = "https://meteo.gov.lk/"
     PAGE_LOAD_TIMEOUT = 240
     T_WAIT = 30
+    MAX_RETRIES = 3
+    RETRY_DELAY = 60
 
-    @cached_property
-    def pdf_url(self):
+    def _try_get_pdf_url(self):
         options = Options()
         options.add_argument("--headless")
         browser = webdriver.Firefox(options=options)
@@ -70,6 +72,24 @@ class MeteoGovLkPage:
 
         finally:
             browser.quit()
+
+    @cached_property
+    def pdf_url(self):
+        last_error = None
+        for attempt in range(1, MeteoGovLkPage.MAX_RETRIES + 1):
+            try:
+                return self._try_get_pdf_url()
+            except WebDriverException as e:
+                last_error = e
+                log.warning(
+                    f"Attempt {attempt}/{MeteoGovLkPage.MAX_RETRIES} failed: {e}"
+                )
+                if attempt < MeteoGovLkPage.MAX_RETRIES:
+                    log.debug(
+                        f"Retrying in {MeteoGovLkPage.RETRY_DELAY}s..."
+                    )
+                    time.sleep(MeteoGovLkPage.RETRY_DELAY)
+        raise last_error
 
     def download(self):
         RemotePDF(self.pdf_url).download(Data.DIR_REPO_PDF_METEO_GOV_LK)
