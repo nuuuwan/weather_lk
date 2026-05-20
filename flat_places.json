@@ -1638,6 +1638,13 @@
     ]
   },
   {
+    "id": "Yatiyantota",
+    "lat_lng": [
+      7.0288824,
+      80.2955419
+    ]
+  },
+  {
     "id": "Moraliya-Oya",
     "lat_lng": [
       7.0255123,
@@ -2745,13 +2752,6 @@
   },
   {
     "id": "Sri Palabaddala(AWS)",
-    "lat_lng": [
-      0,
-      0
-    ]
-  },
-  {
-    "id": "Yatiyantota",
     "lat_lng": [
       0,
       0
