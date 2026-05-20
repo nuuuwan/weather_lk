@@ -85,9 +85,7 @@ class MeteoGovLkPage:
                     f"Attempt {attempt}/{MeteoGovLkPage.MAX_RETRIES} failed: {e}"
                 )
                 if attempt < MeteoGovLkPage.MAX_RETRIES:
-                    log.debug(
-                        f"Retrying in {MeteoGovLkPage.RETRY_DELAY}s..."
-                    )
+                    log.debug(f"Retrying in {MeteoGovLkPage.RETRY_DELAY}s...")
                     time.sleep(MeteoGovLkPage.RETRY_DELAY)
         raise last_error
 
