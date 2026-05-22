@@ -8134,5 +8134,11 @@
     "rain": 4.0,
     "min_temp": null,
     "max_temp": null
+  },
+  {
+    "date": "2026-05-22",
+    "rain": 27.0,
+    "min_temp": null,
+    "max_temp": null
   }
 ]
