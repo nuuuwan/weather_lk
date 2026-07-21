@@ -1813,6 +1813,13 @@
     ]
   },
   {
+    "id": "Laxapana TF",
+    "lat_lng": [
+      6.9247584,
+      80.491047
+    ]
+  },
+  {
     "id": "Norton",
     "lat_lng": [
       6.9168796,
@@ -2702,13 +2709,6 @@
     ]
   },
   {
-    "id": "Laxapana TF",
-    "lat_lng": [
-      0,
-      0
-    ]
-  },
-  {
     "id": "Dikoya",
     "lat_lng": [
       0,
@@ -2955,6 +2955,20 @@
   },
   {
     "id": "Ketandola",
+    "lat_lng": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "Laxapana",
+    "lat_lng": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "Victoria",
     "lat_lng": [
       0,
       0
