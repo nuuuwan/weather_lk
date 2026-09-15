@@ -1610,6 +1610,13 @@
     ]
   },
   {
+    "id": "Madolthenna Estate",
+    "lat_lng": [
+      7.0788125,
+      80.1840625
+    ]
+  },
+  {
     "id": "Halgolla TF",
     "lat_lng": [
       7.048652799999999,
@@ -2625,13 +2632,6 @@
     ]
   },
   {
-    "id": "Madolthenna Estate",
-    "lat_lng": [
-      0,
-      0
-    ]
-  },
-  {
     "id": "Maha Illuppallama36.2",
     "lat_lng": [
       0,
@@ -2969,6 +2969,13 @@
   },
   {
     "id": "Victoria",
+    "lat_lng": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "Eladuwa Estate",
     "lat_lng": [
       0,
       0
