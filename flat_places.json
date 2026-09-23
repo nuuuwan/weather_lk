@@ -1225,6 +1225,13 @@
     ]
   },
   {
+    "id": "Aludeniya Estate",
+    "lat_lng": [
+      7.516667,
+      80.233333
+    ]
+  },
+  {
     "id": "Hindawa",
     "lat_lng": [
       7.513648099999998,
@@ -1845,6 +1852,13 @@
     "lat_lng": [
       6.8982844,
       81.70073630000002
+    ]
+  },
+  {
+    "id": "Battaramulla",
+    "lat_lng": [
+      6.8979941,
+      79.9222869
     ]
   },
   {
@@ -2772,13 +2786,6 @@
     ]
   },
   {
-    "id": "Battaramulla",
-    "lat_lng": [
-      0,
-      0
-    ]
-  },
-  {
     "id": "Polonnaruva",
     "lat_lng": [
       0,
@@ -2822,13 +2829,6 @@
   },
   {
     "id": "Iyankankulama",
-    "lat_lng": [
-      0,
-      0
-    ]
-  },
-  {
-    "id": "Aludeniya Estate",
     "lat_lng": [
       0,
       0
