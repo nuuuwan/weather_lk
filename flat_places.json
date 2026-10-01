@@ -252,6 +252,13 @@
     ]
   },
   {
+    "id": "Gomarankadawala",
+    "lat_lng": [
+      8.6750384,
+      80.96324229999999
+    ]
+  },
+  {
     "id": "Shettikulam",
     "lat_lng": [
       8.665595600000001,
@@ -2870,13 +2877,6 @@
     ]
   },
   {
-    "id": "Gomarankadawala",
-    "lat_lng": [
-      0,
-      0
-    ]
-  },
-  {
     "id": "Kalawana",
     "lat_lng": [
       0,
@@ -2990,6 +2990,20 @@
   },
   {
     "id": "Palatupana",
+    "lat_lng": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "Kapugollawa",
+    "lat_lng": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "Ella Pita Ella",
     "lat_lng": [
       0,
       0
