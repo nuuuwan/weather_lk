@@ -315,6 +315,13 @@
     ]
   },
   {
+    "id": "Seeppukulama",
+    "lat_lng": [
+      8.3880529,
+      80.59383299999999
+    ]
+  },
+  {
     "id": "Kanthale Tank",
     "lat_lng": [
       8.3673704,
@@ -1911,6 +1918,13 @@
     ]
   },
   {
+    "id": "Dikoya",
+    "lat_lng": [
+      6.875298,
+      80.60354939999999
+    ]
+  },
+  {
     "id": "Pottuvil",
     "lat_lng": [
       6.875270599999999,
@@ -2352,17 +2366,17 @@
     ]
   },
   {
+    "id": "Mattala",
+    "lat_lng": [
+      6.305154300000001,
+      81.11409119999999
+    ]
+  },
+  {
     "id": "Katandola",
     "lat_lng": [
       6.3017971,
       80.1958755
-    ]
-  },
-  {
-    "id": "Mattala",
-    "lat_lng": [
-      6.288780374382144,
-      81.12460077774537
     ]
   },
   {
@@ -2730,13 +2744,6 @@
     ]
   },
   {
-    "id": "Dikoya",
-    "lat_lng": [
-      0,
-      0
-    ]
-  },
-  {
     "id": "Udaiyaarkaddu",
     "lat_lng": [
       0,
@@ -2836,13 +2843,6 @@
   },
   {
     "id": "Iyankankulama",
-    "lat_lng": [
-      0,
-      0
-    ]
-  },
-  {
-    "id": "Seeppukulama",
     "lat_lng": [
       0,
       0
@@ -3004,6 +3004,13 @@
   },
   {
     "id": "Ella Pita Ella",
+    "lat_lng": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "Ky;iyj;jPT Mullaitivu",
     "lat_lng": [
       0,
       0
