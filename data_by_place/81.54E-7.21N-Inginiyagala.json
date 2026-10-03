@@ -1996,5 +1996,11 @@
     "rain": 4.0,
     "min_temp": null,
     "max_temp": null
+  },
+  {
+    "date": "2026-10-03",
+    "rain": 2.0,
+    "min_temp": null,
+    "max_temp": null
   }
 ]
